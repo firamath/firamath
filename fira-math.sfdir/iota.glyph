@@ -1,0 +1,18 @@
+StartChar: iota
+Encoding: 953 953 282
+Width: 283
+Flags: W
+HStem: -12 21G<199 199> 507 20G<90 182 182 182>
+VStem: 90 92<130 141 141 527>
+LayerCount: 2
+Fore
+SplineSet
+182 527 m 1
+ 182 141 l 2
+ 182 89 195 72 228 57 c 1
+ 199 -12 l 1
+ 120 9 90 46 90 130 c 2
+ 90 527 l 1
+ 182 527 l 1
+EndSplineSet
+EndChar
