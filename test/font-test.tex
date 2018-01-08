@@ -1,0 +1,137 @@
+\documentclass{article}
+\usepackage[a4paper, margin=1in, showframe]{geometry}
+\usepackage{amsmath}
+\usepackage[math-style=ISO, bold-style=ISO]{unicode-math}
+\setmathfont{fira-math.otf}[Path=../otf/]
+%\setmathfont{xits-math.otf}[version=xits]
+
+\def\Latinalphabets{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+\def\latinalphabets{abcdefghijklmnopqrstuvwxyz}
+\def\Greekalphabets{
+  \Alpha      \Beta       \Gamma      \Delta      \Epsilon   ,
+  \Zeta       \Eta        \Theta      \varTheta   \Iota      ,
+  \Kappa      \Lambda     \Mu         \Nu         \Xi        ,
+  \Omicron    \Pi         \Rho        \Sigma      \Tau       ,
+  \Upsilon    \Phi        \Chi        \Psi        \Omega
+}
+\def\greekalphabets{
+  \alpha      \beta       \gamma      \delta      \epsilon   ,
+  \varepsilon \zeta       \eta        \theta      \vartheta  ,
+  \iota       \kappa      \varkappa   \lambda     \mu        ,
+  \nu         \xi         \omicron    \pi         \rho       ,
+  \varrho     \sigma      \varsigma   \tau        \upsilon   ,
+  \phi        \varphi     \chi        \psi        \omega
+}
+% ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
+% αβγδεζηθικλμνξοπρστυφχψω
+\def\ligaturetext{ff fi fl ffi ffl}
+
+\begin{document}
+
+\section{Alphabets}
+
+Latin capital letters:
+\[ \Latinalphabets \]
+
+Latin small letters:
+\[ \latinalphabets \]
+
+Latin capital upright letters (\verb|\symup|):
+\[ \symup{\Latinalphabets} \]
+
+Latin small upright letters (\verb|\symup|):
+\[ \symup{\latinalphabets} \]
+
+Latin capital bold letters (\verb|\symbf|):
+\[ \symbf{\Latinalphabets} \]
+
+Latin small bold letters (\verb|\symbf|):
+\[ \symbf{\latinalphabets} \]
+
+Latin capital bold upright letters (\verb|\symbfup|):
+\[ \symbfup{\Latinalphabets} \]
+
+Latin small bold upright letters (\verb|\symbfup|):
+\[ \symbfup{\latinalphabets} \]
+
+Greek capital letters:
+\[ \Greekalphabets \]
+
+Greek small letters:
+\[ \greekalphabets \]
+
+Greek capital upright letters: (\verb|\symup|):
+\[ \symup{\Greekalphabets} \]
+
+Greek small upright letters: (\verb|\symup|):
+\[ \symup{\greekalphabets} \]
+
+Greek capital bold letters (\verb|\symbf|):
+\[ \symbf{\Greekalphabets} \]
+
+Greek small bold letters (\verb|\symbf|):
+\[ \symbf{\greekalphabets} \]
+
+Greek capital bold upright letters (\verb|\symbfup|):
+\[ \symbfup{\Greekalphabets} \]
+
+Greek small bold upright letters (\verb|\symbfup|):
+\[ \symbfup{\greekalphabets} \]
+
+Math accents:
+\[
+  \acute{x}     \bar{x}     \breve{x}   \check{x}     \ddddot{x}      ,
+  \dddot{x}     \ddot{x}    \dot{x}     \grave{x}     \hat{x}         ,
+  \mathring{x}  \tilde{x}   \vec{x}     \widehat{x}   \widetilde{x}
+\]
+
+Dotless letters:
+\[ \symup{\imath \jmath} \]
+
+Ligature:
+
+Text: {\fontspec{fira-math.otf}[Path=../otf/]\ligaturetext}
+
+Math: $\mathrm{\ligaturetext}$
+
+\section{Equations test}
+
+\verb|\int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C|
+\[ \int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C \]
+Inline: $\int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C$
+
+\verb|\sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x}|
+\[ \sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x} \]
+Inline: $\sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x}$
+
+\verb|\prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}|
+\[ \prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2} \]
+Inline: $\prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}$
+
+\verb|\{ [ ( brackets ) ] \}|
+\[ \{ [ ( brackets ) ] \} \]
+
+\verb|\bigl( brackets \bigr)|
+\[ \bigl( brackets \bigr) \]
+
+\verb|\sqrt{2} + \sqrt{\frac{1}{2}}|
+\[ \sqrt{2} + \sqrt{\frac{1}{2}} \]
+
+\verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|
+\[ \lim_{x\to\infty} \frac{1}{x^2} = 0 \]
+
+\verb|\frac{\partial y(x)}{\partial x} = \frac{\mathrm{d}y(x)}{\mathrm{d}x} = y'(x)|
+\[ \frac{\partial y(x)}{\partial x} = \frac{\mathrm{d}y(x)}{\mathrm{d}x} = y'(x) \]
+
+\[ x' x'' x''' x` x^{x'} x^{x''} x^{x'''} x^{x`}\]
+
+{\fontspec{fira-math.otf}[Path=../otf/]x\symbol{"2032} x'' x'''}
+
+
+\[ g^{mn} g_{mn} T^{i}_{jk} \]
+
+\[ 2^2 2^{2^2} {2^2}^2 2^{2^{2^2}} \]
+
+\[ x \to \infty + \infty - \infty \]
+
+\end{document}

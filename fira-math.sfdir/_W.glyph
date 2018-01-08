@@ -1,0 +1,26 @@
+StartChar: W
+Encoding: 87 87 54
+Width: 826
+Flags: W
+HStem: 0 83<229 229 229 284 165 229> 577 112<412 412> 669 20G<25 118 118 118 362 463 463 463 714 801 801 801>
+VStem: 25 776<689 689>
+LayerCount: 2
+Fore
+SplineSet
+801 689 m 1xb0
+ 661 0 l 1
+ 539 0 l 1
+ 412 577 l 1xd0
+ 284 0 l 1
+ 165 0 l 1
+ 25 689 l 1
+ 118 689 l 1
+ 229 83 l 1
+ 362 689 l 1
+ 463 689 l 1
+ 599 83 l 1
+ 714 689 l 1
+ 801 689 l 1xb0
+EndSplineSet
+Validated: 1
+EndChar
