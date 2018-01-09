@@ -3,3 +3,5 @@
 *.aux
 *.log
 *.pdf
+
+test/*.bat

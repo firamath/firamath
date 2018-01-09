@@ -1,9 +1,18 @@
 \documentclass{article}
 \usepackage[a4paper, margin=1in, showframe]{geometry}
 \usepackage{amsmath}
-\usepackage[math-style=ISO, bold-style=ISO]{unicode-math}
+\usepackage[no-math]{fontspec}
+\usepackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{TeX Gyre Cursor}
+
 \setmathfont{fira-math.otf}[Path=../otf/]
-%\setmathfont{xits-math.otf}[version=xits]
+\newfontface\firatext{fira-math.otf}[Path=../otf/]
+%\setmathfont{XITS Math}
+%\def\firatext{}
+
+%\setoperatorfont\mathscr
 
 \def\Latinalphabets{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 \def\latinalphabets{abcdefghijklmnopqrstuvwxyz}
@@ -24,7 +33,7 @@
 }
 % ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
 % αβγδεζηθικλμνξοπρστυφχψω
-\def\ligaturetext{ff fi fl ffi ffl}
+\def\ligaturetext{ff \, fi \, fl \, ffi \, ffl}
 
 \begin{document}
 
@@ -86,11 +95,11 @@ Math accents:
 \]
 
 Dotless letters:
-\[ \symup{\imath \jmath} \]
+\[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
 
 Ligature:
 
-Text: {\fontspec{fira-math.otf}[Path=../otf/]\ligaturetext}
+Text: {\firatext\ligaturetext}
 
 Math: $\mathrm{\ligaturetext}$
 
@@ -125,7 +134,7 @@ Inline: $\prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}$
 
 \[ x' x'' x''' x` x^{x'} x^{x''} x^{x'''} x^{x`}\]
 
-{\fontspec{fira-math.otf}[Path=../otf/]x\symbol{"2032} x'' x'''}
+{\firatext x\symbol{"2032} x'' x'''}
 
 
 \[ g^{mn} g_{mn} T^{i}_{jk} \]
