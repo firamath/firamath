@@ -1,0 +1,25 @@
+StartChar: summation
+Encoding: 8721 8721 492
+Width: 503
+Flags: W
+HStem: 0 78<157 453 50 50> 591 78<50 453 157 453 157 157>
+VStem: 50 403<0 78 0 78 591 669>
+LayerCount: 2
+Fore
+SplineSet
+453 669 m 1
+ 453 591 l 1
+ 157 591 l 1
+ 341 357 l 1
+ 341 315 l 1
+ 157 78 l 1
+ 453 78 l 1
+ 453 0 l 1
+ 50 0 l 1
+ 50 78 l 1
+ 254 334 l 1
+ 50 591 l 1
+ 50 669 l 1
+ 453 669 l 1
+EndSplineSet
+EndChar

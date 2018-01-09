@@ -1,0 +1,21 @@
+StartChar: radical
+Encoding: 8730 8730 496
+Width: 560
+Flags: W
+HStem: 0 21G<209 313 209 209> 0 95<258 258 258 313 209 258> 775 77<533 717 533 533>
+VStem: 42 675<457 852>
+LayerCount: 2
+Fore
+SplineSet
+717 852 m 1xb0
+ 717 775 l 1
+ 533 775 l 1
+ 313 0 l 1
+ 209 0 l 1
+ 42 457 l 1
+ 123 484 l 1
+ 258 95 l 1x70
+ 468 852 l 1
+ 717 852 l 1xb0
+EndSplineSet
+EndChar

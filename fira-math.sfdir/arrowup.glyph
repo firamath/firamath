@@ -1,0 +1,23 @@
+StartChar: arrowup
+Encoding: 8593 8593 481
+Width: 900
+Flags: W
+HStem: 0 21G<405 405 405 495>
+VStem: 405 90<0 541 0 541>
+LayerCount: 2
+Fore
+SplineSet
+405 0 m 1
+ 405 541 l 1
+ 388 512 368 489 343 467 c 2
+ 192 328 l 1
+ 137 389 l 1
+ 450 670 l 1
+ 763 389 l 1
+ 708 328 l 1
+ 557 467 l 2
+ 532 489 512 512 495 541 c 1
+ 495 0 l 1
+ 405 0 l 1
+EndSplineSet
+EndChar
