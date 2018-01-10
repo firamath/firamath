@@ -19,7 +19,7 @@
 \definecolor { symbol@bg@color   } { named } { white     }
 \definecolor { encoding@bg@color } { named } { lightgray }
 
-\cs_new_protected:Npn \fonttable_char:n #1
+\cs_new_protected:Npn \fonttable_symbol:n #1
   { \tex_char:D \int_eval:n {#1} \scan_stop: }
 \prg_new_protected_conditional:Npnn \fonttable_if_char_exist:n #1 { T, F, TF}
   {
@@ -30,22 +30,28 @@
     \fi:
   }
 
-\cs_new_protected:Npn \fonttable_symbol:n #1
+\cs_new_protected:Npn \fonttable_glyph:n #1
   {
     \group_begin:
       \SYMBOLFONT \Large
       \fonttable_if_char_exist:nTF {#1}
-        { \fonttable_char:n {#1} }
+        { \fonttable_symbol:n {#1} }
         { \cellcolor{red} }
     \group_end:
   }
-\cs_new_protected:Npn \fonttable_symbol_with_alignment:n #1
-  { \fonttable_symbol:n {#1} & }
+\cs_new_protected:Npn \fonttable_glyph_with_alignment:n #1
+  { \fonttable_glyph:n {#1} & }
 
 \cs_new_protected:Npn \fonttable_encoding:n #1
   {
     \group_begin:
       \ttfamily \tiny
+      \int_compare:nNnTF {#1} < { "100 }
+        { 00 }
+        {
+          \int_compare:nNnT {#1} < { "1000 }
+          { 0 }
+        }
       \int_to_Hex:n {#1}
     \group_end:
   }
@@ -83,8 +89,8 @@
     \rowcolor { symbol@bg@color }
     \fonttable_set_arstrut:nn { 20pt } { 10pt }
     \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
-      \fonttable_symbol_with_alignment:n
-    \fonttable_symbol:n { #1 + 15 } \\
+      \fonttable_glyph_with_alignment:n
+    \fonttable_glyph:n { #1 + 15 } \\
     \fonttable_restore_arstrut:
     % Encoding row
     \hline
@@ -144,23 +150,23 @@
 \section{C0 Controls and Basic Latin}
 \fonttable{"20}{"7F}
 
-\section{C1 Controls and Latin-1 Supplement}
-\fonttable{"80}{"FF}
-
-\section{Latin Extended-A}
-\fonttable{"100}{"17F}
-
-\section{Latin Extended-B}
-\fonttable{"180}{"24F}
-
-\section{IPA Extensions}
-\fonttable{"250}{"2AF}
-
-\section{Spacing Modifier Letters}
-\fonttable{"2B0}{"2FF}
-
-\section{Combining Diacritical Marks}
-\fonttable{"300}{"36F}
+%\section{C1 Controls and Latin-1 Supplement}
+%\fonttable{"80}{"FF}
+%
+%\section{Latin Extended-A}
+%\fonttable{"100}{"17F}
+%
+%\section{Latin Extended-B}
+%\fonttable{"180}{"24F}
+%
+%\section{IPA Extensions}
+%\fonttable{"250}{"2AF}
+%
+%\section{Spacing Modifier Letters}
+%\fonttable{"2B0}{"2FF}
+%
+%\section{Combining Diacritical Marks}
+%\fonttable{"300}{"36F}
 
 \section{Greek and Coptic}
 \fonttable{"370}{"3FF}
