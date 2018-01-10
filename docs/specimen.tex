@@ -1,0 +1,186 @@
+\documentclass{article}
+\usepackage{geometry,array,longtable,amsmath}
+\usepackage[table]{xcolor}
+\usepackage[no-math]{fontspec}
+
+\geometry{a4paper, hmargin=0.5in, vmargin=1.5in}
+
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{TeX Gyre Cursor}
+
+\newfontface\SYMBOLFONT{fira-math.otf}[Path=../otf/]
+%\newfontface\SYMBOLFONT{FiraSans-Regular.otf}
+%\newfontface\SYMBOLFONT{xits-math.otf}
+
+\makeatletter
+\ExplSyntaxOn
+
+\definecolor { symbol@bg@color   } { named } { white     }
+\definecolor { encoding@bg@color } { named } { lightgray }
+
+\cs_new_protected:Npn \fonttable_char:n #1
+  { \tex_char:D \int_eval:n {#1} \scan_stop: }
+\prg_new_protected_conditional:Npnn \fonttable_if_char_exist:n #1 { T, F, TF}
+  {
+    \etex_iffontchar:D \tex_font:D \int_eval:n {#1} \scan_stop:
+      \prg_return_true:
+    \else:
+      \prg_return_false:
+    \fi:
+  }
+
+\cs_new_protected:Npn \fonttable_symbol:n #1
+  {
+    \group_begin:
+      \SYMBOLFONT \Large
+      \fonttable_if_char_exist:nTF {#1}
+        { \fonttable_char:n {#1} }
+        { \cellcolor{red} }
+    \group_end:
+  }
+\cs_new_protected:Npn \fonttable_symbol_with_alignment:n #1
+  { \fonttable_symbol:n {#1} & }
+
+\cs_new_protected:Npn \fonttable_encoding:n #1
+  {
+    \group_begin:
+      \ttfamily \tiny
+      \int_to_Hex:n {#1}
+    \group_end:
+  }
+\cs_new_protected:Npn \fonttable_encoding_with_alignment:n #1
+  { \fonttable_encoding:n {#1} & }
+
+\box_new:N \l__fonttable_tmpa_box
+\box_new:N \l__fonttable_old_arstrut_box
+
+\cs_new:Npn \fonttable_set_arstrut:nn #1#2
+  {
+    \tex_noalign:D
+      {
+        \group_begin:
+          % Store the old strutbox
+          \box_gset_eq:NN \l__fonttable_old_arstrut_box \@arstrutbox
+          % Change the dimensions of \@arstrutbox
+          \hbox_set_to_wd:Nnn \l__fonttable_tmpa_box { \c_zero_dim } { }
+          \box_set_ht:Nn \l__fonttable_tmpa_box {#1}
+          \box_set_dp:Nn \l__fonttable_tmpa_box {#2}
+          \hbox_gset:Nn \@arstrutbox { \box_use:N \l__fonttable_tmpa_box }
+        \group_end:
+      }
+  }
+\cs_new:Npn \fonttable_restore_arstrut:
+  {
+    \tex_noalign:D
+      { \box_gset_eq:NN \@arstrutbox \l__fonttable_old_arstrut_box }
+  }
+
+\cs_new:Npn \fonttable_row:n #1
+  {
+    % Symbol row
+    \hline
+    \rowcolor { symbol@bg@color }
+    \fonttable_set_arstrut:nn { 20pt } { 10pt }
+    \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
+      \fonttable_symbol_with_alignment:n
+    \fonttable_symbol:n { #1 + 15 } \\
+    \fonttable_restore_arstrut:
+    % Encoding row
+    \hline
+    \rowcolor { encoding@bg@color }
+    \fonttable_set_arstrut:nn { 4pt } { 1pt }
+    \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
+      \fonttable_encoding_with_alignment:n
+    \fonttable_encoding:n { #1 + 15 } \\
+  }
+
+\cs_new:Npn \fonttable_multi_row:nn #1#2
+  {
+    \int_step_function:nnnN
+      { \int_div_truncate:nn {#1} { 16 } * 16 }
+      { 16 }
+      { (\int_div_truncate:nn {#2} { 16 } + 1) * 16 - 1 }
+      \fonttable_row:n
+  }
+
+\cs_new:Npn \fonttable_first_row_cell:n #1
+  {
+    \group_begin:
+      \ttfamily
+      \int_to_Hex:n {#1}
+    \group_end:
+  }
+\cs_new:Npn \fonttable_first_row_cell_with_alignment:n #1
+  { \fonttable_first_row_cell:n {#1} & }
+\cs_new:Npn \fonttable_first_row:
+  {
+    \int_step_function:nnnN { 0 } { 1 } { 14 }
+      \fonttable_first_row_cell_with_alignment:n
+    \fonttable_first_row_cell:n { 15 }
+  }
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\NewDocumentCommand \fonttable { m m }
+  {
+    \begin{longtable}{*{16}{|C{18pt}}|}
+      \multicolumn {16} { | @{} c @{}| }
+        {
+          \begin{tabular} { * {16} { C{18pt} } }
+            \fonttable_first_row:
+          \end{tabular}
+        }
+        \\
+      \fonttable_multi_row:nn {#1} {#2}
+      \hline
+    \end{longtable}
+  }
+
+\ExplSyntaxOff
+\makeatother
+
+\begin{document}
+
+\section{C0 Controls and Basic Latin}
+\fonttable{"20}{"7F}
+
+\section{C1 Controls and Latin-1 Supplement}
+\fonttable{"80}{"FF}
+
+\section{Latin Extended-A}
+\fonttable{"100}{"17F}
+
+\section{Latin Extended-B}
+\fonttable{"180}{"24F}
+
+\section{IPA Extensions}
+\fonttable{"250}{"2AF}
+
+\section{Spacing Modifier Letters}
+\fonttable{"2B0}{"2FF}
+
+\section{Combining Diacritical Marks}
+\fonttable{"300}{"36F}
+
+\section{Greek and Coptic}
+\fonttable{"370}{"3FF}
+
+\section{General Punctuation}
+\fonttable{"2000}{"206F}
+
+\section{Letterlike Symbols}
+\fonttable{"2100}{"214F}
+
+\section{Number Forms}
+\fonttable{"2150}{"218F}
+
+\section{Arrows}
+\fonttable{"2190}{"21FF}
+
+\section{Mathematical Operators}
+\fonttable{"2200}{"22FF}
+
+\section{Mathematical Alphanumeric Symbols}
+\fonttable{"1D400}{"1D7FF}
+
+\end{document}

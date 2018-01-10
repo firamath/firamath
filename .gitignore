@@ -4,4 +4,7 @@
 *.log
 *.pdf
 
+.vscode/
+temp/
+
 test/*.bat
