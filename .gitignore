@@ -2,7 +2,11 @@
 
 *.aux
 *.log
+*.out
+*.toc
+
 *.pdf
+*.xdv
 
 .vscode/
 temp/
