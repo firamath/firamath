@@ -1,0 +1,16 @@
+StartChar: uni200C
+Encoding: 8204 8204 570
+Width: 0
+Flags: W
+HStem: 730 20G<-8 8 8 8>
+VStem: -8 16<-150 750 -150 750>
+LayerCount: 2
+Fore
+SplineSet
+8 750 m 1
+ 8 -150 l 1
+ -8 -150 l 1
+ -8 750 l 1
+ 8 750 l 1
+EndSplineSet
+EndChar
