@@ -11,4 +11,6 @@
 .vscode/
 temp/
 
+GLYPHS.md
+TODO.md
 test/*.bat

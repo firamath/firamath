@@ -1,0 +1,25 @@
+StartChar: equivalence
+Encoding: 8801 8801 677
+Width: 500
+Flags: WO
+HStem: 86 72<56 444> 276 72<56 444> 465 73<56 444>
+LayerCount: 2
+Fore
+SplineSet
+444 538 m 1
+ 444 465 l 1
+ 56 465 l 1
+ 56 538 l 1
+ 444 538 l 1
+444 348 m 1
+ 444 276 l 1
+ 56 276 l 1
+ 56 348 l 1
+ 444 348 l 1
+444 158 m 1
+ 444 86 l 1
+ 56 86 l 1
+ 56 158 l 1
+ 444 158 l 1
+EndSplineSet
+EndChar

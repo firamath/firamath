@@ -1,0 +1,23 @@
+StartChar: house
+Encoding: 8962 8962 680
+Width: 600
+Flags: W
+HStem: 0 65<110 490 110 560> 519 20G<299 299>
+VStem: 40 70<65 277 65 308 65 308> 490 70<65 277 277 277>
+LayerCount: 2
+Fore
+SplineSet
+299 539 m 1
+ 560 308 l 1
+ 560 0 l 1
+ 40 0 l 1
+ 40 308 l 1
+ 299 539 l 1
+299 448 m 1
+ 110 277 l 1
+ 110 65 l 1
+ 490 65 l 1
+ 490 277 l 1
+ 299 448 l 1
+EndSplineSet
+EndChar

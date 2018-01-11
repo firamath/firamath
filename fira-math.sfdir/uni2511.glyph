@@ -1,0 +1,18 @@
+StartChar: uni2511
+Encoding: 9489 9489 690
+Width: 600
+Flags: W
+HStem: 230 240<-5 260 -5 340>
+VStem: 260 80<-500 230 230 230>
+LayerCount: 2
+Fore
+SplineSet
+340 470 m 1
+ 340 -500 l 1
+ 260 -500 l 1
+ 260 230 l 1
+ -5 230 l 1
+ -5 470 l 1
+ 340 470 l 1
+EndSplineSet
+EndChar

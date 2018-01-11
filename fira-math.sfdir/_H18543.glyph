@@ -1,0 +1,16 @@
+StartChar: H18543
+Encoding: 9642 9642 833
+Width: 600
+Flags: W
+HStem: 0 270<142 427 142 427>
+VStem: 142 285<0 270 0 270>
+LayerCount: 2
+Fore
+SplineSet
+427 270 m 1
+ 427 0 l 1
+ 142 0 l 1
+ 142 270 l 1
+ 427 270 l 1
+EndSplineSet
+EndChar

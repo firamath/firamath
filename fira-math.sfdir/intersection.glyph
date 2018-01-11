@@ -1,0 +1,22 @@
+StartChar: intersection
+Encoding: 8745 8745 678
+Width: 600
+Flags: W
+HStem: 502 72<258 342>
+VStem: 74 72<42 348 42 411> 454 72<42 348 42 390>
+LayerCount: 2
+Fore
+SplineSet
+300 574 m 0
+ 425 574 526 474 526 348 c 2
+ 526 42 l 1
+ 454 42 l 1
+ 454 348 l 2
+ 454 432 384 502 300 502 c 0
+ 216 502 146 432 146 348 c 2
+ 146 42 l 1
+ 74 42 l 1
+ 74 348 l 2
+ 74 474 175 574 300 574 c 0
+EndSplineSet
+EndChar
