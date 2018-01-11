@@ -1,7 +1,7 @@
 StartChar: tripleprime
 Encoding: 8244 8244 662
 Width: 604
-Flags: WO
+Flags: W
 HStem: 427 262
 LayerCount: 2
 Fore
@@ -22,4 +22,5 @@ SplineSet
  429 427 l 1
  360 427 l 1
 EndSplineSet
+Substitution2: "'ssty' Script Style lookup 1-1" tripleprime.ssty1
 EndChar

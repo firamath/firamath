@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1515649806
+ModificationTime: 1515655697
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,6 +35,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ssty' Script Style lookup 1" { "'ssty' Script Style lookup 1-1"  } ['ssty' ('math' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 1" { "'liga' Standard Ligatures lookup 1-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'dtls' Dotless Forms 1" { "'dtls' Dotless Forms 1-1" ("dtls") } ['dtls' ('math' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -104,7 +105,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 270 27 9
+WinInfo: 189 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
