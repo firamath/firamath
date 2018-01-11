@@ -1,0 +1,24 @@
+StartChar: summation.display
+Encoding: 1114116 -1 667
+Width: 1280
+Flags: WO
+HStem: -355 105<235 1190> 1067 105<235 1190>
+LayerCount: 2
+Fore
+SplineSet
+1190 1172 m 1
+ 1190 1067 l 1
+ 235 1067 l 1
+ 768 459 l 1
+ 768 359 l 1
+ 235 -250 l 1
+ 1190 -250 l 1
+ 1190 -355 l 1
+ 886.666992188 -355 393.333007812 -355 90 -355 c 1
+ 90 -250 l 1
+ 660 409 l 1
+ 90 1067 l 1
+ 90 1172 l 1
+ 1190 1172 l 1
+EndSplineSet
+EndChar
