@@ -1,11 +1,9 @@
-StartChar: uni222D
-Encoding: 8749 8749 898
+StartChar: uni222D.display
+Encoding: 1114119 -1 901
 Width: 974
 Flags: W
-GlyphVariantsVertical: uni222D.display
 HStem: -213 75<-18.3601 122.458 281.64 422.458 581.64 722.458> 778 74<238.729 390.516 538.729 690.516 838.729 990.516>
 VStem: 136 89<-121.946 763.624> 436 89<-121.946 763.624> 736 89<-121.946 763.624>
-CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet

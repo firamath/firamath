@@ -2,6 +2,7 @@ StartChar: integral
 Encoding: 8747 8747 498
 Width: 374
 Flags: W
+GlyphVariantsVertical: integral.display
 HStem: -213 75<58.5 93 58.5 124> 778 74<268 309>
 VStem: 136 89<-69 701>
 LayerCount: 2

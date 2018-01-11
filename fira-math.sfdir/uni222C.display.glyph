@@ -1,8 +1,7 @@
-StartChar: uni222C
-Encoding: 8748 8748 897
+StartChar: uni222C.display
+Encoding: 1114118 -1 900
 Width: 674
 Flags: W
-GlyphVariantsVertical: uni222C.display
 HStem: -213 75<-18.3601 122.458 281.64 422.458> 778 74<238.729 390.516 538.729 690.516>
 VStem: 136 89<-121.946 763.624> 436 89<-121.946 763.624>
 LayerCount: 2
