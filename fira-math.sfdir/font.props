@@ -59,10 +59,10 @@ MATH:SuperscriptBaselineDropMax: 0
 MATH:SubSuperscriptGapMin: 200 
 MATH:SuperscriptBottomMaxWithSubscript: 527 
 MATH:SpaceAfterScript: 41 
-MATH:UpperLimitGapMin: 0 
-MATH:UpperLimitBaselineRiseMin: 0 
-MATH:LowerLimitGapMin: 0 
-MATH:LowerLimitBaselineDropMin: 0 
+MATH:UpperLimitGapMin: 150 
+MATH:UpperLimitBaselineRiseMin: 150 
+MATH:LowerLimitGapMin: 150 
+MATH:LowerLimitBaselineDropMin: 600 
 MATH:StackTopShiftUp: 0 
 MATH:StackTopDisplayStyleShiftUp: 0 
 MATH:StackBottomShiftDown: 0 
