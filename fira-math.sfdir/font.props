@@ -48,12 +48,12 @@ MATH:MathLeading: 0
 MATH:AxisHeight: 331 
 MATH:AccentBaseHeight: 527 
 MATH:FlattenedAccentBaseHeight: 689 
-MATH:SubscriptShiftDown: 0 
+MATH:SubscriptShiftDown: 350 
 MATH:SubscriptTopMax: 527 
 MATH:SubscriptBaselineDropMin: 0 
-MATH:SuperscriptShiftUp: 0 
-MATH:SuperscriptShiftUpCramped: 0 
-MATH:SuperscriptBottomMin: 527 
+MATH:SuperscriptShiftUp: 400 
+MATH:SuperscriptShiftUpCramped: 270 
+MATH:SuperscriptBottomMin: 130 
 MATH:SuperscriptBaselineDropMax: 0 
 MATH:SubSuperscriptGapMin: 200 
 MATH:SuperscriptBottomMaxWithSubscript: 527 
