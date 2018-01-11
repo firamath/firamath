@@ -1,4 +1,4 @@
-StartChar: uniFB01
+StartChar: f_i
 Encoding: 64257 64257 596
 Width: 575
 Flags: W
@@ -27,4 +27,5 @@ SplineSet
  94 596 l 2
  94 685 148 750 276 750 c 0
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures lookup 1-1" f i
 EndChar
