@@ -1,0 +1,16 @@
+StartChar: prime
+Encoding: 8242 8242 660
+Width: 304
+Flags: W
+HStem: 669 20G<145 244 244 244>
+VStem: 60 184
+LayerCount: 2
+Fore
+SplineSet
+60 427 m 1
+ 145 689 l 1
+ 244 689 l 1
+ 129 427 l 1
+ 60 427 l 1
+EndSplineSet
+EndChar
