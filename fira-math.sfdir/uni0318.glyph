@@ -1,0 +1,20 @@
+StartChar: uni0318
+Encoding: 792 792 620
+Width: 0
+Flags: W
+HStem: -237 57<-234 -94 -234 -94>
+VStem: -94 64<-353 -237 -237 -237 -180 -63 -353 -63>
+LayerCount: 2
+Fore
+SplineSet
+-94 -63 m 1
+ -30 -63 l 1
+ -30 -353 l 1
+ -94 -353 l 1
+ -94 -237 l 1
+ -234 -237 l 1
+ -234 -180 l 1
+ -94 -180 l 1
+ -94 -63 l 1
+EndSplineSet
+EndChar
