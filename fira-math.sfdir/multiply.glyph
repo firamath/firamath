@@ -1,24 +1,22 @@
 StartChar: multiply
 Encoding: 215 215 668
 Width: 500
-Flags: W
-HStem: 129 357<128 128 128 372>
-VStem: 72 356<185 185 185 429>
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-372 486 m 1
- 428 429 l 1
- 308 309 l 1
- 428 185 l 1
- 372 129 l 1
- 252 253 l 1
- 128 129 l 1
- 72 185 l 1
- 192 305 l 1
- 72 429 l 1
- 128 486 l 1
- 248 361 l 1
- 372 486 l 1
+374 502 m 1
+ 430 446 l 1
+ 306 322 l 1
+ 430 198 l 1
+ 374 142 l 1
+ 250 266 l 1
+ 126 142 l 1
+ 70 198 l 1
+ 194 322 l 1
+ 70 446 l 1
+ 126 502 l 1
+ 250 378 l 1
+ 374 502 l 1
 EndSplineSet
 EndChar
