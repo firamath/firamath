@@ -2,8 +2,8 @@ StartChar: plusminus
 Encoding: 177 177 552
 Width: 500
 Flags: W
-HStem: 0 77<62 438 62 438> 316 76<63 208 63 208 292 438>
-VStem: 208 84<167 316 167 316 392 542>
+HStem: 40 77<62 438> 316 76<63 208 292 438>
+VStem: 208 84<167 316 392 542>
 LayerCount: 2
 Fore
 SplineSet
@@ -20,10 +20,10 @@ SplineSet
  208 392 l 1
  208 542 l 1
  292 542 l 1
-62 0 m 1
- 62 77 l 1
- 438 77 l 1
- 438 0 l 1
- 62 0 l 1
+62 40 m 1
+ 62 117 l 1
+ 438 117 l 1
+ 438 40 l 1
+ 62 40 l 1
 EndSplineSet
 EndChar
