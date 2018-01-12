@@ -5,7 +5,7 @@ FamilyName: Fira Math
 Weight: Regular
 Copyright: Copyright (C) 2018 Xiangdong Zeng
 UComments: "2018-1-8: Created with FontForge (http://fontforge.org)"
-Version: 001.000
+Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -55,7 +55,7 @@ MATH:SubscriptBaselineDropMin: 250
 MATH:SuperscriptShiftUp: 400 
 MATH:SuperscriptShiftUpCramped: 270 
 MATH:SuperscriptBottomMin: 130 
-MATH:SuperscriptBaselineDropMax: 280 
+MATH:SuperscriptBaselineDropMax: 360 
 MATH:SubSuperscriptGapMin: 200 
 MATH:SuperscriptBottomMaxWithSubscript: 527 
 MATH:SpaceAfterScript: 41 
