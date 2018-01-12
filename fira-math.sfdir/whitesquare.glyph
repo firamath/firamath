@@ -1,0 +1,21 @@
+StartChar: whitesquare
+Encoding: 9633 9633 714
+Width: 740
+Flags: HW
+HStem: 0 92<180 560> 472 92<180 560>
+VStem: 88 92<92 472> 560 92<92 472>
+LayerCount: 2
+Fore
+SplineSet
+652 564 m 1
+ 652 0 l 1
+ 88 0 l 5
+ 88 564 l 1
+ 652 564 l 1
+560 472 m 1
+ 180 472 l 1
+ 180 92 l 1
+ 560 92 l 1
+ 560 472 l 1
+EndSplineSet
+EndChar

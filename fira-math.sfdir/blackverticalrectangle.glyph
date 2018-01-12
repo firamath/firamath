@@ -1,0 +1,16 @@
+StartChar: blackverticalrectangle
+Encoding: 9646 9646 721
+Width: 589
+Flags: W
+HStem: 0 21G<96 493> 669 20G<96 493>
+VStem: 96 397<0 689>
+LayerCount: 2
+Fore
+SplineSet
+493 689 m 1
+ 493 0 l 1
+ 96 0 l 1
+ 96 689 l 1
+ 493 689 l 1
+EndSplineSet
+EndChar
