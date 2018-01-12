@@ -11,6 +11,8 @@
 \newfontface\firatext{fira-math.otf}[Path=../otf/]
 %\setmathfont{XITS Math}
 %\newfontface\firatext{XITS Math}
+%\setmathfont{Latin Modern Math}
+%\newfontface\firatext{Latin Modern Math}
 
 %\setoperatorfont\mathscr
 
@@ -33,99 +35,116 @@
 }
 % ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
 % αβγδεζηθικλμνξοπρστυφχψω
-\def\ligaturetext{ff \, fi \, fl \, ffi \, ffl}
+\def\ligaturetext{ff\quad fi\quad fl\quad ffi\quad ffl}
 
 \begin{document}
 
 \section{Alphabets}
 
-Latin capital letters:
-\[ \Latinalphabets \]
+\begin{itemize}
+  \item Latin capital letters:
+        \[ \Latinalphabets \]
 
-Latin small letters:
-\[ \latinalphabets \]
+  \item Latin small letters:
+        \[ \latinalphabets \]
 
-Latin capital upright letters (\verb|\symup|):
-\[ \symup{\Latinalphabets} \]
+  \item Latin capital upright letters (\verb|\symup|):
+        \[ \symup{\Latinalphabets} \]
 
-Latin small upright letters (\verb|\symup|):
-\[ \symup{\latinalphabets} \]
+  \item Latin small upright letters (\verb|\symup|):
+        \[ \symup{\latinalphabets} \]
 
-Latin capital bold letters (\verb|\symbf|):
-\[ \symbf{\Latinalphabets} \]
+  \item Latin capital bold letters (\verb|\symbf|):
+        \[ \symbf{\Latinalphabets} \]
 
-Latin small bold letters (\verb|\symbf|):
-\[ \symbf{\latinalphabets} \]
+  \item Latin small bold letters (\verb|\symbf|):
+        \[ \symbf{\latinalphabets} \]
 
-Latin capital bold upright letters (\verb|\symbfup|):
-\[ \symbfup{\Latinalphabets} \]
+  \item Latin capital bold upright letters (\verb|\symbfup|):
+        \[ \symbfup{\Latinalphabets} \]
 
-Latin small bold upright letters (\verb|\symbfup|):
-\[ \symbfup{\latinalphabets} \]
+  \item Latin small bold upright letters (\verb|\symbfup|):
+        \[ \symbfup{\latinalphabets} \]
 
-Greek capital letters:
-\[ \Greekalphabets \]
+  \item Greek capital letters:
+        \[ \Greekalphabets \]
 
-Greek small letters:
-\[ \greekalphabets \]
+  \item Greek small letters:
+        \[ \greekalphabets \]
 
-Greek capital upright letters: (\verb|\symup|):
-\[ \symup{\Greekalphabets} \]
+  \item Greek capital upright letters: (\verb|\symup|):
+        \[ \symup{\Greekalphabets} \]
 
-Greek small upright letters: (\verb|\symup|):
-\[ \symup{\greekalphabets} \]
+  \item Greek small upright letters: (\verb|\symup|):
+        \[ \symup{\greekalphabets} \]
 
-Greek capital bold letters (\verb|\symbf|):
-\[ \symbf{\Greekalphabets} \]
+  \item Greek capital bold letters (\verb|\symbf|):
+        \[ \symbf{\Greekalphabets} \]
 
-Greek small bold letters (\verb|\symbf|):
-\[ \symbf{\greekalphabets} \]
+  \item Greek small bold letters (\verb|\symbf|):
+        \[ \symbf{\greekalphabets} \]
 
-Greek capital bold upright letters (\verb|\symbfup|):
-\[ \symbfup{\Greekalphabets} \]
+  \item Greek capital bold upright letters (\verb|\symbfup|):
+        \[ \symbfup{\Greekalphabets} \]
 
-Greek small bold upright letters (\verb|\symbfup|):
-\[ \symbfup{\greekalphabets} \]
+  \item Greek small bold upright letters (\verb|\symbfup|):
+        \[ \symbfup{\greekalphabets} \]
 
-Math accents:
-\[
-  \acute{x}    \, \bar{x}   \, \breve{x} \, \check{x}   \, \ddddot{x}    , \quad
-  \dddot{x}    \, \ddot{x}  \, \dot{x}   \, \grave{x}   \, \hat{x}       , \quad
-  \mathring{x} \, \tilde{x} \, \vec{x}   \, \widehat{x} \, \widetilde{x}
-\]
+  \item Math accents:
+        \[
+          \acute{x}    \, \bar{x}   \, \breve{x} \, \check{x}   \, \ddddot{x}    , \quad
+          \dddot{x}    \, \ddot{x}  \, \dot{x}   \, \grave{x}   \, \hat{x}       , \quad
+          \mathring{x} \, \tilde{x} \, \vec{x}   \, \widehat{x} \, \widetilde{x}
+        \]
 
-Dotless letters:
-\[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
+  \item Dotless letters:
+        \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
 
-Ligature:
+  \item Ligature (text): {\firatext\ligaturetext}
 
-Text: {\firatext\ligaturetext}
-
-Math: $\mathrm{\ligaturetext}$
+  \item Non-ligature (math): $ \symrm{\ligaturetext} $
+\end{itemize}
 
 \section{Equations test}
 
-\verb|1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 \oplus 8 \otimes 9|
-\[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 \oplus 8 \otimes 9 \]
+\begin{itemize}
+  \item Basic:
+        \[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 = -a \oplus b \otimes c \]
 
-\verb|\int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C|
-\[ \int_0^\pi \int\limits_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C \]
+  \item Superscript and subscript:
+        \[ 2^2 + 2^{2^2} + 2^{2^{2^2}} + {2^2}^2 + x_a + x_{a_i} + x_{a_{i_1}} \]
 
-\verb|\int_{-\infty}^{+\infty} \iint_0^\infty \iiint_0^\infty \sum_0^\infty|
-\[ \int_{-\infty}^{+\infty} \iint_0^\infty \iiint_0^\infty \sum_0^\infty \]
+  \item Integral:
+        \[
+            \int_0^\pi        \sin x \, \mathrm{d} x
+          = \int\limits_0^\pi \sin x \, \mathrm{d} x
+          = \cos 0 - \cos\pi + C
+        \]
+        \[
+          \int_{-\infty}^{+\infty}   \mathrm{d} z
+          \iint_{-\infty}^{+\infty}  \mathrm{d}^2 y
+          \iiint_{-\infty}^{+\infty} \mathrm{d}^3 x
+        \]
 
-\verb|\int\limits_0^\infty \iint\limits_0^\infty \iiint\limits_0^\infty \sum_0^\infty|
-\[ \int\limits_0^\infty \iint\limits_0^\infty \iiint\limits_0^\infty \sum_0^\infty \]
+  \item Huge operators:
+        \[ \int\limits_0^\infty \int_0^\infty \sum_{i=1}^\infty \prod_{j=i}^\infty \]
+        \[
+          \sum_{i=1}^{\infty}  \frac{1}{x^i} = \frac{1}{1-x} \quad
+          \prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}
+        \]
 
-Inline: $\int_0^\pi dx \iint_0^\pi dy \iint_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C$
+  \item Huge operators (inline):
+        $ \int\limits_0^\infty \int_0^\infty \sum_{i=1}^\infty \prod_{j=i}^\infty $
 
-\verb|\sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x}|
-\[ \sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x} \]
-Inline: $\sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x}$
+  \item Fraction:
+        \[ \frac{1}{2} + \frac{1}{\frac{2}{3}+4} + \frac{\frac{1}{2}+3}{4} \]
 
-\verb|\prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}|
-\[ \prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2} \]
-Inline: $\prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}$
+  \item Radical:
+        \[
+            \sqrt{2} + \sqrt{2^2} + \sqrt{1+\sqrt{2}} + \sqrt{1+\sqrt{1+\sqrt{3}}}
+          + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} + \sqrt{\frac{1}{2}}
+        \]
+\end{itemize}
 
 \verb|\{ [ ( brackets ) ] \}|
 \[ \{ [ ( brackets ) ] \} (q) \left( q \right) \]
@@ -134,7 +153,6 @@ Inline: $\prod_{i=1}^{\infty} \frac{1}{x^i} = x^{-n(n+1)/2}$
 \[ \bigl( brackets \bigr) \]
 
 \verb|\sqrt{2} + \sqrt{x^2} + \sqrt{\frac{1}{2}} + \sqrt{1+\sqrt{2}}|
-\[ \sqrt{} + \sqrt{2} + \sqrt{x^2} + \sqrt{\frac{1}{2}} + \sqrt{1+\sqrt{2}} + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} \]
 
 \verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|
 \[ \lim_{x\to\infty} \frac{1}{x^2} = 0 \]
