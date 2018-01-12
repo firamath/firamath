@@ -73,7 +73,7 @@ MATH:StretchStackTopShiftUp: 0
 MATH:StretchStackBottomShiftDown: 0 
 MATH:StretchStackGapAboveMin: 0 
 MATH:StretchStackGapBelowMin: 0 
-MATH:FractionNumeratorShiftUp: 480 
+MATH:FractionNumeratorShiftUp: 580 
 MATH:FractionNumeratorDisplayStyleShiftUp: 580 
 MATH:FractionDenominatorShiftDown: 480 
 MATH:FractionDenominatorDisplayStyleShiftDown: 700 
