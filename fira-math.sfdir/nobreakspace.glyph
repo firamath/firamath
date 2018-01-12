@@ -1,4 +1,4 @@
-StartChar: uni00A0
+StartChar: nobreakspace
 Encoding: 160 160 535
 Width: 265
 Flags: HW
