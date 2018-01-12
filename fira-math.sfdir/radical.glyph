@@ -1,7 +1,7 @@
 StartChar: radical
 Encoding: 8730 8730 496
 Width: 629
-Flags: W
+Flags: WO
 GlyphVariantsVertical: radical radical.size1 radical.size2 radical.size3
 HStem: 875 77<617 644>
 LayerCount: 2
