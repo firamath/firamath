@@ -1,7 +1,9 @@
 StartChar: integral.display
 Encoding: 1114117 -1 899
-Width: 660
+Width: 780
 Flags: HW
+ItalicCorrection: 300
+IsExtendedShape: 1
 HStem: -594 105<40.235 234.012> 1709 105<425 620.486>
 VStem: 275 110<-446.695 1666.69>
 LayerCount: 2

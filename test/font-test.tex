@@ -105,12 +105,19 @@ Math: $\mathrm{\ligaturetext}$
 
 \section{Equations test}
 
+\verb|1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 \oplus 8 \otimes 9|
+\[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 \oplus 8 \otimes 9 \]
+
 \verb|\int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C|
-\[ \int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C \]
+\[ \int_0^\pi \int\limits_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C \]
 
-\[ \int \sum \prod \iint \iiint abc \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C \]
+\verb|\int_0^\infty \iint_0^\infty \iiint_0^\infty \sum_0^\infty|
+\[ \int_0^\infty \iint_0^\infty \iiint_0^\infty \sum_0^\infty \]
 
-Inline: $\int_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C$
+\verb|\int\limits_0^\infty \iint\limits_0^\infty \iiint\limits_0^\infty \sum_0^\infty|
+\[ \int\limits_0^\infty \iint\limits_0^\infty \iiint\limits_0^\infty \sum_0^\infty \]
+
+Inline: $\int_0^\pi dx \iint_0^\pi dy \iint_0^\pi \sin x \, \mathrm{d} x = \cos 0 - \cos\pi + C$
 
 \verb|\sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x}|
 \[ \sum_{i=1}^{\infty} \frac{1}{x^i} = \frac{1}{1-x} \]

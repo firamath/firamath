@@ -1,7 +1,8 @@
 StartChar: uni222C
 Encoding: 8748 8748 897
-Width: 674
-Flags: W
+Width: 780
+Flags: HW
+ItalicCorrection: 180
 GlyphVariantsVertical: uni222C.display
 HStem: -213 75<-18.3601 122.458 281.64 422.458> 778 74<238.729 390.516 538.729 690.516>
 VStem: 136 89<-121.946 763.624> 436 89<-121.946 763.624>
@@ -9,7 +10,7 @@ LayerCount: 2
 Fore
 SplineSet
 588 852 m 0
- 638 852 671 843 713 824 c 5
+ 638 852 671 843 713 824 c 1
  685 758 l 1
  651 773 623 778 595 778 c 0
  541 778 525 750 525 701 c 2
