@@ -1,11 +1,11 @@
 StartChar: integral
 Encoding: 8747 8747 498
 Width: 480
-Flags: HW
+Flags: W
 ItalicCorrection: 180
-GlyphVariantsVertical: integral.display
-HStem: -213 75<58.5 93 58.5 124> 778 74<268 309>
-VStem: 136 89<-69 701>
+GlyphVariantsVertical: integral integral.display
+HStem: -213 75<-18.3601 122.458> 778 74<238.729 390.516>
+VStem: 136 89<-121.946 763.624>
 LayerCount: 2
 Fore
 SplineSet

@@ -1,0 +1,20 @@
+StartChar: radical.size2
+Encoding: 1114121 -1 787
+Width: 649
+Flags: W
+HStem: 520 20G<63 128.302> 1675 77<637 664>
+LayerCount: 2
+Fore
+SplineSet
+664 1752 m 1
+ 664 1675 l 1
+ 637 1675 l 5
+ 349 -200 l 1
+ 245 -200 l 1
+ 42 513 l 1
+ 123 540 l 1
+ 294 -105 l 1
+ 572 1752 l 1
+ 664 1752 l 1
+EndSplineSet
+EndChar

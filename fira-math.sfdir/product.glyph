@@ -1,8 +1,8 @@
 StartChar: product
 Encoding: 8719 8719 491
 Width: 678
-Flags: HW
-GlyphVariantsVertical: product.display
+Flags: W
+GlyphVariantsVertical: product product.display
 HStem: -213 21G<129 219 464 554> 593 76<57 129 219 464 554 621>
 VStem: 129 90<-202 593> 464 90<-202 593>
 LayerCount: 2
