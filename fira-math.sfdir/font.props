@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1515772184
+ModificationTime: 1515775993
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -79,7 +79,7 @@ MATH:FractionDenominatorShiftDown: 480
 MATH:FractionDenominatorDisplayStyleShiftDown: 700 
 MATH:FractionNumeratorGapMin: 50 
 MATH:FractionNumeratorDisplayStyleGapMin: 150 
-MATH:FractionRuleThickness: 77 
+MATH:FractionRuleThickness: 76 
 MATH:FractionDenominatorGapMin: 50 
 MATH:FractionDenominatorDisplayStyleGapMin: 150 
 MATH:SkewedFractionHorizontalGap: 0 
@@ -92,9 +92,9 @@ MATH:UnderbarRuleThickness: 50
 MATH:UnderbarExtraDescender: 50 
 MATH:RadicalVerticalGap: 96 
 MATH:RadicalDisplayStyleVerticalGap: 142 
-MATH:RadicalRuleThickness: 77 
-MATH:RadicalExtraAscender: 77 
-MATH:RadicalKernBeforeDegree: 277 
+MATH:RadicalRuleThickness: 76 
+MATH:RadicalExtraAscender: 76 
+MATH:RadicalKernBeforeDegree: 276 
 MATH:RadicalKernAfterDegree: -555 
 MATH:RadicalDegreeBottomRaisePercent: 60
 MATH:MinConnectorOverlap: 20
@@ -105,7 +105,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 162 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

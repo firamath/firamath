@@ -1,7 +1,7 @@
 StartChar: plus
 Encoding: 43 43 10
 Width: 500
-Flags: W
+Flags: HW
 HStem: 294 76<63 208 292 437>
 VStem: 208 84<144 294 370 520>
 LayerCount: 2
@@ -9,14 +9,14 @@ Fore
 SplineSet
 292 520 m 1
  292 370 l 1
- 437 370 l 1
- 437 294 l 1
+ 438 370 l 5
+ 438 294 l 1
  292 294 l 1
  292 144 l 1
  208 144 l 1
  208 294 l 1
- 63 294 l 1
- 63 370 l 1
+ 62 294 l 1
+ 62 370 l 1
  208 370 l 1
  208 520 l 1
  292 520 l 1
