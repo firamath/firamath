@@ -2,6 +2,7 @@ StartChar: parenleft
 Encoding: 40 40 7
 Width: 324
 Flags: W
+GlyphVariantsVertical: parenleft parenleft.size1 parenleft.size2 parenleft.size3 parenleft.size4
 HStem: -145 990<226 226>
 VStem: 40 96<243 457.5 243 468.5>
 LayerCount: 2

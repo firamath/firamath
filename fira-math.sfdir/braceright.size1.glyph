@@ -1,8 +1,7 @@
-StartChar: braceright
-Encoding: 125 125 92
+StartChar: braceright.size1
+Encoding: 1114143 -1 815
 Width: 322
 Flags: W
-GlyphVariantsVertical: braceright braceright.size1 braceright.size2 braceright.size3 braceright.size4
 HStem: -136 71<45 78.5 45 112.5> 311 76<270.5 297> 765 71<45 78.5>
 VStem: 140 87<3 13 13 235 458 465 465 687>
 LayerCount: 2
@@ -25,5 +24,4 @@ SplineSet
  140 747 112 765 45 765 c 1
  45 836 l 1
 EndSplineSet
-Validated: 1
 EndChar

@@ -1,0 +1,18 @@
+StartChar: parenright.size3
+Encoding: 1114129 -1 801
+Width: 324
+Flags: HW
+HStem: -145 990<98 98>
+VStem: 188 96<243 457.5>
+LayerCount: 2
+Fore
+SplineSet
+47 1588 m 5
+ 223 1240 382 942 382 350 c 4
+ 382 -242 223 -540 47 -888 c 5
+ -58 -788 l 5
+ 104 -456 209 -185 209 350 c 4
+ 209 888 104 1156 -58 1488 c 5
+ 47 1588 l 5
+EndSplineSet
+EndChar

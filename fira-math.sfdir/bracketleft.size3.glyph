@@ -1,8 +1,7 @@
-StartChar: bracketleft
-Encoding: 91 91 58
+StartChar: bracketleft.size3
+Encoding: 1114133 -1 805
 Width: 322
 Flags: W
-GlyphVariantsVertical: bracketleft bracketleft.size1 bracketleft.size2 bracketleft.size3 bracketleft.size4
 HStem: -116 76<152 272 152 272> 739 77<152 272 152 152>
 VStem: 65 87<-40 739 -40 816 -40 816>
 LayerCount: 2
@@ -18,5 +17,4 @@ SplineSet
  65 816 l 1
  272 816 l 1
 EndSplineSet
-Validated: 1
 EndChar
