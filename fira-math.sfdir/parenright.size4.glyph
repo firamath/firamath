@@ -1,7 +1,7 @@
 StartChar: parenright.size4
 Encoding: 1114130 -1 802
 Width: 592
-Flags: HWO
+Flags: HW
 VStem: 392 128<68.8994 631.601>
 LayerCount: 2
 Fore
@@ -10,7 +10,7 @@ SplineSet
  352 1418 520 1061 520 350 c 0
  520 -361 352 -718 146 -1135 c 1
  72 -1060 l 1
- 261 -661 392 -292 392 350 c 0
+ 261 -661 392 -292 392 350 c 4
  392 995 261 1361 72 1760 c 1
  146 1835 l 1
 EndSplineSet
