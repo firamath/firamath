@@ -1,6 +1,6 @@
 StartChar: bracketright.size3
 Encoding: 1114137 -1 809
-Width: 449
+Width: 455
 Flags: W
 VStem: 74 286
 LayerCount: 2
@@ -9,8 +9,8 @@ SplineSet
 74 1515 m 1
  74 1429 l 1
  254 1429 l 1
- 254 -732 l 1
- 74 -732 l 1
+ 254 -729 l 1
+ 74 -729 l 1
  74 -815 l 1
  360 -815 l 1
  360 1515 l 1
