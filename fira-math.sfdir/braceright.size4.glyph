@@ -1,7 +1,7 @@
 StartChar: braceright.size4
 Encoding: 1114146 -1 818
 Width: 570
-Flags: WO
+Flags: W
 HStem: -1108 99<77 164.661> 297 106<462.421 513> 1709 99<77 164.661>
 VStem: 272 111<-863.62 -661 5 173.615 526.385 695 1361 1563.62>
 CounterMasks: 1 e0

@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage[no-math]{fontspec}
 \usepackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
+\usepackage{physics}
 \setmainfont{TeX Gyre Pagella}
 \setsansfont{TeX Gyre Heros}
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
@@ -184,5 +185,14 @@
 \[ 2^2 2^{2^2} {2^2}^2 2^{2^{2^2}} \]
 
 \[ x \to \infty + \infty - \infty \]
+
+\def\ee{\mathrm{e}}
+\begin{align*}
+     \int_{-\infty}^\infty \ee^{-x^2} \dd{x}
+  &= \qty[\int_{-\infty}^\infty \ee^{-x^2} \dd{x} \, \int_{-\infty}^\infty \ee^{-y^2} \dd{y}]^{1/2} \\
+  &= \qty[\int_0^{2\pi} \int_0^\infty \ee^{-r^2} r \dd{r}\dd{\theta}]^{1/2} \\
+  &= \qty[\pi \int_0^\infty \ee^{-u} \dd{u}]^{1/2} \\
+  &= \sqrt{\pi}
+\end{align*}
 
 \end{document}
