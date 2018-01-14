@@ -28,6 +28,10 @@
 
 \definecolor { symbol@bg@color   } { named } { white     }
 \definecolor { encoding@bg@color } { named } { lightgray }
+\definecolor { nochar@bg@color   } { named } { red       }
+\definecolor { reversed@bg@color } { named } { blue      }
+
+\file_input:n { unicode-reversed.def }
 
 \cs_new_protected:Npn \fonttable_symbol:n #1
   { \tex_char:D \int_eval:n {#1} \scan_stop: }
@@ -42,13 +46,20 @@
 
 \cs_new_protected:Npn \fonttable_glyph:n #1
   {
-    \group_begin:
-      \cellcolor { symbol@bg@color }
-      \SYMBOLFONT \Large
-      \fonttable_if_char_exist:nTF {#1}
-        { \fonttable_symbol:n {#1} }
-        { \cellcolor { red } }
-    \group_end:
+    %\group_begin:
+    \exp_args:NNx \clist_if_in:NnTF \fonttable_unicode_reversed_clist { \int_to_Hex:n {#1} }
+      { \cellcolor { reversed@bg@color } }
+      {
+        \SYMBOLFONT
+        \fonttable_if_char_exist:nTF {#1}
+          {
+            \cellcolor { symbol@bg@color }
+            \Large
+            \fonttable_symbol:n {#1}
+          }
+          { \cellcolor { nochar@bg@color } }
+      }
+    %\group_end:
   }
 \cs_new_protected:Npn \fonttable_glyph_with_alignment:n #1
   { \fonttable_glyph:n {#1} & }
@@ -95,7 +106,7 @@
   }
 
 \int_new:N \l__fonttable_tmpa_int
-\cs_new:Npn \fonttable_line_number:n #1
+\cs_new:Npn \fonttable_row_nummber:n #1
   {
     \raisebox { 20pt }
       {
@@ -122,7 +133,7 @@
     % Symbol row
     \fonttable_hline:
     \fonttable_set_arstrut:nn { 20pt } { 10pt }
-    \multirow { 2 } * { \fonttable_line_number:n {#1} } &
+    \multirow { 2 } * { \fonttable_row_nummber:n {#1} } &
     \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
       \fonttable_glyph_with_alignment:n
     \fonttable_glyph:n { #1 + 15 } \\
