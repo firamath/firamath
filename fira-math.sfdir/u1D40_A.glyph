@@ -2,6 +2,7 @@ StartChar: u1D40A
 Encoding: 119818 119818 130
 Width: 633
 Flags: W
+TopAccentHorizontal: 325
 HStem: 0 21G<65 229 65 65 455 455 455 645> 673 20G<65 229 229 229 454 627 627 627>
 VStem: 65 164<0 693 0 693>
 LayerCount: 2
@@ -20,5 +21,4 @@ SplineSet
  454 693 l 1
  627 693 l 1
 EndSplineSet
-Validated: 1
 EndChar
