@@ -2,6 +2,7 @@ StartChar: w
 Encoding: 119 119 86
 Width: 717
 Flags: W
+TopAccentHorizontal: 358
 HStem: 0 64<207 207 207 265> 444 83<360 360> 507 20G<20 112 112 112 311 414 414 414 609 697 697 697>
 VStem: 20 677<527 527>
 LayerCount: 2

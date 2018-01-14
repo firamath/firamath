@@ -2,6 +2,7 @@ StartChar: U
 Encoding: 85 85 52
 Width: 662
 Flags: W
+TopAccentHorizontal: 331
 HStem: -12 80<281 379.5 281 407.5> 669 20G<90 185 185 185 476 572 572 572>
 VStem: 90 95<221 228 228 689> 476 96<228 689>
 LayerCount: 2
