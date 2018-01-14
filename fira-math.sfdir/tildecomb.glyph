@@ -2,6 +2,7 @@ StartChar: tildecomb
 Encoding: 771 771 604
 Width: 0
 Flags: W
+TopAccentHorizontal: -197
 HStem: 656 70<-157.5 -129 -157.5 -116.5> 704 70<-266.5 -237> 722 20G<-30 -30>
 VStem: -364 334<686 742>
 LayerCount: 2

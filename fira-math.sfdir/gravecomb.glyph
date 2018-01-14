@@ -2,6 +2,7 @@ StartChar: gravecomb
 Encoding: 768 768 601
 Width: 0
 Flags: W
+TopAccentHorizontal: -150
 HStem: 638 163
 VStem: -270 240<687 724>
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: hookabovecomb
 Encoding: 777 777 609
 Width: 0
 Flags: W
+TopAccentHorizontal: -131
 HStem: 611 94<-180 -180 -180 -111> 784 62<-158.5 -140>
 VStem: -180 69<611 669 611 705 611 705> -109 79<732.5 760.5>
 LayerCount: 2

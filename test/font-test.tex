@@ -19,20 +19,25 @@
 
 \def\Latinalphabets{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 \def\latinalphabets{abcdefghijklmnopqrstuvwxyz}
-\def\Greekalphabets{
+\def\Greekalphabets{%
   \Alpha      \Beta       \Gamma      \Delta      \Epsilon   ,
   \Zeta       \Eta        \Theta      \varTheta   \Iota      ,
   \Kappa      \Lambda     \Mu         \Nu         \Xi        ,
   \Omicron    \Pi         \Rho        \Sigma      \Tau       ,
   \Upsilon    \Phi        \Chi        \Psi        \Omega
 }
-\def\greekalphabets{
+\def\greekalphabets{%
   \alpha      \beta       \gamma      \delta      \epsilon   ,
   \varepsilon \zeta       \eta        \theta      \vartheta  ,
   \iota       \kappa      \varkappa   \lambda     \mu        ,
   \nu         \xi         \omicron    \pi         \rho       ,
   \varrho     \sigma      \varsigma   \tau        \upsilon   ,
   \phi        \varphi     \chi        \psi        \omega
+}
+\def\TOPACCENT#1{%
+  \acute{#1}    \, \bar{#1}   \, \breve{#1} \, \check{#1}   \, \ddddot{#1}    , \quad
+  \dddot{#1}    \, \ddot{#1}  \, \dot{#1}   \, \grave{#1}   \, \hat{#1}       , \quad
+  \mathring{#1} \, \tilde{#1} \, \vec{#1}   \, \widehat{#1} \, \widetilde{#1}
 }
 % ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
 % αβγδεζηθικλμνξοπρστυφχψω
@@ -92,11 +97,10 @@
         \[ \symbfup{\greekalphabets} \]
 
   \item Math accents:
-        \[
-          \acute{x}    \, \bar{x}   \, \breve{x} \, \check{x}   \, \ddddot{x}    , \quad
-          \dddot{x}    \, \ddot{x}  \, \dot{x}   \, \grave{x}   \, \hat{x}       , \quad
-          \mathring{x} \, \tilde{x} \, \vec{x}   \, \widehat{x} \, \widetilde{x}
-        \]
+        \[ \TOPACCENT{A} \]
+        \[ \TOPACCENT{\mathrm{A}} \]
+        \[ \TOPACCENT{x} \]
+        \[ \TOPACCENT{\mathrm{x}} \]
 
   \item Dotless letters:
         \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
@@ -150,9 +154,11 @@
         \]
 
   \item Brackets:
-        \[ \Biggl(  \biggl(  \Bigl(  \bigl(   (x)  \bigr)  \Bigr)  \biggr)  \Biggr)  \]
-        \[ \Biggl[  \biggl[  \Bigl[  \bigl[   [x]  \bigr]  \Bigr]  \biggr]  \Biggr]  \]
-        \[ \Biggl\{ \biggl\{ \Bigl\{ \bigl\{ \{x\} \bigr\} \Bigr\} \biggr\} \Biggr\} \]
+        \[
+          \Biggl(  \biggl(  \Bigl(  \bigl(   (x)  \bigr)  \Bigr)  \biggr)  \Biggr)  \quad
+          \Biggl[  \biggl[  \Bigl[  \bigl[   [x]  \bigr]  \Bigr]  \biggr]  \Biggr]  \quad
+          \Biggl\{ \biggl\{ \Bigl\{ \bigl\{ \{x\} \bigr\} \Bigr\} \biggr\} \Biggr\}
+        \]
         \[
             \left( x \right) + \left( x^2 \right)
           + \left( \frac{1}{2} \right) + \left( \frac{2^2}{3} \right)
@@ -167,14 +173,6 @@
         \]
 \end{itemize}
 
-\verb|\{ [ ( brackets ) ] \}|
-\[ \{ [ ( brackets ) ] \} (q) \left( q \right) \]
-
-\verb|\bigl( brackets \bigr)|
-\[ \bigl( brackets \bigr) \]
-
-\verb|\sqrt{2} + \sqrt{x^2} + \sqrt{\frac{1}{2}} + \sqrt{1+\sqrt{2}}|
-
 \verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|
 \[ \lim_{x\to\infty} \frac{1}{x^2} = 0 \]
 
@@ -185,10 +183,7 @@
 
 {\firatext x\symbol{"2032} x'' x'''}
 
-
 \[ g^{mn} g_{mn} T^{i}_{jk} \]
-
-\[ 2^2 2^{2^2} {2^2}^2 2^{2^{2^2}} \]
 
 \[ x \to \infty + \infty - \infty \]
 
