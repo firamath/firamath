@@ -1,7 +1,8 @@
 StartChar: u1D487
 Encoding: 119943 119943 228
 Width: 346
-Flags: W
+Flags: HW
+TopAccentHorizontal: 342
 HStem: -222 21G<-41 -41> 421 110<38 102 23 117 273 364> 642 117<332 366.5>
 VStem: -80 570
 LayerCount: 2
@@ -27,5 +28,4 @@ SplineSet
  435 621 l 1
  408 638 378 642 355 642 c 0
 EndSplineSet
-Validated: 1
 EndChar
