@@ -1,7 +1,7 @@
 StartChar: uni222C
 Encoding: 8748 8748 781
 Width: 780
-Flags: HW
+Flags: W
 ItalicCorrection: 180
 GlyphVariantsVertical: uni222C uni222C.display
 HStem: -213 75<-18.3601 122.458 281.64 422.458> 778 74<238.729 390.516 538.729 690.516>

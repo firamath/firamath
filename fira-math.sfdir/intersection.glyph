@@ -1,9 +1,9 @@
 StartChar: intersection
 Encoding: 8745 8745 678
 Width: 576
-Flags: HW
-HStem: 502 72<246 330>
-VStem: 62 72<42 348 42 411> 442 72<42 348 42 390>
+Flags: W
+HStem: 502 72<211.016 364.984>
+VStem: 62 72<42 424.187> 442 72<42 424.187>
 LayerCount: 2
 Fore
 SplineSet

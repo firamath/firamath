@@ -1,7 +1,7 @@
 StartChar: integral.display
 Encoding: 1114117 -1 783
 Width: 900
-Flags: HW
+Flags: W
 ItalicCorrection: 300
 IsExtendedShape: 1
 HStem: -594 105<160.235 354.012> 1709 105<544.987 740.486>

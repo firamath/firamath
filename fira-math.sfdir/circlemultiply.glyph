@@ -1,9 +1,9 @@
 StartChar: circlemultiply
 Encoding: 8855 8855 793
 Width: 660
-Flags: HW
+Flags: W
 HStem: 62 80<242.731 416.973> 522 80<242.798 416.905>
-VStem: 60 80<245.061 418.552> 520 80<244.798 418.905>
+VStem: 60 80<244.731 418.973> 520 80<244.798 418.905>
 LayerCount: 2
 Fore
 SplineSet

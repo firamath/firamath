@@ -1,8 +1,8 @@
 StartChar: plusminus
 Encoding: 177 177 552
 Width: 500
-Flags: HW
-HStem: 40 76<62 438> 316 76<63 208 292 438>
+Flags: W
+HStem: 40 76<62 438> 316 76<62 208 292 438>
 VStem: 208 84<167 316 392 542>
 LayerCount: 2
 Fore

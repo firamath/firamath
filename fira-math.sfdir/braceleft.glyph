@@ -1,10 +1,11 @@
 StartChar: braceleft
 Encoding: 123 123 90
 Width: 322
-Flags: HW
+Flags: W
 GlyphVariantsVertical: braceleft braceleft.size1 braceleft.size2 braceleft.size3 braceleft.size4
-HStem: -136 71<243.5 277 243.5 277> 311 76<25 51.5> 765 71<243.5 277>
-VStem: 95 87<13 235 235 242 465 687 687 697>
+HStem: -136 71<200.61 277> 313 74<25 81.837> 765 71<200.61 277>
+VStem: 95 87<-47.3274 300.21 399.79 747.327>
+CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet

@@ -2,6 +2,7 @@ StartChar: dotlessj
 Encoding: 567 567 479
 Width: 280
 Flags: W
+TopAccentHorizontal: 139
 HStem: -212 21G<18 18> 507 20G<93 185 185 185>
 VStem: 93 92<26 32 32 527>
 LayerCount: 2

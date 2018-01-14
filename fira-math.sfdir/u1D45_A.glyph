@@ -2,6 +2,7 @@ StartChar: u1D45A
 Encoding: 119898 119898 183
 Width: 848
 Flags: W
+TopAccentHorizontal: 447
 HStem: 0 21G<57 148 57 57 343 434 343 343 631 722 631 631> 462 77<338 358.5 628 646.5> 507 20G<131 209 209 209>
 VStem: 397.3 90.7 685.3 92.05
 LayerCount: 2
