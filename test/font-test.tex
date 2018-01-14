@@ -15,32 +15,37 @@
 %\setmathfont{Latin Modern Math}
 %\newfontface\firatext{Latin Modern Math}
 
-%\setoperatorfont\mathscr
-
 \def\Latinalphabets{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 \def\latinalphabets{abcdefghijklmnopqrstuvwxyz}
 \def\Greekalphabets{%
-  \Alpha      \Beta       \Gamma      \Delta      \Epsilon   ,
-  \Zeta       \Eta        \Theta      \varTheta   \Iota      ,
-  \Kappa      \Lambda     \Mu         \Nu         \Xi        ,
-  \Omicron    \Pi         \Rho        \Sigma      \Tau       ,
+  \Alpha      \Beta       \Gamma      \Delta      \Epsilon
+  \Zeta       \Eta        \Theta      \varTheta   \Iota
+  \Kappa      \Lambda     \Mu         \Nu         \Xi
+  \Omicron    \Pi         \Rho        \Sigma      \Tau
   \Upsilon    \Phi        \Chi        \Psi        \Omega
 }
 \def\greekalphabets{%
-  \alpha      \beta       \gamma      \delta      \epsilon   ,
-  \varepsilon \zeta       \eta        \theta      \vartheta  ,
-  \iota       \kappa      \varkappa   \lambda     \mu        ,
-  \nu         \xi         \omicron    \pi         \rho       ,
-  \varrho     \sigma      \varsigma   \tau        \upsilon   ,
+  \alpha      \beta       \gamma      \delta      \epsilon
+  \varepsilon \zeta       \eta        \theta      \vartheta 
+  \iota       \kappa      \varkappa   \lambda     \mu
+  \nu         \xi         \omicron    \pi         \rho
+  \varrho     \sigma      \varsigma   \tau        \upsilon
   \phi        \varphi     \chi        \psi        \omega
 }
+% ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
+% αβγδεζηθικλμνξοπρστυφχψω
 \def\TOPACCENT#1{%
   \acute{#1}    \, \bar{#1}   \, \breve{#1} \, \check{#1}   \, \ddddot{#1}    , \quad
   \dddot{#1}    \, \ddot{#1}  \, \dot{#1}   \, \grave{#1}   \, \hat{#1}       , \quad
   \mathring{#1} \, \tilde{#1} \, \vec{#1}   \, \widehat{#1} \, \widetilde{#1}
 }
-% ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
-% αβγδεζηθικλμνξοπρστυφχψω
+\ExplSyntaxOn
+\NewDocumentCommand \TOPACCENTMAP { m m }
+  { \fonttest_top_accent_map:Nx #1 {#2} }
+\cs_new:Npn \fonttest_top_accent_map:Nn #1#2
+  { \tl_map_inline:nn {#2} { \[ \TOPACCENT{#1{##1}} \] } }
+\cs_generate_variant:Nn \fonttest_top_accent_map:Nn { Nx }
+\ExplSyntaxOff
 \def\ligaturetext{ff\quad fi\quad fl\quad ffi\quad ffl}
 
 \begin{document}
@@ -78,10 +83,10 @@
   \item Greek small letters:
         \[ \greekalphabets \]
 
-  \item Greek capital upright letters: (\verb|\symup|):
+  \item Greek capital upright letters (\verb|\symup|):
         \[ \symup{\Greekalphabets} \]
 
-  \item Greek small upright letters: (\verb|\symup|):
+  \item Greek small upright letters (\verb|\symup|):
         \[ \symup{\greekalphabets} \]
 
   \item Greek capital bold letters (\verb|\symbf|):
@@ -97,10 +102,40 @@
         \[ \symbfup{\greekalphabets} \]
 
   \item Math accents:
-        \[ \TOPACCENT{A} \]
-        \[ \TOPACCENT{\mathrm{A}} \]
-        \[ \TOPACCENT{x} \]
-        \[ \TOPACCENT{\mathrm{x}} \]
+        \begin{itemize}
+          %\item Latin capital letters:
+          %  \TOPACCENTMAP{\symnormal}{\Latinalphabets}
+          %\item Latin small letters:
+          %  \TOPACCENTMAP{\symnormal}{\latinalphabets}
+          %\item Latin capital upright letters:
+          %  \TOPACCENTMAP{\symup}{\Latinalphabets}
+          %\item Latin small upright letters:
+          %  \TOPACCENTMAP{\symup}{\latinalphabets}
+          \item Latin capital bold letters:
+            \TOPACCENTMAP{\symbf}{\Latinalphabets}
+          \item Latin small bold letters:
+            \TOPACCENTMAP{\symbf}{\latinalphabets}
+          \item Latin capital bold upright letters:
+            \TOPACCENTMAP{\symbfup}{\Latinalphabets}
+          \item Latin small bold upright letters:
+            \TOPACCENTMAP{\symbfup}{\latinalphabets}
+          \item Greek capital letters:
+            \TOPACCENTMAP{\symnormal}{\Greekalphabets}
+          \item Greek small letters:
+            \TOPACCENTMAP{\symnormal}{\greekalphabets}
+          \item Greek capital upright letters:
+            \TOPACCENTMAP{\symup}{\Greekalphabets}
+          \item Greek small upright letters:
+            \TOPACCENTMAP{\symup}{\greekalphabets}
+          \item Greek capital bold letters:
+            \TOPACCENTMAP{\symbf}{\Greekalphabets}
+          \item Greek small bold letters:
+            \TOPACCENTMAP{\symbf}{\greekalphabets}
+          \item Greek capital bold upright letters:
+            \TOPACCENTMAP{\symbfup}{\Greekalphabets}
+          \item Greek small bold upright letters:
+            \TOPACCENTMAP{\symbfup}{\greekalphabets}
+        \end{itemize}
 
   \item Dotless letters:
         \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
