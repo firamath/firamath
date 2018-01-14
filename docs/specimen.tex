@@ -1,10 +1,19 @@
 \documentclass{article}
-\usepackage{geometry,array,longtable,amsmath}
+\usepackage{geometry,array,longtable,multirow,hhline,amsmath,ctexheading}
 \usepackage[table]{xcolor}
 \usepackage[no-math]{fontspec}
 \usepackage{hyperref}
 
-\geometry{a4paper, hmargin=0.5in, vmargin=1.5in}
+\geometry{a4paper, hmargin=0.5in, vmargin=1.0in}
+
+\ExplSyntaxOn
+\keys_set:nn { ctex }
+  {
+    section/format = \Large\bfseries\centering
+  }
+\ExplSyntaxOff
+
+\hypersetup{bookmarksnumbered = true}
 
 \setmainfont{TeX Gyre Pagella}
 \setsansfont{TeX Gyre Heros}
@@ -34,10 +43,11 @@
 \cs_new_protected:Npn \fonttable_glyph:n #1
   {
     \group_begin:
+      \cellcolor { symbol@bg@color }
       \SYMBOLFONT \Large
       \fonttable_if_char_exist:nTF {#1}
         { \fonttable_symbol:n {#1} }
-        { \cellcolor{red} }
+        { \cellcolor { red } }
     \group_end:
   }
 \cs_new_protected:Npn \fonttable_glyph_with_alignment:n #1
@@ -46,6 +56,7 @@
 \cs_new_protected:Npn \fonttable_encoding:n #1
   {
     \group_begin:
+      \cellcolor { encoding@bg@color }
       \ttfamily \tiny
       \int_compare:nNnTF {#1} < { "100 }
         { 00 }
@@ -83,20 +94,42 @@
       { \box_gset_eq:NN \@arstrutbox \l__fonttable_old_arstrut_box }
   }
 
+\int_new:N \l__fonttable_tmpa_int
+\cs_new:Npn \fonttable_line_number:n #1
+  {
+    \raisebox { 20pt }
+      {
+        \ttfamily
+        \int_set:Nn \l__fonttable_tmpa_int { #1 / \c_sixteen }
+        \int_compare:nNnTF { \l__fonttable_tmpa_int } < { "10 }
+          { 00 }
+          {
+            \int_compare:nNnT { \l__fonttable_tmpa_int } < { "100 }
+            { 0 }
+          }
+        \int_to_Hex:n { \l__fonttable_tmpa_int }
+      }
+  }
+
+\group_begin:
+  \char_set_catcode_active:N \~
+  \cs_new:Npn \fonttable_hline:
+    { \hhline { ~ | *{16}{-} } }
+\group_end:
+
 \cs_new:Npn \fonttable_row:n #1
   {
     % Symbol row
-    \hline
-    \rowcolor { symbol@bg@color }
+    \fonttable_hline:
     \fonttable_set_arstrut:nn { 20pt } { 10pt }
+    \multirow { 2 } * { \fonttable_line_number:n {#1} } &
     \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
       \fonttable_glyph_with_alignment:n
     \fonttable_glyph:n { #1 + 15 } \\
     \fonttable_restore_arstrut:
     % Encoding row
-    \hline
-    \rowcolor { encoding@bg@color }
-    \fonttable_set_arstrut:nn { 4pt } { 1pt }
+    \fonttable_hline:
+    \fonttable_set_arstrut:nn { 5pt } { 1pt } &
     \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
       \fonttable_encoding_with_alignment:n
     \fonttable_encoding:n { #1 + 15 } \\
@@ -127,26 +160,31 @@
     \fonttable_first_row_cell:n { 15 }
   }
 
-\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype {C} [1] { >{\centering\arraybackslash} m {#1} }
+
 \NewDocumentCommand \fonttable { m m }
   {
-    \begin{longtable}{*{16}{|C{18pt}}|}
-      \multicolumn {16} { | @{} c @{}| }
+    \begin{longtable}{ r | *{16}{ C{18pt} | } }
+      &
+      \multicolumn {16} { @{} c @{} | }
         {
           \begin{tabular} { * {16} { C{18pt} } }
             \fonttable_first_row:
           \end{tabular}
         }
-        \\
+      \\
       \fonttable_multi_row:nn {#1} {#2}
-      \hline
+      \fonttable_hline:
     \end{longtable}
+    \clearpage
   }
 
 \ExplSyntaxOff
 \makeatother
 
 \begin{document}
+
+\raggedbottom
 
 \section{C0 Controls and Basic Latin}
 \fonttable{"20}{"7F}
@@ -175,6 +213,15 @@
 \section{General Punctuation}
 \fonttable{"2000}{"206F}
 
+%\section{Superscripts and Subscripts}
+%\fonttable{"2070}{"209F}
+%
+\section{Currency Symbols}
+\fonttable{"20A0}{"20CF}
+
+\section{Combining Diacritical Marks for Symbols}
+\fonttable{"20D0}{"20FF}
+
 \section{Letterlike Symbols}
 \fonttable{"2100}{"214F}
 
@@ -187,9 +234,21 @@
 \section{Mathematical Operators}
 \fonttable{"2200}{"22FF}
 
-\section{Box Drawing}
-\fonttable{"2500}{"257F}
+\section{Miscellaneous Technical}
+\fonttable{"2300}{"23FF}
 
+%\section{Control Pictures}
+%\fonttable{"2400}{"243F}
+%
+%\section{Optical Character Recognition}
+%\fonttable{"2440}{"245F}
+%
+%\section{Enclosed Alphanumerics}
+%\fonttable{"2460}{"24FF}
+%
+%\section{Box Drawing}
+%\fonttable{"2500}{"257F}
+%
 \section{Block Elements}
 \fonttable{"2580}{"259F}
 
@@ -223,6 +282,9 @@
 %\section{Miscellaneous Symbols and Arrows}
 %\fonttable{"2B00}{"2BFF}
 %
+\section{Alphabetic Presentation Forms}
+\fonttable{"FB00}{"FB4F}
+
 \section{Mathematical Alphanumeric Symbols}
 \fonttable{"1D400}{"1D7FF}
 
