@@ -2,12 +2,14 @@
 *.woff
 
 *.aux
+*.fdb_latexmk
+*.fls
 *.log
 *.out
 *.toc
+*.xdv
 
 *.pdf
-*.xdv
 
 .vscode/
 assets/
@@ -15,4 +17,5 @@ temp/
 
 GLYPHS.md
 TODO.md
+docs/*.bat
 test/*.bat

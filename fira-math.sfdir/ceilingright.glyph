@@ -1,0 +1,18 @@
+StartChar: ceilingright
+Encoding: 8969 8969 822
+Width: 322
+Flags: W
+HStem: 739 77<50 170>
+VStem: 170 87<-116 739>
+LayerCount: 2
+Fore
+SplineSet
+257 816 m 1
+ 257 -116 l 1
+ 170 -116 l 5
+ 170 739 l 5
+ 50 739 l 1
+ 50 816 l 1
+ 257 816 l 1
+EndSplineSet
+EndChar

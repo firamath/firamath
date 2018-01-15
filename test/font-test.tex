@@ -8,8 +8,8 @@
 \setsansfont{TeX Gyre Heros}
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
 
-\setmathfont{fira-math.otf}[Path=../otf/]
-\newfontface\firatext{fira-math.otf}[Path=../otf/]
+\setmathfont{fira-math.otf}[Path=../assets/]
+\newfontface\firatext{fira-math.otf}[Path=../assets/]
 %\setmathfont{XITS Math}
 %\newfontface\firatext{XITS Math}
 %\setmathfont{Latin Modern Math}
@@ -102,40 +102,41 @@
         \[ \symbfup{\greekalphabets} \]
 
   \item Math accents:
-        \begin{itemize}
-          \item Latin capital letters:
-            \TOPACCENTMAP{\symnormal}{\Latinalphabets}
-          \item Latin small letters:
-            \TOPACCENTMAP{\symnormal}{\latinalphabets}
-          \item Latin capital upright letters:
-            \TOPACCENTMAP{\symup}{\Latinalphabets}
-          \item Latin small upright letters:
-            \TOPACCENTMAP{\symup}{\latinalphabets}
-          \item Latin capital bold letters:
-            \TOPACCENTMAP{\symbf}{\Latinalphabets}
-          \item Latin small bold letters:
-            \TOPACCENTMAP{\symbf}{\latinalphabets}
-          \item Latin capital bold upright letters:
-            \TOPACCENTMAP{\symbfup}{\Latinalphabets}
-          \item Latin small bold upright letters:
-            \TOPACCENTMAP{\symbfup}{\latinalphabets}
-          \item Greek capital letters:
-            \TOPACCENTMAP{\symnormal}{\Greekalphabets}
-          \item Greek small letters:
-            \TOPACCENTMAP{\symnormal}{\greekalphabets}
-          \item Greek capital upright letters:
-            \TOPACCENTMAP{\symup}{\Greekalphabets}
-          \item Greek small upright letters:
-            \TOPACCENTMAP{\symup}{\greekalphabets}
-          \item Greek capital bold letters:
-            \TOPACCENTMAP{\symbf}{\Greekalphabets}
-          \item Greek small bold letters:
-            \TOPACCENTMAP{\symbf}{\greekalphabets}
-          \item Greek capital bold upright letters:
-            \TOPACCENTMAP{\symbfup}{\Greekalphabets}
-          \item Greek small bold upright letters:
-            \TOPACCENTMAP{\symbfup}{\greekalphabets}
-        \end{itemize}
+        \TOPACCENTMAP{\symnormal}{x}
+        % \begin{itemize}
+        %   \item Latin capital letters:
+        %     \TOPACCENTMAP{\symnormal}{\Latinalphabets}
+        %   \item Latin small letters:
+        %     \TOPACCENTMAP{\symnormal}{\latinalphabets}
+        %   \item Latin capital upright letters:
+        %     \TOPACCENTMAP{\symup}{\Latinalphabets}
+        %   \item Latin small upright letters:
+        %     \TOPACCENTMAP{\symup}{\latinalphabets}
+        %   \item Latin capital bold letters:
+        %     \TOPACCENTMAP{\symbf}{\Latinalphabets}
+        %   \item Latin small bold letters:
+        %     \TOPACCENTMAP{\symbf}{\latinalphabets}
+        %   \item Latin capital bold upright letters:
+        %     \TOPACCENTMAP{\symbfup}{\Latinalphabets}
+        %   \item Latin small bold upright letters:
+        %     \TOPACCENTMAP{\symbfup}{\latinalphabets}
+        %   \item Greek capital letters:
+        %     \TOPACCENTMAP{\symnormal}{\Greekalphabets}
+        %   \item Greek small letters:
+        %     \TOPACCENTMAP{\symnormal}{\greekalphabets}
+        %   \item Greek capital upright letters:
+        %     \TOPACCENTMAP{\symup}{\Greekalphabets}
+        %   \item Greek small upright letters:
+        %     \TOPACCENTMAP{\symup}{\greekalphabets}
+        %   \item Greek capital bold letters:
+        %     \TOPACCENTMAP{\symbf}{\Greekalphabets}
+        %   \item Greek small bold letters:
+        %     \TOPACCENTMAP{\symbf}{\greekalphabets}
+        %   \item Greek capital bold upright letters:
+        %     \TOPACCENTMAP{\symbfup}{\Greekalphabets}
+        %   \item Greek small bold upright letters:
+        %     \TOPACCENTMAP{\symbfup}{\greekalphabets}
+        % \end{itemize}
 
   \item Dotless letters:
         \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
@@ -208,6 +209,9 @@
           \biggl( \biggr) \biggl[ \biggr] \biggl\{ \biggr\} \quad
           \Biggl( \Biggr) \Biggl[ \Biggr] \Biggl\{ \Biggr\}
         \]
+
+  \item More brackets:
+        \[ \lceil ceiling \rceil \quad \lfloor floor \rfloor \]
 \end{itemize}
 
 \verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|
