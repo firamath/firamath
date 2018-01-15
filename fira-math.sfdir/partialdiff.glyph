@@ -2,6 +2,7 @@ StartChar: partialdiff
 Encoding: 8706 8706 488
 Width: 510
 Flags: W
+TopAccentHorizontal: 245
 HStem: -12 73<207 282.5 207 309.5> 355 72<203.5 252 167.5 264> 681 20G<124 124>
 VStem: 30 93<165 262 165 277> 366 94<262 262>
 LayerCount: 2

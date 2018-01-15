@@ -2,6 +2,7 @@ StartChar: increment
 Encoding: 8710 8710 490
 Width: 583
 Flags: W
+TopAccentHorizontal: 292
 HStem: 0 78<125 454 125 577> 609 80<290 290> 669 20G<232 352 352 352>
 VStem: 6 571<0 0>
 LayerCount: 2

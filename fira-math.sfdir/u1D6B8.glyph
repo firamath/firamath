@@ -2,6 +2,7 @@ StartChar: u1D6B8
 Encoding: 120504 120504 321
 Width: 600
 Flags: W
+TopAccentHorizontal: 322
 HStem: 0 21G<65 229 65 65> 231 118<229 290 290 304 229 290> 576 117<229 287 229 229>
 VStem: 65 164<0 231 0 349 349 576> 409 169<423.5 504>
 LayerCount: 2
