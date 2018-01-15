@@ -2,7 +2,7 @@ StartChar: R
 Encoding: 82 82 49
 Width: 605
 Flags: W
-TopAccentHorizontal: 340
+TopAccentHorizontal: 290
 HStem: 0 21G<100 195 100 100 467 580 467 467> 292 73<195 291 291 302 195 291> 615 74<195 280 195 195>
 VStem: 100 95<0 292 365 615> 442 101<447.5 537>
 LayerCount: 2
