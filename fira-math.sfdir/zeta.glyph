@@ -2,6 +2,7 @@ StartChar: zeta
 Encoding: 950 950 279
 Width: 388
 Flags: W
+TopAccentHorizontal: 230
 HStem: -215 21G<249 249> 665 74<49 183 38 410> 678 61<49 422>
 VStem: 40 98<205.5 314 205.5 320.5> 308 99<-79 -35>
 LayerCount: 2

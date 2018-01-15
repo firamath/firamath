@@ -2,6 +2,7 @@ StartChar: phi1
 Encoding: 981 981 302
 Width: 628
 Flags: W
+TopAccentHorizontal: 314
 HStem: -213 21G<268 268> -202 21G<360 360> 728 20G<360 360>
 VStem: 46 99<206.5 321 206.5 344> 268 92<-202 3 -202 4 -202 4 524 738 738 738> 271 86<76 451> 483 99<207.5 320.5>
 LayerCount: 2

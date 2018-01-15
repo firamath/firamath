@@ -2,6 +2,7 @@ StartChar: theta
 Encoding: 952 952 281
 Width: 574
 Flags: W
+TopAccentHorizontal: 288
 HStem: -12 75<244 332 244 361.5> 337 70<153 421 153 153> 675 75<244 331.5>
 VStem: 57 95<407 407 407 488> 421 96<337 337>
 LayerCount: 2

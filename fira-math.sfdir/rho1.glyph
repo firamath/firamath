@@ -2,6 +2,7 @@ StartChar: rho1
 Encoding: 1009 1009 331
 Width: 584
 Flags: W
+TopAccentHorizontal: 304
 HStem: -216 21G<377 377> 22 74<287 335 269 383> 467 72<255 341.5>
 VStem: 85 92<13 91 170 256> 423 99<229.5 347>
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: alpha
 Encoding: 945 945 274
 Width: 593
 Flags: W
+TopAccentHorizontal: 302
 HStem: -12 73<225 283 225 294> 466 73<228.5 295> 507 20G<447 531 531 531>
 VStem: 57 98<190.5 326.5 190.5 340.5>
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: gamma
 Encoding: 947 947 276
 Width: 482
 Flags: W
+TopAccentHorizontal: 234
 HStem: -216 21G<194 194> -202 21G<267 267> 518 20G<82 82 379 379>
 VStem: 163.12 93.94
 LayerCount: 2

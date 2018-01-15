@@ -2,6 +2,7 @@ StartChar: kai1
 Encoding: 983 983 304
 Width: 600
 Flags: W
+TopAccentHorizontal: 300
 HStem: -213 74<372.5 408.5 372.5 439.5> -8 21G<200 200> 515 20G<400 400> 519 20G<86 86>
 VStem: 101 94<353.5 386 386 412> 405 94<115 141 141 173.5> 453 92<-65 -57 -57 26 26 26>
 LayerCount: 2

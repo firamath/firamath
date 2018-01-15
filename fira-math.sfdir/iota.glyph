@@ -2,6 +2,7 @@ StartChar: iota
 Encoding: 953 953 282
 Width: 283
 Flags: W
+TopAccentHorizontal: 136
 HStem: -12 21G<199 199> 507 20G<90 182 182 182>
 VStem: 90 92<130 141 141 527>
 LayerCount: 2

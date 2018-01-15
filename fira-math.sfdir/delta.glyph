@@ -2,6 +2,7 @@ StartChar: delta
 Encoding: 948 948 277
 Width: 579
 Flags: W
+TopAccentHorizontal: 288
 HStem: -12 74<244 332 244 363> 676 20G<466 466> 678 72<265.5 321.5>
 VStem: 57 99<183 291.5 183 297.5> 112 95<585.5 627 585.5 645.5> 423 99<184 296>
 LayerCount: 2

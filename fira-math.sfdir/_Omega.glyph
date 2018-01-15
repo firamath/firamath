@@ -2,6 +2,7 @@ StartChar: Omega
 Encoding: 937 937 273
 Width: 692
 Flags: W
+TopAccentHorizontal: 346
 HStem: 0 80<76 180 76 291 76 180 505 615> 623 78<288.5 405>
 VStem: 55 101<280.5 447.5 267.5 461.5> 76 215<0 80 0 80> 400 215<0 80 0 80> 536 101<284 448>
 LayerCount: 2

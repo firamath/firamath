@@ -2,6 +2,7 @@ StartChar: nu
 Encoding: 957 957 286
 Width: 482
 Flags: W
+TopAccentHorizontal: 234
 HStem: 0 21G<180 291 180 180> 0 78<238 238 238 291 180 238> 518 20G<83 83 382 382>
 VStem: -5 477<505 519>
 LayerCount: 2

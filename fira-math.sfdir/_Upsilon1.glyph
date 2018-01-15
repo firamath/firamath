@@ -2,6 +2,7 @@ StartChar: Upsilon1
 Encoding: 978 978 301
 Width: 586
 Flags: W
+TopAccentHorizontal: 303
 HStem: 0 21G<227 227 227 323> 629 72<526.5 555.5> 669 20G<5 110 110 110>
 VStem: 227 96<0 264 264 264>
 LayerCount: 2

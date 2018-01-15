@@ -1,7 +1,8 @@
-StartChar: omega1
+StartChar: pi1
 Encoding: 982 982 303
 Width: 728
 Flags: W
+TopAccentHorizontal: 359
 HStem: -12 74<212 261.5 212 265 461.5 505> 451.5 75.5
 VStem: 60 93<166 262.5 166 268> 320 88<181 325 325 325> 575 93<157 264>
 LayerCount: 2

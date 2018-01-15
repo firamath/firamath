@@ -2,6 +2,7 @@ StartChar: Kappa
 Encoding: 922 922 259
 Width: 589
 Flags: W
+TopAccentHorizontal: 324
 HStem: 0 21G<100 195 100 100 472 472 472 589> 669 20G<100 195 195 195 462 570 570 570>
 VStem: 100 95<0 689 0 689>
 LayerCount: 2

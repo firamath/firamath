@@ -2,6 +2,7 @@ StartChar: lambda
 Encoding: 955 955 284
 Width: 490
 Flags: W
+TopAccentHorizontal: 222
 HStem: -12 21G<109 109 419 419> 507 20G<188 229 229 229> 732 20G<82 82>
 VStem: 20 485<10 22>
 LayerCount: 2

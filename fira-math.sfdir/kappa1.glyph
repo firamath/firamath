@@ -2,6 +2,7 @@ StartChar: kappa1
 Encoding: 1008 1008 330
 Width: 600
 Flags: W
+TopAccentHorizontal: 285
 HStem: -12 21G<514 514> -8 21G<200 200> 515 20G<400 400> 519 20G<86 86>
 VStem: 101 94<353.5 386 386 412> 405 94<115 141 141 173.5>
 LayerCount: 2

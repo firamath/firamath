@@ -2,6 +2,7 @@ StartChar: sigma2
 Encoding: 1010 1010 332
 Width: 511
 Flags: W
+TopAccentHorizontal: 287
 HStem: -12 78<264.5 338 264.5 342.5> 463 76<264.5 336.5>
 VStem: 57 99<192 329.5 192 343>
 LayerCount: 2

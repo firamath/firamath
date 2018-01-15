@@ -2,6 +2,7 @@ StartChar: Sigma
 Encoding: 931 931 267
 Width: 503
 Flags: W
+TopAccentHorizontal: 251
 HStem: 0 78<147 463 40 40> 611 78<40 463 147 463 147 147>
 VStem: 40 423<0 78 0 78 611 689>
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: beta1
 Encoding: 976 976 299
 Width: 568
 Flags: W
+TopAccentHorizontal: 289
 HStem: -12 74<236.5 329.5 236.5 363.5> 383 54<339.5 345.5> 680 70<289 344.5>
 VStem: 60 99<338 338 338 479> 386 94<585 642> 417 101<173.5 269>
 LayerCount: 2

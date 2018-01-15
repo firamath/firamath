@@ -2,6 +2,7 @@ StartChar: epsilon1
 Encoding: 1013 1013 477
 Width: 482
 Flags: W
+TopAccentHorizontal: 269
 HStem: -12 75<252.5 313 252.5 320> 235 70<154 372 154 372> 466 73<254.5 313>
 VStem: 57 97<235 235 235 305 235 345.5>
 LayerCount: 2

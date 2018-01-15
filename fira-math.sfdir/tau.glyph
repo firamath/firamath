@@ -2,6 +2,7 @@ StartChar: tau
 Encoding: 964 964 293
 Width: 459
 Flags: W
+TopAccentHorizontal: 225
 HStem: -12 21G<288 288> 452 75<110 179 110 110 271 455 271 271>
 VStem: 179 92<129 141 141 452>
 LayerCount: 2

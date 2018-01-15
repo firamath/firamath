@@ -2,6 +2,7 @@ StartChar: eta
 Encoding: 951 951 280
 Width: 592
 Flags: W
+TopAccentHorizontal: 288
 HStem: -213 21G<502 502> -202 21G<410 410> 0 21G<101 193 101 101> 467 72<313.5 352.5>
 VStem: 101 92<0 357 357 374 0 395.5> 410 92<-202 365 365 374 -213 404>
 LayerCount: 2

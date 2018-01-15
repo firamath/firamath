@@ -2,6 +2,7 @@ StartChar: xi
 Encoding: 958 958 287
 Width: 437
 Flags: W
+TopAccentHorizontal: 248
 HStem: -215 21G<289 289> 402 76<239 357 287 345> 675 20G<447 447> 678 72<249 309>
 VStem: 50 99<220 305.5 220 319.5> 88 95<548.5 609.5 548.5 633> 348 99<-80 -36>
 LayerCount: 2

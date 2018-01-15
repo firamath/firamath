@@ -2,6 +2,7 @@ StartChar: pi
 Encoding: 960 960 289
 Width: 595
 Flags: W
+TopAccentHorizontal: 290
 HStem: -12 21G<503 503> 0 21G<120 212 120 120> 451.5 75.5
 VStem: 120 92<0 451 0 451> 394 92<129 140 140 452>
 LayerCount: 2

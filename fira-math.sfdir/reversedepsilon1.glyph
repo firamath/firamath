@@ -2,6 +2,7 @@ StartChar: reversedepsilon1
 Encoding: 1014 1014 675
 Width: 484
 Flags: W
+TopAccentHorizontal: 231
 HStem: -12 75<170 233 170 273> 235 70<115 330 115 330> 466 73<188.5 247.5>
 VStem: 330 97<235 235 305 305>
 LayerCount: 2
