@@ -10,6 +10,7 @@
 *.xdv
 
 .vscode/
+assets/
 temp/
 
 GLYPHS.md
