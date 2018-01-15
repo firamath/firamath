@@ -8,12 +8,12 @@ VStem: 68.54 91.35
 LayerCount: 2
 Fore
 SplineSet
-217 527 m 5
+217 527 m 1
  162 138 l 2
  155 86 164 70 198 55 c 1
  160 -11 l 1
  84 15 60 53 71 134 c 2
  126 527 l 1
- 217 527 l 5
+ 217 527 l 1
 EndSplineSet
 EndChar
