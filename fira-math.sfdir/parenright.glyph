@@ -3,6 +3,7 @@ Encoding: 41 41 8
 Width: 324
 Flags: W
 GlyphVariantsVertical: parenright parenright.size1 parenright.size2 parenright.size3 parenright.size4
+GlyphCompositionVertical: 3  uni23A0%0,0,150,1485 uni239F%1,150,150,700 uni239E%0,150,0,1485
 HStem: -145 990<98 98>
 VStem: 188 96<243 457.5>
 LayerCount: 2

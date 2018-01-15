@@ -1,0 +1,16 @@
+StartChar: uni23A5
+Encoding: 9125 9125 832
+Width: 491
+Flags: W
+HStem: 0 21G<282 394> 680 20G<282 394>
+VStem: 282 112<0 700>
+LayerCount: 2
+Fore
+SplineSet
+282 0 m 1
+ 282 700 l 1
+ 394 700 l 1
+ 394 0 l 1
+ 282 0 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,17 @@
+StartChar: uni23A4
+Encoding: 9124 9124 831
+Width: 491
+Flags: W
+VStem: 82 312
+LayerCount: 2
+Fore
+SplineSet
+394 0 m 5
+ 394 1485 l 5
+ 82 1485 l 5
+ 82 1396 l 5
+ 282 1396 l 5
+ 282 0 l 5
+ 394 0 l 5
+EndSplineSet
+EndChar
