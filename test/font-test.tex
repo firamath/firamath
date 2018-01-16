@@ -65,6 +65,12 @@
   \item Latin small upright letters (\verb|\symup|):
         \[ \symup{\latinalphabets} \]
 
+  \item Latin capital typewriter letters (\verb|\symtt|):
+        \[ \symtt{\Latinalphabets} \]
+
+  \item Latin small typewriter letters (\verb|\symtt|):
+        \[ \symtt{\latinalphabets} \]
+
   \item Latin capital bold letters (\verb|\symbf|):
         \[ \symbf{\Latinalphabets} \]
 
@@ -100,6 +106,25 @@
 
   \item Greek small bold upright letters (\verb|\symbfup|):
         \[ \symbfup{\greekalphabets} \]
+
+  \item Dotless letters:
+        \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
+        % \TOPACCENTMAP{\symbf}{\imath\jmath}
+        % \TOPACCENTMAP{\symup}{\imath\jmath}
+
+  \item Ligature (text): {\firatext\ligaturetext}
+
+  \item Non-ligature (math): $ \symrm{\ligaturetext} $
+\end{itemize}
+
+\section{Equations test}
+
+\begin{itemize}
+  \item Basic:
+        \[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 = -a \oplus b \otimes c \]
+
+  \item Superscript and subscript:
+        \[ 2^2 + 2^{2^2} + 2^{2^{2^2}} + {2^2}^2 + x_a + x_{a_i} + x_{a_{i_1}} \]
 
   \item Math accents:
         \TOPACCENTMAP{\symnormal}{x}
@@ -137,25 +162,6 @@
         %   \item Greek small bold upright letters:
         %     \TOPACCENTMAP{\symbfup}{\greekalphabets}
         % \end{itemize}
-
-  \item Dotless letters:
-        \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
-        \TOPACCENTMAP{\symbf}{\imath\jmath}
-        \TOPACCENTMAP{\symup}{\imath\jmath}
-
-  \item Ligature (text): {\firatext\ligaturetext}
-
-  \item Non-ligature (math): $ \symrm{\ligaturetext} $
-\end{itemize}
-
-\section{Equations test}
-
-\begin{itemize}
-  \item Basic:
-        \[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 = -a \oplus b \otimes c \]
-
-  \item Superscript and subscript:
-        \[ 2^2 + 2^{2^2} + 2^{2^{2^2}} + {2^2}^2 + x_a + x_{a_i} + x_{a_{i_1}} \]
 
   \item Integral:
         \[
