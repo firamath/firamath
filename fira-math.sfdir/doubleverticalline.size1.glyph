@@ -1,0 +1,20 @@
+StartChar: doubleverticalline.size1
+Encoding: 1114152 -1 898
+Width: 595
+Flags: W
+VStem: 160 89<-392 1092> 346 89<-392 1092>
+LayerCount: 2
+Fore
+SplineSet
+249 1092 m 1
+ 249 -392 l 1
+ 160 -392 l 1
+ 160 1092 l 1
+ 249 1092 l 1
+435 1092 m 1
+ 435 -392 l 1
+ 346 -392 l 1
+ 346 1092 l 1
+ 435 1092 l 1
+EndSplineSet
+EndChar

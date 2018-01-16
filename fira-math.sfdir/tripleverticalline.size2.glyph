@@ -1,0 +1,26 @@
+StartChar: tripleverticalline.size2
+Encoding: 1114157 -1 903
+Width: 811
+Flags: W
+VStem: 160 95<-640 1340> 358 95<-640 1340> 556 95<-640 1340>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+651 1340 m 1
+ 651 -640 l 5
+ 556 -640 l 5
+ 556 1340 l 1
+ 651 1340 l 1
+255 1340 m 1
+ 255 -640 l 5
+ 160 -640 l 5
+ 160 1340 l 1
+ 255 1340 l 1
+453 1340 m 1
+ 453 -640 l 5
+ 358 -640 l 5
+ 358 1340 l 1
+ 453 1340 l 1
+EndSplineSet
+EndChar

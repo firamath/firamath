@@ -1,0 +1,27 @@
+StartChar: tripleverticalline
+Encoding: 10624 10624 893
+Width: 751
+Flags: W
+GlyphVariantsVertical: tripleverticalline tripleverticalline.size1 tripleverticalline.size2 tripleverticalline.size3 tripleverticalline.size4
+VStem: 160 83<-102 807> 334 83<-102 807> 508 83<-102 807>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+591 807 m 1
+ 591 -102 l 1
+ 508 -102 l 1
+ 508 807 l 1
+ 591 807 l 1
+243 807 m 1
+ 243 -102 l 1
+ 160 -102 l 1
+ 160 807 l 1
+ 243 807 l 1
+417 807 m 1
+ 417 -102 l 1
+ 334 -102 l 1
+ 334 807 l 1
+ 417 807 l 1
+EndSplineSet
+EndChar
