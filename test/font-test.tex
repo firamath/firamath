@@ -39,6 +39,9 @@
   \dddot{#1}    \, \ddot{#1}  \, \dot{#1}   \, \grave{#1}   \, \hat{#1}       , \quad
   \mathring{#1} \, \tilde{#1} \, \vec{#1}   \, \widehat{#1} \, \widetilde{#1}
 }
+\def\MATRIXII{a & b & c & d \\ x & y & z & w}
+\def\MATRIXIII{a & b & c & d \\ k & l & m & n \\ x & y & z & w}
+\def\MATRIXIV{a & b & c & d \\ k & l & m & n \\ p & q & s & t \\ x & y & z & w}
 \ExplSyntaxOn
 \NewDocumentCommand \TOPACCENTMAP { m m }
   { \fonttest_top_accent_map:Nx #1 {#2} }
@@ -227,43 +230,28 @@
         \]
 
   \item Matrices:
-        \[
-          \begin{pmatrix}
-            a & b & c & d \\
-            k & l & m & n \\
-            p & q & s & t \\
-            x & y & z & w
-          \end{pmatrix}
-          \quad
-          \begin{bmatrix}
-            a & b & c & d \\
-            k & l & m & n \\
-            p & q & s & t \\
-            x & y & z & w
-          \end{bmatrix}
-          \quad
-          \begin{Bmatrix}
-            a & b & c & d \\
-            k & l & m & n \\
-            p & q & s & t \\
-            x & y & z & w
-          \end{Bmatrix}
-          \quad
-          \begin{vmatrix}
-            a & b & c & d \\
-            k & l & m & n \\
-            p & q & s & t \\
-            x & y & z & w
-          \end{vmatrix}
-          \quad
-          \begin{Vmatrix}
-            a & b & c & d \\
-            k & l & m & n \\
-            p & q & s & t \\
-            x & y & z & w
-          \end{Vmatrix}
-        \]
         \[ \mqty(a & b \\ c & d) + \mqty*(a & b \\ c & d) \]
+        \[
+          \begin{pmatrix} \MATRIXII  \end{pmatrix} \quad
+          \begin{bmatrix} \MATRIXII  \end{bmatrix} \quad
+          \begin{Bmatrix} \MATRIXII  \end{Bmatrix} \quad
+          \begin{vmatrix} \MATRIXII  \end{vmatrix} \quad
+          \begin{Vmatrix} \MATRIXII  \end{Vmatrix}
+        \]
+        \[
+          \begin{pmatrix} \MATRIXIII \end{pmatrix} \quad
+          \begin{bmatrix} \MATRIXIII \end{bmatrix} \quad
+          \begin{Bmatrix} \MATRIXIII \end{Bmatrix} \quad
+          \begin{vmatrix} \MATRIXIII \end{vmatrix} \quad
+          \begin{Vmatrix} \MATRIXIII \end{Vmatrix}
+        \]
+        \[
+          \begin{pmatrix} \MATRIXIV  \end{pmatrix} \quad
+          \begin{bmatrix} \MATRIXIV  \end{bmatrix} \quad
+          \begin{Bmatrix} \MATRIXIV  \end{Bmatrix} \quad
+          \begin{vmatrix} \MATRIXIV  \end{vmatrix} \quad
+          \begin{Vmatrix} \MATRIXIV  \end{Vmatrix}
+        \]
 \end{itemize}
 
 \verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|

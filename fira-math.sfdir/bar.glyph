@@ -3,6 +3,7 @@ Encoding: 124 124 91
 Width: 403
 Flags: W
 GlyphVariantsVertical: bar bar.size1 bar.size2 bar.size3 bar.size4
+GlyphCompositionVertical: 2  bar.ext%0,0,200,800 bar.ext%1,200,200,800
 HStem: -102 909<160 243 160 243>
 VStem: 160 83<-102 807 -102 807>
 LayerCount: 2

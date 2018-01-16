@@ -3,6 +3,7 @@ Encoding: 10624 10624 893
 Width: 751
 Flags: W
 GlyphVariantsVertical: tripleverticalline tripleverticalline.size1 tripleverticalline.size2 tripleverticalline.size3 tripleverticalline.size4
+GlyphCompositionVertical: 2  tripleverticalline.ext%0,0,200,800 tripleverticalline.ext%1,200,200,800
 VStem: 160 83<-102 807> 334 83<-102 807> 508 83<-102 807>
 CounterMasks: 1 e0
 LayerCount: 2
