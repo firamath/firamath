@@ -3,6 +3,7 @@ Encoding: 125 125 92
 Width: 322
 Flags: W
 GlyphVariantsVertical: braceright braceright.size1 braceright.size2 braceright.size3 braceright.size4
+GlyphCompositionVertical: 5  uni23AD%0,0,150,700 uni23AA%1,150,150,800 uni23AC%0,150,150,800 uni23AA%1,150,150,800 uni23AB%0,150,0,700
 HStem: -136 71<45 78.5 45 112.5> 311 76<270.5 297> 765 71<45 78.5>
 VStem: 140 87<3 13 13 235 458 465 465 687>
 LayerCount: 2
