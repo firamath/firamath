@@ -1,7 +1,7 @@
 StartChar: bracketleft.size1
 Encoding: 1114131 -1 800
 Width: 366
-Flags: W
+Flags: HW
 HStem: -392 80<168 308> 1012 80<168 308>
 VStem: 73 235<-392 -312 1012 1092> 73 95<-312 1012>
 LayerCount: 2
@@ -9,8 +9,8 @@ Fore
 SplineSet
 308 1092 m 1xe0
  308 1012 l 1xe0
- 168 1012 l 1
- 168 -312 l 1xd0
+ 167 1012 l 5
+ 167 -312 l 1xd0
  308 -312 l 1
  308 -392 l 1
  73 -392 l 1
