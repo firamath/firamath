@@ -1,0 +1,17 @@
+StartChar: uni27E9
+Encoding: 10217 10217 920
+Width: 336
+Flags: W
+GlyphVariantsVertical: uni27E9 uni27E9.size1 uni27E9.size2 uni27E9.size3 uni27E9.size4
+LayerCount: 2
+Fore
+SplineSet
+110 830 m 1
+ 40 802 l 1
+ 210 350 l 1
+ 40 -102 l 1
+ 110 -130 l 1
+ 296 350 l 1
+ 110 830 l 1
+EndSplineSet
+EndChar

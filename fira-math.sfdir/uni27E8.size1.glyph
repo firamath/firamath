@@ -1,0 +1,17 @@
+StartChar: uni27E8.size1
+Encoding: 1114170 -1 921
+Width: 400
+Flags: W
+VStem: 48 304
+LayerCount: 2
+Fore
+SplineSet
+274 1106 m 1
+ 352 1078 l 1
+ 142 350 l 1
+ 352 -378 l 1
+ 274 -406 l 1
+ 48 350 l 1
+ 274 1106 l 1
+EndSplineSet
+EndChar
