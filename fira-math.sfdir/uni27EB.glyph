@@ -1,0 +1,24 @@
+StartChar: uni27EB
+Encoding: 10219 10219 930
+Width: 516
+Flags: W
+GlyphVariantsVertical: uni27EB uni27EB.size1 uni27EB.size2 uni27EB.size3 uni27EB.size4
+LayerCount: 2
+Fore
+SplineSet
+110 830 m 1
+ 40 802 l 1
+ 210 350 l 1
+ 40 -102 l 1
+ 110 -130 l 1
+ 296 350 l 1
+ 110 830 l 1
+290 830 m 1
+ 220 802 l 1
+ 390 350 l 1
+ 220 -102 l 1
+ 290 -130 l 1
+ 476 350 l 1
+ 290 830 l 1
+EndSplineSet
+EndChar
