@@ -4,25 +4,25 @@ Width: 751
 Flags: W
 GlyphVariantsVertical: tripleverticalline tripleverticalline.size1 tripleverticalline.size2 tripleverticalline.size3 tripleverticalline.size4
 GlyphCompositionVertical: 2  tripleverticalline.ext%0,0,200,800 tripleverticalline.ext%1,200,200,800
-VStem: 160 83<-102 807> 334 83<-102 807> 508 83<-102 807>
+VStem: 160 83<-116 816> 334 83<-116 816> 508 83<-116 816>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-591 807 m 1
- 591 -102 l 1
- 508 -102 l 1
- 508 807 l 1
- 591 807 l 1
-243 807 m 1
- 243 -102 l 1
- 160 -102 l 1
- 160 807 l 1
- 243 807 l 1
-417 807 m 1
- 417 -102 l 1
- 334 -102 l 1
- 334 807 l 1
- 417 807 l 1
+591 816 m 1
+ 591 -116 l 1
+ 508 -116 l 1
+ 508 816 l 1
+ 591 816 l 1
+243 816 m 1
+ 243 -116 l 1
+ 160 -116 l 1
+ 160 816 l 1
+ 243 816 l 1
+417 816 m 1
+ 417 -116 l 1
+ 334 -116 l 1
+ 334 816 l 1
+ 417 816 l 1
 EndSplineSet
 EndChar

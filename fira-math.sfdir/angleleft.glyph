@@ -1,0 +1,17 @@
+StartChar: angleleft
+Encoding: 10216 10216 919
+Width: 336
+Flags: W
+VStem: 40 256
+LayerCount: 2
+Fore
+SplineSet
+226 830 m 1
+ 296 802 l 1
+ 296 802 126 350 126 350 c 1
+ 126 350 296 -102 296 -102 c 1
+ 226 -130 l 1
+ 226 -130 40 350 40 350 c 1
+ 40 350 226 830 226 830 c 1
+EndSplineSet
+EndChar

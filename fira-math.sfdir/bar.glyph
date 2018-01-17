@@ -4,16 +4,14 @@ Width: 403
 Flags: W
 GlyphVariantsVertical: bar bar.size1 bar.size2 bar.size3 bar.size4
 GlyphCompositionVertical: 2  bar.ext%0,0,200,800 bar.ext%1,200,200,800
-HStem: -102 909<160 243 160 243>
-VStem: 160 83<-102 807 -102 807>
+VStem: 160 83<-116 816>
 LayerCount: 2
 Fore
 SplineSet
-243 807 m 1
- 243 -102 l 1
- 160 -102 l 1
- 160 807 l 5
- 243 807 l 1
+243 816 m 1
+ 243 -116 l 1
+ 160 -116 l 1
+ 160 816 l 1
+ 243 816 l 1
 EndSplineSet
-Validated: 1
 EndChar
