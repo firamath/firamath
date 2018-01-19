@@ -2,6 +2,7 @@ StartChar: r
 Encoding: 114 114 81
 Width: 386
 Flags: W
+ItalicCorrection: 20
 TopAccentHorizontal: 236
 HStem: 0 21G<95 187 95 95> 449 90<292 322.5> 507 20G<95 174 174 174> 513 20G<376 376>
 VStem: 95 92<0 301 0 527>

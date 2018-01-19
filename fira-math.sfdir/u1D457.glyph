@@ -1,7 +1,8 @@
 StartChar: u1D457
 Encoding: 119895 119895 180
-Width: 279
-Flags: W
+Width: 319
+Flags: HW
+ItalicCorrection: 15
 TopAccentHorizontal: 209
 HStem: -213 21G<-45 -45> 507 20G<131 222 222 222> 655 125<189.5 218.5>
 VStem: 140 128<703.5 731.5>
@@ -21,5 +22,4 @@ SplineSet
  152 29 l 2
  131 -120 72 -163 -45 -213 c 1
 EndSplineSet
-Validated: 1
 EndChar

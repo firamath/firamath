@@ -2,6 +2,7 @@ StartChar: uni210E
 Encoding: 8462 8462 249
 Width: 581
 Flags: W
+ItalicCorrection: 20
 TopAccentHorizontal: 207
 HStem: 0 21G<57 148 57 57 363 454 363 363> 462 77<344.5 381> 728 20G<253 253>
 VStem: 417.14 92.23

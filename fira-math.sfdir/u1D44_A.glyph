@@ -2,6 +2,7 @@ StartChar: u1D44A
 Encoding: 119882 119882 168
 Width: 820
 Flags: W
+ItalicCorrection: 80
 TopAccentHorizontal: 470
 HStem: 0 83<200 200 200 246 128 200> 577 112<454 454> 669 20G<86 176 176 176 417 519 519 519 768 855 855 855>
 VStem: 86 769<689 689>
@@ -18,7 +19,7 @@ SplineSet
  176 689 l 1
  200 83 l 1
  417 689 l 1
- 519 689 l 5
+ 519 689 l 1
  568 83 l 1
  768 689 l 1
  855 689 l 1xb0

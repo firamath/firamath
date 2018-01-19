@@ -1,10 +1,11 @@
 StartChar: u1D456
 Encoding: 119894 119894 179
-Width: 279
+Width: 319
 Flags: W
+ItalicCorrection: 15
 TopAccentHorizontal: 208
-HStem: 0 21G<57 148 57 57> 507 20G<131 222 222 222> 655 125<188.5 217.5>
-VStem: 139 128<703.5 731.5>
+HStem: 0 21G<57 150.808> 507 20G<128.192 222> 655 125<156.974 249.026>
+VStem: 139 128<673.253 761.747>
 LayerCount: 2
 Fore
 SplineSet
@@ -19,5 +20,4 @@ SplineSet
  131 527 l 1
  222 527 l 1
 EndSplineSet
-Validated: 1
 EndChar
