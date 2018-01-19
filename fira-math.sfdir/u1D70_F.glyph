@@ -2,6 +2,7 @@ StartChar: u1D70F
 Encoding: 120591 120591 403
 Width: 446
 Flags: W
+ItalicCorrection: 60
 TopAccentHorizontal: 263
 HStem: -11 21G<247 247> 452 75<106.5 480 140 198 289 469 289 289>
 VStem: 151.46 91.43
