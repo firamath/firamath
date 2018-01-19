@@ -1,0 +1,33 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{amsmath}
+\usepackage[no-math]{fontspec}
+\usepackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
+\usepackage{tensor,physics}
+\useoutertheme{metropolis}
+\useinnertheme{metropolis}
+\usecolortheme{metropolis}
+\usefonttheme{professionalfonts}
+
+\setsansfont{Fira Sans}
+\setmathfont{fira-math.otf}[Path=../assets/]
+
+\begin{document}
+
+\begin{frame}{General relativity}
+\begin{itemize}
+  \item Einstein's field equations:
+    \[ G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu} \]
+  %\item Conservation of energy and momentum:
+  %  \[ \nabla_\beta T^{\alpha\beta} = \tensor{T}{^{\alpha\beta}_{;\,\beta}} = 0 \]
+  \item Schwarzschild metric:
+    \[
+      c^2 \dd{\tau}^2 = \qty(1-\frac{r_{\mathrm{s}}}{r}) \, c^2 \dd{t}^2
+                      - \qty(1-\frac{r_{\mathrm{s}}}{r})^{-1} \dd{r}^2
+                      - r^2 \qty(\dd{\theta}^2 + \sin^2 \theta \dd{\varphi}^2)
+    \]
+  \item Einstein--Hilbert action:
+    \[ S = \frac{1}{2\kappa} \int R \sqrt{-g} \dd[4]{x} \]
+\end{itemize}
+\end{frame}
+
+\end{document}
