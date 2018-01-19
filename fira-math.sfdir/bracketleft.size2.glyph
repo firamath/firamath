@@ -2,6 +2,7 @@ StartChar: bracketleft.size2
 Encoding: 1114132 -1 801
 Width: 407
 Flags: W
+IsExtendedShape: 1
 HStem: -640 83<181 341> 1257 83<181 341>
 VStem: 81 260<-640 -557 1257 1340> 81 100<-557 1257>
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: tripleverticalline.size3
 Encoding: 1114157 -1 904
 Width: 841
 Flags: W
+IsExtendedShape: 1
 VStem: 160 101<-888 1588> 370 101<-888 1588> 580 101<-888 1588>
 CounterMasks: 1 e0
 LayerCount: 2

@@ -2,6 +2,7 @@ StartChar: doubleverticalline.size2
 Encoding: 1114152 -1 899
 Width: 613
 Flags: W
+IsExtendedShape: 1
 VStem: 160 95<-640 1340> 358 95<-640 1340>
 LayerCount: 2
 Fore

@@ -2,6 +2,7 @@ StartChar: braceright.size1
 Encoding: 1114143 -1 812
 Width: 372
 Flags: W
+IsExtendedShape: 1
 HStem: -392 78<53 122.782> 309 82<299.159 351> 1014 78<53 122.782>
 VStem: 173 93<-258.648 -169 178 272.111 427.889 522 869 958.648>
 CounterMasks: 1 e0

@@ -2,6 +2,7 @@ StartChar: bar.size3
 Encoding: 1114149 -1 896
 Width: 421
 Flags: W
+IsExtendedShape: 1
 VStem: 160 101<-888 1588>
 LayerCount: 2
 Fore

@@ -2,6 +2,7 @@ StartChar: parenleft.size2
 Encoding: 1114124 -1 793
 Width: 452
 Flags: W
+IsExtendedShape: 1
 VStem: 56 116<74.0252 626.387>
 LayerCount: 2
 Fore

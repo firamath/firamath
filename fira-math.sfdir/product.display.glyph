@@ -2,6 +2,7 @@ StartChar: product.display
 Encoding: 1114115 -1 666
 Width: 1335
 Flags: W
+IsExtendedShape: 1
 HStem: 1067 103<57 240 350 1000 1110 1280>
 VStem: 240 110<-364 1067> 1000 110<-364 1067>
 LayerCount: 2
