@@ -4,6 +4,7 @@ Width: 1052
 VWidth: 1496
 Flags: W
 GlyphVariantsHorizontal: uni23DE uni23DE.size1 uni23DE.size2 uni23DE.size3 uni23DE.size4
+GlyphCompositionHorizontal: 5  uni23DE.left%0,0,150,700 uni23DE.ext%1,150,150,800 uni23DE.mid%0,150,150,800 uni23DE.ext%1,150,150,800 uni23DE.right%0,150,0,700
 HStem: 815 87<128.673 476.21 575.79 923.327>
 VStem: 40 71<720 796.39> 489 74<915.163 972> 941 71<720 796.39>
 CounterMasks: 1 70

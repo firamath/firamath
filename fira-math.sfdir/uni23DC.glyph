@@ -4,6 +4,7 @@ Width: 1070
 VWidth: 1492
 Flags: W
 GlyphVariantsHorizontal: uni23DC uni23DC.size1 uni23DC.size2 uni23DC.size3 uni23DC.size4
+GlyphCompositionHorizontal: 3  uni23DC.left%0,0,150,1485 uni23DC.ext%1,150,150,700 uni23DC.right%0,150,0,1485
 HStem: 868 96<352.732 717.49>
 LayerCount: 2
 Fore

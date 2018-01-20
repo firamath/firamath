@@ -1,0 +1,16 @@
+StartChar: uni23DC.left
+Encoding: 1114210 -1 974
+Width: 1485
+VWidth: 1212
+Flags: W
+HStem: 1040 128<1204.9 1485>
+LayerCount: 2
+Fore
+SplineSet
+1485 1040 m 17
+ 843 1040 473 909 74 720 c 1
+ 0 794 l 1
+ 417 1000 774 1168 1485 1168 c 9
+ 1485 1040 l 17
+EndSplineSet
+EndChar

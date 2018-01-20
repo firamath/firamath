@@ -4,6 +4,7 @@ Width: 1012
 VWidth: 346
 Flags: W
 GlyphVariantsHorizontal: uni23B5 uni23B5.size1 uni23B5.size2 uni23B5.size3 uni23B5.size4
+GlyphCompositionHorizontal: 3  uni23B5.left%0,0,150,1485 uni23B5.ext%1,150,150,700 uni23B5.right%0,150,0,1485
 HStem: -408 208<40 116 894 972> -408 88<116 894>
 VStem: 40 76<-320 -200> 894 78<-320 -200>
 LayerCount: 2

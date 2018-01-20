@@ -49,6 +49,9 @@
   { \tl_map_inline:nn {#2} { \[ \TOPACCENT{#1{##1}} \] } }
 \cs_generate_variant:Nn \fonttest_top_accent_map:Nn { Nx }
 \ExplSyntaxOff
+\def\OVERUNDERLINE#1{%
+  #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c}}
+\def\LISTTEXT{x_1, \, x_2, \, \ldots, \, x_n}
 \def\ligaturetext{ff\quad fi\quad fl\quad ffi\quad ffl}
 
 \begin{document}
@@ -280,6 +283,15 @@
           \tilde{\nabla}         \quad \tilde{\symbf{\nabla}}   \quad
           \tilde{\symit{\nabla}} \quad \tilde{\symbfit{\nabla}}
         \]
+  \item Over-/underline and over-/underbraces
+        \[ \OVERUNDERLINE{\overline}     \quad \overline     {\LISTTEXT}   \]
+        \[ \OVERUNDERLINE{\overparen}    \quad \overparen    {\LISTTEXT}^n \]
+        \[ \OVERUNDERLINE{\overbracket}  \quad \overbracket  {\LISTTEXT}^n \]
+        \[ \OVERUNDERLINE{\overbrace}    \quad \overbrace    {\LISTTEXT}^n \]
+        \[ \OVERUNDERLINE{\underline}    \quad \underline    {\LISTTEXT}   \]
+        \[ \OVERUNDERLINE{\underparen}   \quad \underparen   {\LISTTEXT}_n \]
+        \[ \OVERUNDERLINE{\underbracket} \quad \underbracket {\LISTTEXT}_n \]
+        \[ \OVERUNDERLINE{\underbrace}   \quad \underbrace   {\LISTTEXT}_n \]
 \end{itemize}
 
 \verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|

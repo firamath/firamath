@@ -1,0 +1,16 @@
+StartChar: uni23DF.ext
+Encoding: 1114227 -1 991
+Width: 800
+VWidth: 149
+Flags: W
+HStem: -506 111<0 800>
+LayerCount: 2
+Fore
+SplineSet
+0 -395 m 1
+ 800 -395 l 1
+ 800 -506 l 1
+ 0 -506 l 1
+ 0 -395 l 1
+EndSplineSet
+EndChar
