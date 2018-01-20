@@ -1,0 +1,19 @@
+StartChar: uni23DD
+Encoding: 9181 9181 947
+Width: 1070
+VWidth: 328
+Flags: W
+GlyphVariantsHorizontal: uni23DD uni23DD.size1 uni23DD.size2 uni23DD.size3 uni23DD.size4
+HStem: -444 96<352.732 717.49>
+LayerCount: 2
+Fore
+SplineSet
+1030 -258 m 1
+ 891 -356 772 -444 535 -444 c 0
+ 298 -444 179 -356 40 -258 c 1
+ 80 -200 l 1
+ 213 -290 321 -348 535 -348 c 0
+ 750 -348 857 -290 990 -200 c 1
+ 1030 -258 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,21 @@
+StartChar: uni23B4.size2
+Encoding: 1114195 -1 959
+Width: 2076
+VWidth: 1500
+Flags: W
+HStem: 720 260<48 131 1945 2028> 880 100<131 1945>
+VStem: 48 83<720 880> 1945 83<720 880>
+LayerCount: 2
+Fore
+SplineSet
+2028 720 m 1xb0
+ 1945 720 l 1xb0
+ 1945 880 l 1
+ 131 880 l 1x70
+ 131 720 l 1
+ 48 720 l 1
+ 48 980 l 1
+ 2028 980 l 1
+ 2028 720 l 1xb0
+EndSplineSet
+EndChar

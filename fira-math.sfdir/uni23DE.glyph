@@ -1,0 +1,30 @@
+StartChar: uni23DE
+Encoding: 9182 9182 948
+Width: 1052
+VWidth: 1496
+Flags: W
+GlyphVariantsHorizontal: uni23DE uni23DE.size1 uni23DE.size2 uni23DE.size3 uni23DE.size4
+HStem: 815 87<128.673 476.21 575.79 923.327>
+VStem: 40 71<720 796.39> 489 74<915.163 972> 941 71<720 796.39>
+CounterMasks: 1 70
+LayerCount: 2
+Fore
+SplineSet
+1012 720 m 1
+ 941 720 l 1
+ 941 787 923 815 873 815 c 2
+ 634 815 l 2
+ 561 815 542 843 526 890 c 1
+ 510 843 491 815 418 815 c 2
+ 179 815 l 2
+ 129 815 111 787 111 720 c 1
+ 40 720 l 1
+ 40 855 84 902 189 902 c 2
+ 411 902 l 2
+ 466 902 489 919 489 972 c 1
+ 563 972 l 1
+ 563 919 586 902 641 902 c 2
+ 863 902 l 2
+ 968 902 1012 855 1012 720 c 1
+EndSplineSet
+EndChar

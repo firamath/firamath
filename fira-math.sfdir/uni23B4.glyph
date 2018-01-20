@@ -1,0 +1,22 @@
+StartChar: uni23B4
+Encoding: 9140 9140 944
+Width: 1012
+VWidth: 1474
+Flags: W
+GlyphVariantsHorizontal: uni23B4 uni23B4.size1 uni23B4.size2 uni23B4.size3 uni23B4.size4
+HStem: 720 208<40 116 896 972> 840 88<116 896>
+VStem: 40 76<720 840> 896 76<720 840>
+LayerCount: 2
+Fore
+SplineSet
+972 720 m 1xb0
+ 896 720 l 1xb0
+ 896 840 l 1
+ 116 840 l 1x70
+ 116 720 l 1
+ 40 720 l 1
+ 40 928 l 1
+ 972 928 l 1
+ 972 720 l 1xb0
+EndSplineSet
+EndChar
