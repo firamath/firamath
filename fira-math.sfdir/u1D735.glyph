@@ -1,0 +1,20 @@
+StartChar: u1D735
+Encoding: 120629 120629 942
+Width: 700
+Flags: HW
+ItalicCorrection: 25
+TopAccentHorizontal: 358
+LayerCount: 2
+Fore
+SplineSet
+360.002929688 0 m 1
+ 670 693 l 1
+ 45 693 l 1
+ 162.002929688 0 l 1
+ 360.002929688 0 l 1
+276.002929688 121 m 1
+ 210.002929688 573 l 1
+ 462.002929688 573 l 1
+ 276.002929688 121 l 1
+EndSplineSet
+EndChar
