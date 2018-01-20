@@ -7,14 +7,21 @@
 \useinnertheme{metropolis}
 \usecolortheme{metropolis}
 \usefonttheme{professionalfonts}
+\setbeamertemplate{footline}{\vspace*{0.5cm}}
 
 \setsansfont{Fira Sans}
 \setmathfont{fira-math.otf}[Path=../assets/]
 
 \begin{document}
 
-\begin{frame}{General relativity}
+\begin{frame}[noframenumbering]{General relativity}
 \begin{itemize}
+  \item Covariant derivative:
+    \[
+      \nabla \symbf{X} = \tensor{X}{^\alpha_{;\beta}} \pdv{x^\alpha} \otimes \dd{x^\beta}
+                       = \qty(\tensor{X}{^\alpha_{,\beta}} + \Gamma^{\alpha}_{\beta\gamma} \, X^\gamma) \,
+                         \pdv{x^\alpha} \otimes \dd{x^\beta}
+    \]
   \item Einstein's field equations:
     \[ G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu} \]
   %\item Conservation of energy and momentum:
@@ -23,7 +30,7 @@
     \[
       c^2 \dd{\tau}^2 = \qty(1-\frac{r_{\mathrm{s}}}{r}) \, c^2 \dd{t}^2
                       - \qty(1-\frac{r_{\mathrm{s}}}{r})^{-1} \dd{r}^2
-                      - r^2 \qty(\dd{\theta}^2 + \sin^2 \theta \dd{\varphi}^2)
+                      - r^2 \underbrace{\qty(\dd{\theta}^2 + \sin^2 \theta \dd{\varphi}^2)}_{\dd{\Omega}^2}
     \]
   \item Einstein--Hilbert action:
     \[ S = \frac{1}{2\kappa} \int R \sqrt{-g} \dd[4]{x} \]
