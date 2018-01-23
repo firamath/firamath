@@ -3,6 +3,7 @@ Encoding: 8750 8750 1000
 Width: 639
 Flags: W
 ItalicCorrection: 240
+GlyphVariantsVertical: uni222E.display
 HStem: -211 69<-3.10938 120.552> 88 61<290 353.859> 466 61<192.219 249> 759 69<418.448 542.109>
 VStem: 53 60<228.546 386.111> 433 60<229.638 386.646>
 LayerCount: 2
