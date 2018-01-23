@@ -2,6 +2,7 @@ StartChar: uni222C.up
 Encoding: 1114231 -1 995
 Width: 780
 Flags: W
+ItalicCorrection: 180
 GlyphVariantsVertical: uni222C.display.up
 HStem: -213 75<-18.3601 122.458 281.64 422.458> 778 74<238.729 390.516 538.729 690.516>
 VStem: 136 89<-121.946 763.624> 436 89<-121.946 763.624>

@@ -2,6 +2,7 @@ StartChar: integral.up
 Encoding: 1114230 -1 994
 Width: 480
 Flags: W
+ItalicCorrection: 180
 GlyphVariantsVertical: integral.display.up
 HStem: -213 75<-18.3601 122.458> 778 74<238.729 390.516>
 VStem: 136 89<-121.946 763.624>
