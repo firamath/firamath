@@ -9,8 +9,10 @@
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
 
 \setmathfont{fira-math.otf}[Path=../assets/]
+\setmathfont{fira-math.otf}[Path=../assets/, version=upintegral, StylisticSet=1]
 \newfontface\firatext{fira-math.otf}[Path=../assets/]
 %\setmathfont{XITS Math}
+%\setmathfont{XITS Math}[version=upintegral, StylisticSet=8]
 %\newfontface\firatext{XITS Math}
 %\setmathfont{Latin Modern Math}
 %\newfontface\firatext{Latin Modern Math}
@@ -175,6 +177,14 @@
           = \int\limits_0^\pi \sin x \, \mathrm{d} x
           = \cos 0 - \cos\pi + C
         \]
+        \begingroup
+          \mathversion{upintegral}
+          \[
+              \int_0^\pi        \sin x \, \mathrm{d} x
+            = \int\limits_0^\pi \sin x \, \mathrm{d} x
+            = \cos 0 - \cos\pi + C
+          \]
+        \endgroup
         \[
           \int_{-\infty}^{+\infty}   \mathrm{d} z
           \iint_{-\infty}^{+\infty}  \mathrm{d}^2 y

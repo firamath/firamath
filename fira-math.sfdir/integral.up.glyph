@@ -1,10 +1,8 @@
-StartChar: integral
-Encoding: 8747 8747 498
+StartChar: integral.up
+Encoding: 1114230 -1 994
 Width: 480
 Flags: W
-ItalicCorrection: 180
-IsExtendedShape: 1
-GlyphVariantsVertical: integral integral.display
+GlyphVariantsVertical: integral.display.up
 HStem: -213 75<-18.3601 122.458> 778 74<238.729 390.516>
 VStem: 136 89<-121.946 763.624>
 LayerCount: 2
@@ -24,5 +22,4 @@ SplineSet
  136 701 l 2
  136 802 193 852 288 852 c 0
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 1-1" integral.up
 EndChar
