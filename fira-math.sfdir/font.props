@@ -48,8 +48,8 @@ MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
 MATH:DelimitedSubFormulaMinHeight: 1500
 MATH:DisplayOperatorMinHeight: 1500
-MATH:MathLeading: 0 
-MATH:AxisHeight: 331 
+MATH:MathLeading: 150 
+MATH:AxisHeight: 280 
 MATH:AccentBaseHeight: 527 
 MATH:FlattenedAccentBaseHeight: 689 
 MATH:SubscriptShiftDown: 350 
@@ -66,25 +66,25 @@ MATH:UpperLimitGapMin: 150
 MATH:UpperLimitBaselineRiseMin: 150 
 MATH:LowerLimitGapMin: 150 
 MATH:LowerLimitBaselineDropMin: 600 
-MATH:StackTopShiftUp: 0 
-MATH:StackTopDisplayStyleShiftUp: 0 
-MATH:StackBottomShiftDown: 0 
-MATH:StackBottomDisplayStyleShiftDown: 0 
-MATH:StackGapMin: 150 
-MATH:StackDisplayStyleGapMin: 350 
-MATH:StretchStackTopShiftUp: 0 
-MATH:StretchStackBottomShiftDown: 0 
-MATH:StretchStackGapAboveMin: 0 
-MATH:StretchStackGapBelowMin: 0 
-MATH:FractionNumeratorShiftUp: 580 
+MATH:StackTopShiftUp: 450 
+MATH:StackTopDisplayStyleShiftUp: 580 
+MATH:StackBottomShiftDown: 480 
+MATH:StackBottomDisplayStyleShiftDown: 700 
+MATH:StackGapMin: 200 
+MATH:StackDisplayStyleGapMin: 500 
+MATH:StretchStackTopShiftUp: 300 
+MATH:StretchStackBottomShiftDown: 600 
+MATH:StretchStackGapAboveMin: 150 
+MATH:StretchStackGapBelowMin: 150 
+MATH:FractionNumeratorShiftUp: 450 
 MATH:FractionNumeratorDisplayStyleShiftUp: 580 
 MATH:FractionDenominatorShiftDown: 480 
 MATH:FractionDenominatorDisplayStyleShiftDown: 700 
-MATH:FractionNumeratorGapMin: 50 
-MATH:FractionNumeratorDisplayStyleGapMin: 150 
+MATH:FractionNumeratorGapMin: 80 
+MATH:FractionNumeratorDisplayStyleGapMin: 200 
 MATH:FractionRuleThickness: 76 
-MATH:FractionDenominatorGapMin: 50 
-MATH:FractionDenominatorDisplayStyleGapMin: 150 
+MATH:FractionDenominatorGapMin: 80 
+MATH:FractionDenominatorDisplayStyleGapMin: 200 
 MATH:SkewedFractionHorizontalGap: 0 
 MATH:SkewedFractionVerticalGap: 0 
 MATH:OverbarVerticalGap: 150 
@@ -108,7 +108,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 783 27 9
+WinInfo: 8154 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
