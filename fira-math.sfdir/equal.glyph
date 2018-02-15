@@ -2,21 +2,19 @@ StartChar: equal
 Encoding: 61 61 28
 Width: 500
 Flags: W
-HStem: 196 77<62 438 62 438> 389 77<62 438 62 438>
-VStem: 62 376<196 273 196 273 389 466 196 466>
+HStem: 145 77<62 438> 338 77<62 438>
 LayerCount: 2
 Fore
 SplineSet
-62 389 m 1
- 62 466 l 1
- 438 466 l 1
- 438 389 l 1
- 62 389 l 1
-62 196 m 1
- 62 273 l 1
- 438 273 l 1
- 438 196 l 1
- 62 196 l 1
+62 338 m 1
+ 62 415 l 1
+ 438 415 l 1
+ 438 338 l 1
+ 62 338 l 1
+62 145 m 1
+ 62 222 l 1
+ 438 222 l 1
+ 438 145 l 5
+ 62 145 l 1
 EndSplineSet
-Validated: 1
 EndChar

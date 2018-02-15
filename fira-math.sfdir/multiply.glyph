@@ -1,22 +1,22 @@
 StartChar: multiply
 Encoding: 215 215 668
 Width: 500
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-374 512 m 5
- 430 456 l 5
- 306 332 l 5
- 430 208 l 5
- 374 152 l 5
- 250 276 l 5
- 126 152 l 5
- 70 208 l 5
- 194 332 l 5
- 70 456 l 5
- 126 512 l 5
- 250 388 l 5
- 374 512 l 5
+374 460 m 1
+ 430 404 l 1
+ 306 280 l 1
+ 430 156 l 1
+ 374 100 l 1
+ 250 224 l 1
+ 126 100 l 1
+ 70 156 l 1
+ 194 280 l 1
+ 70 404 l 1
+ 126 460 l 1
+ 250 336 l 1
+ 374 460 l 1
 EndSplineSet
 EndChar
