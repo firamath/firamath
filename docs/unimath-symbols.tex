@@ -18,16 +18,8 @@
 \def\cmd#1{\texttt{\textbackslash\expandafter\@gobble\string#1}}
 
 \usepackage{fontspec}
-\setmainfont{texgyrepagella}%
- [
-  Extension = .otf ,
-  UprightFont = *-regular,
-  ItalicFont = *-italic,
-  BoldFont = *-bold,
-  BoldItalicFont = *-bolditalic,
-  Ligatures=TeX,
-  Numbers={Lowercase,Monospaced},
- ]
+\setmainfont{TeX Gyre Pagella}[Ligatures=TeX,Numbers={Lowercase,Monospaced}]
+\setsansfont{TeX Gyre Heros}
 \usepackage[math-style=literal,bold-style=literal]{unicode-math}
 
 \ExplSyntaxOn
@@ -181,9 +173,9 @@ The following fonts are shown: (with approximate symbol counts)
 \end{itemize}
 Note that there are addition maths fonts in the `\TeX\ Gyre' collection which aren't included here.
 
-Symbols defined in Plain \TeX\ are indicated with {\color[gray]{0.6} \textsuperscript{\sffamily (p)}} after their macro name.
-\LaTeX\ follows Plain \TeX, but defines a handful more, indicated with {\color[gray]{0.6} \textsuperscript{\sffamily (l)}}
-Symbols defined in \textsf{amssymb} are indicated with {\color[gray]{0.6} \textsuperscript{\sffamily (a)}}.
+Symbols defined in Plain \TeX\ are indicated with~{\color[gray]{0.6} \textsuperscript{\sffamily (p)}} after their macro name.
+\LaTeX\ follows Plain \TeX, but defines a handful more, indicated with~{\color[gray]{0.6} \textsuperscript{\sffamily (l)}}
+Symbols defined in \textsf{amssymb} are indicated with~{\color[gray]{0.6} \textsuperscript{\sffamily (a)}}.
 
 \tableofcontents
 
