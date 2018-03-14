@@ -1,26 +1,26 @@
 StartChar: product
 Encoding: 8719 8719 491
-Width: 678
+Width: 738
 Flags: W
 IsExtendedShape: 1
 GlyphVariantsVertical: product product.display
-HStem: -213 21G<129 219 464 554> 593 76<57 129 219 464 554 621>
-VStem: 129 90<-202 593> 464 90<-202 593>
+HStem: 633 76<57 129 219 524 614 681>
+VStem: 129 90<-153 633> 524 90<-153 633>
 LayerCount: 2
 Fore
 SplineSet
-621 593 m 5
- 554 593 l 5
- 554 -202 l 5
- 464 -213 l 5
- 464 593 l 5
- 219 593 l 5
- 219 -202 l 5
- 129 -213 l 5
- 129 593 l 5
- 57 593 l 5
- 57 669 l 5
- 621 669 l 5
- 621 593 l 5
+681 633 m 1
+ 614 633 l 1
+ 614 -153 l 1
+ 524 -153 l 1
+ 524 633 l 1
+ 219 633 l 1
+ 219 -153 l 1
+ 129 -153 l 5
+ 129 633 l 1
+ 57 633 l 1
+ 57 709 l 1
+ 681 709 l 1
+ 681 633 l 1
 EndSplineSet
 EndChar
