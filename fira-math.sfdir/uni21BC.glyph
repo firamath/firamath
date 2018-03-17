@@ -1,0 +1,17 @@
+StartChar: uni21BC
+Encoding: 8636 8636 1019
+Width: 1040
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+134 240 m 1
+ 920 240 l 1
+ 920 320 l 1
+ 280 320 l 1
+ 404 432 l 1
+ 350 492 l 1
+ 110 271 l 25
+ 134 240 l 1
+EndSplineSet
+EndChar

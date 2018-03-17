@@ -1,20 +1,18 @@
-StartChar: arrowdown
-Encoding: 8595 8595 483
+StartChar: uni21C2
+Encoding: 8642 8642 1025
 Width: 664
-Flags: HW
+Flags: W
 VStem: 292 80<40 680>
 LayerCount: 2
 Fore
 SplineSet
-544 110 m 1
- 332 -120 l 1
- 120 110 l 1
- 180 164 l 1
- 292 40 l 1
- 292 680 l 5
+292 -106 m 1
+ 292 680 l 1
  372 680 l 1
  372 40 l 1
  484 164 l 1
  544 110 l 1
+ 323 -130 l 25
+ 292 -106 l 1
 EndSplineSet
 EndChar

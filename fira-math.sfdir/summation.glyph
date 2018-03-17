@@ -1,7 +1,7 @@
 StartChar: summation
 Encoding: 8721 8721 492
 Width: 687
-Flags: WO
+Flags: W
 IsExtendedShape: 1
 GlyphVariantsVertical: summation summation.display
 LayerCount: 2
