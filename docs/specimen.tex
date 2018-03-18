@@ -5,14 +5,7 @@
 \usepackage{hyperref}
 
 \geometry{a4paper, hmargin=0.5in, vmargin=1.0in}
-
-\ExplSyntaxOn
-\keys_set:nn { ctex }
-  {
-    section/format = \Large\bfseries\centering
-  }
-\ExplSyntaxOff
-
+\ctexset{section/format = \Large\bfseries\centering}
 \hypersetup{bookmarksnumbered = true}
 
 \setmainfont{Fira Code}
@@ -26,16 +19,16 @@
 \makeatletter
 \ExplSyntaxOn
 
-\definecolor { symbol@bg@color   } { named } { white     } % { HTML } { FAFAFA }
-\definecolor { encoding@bg@color } { named } { lightgray } % { HTML } { BDBDBD }
-\definecolor { nochar@bg@color   } { named } { red       } % { HTML } { E91E63 }
-\definecolor { reversed@bg@color } { named } { blue      } % { HTML } { BDBDBD }
+\definecolor { symbol   @ bg } { named } { white     } % { HTML } { FAFAFA }
+\definecolor { encoding @ bg } { named } { lightgray } % { HTML } { BDBDBD }
+\definecolor { nochar   @ bg } { named } { red       } % { HTML } { E91E63 }
+\definecolor { reversed @ bg } { named } { blue      } % { HTML } { BDBDBD }
 
 \file_input:n { unicode-reversed.tex }
 
 \cs_new_protected:Npn \fonttable_symbol:n #1
   { \tex_char:D \int_eval:n {#1} \scan_stop: }
-\prg_new_protected_conditional:Npnn \fonttable_if_char_exist:n #1 { T, F, TF}
+\prg_new_protected_conditional:Npnn \fonttable_if_char_exist:n #1 { T, F, TF }
   {
     \etex_iffontchar:D \tex_font:D \int_eval:n {#1} \scan_stop:
       \prg_return_true:
@@ -46,20 +39,19 @@
 
 \cs_new_protected:Npn \fonttable_glyph:n #1
   {
-    %\group_begin:
-    \exp_args:NNx \clist_if_in:NnTF \fonttable_unicode_reversed_clist { \int_to_Hex:n {#1} }
-      { \cellcolor { reversed@bg@color } }
+    \exp_args:NNx \clist_if_in:NnTF
+      \fonttable_unicode_reversed_clist { \int_to_Hex:n {#1} }
+      { \cellcolor { reversed@bg } }
       {
         \SYMBOLFONT
         \fonttable_if_char_exist:nTF {#1}
           {
-            \cellcolor { symbol@bg@color }
+            \cellcolor { symbol@bg }
             \Large
             \fonttable_symbol:n {#1}
           }
-          { \cellcolor { nochar@bg@color } }
+          { \cellcolor { nochar@bg } }
       }
-    %\group_end:
   }
 \cs_new_protected:Npn \fonttable_glyph_with_alignment:n #1
   { \fonttable_glyph:n {#1} & }
@@ -67,7 +59,7 @@
 \cs_new_protected:Npn \fonttable_encoding:n #1
   {
     \group_begin:
-      \cellcolor { encoding@bg@color }
+      \cellcolor { encoding@bg }
       \ttfamily \tiny
       \int_compare:nNnTF {#1} < { "100 }
         { 00 }
@@ -111,7 +103,7 @@
     \raisebox { 20pt }
       {
         \ttfamily
-        \int_set:Nn \l__fonttable_tmpa_int { #1 / \c_sixteen }
+        \int_set:Nn \l__fonttable_tmpa_int { #1 / 16 }
         \int_compare:nNnTF { \l__fonttable_tmpa_int } < { "10 }
           { 00 }
           {
@@ -119,6 +111,7 @@
             { 0 }
           }
         \int_to_Hex:n { \l__fonttable_tmpa_int }
+        \skip_horizontal:n { 6pt }
       }
   }
 
@@ -133,6 +126,7 @@
     % Symbol row
     \fonttable_hline:
     \fonttable_set_arstrut:nn { 20pt } { 10pt }
+    % Row number
     \multirow { 2 } * { \fonttable_row_nummber:n {#1} } &
     \int_step_function:nnnN {#1} { 1 } { #1 + 14 }
       \fonttable_glyph_with_alignment:n
@@ -149,11 +143,14 @@
 \cs_new:Npn \fonttable_multi_row:nn #1#2
   {
     \int_step_function:nnnN
-      { \int_div_truncate:nn {#1} { 16 } * 16 }
+      { \__fonttable_div_sixteen:n {#1} * 16 }
       { 16 }
-      { (\int_div_truncate:nn {#2} { 16 } + 1) * 16 - 1 }
+      { (\__fonttable_div_sixteen:n {#2} + 1) * 16 - 1 }
       \fonttable_row:n
   }
+
+\cs_new:Npn \__fonttable_div_sixteen:n #1
+  { \int_div_truncate:nn {#1} { 16 } }
 
 \cs_new:Npn \fonttable_first_row_cell:n #1
   {
@@ -173,22 +170,32 @@
 
 \newcolumntype {C} [1] { >{\centering\arraybackslash} m {#1} }
 
-\NewDocumentCommand \fonttable { m m }
+\dim_new:N  \l__fonttable_cell_wd_dim
+\dim_new:N  \l__fonttable_column_sep_dim
+\dim_set:Nn \l__fonttable_cell_wd_dim    { 30 pt }
+\dim_set:Nn \l__fonttable_column_sep_dim {  0 pt }
+
+\cs_new_protected:Npn \fonttable_make_table:nn #1#2
   {
-    \begin{longtable}{ r | *{16}{ C{18pt} | } }
+    \longtable { r | *{16}{ C{ \l__fonttable_cell_wd_dim } | } }
       &
       \multicolumn {16} { @{} c @{} | }
         {
-          \begin{tabular} { * {16} { C{18pt} } }
+          \tabular { * {16} { C{ \l__fonttable_cell_wd_dim } } }
             \fonttable_first_row:
-          \end{tabular}
+          \endtabular
         }
       \\
       \fonttable_multi_row:nn {#1} {#2}
       \fonttable_hline:
-    \end{longtable}
+    \endlongtable
     \clearpage
   }
+
+\NewDocumentCommand \fonttable { m m }
+  { \fonttable_make_table:nn {#1} {#2} }
+
+\dim_set_eq:NN \tabcolsep \l__fonttable_column_sep_dim
 
 \ExplSyntaxOff
 \makeatother
@@ -274,10 +281,10 @@
 %
 \section{Miscellaneous Mathematical Symbols-A}
 \fonttable{"27C0}{"27EF}
-%
-%\section{Supplemental Arrows-A}
-%\fonttable{"27F0}{"27FF}
-%
+
+\section{Supplemental Arrows-A}
+\fonttable{"27F0}{"27FF}
+
 %\section{Braille Patterns}
 %\fonttable{"2800}{"28FF}
 %
@@ -286,7 +293,7 @@
 %
 \section{Miscellaneous Mathematical Symbols-B}
 \fonttable{"2980}{"29FF}
-%
+
 %\section{Supplemental Mathematical Operators}
 %\fonttable{"2A00}{"2AFF}
 %
