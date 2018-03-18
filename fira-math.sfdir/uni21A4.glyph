@@ -1,0 +1,23 @@
+StartChar: uni21A4
+Encoding: 8612 8612 1034
+Width: 1040
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+350 492 m 1
+ 120 280 l 1
+ 350 68 l 1
+ 404 128 l 1
+ 280 240 l 1
+ 840 240 l 1
+ 840 88 l 1
+ 920 88 l 1
+ 920 472 l 1
+ 840 472 l 1
+ 840 320 l 1
+ 280 320 l 1
+ 404 432 l 1
+ 350 492 l 1
+EndSplineSet
+EndChar

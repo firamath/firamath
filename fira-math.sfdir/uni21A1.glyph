@@ -1,0 +1,28 @@
+StartChar: uni21A1
+Encoding: 8609 8609 1033
+Width: 664
+Flags: W
+HStem: 0 21G<273.935 292 372 390.065>
+LayerCount: 2
+Fore
+SplineSet
+120 70 m 1
+ 332 -160 l 1
+ 544 70 l 1
+ 484 124 l 1
+ 372 0 l 1
+ 372 123 l 1
+ 544 310 l 1
+ 484 364 l 1
+ 372 240 l 1
+ 372 720 l 1
+ 292 720 l 1
+ 292 240 l 1
+ 180 364 l 1
+ 120 310 l 1
+ 292 123 l 1
+ 292 0 l 1
+ 180 124 l 1
+ 120 70 l 1
+EndSplineSet
+EndChar
