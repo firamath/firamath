@@ -2,7 +2,7 @@
 
 ## Showcase
 
-![Showcase](https://raw.githubusercontent.com/Stone-Zeng/FiraMath/master/images/slide.png)
+![Showcase](https://raw.githubusercontent.com/Stone-Zeng/FiraMath/master/docs/images/slide.png)
 
 ## License
 

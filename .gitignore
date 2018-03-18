@@ -14,10 +14,10 @@
 *.pdf
 
 .vscode/
-assets/
+docs/assets/
 temp/
 
 GLYPHS.md
 TODO.md
-docs/*.bat
+docs/tex/*.bat
 test/*.bat
