@@ -5,10 +5,5 @@
 
 @font-face {
     font-family: "Adobe Blank";
-    src: url("../assets/adobe-blank/AdobeBlank.otf.woff") format('woff2');
-}
-
-@font-face {
-    font-family: "Adobe NotDef";
-    src: url("../assets/adobe-notdef/AND-Regular.otf") format('opentype');
+    src: url("../assets/adobe-blank/AdobeBlank.otf.woff") format('woff');
 }
