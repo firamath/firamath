@@ -3,6 +3,7 @@ Encoding: 1114233 -1 997
 Width: 882
 Flags: HW
 ItalicCorrection: 280
+IsExtendedShape: 1
 HStem: -594 105<145.235 339.012> 1709 105<529.987 725.486>
 VStem: 380 110<-446.695 1666.7>
 LayerCount: 2

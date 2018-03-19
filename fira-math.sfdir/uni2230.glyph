@@ -3,6 +3,7 @@ Encoding: 8752 8752 1002
 Width: 1199
 Flags: W
 ItalicCorrection: 240
+IsExtendedShape: 1
 GlyphVariantsVertical: uni2230.display
 HStem: -211 69<-3.10938 120.552 276.891 400.036 556.891 679.711> 759 69<419.152 542.109 698.964 822.109 978.448 1102.11>
 VStem: 22 80<260.495 354.77> 998 80<260.808 355.786>

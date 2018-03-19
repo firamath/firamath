@@ -3,6 +3,7 @@ Encoding: 1114230 -1 994
 Width: 491
 Flags: HW
 ItalicCorrection: 180
+IsExtendedShape: 1
 GlyphVariantsVertical: integral.display.up
 HStem: -220 74<-17.5159 134.271> 778 74<250.729 402.516>
 VStem: 148 89<-131.624 763.619>

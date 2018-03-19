@@ -3,6 +3,7 @@ Encoding: 1114239 -1 1006
 Width: 491
 Flags: HW
 ItalicCorrection: 180
+IsExtendedShape: 1
 GlyphVariantsVertical: uni222E.display.up
 HStem: -220 74<-17.5159 134.271> 778 74<250.729 402.516>
 VStem: -8 60<243.304 388.696> 148 89<-131.624 126.765 183 449 505.235 763.624> 332 60<243.59 388.41>
