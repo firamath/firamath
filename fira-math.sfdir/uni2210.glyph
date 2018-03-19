@@ -1,0 +1,23 @@
+StartChar: uni2210
+Encoding: 8720 8720 1059
+Width: 738
+Flags: W
+GlyphVariantsVertical: uni2210.display
+LayerCount: 2
+Fore
+SplineSet
+681 -77 m 1
+ 614 -77 l 1
+ 614 709 l 1
+ 524 709 l 1
+ 524 -77 l 1
+ 219 -77 l 1
+ 219 709 l 1
+ 129 709 l 1
+ 129 -77 l 1
+ 57 -77 l 1
+ 57 -153 l 1
+ 681 -153 l 1
+ 681 -77 l 1
+EndSplineSet
+EndChar

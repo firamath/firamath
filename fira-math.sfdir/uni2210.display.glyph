@@ -1,0 +1,23 @@
+StartChar: uni2210.display
+Encoding: 1114245 -1 1058
+Width: 1403
+Flags: W
+IsExtendedShape: 1
+LayerCount: 2
+Fore
+SplineSet
+1313 -250 m 1
+ 1143 -250 l 1
+ 1143 1172 l 1
+ 1033 1172 l 1
+ 1033 -250 l 1
+ 383 -250 l 1
+ 383 1172 l 1
+ 273 1172 l 1
+ 273 -250 l 1
+ 90 -250 l 1
+ 90 -355 l 1
+ 1313 -355 l 1
+ 1313 -250 l 1
+EndSplineSet
+EndChar
