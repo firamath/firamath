@@ -1,0 +1,20 @@
+StartChar: uni20D6
+Encoding: 8406 8406 1040
+Width: 0
+Flags: W
+TopAccentHorizontal: -210
+LayerCount: 2
+Fore
+SplineSet
+-277 823 m 1
+ -390 702 l 1
+ -277 583 l 1
+ -240 617 l 1
+ -290 673 l 1
+ -30 673 l 1
+ -30 733 l 1
+ -290 733 l 1
+ -240 789 l 1
+ -277 823 l 1
+EndSplineSet
+EndChar
