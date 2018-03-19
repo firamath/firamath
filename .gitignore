@@ -15,6 +15,7 @@
 
 .vscode/
 docs/assets/
+docs/tex/pdf2svg-windows/
 temp/
 
 GLYPHS.md

@@ -10,13 +10,14 @@ header {
     text-align: center;
     color: #f6f6f6;
     background: #23373b;
-    padding-top: 1rem;
-    height: 10.5rem;
+    white-space: nowrap;
+    padding-top: 8px;
+    height: 128px;
 }
 
 header h1 {
     font-family: "Fira Sans", sans-serif;
-    font-size: 96px;
+    font-size: 72px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -24,11 +25,18 @@ header h1 {
 header p {
     font-family: "Fira Sans", sans-serif;
     font-style: italic;
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 0px;
+}
+
+.image {
+    text-align: center;
+    margin-top: 100px;
 }
 
 .test {
     font-family: "Fira Math", "Adobe Blank";
     font-size: 200%;
+    text-align: center;
+    margin-top: 100px;
 }
