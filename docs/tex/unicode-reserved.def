@@ -1,4 +1,4 @@
-\clist_const:Nn \xfonttable_unicode_reserved_clist
+\clist_const:Nn \c__xfonttable_unicode_reserved_clist
   {
     % Greek and Coptic
     378,

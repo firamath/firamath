@@ -8,9 +8,11 @@
 \definecolor { symbol   @ bg } { named } { white       } % { HTML } { FAFAFA }
 \definecolor { encoding @ bg } { named } { lightgray   } % { HTML } { BDBDBD }
 \definecolor { nochar   @ bg } { named } { GoogleGreen }
-\definecolor { reserved @ bg } { named } { GoogleBlue  }
+\definecolor { reserved @ bg } { named } { GoogleRed   }
+\definecolor { control  @ bg } { named } { GoogleBlue  }
 
 \file_input:n { unicode-reserved.def }
+\file_input:n { unicode-control.def  }
 
 \cs_new_protected:Npn \xfonttable_symbol:n #1
   { \tex_char:D \int_eval:n {#1} \scan_stop: }
@@ -29,23 +31,29 @@
 \int_new:N \g__xfonttable_glyph_int
 \int_new:N \g__xfonttable_code_point_int
 
+\tl_new:N \l__xfonttable_tmpa_tl
+
 \cs_new_protected:Npn \xfonttable_glyph:n #1
   {
-    \exp_args:NNx \clist_if_in:NnTF
-      \xfonttable_unicode_reserved_clist { \int_to_Hex:n {#1} }
+    \tl_set:Nx \l__xfonttable_tmpa_tl { \int_to_Hex:n {#1} }
+    \clist_if_in:NVTF \c__xfonttable_unicode_reserved_clist \l__xfonttable_tmpa_tl
       { \cellcolor { reserved@bg } }
       {
-        \SYMBOLFONT
-        \xfonttable_if_char_exist:nTF {#1}
+        \clist_if_in:NVTF \c__xfonttable_unicode_control_clist \l__xfonttable_tmpa_tl
+          { \cellcolor { control@bg } }
           {
-            \cellcolor { symbol@bg }
-            \Large
-            \xfonttable_symbol:n {#1}
-            \refstepcounter { glyph }
-            \int_gincr:N \g__xfonttable_glyph_int
+            \SYMBOLFONT
+            \xfonttable_if_char_exist:nTF {#1}
+              {
+                \cellcolor { symbol@bg }
+                \Large
+                \xfonttable_symbol:n {#1}
+                \refstepcounter { glyph }
+                \int_gincr:N \g__xfonttable_glyph_int
+              }
+              { \cellcolor { nochar@bg } }
+            \int_gincr:N \g__xfonttable_code_point_int
           }
-          { \cellcolor { nochar@bg } }
-        \int_gincr:N \g__xfonttable_code_point_int
       }
   }
 \cs_new_protected:Npn \xfonttable_glyph_with_alignment:n #1
