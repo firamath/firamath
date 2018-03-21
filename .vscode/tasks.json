@@ -1,0 +1,72 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build & test",
+            "type": "shell",
+            "command": "./scripts/build.sh",
+            "windows": {
+                "command": ".\\scripts\\build.bat"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "build font",
+            "type": "shell",
+            "command": "./scripts/build.sh",
+            "windows": {
+                "command": ".\\scripts\\build.bat",
+                "args": [
+                    "font"
+                ]
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "build docs",
+            "type": "shell",
+            "command": "./scripts/build.sh",
+            "windows": {
+                "command": ".\\scripts\\build.bat",
+                "args": [
+                    "doc"
+                ]
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "build slide",
+            "type": "shell",
+            "command": "./scripts/build.sh",
+            "windows": {
+                "command": ".\\scripts\\build.bat",
+                "args": [
+                    "slide"
+                ]
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "./scripts/build.sh",
+            "windows": {
+                "command": ".\\scripts\\build.bat",
+                "args": [
+                    "clean"
+                ]
+            },
+            "group": "build",
+            "problemMatcher": [],
+        }
+    ]
+}

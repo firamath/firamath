@@ -1,6 +1,8 @@
+# Font files
 *.otf
 *.woff
 
+# TeX auxiliary files
 *.aux
 *.fdb_latexmk
 *.fls
@@ -9,16 +11,17 @@
 *.out
 *.snm
 *.toc
+
+# Generated files
+*.pdf
 *.xdv
 
-*.pdf
-
+# Folders
 .vscode/
 docs/assets/
-docs/tex/standalone/pdf2svg-windows/
 temp/
+tools/
 
+# Other
 GLYPHS.md
 TODO.md
-docs/tex/*.bat
-test/*.bat
