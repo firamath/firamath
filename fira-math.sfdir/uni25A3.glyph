@@ -1,0 +1,27 @@
+StartChar: uni25A3
+Encoding: 9635 9635 451
+Width: 740
+Flags: W
+HStem: 0 92<180 560> 184 196<272 468> 472 92<180 560>
+VStem: 88 92<92 472> 272 196<184 380> 560 92<92 472>
+CounterMasks: 1 fc
+LayerCount: 2
+Fore
+SplineSet
+272 380 m 1
+ 468 380 l 1
+ 468 184 l 1
+ 272 184 l 1
+ 272 380 l 1
+652 564 m 1
+ 652 0 l 1
+ 88 0 l 1
+ 88 564 l 1
+ 652 564 l 1
+560 472 m 1
+ 180 472 l 1
+ 180 92 l 1
+ 560 92 l 1
+ 560 472 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,26 @@
+StartChar: uni0075
+Encoding: 117 117 85
+Width: 582
+Flags: W
+TopAccentHorizontal: 288
+HStem: -12 72<234.5 274.5> 0 21G<408 487 408 408> 507 20G<90 182 182 182 395 487 487 487>
+VStem: 90 92<149 159 159 527> 395 92<151 527 0 527>
+LayerCount: 2
+Fore
+SplineSet
+487 527 m 1xb8
+ 487 0 l 1
+ 408 0 l 1x78
+ 401 82 l 1
+ 361 18 312 -12 237 -12 c 0
+ 145 -12 90 46 90 149 c 2
+ 90 527 l 1
+ 182 527 l 1
+ 182 159 l 2
+ 182 87 206 60 263 60 c 0
+ 320 60 363 98 395 151 c 1
+ 395 527 l 1
+ 487 527 l 1xb8
+EndSplineSet
+Validated: 1
+EndChar

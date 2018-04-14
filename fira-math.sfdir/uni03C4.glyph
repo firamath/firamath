@@ -1,0 +1,25 @@
+StartChar: uni03C4
+Encoding: 964 964 234
+Width: 459
+Flags: W
+TopAccentHorizontal: 225
+HStem: -12 21G<288 288> 452 75<110 179 110 110 271 455 271 271>
+VStem: 179 92<129 141 141 452>
+LayerCount: 2
+Fore
+SplineSet
+455 452 m 1
+ 271 452 l 1
+ 271 141 l 2
+ 271 89 284 72 317 57 c 1
+ 288 -12 l 1
+ 206 8 179 45 179 129 c 2
+ 179 452 l 1
+ 110 452 l 2
+ 57 451 44 449 11 440 c 1
+ -5 512 l 1
+ 31 525 53 527 102 527 c 2
+ 455 527 l 1
+ 455 452 l 1
+EndSplineSet
+EndChar

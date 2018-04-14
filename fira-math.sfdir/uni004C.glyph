@@ -1,0 +1,20 @@
+StartChar: uni004C
+Encoding: 76 76 44
+Width: 498
+Flags: W
+TopAccentHorizontal: 148
+HStem: 0 83<195 467> 669 20G<100 195 195 195>
+VStem: 100 95<83 689 83 689 83 689>
+LayerCount: 2
+Fore
+SplineSet
+195 689 m 1
+ 195 83 l 1
+ 478 83 l 1
+ 467 0 l 1
+ 100 0 l 1
+ 100 689 l 1
+ 195 689 l 1
+EndSplineSet
+Validated: 1
+EndChar

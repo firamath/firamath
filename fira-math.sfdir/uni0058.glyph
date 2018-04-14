@@ -1,0 +1,26 @@
+StartChar: uni0058
+Encoding: 88 88 56
+Width: 540
+Flags: W
+TopAccentHorizontal: 270
+HStem: 0 21G<5 107 5 5 427 535 427 427> 669 20G<23 131 131 131 410 512 512 512>
+VStem: 5 530<0 0>
+LayerCount: 2
+Fore
+SplineSet
+325 372 m 1
+ 535 0 l 1
+ 427 0 l 1
+ 268 305 l 1
+ 107 0 l 1
+ 5 0 l 1
+ 212 367 l 1
+ 23 689 l 1
+ 131 689 l 1
+ 270 430 l 1
+ 410 689 l 1
+ 512 689 l 1
+ 325 372 l 1
+EndSplineSet
+Validated: 1
+EndChar

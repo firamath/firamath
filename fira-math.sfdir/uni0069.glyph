@@ -1,0 +1,24 @@
+StartChar: uni0069
+Encoding: 105 105 73
+Width: 282
+Flags: W
+TopAccentHorizontal: 140
+HStem: 0 21G<95 187 95 95> 507 20G<95 187 187 187> 655 125<121 159.5>
+VStem: 76 129<699.5 735> 95 92<0 527 0 527>
+LayerCount: 2
+Fore
+SplineSet
+140 780 m 0xf0
+ 179 780 205 753 205 717 c 0
+ 205 682 179 655 140 655 c 0
+ 102 655 76 682 76 717 c 0
+ 76 753 102 780 140 780 c 0xf0
+187 527 m 1xe8
+ 187 0 l 1
+ 95 0 l 1
+ 95 527 l 1
+ 187 527 l 1xe8
+EndSplineSet
+Validated: 1
+Substitution2: "'dtls' Dotless Forms 1-1" uni0131
+EndChar

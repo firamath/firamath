@@ -1,0 +1,20 @@
+StartChar: uni039B
+Encoding: 923 923 201
+Width: 573
+Flags: W
+TopAccentHorizontal: 287
+HStem: 0 21G<6 102 6 6 467 567 467 467> 610 79<285 285> 669 20G<227 347 347 347>
+VStem: 6 561<0 0>
+LayerCount: 2
+Fore
+SplineSet
+347 689 m 1xb0
+ 567 0 l 1
+ 467 0 l 1
+ 285 610 l 1xd0
+ 102 0 l 1
+ 6 0 l 1
+ 227 689 l 1
+ 347 689 l 1xb0
+EndSplineSet
+EndChar

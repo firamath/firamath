@@ -1,0 +1,24 @@
+StartChar: uni2020
+Encoding: 8224 8224 270
+Width: 510
+Flags: HW
+HStem: -64 21G<211 299 211 211> 381 77<42 211 42 211 299 468>
+VStem: 211 88<-64 381 -64 381 458 605>
+LayerCount: 2
+Fore
+SplineSet
+299 605 m 1
+ 299 458 l 1
+ 468 458 l 1
+ 468 381 l 1
+ 299 381 l 1
+ 299 -64 l 1
+ 211 -64 l 1
+ 211 381 l 1
+ 42 381 l 1
+ 42 458 l 1
+ 211 458 l 1
+ 211 605 l 1
+ 299 605 l 1
+EndSplineSet
+EndChar
