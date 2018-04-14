@@ -1,7 +1,6 @@
 StartChar: uni2980.ext
 Encoding: 1114189 -1 1009
 Width: 871
-VWidth: 930
 Flags: HW
 HStem: -70 21G<160 267 382 489 604 711>
 VStem: 160 107<-70 730> 382 107<-70 730> 604 107<-70 730>

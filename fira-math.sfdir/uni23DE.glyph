@@ -1,7 +1,6 @@
 StartChar: uni23DE
 Encoding: 9182 9182 417
 Width: 1052
-VWidth: 1496
 Flags: W
 GlyphVariantsHorizontal: uni23DE uni23DE.size1 uni23DE.size2 uni23DE.size3 uni23DE.size4
 GlyphCompositionHorizontal: 5  uni23DE.left%0,0,150,700 uni23DE.ext%1,150,150,800 uni23DE.mid%0,150,150,800 uni23DE.ext%1,150,150,800 uni23DE.right%0,150,0,700

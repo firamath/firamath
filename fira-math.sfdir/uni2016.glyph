@@ -1,7 +1,6 @@
 StartChar: uni2016
 Encoding: 8214 8214 263
 Width: 577
-VWidth: 930
 Flags: HW
 GlyphVariantsVertical: uni2016 uni2016.size1 uni2016.size2 uni2016.size3 uni2016.size4
 GlyphCompositionVertical: 2  uni2016.ext%0,0,200,800 uni2016.ext%1,200,200,800

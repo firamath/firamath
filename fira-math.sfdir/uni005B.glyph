@@ -1,7 +1,6 @@
 StartChar: uni005B
 Encoding: 91 91 59
 Width: 322
-VWidth: 930
 Flags: HW
 GlyphVariantsVertical: uni005B uni005B.size1 uni005B.size2 uni005B.size3 uni005B.size4
 GlyphCompositionVertical: 3  uni23A3%0,0,150,1485 uni23A2%1,150,150,700 uni23A1%0,150,0,1485

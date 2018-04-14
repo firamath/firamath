@@ -1,7 +1,6 @@
 StartChar: uni2016.ext
 Encoding: 1114188 -1 1008
 Width: 649
-VWidth: 930
 Flags: HW
 HStem: -70 21G<160 267 382 489>
 VStem: 160 107<-70 730> 382 107<-70 730>
