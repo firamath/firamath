@@ -1,18 +1,19 @@
 StartChar: uni2309
 Encoding: 8969 8969 390
 Width: 322
-Flags: W
-HStem: 739 77<50 170>
-VStem: 170 87<-116 739>
+VWidth: 930
+Flags: HW
+HStem: 669 77<50 170>
+VStem: 170 87<-186 669>
 LayerCount: 2
 Fore
 SplineSet
-257 816 m 1
- 257 -116 l 1
- 170 -116 l 5
- 170 739 l 5
- 50 739 l 1
- 50 816 l 1
- 257 816 l 1
+257 746 m 1
+ 257 -186 l 1
+ 170 -186 l 5
+ 170 669 l 5
+ 50 669 l 1
+ 50 746 l 1
+ 257 746 l 1
 EndSplineSet
 EndChar

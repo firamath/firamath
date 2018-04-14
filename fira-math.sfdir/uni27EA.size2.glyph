@@ -1,24 +1,25 @@
 StartChar: uni27EA.size2
 Encoding: 1114168 -1 988
 Width: 672
-Flags: W
+VWidth: 930
+Flags: HW
 IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
-531 1353 m 1
- 616 1327 l 1
- 366 350 l 1
- 616 -627 l 1
- 531 -653 l 1
- 265 350 l 1
- 531 1353 l 1
-322 1353 m 1
- 407 1327 l 1
- 157 350 l 1
- 407 -627 l 1
- 322 -653 l 1
- 56 350 l 1
- 322 1353 l 1
+531 1283 m 1
+ 616 1257 l 1
+ 366 280 l 1
+ 616 -697 l 1
+ 531 -723 l 1
+ 265 280 l 1
+ 531 1283 l 1
+322 1283 m 1
+ 407 1257 l 1
+ 157 280 l 1
+ 407 -697 l 1
+ 322 -723 l 1
+ 56 280 l 1
+ 322 1283 l 1
 EndSplineSet
 EndChar

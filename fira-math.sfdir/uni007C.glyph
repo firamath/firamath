@@ -1,17 +1,18 @@
 StartChar: uni007C
 Encoding: 124 124 92
 Width: 403
-Flags: W
+VWidth: 930
+Flags: HW
 GlyphVariantsVertical: uni007C uni007C.size1 uni007C.size2 uni007C.size3 uni007C.size4
 GlyphCompositionVertical: 2  uni007C.ext%0,0,200,800 uni007C.ext%1,200,200,800
-VStem: 160 83<-116 816>
+VStem: 160 83<-186 746>
 LayerCount: 2
 Fore
 SplineSet
-243 816 m 1
- 243 -116 l 1
- 160 -116 l 1
- 160 816 l 1
- 243 816 l 1
+243 746 m 1
+ 243 -186 l 1
+ 160 -186 l 1
+ 160 746 l 1
+ 243 746 l 1
 EndSplineSet
 EndChar

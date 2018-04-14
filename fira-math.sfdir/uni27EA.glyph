@@ -1,24 +1,25 @@
 StartChar: uni27EA
 Encoding: 10218 10218 520
 Width: 516
-Flags: W
+VWidth: 930
+Flags: HW
 GlyphVariantsVertical: uni27EA uni27EA.size1 uni27EA.size2 uni27EA.size3 uni27EA.size4
 LayerCount: 2
 Fore
 SplineSet
-406 830 m 1
- 476 802 l 1
- 306 350 l 1
- 476 -102 l 1
- 406 -130 l 1
- 220 350 l 1
- 406 830 l 1
-226 830 m 1
- 296 802 l 1
- 126 350 l 1
- 296 -102 l 1
- 226 -130 l 1
- 40 350 l 1
- 226 830 l 1
+406 760 m 1
+ 476 732 l 1
+ 306 280 l 1
+ 476 -172 l 1
+ 406 -200 l 1
+ 220 280 l 1
+ 406 760 l 1
+226 760 m 1
+ 296 732 l 1
+ 126 280 l 1
+ 296 -172 l 1
+ 226 -200 l 1
+ 40 280 l 1
+ 226 760 l 1
 EndSplineSet
 EndChar

@@ -1,19 +1,20 @@
 StartChar: uni27EE
 Encoding: 10222 10222 522
 Width: 274
-Flags: W
+VWidth: 930
+Flags: HW
 GlyphVariantsVertical: uni27EE uni27EE.size1 uni27EE.size2 uni27EE.size3 uni27EE.size4
 GlyphCompositionVertical: 3  uni239D%0,0,150,1485 uni239C%1,150,150,700 uni239B%0,150,0,1485
-VStem: 40 86<104.066 596.132>
+VStem: 40 86<34.066 526.132>
 LayerCount: 2
 Fore
 SplineSet
-176 845 m 1
- 234 805 l 1
- 144 672 126 565 126 350 c 4
- 126 136 144 28 234 -105 c 1
- 176 -145 l 1
- 78 -6 40 113 40 350 c 0
- 40 587 78 706 176 845 c 1
+176 775 m 1
+ 234 735 l 1
+ 144 602 126 495 126 280 c 4
+ 126 66 144 -42 234 -175 c 1
+ 176 -215 l 1
+ 78 -76 40 43 40 280 c 0
+ 40 517 78 636 176 775 c 1
 EndSplineSet
 EndChar

@@ -1,21 +1,21 @@
 StartChar: uni0029
 Encoding: 41 41 9
 Width: 324
-Flags: W
+VWidth: 930
+Flags: HW
 GlyphVariantsVertical: uni0029 uni0029.size1 uni0029.size2 uni0029.size3 uni0029.size4
 GlyphCompositionVertical: 3  uni23A0%0,0,150,1485 uni239F%1,150,150,700 uni239E%0,150,0,1485
-HStem: -145 990<98 98>
-VStem: 188 96<243 457.5>
+HStem: -215 990<98 98>
+VStem: 188 96<173 387.5>
 LayerCount: 2
 Fore
 SplineSet
-98 845 m 1
- 196 706 284 587 284 350 c 0
- 284 113 196 -6 98 -145 c 1
- 40 -105 l 5
- 130 28 188 136 188 350 c 0
- 188 565 130 672 40 805 c 1
- 98 845 l 1
+98 775 m 1
+ 196 636 284 517 284 280 c 0
+ 284 43 196 -76 98 -215 c 1
+ 40 -175 l 5
+ 130 -42 188 66 188 280 c 0
+ 188 495 130 602 40 735 c 1
+ 98 775 l 1
 EndSplineSet
-Validated: 1
 EndChar

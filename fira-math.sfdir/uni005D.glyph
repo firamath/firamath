@@ -1,23 +1,23 @@
 StartChar: uni005D
 Encoding: 93 93 61
 Width: 322
-Flags: W
+VWidth: 930
+Flags: HW
 GlyphVariantsVertical: uni005D uni005D.size1 uni005D.size2 uni005D.size3 uni005D.size4
 GlyphCompositionVertical: 3  uni23A6%0,0,150,1485 uni23A5%1,150,150,700 uni23A4%0,150,0,1485
-HStem: -116 76<50 170 50 257 50 170> 739 77<50 170 50 257>
-VStem: 170 87<-40 739 739 739>
+HStem: -186 76<50 170 50 257 50 170> 669 77<50 170 50 257>
+VStem: 170 87<-110 669 669 669>
 LayerCount: 2
 Fore
 SplineSet
-257 816 m 1
- 257 -116 l 1
- 50 -116 l 1
- 50 -40 l 1
- 170 -40 l 1
- 170 739 l 1
- 50 739 l 1
- 50 816 l 1
- 257 816 l 1
+257 746 m 1
+ 257 -186 l 1
+ 50 -186 l 1
+ 50 -110 l 1
+ 170 -110 l 1
+ 170 669 l 1
+ 50 669 l 1
+ 50 746 l 1
+ 257 746 l 1
 EndSplineSet
-Validated: 1
 EndChar
