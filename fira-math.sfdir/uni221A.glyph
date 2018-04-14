@@ -1,0 +1,21 @@
+StartChar: uni221A
+Encoding: 8730 8730 496
+Width: 629
+Flags: W
+GlyphVariantsVertical: uni221A uni221A.size1 uni221A.size2 uni221A.size3
+HStem: 875 77<617 644>
+LayerCount: 2
+Fore
+SplineSet
+644 952 m 1
+ 644 875 l 1
+ 617 875 l 1
+ 313 -200 l 1
+ 209 -200 l 1
+ 42 257 l 1
+ 123 284 l 1
+ 258 -105 l 1
+ 552 952 l 1
+ 644 952 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,26 @@
+StartChar: uni220F
+Encoding: 8719 8719 491
+Width: 738
+Flags: W
+IsExtendedShape: 1
+GlyphVariantsVertical: uni220F uni220F.display
+HStem: 633 76<57 129 219 524 614 681>
+VStem: 129 90<-153 633> 524 90<-153 633>
+LayerCount: 2
+Fore
+SplineSet
+681 633 m 1
+ 614 633 l 1
+ 614 -153 l 1
+ 524 -153 l 1
+ 524 633 l 1
+ 219 633 l 1
+ 219 -153 l 1
+ 129 -153 l 5
+ 129 633 l 1
+ 57 633 l 1
+ 57 709 l 1
+ 681 709 l 1
+ 681 633 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,28 @@
+StartChar: uni2980
+Encoding: 10624 10624 893
+Width: 751
+Flags: W
+GlyphVariantsVertical: uni2980 uni2980.size1 uni2980.size2 uni2980.size3 uni2980.size4
+GlyphCompositionVertical: 2  uni2980.ext%0,0,200,800 uni2980.ext%1,200,200,800
+VStem: 160 83<-116 816> 334 83<-116 816> 508 83<-116 816>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+591 816 m 1
+ 591 -116 l 1
+ 508 -116 l 1
+ 508 816 l 1
+ 591 816 l 1
+243 816 m 1
+ 243 -116 l 1
+ 160 -116 l 1
+ 160 816 l 1
+ 243 816 l 1
+417 816 m 1
+ 417 -116 l 1
+ 334 -116 l 1
+ 334 816 l 1
+ 417 816 l 1
+EndSplineSet
+EndChar

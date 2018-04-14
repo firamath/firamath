@@ -1,0 +1,30 @@
+StartChar: uni007B
+Encoding: 123 123 90
+Width: 322
+Flags: W
+GlyphVariantsVertical: uni007B uni007B.size1 uni007B.size2 uni007B.size3 uni007B.size4
+GlyphCompositionVertical: 5  uni23A9%0,0,150,700 uni23AA%1,150,150,800 uni23A8%0,150,150,800 uni23AA%1,150,150,800 uni23A7%0,150,0,700
+HStem: -136 71<200.61 277> 313 74<25 81.837> 765 71<200.61 277>
+VStem: 95 87<-47.3274 300.21 399.79 747.327>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+277 836 m 1
+ 277 765 l 1
+ 210 765 182 747 182 697 c 2
+ 182 458 l 2
+ 182 385 154 366 107 350 c 1
+ 154 334 182 315 182 242 c 2
+ 182 3 l 2
+ 182 -47 210 -65 277 -65 c 1
+ 277 -136 l 1
+ 142 -136 95 -92 95 13 c 2
+ 95 235 l 2
+ 95 290 78 313 25 313 c 1
+ 25 387 l 1
+ 78 387 95 410 95 465 c 2
+ 95 687 l 2
+ 95 792 142 836 277 836 c 1
+EndSplineSet
+EndChar

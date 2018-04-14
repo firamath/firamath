@@ -1,0 +1,22 @@
+StartChar: uni2016
+Encoding: 8214 8214 509
+Width: 577
+Flags: W
+GlyphVariantsVertical: uni2016 uni2016.size1 uni2016.size2 uni2016.size3 uni2016.size4
+GlyphCompositionVertical: 2  uni2016.ext%0,0,200,800 uni2016.ext%1,200,200,800
+VStem: 160 83<-116 816> 334 83<-116 816>
+LayerCount: 2
+Fore
+SplineSet
+243 816 m 1
+ 243 -116 l 5
+ 160 -116 l 5
+ 160 816 l 1
+ 243 816 l 1
+417 816 m 1
+ 417 -116 l 5
+ 334 -116 l 5
+ 334 816 l 1
+ 417 816 l 1
+EndSplineSet
+EndChar

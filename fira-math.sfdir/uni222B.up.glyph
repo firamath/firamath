@@ -1,0 +1,27 @@
+StartChar: uni222B.up
+Encoding: 1114230 -1 994
+Width: 491
+Flags: HW
+ItalicCorrection: 180
+IsExtendedShape: 1
+GlyphVariantsVertical: uni222B.display.up
+HStem: -220 74<-17.5159 134.271> 778 74<250.729 402.516>
+VStem: 148 89<-131.624 763.619>
+LayerCount: 2
+Fore
+SplineSet
+148 -69 m 2
+ 148 701 l 2
+ 148 802 205 852 300 852 c 0
+ 350 852 383 843 425 824 c 1
+ 397 758 l 1
+ 363 773 335 778 307 778 c 0
+ 253 778 237 750 237 701 c 2
+ 237 -69 l 2
+ 237 -170 180 -220 85 -220 c 0
+ 35 -220 2 -211 -40 -192 c 1
+ -12 -126 l 1
+ 22 -141 50 -146 78 -146 c 0
+ 132 -146 148 -118 148 -69 c 2
+EndSplineSet
+EndChar
