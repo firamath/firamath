@@ -29,6 +29,7 @@ goto :EOF
 
 :SLIDE
     cd "docs\tex\"
+    xelatex "slide.tex"
     "..\..\tools\convert.exe" -density 200 "slide.pdf" "slide.png"
     move "slide.png" "..\images"
     cd ..\..

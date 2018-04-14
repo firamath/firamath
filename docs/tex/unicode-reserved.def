@@ -128,6 +128,10 @@
     FB3F,
     FB42,
     FB45,
+    % Arabic Presentation Forms-B
+    FE75,
+    FEFD,
+    FEFE,
     % Mathematical Alphanumeric Symbols
     1D455,
     1D49D,
