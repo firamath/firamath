@@ -7,6 +7,7 @@ uni2211.display
 uni222B.display
 uni222C.display
 uni222D.display
+uni2A0C.display
 uni222E.display
 uni222F.display
 uni2230.display
@@ -123,12 +124,14 @@ uni23DF.right
 uni222B.up
 uni222C.up
 uni222D.up
+uni2A0C.up
 uni222E.up
 uni222F.up
 uni2230.up
 uni222B.display.up
 uni222C.display.up
 uni222D.display.up
+uni2A0C.display.up
 uni222E.display.up
 uni222F.display.up
 uni2230.display.up
