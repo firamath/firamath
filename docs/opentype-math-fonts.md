@@ -9,7 +9,8 @@
 | GFS Neohellenic Math | [gfsneohellenicmath](https://ctan.org/pkg/gfsneohellenicmath) | |
 | Latin Modern Math | [lm-math](https://ctan.org/pkg/lm-math) | <http://www.gust.org.pl/projects/e-foundry/lm-math> |
 | Libertinus Math | [libertinus](https://ctan.org/pkg/libertinus) | <https://github.com/khaledhosny/libertinus> |
-| STIX Two Math | [stix](https://ctan.org/pkg/stix) <sup>[2](#1-2) | <http://www.stixfonts.org> |
+| STIX Math | [stix](https://ctan.org/pkg/stix) <sup>[2](#1-2) | <http://www.stixfonts.org> |
+| STIX Two Math | [stix2-otf](https://ctan.org/pkg/stix2-otf) | <http://www.stixfonts.org> |
 | TeX Gyre Bonum Math | [tex-gyre-math-binum](https://ctan.org/pkg/tex-gyre-math-binum) | <http://www.gust.org.pl/projects/e-foundry/tg-math> |
 | TeX Gyre DejaVu Math <sup>[1](#1-1) | [tex-gyre-math-dejavu](https://ctan.org/pkg/tex-gyre-math-dejavu) | <http://www.gust.org.pl/projects/e-foundry/tg-math> |
 | TeX Gyre Pagella Math | [tex-gyre-math-pagella](https://ctan.org/pkg/tex-gyre-math-pagella) | <http://www.gust.org.pl/projects/e-foundry/tg-math> |
@@ -20,7 +21,7 @@
 ### Notes
 
 1. <a name="1-1"></a> *DejaVu Math TeX Gyre* and *TeX Gyre DejaVu Math* are actually the same.
-1. <a name="1-2"></a> At present, STIX on CTAN is the old version (v1.1.2).
+1. <a name="1-2"></a> This is the old version (v1.1.2) of STIX.
 
 ## Other free math fonts
 
@@ -28,7 +29,7 @@
 |:-:|:-:|
 | Berenis ADF Pro Math Regular | <http://arkandis.tuxfamily.org/adffonts.html> |
 | Fira Math <sup>[1](#2-1) | <https://github.com/Stone-Zeng/FiraMath> |
-| GM <sup>[1](#2-1) | <https://github.com/YuanshengZhao/Garamond-Math> |
+| Garamond-Math <sup>[1](#2-1) | <https://github.com/YuanshengZhao/Garamond-Math> |
 | Neo Euler <sup>[2](#2-2)</sup> | <https://github.com/khaledhosny/euler-otf> |
 
 ### Notes
