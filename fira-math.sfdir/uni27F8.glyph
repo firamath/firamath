@@ -1,0 +1,24 @@
+StartChar: uni27F8
+Encoding: 10232 10232 1488
+Width: 1640
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1540 144 m 1
+ 1540 222 l 1
+ 270 222 l 1
+ 208 280 l 1
+ 270 338 l 1
+ 1540 338 l 1
+ 1540 416 l 1
+ 350 416 l 1
+ 432 492 l 1
+ 380 548 l 1
+ 100 280 l 1
+ 380 12 l 1
+ 432 68 l 1
+ 350 144 l 1
+ 1540 144 l 1
+EndSplineSet
+EndChar
