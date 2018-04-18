@@ -1,0 +1,24 @@
+StartChar: Icircumflex
+Encoding: 206 206 1100
+Width: 295
+Flags: W
+HStem: 0 21G<100 195 100 100> 669 20G<100 195 195 195>
+VStem: 100 95<0 689 0 689>
+LayerCount: 2
+Fore
+SplineSet
+20 759 m 1
+ -20 804 l 1
+ 116 914 l 1
+ 177 914 l 1
+ 312 804 l 1
+ 273 759 l 1
+ 146 840 l 1
+ 20 759 l 1
+195 689 m 1
+ 195 0 l 1
+ 100 0 l 1
+ 100 689 l 1
+ 195 689 l 1
+EndSplineSet
+EndChar

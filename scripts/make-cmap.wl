@@ -3,10 +3,10 @@
 Remove["Global`*"]
 
 
-SetDirectory[NotebookDirectory[]];
+SetDirectory[NotebookDirectory[]]
 
 
-otfcc$exe          = "..\\tools\\otfccdump.exe";
+otfcc$exe          = "otfccdump";
 fira$sfdir         = "..\\fira-math.sfdir";
 fira$otf$filename  = "..\\docs\\assets/fira-math.otf";
 fira$json$filename = "..\\data\\fira-math.json";
@@ -146,7 +146,7 @@ processGlyph[$string_] :=
 (*Run*)
 
 
-SetDirectory[fira$sfdir];
+SetDirectory[fira$sfdir]
 glyphs = FileNames["*.glyph"];
 glyphsCount = Length @ glyphs
 
@@ -154,9 +154,13 @@ glyphsCount = Length @ glyphs
 (* Import *)
 $time = First @ AbsoluteTiming[inputs = ParallelMap[Import[#, "Text"] &, glyphs]];
 showTime[$time, "Import time:"];
+
+
 (* Process *)
 $time = First @ AbsoluteTiming[outputs = ParallelMap[processGlyph, inputs]];
 showTime[$time, "Process time:"];
+
+
 (* Export *)
 DeleteFile[glyphs];
 $time = First @ AbsoluteTiming[
