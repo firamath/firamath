@@ -37,11 +37,11 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures lookup 1" { "'liga' Standard Ligatures lookup 1-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'dtls' Dotless Forms 1" { "'dtls' Dotless Forms 1-1" ("dtls") } ['dtls' ('math' <'dflt' > ) ]
-Lookup: 1 0 0 "'ssty' Script Style lookup 1" { "'ssty' Script Style lookup 1-1"  } ['ssty' ('math' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss01' Style Set 1 lookup 1" { "'ss01' Style Set 1 lookup 1-1"  } ['ss01' ('math' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss02' Style Set 2 lookup 1" { "'ss02' Style Set 2 lookup 1-1"  } ['ss02' ('math' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard ligatures" { "'liga' subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'dtls' Dotless forms" { "'dtls' subtable" } ['dtls' ('math' <'dflt' > ) ]
+Lookup: 1 0 0 "'ssty' Script style" { "'ssty' subtable"  } ['ssty' ('math' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Upright integral" { "'ss01' subtable"  } ['ss01' ('math' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Planck constant with bar" { "'ss02' subtable"  } ['ss02' ('math' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "http://scripts.sil.org/OFL"

@@ -139,3 +139,4 @@ uni2230.display.up
 uni222E.o
 uni222F.o
 uni2230.o
+uni210F.ss02

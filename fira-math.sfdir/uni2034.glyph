@@ -22,5 +22,5 @@ SplineSet
  429 427 l 1
  360 427 l 1
 EndSplineSet
-Substitution2: "'ssty' Script Style lookup 1-1" uni2034.ssty1
+Substitution2: "'ssty' subtable" uni2034.ssty1
 EndChar

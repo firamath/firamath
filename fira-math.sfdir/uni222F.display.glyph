@@ -46,5 +46,5 @@ SplineSet
  822 1338 738 1224 652 584 c 2
  594 153 l 2
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 1-1" uni222F.display.up
+Substitution2: "'ss01' subtable" uni222F.display.up
 EndChar

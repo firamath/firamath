@@ -27,5 +27,5 @@ SplineSet
  94 596 l 2
  94 685 148 750 276 750 c 0
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 1-1" uni0066 uni0069
+Ligature2: "'liga' subtable" uni0066 uni0069
 EndChar

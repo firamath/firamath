@@ -32,5 +32,5 @@ SplineSet
  481 78 490 64 514 64 c 0
  527 64 538 66 548 70 c 1xae
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures lookup 1-1" uni0066 uni006C
+Ligature2: "'liga' subtable" uni0066 uni006C
 EndChar
