@@ -1,11 +1,10 @@
 StartChar: uni210F
 Encoding: 8463 8463 686
 Width: 581
-Flags: HW
+Flags: W
 ItalicCorrection: 20
 TopAccentHorizontal: 207
-HStem: 0 21G<57 148 57 57 363 454 363 363> 462 77<344.5 381> 728 20G<253 253>
-VStem: 417.14 92.23
+HStem: 0 21G<57 150.722 363 456.842> 462 77<299.766 406.548>
 LayerCount: 2
 Fore
 SplineSet
@@ -31,4 +30,5 @@ SplineSet
  207 428 l 1
  251 494 308 539 381 539 c 0
 EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 1-1" uni210F.ss02
 EndChar

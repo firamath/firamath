@@ -9,7 +9,8 @@
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
 
 \setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
-\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, version=upintegral, StylisticSet=1]
+\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
+\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
 \newfontface\firatext{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
 %\setmathfont{XITS Math}
 %\setmathfont{XITS Math}[version=upintegral, StylisticSet=8]
@@ -127,7 +128,11 @@
   \item Non-ligature (math): $ \symrm{\ligaturetext} $
 
   \item Miscellaneous:
-        \[ \hbar \hslash \Angstrom \]
+        \[
+          \hslash
+          + \mbox{\mathversion{hbar}$\hslash$}
+          + \Angstrom
+        \]
 
 \end{itemize}
 
