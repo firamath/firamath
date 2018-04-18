@@ -8,7 +8,7 @@ SetDirectory[NotebookDirectory[]]
 
 otfcc$exe          = "otfccdump";
 fira$sfdir         = "..\\fira-math.sfdir";
-fira$otf$filename  = "..\\docs\\assets/fira-math.otf";
+fira$otf$filename  = "..\\docs\\assets\\fira-math.otf";
 fira$json$filename = "..\\data\\fira-math.json";
 udata$filename     = "..\\data\\UnicodeData.txt";
 nudata$filename    = "..\\data\\non-unicode.txt";
