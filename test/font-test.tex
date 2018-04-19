@@ -11,10 +11,13 @@
 \setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
 \setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
 \setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
+\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
 \newfontface\firatext{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
 %\setmathfont{XITS Math}
-%\setmathfont{XITS Math}[version=upintegral, StylisticSet=8]
-%\newfontface\firatext{XITS Math}
+%\setmathfont{XITS Math}[BoldFont = *, StylisticSet=8,  version=upintegral]
+%\setmathfont{XITS Math}[BoldFont = *, StylisticSet=10, version=hbar]
+%\newfontface\firatext{XITS Math}[BoldFont = *]
+
 %\setmathfont{Latin Modern Math}
 %\newfontface\firatext{Latin Modern Math}
 
@@ -152,7 +155,11 @@
             A \subset B \supset C \subseteq D \supseteq E \Subset F \Supset G
           + A \sqsubset B \sqsupset C \sqsubseteq D \sqsupseteq E
         \]
-        \[ \complement_U A \in R \smallin Q \ni Z \smallni N \]
+        \[
+          \complement_U A \cup \complement_C C
+          \subset \mbox{\mathversion{complement}$\complement_U A \cup \complement_C C$}
+          \in R \smallin Q \ni Z \smallni N
+        \]
 
   \item Superscript and subscript:
         \[ 2^2 + 2^{2^2} + 2^{2^{2^2}} + {2^2}^2 + x_a + x_{a_i} + x_{a_{i_1}} \]
