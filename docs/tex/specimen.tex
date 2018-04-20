@@ -13,8 +13,51 @@
 
 \makeatletter\ExplSyntaxOn
 
-\file_input:n { unicode-reserved.def }
-\file_input:n { unicode-control.def  }
+\clist_const:Nn \c__xfonttable_unicode_reserved_clist
+  {
+    % Greek and Coptic
+      378,   379,   380,   381,   382,   383,   38B,   38D,  3A2,
+    % General Punctuation
+     2065,
+    % Superscripts and Subscripts
+     2072,  2073,  208F,  209D,  209E,  209F,
+    % Currency Symbols
+     20C0,  20C1,  20C2,  20C3,  20C4,  20C5,  20C6,  20C7,  20C8,  20C9,
+     20CA,  20CB,  20CC,  20CD,  20CE,  20CF,
+    % Combining Diacritical Marks for Symbols
+     20F1,  20F2,  20F3,  20F4,  20F5,  20F6,  20F7,  20F8,  20F9,  20FA,
+     20FB,  20FC,  20FD,  20FE,  20FF,
+    % Number Forms
+     218C,  218D,  218E,  218F,
+    % Control Pictures
+     2427,  2428,  2429,  242A,  242B,  242C,  242D,  242E,  242F,  2430,
+     2431,  2432,  2433,  2434,  2435,  2436,  2437,  2438,  2439,  243A,
+     243B,  243C,  243D,  243E,  243F,
+    % Optical Character Recognition
+     244B,  244C,  244D,  244E,  244F,  2450,  2451,  2452,  2453,  2454,
+     2455,  2456,  2457,  2458,  2459,  245A,  245B,  245C,  245D,  245E,
+     245F,
+    % Alphabetic Presentation Forms
+     FB07,  FB08,  FB09,  FB0A,  FB0B,  FB0C,  FB0D,  FB0E,  FB0F,  FB10,
+     FB11,  FB12,  FB18,  FB19,  FB1A,  FB1B,  FB1C,  FB37,  FB3D,  FB3F,
+     FB42,  FB45,
+    % Arabic Presentation Forms-B
+     FE75,  FEFD,  FEFE,
+    % Mathematical Alphanumeric Symbols
+    1D455, 1D49D, 1D4A0, 1D4A1, 1D4A3, 1D4A4, 1D4A7, 1D4A8, 1D4AD, 1D4BA,
+    1D4BC, 1D4C4, 1D506, 1D50B, 1D50C, 1D515, 1D51D, 1D53A, 1D53F, 1D545,
+    1D547, 1D548, 1D549, 1D551, 1D6A6, 1D6A7, 1D7CC, 1D7CD
+  }
+\clist_const:Nn \c__xfonttable_unicode_control_clist
+  {
+    % C0 Controls and Basic Latin
+     0,  1,  2,  3,  4,  5,  6,  7,  8,  9,  A,  B,  C,  D,  E,  F,
+    10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, 1D, 1E, 1F,
+    7F,
+     % C1 Controls and Latin-1 Supplement
+    80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 8A, 8B, 8C, 8D, 8E, 8F,
+    90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 9A, 9B, 9C, 9D, 9E, 9F
+  }
 
 % #1 = symbol index
 \cs_new_protected:Npn \xfonttable_symbol:n #1
