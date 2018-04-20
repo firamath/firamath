@@ -8,15 +8,21 @@
 \setsansfont{TeX Gyre Heros}
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
 
-\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
-\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
-\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
-\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
-\newfontface\firatext{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
+%\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
+%\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
+%\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
+%\setmathfont{fira-math.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
+%\newfontface\firatext{fira-math.otf}[BoldFont = *, Path=../docs/assets/]
 %\setmathfont{XITS Math}
 %\setmathfont{XITS Math}[BoldFont = *, StylisticSet=8,  version=upintegral]
 %\setmathfont{XITS Math}[BoldFont = *, StylisticSet=10, version=hbar]
+%\setmathfont{XITS Math}[BoldFont = *,                  version=complement]
 %\newfontface\firatext{XITS Math}[BoldFont = *]
+\setmathfont{Latin Modern Math}
+\setmathfont{Latin Modern Math}[BoldFont = *, version=upintegral]
+\setmathfont{Latin Modern Math}[BoldFont = *, version=hbar]
+\setmathfont{Latin Modern Math}[BoldFont = *, version=complement]
+\newfontface\firatext{Latin Modern Math}[BoldFont = *]
 
 %\setmathfont{Latin Modern Math}
 %\newfontface\firatext{Latin Modern Math}
@@ -128,7 +134,7 @@
 
   \item Ligature (text): {\firatext\ligaturetext}
 
-  \item Non-ligature (math): $ \symrm{\ligaturetext} + \ligaturetext $
+  \item Non-ligature (math): $ \ligaturetext + \symit{\ligaturetext} + \symrm{\ligaturetext} $
 
   \item Miscellaneous:
         \[

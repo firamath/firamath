@@ -67,7 +67,9 @@ uni$dataset = Dataset[%];
 (*Non-Unicode (glyphs variants)*)
 
 
-nuni = Flatten @ Import[nudata$filename, "Table"];
+nuni = DeleteCases[#, _?(StringContainsQ[";"])] & @
+  Flatten @ Import[nudata$filename, "Table", "FieldSeparators" -> {"\r\n", "\n", "\r"}];
+Length[nuni]
 
 
 (* 0x110000 is the beginning of non-unicode *)

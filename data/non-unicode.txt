@@ -1,7 +1,10 @@
+; Special
 .notdef
+; Math Script Style Alternates
 uni2032.ssty1
 uni2033.ssty1
 uni2034.ssty1
+; Display Math Operators
 uni220F.display
 uni2210.display
 uni2211.display
@@ -12,6 +15,7 @@ uni2A0C.display
 uni222E.display
 uni222F.display
 uni2230.display
+; Large Delimiters
 uni221A.size1
 uni221A.size2
 uni221A.size3
@@ -75,9 +79,11 @@ uni2980.size1
 uni2980.size2
 uni2980.size3
 uni2980.size4
+; Extensible Delimiters
 uni007C.ext
 uni2016.ext
 uni2980.ext
+; Large Over/Under Symbols
 uni23DC.size1
 uni23DC.size2
 uni23DC.size3
@@ -102,6 +108,7 @@ uni23DF.size1
 uni23DF.size2
 uni23DF.size3
 uni23DF.size4
+; Extensible Over/Under Symbols
 uni23DC.left
 uni23DC.ext
 uni23DC.right
@@ -122,6 +129,7 @@ uni23DF.left
 uni23DF.ext
 uni23DF.mid
 uni23DF.right
+; Stylistic Set 1: Upright Integrals
 uni222B.up
 uni222C.up
 uni222D.up
@@ -136,8 +144,11 @@ uni2A0C.display.up
 uni222E.display.up
 uni222F.display.up
 uni2230.display.up
+; Stylistic Set 2: Planck Constant with Bar
+uni210F.ss02
+; Stylistic Set 3: Complement Alternates
+uni2201.ss03
+; Integral Contours
 uni222E.o
 uni222F.o
 uni2230.o
-uni210F.ss02
-uni2201.ss03

@@ -1,77 +1,495 @@
 \documentclass{article}
 
+\PassOptionsToPackage{log-declarations=false}{xparse}
 \PassOptionsToPackage{no-math}{fontspec}
-\usepackage{xfonttable,geometry,ctexheading,fontspec,xcolor-material,hyperref}
+\PassOptionsToPackage{table}{xcolor}
+%\PassOptionsToPackage{showframe}{geometry}
+\usepackage{%
+  expl3,xparse,
+  ctexheading,fancyhdr,fontspec,
+  array,longtable,multirow,hhline,
+  xcolor,xcolor-material,
+  geometry,hyperref}
+
+\makeatletter\ExplSyntaxOn
+
+\file_input:n { unicode-reserved.def }
+\file_input:n { unicode-control.def  }
+
+% #1 = symbol index
+\cs_new_protected:Npn \xfonttable_symbol:n #1
+  { \tex_char:D \int_eval:n {#1} \scan_stop: }
+\prg_new_protected_conditional:Npnn \xfonttable_if_char_exist:n #1 { T, F, TF }
+  {
+    \etex_iffontchar:D \tex_font:D \int_eval:n {#1} \scan_stop:
+      \prg_return_true:
+    \else:
+      \prg_return_false:
+    \fi:
+  }
+% #1 = glyph name
+\sys_if_engine_xetex:TF
+  {
+    \cs_new_protected:Npn \xfonttable_glyph_from_name:n #1
+      { \xetex_glyph:D \xetex_glyphindex:D "#1" \scan_stop: }
+  }
+  {
+    \sys_if_engine_luatex:TF
+      {
+        \cs_new_protected:Npn \xfonttable_glyph_from_name:n #1
+          { \tex_char:D \luatex_glyph_index:w #1 \scan_stop: }
+        \cs_new_protected:Npn \luatex_glyph_index:w
+          {
+            \lua_now:n
+              { tex.sprint(0, font.getfont(font.current()).resources.unicodes[token.scan_string()]) }
+          }
+      }
+      { \BOOM }
+  }
+
+% Centering with fixed width
+\newcolumntype {C} [1] { > { \centering \arraybackslash } m {#1} }
+% Empty array rule
+\newcolumntype {E} { ! { \skip_horizontal:N \arrayrulewidth } }
+
+\definecolor { symbol   @ bg } { named } { white       } % { HTML } { FAFAFA }
+\definecolor { encoding @ bg } { named } { lightgray   } % { HTML } { BDBDBD }
+\definecolor { nochar   @ bg } { named } { GoogleGreen }
+\definecolor { reserved @ bg } { named } { GoogleRed   }
+\definecolor { control  @ bg } { named } { GoogleBlue  }
+
+\cs_set:Npn \NumberStyle   { \ttfamily   \footnotesize }
+\cs_set:Npn \GlyphStyle    { \SymbolFont \Large        }
+\cs_set:Npn \EncodingStyle
+  { \ttfamily \fontsize {4} {5} \selectfont \cellcolor { encoding@bg } }
+
+\cs_set:Npn \GlyphStrut           { \xfonttable_set_arstrut:nn {  20 pt } { 10 pt } }
+\cs_set:Npn \NonUnicodeGlyphStrut { \xfonttable_set_arstrut:nn {  32 pt } { 20 pt } }
+\cs_set:Npn \EncodingStrut        { \xfonttable_set_arstrut:nn { 4.5 pt } {  1 pt } }
+
+\dim_const:Nn \c__xfonttable_cell_wd_dim        { 30 pt }
+\dim_const:Nn \c__xfonttable_column_sep_dim     {  0 pt }
+\dim_const:Nn \c__xfonttable_row_number_ht_dim  { 20 pt }
+\dim_const:Nn \c__xfonttable_row_number_sep_dim {  6 pt }
+\dim_const:Nn \c__xfonttable_nuni_wd_dim        { 50 pt }
+
+% The total number of glyphs.
+\NewDocumentCommand \GlyphCount { }
+  { Glyphs~ count:~ \ref*{count:glyph} }
+\newcounter { glyph }
+\setcounter { glyph } { -1 }
+
+% The main function.
+\NewDocumentCommand \fonttable { s m m }
+  {
+    \IfBooleanTF {#1}
+      { \xfonttable_non_unicode:nn {#2} {#3} }
+      { \xfonttable_unicode:nn     {#2} {#3} }
+    \clearpage
+  }
+
+% #1 = section name
+% #2 = begin/end encoding
+\cs_new_protected:Npn \xfonttable_unicode:nn #1#2
+  {
+    \tl_set:Nn \l__xfonttable_glyph_count_tl
+      { \ref*{count:glyph@#1} / \ref*{count:codepoint@#1} }
+    \section{#1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl)}
+    \fancyfoot [L] { \xfonttable_left_foot: }
+    \xfonttable_parse_encoding:n {#2}
+    \int_gzero:N \g__xfonttable_glyph_int
+    \int_gzero:N \g__xfonttable_code_point_int
+    \xfonttable_make_table:
+    \newcounter     {    glyph     @ #1 }
+    \newcounter     {    codepoint @ #1 }
+    \int_set:cn     { c@ glyph     @ #1 } { \g__xfonttable_glyph_int      - 1 }
+    \int_set:cn     { c@ codepoint @ #1 } { \g__xfonttable_code_point_int - 1 }
+    \refstepcounter {    glyph     @ #1 } \label{count:glyph@#1}
+    \refstepcounter {    codepoint @ #1 } \label{count:codepoint@#1}
+  }
+\tl_new:N  \l__xfonttable_glyph_count_tl
+\int_new:N \g__xfonttable_glyph_int
+\int_new:N \g__xfonttable_code_point_int
+
+\cs_new_protected:Npn \xfonttable_left_foot:
+  {
+    \mode_leave_vertical:
+    \footnotesize
+    \xfonttable_color_box:nn { nochar   @ bg } No~ Characters, \quad
+    \xfonttable_color_box:nn { reserved @ bg } Reserved~ Code~ Points, \quad
+    \xfonttable_color_box:nn { control  @ bg } Control~ Codes.
+  }
+\cs_new_protected:Npn \xfonttable_color_box:nn #1#2
+  {
+    \group_begin:
+      \color {#1} \rule [ -2 pt ] { 10 pt } { 10 pt }
+    \group_end:
+    \ = \ #2
+  }
+
+% #1 = `begin` - `end`
+\cs_new_protected:Npn \xfonttable_parse_encoding:n #1
+  {
+    \seq_set_split:Nnn \l_tmpa_seq { - } {#1}
+    \int_set:Nn \l__xfonttable_begin_int
+      { \seq_item:Nn \l_tmpa_seq { 1 } }
+    \int_set:Nn \l__xfonttable_end_int
+      { \seq_item:Nn \l_tmpa_seq { 2 } }
+  }
+\int_new:N \l__xfonttable_begin_int
+\int_new:N \l__xfonttable_end_int
+
+\cs_new_protected:Npn \xfonttable_make_table:
+  {
+    \longtable { r | * {16} { C { \c__xfonttable_cell_wd_dim } | } }
+      \xfonttable_long_table_head:
+      \xfonttable_multi_row:nn
+        { \int_use:N \l__xfonttable_begin_int }
+        { \int_use:N \l__xfonttable_end_int   }
+    \endlongtable
+  }
+\dim_set_eq:NN \tabcolsep \c__xfonttable_column_sep_dim
+
+% These functions must be expandable:
+%   \xfonttable_long_table_head:, \xfonttable_first_row:,
+%   \xfonttable_multi_row:nn, \xfonttable_row:n, \__xfonttable_div_sixteen:n,
+%   \xfonttable_hline:, \xfonttable_set_arstrut:nn, \xfonttable_restore_arstrut:, etc.,
+% so that `noalign` can work properly.
+% Hence we use `\cs_new:Npn` and `\int_step_function:nnnN` here.
+
+\cs_new:Npn \xfonttable_long_table_head:
+  {
+    % It's very hackable here!
+    % The dimension is measured by hand. Not universal at all.
+    \xfonttable_set_arstrut:nn { 0 pt } { 0 pt }
+    \multicolumn { 17 } { c } { \rule { 0 pt } { 1.29 cm } } \\
+    \xfonttable_first_row:
+    \endhead
+    \xfonttable_first_row:
+    \endfirsthead
+  }
+
+\cs_new:Npn \xfonttable_first_row:
+  {
+    \multicolumn {17} { r }
+      {
+        \tabular
+            {
+              % Skip row number
+              r |
+              * {15} { C { \c__xfonttable_cell_wd_dim } E }
+              C { \c__xfonttable_cell_wd_dim } |
+            }
+          % I don't know why there are so many `#`.
+          \int_step_inline:nnnn { 0 } { 1 } { 15 }
+            { & \xfonttable_first_row_cell:n {####1} }
+        \endtabular
+      }
+    \\*
+    \xfonttable_hline:
+  }
+\cs_new_protected:Npn \xfonttable_first_row_cell:n #1
+  { \NumberStyle \int_to_Hex:n {#1} }
+
+\cs_new:Npn \xfonttable_multi_row:nn #1#2
+  {
+    \int_step_function:nnnN
+      { \__xfonttable_div_sixteen:n {#1} * 16 }
+      { 16 }
+      { (\__xfonttable_div_sixteen:n {#2} + 1) * 16 - 1 }
+      \xfonttable_row:n
+  }
+\cs_new:Npn \__xfonttable_div_sixteen:n #1
+  { \int_div_truncate:nn {#1} { 16 } }
+
+\cs_new:Npn \xfonttable_row:n #1
+  {
+    % Glyph row
+    \GlyphStrut
+    % Row number
+    \multirow { 2 } * { \xfonttable_row_nummber:n {#1} }
+    \int_step_inline:nnnn {#1} { 1 } { #1 + 15 }
+      { & \xfonttable_glyph:n {##1} }
+    \\*
+    \xfonttable_restore_arstrut:
+    % Encoding row
+    \xfonttable_hline:
+    \EncodingStrut
+    \int_step_inline:nnnn {#1} { 1 } { #1 + 15 }
+      { & \xfonttable_encoding:n {##1} }
+    \\
+    \xfonttable_hline:
+  }
+
+% To skip the first column (i.e. row index).
+% LaTeX3 syntax makes `~` to equal space, so we need to change its catcode temporarily.
+\group_begin:
+  \char_set_catcode_active:N \~
+  \cs_new:Npn \xfonttable_hline:
+    { \hhline { ~ | *{16}{-} } }
+\group_end:
+
+\cs_new:Npn \xfonttable_set_arstrut:nn #1#2
+  {
+    \tex_noalign:D
+      {
+        \group_begin:
+          % Store the old strutbox
+          \box_gset_eq:NN \l__xfonttable_old_arstrut_box \@arstrutbox
+          % Change the dimensions of \@arstrutbox
+          \hbox_set_to_wd:Nnn \l_tmpa_box { \c_zero_dim } { }
+          \box_set_ht:Nn \l_tmpa_box {#1}
+          \box_set_dp:Nn \l_tmpa_box {#2}
+          \hbox_gset:Nn \@arstrutbox { \box_use:N \l_tmpa_box }
+        \group_end:
+      }
+  }
+\cs_new:Npn \xfonttable_restore_arstrut:
+  {
+    \tex_noalign:D
+      { \box_gset_eq:NN \@arstrutbox \l__xfonttable_old_arstrut_box }
+  }
+\box_new:N \l__xfonttable_old_arstrut_box
+
+\cs_new_protected:Npn \xfonttable_row_nummber:n #1
+  {
+    \raisebox { \dim_use:N \c__xfonttable_row_number_ht_dim }
+      {
+        \NumberStyle
+        \int_set:Nn \l_tmpa_int { #1 / 16 }
+        \int_compare:nNnTF { \l_tmpa_int } < { "10 }
+          { 00 }
+          {
+            \int_compare:nNnT { \l_tmpa_int } < { "100 }
+              { 0 }
+          }
+        \int_to_Hex:n { \l_tmpa_int }
+        \skip_horizontal:N \c__xfonttable_row_number_sep_dim
+      }
+  }
+
+\cs_new_protected:Npn \xfonttable_glyph:n #1
+  {
+    \tl_set:Nx \l_tmpa_tl { \int_to_Hex:n {#1} }
+    \clist_if_in:NVTF \c__xfonttable_unicode_reserved_clist \l_tmpa_tl
+      { \cellcolor { reserved@bg } }
+      {
+        \clist_if_in:NVTF \c__xfonttable_unicode_control_clist \l_tmpa_tl
+          { \cellcolor { control@bg } }
+          {
+            \GlyphStyle
+            \xfonttable_if_char_exist:nTF {#1}
+              {
+                \cellcolor { symbol@bg }
+                \xfonttable_symbol:n {#1}
+                \refstepcounter { glyph }
+                \int_gincr:N \g__xfonttable_glyph_int
+              }
+              { \cellcolor { nochar@bg } }
+            \int_gincr:N \g__xfonttable_code_point_int
+          }
+      }
+  }
+
+\cs_new_protected:Npn \xfonttable_encoding:n #1
+  {
+    \group_begin:
+      \EncodingStyle
+      \int_compare:nNnTF {#1} < { "10 }
+        { 000 }
+        {
+          \int_compare:nNnTF {#1} < { "100 }
+            { 00 }
+            {
+              \int_compare:nNnT {#1} < { "1000 }
+                { 0 }
+            }
+        }
+      \int_to_Hex:n {#1}
+    \group_end:
+  }
+
+% #1 = section name
+% #2 = non-unicode data file
+\cs_new_protected:Npn \xfonttable_non_unicode:nn #1#2
+  {
+    \tl_set:Nn \l__xfonttable_glyph_count_tl { \ref*{count:glyph@nuni} }
+    \section{#1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl)}
+    \fancyfoot [L] { }
+    \int_gzero:N \g__xfonttable_nuni_glyph_int
+    \xfonttable_nuni_import:n {#2}
+    \xfonttable_nuni_parse:
+    \xfonttable_nuni_print:
+    \newcounter     {    glyph @ nuni }
+    \int_set:cn     { c@ glyph @ nuni } { \g__xfonttable_nuni_glyph_int - 1 }
+    \refstepcounter {    glyph @ nuni } \label{count:glyph@nuni}
+    \refstepcounter {    glyph        } \label{count:glyph}
+  }
+\int_new:N \g__xfonttable_nuni_glyph_int
+
+% #1 = file name (../../data/non-unicode.txt)
+\cs_new_protected:Npn \xfonttable_nuni_import:n #1
+  {
+    \ior_open:Nn \g__xfonttable_nuni_ior {#1}
+    \ior_map_inline:Nn \g__xfonttable_nuni_ior
+      { \seq_put_right:Nn \l__xfonttable_nuni_data_seq {##1} }
+    \ior_close:N \g__xfonttable_nuni_ior
+  }
+\ior_new:N \g__xfonttable_nuni_ior
+\seq_new:N \l__xfonttable_nuni_data_seq
+
+% `;` indicates a comment, for the glyph class.
+% Each entry (glyph name) after the comment should be put into the class.
+\cs_new_protected:Npn \xfonttable_nuni_parse:
+  {
+    \bool_until_do:nn { \seq_if_empty_p:N \l__xfonttable_nuni_data_seq }
+      {
+        \seq_pop_left:NN \l__xfonttable_nuni_data_seq \l_tmpa_tl
+        \tl_if_in:NnTF \l_tmpa_tl { ; }
+          {
+            \tl_remove_once:Nn \l_tmpa_tl { ; }
+            \tl_trim_spaces:N \l_tmpa_tl
+            \seq_put_right:NV \l__xfonttable_nuni_class_seq \l_tmpa_tl
+            \clist_if_empty:NF \l_tmpa_clist
+              {
+                \seq_put_right:NV \l__xfonttable_nuni_name_seq \l_tmpa_clist
+                \clist_clear:N \l_tmpa_clist
+              }
+          }
+          { \clist_put_right:NV \l_tmpa_clist \l_tmpa_tl }
+      }
+    % The last class
+    \clist_if_empty:NF \l_tmpa_clist
+      { \seq_put_right:NV \l__xfonttable_nuni_name_seq \l_tmpa_clist }
+  }
+\seq_new:N \l__xfonttable_nuni_class_seq
+\seq_new:N \l__xfonttable_nuni_name_seq
+
+\cs_new_protected:Npn \xfonttable_nuni_print:
+  {
+    \bool_until_do:nn { \seq_if_empty_p:N \l__xfonttable_nuni_class_seq }
+      {
+        \seq_pop_left:NN \l__xfonttable_nuni_class_seq \l_tmpa_tl
+        \seq_pop_left:NN \l__xfonttable_nuni_name_seq  \l_tmpa_clist
+        \xfonttable_nuni_print_class:VV \l_tmpa_tl \l_tmpa_clist
+      }
+  }
+
+% #1 = class
+% #2 = clist of glyph names
+\cs_new_protected:Npn \xfonttable_nuni_print_class:nn #1#2
+  {
+    \subsection{#1 ~ (\clist_count:n {#2})}
+    \clist_map_inline:nn {#2}
+      {
+        \xfonttable_nuni_cell:n {##1}
+        \refstepcounter { glyph }
+        \int_gincr:N \g__xfonttable_nuni_glyph_int
+      }
+  }
+\cs_generate_variant:Nn \xfonttable_nuni_print_class:nn { VV }
+
+\cs_new_protected:Npn \xfonttable_nuni_cell:n #1
+  {
+    \tabular { | C { \c__xfonttable_nuni_wd_dim } | }
+      % Glyph
+      \hline
+      \NonUnicodeGlyphStrut \GlyphStyle
+      \xfonttable_glyph_from_name:n {#1}
+      \\
+      \xfonttable_restore_arstrut:
+      % Encoding (glyph name)
+      \hline
+      \EncodingStrut \EncodingStyle
+      #1
+      \\
+      \xfonttable_restore_arstrut:
+      \hline
+    \endtabular
+    % A space allowing line break
+    \
+  }
+
+\ExplSyntaxOff\makeatother
 
 \geometry{a4paper, hmargin=0.5in, vmargin=1.0in}
 \ctexset{section/format=\Large\bfseries\centering}
 \hypersetup{bookmarksnumbered=true, colorlinks=true, linkcolor=GoogleGreen}
 
-\setmainfont{Source Sans Pro}
-\setmonofont{Iosevka Light}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\footnotesize \itshape Copyright \copyright{} 2018 by Xiangdong Zeng}
+\renewcommand\headrulewidth{0pt}
 
-\newfontface\SYMBOLFONT{fira-math.otf}[Path=../assets/]
-%\newfontface\SYMBOLFONT{FiraSans-Regular.otf}
-%\newfontface\SYMBOLFONT{xits-math.otf}
+\setmainfont{Source Sans Pro}
+\setmonofont{Fira Code Light}
+
+\newfontface\SymbolFont{fira-math.otf}[Path=../assets/]
+%\newfontface\SymbolFont{FiraSans-Regular.otf}
+%\newfontface\SymbolFont{xits-math.otf}
+%\newfontface\SymbolFont{unifont-10.0.05.ttf}[Path=D:/Fonts/GNU/]
 
 \title{\bfseries Fira Math}
-\author{Glyphs count: \ref*{count:glyph}}
+\author{\GlyphCount}
 
 \begin{document}
 
+\linespread{1.2}\selectfont
+
 \newgeometry{hmargin=1.5in, vmargin=1.0in}
+
 \maketitle
 \tableofcontents
+\thispagestyle{empty}
+
+%This is Fira Math, a sans-serif font with Unicode math support.
+%
+%\begin{center}
+%  \fonttablelegend{No Characters}{nochar@bg}
+%  \fonttablelegend{Reserved Code Points}{reserved@bg}
+%  \fonttablelegend{Control Codes}{control@bg}
+%\end{center}
+
 \clearpage
 
 \restoregeometry
-\fonttable{C0 Controls and Basic Latin}{"0}{"7F}
-\fonttable{C1 Controls and Latin-1 Supplement}{"80}{"FF}
-\fonttable{Latin Extended-A}{"100}{"17F}
-\fonttable{Latin Extended-B}{"180}{"24F}
-%\fonttable{IPA Extensions}{"250}{"2AF}
-%\fonttable{Spacing Modifier Letters}{"2B0}{"2FF}
-\fonttable{Combining Diacritical Marks}{"300}{"36F}
-\fonttable{Greek and Coptic}{"370}{"3FF}
-\fonttable{General Punctuation}{"2000}{"206F}
-%\fonttable{Superscripts and Subscripts}{"2070}{"209F}
-\fonttable{Currency Symbols}{"20A0}{"20CF}
-\fonttable{Combining Diacritical Marks for Symbols}{"20D0}{"20FF}
-\fonttable{Letterlike Symbols}{"2100}{"214F}
-\fonttable{Number Forms}{"2150}{"218F}
-\fonttable{Arrows}{"2190}{"21FF}
-\fonttable{Mathematical Operators}{"2200}{"22FF}
-\fonttable{Miscellaneous Technical}{"2300}{"23FF}
-%\fonttable{Control Pictures}{"2400}{"243F}
-%\fonttable{Optical Character Recognition}{"2440}{"245F}
-%\fonttable{Enclosed Alphanumerics}{"2460}{"24FF}
-%\fonttable{Box Drawing}{"2500}{"257F}
-\fonttable{Block Elements}{"2580}{"259F}
-\fonttable{Geometric Shapes}{"25A0}{"25FF}
-\fonttable{Miscellaneous Symbols}{"2600}{"26FF}
-%\fonttable{Dingbats}{"2700}{"27BF}
-\fonttable{Miscellaneous Mathematical Symbols-A}{"27C0}{"27EF}
-\fonttable{Supplemental Arrows-A}{"27F0}{"27FF}
-%\fonttable{Braille Patterns}{"2800}{"28FF}
-\fonttable{Supplemental Arrows-B}{"2900}{"297F}
-\fonttable{Miscellaneous Mathematical Symbols-B}{"2980}{"29FF}
-\fonttable{Supplemental Mathematical Operators}{"2A00}{"2AFF}
-\fonttable{Miscellaneous Symbols and Arrows}{"2B00}{"2BFF}
-\fonttable{Alphabetic Presentation Forms}{"FB00}{"FB4F}
-\fonttable{Arabic Presentation Forms-B}{"FE70}{"FEFF}
-\fonttable{Mathematical Alphanumeric Symbols}{"1D400}{"1D7FF}%
-  [\refstepcounter{glyph}\label{count:glyph}]
 
-%\section{Non-Unicode Glyphs}
-%
-%\begingroup
-%\csname l_fontspec_font\endcsname
-%hello
-%^^^^222c
-%\XeTeXglyph\XeTeXglyphindex "uni222C"
-%\XeTeXglyph\XeTeXglyphindex "uni222C.up"
-%\XeTeXglyph\XeTeXglyphindex "uni222C.display"
-%\XeTeXglyph\XeTeXglyphindex "uni222C.display.up"
-%\endgroup
+\fonttable{C0 Controls and Basic Latin}{"0-"7F}
+\fonttable{C1 Controls and Latin-1 Supplement}{"80-"FF}
+\fonttable{Latin Extended-A}{"100-"17F}
+\fonttable{Latin Extended-B}{"180-"24F}
+%\fonttable{IPA Extensions}{"250-"2AF}
+%\fonttable{Spacing Modifier Letters}{"2B0-"2FF}
+\fonttable{Combining Diacritical Marks}{"300-"36F}
+\fonttable{Greek and Coptic}{"370-"3FF}
+\fonttable{General Punctuation}{"2000-"206F}
+%\fonttable{Superscripts and Subscripts}{"2070-"209F}
+\fonttable{Currency Symbols}{"20A0-"20CF}
+\fonttable{Combining Diacritical Marks for Symbols}{"20D0-"20FF}
+\fonttable{Letterlike Symbols}{"2100-"214F}
+\fonttable{Number Forms}{"2150-"218F}
+\fonttable{Arrows}{"2190-"21FF}
+\fonttable{Mathematical Operators}{"2200-"22FF}
+\fonttable{Miscellaneous Technical}{"2300-"23FF}
+%\fonttable{Control Pictures}{"2400-"243F}
+%\fonttable{Optical Character Recognition}{"2440-"245F}
+%\fonttable{Enclosed Alphanumerics}{"2460-"24FF}
+%\fonttable{Box Drawing}{"2500-"257F}
+\fonttable{Block Elements}{"2580-"259F}
+\fonttable{Geometric Shapes}{"25A0-"25FF}
+\fonttable{Miscellaneous Symbols}{"2600-"26FF}
+%\fonttable{Dingbats}{"2700-"27BF}
+\fonttable{Miscellaneous Mathematical Symbols-A}{"27C0-"27EF}
+\fonttable{Supplemental Arrows-A}{"27F0-"27FF}
+%\fonttable{Braille Patterns}{"2800-"28FF}
+\fonttable{Supplemental Arrows-B}{"2900-"297F}
+\fonttable{Miscellaneous Mathematical Symbols-B}{"2980-"29FF}
+\fonttable{Supplemental Mathematical Operators}{"2A00-"2AFF}
+\fonttable{Miscellaneous Symbols and Arrows}{"2B00-"2BFF}
+\fonttable{Alphabetic Presentation Forms}{"FB00-"FB4F}
+\fonttable{Arabic Presentation Forms-B}{"FE70-"FEFF}
+\fonttable{Mathematical Alphanumeric Symbols}{"1D400-"1D7FF}
+
+\fonttable*{Non-Unicode Glyphs}{../../data/non-unicode.txt}
 
 \end{document}
