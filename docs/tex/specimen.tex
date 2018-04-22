@@ -3,13 +3,13 @@
 \PassOptionsToPackage{log-declarations=false}{xparse}
 \PassOptionsToPackage{no-math}{fontspec}
 \PassOptionsToPackage{table}{xcolor}
+\PassOptionsToPackage{titles}{tocloft}
 %\PassOptionsToPackage{showframe}{geometry}
 \usepackage{%
   expl3,xparse,
-  ctexheading,fancyhdr,fontspec,
+  ctexheading,geometry,fancyhdr,tocloft,fontspec,xcolor,hologo,
   array,longtable,multirow,hhline,
-  xcolor,xcolor-material,
-  geometry,hyperref}
+  hyperref,zref-totpages}
 
 \makeatletter\ExplSyntaxOn
 
@@ -37,6 +37,12 @@
      244B,  244C,  244D,  244E,  244F,  2450,  2451,  2452,  2453,  2454,
      2455,  2456,  2457,  2458,  2459,  245A,  245B,  245C,  245D,  245E,
      245F,
+    % Miscellaneous Symbols and Arrows
+     2B74,  2B75,  2B96,  2B97,  2BBA,  2BBB,  2BBC,  2BC9,  2BD3,  2BD4,
+     2BD5,  2BD6,  2BD7,  2BD8,  2BD9,  2BDA,  2BDB,  2BDC,  2BDD,  2BDE,
+     2BDF,  2BE0,  2BE1,  2BE2,  2BE3,  2BE4,  2BE5,  2BE6,  2BE7,  2BE8,
+     2BE9,  2BEA,  2BEB,  2BF0,  2BF1,  2BF2,  2BF3,  2BF4,  2BF5,  2BF6,
+     2BF7,  2BF8,  2BF9,  2BFA,  2BFB,  2BFC,  2BFD,  2BFE,  2BFF,
     % Alphabetic Presentation Forms
      FB07,  FB08,  FB09,  FB0A,  FB0B,  FB0C,  FB0D,  FB0E,  FB0F,  FB10,
      FB11,  FB12,  FB18,  FB19,  FB1A,  FB1B,  FB1C,  FB37,  FB3D,  FB3F,
@@ -95,14 +101,13 @@
 % Empty array rule
 \newcolumntype {E} { ! { \skip_horizontal:N \arrayrulewidth } }
 
-\definecolor { symbol   @ bg } { named } { white       } % { HTML } { FAFAFA }
-\definecolor { encoding @ bg } { named } { lightgray   } % { HTML } { BDBDBD }
-\definecolor { nochar   @ bg } { named } { GoogleGreen }
-\definecolor { reserved @ bg } { named } { GoogleRed   }
-\definecolor { control  @ bg } { named } { GoogleBlue  }
+\definecolor { encoding @ bg   } { HTML } { BDBDBD }
+\definecolor { reserved @ bg   } { HTML } { EA4335 }
+\definecolor { control  @ bg   } { HTML } { 4285F4 }
+\definecolor { nochar   @ text } { HTML } { E0E0E0 }
 
-\cs_set:Npn \NumberStyle   { \ttfamily   \footnotesize }
-\cs_set:Npn \GlyphStyle    { \SymbolFont \Large        }
+\cs_set:Npn \NumberStyle      { \ttfamily   \footnotesize }
+\cs_set:Npn \GlyphStyle       { \SymbolFont \Large        }
 \cs_set:Npn \EncodingStyle
   { \ttfamily \fontsize {4} {5} \selectfont \cellcolor { encoding@bg } }
 
@@ -117,8 +122,6 @@
 \dim_const:Nn \c__xfonttable_nuni_wd_dim        { 50 pt }
 
 % The total number of glyphs.
-\NewDocumentCommand \GlyphCount { }
-  { Glyphs~ count:~ \ref*{count:glyph} }
 \newcounter { glyph }
 \setcounter { glyph } { -1 }
 
@@ -138,7 +141,7 @@
     \tl_set:Nn \l__xfonttable_glyph_count_tl
       { \ref*{count:glyph@#1} / \ref*{count:codepoint@#1} }
     \section{#1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl)}
-    \fancyfoot [L] { \xfonttable_left_foot: }
+    \cs_set:Npn \xfonttable_left_foot: { \xfonttable_left_foot_unicode: }
     \xfonttable_parse_encoding:n {#2}
     \int_gzero:N \g__xfonttable_glyph_int
     \int_gzero:N \g__xfonttable_code_point_int
@@ -154,11 +157,10 @@
 \int_new:N \g__xfonttable_glyph_int
 \int_new:N \g__xfonttable_code_point_int
 
-\cs_new_protected:Npn \xfonttable_left_foot:
+\cs_new_protected:Npn \xfonttable_left_foot_unicode:
   {
     \mode_leave_vertical:
     \footnotesize
-    \xfonttable_color_box:nn { nochar   @ bg } No~ Characters, \quad
     \xfonttable_color_box:nn { reserved @ bg } Reserved~ Code~ Points, \quad
     \xfonttable_color_box:nn { control  @ bg } Control~ Codes.
   }
@@ -320,15 +322,20 @@
         \clist_if_in:NVTF \c__xfonttable_unicode_control_clist \l_tmpa_tl
           { \cellcolor { control@bg } }
           {
+            % It must be outside `\xfonttable_if_char_exist`
             \GlyphStyle
             \xfonttable_if_char_exist:nTF {#1}
               {
-                \cellcolor { symbol@bg }
                 \xfonttable_symbol:n {#1}
                 \refstepcounter { glyph }
                 \int_gincr:N \g__xfonttable_glyph_int
               }
-              { \cellcolor { nochar@bg } }
+              {
+                \normalfont
+                \int_compare:nNnTF {#1} < { "10000 }
+                  { \BMPFallbackFont } { \SMPFallbackFont }
+                \textcolor { nochar@text } { \xfonttable_symbol:n {#1} }
+              }
             \int_gincr:N \g__xfonttable_code_point_int
           }
       }
@@ -358,7 +365,7 @@
   {
     \tl_set:Nn \l__xfonttable_glyph_count_tl { \ref*{count:glyph@nuni} }
     \section{#1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl)}
-    \fancyfoot [L] { }
+    \cs_set:Npn \xfonttable_left_foot: { }
     \int_gzero:N \g__xfonttable_nuni_glyph_int
     \xfonttable_nuni_import:n {#2}
     \xfonttable_nuni_parse:
@@ -453,49 +460,78 @@
     \
   }
 
+% Header and footer.
+\fancyhf { }
+\fancyhead [ R ] { \thepage }
+\fancyfoot [ L ]
+  {
+    \footnotesize
+    \int_compare:nNnTF { \int_use:c { c@page } } = { \ztotpages }
+      { \xfonttable_left_foot_last_page: } { \xfonttable_left_foot: }
+  }
+\fancyfoot [ R ]
+  {
+    \footnotesize \itshape
+    Copyright~ \copyright{}~ 2018~ by~ Xiangdong~ Zeng
+  }
+% `\headrulewidth` is not a dim variable.
+\cs_set:Npn \headrulewidth { 0 pt }
+\cs_new_protected:Npn \xfonttable_left_foot_last_page:
+  {
+    \itshape
+    Other~ fonts~ used~ in~ this~ document:~
+    FiraGO,~ Fira~ Code,~ GNU~ Unifont. \\
+    Colors~ are~ inspired~ by~ Google~ Material~ Design.
+  }
+
 \ExplSyntaxOff\makeatother
 
 \geometry{a4paper, hmargin=0.5in, vmargin=1.0in}
 \ctexset{section/format=\Large\bfseries\centering}
-\hypersetup{bookmarksnumbered=true, colorlinks=true, linkcolor=GoogleGreen}
+\hypersetup{bookmarksnumbered=true, colorlinks=true,
+  linkcolor=[HTML]34A853, urlcolor=[HTML]E91E63}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot[R]{\footnotesize \itshape Copyright \copyright{} 2018 by Xiangdong Zeng}
-\renewcommand\headrulewidth{0pt}
-
-\setmainfont{Source Sans Pro}
-\setmonofont{Fira Code Light}
+\setmainfont{FiraGO}[BoldFont=* SemiBold]
+\setmonofont{Fira Code}[UprightFont=* Light, BoldFont=* Regular]
 
 \newfontface\SymbolFont{fira-math.otf}[Path=../assets/]
 %\newfontface\SymbolFont{FiraSans-Regular.otf}
 %\newfontface\SymbolFont{xits-math.otf}
-%\newfontface\SymbolFont{unifont-10.0.05.ttf}[Path=D:/Fonts/GNU/]
+\newfontface\BMPFallbackFont{unifont-10.0.07.ttf}
+\newfontface\SMPFallbackFont{unifont_upper-10.0.07.ttf}
 
-\title{\bfseries Fira Math}
-\author{\GlyphCount}
+\title{\bfseries\huge Fira Math\\
+  \itshape\Large Sans-serif font with Unicode math support}
+\author{Xiangdong Zeng}
+\date{2018/01/20 \quad v0.1}
 
 \begin{document}
-
-\linespread{1.2}\selectfont
 
 \newgeometry{hmargin=1.5in, vmargin=1.0in}
 
 \maketitle
-\tableofcontents
-\thispagestyle{empty}
 
-%This is Fira Math, a sans-serif font with Unicode math support.
-%
-%\begin{center}
-%  \fonttablelegend{No Characters}{nochar@bg}
-%  \fonttablelegend{Reserved Code Points}{reserved@bg}
-%  \fonttablelegend{Control Codes}{control@bg}
-%\end{center}
+\begin{abstract}
+  \href{https://github.com/Stone-Zeng/FiraMath}{Fira Math} is a sans-serif font
+  with Unicode math support. The design of this font is based on
+  \href{https://github.com/mozilla/Fira}{Fira Sans} and
+  \href{https://bboxtype.com/typefaces/FiraGO}{FiraGO}. Fira Math is distributed
+  in OpenType format, and can be used with
+  \href{https://www.ctan.org/pkg/unicode-math}{unicode-math} package under
+  \hologo{XeTeX} or \hologo{LuaTeX}. There are \ref*{count:glyph} glyphs in
+  Fira Math at present.
+
+  Fira Math is licensed under the
+  \href{http://scripts.sil.org/OFL}{SIL Open Font License}, Version 1.1.
+\end{abstract}
+
+\setlength\cftbeforesubsecskip{1ex}
+\tableofcontents
 
 \clearpage
 
 \restoregeometry
+\pagestyle{fancy}
 
 \fonttable{C0 Controls and Basic Latin}{"0-"7F}
 \fonttable{C1 Controls and Latin-1 Supplement}{"80-"FF}
