@@ -3,20 +3,7 @@ Encoding: 8600 8600 717
 Width: 834
 VWidth: 999
 Flags: HW
-HStem: -19 80<406 551>
-VStem: 621 80<131 276>
 LayerCount: 2
 Fore
-SplineSet
-701 281 m 1
- 714 -32 l 5
- 401 -19 l 1
- 406 61 l 1
- 572 53 l 1
- 120 506 l 1
- 176 562 l 1
- 629 110 l 1
- 621 276 l 1
- 701 281 l 1
-EndSplineSet
+Refer: 716 8599 N 1 0 0 -1 0 529.431 2
 EndChar

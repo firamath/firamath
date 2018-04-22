@@ -1,20 +1,8 @@
 StartChar: uni2192
 Encoding: 8594 8594 711
 Width: 1040
-Flags: W
-HStem: 240 80<120 760>
+Flags: HW
 LayerCount: 2
 Fore
-SplineSet
-690 492 m 5
- 920 280 l 5
- 690 68 l 5
- 636 128 l 5
- 760 240 l 5
- 120 240 l 5
- 120 320 l 5
- 760 320 l 5
- 636 432 l 5
- 690 492 l 5
-EndSplineSet
+Refer: 709 8592 N -1 0 0 1 1040 0 2
 EndChar

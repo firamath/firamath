@@ -2,21 +2,11 @@ StartChar: uni2033
 Encoding: 8243 8243 671
 Width: 454
 Flags: W
-HStem: 427 262<60 244 60 244 210 244 145 279 210 210>
-VStem: 60 334<427 689>
+HStem: 669 20G<145 244 244 244 295 394 394 394>
+VStem: 60 184 210 184
 LayerCount: 2
 Fore
-SplineSet
-60 427 m 1
- 145 689 l 1
- 244 689 l 1
- 129 427 l 1
- 60 427 l 1
-210 427 m 1
- 295 689 l 1
- 394 689 l 1
- 279 427 l 1
- 210 427 l 1
-EndSplineSet
+Refer: 670 8242 N 1 0 0 1 150 0 2
+Refer: 670 8242 N 1 0 0 1 0 0 2
 Substitution2: "'ssty' subtable" uni2033.ssty1
 EndChar
