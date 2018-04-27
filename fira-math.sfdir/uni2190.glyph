@@ -1,19 +1,20 @@
 StartChar: uni2190
 Encoding: 8592 8592 709
 Width: 1040
-Flags: HW
+Flags: W
+HStem: 240 80<280 920>
 LayerCount: 2
 Fore
 SplineSet
 350 492 m 1
- 120 280 l 1
- 350 68 l 1
- 404 128 l 1
- 280 240 l 1
- 920 240 l 5
- 920 320 l 1
- 280 320 l 1
  404 432 l 1
+ 280 320 l 1
+ 920 320 l 1
+ 920 240 l 1
+ 280 240 l 1
+ 404 128 l 1
+ 350 68 l 1
+ 120 280 l 1
  350 492 l 1
 EndSplineSet
 EndChar

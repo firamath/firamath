@@ -1,0 +1,16 @@
+StartChar: uni219B
+Encoding: 8603 8603 1519
+Width: 1040
+Flags: W
+HStem: 240 80<120 760>
+LayerCount: 2
+Fore
+SplineSet
+270 110 m 1
+ 484 488 l 1
+ 550 450 l 1
+ 336 72 l 1
+ 270 110 l 1
+EndSplineSet
+Refer: 711 8594 N 1 0 0 1 0 0 2
+EndChar

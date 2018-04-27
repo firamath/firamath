@@ -1,8 +1,20 @@
 StartChar: uni2193
 Encoding: 8595 8595 712
 Width: 664
-Flags: HW
+Flags: W
+VStem: 292 80<40 680>
 LayerCount: 2
 Fore
-Refer: 709 8592 N 0 1 1 0 52 -240 2
+SplineSet
+544 110 m 1
+ 332 -120 l 1
+ 120 110 l 1
+ 180 164 l 1
+ 292 40 l 1
+ 292 680 l 1
+ 372 680 l 1
+ 372 40 l 1
+ 484 164 l 1
+ 544 110 l 1
+EndSplineSet
 EndChar
