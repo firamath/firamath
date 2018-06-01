@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
-FontName: FiraMath
-FullName: Fira Math
+FontName: FiraMath-Regular
+FullName: Fira Math Regular
 FamilyName: Fira Math
 Weight: Regular
 Copyright: Copyright (C) 2018 Xiangdong Zeng
@@ -22,7 +22,12 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1524122954
+ModificationTime: 1527341951
+PfmFamily: 33
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -110,7 +115,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1215 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
