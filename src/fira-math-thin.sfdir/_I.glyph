@@ -1,0 +1,16 @@
+StartChar: I
+Encoding: 73 73 41
+Width: 268
+Flags: W
+HStem: 0 21G<123 146 123 123> 661 20G<123 146 146 146>
+VStem: 123 23<0 681 0 681>
+LayerCount: 2
+Fore
+SplineSet
+146 681 m 1
+ 146 0 l 1
+ 123 0 l 1
+ 123 681 l 1
+ 146 681 l 1
+EndSplineSet
+EndChar

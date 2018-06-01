@@ -1,0 +1,19 @@
+StartChar: v
+Encoding: 118 118 86
+Width: 447
+Flags: W
+HStem: 0 19<228 228 228 243 214 228> 499 20G<23 48 48 48 400 424 424 424>
+VStem: 23 401<519 519>
+LayerCount: 2
+Fore
+SplineSet
+424 519 m 1
+ 243 0 l 1
+ 214 0 l 1
+ 23 519 l 1
+ 48 519 l 1
+ 228 19 l 1
+ 400 519 l 1
+ 424 519 l 1
+EndSplineSet
+EndChar
