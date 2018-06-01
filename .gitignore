@@ -26,3 +26,5 @@ tools/
 GLYPHS.md
 TODO.md
 data/fira-math.json
+
+*.ufo/

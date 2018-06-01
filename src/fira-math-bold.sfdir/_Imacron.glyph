@@ -1,0 +1,21 @@
+StartChar: Imacron
+Encoding: 298 298 232
+Width: 293
+Flags: W
+HStem: 0 21G<65 229 65 65> 673 20G<65 229 229 229> 781 110<-7 298 -7 298>
+VStem: 65 164<0 693 0 693>
+LayerCount: 2
+Fore
+SplineSet
+298 781 m 1
+ -7 781 l 1
+ -7 891 l 1
+ 298 891 l 1
+ 298 781 l 1
+229 693 m 1
+ 229 0 l 1
+ 65 0 l 1
+ 65 693 l 1
+ 229 693 l 1
+EndSplineSet
+EndChar

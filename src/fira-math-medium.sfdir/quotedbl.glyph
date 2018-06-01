@@ -1,0 +1,21 @@
+StartChar: quotedbl
+Encoding: 34 34 1
+Width: 421
+Flags: W
+HStem: 420 271<71 71 71 159 262 350 262 262>
+VStem: 62 105.5 253.5 105.5
+LayerCount: 2
+Fore
+SplineSet
+71 420 m 1
+ 53 691 l 1
+ 176 691 l 1
+ 159 420 l 1
+ 71 420 l 1
+262 420 m 1
+ 245 691 l 1
+ 368 691 l 1
+ 350 420 l 1
+ 262 420 l 1
+EndSplineSet
+EndChar
