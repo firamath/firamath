@@ -1,6 +1,7 @@
 import fontforge
+from datetime import datetime
 
-src_path = "./src/"
+sfd_path = "./src/"
 otf_path = "./docs/assets/"
 family_name = "FiraMath"
 family_name_full = "fira-math"
@@ -8,10 +9,12 @@ weights = ["thin", "light", "regular", "medium", "bold"]
 sfd_suffix = ".sfdir"
 otf_suffix = ".otf"
 
-print("FontForge version: " + fontforge.version())
+print("FontForge version: " + fontforge.version() + "\n")
 
 for i in weights:
-    file_name = src_path + family_name_full + "-" + i + sfd_suffix
-    font = fontforge.open(file_name)
-    font.generate(otf_path + family_name + "-" + i.capitalize() + otf_suffix, flags=("opentype"))
-print("Generating finished!")
+    sfd_name = sfd_path + family_name_full + "-" + i + sfd_suffix
+    font_name = family_name + "-" + i.capitalize()
+    font = fontforge.open(sfd_name)
+    font.generate(otf_path + font_name + otf_suffix, flags=("opentype"))
+    print(datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
+        + " '" + font_name + "' " + "generated successfully.")
