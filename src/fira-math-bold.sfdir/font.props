@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1527319520
-ModificationTime: 1527822390
+ModificationTime: 1528132878
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -38,14 +38,14 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "http://scripts.sil.org/OFL"
-Encoding: UnicodeBmp
+Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 297 27 9
+WinInfo: 819 13 10
 BeginPrivate: 0
 EndPrivate
 EndSplineFont
