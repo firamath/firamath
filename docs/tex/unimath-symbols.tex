@@ -42,21 +42,25 @@
 \defmathfont{lm}{latinmodern-math.otf}{CC6666}
 \defmathfont{xits}{xits-math.otf}{CCCC66}
 %\defmathfont{stix}{STIXMath-Regular.otf}{AA66CC}
-\defmathfont{cambria}{Cambria Math}{66CCCC}
+%\defmathfont{cambria}{Cambria Math}{66CCCC}
 %\defmathfont{asana}{Asana-Math.otf}{6666CC}
 \defmathfont{pagella}{texgyrepagella-math.otf}{AA66CC}
 %\defmathfont{euler}{euler.otf}{CC66CC}
 %\defmathfont{dejavu}{texgyredejavu-math.otf}{AACC66}
-\defmathfont{fira}{FiraMath-Regular.otf}{6666CC}[Path=../assets/]
+\defmathfont{firaT}{FiraMath-Thin.otf}{6666CC}[Path=../assets/]
+\defmathfont{firaL}{FiraMath-Light.otf}{6666CC}[Path=../assets/]
+\defmathfont{firaR}{FiraMath-Regular.otf}{6666CC}[Path=../assets/]
+\defmathfont{firaM}{FiraMath-Medium.otf}{6666CC}[Path=../assets/]
+\defmathfont{firaB}{FiraMath-Bold.otf}{6666CC}[Path=../assets/]
 
 \def\INPUT{\input{unicode-math-table.tex}}
 \def\TABLE{%
   \par\noindent
   %\begin{longtabu}[l]{@{}lcccccccclX[l]@{}}
-  \begin{longtabu}[l]{@{}lccccclX[l]@{}}
+  \begin{longtabu}[l]{@{}lcccccccclX[l]@{}}
     \toprule
     %\textsc{usv} & M & X & S & C & A & P & D & E & Macro & Description \\
-    \textsc{usv} & M & X & C & P & F & Macro & Description \\
+    \textsc{usv} & M & X & P & F & F & F & F & F & Macro & Description \\
     \midrule \endhead
     \INPUT\\
     \bottomrule
@@ -86,12 +90,16 @@
       \SYMB{#2}{lm}{#1} &
       \SYMB{#2}{xits}{#1} &
       %\SYMB{#2}{stix}{#1} &
-      \SYMB{#2}{cambria}{#1} &
+      %\SYMB{#2}{cambria}{#1} &
       %\SYMB{#2}{asana}{#1} &
       \SYMB{#2}{pagella}{#1} &
       %\SYMB{#2}{dejavu}{#1} &
       %\SYMB{#2}{euler}{#1} &
-      \SYMB{#2}{fira}{#1} &
+      \SYMB{#2}{firaT}{#1} &
+      \SYMB{#2}{firaL}{#1} &
+      \SYMB{#2}{firaR}{#1} &
+      \SYMB{#2}{firaM}{#1} &
+      \SYMB{#2}{firaB}{#1} &
       \CMD{#2}
       \tl_if_in:NnT \PLAIN {#2}
         {
@@ -164,12 +172,16 @@ The following fonts are shown: (with approximate symbol counts)
 \item[M] \mathversion{lm} $\mathup{Latin\ Modern\ Math}$ (\ref{count:lm})
 \item[X] \mathversion{xits} $\mathup{XITS\ Math}$ (\ref{count:xits})
 %\item[S] \mathversion{stix} $\mathup{STIX\ Math}$ (\ref{count:stix})
-\item[C] \mathversion{cambria} $\mathup{Cambria\ Math}$ (\ref{count:cambria})
+%\item[C] \mathversion{cambria} $\mathup{Cambria\ Math}$ (\ref{count:cambria})
 %\item[A] \mathversion{asana} $\mathup{Asana\ Math}$ (\ref{count:asana})
 \item[P] \mathversion{pagella} $\mathup{TeX\ Gyre\ Pagella\ Math}$ (\ref{count:pagella})
 %\item[E] \mathversion{euler} $\mathup{Neo\ Euler}$ (\ref{count:euler})
 %\item[D] \mathversion{dejavu} $\mathup{DejaVu Math TeX Gyre}$ (\ref{count:dejavu})
-\item[F] \mathversion{fira} $\mathup{Fira\ Math}$ (\ref{count:fira})
+\item[F] \mathversion{firaT} $\mathup{Fira\ Math\ Thin}$ (\ref{count:firaT})
+\item[F] \mathversion{firaL} $\mathup{Fira\ Math\ Light}$ (\ref{count:firaL})
+\item[F] \mathversion{firaR} $\mathup{Fira\ Math\ Regular}$ (\ref{count:firaR})
+\item[F] \mathversion{firaM} $\mathup{Fira\ Math\ Medium}$ (\ref{count:firaM})
+\item[F] \mathversion{firaB} $\mathup{Fira\ Math\ Bold}$ (\ref{count:firaB})
 \end{itemize}
 Note that there are addition maths fonts in the `\TeX\ Gyre' collection which aren't included here.
 
@@ -444,12 +456,16 @@ The limits behaviour as specified by \textsf{unicode-math} are shown with grey s
 \refstepcounter{lm}\label{count:lm}
 \refstepcounter{xits}\label{count:xits}
 %\refstepcounter{stix}\label{count:stix}
-\refstepcounter{cambria}\label{count:cambria}
+%\refstepcounter{cambria}\label{count:cambria}
 %\refstepcounter{asana}\label{count:asana}
 \refstepcounter{pagella}\label{count:pagella}
 %\refstepcounter{euler}\label{count:euler}
 %\refstepcounter{dejavu}\label{count:dejavu}
-\refstepcounter{fira}\label{count:fira}
+\refstepcounter{firaT}\label{count:firaT}
+\refstepcounter{firaL}\label{count:firaL}
+\refstepcounter{firaR}\label{count:firaR}
+\refstepcounter{firaM}\label{count:firaM}
+\refstepcounter{firaB}\label{count:firaB}
 
 \end{document}
 
