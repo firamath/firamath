@@ -6,9 +6,15 @@
         {
             "label": "build & test",
             "type": "shell",
-            "command": "./scripts/build.sh",
             "windows": {
                 "command": ".\\scripts\\build.bat"
+            },
+            "linux": {
+                "command": "python",
+                "args": [
+                    "./scripts/build.py",
+                    "--run"
+                ]
             },
             "group": {
                 "kind": "build",
@@ -17,13 +23,19 @@
             "problemMatcher": []
         },
         {
-            "label": "build font",
+            "label": "build fonts",
             "type": "shell",
-            "command": "./scripts/build.sh",
             "windows": {
                 "command": ".\\scripts\\build.bat",
                 "args": [
                     "font"
+                ]
+            },
+            "linux": {
+                "command": "python",
+                "args": [
+                    "./scripts/build.py",
+                    "--fonts"
                 ]
             },
             "group": "build",
@@ -32,11 +44,17 @@
         {
             "label": "build docs",
             "type": "shell",
-            "command": "./scripts/build.sh",
             "windows": {
                 "command": ".\\scripts\\build.bat",
                 "args": [
                     "doc"
+                ]
+            },
+            "linux": {
+                "command": "python",
+                "args": [
+                    "./scripts/build.py",
+                    "--docs"
                 ]
             },
             "group": "build",
@@ -56,6 +74,19 @@
             "problemMatcher": []
         },
         {
+            "label": "test only",
+            "type": "shell",
+            "linux": {
+                "command": "python",
+                "args": [
+                    "./scripts/build.py",
+                    "--test"
+                ]
+            },
+            "group": "build",
+            "problemMatcher": [],
+        },
+        {
             "label": "clean",
             "type": "shell",
             "command": "./scripts/build.sh",
@@ -63,6 +94,13 @@
                 "command": ".\\scripts\\build.bat",
                 "args": [
                     "clean"
+                ]
+            },
+            "linux": {
+                "command": "python",
+                "args": [
+                    "./scripts/build.py",
+                    "--clean"
                 ]
             },
             "group": "build",
