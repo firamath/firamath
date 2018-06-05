@@ -1,0 +1,18 @@
+StartChar: u1D6A5
+Encoding: 120485 120485 640
+Width: 268
+Flags: W
+HStem: -204 21G<-40 -40> 503 20G<143 201 201 201>
+VStem: -56 257
+LayerCount: 2
+Fore
+SplineSet
+-40 -204 m 1
+ -56 -160 l 1
+ 17 -126 55 -96 72 19 c 2
+ 143 523 l 1
+ 201 523 l 1
+ 129 17 l 2
+ 110 -123 61 -159 -40 -204 c 1
+EndSplineSet
+EndChar

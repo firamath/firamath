@@ -1,0 +1,21 @@
+StartChar: gamma
+Encoding: 947 947 896
+Width: 496
+Flags: W
+HStem: -220 21G<189 189> -205 21G<291 291> 523 20G<106 106 367 367>
+VStem: 157.5 123.17
+LayerCount: 2
+Fore
+SplineSet
+106 543 m 1x70
+ 153 484 212 355 248 136 c 1
+ 367 543 l 1
+ 494 516 l 1
+ 307 25 l 2
+ 277 -53 274 -110 291 -205 c 1x70
+ 189 -220 l 1xb0
+ 149 -139 147 -79 183 11 c 1
+ 118 259 55 423 -12 501 c 1
+ 106 543 l 1x70
+EndSplineSet
+EndChar

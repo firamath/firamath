@@ -1,0 +1,24 @@
+StartChar: uni018E
+Encoding: 398 398 333
+Width: 494
+Flags: W
+HStem: 0 21<43 348 43 371 43 348> 349 21<94 348 94 348> 660 21<50 348 50 371>
+VStem: 348 23<21 349 349 349 370 660 660 660>
+LayerCount: 2
+Fore
+SplineSet
+50 681 m 1
+ 371 681 l 1
+ 371 0 l 1
+ 43 0 l 1
+ 43 21 l 1
+ 348 21 l 1
+ 348 349 l 1
+ 94 349 l 1
+ 94 370 l 1
+ 348 370 l 1
+ 348 660 l 1
+ 50 660 l 1
+ 50 681 l 1
+EndSplineSet
+EndChar

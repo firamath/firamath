@@ -1,0 +1,23 @@
+StartChar: k
+Encoding: 107 107 74
+Width: 551
+Flags: W
+HStem: 0 21G<61 219 61 61 382 382 382 560> 511 20G<386 547 547 547> 722 20G<61 61> 739 20G<219 219>
+VStem: 61 158<0 742 742 742>
+LayerCount: 2
+Fore
+SplineSet
+219 759 m 1xd8
+ 219 0 l 1
+ 61 0 l 1
+ 61 742 l 1xe8
+ 219 759 l 1xd8
+547 531 m 1
+ 386 298 l 1
+ 560 0 l 1
+ 382 0 l 1
+ 224 290 l 1
+ 386 531 l 1
+ 547 531 l 1
+EndSplineSet
+EndChar

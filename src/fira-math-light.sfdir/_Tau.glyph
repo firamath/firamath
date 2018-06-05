@@ -1,0 +1,20 @@
+StartChar: Tau
+Encoding: 932 932 545
+Width: 495
+Flags: W
+HStem: 0 21G<218 277 218 218> 632 53<15 218 15 485 277 478 277 277>
+VStem: 218 59<0 632 0 632>
+LayerCount: 2
+Fore
+SplineSet
+485 685 m 1
+ 478 632 l 1
+ 277 632 l 1
+ 277 0 l 1
+ 218 0 l 1
+ 218 632 l 1
+ 15 632 l 1
+ 15 685 l 1
+ 485 685 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,22 @@
+StartChar: u1D467
+Encoding: 119911 119911 650
+Width: 400
+Flags: W
+HStem: 0 21<22 322> 499 20<90 374 87 405>
+VStem: -10 415
+LayerCount: 2
+Fore
+SplineSet
+405 519 m 1
+ 402 501 l 1
+ 22 21 l 1
+ 327 21 l 1
+ 322 0 l 1
+ -10 0 l 1
+ -7 18 l 1
+ 374 499 l 1
+ 87 499 l 1
+ 90 519 l 1
+ 405 519 l 1
+EndSplineSet
+EndChar

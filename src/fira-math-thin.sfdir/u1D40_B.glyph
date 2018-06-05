@@ -1,0 +1,18 @@
+StartChar: u1D40B
+Encoding: 119819 119819 727
+Width: 470
+Flags: W
+HStem: 0 44<162 443> 664 20G<115 162 162 162>
+VStem: 115 47<44 684 44 684 44 684>
+LayerCount: 2
+Fore
+SplineSet
+162 684 m 1
+ 162 44 l 1
+ 450 44 l 1
+ 443 0 l 1
+ 115 0 l 1
+ 115 684 l 1
+ 162 684 l 1
+EndSplineSet
+EndChar

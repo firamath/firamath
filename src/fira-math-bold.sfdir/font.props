@@ -1,0 +1,51 @@
+SplineFontDB: 3.0
+FontName: FiraMath-Bold
+FullName: Fira Math Bold
+FamilyName: Fira Math
+Weight: Bold
+Copyright: Copyright (C) 2018 Xiangdong Zeng
+UComments: "2018-5-26: Created with FontForge (http://fontforge.org)"
+Version: 0.1
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "+gMxmbwAA" 1
+Layer: 1 0 "+Uk1mbwAA" 0
+XUID: [1021 259 345145688 16412]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1527319520
+ModificationTime: 1528132878
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "http://scripts.sil.org/OFL"
+Encoding: UnicodeFull
+Compacted: 1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 819 13 10
+BeginPrivate: 0
+EndPrivate
+EndSplineFont

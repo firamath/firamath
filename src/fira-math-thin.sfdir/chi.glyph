@@ -1,0 +1,24 @@
+StartChar: chi
+Encoding: 967 967 573
+Width: 419
+Flags: W
+HStem: -194 21G<37 37 382 382> 501 20G<357 357> 504 20G<33 33>
+VStem: 11 391
+LayerCount: 2
+Fore
+SplineSet
+220 182 m 1xb0
+ 402 -188 l 1
+ 382 -194 l 1
+ 209 163 l 1
+ 37 -194 l 1
+ 15 -191 l 1
+ 198 183 l 1
+ 115 377 69 451 11 516 c 1
+ 33 524 l 1xb0
+ 88 460 132 389 209 201 c 1
+ 357 521 l 1
+ 381 519 l 1xd0
+ 220 182 l 1xb0
+EndSplineSet
+EndChar

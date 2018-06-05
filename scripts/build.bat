@@ -8,9 +8,7 @@ if "%1"=="clean" goto CLEAN
 goto TEST
 
 :FONT
-    fontforge -script "scripts\generate.pe" "fira-math.sfdir"
-    move *.otf  "docs\assets\"
-    move *.woff "docs\assets\"
+    ffpython "scripts\build.py"
 goto :EOF
 
 :TEST

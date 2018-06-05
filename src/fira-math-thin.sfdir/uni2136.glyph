@@ -1,0 +1,24 @@
+StartChar: uni2136
+Encoding: 8502 8502 596
+Width: 491
+Flags: W
+HStem: 0 20<46 365 387 458 43 365> 539 20<72 248 72 248>
+VStem: 365 22<20 400 400 402>
+LayerCount: 2
+Fore
+SplineSet
+387 20 m 1
+ 458 20 l 1
+ 458 0 l 1
+ 43 0 l 1
+ 46 20 l 1
+ 365 20 l 1
+ 365 400 l 2
+ 365 498 346 539 248 539 c 2
+ 72 539 l 1
+ 72 559 l 1
+ 248 559 l 2
+ 362 559 387 512 387 402 c 2
+ 387 20 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,21 @@
+StartChar: Idotaccent
+Encoding: 304 304 238
+Width: 282
+Flags: W
+HStem: 0 21G<111 171 111 111> 665 20G<111 171 171 171> 795 84<127 153.5>
+VStem: 97 87<825.5 848.5> 111 60<0 685 0 685>
+LayerCount: 2
+Fore
+SplineSet
+140 879 m 0xf0
+ 167 879 184 860 184 837 c 0
+ 184 814 167 795 140 795 c 0
+ 114 795 97 814 97 837 c 0
+ 97 860 114 879 140 879 c 0xf0
+171 685 m 1xe8
+ 171 0 l 1
+ 111 0 l 1
+ 111 685 l 1
+ 171 685 l 1xe8
+EndSplineSet
+EndChar

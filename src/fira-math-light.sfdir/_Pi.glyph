@@ -1,0 +1,20 @@
+StartChar: Pi
+Encoding: 928 928 542
+Width: 665
+Flags: W
+HStem: 0 21G<111 171 111 111 494 554 494 494> 633 52<171 494 171 171>
+VStem: 111 60<0 633 0 685 0 685> 494 60<0 633 633 633>
+LayerCount: 2
+Fore
+SplineSet
+554 685 m 1
+ 554 0 l 1
+ 494 0 l 1
+ 494 633 l 1
+ 171 633 l 1
+ 171 0 l 1
+ 111 0 l 1
+ 111 685 l 1
+ 554 685 l 1
+EndSplineSet
+EndChar

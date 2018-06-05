@@ -1,0 +1,22 @@
+StartChar: i
+Encoding: 105 105 72
+Width: 267
+Flags: W
+HStem: 0 21G<105 163 105 105> 503 20G<105 163 163 163> 669 84<120 146.5>
+VStem: 90 87<699.5 722.5> 105 58<0 523 0 523>
+LayerCount: 2
+Fore
+SplineSet
+133 753 m 0xf0
+ 160 753 177 734 177 711 c 0
+ 177 688 160 669 133 669 c 0
+ 107 669 90 688 90 711 c 0
+ 90 734 107 753 133 753 c 0xf0
+163 523 m 1xe8
+ 163 0 l 1
+ 105 0 l 1
+ 105 523 l 1
+ 163 523 l 1xe8
+EndSplineSet
+Substitution2: "'dtls' subtable" dotlessi
+EndChar
