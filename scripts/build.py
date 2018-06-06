@@ -32,9 +32,6 @@ def generate_fonts():
         font_name = family_name + "-" + i.capitalize()
         font_name_full = family_name_full + "-" + i
         font = fontforge.open(sfd_path + font_name_full + sfd_suffix)
-        #print(sfd_path + font_name_full + sfd_suffix)
-        #print(feature_path + font_name_full + feature_suffix)
-        #print(otf_path + font_name + otf_suffix)
         font.mergeFeature(feature_path + font_name_full + feature_suffix)
         font.generate(otf_path + font_name + otf_suffix, flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
