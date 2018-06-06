@@ -25,6 +25,4 @@ tools/
 # Other
 GLYPHS.md
 TODO.md
-data/fira-math.json
-
-*.ufo/
+data/*.json

@@ -19,10 +19,6 @@ test_file_name   = "font-test"
 docs_file_names  = ["specimen", "unimath-symbols"]
 weights          = ["thin", "light", "regular", "medium", "bold"]
 # weights          = ["regular"]
-sfd_suffix       = ".sfdir"
-feature_suffix   = ".fea"
-otf_suffix       = ".otf"
-tex_suffix       = ".tex"
 
 def generate_fonts():
     print("FontForge version: " + fontforge.version())
@@ -31,9 +27,9 @@ def generate_fonts():
     for i in weights:
         font_name = family_name + "-" + i.capitalize()
         font_name_full = family_name_full + "-" + i
-        font = fontforge.open(sfd_path + font_name_full + sfd_suffix)
-        font.mergeFeature(feature_path + font_name_full + feature_suffix)
-        font.generate(otf_path + font_name + otf_suffix, flags=("opentype"))
+        font = fontforge.open(sfd_path + font_name_full + ".sfdir")
+        font.mergeFeature(feature_path + font_name_full + ".fea")
+        font.generate(otf_path + font_name + ".otf", flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
             + " '" + font_name + "' " + "generated successfully.")
 
@@ -42,7 +38,7 @@ def xelatex_test():
     run_xelatex(test_file_name)
 
 def run_xelatex(file_name):
-    os.system("xelatex" + " " + file_name + tex_suffix)
+    os.system("xelatex " + file_name + ".tex")
 
 def make_docs():
     os.chdir(docs_path)
@@ -50,7 +46,7 @@ def make_docs():
         run_latexmk(i)
 
 def run_latexmk(file_name):
-    os.system("latexmk -g -xelatex" + " " + file_name + tex_suffix)
+    os.system("latexmk -g -xelatex " + file_name + ".tex")
 
 def clean():
     os.chdir(test_path)

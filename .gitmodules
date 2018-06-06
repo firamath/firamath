@@ -1,3 +1,3 @@
 [submodule "lib/otfcc"]
-	path = lib/otfcc
-	url = https://github.com/caryll/otfcc.git
+    path = lib/otfcc
+    url = https://github.com/caryll/otfcc.git
