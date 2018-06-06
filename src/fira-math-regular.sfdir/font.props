@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1527341951
+ModificationTime: 1528275240
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -43,7 +43,6 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard ligatures" { "'liga' subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'dtls' Dotless forms" { "'dtls' subtable"  } ['dtls' ('math' <'dflt' > ) ]
 Lookup: 1 0 0 "'ssty' Script style" { "'ssty' subtable"  } ['ssty' ('math' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Upright integral" { "'ss01' subtable"  } ['ss01' ('math' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Planck constant with bar" { "'ss02' subtable"  } ['ss02' ('math' <'dflt' > ) ]
@@ -115,7 +114,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 27 9
+WinInfo: 26 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

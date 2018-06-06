@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import argparse
 import datetime
 import os
@@ -7,15 +9,18 @@ import fontforge
 
 pwd              = os.getcwd()
 sfd_path         = pwd + "/src/"
+feature_path     = pwd + "/src/features/"
 otf_path         = pwd + "/docs/assets/"
-test_path        = pwd + "/test"
-docs_path        = pwd + "/docs/tex"
+test_path        = pwd + "/test/"
+docs_path        = pwd + "/docs/tex/"
 family_name      = "FiraMath"
 family_name_full = "fira-math"
 test_file_name   = "font-test"
 docs_file_names  = ["specimen", "unimath-symbols"]
 weights          = ["thin", "light", "regular", "medium", "bold"]
+# weights          = ["regular"]
 sfd_suffix       = ".sfdir"
+feature_suffix   = ".fea"
 otf_suffix       = ".otf"
 tex_suffix       = ".tex"
 
@@ -24,9 +29,13 @@ def generate_fonts():
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
     for i in weights:
-        sfd_name = sfd_path + family_name_full + "-" + i + sfd_suffix
         font_name = family_name + "-" + i.capitalize()
-        font = fontforge.open(sfd_name)
+        font_name_full = family_name_full + "-" + i
+        font = fontforge.open(sfd_path + font_name_full + sfd_suffix)
+        #print(sfd_path + font_name_full + sfd_suffix)
+        #print(feature_path + font_name_full + feature_suffix)
+        #print(otf_path + font_name + otf_suffix)
+        font.mergeFeature(feature_path + font_name_full + feature_suffix)
         font.generate(otf_path + font_name + otf_suffix, flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
             + " '" + font_name + "' " + "generated successfully.")

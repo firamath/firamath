@@ -1,0 +1,12 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem math dflt;
+
+feature dtls {
+    script math;
+
+    sub uni0069 by uni0131; # i -> dotless i
+    sub uni006A by uni0237; # j -> dotless j
+    sub u1D456  by u1D6A4;  # mathit i -> mathit dotless i
+    sub u1D457  by u1D6A5;  # mathit j -> mathit dotless j
+} dtls;

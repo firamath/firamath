@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1527319520
-ModificationTime: 1527925234
+ModificationTime: 1528275128
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,7 +41,6 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'dtls' Dotless forms" { "'dtls' subtable"  } ['dtls' ('math' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "http://scripts.sil.org/OFL"
@@ -109,7 +108,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 702 27 9
+WinInfo: 702 26 10
 BeginPrivate: 0
 EndPrivate
 EndSplineFont

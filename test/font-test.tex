@@ -8,11 +8,19 @@
 \setsansfont{TeX Gyre Heros}
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
 
-\def\WIEGHT{Light}
-\setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
-\setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
-\setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
-\setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
+\def\WIEGHT{Medium}
+%\def\SSTY{}
+\ifdefined\SSTY
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
+\else
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=upintegral]
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=hbar]
+  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=complement]
+\fi
 \newfontface\firatext{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
 %\setmathfont{XITS Math}
 %\setmathfont{XITS Math}[BoldFont = *, StylisticSet=8,  version=upintegral]
