@@ -1,0 +1,21 @@
+StartChar: uni03A5
+Encoding: 933 933 546
+Width: 494
+Flags: W
+HStem: 0 21G<237 260 237 237> 661 20G<21 47 47 47 447 473 473 473>
+VStem: 237 23<0 270 270 270>
+LayerCount: 2
+Fore
+SplineSet
+473 681 m 1
+ 260 271 l 1
+ 260 0 l 1
+ 237 0 l 1
+ 237 270 l 1
+ 21 681 l 1
+ 47 681 l 1
+ 249 292 l 1
+ 447 681 l 1
+ 473 681 l 1
+EndSplineSet
+EndChar

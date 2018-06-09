@@ -1,0 +1,23 @@
+StartChar: uni006B
+Encoding: 107 107 75
+Width: 463
+Flags: W
+HStem: 0 21G<118 140 118 118 418 418 418 445> 499 20G<392 420 420 420> 713 20G<118 118> 716 20G<140 140>
+VStem: 118 22<0 733 733 733>
+LayerCount: 2
+Fore
+SplineSet
+140 736 m 1xd8
+ 140 0 l 1
+ 118 0 l 1
+ 118 733 l 1xe8
+ 140 736 l 1xd8
+420 519 m 1
+ 174 284 l 1
+ 445 0 l 1
+ 418 0 l 1
+ 146 284 l 1
+ 392 519 l 1
+ 420 519 l 1
+EndSplineSet
+EndChar

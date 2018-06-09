@@ -17,8 +17,9 @@ non_unicode_data = data_path + "non-unicode.txt"
 # Font meta data
 family_name      = "FiraMath"
 family_name_full = "fira-math"
-weights          = ["thin", "light", "regular", "medium", "bold"]
+# weights          = ["thin", "light", "regular", "medium", "bold"]
 # weights          = ["thin"]
+weights          = ["thin", "light", "medium", "bold"]
 
 # Other constants
 non_unicode_begin_idx = 1114112 # 1114112 = 0x110000 is the beginning of non-unicode block
@@ -143,12 +144,6 @@ def normalize_file_name(file_name):
 # 2nd dimension: sorted by index
 # 3rd dimension: (<encoding dec>, <unicode dec>, <glyph index dec>, <glyph name>)
 cmap = get_cmap()
-#for weight_i in cmap:
-    #for j in i:
-    #    print(j)
-    #print("+++++++++++++++++++++++++++++++++++++++++")
-    #match = next(y for y in i if y[1]==32)
-    #print(match)
 
 #                       1            2   3             4     5     6
 pattern = re.compile(r"(StartChar: )(.+)(\nEncoding: )(\S+) (\S+) (\S+)\n")
@@ -192,3 +187,4 @@ for idx, item in enumerate(weights):
     for new_glyph_file in new_glyph_files:
         with open(new_glyph_file[0], "w") as f:
             f.write(new_glyph_file[1])
+    print("Processing " + family_name_full + "-" + item + " finished!")
