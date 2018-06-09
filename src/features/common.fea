@@ -11,8 +11,9 @@ feature dtls {
     sub u1D457  by u1D6A5;  # mathit j -> mathit dotless j
 } dtls;
 
-feature ssty {
-    sub uni2032 from uni2032.ssty1;
-    sub uni2033 from uni2033.ssty1;
-    sub uni2034 from uni2034.ssty1;
-} ssty;
+# Not added yet.
+# feature ssty {
+#     sub uni2032 from uni2032.ssty1;
+#     sub uni2033 from uni2033.ssty1;
+#     sub uni2034 from uni2034.ssty1;
+# } ssty;
