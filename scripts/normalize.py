@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 import os
+import glob
 import json
+import re
 
 # Directories and files
 pwd              = os.getcwd()
@@ -15,8 +17,8 @@ non_unicode_data = data_path + "non-unicode.txt"
 # Font meta data
 family_name      = "FiraMath"
 family_name_full = "fira-math"
-# weights          = ["thin", "light", "regular", "medium", "bold"]
-weights          = ["thin"]
+weights          = ["thin", "light", "regular", "medium", "bold"]
+# weights          = ["thin"]
 
 # Other constants
 non_unicode_begin_idx = 1114112 # 1114112 = 0x110000 is the beginning of non-unicode block
@@ -30,17 +32,8 @@ def get_cmap():
         otfcc_dump(font_otf, font_json)
         unicode_glyphs = get_unicode_info(font_json)
         non_unicode_glyphs = get_non_unicode_info(
-            font_json,
-            non_unicode_data,
-            font_name,
-            len(unicode_glyphs))
-        #non_unicode_glyphs = get_non_unicode_info(
-        #    get_non_unicode_from_json(font_json),
-        #    get_non_unicode(),
-        #    font_name, show_info=False)
-        #for idx, item in enumerate(non_unicode_glyphs):
-        #    item = (non_unicode_begin_idx + idx, -1, len(unicode_glyphs) + idx, item)
-        #    non_unicode_glyphs[idx] = item
+            font_json, non_unicode_data, font_name, len(unicode_glyphs),
+            show_info=False)
         cmap.append(unicode_glyphs + non_unicode_glyphs)
     return cmap
 
@@ -141,5 +134,61 @@ def get_non_unicode_from_data(non_unicode_data_file):
                 glyphs_non_unicode.append(s)
     return glyphs_non_unicode
 
+# Add underline
+def normalize_file_name(file_name):
+    return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name)
+
 #####################
-x = get_cmap()
+# 1st dimension: weight
+# 2nd dimension: sorted by index
+# 3rd dimension: (<encoding dec>, <unicode dec>, <glyph index dec>, <glyph name>)
+cmap = get_cmap()
+#for weight_i in cmap:
+    #for j in i:
+    #    print(j)
+    #print("+++++++++++++++++++++++++++++++++++++++++")
+    #match = next(y for y in i if y[1]==32)
+    #print(match)
+
+#                       1            2   3             4     5     6
+pattern = re.compile(r"(StartChar: )(.+)(\nEncoding: )(\S+) (\S+) (\S+)\n")
+
+# #HACK
+# sfd_path = "./temp/"
+
+for idx, item in enumerate(weights):
+    glyph_files = glob.glob(sfd_path + family_name_full + "-" + item + ".sfdir/" + "*.glyph")
+    new_glyph_files = []
+    #print(len(cmap[0]))
+    #print(len(glyph_files))
+    for glyph_file in glyph_files:
+        with open(glyph_file, "r") as f:
+            glyph_content = f.read()
+        #print("===============================")
+        #print(glyph_content)
+        #print("*******************************")
+        m = re.match(pattern, glyph_content)
+
+        # The 2nd number in `encoding`
+        unicode_idx = m.group(5)
+        
+        if unicode_idx != -1:
+            e = next((x for x in cmap[idx] if x[1] == int(unicode_idx)), None)
+            meta = m.group(1) + e[3] + \
+                   m.group(3) + str(e[0]) + " " + str(e[1]) + " " + str(e[2]) + "\n"
+        else:
+            #TODO
+            meta = m.group(0)
+
+        new_file_name = sfd_path + family_name_full + "-" + item + ".sfdir/" + \
+                        normalize_file_name(e[3]) + ".glyph"
+        new_content = re.sub(pattern, meta, glyph_content)
+        new_glyph_files.append((new_file_name, new_content))
+
+    # !!!!!!!!!!!!!!!!!!!!!!!
+    for glyph_file in glyph_files:
+        os.remove(glyph_file)
+
+    for new_glyph_file in new_glyph_files:
+        with open(new_glyph_file[0], "w") as f:
+            f.write(new_glyph_file[1])
