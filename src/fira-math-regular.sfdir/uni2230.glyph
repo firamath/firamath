@@ -1,5 +1,5 @@
 StartChar: uni2230
-Encoding: 8752 8752 771
+Encoding: 8752 8752 801
 Width: 1199
 Flags: W
 ItalicCorrection: 240
@@ -21,6 +21,6 @@ SplineSet
  1013 392 794 448 550 448 c 0
  306 448 87 392 87 308 c 0
 EndSplineSet
-Refer: 768 8749 N 1 0 0 1 0 0 2
+Refer: 798 8749 N 1 0 0 1 0 0 2
 Substitution2: "'ss01' subtable" uni2230.up
 EndChar

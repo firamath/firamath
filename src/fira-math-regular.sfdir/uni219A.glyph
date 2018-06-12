@@ -1,5 +1,5 @@
 StartChar: uni219A
-Encoding: 8602 8602 1518
+Encoding: 8602 8602 724
 Width: 1040
 Flags: W
 HStem: 240 80<280 920>
@@ -12,5 +12,5 @@ SplineSet
  556 72 l 5
  490 110 l 5
 EndSplineSet
-Refer: 709 8592 N 1 0 0 1 0 0 2
+Refer: 714 8592 N 1 0 0 1 0 0 2
 EndChar

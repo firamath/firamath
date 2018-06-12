@@ -1,11 +1,11 @@
 StartChar: uni2034.ssty1
-Encoding: 1114115 -1 1336
+Encoding: 1114115 -1 1388
 Width: 780
 Flags: W
 VStem: 80 230 275 230 470 230
 LayerCount: 2
 Fore
-Refer: 1334 -1 N 1 0 0 1 390 0 2
-Refer: 1334 -1 N 1 0 0 1 195 0 2
-Refer: 1334 -1 N 1 0 0 1 0 0 2
+Refer: 1386 -1 N 1 0 0 1 390 0 2
+Refer: 1386 -1 N 1 0 0 1 195 0 2
+Refer: 1386 -1 N 1 0 0 1 0 0 2
 EndChar

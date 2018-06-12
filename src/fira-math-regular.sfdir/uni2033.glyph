@@ -1,12 +1,12 @@
 StartChar: uni2033
-Encoding: 8243 8243 671
+Encoding: 8243 8243 673
 Width: 454
 Flags: W
 HStem: 669 20G<145 244 244 244 295 394 394 394>
 VStem: 60 184 210 184
 LayerCount: 2
 Fore
-Refer: 670 8242 N 1 0 0 1 150 0 2
-Refer: 670 8242 N 1 0 0 1 0 0 2
+Refer: 672 8242 N 1 0 0 1 150 0 2
+Refer: 672 8242 N 1 0 0 1 0 0 2
 Substitution2: "'ssty' subtable" uni2033.ssty1
 EndChar

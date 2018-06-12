@@ -1,5 +1,5 @@
 StartChar: uni222C.display
-Encoding: 1114120 -1 1341
+Encoding: 1114120 -1 1393
 Width: 1620
 Flags: W
 ItalicCorrection: 580
@@ -7,7 +7,7 @@ IsExtendedShape: 1
 HStem: -650 86<114.166 285.361 554.166 725.361> 1338 86<858.639 1029.83 1298.64 1469.83>
 LayerCount: 2
 Fore
-Refer: 1340 -1 N 1 0 0 1 440 0 2
-Refer: 1340 -1 N 1 0 0 1 0 0 2
+Refer: 1392 -1 N 1 0 0 1 440 0 2
+Refer: 1392 -1 N 1 0 0 1 0 0 2
 Substitution2: "'ss01' subtable" uni222C.display.up
 EndChar

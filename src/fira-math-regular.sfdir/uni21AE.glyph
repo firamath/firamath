@@ -1,5 +1,5 @@
 StartChar: uni21AE
-Encoding: 8622 8622 1520
+Encoding: 8622 8622 734
 Width: 1120
 Flags: HW
 LayerCount: 2
@@ -11,5 +11,5 @@ SplineSet
  486 72 l 1
  420 110 l 1
 EndSplineSet
-Refer: 713 8596 N 1 0 0 1 0 0 2
+Refer: 718 8596 N 1 0 0 1 0 0 2
 EndChar
