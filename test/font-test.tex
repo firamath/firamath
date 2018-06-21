@@ -3,12 +3,16 @@
 \usepackage{amsmath}
 \usepackage[no-math]{fontspec}
 \usepackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
+\ExplSyntaxOn
+\msg_redirect_name:nnn { LaTeX / xparse } { not-single-char } { none }
+\ExplSyntaxOff
 \usepackage{physics}
+
 \setmainfont{TeX Gyre Pagella}
 \setsansfont{TeX Gyre Heros}
 \setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
 
-\def\WIEGHT{Medium}
+\def\WIEGHT{Light}
 %\def\SSTY{}
 \ifdefined\SSTY
   \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
@@ -420,6 +424,13 @@
         \[ \OVERUNDERLINE{\underparen}   \quad \underparen   {\LISTTEXT}_n \]
         \[ \OVERUNDERLINE{\underbracket} \quad \underbracket {\LISTTEXT}_n \]
         \[ \OVERUNDERLINE{\underbrace}   \quad \underbrace   {\LISTTEXT}_n \]
+  \item Primes
+        \[ x' x'' x''' x'''' x` x^{x'} x^{x''} x^{x'''} x^{x''''} x^{x`} \]
+        \[ x \prime x \dprime x \trprime x \qprime \]
+        \[ x^{\prime} x^{\dprime} x^{\trprime} x^{\qprime} \] % the same as ', '' or ''' => ssty
+        \begin{center}
+          \firatext x\symbol{"2032} x\symbol{"2033} x\symbol{"2034} x' x'' x'''
+        \end{center}
 \end{itemize}
 
 \verb|\lim_{x\to\infty} \frac{1}{x^2} = 0|
@@ -427,10 +438,6 @@
 
 \verb|\frac{\partial y(x)}{\partial x} = \frac{\mathrm{d}y(x)}{\mathrm{d}x} = y'(x)|
 \[ \frac{\partial y(x)}{\partial x} = \frac{\mathrm{d}y(x)}{\mathrm{d}x} = y'(x) \]
-
-\[ x' x'' x''' x` x^{x'} x^{x''} x^{x'''} x^{x`}\]
-
-{\firatext x\symbol{"2032} x'' x'''}
 
 \[ g^{mn} g_{mn} T^{i}_{jk} \]
 
