@@ -14,13 +14,17 @@ from __future__ import print_function
 import glob
 import json
 import os
+import platform
 import re
 
 # For debug only.
 # import sys
 
 CWD = os.getcwd()
-OTFCC = CWD + "/lib/otfcc/bin/release-x64/otfccdump"
+if platform.system() == "Linux":
+    OTFCC = CWD + "/lib/otfcc/bin/release-x64/otfccdump"
+elif platform.system() == "Windows":
+    OTFCC = "otfccdump"
 
 # RE patterns.
 # Groups:                        1            2   3             4     5     6
@@ -232,7 +236,7 @@ def write_files(file_list, content_list):
     """Write files in `file_list` with the content in `content_list`.
     """
     for i, content in zip(file_list, content_list):
-        with open(i, "w") as file_i:
+        with open(i, "w", newline="\n") as file_i:
             file_i.write(content)
 
 def delete_files(file_list):
@@ -255,7 +259,7 @@ def main():
     family_name_full = "fira-math"
     weight_list = ["thin", "light", "regular", "medium", "bold"]
     # For debug
-    # weight_list  = ["regular"]
+    # weight_list = ["regular"]
     # sfd_path = "./temp/"
 
     # The core procedure.
