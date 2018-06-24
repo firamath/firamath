@@ -1,0 +1,13 @@
+StartChar: uni2034
+Encoding: 8244 8244 590
+Width: 516
+Flags: WO
+HStem: 441 240
+VStem: 83 110 203 110 323 110
+CounterMasks: 1 70
+LayerCount: 2
+Fore
+Refer: 588 8242 N 1 0 0 1 240 0 2
+Refer: 588 8242 N 1 0 0 1 120 0 2
+Refer: 588 8242 N 1 0 0 1 0 0 2
+EndChar
