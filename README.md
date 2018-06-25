@@ -35,6 +35,8 @@ Fira Math can be used in LaTeX or Microsoft Word after installed on your OS.
 
 1. In order for the changes to take effect, you will have to create a new equation environment (the current one will not be changed).
 
+1. To change the font in existing equations, select the equation text and select an OpenType math-enabled font (such as Fira Math).
+
 See <https://superuser.com/q/1114697>.
 
 ## Showcase
