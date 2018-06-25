@@ -236,8 +236,12 @@ def write_files(file_list, content_list):
     """Write files in `file_list` with the content in `content_list`.
     """
     for i, content in zip(file_list, content_list):
-        with open(i, "w", newline="\n") as file_i:
-            file_i.write(content)
+        if platform.system() == "Linux":
+            with open(i, "w") as file_i:
+                file_i.write(content)
+        elif platform.system() == "Windows":
+            with open(i, "w", newline="\n") as file_i:
+                file_i.write(content)
 
 def delete_files(file_list):
     """Delete all files in `file_list`.
