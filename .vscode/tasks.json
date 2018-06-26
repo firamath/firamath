@@ -7,7 +7,11 @@
             "label": "build & test",
             "type": "shell",
             "windows": {
-                "command": ".\\scripts\\build.bat"
+                "command": "ffpython",
+                "args": [
+                    ".\\scripts\\build.py",
+                    "--run"
+                ]
             },
             "linux": {
                 "command": "python",
@@ -26,9 +30,10 @@
             "label": "build fonts",
             "type": "shell",
             "windows": {
-                "command": ".\\scripts\\build.bat",
+                "command": "ffpython",
                 "args": [
-                    "font"
+                    ".\\scripts\\build.py",
+                    "--fonts"
                 ]
             },
             "linux": {
@@ -45,9 +50,10 @@
             "label": "build docs",
             "type": "shell",
             "windows": {
-                "command": ".\\scripts\\build.bat",
+                "command": "ffpython",
                 "args": [
-                    "doc"
+                    ".\\scripts\\build.py",
+                    "--docs"
                 ]
             },
             "linux": {
@@ -60,22 +66,29 @@
             "group": "build",
             "problemMatcher": []
         },
-        {
-            "label": "build slide",
-            "type": "shell",
-            "command": "./scripts/build.sh",
-            "windows": {
-                "command": ".\\scripts\\build.bat",
-                "args": [
-                    "slide"
-                ]
-            },
-            "group": "build",
-            "problemMatcher": []
-        },
+        // {
+        //     "label": "build slide",
+        //     "type": "shell",
+        //     "command": "./scripts/build.sh",
+        //     "windows": {
+        //         "command": ".\\scripts\\build.bat",
+        //         "args": [
+        //             "slide"
+        //         ]
+        //     },
+        //     "group": "build",
+        //     "problemMatcher": []
+        // },
         {
             "label": "test only",
             "type": "shell",
+            "windows": {
+                "command": "ffpython",
+                "args": [
+                    ".\\scripts\\build.py",
+                    "--test"
+                ]
+            },
             "linux": {
                 "command": "python",
                 "args": [
@@ -89,11 +102,11 @@
         {
             "label": "clean",
             "type": "shell",
-            "command": "./scripts/build.sh",
             "windows": {
-                "command": ".\\scripts\\build.bat",
+                "command": "ffpython",
                 "args": [
-                    "clean"
+                    ".\\scripts\\build.py",
+                    "--clean"
                 ]
             },
             "linux": {
