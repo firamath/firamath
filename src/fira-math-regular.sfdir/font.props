@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1529898267
+ModificationTime: 1530018037
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -104,7 +104,7 @@ MATH:RadicalDisplayStyleVerticalGap: 142
 MATH:RadicalRuleThickness: 76 
 MATH:RadicalExtraAscender: 76 
 MATH:RadicalKernBeforeDegree: 276 
-MATH:RadicalKernAfterDegree: -555 
+MATH:RadicalKernAfterDegree: -400 
 MATH:RadicalDegreeBottomRaisePercent: 60
 MATH:MinConnectorOverlap: 20
 Encoding: UnicodeFull
