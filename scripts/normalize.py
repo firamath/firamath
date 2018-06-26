@@ -155,7 +155,7 @@ def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
     """
     for weight, meta_data in zip(weight_list, meta_data_list):
         sfdir = sfd_path + family_name_full + "-" + weight + ".sfdir/"
-        glyph_file_list = glob.glob(sfdir + "*.glyph")
+        glyph_file_list = glob.glob(sfdir + "*.glyph") + glob.glob(sfdir + ".notdef.glyph")
         # Read glyph files.
         glyph_content_list = []
         for glyph_file_name in glyph_file_list:
