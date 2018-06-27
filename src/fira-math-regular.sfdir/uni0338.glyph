@@ -2,13 +2,14 @@ StartChar: uni0338
 Encoding: 824 824 576
 Width: 0
 Flags: HW
+TopAccentHorizontal: -312
 LayerCount: 2
 Fore
 SplineSet
--437 62 m 5
- -488 91 l 5
- -186 597 l 5
- -136 570 l 5
- -437 62 l 5
+-437 62 m 1
+ -488 91 l 1
+ -186 597 l 1
+ -136 570 l 1
+ -437 62 l 1
 EndSplineSet
 EndChar

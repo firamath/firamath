@@ -1,0 +1,21 @@
+StartChar: uni20E9
+Encoding: 8425 8425 1542
+Width: 0
+Flags: W
+TopAccentHorizontal: -195
+HStem: 634 149<-360 -300 -90 -30> 723 60<-300 -90>
+VStem: -360 60<634 723> -90 60<634 723>
+LayerCount: 2
+Fore
+SplineSet
+-360 634 m 1xb0
+ -360 783 l 1
+ -30 783 l 1
+ -30 634 l 1
+ -90 634 l 1xb0
+ -90 723 l 1
+ -300 723 l 1x70
+ -300 634 l 1
+ -360 634 l 1xb0
+EndSplineSet
+EndChar

@@ -2,6 +2,7 @@ StartChar: uni033D
 Encoding: 829 829 581
 Width: 0
 Flags: W
+TopAccentHorizontal: -174
 HStem: 600 238<-308 -233 -318 -222 -117 -44 -308 -30 -117 -117>
 VStem: -318 288<600 600>
 LayerCount: 2

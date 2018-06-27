@@ -1,0 +1,19 @@
+StartChar: uni20ED
+Encoding: 8429 8429 1539
+Width: 0
+Flags: W
+TopAccentHorizontal: -216
+HStem: -164 60<-290 -30>
+LayerCount: 2
+Fore
+SplineSet
+-401 -121 m 5
+ -387 -104 l 5
+ -30 -104 l 5
+ -30 -164 l 5
+ -290 -164 l 5
+ -240 -220 l 5
+ -277 -254 l 5
+ -401 -121 l 5
+EndSplineSet
+EndChar

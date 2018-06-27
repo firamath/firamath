@@ -1,0 +1,26 @@
+StartChar: uni20F0
+Encoding: 8432 8432 1536
+Width: 0
+Flags: HW
+TopAccentHorizontal: -180
+LayerCount: 2
+Fore
+SplineSet
+-30 717 m 1
+ -145 692 l 1
+ -67 605 l 1
+ -121 566 l 1
+ -180 666 l 1
+ -238 566 l 1
+ -292 604 l 1
+ -215 692 l 1
+ -329 717 l 1
+ -309 778 l 1
+ -202 733 l 1
+ -214 850 l 1
+ -146 850 l 1
+ -157 732 l 1
+ -51 779 l 1
+ -30 717 l 1
+EndSplineSet
+EndChar
