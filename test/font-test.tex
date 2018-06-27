@@ -1,47 +1,66 @@
 \documentclass{article}
+\usepackage{expl3,xparse}
+
+\ExplSyntaxOn
+
+\msg_redirect_name:nnn { LaTeX / xparse } { not-single-char } { none }
+
 \usepackage[a4paper, margin=1in, showframe]{geometry}
 \usepackage{amsmath}
 \usepackage[no-math]{fontspec}
 \usepackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
-\ExplSyntaxOn
-\msg_redirect_name:nnn { LaTeX / xparse } { not-single-char } { none }
-\ExplSyntaxOff
 \usepackage{physics}
 
-\setmainfont{TeX Gyre Pagella}
-\setsansfont{TeX Gyre Heros}
-\setmonofont{CMU Typewriter Text}[UprightFont = * Light, HyphenChar = None]
+\setmainfont{TeX~ Gyre~ Pagella}
+\setsansfont{TeX~ Gyre~ Heros}
+\setmonofont{CMU~ Typewriter~ Text}[UprightFont = *~ Light, HyphenChar = None]
 
-\def\WIEGHT{Light}
-%\def\SSTY{}
-\ifdefined\SSTY
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
-\else
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=upintegral]
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=hbar]
-  \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=complement]
-\fi
-\newfontface\firatext{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
-%\setmathfont{XITS Math}
-%\setmathfont{XITS Math}[BoldFont = *, StylisticSet=8,  version=upintegral]
-%\setmathfont{XITS Math}[BoldFont = *, StylisticSet=10, version=hbar]
-%\setmathfont{XITS Math}[BoldFont = *,                  version=complement]
-%\newfontface\firatext{XITS Math}[BoldFont = *]
-%\setmathfont{Latin Modern Math}
-%\setmathfont{Latin Modern Math}[BoldFont = *, version=upintegral]
-%\setmathfont{Latin Modern Math}[BoldFont = *, version=hbar]
-%\setmathfont{Latin Modern Math}[BoldFont = *, version=complement]
-%\newfontface\firatext{Latin Modern Math}[BoldFont = *]
+\str_new:N \l_fonttest_font_str
+\str_set:Nn \l_fonttest_font_str { fira }
 
-%\setmathfont{Latin Modern Math}
-%\newfontface\firatext{Latin Modern Math}
+\str_if_eq:VnTF \l_fonttest_font_str { fira }
+  {
+    \def\WIEGHT{Regular}
+    %\def\SSTY{}
+    \ifdefined\SSTY
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
+    \else
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=upintegral]
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=hbar]
+      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=complement]
+    \fi
+    \newfontface\firatext{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
+  }
+  {
+    \str_if_eq:VnTF \l_fonttest_font_str { xits }
+      {
+        \setmathfont{XITS~ Math}
+        \setmathfont{XITS~ Math}[BoldFont = *, StylisticSet=8,  version=upintegral]
+        \setmathfont{XITS~ Math}[BoldFont = *, StylisticSet=10, version=hbar]
+        \setmathfont{XITS~ Math}[BoldFont = *,                  version=complement]
+        \newfontface\firatext{XITS~ Math}[BoldFont = *]
+      }
+      {
+        \str_if_eq:VnT \l_fonttest_font_str { lm }
+          {
+            \setmathfont{Latin~ Modern~ Math}
+            \setmathfont{Latin~ Modern~ Math}[BoldFont = *, version=upintegral]
+            \setmathfont{Latin~ Modern~ Math}[BoldFont = *, version=hbar]
+            \setmathfont{Latin~ Modern~ Math}[BoldFont = *, version=complement]
+            \newfontface\firatext{Latin~ Modern~ Math}[BoldFont = *]
+          }
+      }
+  }
 
 \def\Latinalphabets{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 \def\latinalphabets{abcdefghijklmnopqrstuvwxyz}
+
+% ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
+% αβγδεζηθικλμνξοπρστυφχψω
 \def\Greekalphabets{%
   \Alpha      \Beta       \Gamma      \Delta      \Epsilon
   \Zeta       \Eta        \Theta      \varTheta   \Iota
@@ -57,27 +76,79 @@
   \varrho     \sigma      \varsigma   \tau        \upsilon
   \phi        \varphi     \chi        \psi        \omega
 }
-% ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
-% αβγδεζηθικλμνξοπρστυφχψω
-\def\TOPACCENT#1{%
-  \acute{#1}    \, \bar{#1}   \, \breve{#1} \, \check{#1}   \, \ddddot{#1}    , \quad
-  \dddot{#1}    \, \ddot{#1}  \, \dot{#1}   \, \grave{#1}   \, \hat{#1}       , \quad
-  \mathring{#1} \, \tilde{#1} \, \vec{#1}   \, \widehat{#1} \, \widetilde{#1}
+
+% More characters.
+\AtBeginDocument{
+  \__um_sym:nnn { "0323 } { \underdot             } { \mathbotaccent }
+  \__um_sym:nnn { "0324 } { \twounderdot          } { \mathbotaccent }
+  \__um_sym:nnn { "20D3 } { \shortvertoverlay     } { \mathaccent }
+  \__um_sym:nnn { "20D6 } { \cev                  } { \mathaccent }
+  \__um_sym:nnn { "20E1 } { \leftrightarrowaccent } { \mathaccent }
+  \__um_sym:nnn { "20EC } { \underrightharpoon    } { \mathbotaccent }
+  \__um_sym:nnn { "20ED } { \underleftharpoon     } { \mathbotaccent }
+  \__um_sym:nnn { "20EE } { \underleftarrow       } { \mathbotaccent }
+  \__um_sym:nnn { "20EF } { \underrightarrow      } { \mathbotaccent }
 }
+
+\tl_const:Nn \c__fonttest_accents_tl
+  {
+    % accent
+    \acute
+    \grave
+    \check
+    \hat
+    \bar
+    \breve
+    % dot
+    \mathring
+    \dot
+    \ddot
+    \dddot
+    \ddddot
+    % arrow
+    \cev
+    \vec
+    \leftrightarrowaccent
+    \leftharpoonaccent
+    \rightharpoonaccent
+    % other
+    \tilde
+    \asteraccent
+    \vertoverlay
+    \shortvertoverlay
+    \annuity
+    % long accent
+    \widehat
+    \widetilde
+    \widebridgeabove
+    % under
+    \underdot
+    \twounderdot
+    \threeunderdot
+    \underleftharpoon
+    \underrightharpoon
+    \underleftarrow
+    \underrightarrow
+  }
+
 \def\MATRIXII{a & b & c & d \\ x & y & z & w}
 \def\MATRIXIII{a & b & c & d \\ k & l & m & n \\ x & y & z & w}
 \def\MATRIXIV{a & b & c & d \\ k & l & m & n \\ p & q & s & t \\ x & y & z & w}
-\ExplSyntaxOn
+
 \NewDocumentCommand \TOPACCENTMAP { m m }
   { \fonttest_top_accent_map:Nx #1 {#2} }
 \cs_new:Npn \fonttest_top_accent_map:Nn #1#2
-  { \tl_map_inline:nn {#2} { \[ \TOPACCENT{#1{##1}} \] } }
+  { \tl_map_inline:nn {#2} { \[ \__fonttest_top_accent:n { #1 {##1} } \] } }
 \cs_generate_variant:Nn \fonttest_top_accent_map:Nn { Nx }
-\ExplSyntaxOff
+\cs_new:Npn \__fonttest_top_accent:n #1
+  { \tl_map_inline:Nn \c__fonttest_accents_tl { ##1 {#1} \, } }
+
 \def\OVERUNDERLINE#1{%
   #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c}}
 \def\LISTTEXT{x_1, \, x_2, \, \ldots, \, x_n}
 \def\ligaturetext{ff\quad fi\quad fl\quad ffi\quad ffl}
+
+\ExplSyntaxOff
 
 \begin{document}
 
@@ -332,6 +403,9 @@
             \fourthroot{2} + \fourthroot{2^2} + \fourthroot{1+\fourthroot{2}}
           + \fourthroot{1+\fourthroot{1+\fourthroot{3}}}
           + \fourthroot{\fourthroot{\fourthroot{\fourthroot{2}}}} + \fourthroot{\frac{1}{2}}
+        \]
+        \[
+          \sqrt[x]{y} + \sqrt[x]{\sqrt{y}} + \sqrt[x]{\sqrt{\sqrt{y}}} + \sqrt[x]{\frac{1}{2}}
         \]
 
   \item Brackets:
