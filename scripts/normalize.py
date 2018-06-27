@@ -154,7 +154,10 @@ def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
     """Use the data in `meta_data_list` to normalize glyphs.
     """
     for weight, meta_data in zip(weight_list, meta_data_list):
-        sfdir = sfd_path + family_name_full + "-" + weight + ".sfdir/"
+        if platform.system() == "Linux":
+            sfdir = sfd_path + family_name_full + "-" + weight + ".sfdir/"
+        elif platform.system() == "Windows":
+            sfdir = sfd_path + family_name_full + "-" + weight + ".sfdir\\"
         glyph_file_list = glob.glob(sfdir + "*.glyph") + glob.glob(sfdir + ".notdef.glyph")
         # Read glyph files.
         glyph_content_list = []
@@ -253,10 +256,16 @@ def main():
     """The main function.
     """
     # Directories and files.
-    sfd_path = CWD + "/src/"
-    otf_path = CWD + "/docs/assets/"
-    data_path = CWD + "/data/"
-    json_path = CWD + "/data/"
+    if platform.system() == "Linux":
+        sfd_path = CWD + "/src/"
+        otf_path = CWD + "/docs/assets/"
+        data_path = CWD + "/data/"
+        json_path = CWD + "/data/"
+    elif platform.system() == "Windows":
+        sfd_path = CWD + "\\src\\"
+        otf_path = CWD + "\\docs\\assets\\"
+        data_path = CWD + "\\data\\"
+        json_path = CWD + "\\data\\"
     non_unicode_data = data_path + "non-unicode.txt"
     # Font meta data.
     family_name = "FiraMath"
