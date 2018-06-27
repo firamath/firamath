@@ -2,6 +2,7 @@ StartChar: uni221B
 Encoding: 8731 8731 790
 Width: 629
 Flags: W
+GlyphVariantsVertical: uni221B uni221B.size1 uni221B.size2 uni221B.size3
 HStem: 499 61<109.057 236.814> 698 56<152 231.719> 873 59<112.953 234.253> 875 77<617 644>
 VStem: 247 77<769.444 860.505> 257 81<579.469 682.913>
 LayerCount: 2
@@ -30,8 +31,8 @@ SplineSet
  617 875 l 1
  313 -200 l 1
  209 -200 l 1
- 42 257 l 5
- 123 284 l 1
+ 42 257 l 1
+ 123 284 l 5
  258 -105 l 1
  552 952 l 1
  644 952 l 1xd0
