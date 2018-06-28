@@ -143,12 +143,12 @@
 \cs_new:Npn \__fonttest_top_accent:n #1
   { \tl_map_inline:Nn \c__fonttest_accents_tl { ##1 {#1} \, } }
 
+\ExplSyntaxOff
+
 \def\OVERUNDERLINE#1{%
   #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c}}
 \def\LISTTEXT{x_1, \, x_2, \, \ldots, \, x_n}
 \def\ligaturetext{ff\quad fi\quad fl\quad ffi\quad ffl}
-
-\ExplSyntaxOff
 
 \begin{document}
 
@@ -390,23 +390,27 @@
         $ \frac{1}{2} + \frac{1g}{2} + \frac{1}{\frac{2}{3}+4} + \frac{\frac{1}{2}+3}{4} $
 
   \item Radical:
-        \[
-            \sqrt{2} + \sqrt{2^2} + \sqrt{1+\sqrt{2}} + \sqrt{1+\sqrt{1+\sqrt{3}}}
-          + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} + \sqrt{\frac{1}{2}}
-        \]
-        \[
-            \cuberoot{2} + \cuberoot{2^2} + \cuberoot{1+\cuberoot{2}}
-          + \cuberoot{1+\cuberoot{1+\cuberoot{3}}}
-          + \cuberoot{\cuberoot{\cuberoot{\cuberoot{2}}}} + \cuberoot{\frac{1}{2}}
-        \]
-        \[
-            \fourthroot{2} + \fourthroot{2^2} + \fourthroot{1+\fourthroot{2}}
-          + \fourthroot{1+\fourthroot{1+\fourthroot{3}}}
-          + \fourthroot{\fourthroot{\fourthroot{\fourthroot{2}}}} + \fourthroot{\frac{1}{2}}
-        \]
-        \[
-          \sqrt[x]{y} + \sqrt[x]{\sqrt{y}} + \sqrt[x]{\sqrt{\sqrt{y}}} + \sqrt[x]{\frac{1}{2}}
-        \]
+        \begingroup
+          \def\cuberoot{\Uradical\symoperators"221B\relax}
+          \def\fourthroot{\Uradical\symoperators"221C\relax}
+          \[
+              \sqrt{2} + \sqrt{2^2} + \sqrt{1+\sqrt{2}} + \sqrt{1+\sqrt{1+\sqrt{3}}}
+            + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} + \sqrt{\frac{1}{2}}
+          \]
+          \[
+              \cuberoot{2} + \cuberoot{2^2} + \cuberoot{1+\cuberoot{2}}
+            + \cuberoot{1+\cuberoot{1+\cuberoot{3}}}
+            + \cuberoot{\cuberoot{\cuberoot{\cuberoot{2}}}} + \cuberoot{\frac{1}{2}}
+          \]
+          \[
+              \fourthroot{2} + \fourthroot{2^2} + \fourthroot{1+\fourthroot{2}}
+            + \fourthroot{1+\fourthroot{1+\fourthroot{3}}}
+            + \fourthroot{\fourthroot{\fourthroot{\fourthroot{2}}}} + \fourthroot{\frac{1}{2}}
+          \]
+          \[
+            \sqrt[x]{y} + \sqrt[x]{\sqrt[x]{y}} + \sqrt[x]{\sqrt[x]{\sqrt[x]{y}}} + \sqrt[x]{\frac{1}{2}}
+          \]
+        \endgroup
 
   \item Brackets:
         \[ (a) (A) (O) (Y) (y) (f) (Q) (T) (Y) (j) (q) \]
