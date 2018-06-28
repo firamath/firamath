@@ -3,14 +3,14 @@ Encoding: 8403 8403 1535
 Width: 0
 Flags: W
 TopAccentHorizontal: -200
-VStem: -242 83<-182 450>
+VStem: -232 63<-182 450>
 LayerCount: 2
 Fore
 SplineSet
--159 450 m 1
- -159 -182 l 1
- -242 -182 l 1
- -242 450 l 1
- -159 450 l 1
+-169 450 m 1
+ -169 -182 l 1
+ -232 -182 l 1
+ -232 450 l 1
+ -169 450 l 1
 EndSplineSet
 EndChar
