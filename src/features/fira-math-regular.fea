@@ -1,1 +1,32 @@
 include(common.fea)
+
+feature ss01 {
+    featureNames { name "Upright Integrals"; };
+    script math;
+    sub uni222B         by uni222B.up; # \int
+    sub uni222C         by uni222C.up; # \iint
+    sub uni222D         by uni222D.up; # \iiint
+    sub uni222E         by uni222E.up; # \oint
+    sub uni222F         by uni222F.up; # \oiint
+    sub uni2230         by uni2230.up; # \oiiint
+    sub uni2A0C         by uni2A0C.up; # \iiiint
+    sub uni222B.display by uni222B.display.up;
+    sub uni222C.display by uni222C.display.up;
+    sub uni222D.display by uni222D.display.up;
+    sub uni222E.display by uni222E.display.up;
+    sub uni222F.display by uni222F.display.up;
+    sub uni2230.display by uni2230.display.up;
+    sub uni2A0C.display by uni2A0C.display.up;
+} ss01;
+
+feature ss02 {
+    featureNames { name "Planck Constant with Bar"; };
+    script math;
+    sub uni210F by uni210F.ss02;
+} ss02;
+
+feature ss03 {
+    featureNames { name "Complement Alternates"; };
+    script math;
+    sub uni2201 by uni2201.ss03;
+} ss03;

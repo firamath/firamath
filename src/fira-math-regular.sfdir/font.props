@@ -5,7 +5,7 @@ FamilyName: Fira Math
 Weight: Regular
 Copyright: Copyright (C) 2018 Xiangdong Zeng
 UComments: "2018-1-8: Created with FontForge (http://fontforge.org)"
-Version: 0.2.1
+Version: 0.2.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1530018037
+ModificationTime: 1530169822
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -42,11 +42,6 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard ligatures" { "'liga' subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ssty' Script style" { "'ssty' subtable"  } ['ssty' ('math' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss01' Upright integral" { "'ss01' subtable"  } ['ss01' ('math' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss02' Planck constant with bar" { "'ss02' subtable"  } ['ss02' ('math' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss03' Complement" { "'ss03' subtable"  } ['ss03' ('math' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "http://scripts.sil.org/OFL"
@@ -114,7 +109,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1274 26 10
+WinInfo: 0 26 10
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

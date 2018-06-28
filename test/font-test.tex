@@ -1,5 +1,6 @@
 \documentclass{article}
-\usepackage{expl3,xparse}
+\usepackage{expl3}
+\usepackage[log-declarations=false]{xparse}
 
 \ExplSyntaxOn
 
@@ -21,7 +22,7 @@
 \str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
     \def\WIEGHT{Regular}
-    %\def\SSTY{}
+    \def\SSTY{}
     \ifdefined\SSTY
       \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
       \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]

@@ -2,6 +2,21 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem math dflt;
 
+lookup liga01 {
+    sub uni0066 uni0066         by uniFB00; # f f
+    sub uni0066 uni0069         by uniFB01; # f i
+    sub uni0066 uni006C         by uniFB02; # f l
+    sub uni0066 uni0066 uni0069 by uniFB03; # f f i
+    sub uni0066 uni0066 uni006C by uniFB04; # f f l
+} liga01;
+
+feature liga {
+    script DFLT;
+        lookup liga01;
+    script latn;
+        lookup liga01;
+} liga;
+
 feature dtls {
     script math;
     sub uni0069 by uni0131; # i -> dotless i
