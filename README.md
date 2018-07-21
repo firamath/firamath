@@ -1,5 +1,6 @@
 # Fira Math
 
+[![Build Status](https://travis-ci.org/Stone-Zeng/FiraMath.svg?branch=master)](https://travis-ci.org/Stone-Zeng/FiraMath)
 [![GitHub release](https://img.shields.io/github/release/Stone-Zeng/FiraMath/all.svg)](https://github.com/Stone-Zeng/FiraMath/releases/latest)
 
 Fira Math is a sans-serif font with Unicode math support. This font is a fork of
