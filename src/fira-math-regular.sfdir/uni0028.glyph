@@ -1,7 +1,7 @@
 StartChar: uni0028
 Encoding: 40 40 8
 Width: 324
-Flags: HW
+Flags: W
 GlyphVariantsVertical: uni0028 uni0028.size1 uni0028.size2 uni0028.size3 uni0028.size4
 GlyphCompositionVertical: 3  uni239D%0,0,150,1485 uni239C%1,150,150,700 uni239B%0,150,0,1485
 HStem: -215 990<226 226>
