@@ -186,6 +186,14 @@
   \item Latin small bold upright letters (\verb|\symbfup|):
         \[ \symbfup{\latinalphabets} \]
 
+  \item Latin capital blackboard letters (\verb|\symbb|):
+        \[ \symbb{\Latinalphabets} \]
+        \[ \symup{\Latinalphabets} \]
+
+  \item Latin small blackboard letters (\verb|\symbb|):
+        \[ \symbb{\latinalphabets} \]
+        \[ \symup{\latinalphabets} \]
+
   \item Greek capital letters:
         \[ \Greekalphabets \]
 
@@ -391,27 +399,28 @@
         $ \frac{1}{2} + \frac{1g}{2} + \frac{1}{\frac{2}{3}+4} + \frac{\frac{1}{2}+3}{4} $
 
   \item Radical:
-        \begingroup
-          \def\cuberoot{\Uradical\symoperators"221B\relax}
-          \def\fourthroot{\Uradical\symoperators"221C\relax}
-          \[
-              \sqrt{2} + \sqrt{2^2} + \sqrt{1+\sqrt{2}} + \sqrt{1+\sqrt{1+\sqrt{3}}}
-            + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} + \sqrt{\frac{1}{2}}
-          \]
-          \[
-              \cuberoot{2} + \cuberoot{2^2} + \cuberoot{1+\cuberoot{2}}
-            + \cuberoot{1+\cuberoot{1+\cuberoot{3}}}
-            + \cuberoot{\cuberoot{\cuberoot{\cuberoot{2}}}} + \cuberoot{\frac{1}{2}}
-          \]
-          \[
-              \fourthroot{2} + \fourthroot{2^2} + \fourthroot{1+\fourthroot{2}}
-            + \fourthroot{1+\fourthroot{1+\fourthroot{3}}}
-            + \fourthroot{\fourthroot{\fourthroot{\fourthroot{2}}}} + \fourthroot{\frac{1}{2}}
-          \]
-          \[
-            \sqrt[x]{y} + \sqrt[x]{\sqrt[x]{y}} + \sqrt[x]{\sqrt[x]{\sqrt[x]{y}}} + \sqrt[x]{\frac{1}{2}}
-          \]
-        \endgroup
+        % Not necessary after unicode-math v0.8m.
+        % \begingroup
+        %   \def\cuberoot{\Uradical\symoperators"221B\relax}
+        %   \def\fourthroot{\Uradical\symoperators"221C\relax}
+        % \endgroup
+        \[
+            \sqrt{2} + \sqrt{2^2} + \sqrt{1+\sqrt{2}} + \sqrt{1+\sqrt{1+\sqrt{3}}}
+          + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} + \sqrt{\frac{1}{2}}
+        \]
+        \[
+            \cuberoot{2} + \cuberoot{2^2} + \cuberoot{1+\cuberoot{2}}
+          + \cuberoot{1+\cuberoot{1+\cuberoot{3}}}
+          + \cuberoot{\cuberoot{\cuberoot{\cuberoot{2}}}} + \cuberoot{\frac{1}{2}}
+        \]
+        \[
+            \fourthroot{2} + \fourthroot{2^2} + \fourthroot{1+\fourthroot{2}}
+          + \fourthroot{1+\fourthroot{1+\fourthroot{3}}}
+          + \fourthroot{\fourthroot{\fourthroot{\fourthroot{2}}}} + \fourthroot{\frac{1}{2}}
+        \]
+        \[
+          \sqrt[x]{y} + \sqrt[x]{\sqrt[x]{y}} + \sqrt[x]{\sqrt[x]{\sqrt[x]{y}}} + \sqrt[x]{\frac{1}{2}}
+        \]
 
   \item Brackets:
         \[ (a) (A) (O) (Y) (y) (f) (Q) (T) (Y) (j) (q) \]
