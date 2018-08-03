@@ -1,19 +1,19 @@
 StartChar: u1D7CF
 Encoding: 120783 120783 1376
-Width: 464
+Width: 560
 Flags: W
-HStem: 0 21G<227 382 227 227> 518 20G<13 13>
-VStem: 227 155<0 522 522 522>
+HStem: 0 21G<247 402> 673 20G<227.957 402>
+VStem: 247 155<0 538>
 LayerCount: 2
 Fore
 SplineSet
-382 676 m 1
- 382 0 l 1
- 227 0 l 1
- 227 522 l 1
- 82 433 l 1
- 13 538 l 1
- 241 676 l 1
- 382 676 l 1
+247 0 m 1
+ 247 538 l 1
+ 102 451 l 1
+ 33 555 l 1
+ 261 693 l 1
+ 402 693 l 1
+ 402 0 l 1
+ 247 0 l 1
 EndSplineSet
 EndChar

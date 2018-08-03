@@ -1,15 +1,47 @@
 include(common.fea)
 
+lookup pnum01 {
+    sub uni0030 by uni0030.pnum;  # 0
+    sub uni0031 by uni0031.pnum;  # 1
+    sub uni0032 by uni0032.pnum;  # 2
+    sub uni0033 by uni0033.pnum;  # 3
+    sub uni0034 by uni0034.pnum;  # 4
+    sub uni0035 by uni0035.pnum;  # 5
+    sub uni0036 by uni0036.pnum;  # 6
+    sub uni0037 by uni0037.pnum;  # 7
+    sub uni0038 by uni0038.pnum;  # 8
+    sub uni0039 by uni0039.pnum;  # 9
+    sub u1D7CE  by u1D7CE.pnum;   # bold 0
+    sub u1D7CF  by u1D7CF.pnum;   # bold 1
+    sub u1D7D0  by u1D7D0.pnum;   # bold 2
+    sub u1D7D1  by u1D7D1.pnum;   # bold 3
+    sub u1D7D2  by u1D7D2.pnum;   # bold 4
+    sub u1D7D3  by u1D7D3.pnum;   # bold 5
+    sub u1D7D4  by u1D7D4.pnum;   # bold 6
+    sub u1D7D5  by u1D7D5.pnum;   # bold 7
+    sub u1D7D6  by u1D7D6.pnum;   # bold 8
+    sub u1D7D7  by u1D7D7.pnum;   # bold 9
+} pnum01;
+
+feature pnum {
+    script DFLT;
+        lookup pnum01;
+    script latn;
+        lookup pnum01;
+    script math;
+        lookup pnum01;
+} pnum;
+
 feature ss01 {
     featureNames { name "Upright Integrals"; };
     script math;
-    sub uni222B         by uni222B.up; # \int
-    sub uni222C         by uni222C.up; # \iint
-    sub uni222D         by uni222D.up; # \iiint
-    sub uni222E         by uni222E.up; # \oint
-    sub uni222F         by uni222F.up; # \oiint
-    sub uni2230         by uni2230.up; # \oiiint
-    sub uni2A0C         by uni2A0C.up; # \iiiint
+    sub uni222B         by uni222B.up;  # \int
+    sub uni222C         by uni222C.up;  # \iint
+    sub uni222D         by uni222D.up;  # \iiint
+    sub uni222E         by uni222E.up;  # \oint
+    sub uni222F         by uni222F.up;  # \oiint
+    sub uni2230         by uni2230.up;  # \oiiint
+    sub uni2A0C         by uni2A0C.up;  # \iiiint
     sub uni222B.display by uni222B.display.up;
     sub uni222C.display by uni222C.display.up;
     sub uni222D.display by uni222D.display.up;

@@ -135,6 +135,27 @@ uni23DF.left
 uni23DF.ext
 uni23DF.mid
 uni23DF.right
+; Proportional Figures
+uni0030.pnum
+uni0031.pnum
+uni0032.pnum
+uni0033.pnum
+uni0034.pnum
+uni0035.pnum
+uni0036.pnum
+uni0037.pnum
+uni0038.pnum
+uni0039.pnum
+u1D7CE.pnum
+u1D7CF.pnum
+u1D7D0.pnum
+u1D7D1.pnum
+u1D7D2.pnum
+u1D7D3.pnum
+u1D7D4.pnum
+u1D7D5.pnum
+u1D7D6.pnum
+u1D7D7.pnum
 ; Stylistic Set 1: Upright Integrals
 uni222B.up
 uni222C.up

@@ -16,24 +16,32 @@
 \setsansfont{TeX~ Gyre~ Heros}
 \setmonofont{CMU~ Typewriter~ Text}[UprightFont = *~ Light, HyphenChar = None]
 
-\str_new:N \l_fonttest_font_str
-\str_set:Nn \l_fonttest_font_str { fira }
+%%%%%%%%%%%%%%%%%%%%
+\str_new:N  \l_fonttest_font_str
+\str_set:Nn \l_fonttest_font_str { fira }  % Can be either fira/xits/lm
+\cs_set:Npn \WIEGHT { Regular }
+\cs_set:Npn \SSTY   { }
+%%%%%%%%%%%%%%%%%%%%
 
 \str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
-    \def\WIEGHT{Regular}
-    \def\SSTY{}
-    \ifdefined\SSTY
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=1, version=upintegral]
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=2, version=hbar]
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, StylisticSet=3, version=complement]
-    \else
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=upintegral]
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=hbar]
-      \setmathfont{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/, version=complement]
-    \fi
+    \cs_new:Npn \__fonttest_set_fira_math:n #1
+      { \setmathfont { FiraMath-\WIEGHT.otf } [ Path=../docs/assets/, BoldFont = *, #1 ] }
+    \cs_if_exist:NTF \SSTY
+      {
+        \__fonttest_set_fira_math:n { }
+        \__fonttest_set_fira_math:n { version = pnum,       Numbers = Proportional }
+        \__fonttest_set_fira_math:n { version = upintegral, StylisticSet = 1       }
+        \__fonttest_set_fira_math:n { version = hbar,       StylisticSet = 2       }
+        \__fonttest_set_fira_math:n { version = complement, StylisticSet = 3       }
+      }
+      {
+        \__fonttest_set_fira_math:n { }
+        \__fonttest_set_fira_math:n { version = pnum       }
+        \__fonttest_set_fira_math:n { version = upintegral }
+        \__fonttest_set_fira_math:n { version = hbar       }
+        \__fonttest_set_fira_math:n { version = complement }
+      }
     \newfontface\firatext{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
   }
   {
@@ -153,9 +161,40 @@
 
 \begin{document}
 
+\section{Digits}
+
+\begin{itemize}
+
+  \item Digits:
+        \[ 0123456789 \]
+
+  \item Proportional digits:
+        \begingroup
+          \mathversion{pnum}
+          \[ 0123456789 \]
+        \endgroup
+
+  \item Bold digits (\verb|\symbf|):
+        \[ \symbf{0123456789} \]
+
+  \item Bold proportional digits (\verb|\symbf|):
+        \begingroup
+          \mathversion{pnum}
+          \[ \symbf{0123456789} \]
+        \endgroup
+
+\end{itemize}
+
 \section{Alphabets}
 
 \begin{itemize}
+
+  \item Digits:
+        \[ 0123456789 \]
+
+  \item Bold digits (\verb|\symbf|):
+        \[ \symbf{0123456789} \]
+
   \item Latin capital letters:
         \[ \Latinalphabets \]
 

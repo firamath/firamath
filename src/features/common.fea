@@ -3,11 +3,11 @@ languagesystem latn dflt;
 languagesystem math dflt;
 
 lookup liga01 {
-    sub uni0066 uni0066         by uniFB00; # f f
-    sub uni0066 uni0069         by uniFB01; # f i
-    sub uni0066 uni006C         by uniFB02; # f l
-    sub uni0066 uni0066 uni0069 by uniFB03; # f f i
-    sub uni0066 uni0066 uni006C by uniFB04; # f f l
+    sub uni0066 uni0066         by uniFB00;  # f f
+    sub uni0066 uni0069         by uniFB01;  # f i
+    sub uni0066 uni006C         by uniFB02;  # f l
+    sub uni0066 uni0066 uni0069 by uniFB03;  # f f i
+    sub uni0066 uni0066 uni006C by uniFB04;  # f f l
 } liga01;
 
 feature liga {
@@ -19,15 +19,15 @@ feature liga {
 
 feature dtls {
     script math;
-    sub uni0069 by uni0131; # i -> dotless i
-    sub uni006A by uni0237; # j -> dotless j
-    sub u1D456  by u1D6A4;  # mathit i -> mathit dotless i
-    sub u1D457  by u1D6A5;  # mathit j -> mathit dotless j
+    sub uni0069 by uni0131;  # i -> dotless i
+    sub uni006A by uni0237;  # j -> dotless j
+    sub u1D456  by u1D6A4;   # mathit i -> mathit dotless i
+    sub u1D457  by u1D6A5;   # mathit j -> mathit dotless j
 } dtls;
 
 feature ssty {
     script math;
-    sub uni2032 from [uni2032.ssty1]; # prime -> supscript prime
-    sub uni2033 from [uni2033.ssty1]; # double prime -> supscript double prime
-    sub uni2034 from [uni2034.ssty1]; # triple prime -> supscript triple prime
+    sub uni2032 from [uni2032.ssty1];  # prime -> supscript prime
+    sub uni2033 from [uni2033.ssty1];  # double prime -> supscript double prime
+    sub uni2034 from [uni2034.ssty1];  # triple prime -> supscript triple prime
 } ssty;
