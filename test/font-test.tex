@@ -1,3 +1,31 @@
+\makeatletter
+\def\e@alloc#1#2#3#4#5#6{%
+  \global\advance#3\@ne
+  \e@ch@ck{#3}{#4}{#5}#1%
+  \allocationnumber#3\relax
+  \global#2#6\allocationnumber
+  }
+\def\@pr@videpackage[#1]{%
+  \expandafter\xdef\csname ver@\@currname.\@currext\endcsname{#1}}
+\def\@providesfile#1[#2]{%
+    \expandafter\xdef\csname ver@#1\endcsname{#2}%
+  \endgroup}
+\def\@latex@info#1{}
+\def\@font@info#1{}
+\def\ClassInfo#1#2{}
+\def\PackageInfo#1#2{}
+\RequirePackage[log-declarations=false]{xparse}
+\RequirePackage{ctexhook}
+\ExplSyntaxOn
+\cs_new:Npn \__fonttest_close_msg:nn #1#2
+  { \msg_redirect_name:nnn {#1} {#2} { none } }
+% \__fonttest_close_msg:nn { fontspec     } { defining-font       }
+% \__fonttest_close_msg:nn { fontspec     } { no-scripts          }
+\__fonttest_close_msg:nn { unicode-math } { patch-macro         }
+\ctex_at_end_package:nn { geometry } { \def\Gm@showparams#1{} }
+\ExplSyntaxOff
+\makeatother
+
 \documentclass{article}
 \usepackage{expl3}
 \usepackage[log-declarations=false]{xparse}
@@ -102,42 +130,18 @@
 \tl_const:Nn \c__fonttest_accents_tl
   {
     % accent
-    \acute
-    \grave
-    \check
-    \hat
-    \bar
-    \breve
+    \acute \grave \check \hat \bar \breve
     % dot
-    \mathring
-    \dot
-    \ddot
-    \dddot
-    \ddddot
+    \mathring \dot \ddot \dddot \ddddot
     % arrow
-    \cev
-    \vec
-    \leftrightarrowaccent
-    \leftharpoonaccent
-    \rightharpoonaccent
+    \cev \vec \leftrightarrowaccent \leftharpoonaccent \rightharpoonaccent
     % other
-    \tilde
-    \asteraccent
-    \vertoverlay
-    \shortvertoverlay
-    \annuity
+    \tilde \asteraccent \vertoverlay \shortvertoverlay \annuity
     % long accent
-    \widehat
-    \widetilde
-    \widebridgeabove
+    \widehat \widetilde \widebridgeabove
     % under
-    \underdot
-    \twounderdot
-    \threeunderdot
-    \underleftharpoon
-    \underrightharpoon
-    \underleftarrow
-    \underrightarrow
+    \underdot \twounderdot \threeunderdot \underleftharpoon \underrightharpoon
+    \underleftarrow \underrightarrow
   }
 
 \def\MATRIXII{a & b & c & d \\ x & y & z & w}
@@ -157,117 +161,84 @@
 \def\OVERUNDERLINE#1{%
   #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c}}
 \def\LISTTEXT{x_1, \, x_2, \, \ldots, \, x_n}
-\def\ligaturetext{ff\quad fi\quad fl\quad ffi\quad ffl}
+\def\LIGATEXT{ff\quad fi\quad fl\quad ffi\quad ffl}
 
 \begin{document}
 
 \section{Digits}
 
 \begin{itemize}
-
   \item Digits:
         \[ 0123456789 \]
-
   \item Proportional digits:
         \begingroup
           \mathversion{pnum}
           \[ 0123456789 \]
         \endgroup
-
   \item Bold digits (\verb|\symbf|):
         \[ \symbf{0123456789} \]
-
   \item Bold proportional digits (\verb|\symbf|):
         \begingroup
           \mathversion{pnum}
           \[ \symbf{0123456789} \]
         \endgroup
-
 \end{itemize}
 
 \section{Alphabets}
 
 \begin{itemize}
-
-  \item Digits:
-        \[ 0123456789 \]
-
-  \item Bold digits (\verb|\symbf|):
-        \[ \symbf{0123456789} \]
-
   \item Latin capital letters:
         \[ \Latinalphabets \]
-
   \item Latin small letters:
         \[ \latinalphabets \]
-
   \item Latin capital upright letters (\verb|\symup|):
         \[ \symup{\Latinalphabets} \]
-
   \item Latin small upright letters (\verb|\symup|):
         \[ \symup{\latinalphabets} \]
-
   \item Latin capital typewriter letters (\verb|\symtt|):
         \[ \symtt{\Latinalphabets} \]
-
   \item Latin small typewriter letters (\verb|\symtt|):
         \[ \symtt{\latinalphabets} \]
-
   \item Latin capital bold letters (\verb|\symbf|):
         \[ \symbf{\Latinalphabets} \]
-
   \item Latin small bold letters (\verb|\symbf|):
         \[ \symbf{\latinalphabets} \]
-
   \item Latin capital bold upright letters (\verb|\symbfup|):
         \[ \symbfup{\Latinalphabets} \]
-
   \item Latin small bold upright letters (\verb|\symbfup|):
         \[ \symbfup{\latinalphabets} \]
-
   \item Latin capital blackboard letters (\verb|\symbb|):
         \[ \symbb{\Latinalphabets} \]
         \[ \symup{\Latinalphabets} \]
-
   \item Latin small blackboard letters (\verb|\symbb|):
         \[ \symbb{\latinalphabets} \]
         \[ \symup{\latinalphabets} \]
-
   \item Greek capital letters:
         \[ \Greekalphabets \]
-
   \item Greek small letters:
         \[ \greekalphabets \]
-
   \item Greek capital upright letters (\verb|\symup|):
         \[ \symup{\Greekalphabets} \]
-
   \item Greek small upright letters (\verb|\symup|):
         \[ \symup{\greekalphabets} \]
-
   \item Greek capital bold letters (\verb|\symbf|):
         \[ \symbf{\Greekalphabets} \]
-
   \item Greek small bold letters (\verb|\symbf|):
         \[ \symbf{\greekalphabets} \]
-
   \item Greek capital bold upright letters (\verb|\symbfup|):
         \[ \symbfup{\Greekalphabets} \]
-
   \item Greek small bold upright letters (\verb|\symbfup|):
         \[ \symbfup{\greekalphabets} \]
-
   \item Dotless letters:
         \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
         % \TOPACCENTMAP{\symbf}{\imath\jmath}
         % \TOPACCENTMAP{\symup}{\imath\jmath}
   \item Hebrew
         \[ \aleph + \beth + \gimel + \daleth \]
-
-  \item Ligature (text): {\firatext\ligaturetext}
-
-  \item Non-ligature (math): $ \ligaturetext + \symit{\ligaturetext} + \symrm{\ligaturetext} $
-
+  \item Ligature (text):
+        {\firatext\LIGATEXT}
+  \item Non-ligature (math):
+        \[ \LIGATEXT + \symit{\LIGATEXT} + \symrm{\LIGATEXT} \]
   \item Miscellaneous:
         \[
           \hslash
@@ -275,7 +246,6 @@
           + \Angstrom
         \]
         \[ \forall x > x_0, \, \exists \delta, \delta \in \varnothing \]
-
 \end{itemize}
 
 \section{Equations test}
@@ -283,10 +253,8 @@
 \begin{itemize}
   \item Basic:
         \[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 \dotplus 8 = -a \oplus b \otimes c \]
-
   \item Binary relations
         \[ x + - \oplus \otimes \ominus \odot \oslash \cdot \cdotp \times \div y \]
-
   \item Set theory
         \[ A \cap B \cup C \sqcap D \sqcup R \cupleftarrow k \cupdot l \uplus m \]
         \[
@@ -298,10 +266,8 @@
           \subset \mbox{\mathversion{complement}$\complement_U A \cup \complement_C C$}
           \in R \smallin Q \ni Z \smallni N
         \]
-
   \item Superscript and subscript:
         \[ 2^2 + 2^{2^2} + 2^{2^{2^2}} + {2^2}^2 + x_a + x_{a_i} + x_{a_{i_1}} \]
-
   \item Arrows:
         \[
           x \leftarrow  y   \rightarrow  z \leftrightarrow  w
@@ -340,7 +306,6 @@
           p \leftrightharpoons       p \rightleftharpoons
           p \updownharpoonsleftright p \downupharpoonsleftright p
         \]
-
   \item Math accents:
         \TOPACCENTMAP{\symnormal}{x}
         % \begin{itemize}
@@ -377,7 +342,6 @@
         %   \item Greek small bold upright letters:
         %     \TOPACCENTMAP{\symbfup}{\greekalphabets}
         % \end{itemize}
-
   \item Integral:
         \[
             \int_0^\pi        \sin x \, \mathrm{d} x
@@ -406,7 +370,6 @@
           \]
           \[ \oint \dd{r} \oiint \dd{\theta} \oiiint \dd{\varphi} \]
         \endgroup
-
   \item Huge operators:
         \[
           \int\limits_0^\infty \int_0^\infty
@@ -417,12 +380,10 @@
           \prod_{i=1}^\infty   \frac{1}{x^i} = x^{-n(n+1)/2} \quad
           \coprod_{i=i}^\infty \frac{1}{x^i} = ?
         \]
-
   \item Huge operators (inline):
         $ \int\limits_0^\infty \int_0^\infty \iint \dd{x} \iiint \dd{y} \iiiint \dd{p}
           \oint \dd{r} \oiint \dd{\theta} \oiiint \dd{\varphi}
           \sum_{i=1}^\infty \prod_{j=i}^\infty \coprod_{i=i}^\infty $
-
   \item Huge operators (inline):
         \begingroup
           \mathversion{upintegral}
@@ -430,19 +391,11 @@
             \oint \dd{r} \oiint \dd{\theta} \oiiint \dd{\varphi}
             \sum_{i=1}^\infty \prod_{j=i}^\infty \coprod_{i=i}^\infty $
         \endgroup
-
   \item Fraction:
         \[ \frac{1}{2} + \frac{1}{\frac{2}{3}+4} + \frac{\frac{1}{2}+3}{4} \]
-
   \item Fraction (inline):
         $ \frac{1}{2} + \frac{1g}{2} + \frac{1}{\frac{2}{3}+4} + \frac{\frac{1}{2}+3}{4} $
-
   \item Radical:
-        % Not necessary after unicode-math v0.8m.
-        % \begingroup
-        %   \def\cuberoot{\Uradical\symoperators"221B\relax}
-        %   \def\fourthroot{\Uradical\symoperators"221C\relax}
-        % \endgroup
         \[
             \sqrt{2} + \sqrt{2^2} + \sqrt{1+\sqrt{2}} + \sqrt{1+\sqrt{1+\sqrt{3}}}
           + \sqrt{\sqrt{\sqrt{\sqrt{2}}}} + \sqrt{\frac{1}{2}}
@@ -460,7 +413,6 @@
         \[
           \sqrt[x]{y} + \sqrt[x]{\sqrt[x]{y}} + \sqrt[x]{\sqrt[x]{\sqrt[x]{y}}} + \sqrt[x]{\frac{1}{2}}
         \]
-
   \item Brackets:
         \[ (a) (A) (O) (Y) (y) (f) (Q) (T) (Y) (j) (q) \]
         \[
@@ -482,14 +434,12 @@
           \biggl( \biggm\vert \biggr) \biggl[ \biggm\Vert \biggr] \biggl\{ \biggm\Vvert \biggr\} \quad
           \Biggl( \Biggm\vert \Biggr) \Biggl[ \Biggm\Vert \Biggr] \Biggl\{ \Biggm\Vvert \Biggr\}
         \]
-
   \item More brackets:
         \[
           \lceil  ceiling \rceil  \quad
           \lfloor floor   \rfloor \quad
           \lgroup group   \rgroup
         \]
-
   \item Bra-kets:
         \[
             \bra{x} + \ket{x} + \ip{\alpha}{\beta} + \op{\alpha}{\beta}
@@ -510,7 +460,6 @@
             \biggl\lAngle \biggl\vert \biggl\rAngle \quad
             \Biggl\lAngle \Biggl\vert \Biggl\rAngle
         \]
-
   \item Matrices:
         \[ \mqty(a & b \\ c & d) + \mqty*(a & b \\ c & d) \]
         \[
