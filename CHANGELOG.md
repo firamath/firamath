@@ -1,5 +1,14 @@
 # Changelog of FiraMath
 
+## Unreleased
+
+- Added:
+  - Mathematical double-struck (blackboard) letters
+- Changed:
+  - Default digits become mono-spaced (and slightly modified, according to FiraGO), while the proportional digits are now under `pnum` tag - [#10](https://github.com/Stone-Zeng/FiraMath/issues/10)
+- Improved:
+  - Use [continuous integration](https://travis-ci.org/Stone-Zeng/FiraMath) (CI) for basic building test
+
 ## v0.2.2 (2018-06-28)
 
 - Added:
