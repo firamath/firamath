@@ -2,7 +2,7 @@ StartChar: uni2115
 Encoding: 8469 8469 1592
 Width: 673
 Flags: W
-HStem: 0 46<464.215 503> 639 46<166 207>
+HStem: 0 46<464 503> 639 46<166 207>
 VStem: 111 57<0 495.249 605 639> 505 57<46 80 177.4 685>
 LayerCount: 2
 Fore
@@ -25,7 +25,7 @@ SplineSet
  207 639 l 1
  166 639 l 1
  166 605 l 1
- 464.214862682 46 l 1
+ 464 46 l 1
  503 46 l 1
 EndSplineSet
 EndChar

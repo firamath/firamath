@@ -5,8 +5,8 @@
 
 Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 
-  - [FiraSans](https://github.com/bBoxType/FiraSans)
-  - [FiraGO](https://github.com/bBoxType/FiraGO)
+- [FiraSans](https://github.com/bBoxType/FiraSans)
+- [FiraGO](https://github.com/bBoxType/FiraGO)
 
 ## Usage
 
@@ -14,8 +14,8 @@ Fira Math can be used in LaTeX or Microsoft Word after installed on your OS.
 
 ### LaTeX
 
-```tex
-% Compiled with xelatex or lualatex
+```latex
+% Compiled with XeLaTeX or LuaLaTeX
 \documentclass{article}
 \usepackage{amsmath}
 \usepackage[mathrm=sym]{unicode-math}
