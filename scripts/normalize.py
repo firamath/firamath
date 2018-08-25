@@ -141,9 +141,8 @@ def get_non_unicode_from_data(data_file_name):
     with open(data_file_name, "r") as data_file:
         return [line.strip() for line in data_file if not line.startswith(";")]
 
-# Add underline
 def normalize_file_name(file_name):
-    """Normalize glyph file name.
+    """Normalize glyph file name, i.e. add underlines.
 
     When `file_name` is begin with `u` rather than `uni`, there should be an extra
     `_` before the last letter.
