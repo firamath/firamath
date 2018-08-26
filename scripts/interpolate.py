@@ -4,16 +4,14 @@ import os
 import platform
 import re
 
-import sys
-
-# import matplotlib.pyplot as plt
-
 CWD = os.getcwd()
-PATH = CWD + "\\temp\\sfd\\braces.sfdir\\"
+if platform.system() == "Linux":
+    PATH = CWD + "/temp/sfd/braces.sfdir/"
+elif platform.system() == "Windows":
+    PATH = CWD + "\\temp\\sfd\\braces.sfdir\\"
 
 def get_points(path):
     """
-
     Return:
         2-dimensional tensor of points.
         - 1st dimension: splines
@@ -22,10 +20,6 @@ def get_points(path):
     """
     with open(path) as f:
         f_str = f.read()
-        # DEBUG
-        # print(path)
-        # print(f_str)
-        # DEBUG
         width = int(re.findall(r"Width: (\S+)\n", f_str)[0])
         spline_set_str = re.findall(
             r"SplineSet\n(.+)EndSplineSet", f_str, flags=re.DOTALL)[0]
@@ -121,10 +115,6 @@ def generate_new_glyphs(min_name, max_name, start_name, num):
     width_list = [str(x[0]) for x in list_subdivide([width_min], [width_max], num)]
     encoding_name_list = get_new_meta_data(start_name, num + 1)
 
-    # print(width_list)
-    # print(encoding_name_list)
-    # sys.exit()
-
     result = []
     for spline_set, width, encoding_name in zip(
             spline_set_list, width_list, encoding_name_list):
@@ -148,7 +138,6 @@ def generate_new_glyphs(min_name, max_name, start_name, num):
             r"(StartChar: )(.+)(\nEncoding: )(\S+) (\S+) (\S+)\n",
             replace_encoding,
             new_str)
-        # TODO
         file_name = encoding_name["name"] + ".glyph"
         result.append({"name": file_name, "content": new_str})
     return result
@@ -163,16 +152,8 @@ def write_files(file_list):
                 file_i.write(i["content"])
 
 def main():
-    """The main function.
-    """
-    result = generate_new_glyphs("uniE006", "uniE01B", "uniE100", 15)
-    write_files(result)
-    # print(len(result))
-    # for i in result:
-    #     print("-------------------------------")
-    #     print(i)
-
-    # print(get_new_glyph_names("uniE010", 4))
+    write_files(generate_new_glyphs("uniE000", "uniE015", "uniE100", 15))
+    write_files(generate_new_glyphs("uniE001", "uniE016", "uniE200", 15))
 
 if __name__ == "__main__":
     main()
