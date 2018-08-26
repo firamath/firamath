@@ -1,0 +1,20 @@
+StartChar: uni005B.size7
+Encoding: 1114301 -1 1637
+Width: 414
+Flags: W
+HStem: -1345 82<181 358> 1821 83<181 358>
+VStem: 83 98<-1263 1821>
+LayerCount: 2
+Fore
+SplineSet
+83 -1345 m 1
+ 83 1904 l 1
+ 358 1904 l 1
+ 358 1821 l 1
+ 181 1821 l 1
+ 181 -1263 l 1
+ 358 -1263 l 1
+ 358 -1345 l 1
+ 83 -1345 l 1
+EndSplineSet
+EndChar

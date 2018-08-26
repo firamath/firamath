@@ -1,7 +1,7 @@
 StartChar: uni007B
 Encoding: 123 123 91
 Width: 322
-Flags: HW
+Flags: W
 GlyphVariantsVertical: uni007B uni007B.size1 uni007B.size2 uni007B.size3 uni007B.size4
 GlyphCompositionVertical: 5  uni23A9%0,0,150,700 uni23AA%1,150,150,800 uni23A8%0,150,150,800 uni23AA%1,150,150,800 uni23A7%0,150,0,700
 HStem: -206 71<200.61 277> 243 74<25 81.837> 695 71<200.61 277>

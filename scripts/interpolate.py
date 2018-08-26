@@ -152,8 +152,13 @@ def write_files(file_list):
                 file_i.write(i["content"])
 
 def main():
-    write_files(generate_new_glyphs("uniE000", "uniE015", "uniE100", 15))
-    write_files(generate_new_glyphs("uniE001", "uniE016", "uniE200", 15))
+    # Parentheses
+    # write_files(generate_new_glyphs("uniE000", "uniE015", "uniE100", 15))
+    # write_files(generate_new_glyphs("uniE001", "uniE016", "uniE110", 15))
+
+    # Square brackets
+    write_files(generate_new_glyphs("uniE004", "uniE019", "uniE120", 15))
+    write_files(generate_new_glyphs("uniE005", "uniE01A", "uniE130", 15))
 
 if __name__ == "__main__":
     main()

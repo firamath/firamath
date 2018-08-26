@@ -27,10 +27,10 @@ def main():
     path = CWD + "/src/fira-math-regular.sfdir/"
 
     old_file_name_prefix = "_Name_Me."
-    old_begin_index = 1628
-    old_end_index = 1642
+    old_begin_index = 1654
+    old_end_index = 1668
 
-    new_file_name_prefix = "uni0029.size"
+    new_file_name_prefix = "uni005D.size"
     new_glyph_name_prefix = new_file_name_prefix
     new_begin_index = 1
 
