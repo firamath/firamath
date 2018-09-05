@@ -1,0 +1,26 @@
+StartChar: uni2980.size11
+Encoding: 1114387 -1 1711
+Width: 894
+Flags: W
+VStem: 160 100<-2020 2579> 397 100<-2020 2579> 634 100<-2020 2579>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+160 -2020 m 1
+ 160 2579 l 1
+ 260 2579 l 1
+ 260 -2020 l 1
+ 160 -2020 l 1
+397 -2020 m 1
+ 397 2579 l 1
+ 497 2579 l 1
+ 497 -2020 l 1
+ 397 -2020 l 1
+634 -2020 m 1
+ 634 2579 l 1
+ 734 2579 l 1
+ 734 -2020 l 1
+ 634 -2020 l 1
+EndSplineSet
+EndChar

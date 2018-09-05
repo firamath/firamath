@@ -1,21 +1,20 @@
 StartChar: uni2016.size3
-Encoding: 1114173 -1 1438
-Width: 631
-Flags: HW
-IsExtendedShape: 1
-VStem: 160 101<-958 1518> 370 101<-958 1518>
+Encoding: 1114364 -1 1688
+Width: 599
+Flags: W
+VStem: 160 87<-708 1267> 351 88<-708 1267>
 LayerCount: 2
 Fore
 SplineSet
-261 1518 m 1
- 261 -958 l 1
- 160 -958 l 1
- 160 1518 l 1
- 261 1518 l 1
-471 1518 m 1
- 471 -958 l 1
- 370 -958 l 1
- 370 1518 l 1
- 471 1518 l 1
+160 -708 m 1
+ 160 1267 l 1
+ 247 1267 l 1
+ 247 -708 l 1
+ 160 -708 l 1
+351 -708 m 1
+ 351 1267 l 1
+ 439 1267 l 1
+ 439 -708 l 1
+ 351 -708 l 1
 EndSplineSet
 EndChar

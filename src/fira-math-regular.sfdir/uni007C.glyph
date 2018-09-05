@@ -1,8 +1,8 @@
 StartChar: uni007C
 Encoding: 124 124 92
 Width: 403
-Flags: HW
-GlyphVariantsVertical: uni007C uni007C.size1 uni007C.size2 uni007C.size3 uni007C.size4
+Flags: W
+GlyphVariantsVertical: uni007C uni007C.size1 uni007C.size2 uni007C.size3 uni007C.size4 uni007C.size5 uni007C.size6 uni007C.size7 uni007C.size8 uni007C.size9 uni007C.size10 uni007C.size11 uni007C.size12 uni007C.size13 uni007C.size14 uni007C.size15
 GlyphCompositionVertical: 2  uni007C.ext%0,0,200,800 uni007C.ext%1,200,200,800
 VStem: 160 83<-186 746>
 LayerCount: 2

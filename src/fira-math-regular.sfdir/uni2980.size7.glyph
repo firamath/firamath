@@ -1,0 +1,26 @@
+StartChar: uni2980.size7
+Encoding: 1114383 -1 1707
+Width: 842
+Flags: W
+VStem: 160 94<-1364 1923> 374 94<-1364 1923> 588 94<-1364 1923>
+CounterMasks: 1 e0
+LayerCount: 2
+Fore
+SplineSet
+160 -1364 m 1
+ 160 1923 l 1
+ 254 1923 l 1
+ 254 -1364 l 1
+ 160 -1364 l 1
+374 -1364 m 1
+ 374 1923 l 1
+ 468 1923 l 1
+ 468 -1364 l 1
+ 374 -1364 l 1
+588 -1364 m 1
+ 588 1923 l 1
+ 682 1923 l 1
+ 682 -1364 l 1
+ 588 -1364 l 1
+EndSplineSet
+EndChar

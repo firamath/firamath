@@ -161,8 +161,13 @@ def main():
     # write_files(generate_new_glyphs("uniE005", "uniE01A", "uniE130", 15))
 
     # Curly brackets
-    write_files(generate_new_glyphs("uniE006", "uniE01B", "uniE140", 15))
-    write_files(generate_new_glyphs("uniE007", "uniE01C", "uniE150", 15))
+    # write_files(generate_new_glyphs("uniE006", "uniE01B", "uniE140", 15))
+    # write_files(generate_new_glyphs("uniE007", "uniE01C", "uniE150", 15))
+
+    # Vertical lines
+    write_files(generate_new_glyphs("uniE010", "uniE021", "uniE160", 15))
+    write_files(generate_new_glyphs("uniE011", "uniE022", "uniE170", 15))
+    write_files(generate_new_glyphs("uniE012", "uniE023", "uniE180", 15))
 
 if __name__ == "__main__":
     main()

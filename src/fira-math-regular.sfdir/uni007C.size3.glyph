@@ -1,16 +1,15 @@
 StartChar: uni007C.size3
-Encoding: 1114169 -1 1434
-Width: 421
-Flags: HW
-IsExtendedShape: 1
-VStem: 160 101<-958 1518>
+Encoding: 1114349 -1 1673
+Width: 407
+Flags: W
+VStem: 160 87<-708 1267>
 LayerCount: 2
 Fore
 SplineSet
-261 1518 m 1
- 261 -958 l 1
- 160 -958 l 1
- 160 1518 l 5
- 261 1518 l 1
+160 -708 m 1
+ 160 1267 l 1
+ 247 1267 l 1
+ 247 -708 l 1
+ 160 -708 l 1
 EndSplineSet
 EndChar

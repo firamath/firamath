@@ -1,8 +1,8 @@
 StartChar: uni2016
 Encoding: 8214 8214 660
 Width: 577
-Flags: HW
-GlyphVariantsVertical: uni2016 uni2016.size1 uni2016.size2 uni2016.size3 uni2016.size4
+Flags: W
+GlyphVariantsVertical: uni2016 uni2016.size1 uni2016.size2 uni2016.size3 uni2016.size4 uni2016.size5 uni2016.size6 uni2016.size7 uni2016.size8 uni2016.size9 uni2016.size10 uni2016.size11 uni2016.size12 uni2016.size13 uni2016.size14 uni2016.size15
 GlyphCompositionVertical: 2  uni2016.ext%0,0,200,800 uni2016.ext%1,200,200,800
 VStem: 160 83<-186 746> 334 83<-186 746>
 LayerCount: 2

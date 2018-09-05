@@ -1,0 +1,15 @@
+StartChar: uni007C.size10
+Encoding: 1114356 -1 1680
+Width: 419
+Flags: W
+VStem: 160 99<-1856 2415>
+LayerCount: 2
+Fore
+SplineSet
+160 -1856 m 1
+ 160 2415 l 1
+ 259 2415 l 1
+ 259 -1856 l 1
+ 160 -1856 l 1
+EndSplineSet
+EndChar
