@@ -170,10 +170,16 @@ def main():
     # write_files(generate_new_glyphs("uniE012", "uniE023", "uniE180", 15))
 
     # Floor/ceiling
-    write_files(generate_new_glyphs("uniE00C", "uniE030", "uniE190", 15))
-    write_files(generate_new_glyphs("uniE00D", "uniE031", "uniE1A0", 15))
-    write_files(generate_new_glyphs("uniE00E", "uniE032", "uniE1B0", 15))
-    write_files(generate_new_glyphs("uniE00F", "uniE033", "uniE1C0", 15))
+    # write_files(generate_new_glyphs("uniE00C", "uniE030", "uniE190", 15))
+    # write_files(generate_new_glyphs("uniE00D", "uniE031", "uniE1A0", 15))
+    # write_files(generate_new_glyphs("uniE00E", "uniE032", "uniE1B0", 15))
+    # write_files(generate_new_glyphs("uniE00F", "uniE033", "uniE1C0", 15))
+
+    # Bra-kets
+    write_files(generate_new_glyphs("uniE008", "uniE01D", "uniE1D0", 15))
+    write_files(generate_new_glyphs("uniE009", "uniE01E", "uniE1E0", 15))
+    write_files(generate_new_glyphs("uniE00A", "uniE01F", "uniE1F0", 15))
+    write_files(generate_new_glyphs("uniE00B", "uniE020", "uniE200", 15))
 
 if __name__ == "__main__":
     main()

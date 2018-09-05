@@ -1,9 +1,9 @@
 StartChar: uni27EF.size3
 Encoding: 1114141 -1 1414
 Width: 384
-Flags: HW
+Flags: W
 IsExtendedShape: 1
-VStem: 198 122<0.7115 559.845>
+VStem: 198 122<0.711533 559.845>
 LayerCount: 2
 Fore
 SplineSet
