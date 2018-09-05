@@ -165,9 +165,15 @@ def main():
     # write_files(generate_new_glyphs("uniE007", "uniE01C", "uniE150", 15))
 
     # Vertical lines
-    write_files(generate_new_glyphs("uniE010", "uniE021", "uniE160", 15))
-    write_files(generate_new_glyphs("uniE011", "uniE022", "uniE170", 15))
-    write_files(generate_new_glyphs("uniE012", "uniE023", "uniE180", 15))
+    # write_files(generate_new_glyphs("uniE010", "uniE021", "uniE160", 15))
+    # write_files(generate_new_glyphs("uniE011", "uniE022", "uniE170", 15))
+    # write_files(generate_new_glyphs("uniE012", "uniE023", "uniE180", 15))
+
+    # Floor/ceiling
+    write_files(generate_new_glyphs("uniE00C", "uniE030", "uniE190", 15))
+    write_files(generate_new_glyphs("uniE00D", "uniE031", "uniE1A0", 15))
+    write_files(generate_new_glyphs("uniE00E", "uniE032", "uniE1B0", 15))
+    write_files(generate_new_glyphs("uniE00F", "uniE033", "uniE1C0", 15))
 
 if __name__ == "__main__":
     main()

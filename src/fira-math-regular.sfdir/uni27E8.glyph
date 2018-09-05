@@ -1,7 +1,7 @@
 StartChar: uni27E8
 Encoding: 10216 10216 961
 Width: 336
-Flags: HW
+Flags: W
 GlyphVariantsVertical: uni27E8 uni27E8.size1 uni27E8.size2 uni27E8.size3 uni27E8.size4
 VStem: 40 256
 LayerCount: 2

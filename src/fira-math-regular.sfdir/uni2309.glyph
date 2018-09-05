@@ -1,7 +1,8 @@
 StartChar: uni2309
 Encoding: 8969 8969 833
 Width: 322
-Flags: HW
+Flags: W
+GlyphVariantsVertical: uni2309 uni2309.size1 uni2309.size2 uni2309.size3 uni2309.size4 uni2309.size5 uni2309.size6 uni2309.size7 uni2309.size8 uni2309.size9 uni2309.size10 uni2309.size11 uni2309.size12 uni2309.size13 uni2309.size14 uni2309.size15
 HStem: 669 77<50 170>
 VStem: 170 87<-186 669>
 LayerCount: 2
