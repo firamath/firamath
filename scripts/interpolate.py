@@ -157,8 +157,12 @@ def main():
     # write_files(generate_new_glyphs("uniE001", "uniE016", "uniE110", 15))
 
     # Square brackets
-    write_files(generate_new_glyphs("uniE004", "uniE019", "uniE120", 15))
-    write_files(generate_new_glyphs("uniE005", "uniE01A", "uniE130", 15))
+    # write_files(generate_new_glyphs("uniE004", "uniE019", "uniE120", 15))
+    # write_files(generate_new_glyphs("uniE005", "uniE01A", "uniE130", 15))
+
+    # Curly brackets
+    write_files(generate_new_glyphs("uniE006", "uniE01B", "uniE140", 15))
+    write_files(generate_new_glyphs("uniE007", "uniE01C", "uniE150", 15))
 
 if __name__ == "__main__":
     main()

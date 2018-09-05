@@ -101,12 +101,12 @@
       }
   }
 
-\cs_set:Npn \Latinalphabets { ABCDEFGHIJKLMNOPQRSTUVWXYZ }
-\cs_set:Npn \latinalphabets { abcdefghijklmnopqrstuvwxyz }
+\cs_set:Npn \LatinAlphabets { ABCDEFGHIJKLMNOPQRSTUVWXYZ }
+\cs_set:Npn \latinAlphabets { abcdefghijklmnopqrstuvwxyz }
 
 % ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
 % αβγδεζηθικλμνξοπρστυφχψω
-\cs_set:Npn \Greekalphabets
+\cs_set:Npn \GreekAlphabets
   {
     \Alpha      \Beta       \Gamma      \Delta      \Epsilon
     \Zeta       \Eta        \Theta      \varTheta   \Iota
@@ -114,7 +114,7 @@
     \Omicron    \Pi         \Rho        \Sigma      \Tau
     \Upsilon    \Phi        \Chi        \Psi        \Omega
   }
-\cs_set:Npn \greekalphabets
+\cs_set:Npn \greekAlphabets
   {
     \alpha      \beta       \gamma      \delta      \epsilon
     \varepsilon \zeta       \eta        \theta      \vartheta 
@@ -154,18 +154,18 @@
     \underleftarrow \underrightarrow
   }
 
-\cs_set:Npn \MATRIXII
+\cs_set:Npn \MatrixII
   {
     a & b & c & d \\
     x & y & z & w
   }
-\cs_set:Npn \MATRIXIII
+\cs_set:Npn \MatrixIII
   {
     a & b & c & d \\
     k & l & m & n \\
     x & y & z & w
   }
-\cs_set:Npn \MATRIXIV
+\cs_set:Npn \MatrixIV
   {
     a & b & c & d \\
     k & l & m & n \\
@@ -173,7 +173,7 @@
     x & y & z & w
   }
 
-\NewDocumentCommand \TOPACCENTMAP { m m }
+\NewDocumentCommand \TopAccentMap { m m }
   { \fonttest_top_accent_map:Nx #1 {#2} }
 \cs_new:Npn \fonttest_top_accent_map:Nn #1#2
   { \tl_map_inline:nn {#2} { \[ \__fonttest_top_accent:n { #1 {##1} } \] } }
@@ -181,14 +181,37 @@
 \cs_new:Npn \__fonttest_top_accent:n #1
   { \tl_map_inline:Nn \c__fonttest_accents_tl { ##1 {#1} \, } }
 
-\cs_set:Npn \OVERUNDERLINE #1
+\cs_set:Npn \OverUnderline #1
   {
     #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c}
   }
-\cs_set:Npn \LISTTEXT
+\cs_set:Npn \ListText
   { x_1, \, x_2, \, \ldots, \, x_n }
-\cs_set:Npn \LIGATEXT
+\cs_set:Npn \LigatureText
   { ff \quad fi \quad fl \quad ffi \quad ffl }
+
+\NewDocumentCommand \PrintDelimiters { m m }
+  { \fonttest_print_delimiters:nnnnn {#1} {#2} { 9 } { 1.8 } { 40 } }
+\cs_new_protected:Npn \fonttest_print_delimiters:nnnnn #1#2#3#4#5
+  {
+    \cs_set:Npn \__fonttest_left_delimiter:n ##1
+      { \left #1 \vbox_to_ht:nn { ##1 pt } { } }
+    \cs_set:Npn \__fonttest_right_delimiter:n ##1
+      { \vbox_to_ht:nn { ##1 pt } { } \right #2 }
+    \tl_set:Nx \l__fonttest_delimiter_tl
+      {
+        \fp_step_function:nnnN {#5} { - #4 } {#3} \__fonttest_left_delimiter:n
+        #1
+      }
+    \tl_set:Nx \l__fonttest_delimiter_tl
+      {
+        \l__fonttest_delimiter_tl
+        #2
+        \fp_step_function:nnnN {#3} {#4} {#5} \__fonttest_right_delimiter:n
+      }
+    \tl_use:N \l__fonttest_delimiter_tl
+  }
+\tl_new:N \l__fonttest_delimiter_tl
 
 \ExplSyntaxOff
 
@@ -217,58 +240,58 @@
 
 \begin{itemize}
   \item Latin capital letters:
-        \[ \Latinalphabets \]
+        \[ \LatinAlphabets \]
   \item Latin small letters:
-        \[ \latinalphabets \]
+        \[ \latinAlphabets \]
   \item Latin capital upright letters (\verb|\symup|):
-        \[ \symup{\Latinalphabets} \]
+        \[ \symup{\LatinAlphabets} \]
   \item Latin small upright letters (\verb|\symup|):
-        \[ \symup{\latinalphabets} \]
+        \[ \symup{\latinAlphabets} \]
   \item Latin capital typewriter letters (\verb|\symtt|):
-        \[ \symtt{\Latinalphabets} \]
+        \[ \symtt{\LatinAlphabets} \]
   \item Latin small typewriter letters (\verb|\symtt|):
-        \[ \symtt{\latinalphabets} \]
+        \[ \symtt{\latinAlphabets} \]
   \item Latin capital bold letters (\verb|\symbf|):
-        \[ \symbf{\Latinalphabets} \]
+        \[ \symbf{\LatinAlphabets} \]
   \item Latin small bold letters (\verb|\symbf|):
-        \[ \symbf{\latinalphabets} \]
+        \[ \symbf{\latinAlphabets} \]
   \item Latin capital bold upright letters (\verb|\symbfup|):
-        \[ \symbfup{\Latinalphabets} \]
+        \[ \symbfup{\LatinAlphabets} \]
   \item Latin small bold upright letters (\verb|\symbfup|):
-        \[ \symbfup{\latinalphabets} \]
+        \[ \symbfup{\latinAlphabets} \]
   \item Latin capital blackboard letters (\verb|\symbb|):
-        \[ \symbb{\Latinalphabets} \]
+        \[ \symbb{\LatinAlphabets} \]
   \item Latin small blackboard letters (\verb|\symbb|):
-        \[ \symbb{\latinalphabets} \]
+        \[ \symbb{\latinAlphabets} \]
         % \[ \symbb{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.} \]
         % \[ \symbb{The\ Quick\ Brown\ Fox\ Jumps\ Over\ The\ Lazy\ Dog.} \]
         % \[ \symbb{THE\ QUICK\ BROWN\ FOX\ JUMPS\ OVER\ THE\ LAZY\ DOG.} \]
   \item Greek capital letters:
-        \[ \Greekalphabets \]
+        \[ \GreekAlphabets \]
   \item Greek small letters:
-        \[ \greekalphabets \]
+        \[ \greekAlphabets \]
   \item Greek capital upright letters (\verb|\symup|):
-        \[ \symup{\Greekalphabets} \]
+        \[ \symup{\GreekAlphabets} \]
   \item Greek small upright letters (\verb|\symup|):
-        \[ \symup{\greekalphabets} \]
+        \[ \symup{\greekAlphabets} \]
   \item Greek capital bold letters (\verb|\symbf|):
-        \[ \symbf{\Greekalphabets} \]
+        \[ \symbf{\GreekAlphabets} \]
   \item Greek small bold letters (\verb|\symbf|):
-        \[ \symbf{\greekalphabets} \]
+        \[ \symbf{\greekAlphabets} \]
   \item Greek capital bold upright letters (\verb|\symbfup|):
-        \[ \symbfup{\Greekalphabets} \]
+        \[ \symbfup{\GreekAlphabets} \]
   \item Greek small bold upright letters (\verb|\symbfup|):
-        \[ \symbfup{\greekalphabets} \]
+        \[ \symbfup{\greekAlphabets} \]
   \item Dotless letters:
         \[ \imath + \jmath + \symup{\imath} + \symup{\jmath} \]
-        % \TOPACCENTMAP{\symbf}{\imath\jmath}
-        % \TOPACCENTMAP{\symup}{\imath\jmath}
+        % \TopAccentMap{\symbf}{\imath\jmath}
+        % \TopAccentMap{\symup}{\imath\jmath}
   \item Hebrew
         \[ \aleph + \beth + \gimel + \daleth \]
   \item Ligature (text):
-        {\firatext\LIGATEXT}
+        {\firatext\LigatureText}
   \item Non-ligature (math):
-        \[ \LIGATEXT + \symit{\LIGATEXT} + \symrm{\LIGATEXT} \]
+        \[ \LigatureText + \symit{\LigatureText} + \symrm{\LigatureText} \]
   \item Miscellaneous:
         \[
           \hslash
@@ -337,40 +360,40 @@
           p \updownharpoonsleftright p \downupharpoonsleftright p
         \]
   \item Math accents:
-        \TOPACCENTMAP{\symnormal}{x}
+        \TopAccentMap{\symnormal}{x}
         % \begin{itemize}
         %   \item Latin capital letters:
-        %     \TOPACCENTMAP{\symnormal}{\Latinalphabets}
+        %     \TopAccentMap{\symnormal}{\LatinAlphabets}
         %   \item Latin small letters:
-        %     \TOPACCENTMAP{\symnormal}{\latinalphabets}
+        %     \TopAccentMap{\symnormal}{\latinAlphabets}
         %   \item Latin capital upright letters:
-        %     \TOPACCENTMAP{\symup}{\Latinalphabets}
+        %     \TopAccentMap{\symup}{\LatinAlphabets}
         %   \item Latin small upright letters:
-        %     \TOPACCENTMAP{\symup}{\latinalphabets}
+        %     \TopAccentMap{\symup}{\latinAlphabets}
         %   \item Latin capital bold letters:
-        %     \TOPACCENTMAP{\symbf}{\Latinalphabets}
+        %     \TopAccentMap{\symbf}{\LatinAlphabets}
         %   \item Latin small bold letters:
-        %     \TOPACCENTMAP{\symbf}{\latinalphabets}
+        %     \TopAccentMap{\symbf}{\latinAlphabets}
         %   \item Latin capital bold upright letters:
-        %     \TOPACCENTMAP{\symbfup}{\Latinalphabets}
+        %     \TopAccentMap{\symbfup}{\LatinAlphabets}
         %   \item Latin small bold upright letters:
-        %     \TOPACCENTMAP{\symbfup}{\latinalphabets}
+        %     \TopAccentMap{\symbfup}{\latinAlphabets}
         %   \item Greek capital letters:
-        %     \TOPACCENTMAP{\symnormal}{\Greekalphabets}
+        %     \TopAccentMap{\symnormal}{\GreekAlphabets}
         %   \item Greek small letters:
-        %     \TOPACCENTMAP{\symnormal}{\greekalphabets}
+        %     \TopAccentMap{\symnormal}{\greekAlphabets}
         %   \item Greek capital upright letters:
-        %     \TOPACCENTMAP{\symup}{\Greekalphabets}
+        %     \TopAccentMap{\symup}{\GreekAlphabets}
         %   \item Greek small upright letters:
-        %     \TOPACCENTMAP{\symup}{\greekalphabets}
+        %     \TopAccentMap{\symup}{\greekAlphabets}
         %   \item Greek capital bold letters:
-        %     \TOPACCENTMAP{\symbf}{\Greekalphabets}
+        %     \TopAccentMap{\symbf}{\GreekAlphabets}
         %   \item Greek small bold letters:
-        %     \TOPACCENTMAP{\symbf}{\greekalphabets}
+        %     \TopAccentMap{\symbf}{\greekAlphabets}
         %   \item Greek capital bold upright letters:
-        %     \TOPACCENTMAP{\symbfup}{\Greekalphabets}
+        %     \TopAccentMap{\symbfup}{\GreekAlphabets}
         %   \item Greek small bold upright letters:
-        %     \TOPACCENTMAP{\symbfup}{\greekalphabets}
+        %     \TopAccentMap{\symbfup}{\greekAlphabets}
         % \end{itemize}
   \item Integral:
         \[
@@ -445,6 +468,14 @@
         \]
   \item Brackets:
         \[ (a) (A) (O) (Y) (y) (f) (Q) (T) (Y) (j) (q) \]
+        \[ \PrintDelimiters{(}{)}             \]
+        \[ \PrintDelimiters{\lgroup}{\rgroup} \]
+        \[ \PrintDelimiters{[}{]}             \]
+        \[ \PrintDelimiters{\{}{\}}           \]
+        \[ \PrintDelimiters{\langle}{\rangle} \]
+        \[ \PrintDelimiters{\lAngle}{\rAngle} \]
+        \[ \PrintDelimiters{\lceil}{\rceil}   \]
+        \[ \PrintDelimiters{\lfloor}{\rfloor} \]
         \[
           \Biggl(  \biggl(  \Bigl(  \bigl(   (x)  \bigr)  \Bigr)  \biggr)  \Biggr)  \quad
           \Biggl\lgroup \biggl\lgroup \Bigl\lgroup  \bigl\lgroup  \lgroup x \rgroup
@@ -493,25 +524,25 @@
   \item Matrices:
         \[ \mqty(a & b \\ c & d) + \mqty*(a & b \\ c & d) \]
         \[
-          \begin{pmatrix} \MATRIXII  \end{pmatrix} \quad
-          \begin{bmatrix} \MATRIXII  \end{bmatrix} \quad
-          \begin{Bmatrix} \MATRIXII  \end{Bmatrix} \quad
-          \begin{vmatrix} \MATRIXII  \end{vmatrix} \quad
-          \begin{Vmatrix} \MATRIXII  \end{Vmatrix}
+          \begin{pmatrix} \MatrixII  \end{pmatrix} \quad
+          \begin{bmatrix} \MatrixII  \end{bmatrix} \quad
+          \begin{Bmatrix} \MatrixII  \end{Bmatrix} \quad
+          \begin{vmatrix} \MatrixII  \end{vmatrix} \quad
+          \begin{Vmatrix} \MatrixII  \end{Vmatrix}
         \]
         \[
-          \begin{pmatrix} \MATRIXIII \end{pmatrix} \quad
-          \begin{bmatrix} \MATRIXIII \end{bmatrix} \quad
-          \begin{Bmatrix} \MATRIXIII \end{Bmatrix} \quad
-          \begin{vmatrix} \MATRIXIII \end{vmatrix} \quad
-          \begin{Vmatrix} \MATRIXIII \end{Vmatrix}
+          \begin{pmatrix} \MatrixIII \end{pmatrix} \quad
+          \begin{bmatrix} \MatrixIII \end{bmatrix} \quad
+          \begin{Bmatrix} \MatrixIII \end{Bmatrix} \quad
+          \begin{vmatrix} \MatrixIII \end{vmatrix} \quad
+          \begin{Vmatrix} \MatrixIII \end{Vmatrix}
         \]
         \[
-          \begin{pmatrix} \MATRIXIV  \end{pmatrix} \quad
-          \begin{bmatrix} \MATRIXIV  \end{bmatrix} \quad
-          \begin{Bmatrix} \MATRIXIV  \end{Bmatrix} \quad
-          \begin{vmatrix} \MATRIXIV  \end{vmatrix} \quad
-          \begin{Vmatrix} \MATRIXIV  \end{Vmatrix}
+          \begin{pmatrix} \MatrixIV  \end{pmatrix} \quad
+          \begin{bmatrix} \MatrixIV  \end{bmatrix} \quad
+          \begin{Bmatrix} \MatrixIV  \end{Bmatrix} \quad
+          \begin{vmatrix} \MatrixIV  \end{vmatrix} \quad
+          \begin{Vmatrix} \MatrixIV  \end{Vmatrix}
         \]
   \item Nablas:
         \[ \nabla x + \grad{f} + \divergence{\symbf{u}} + \curl{\symbf{v}} \]
@@ -522,14 +553,14 @@
           \tilde{\symit{\nabla}} \quad \tilde{\symbfit{\nabla}}
         \]
   \item Over-/underline and over-/underbraces
-        \[ \OVERUNDERLINE{\overline}     \quad \overline     {\LISTTEXT}   \]
-        \[ \OVERUNDERLINE{\overparen}    \quad \overparen    {\LISTTEXT}^n \]
-        \[ \OVERUNDERLINE{\overbracket}  \quad \overbracket  {\LISTTEXT}^n \]
-        \[ \OVERUNDERLINE{\overbrace}    \quad \overbrace    {\LISTTEXT}^n \]
-        \[ \OVERUNDERLINE{\underline}    \quad \underline    {\LISTTEXT}   \]
-        \[ \OVERUNDERLINE{\underparen}   \quad \underparen   {\LISTTEXT}_n \]
-        \[ \OVERUNDERLINE{\underbracket} \quad \underbracket {\LISTTEXT}_n \]
-        \[ \OVERUNDERLINE{\underbrace}   \quad \underbrace   {\LISTTEXT}_n \]
+        \[ \OverUnderline{\overline}     \quad \overline     {\ListText}   \]
+        \[ \OverUnderline{\overparen}    \quad \overparen    {\ListText}^n \]
+        \[ \OverUnderline{\overbracket}  \quad \overbracket  {\ListText}^n \]
+        \[ \OverUnderline{\overbrace}    \quad \overbrace    {\ListText}^n \]
+        \[ \OverUnderline{\underline}    \quad \underline    {\ListText}   \]
+        \[ \OverUnderline{\underparen}   \quad \underparen   {\ListText}_n \]
+        \[ \OverUnderline{\underbracket} \quad \underbracket {\ListText}_n \]
+        \[ \OverUnderline{\underbrace}   \quad \underbrace   {\ListText}_n \]
   \item Primes
         \[ x' x'' x''' x'''' x` x^{x'} x^{x''} x^{x'''} x^{x''''} x^{x`} \]
         \[ x \prime x \dprime x \trprime x \qprime \]

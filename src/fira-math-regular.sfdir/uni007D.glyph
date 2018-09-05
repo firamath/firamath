@@ -1,11 +1,11 @@
 StartChar: uni007D
 Encoding: 125 125 93
 Width: 322
-Flags: HW
-GlyphVariantsVertical: uni007D uni007D.size1 uni007D.size2 uni007D.size3 uni007D.size4
+Flags: W
+GlyphVariantsVertical: uni007D uni007D.size1 uni007D.size2 uni007D.size3 uni007D.size4 uni007D.size5 uni007D.size6 uni007D.size7 uni007D.size8 uni007D.size9 uni007D.size10 uni007D.size11 uni007D.size12 uni007D.size13 uni007D.size14 uni007D.size15
 GlyphCompositionVertical: 5  uni23AD%0,0,150,700 uni23AA%1,150,150,800 uni23AC%0,150,150,800 uni23AA%1,150,150,800 uni23AB%0,150,0,700
-HStem: -206 71<45 78.5 45 112.5> 241 76<270.5 297> 695 71<45 78.5>
-VStem: 140 87<-67 -57 -57 165 388 395 395 617>
+HStem: -206 71<45 121.39> 241 76<240.163 297> 695 71<45 121.39>
+VStem: 140 87<-117.327 227.967 329.517 677.327>
 LayerCount: 2
 Fore
 SplineSet
