@@ -314,6 +314,20 @@ uni230B.size15
 uni007C.ext
 uni2016.ext
 uni2980.ext
+uni2308.top
+uni2308.ext
+uni2309.top
+uni2309.ext
+uni230A.ext
+uni230A.bot
+uni230B.ext
+uni230B.bot
+uni27EE.top
+uni27EE.ext
+uni27EE.bot
+uni27EF.top
+uni27EF.ext
+uni27EF.bot
 ; Large Over/Under Symbols
 uni23DC.size1
 uni23DC.size2

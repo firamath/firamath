@@ -1,0 +1,18 @@
+StartChar: uni27EE.bot
+Encoding: 1114516 -1 1852
+Width: 563
+Flags: W
+HStem: 0 21G<301 473.452>
+VStem: 100 110<1513.99 2956>
+LayerCount: 2
+Fore
+SplineSet
+100 1744 m 2
+ 100 2956 l 25
+ 210 2956 l 25
+ 210 1764 l 2
+ 210 1076 259 567 499 31 c 1
+ 427 0 l 1
+ 175 516 100 994 100 1744 c 2
+EndSplineSet
+EndChar

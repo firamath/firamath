@@ -3,7 +3,7 @@ Encoding: 10223 10223 966
 Width: 287
 Flags: W
 GlyphVariantsVertical: uni27EF uni27EF.size1 uni27EF.size2 uni27EF.size3 uni27EF.size4 uni27EF.size5 uni27EF.size6 uni27EF.size7 uni27EF.size8 uni27EF.size9 uni27EF.size10 uni27EF.size11 uni27EF.size12 uni27EF.size13 uni27EF.size14 uni27EF.size15
-GlyphCompositionVertical: 3  uni23A0%0,0,150,1485 uni239F%1,150,150,700 uni239E%0,150,0,1485
+GlyphCompositionVertical: 3  uni27EF.bot%0,0,150,2956 uni27EF.ext%1,150,150,600 uni27EF.top%0,150,0,2956
 VStem: 143 88<29.2918 530.708>
 LayerCount: 2
 Fore

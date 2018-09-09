@@ -1,0 +1,18 @@
+StartChar: uni230A.bot
+Encoding: 1114510 -1 1846
+Width: 521
+Flags: W
+HStem: 0 89<215 457>
+VStem: 105 110<89 1600>
+LayerCount: 2
+Fore
+SplineSet
+105 0 m 1
+ 105 1600 l 1
+ 215 1600 l 1
+ 215 89 l 1
+ 457 89 l 1
+ 457 0 l 1
+ 105 0 l 1
+EndSplineSet
+EndChar

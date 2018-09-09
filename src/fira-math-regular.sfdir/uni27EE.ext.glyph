@@ -1,0 +1,16 @@
+StartChar: uni27EE.ext
+Encoding: 1114515 -1 1851
+Width: 563
+Flags: W
+HStem: 0 21G<100 210>
+VStem: 100 110<0 600>
+LayerCount: 2
+Fore
+SplineSet
+100 0 m 1
+ 100 600 l 25
+ 210 600 l 25
+ 210 0 l 1
+ 100 0 l 1
+EndSplineSet
+EndChar
