@@ -84,6 +84,7 @@
     \str_if_eq:VnTF \l_fonttest_font_str { xits }
       {
         \setmathfont { XITS~ Math }
+        \setmathfont { XITS~ Math } [ BoldFont = *,                    version = pnum       ]
         \setmathfont { XITS~ Math } [ BoldFont = *, StylisticSet = 8,  version = upintegral ]
         \setmathfont { XITS~ Math } [ BoldFont = *, StylisticSet = 10, version = hbar       ]
         \setmathfont { XITS~ Math } [ BoldFont = *,                    version = complement ]
@@ -93,6 +94,7 @@
         \str_if_eq:VnT \l_fonttest_font_str { lm }
           {
             \setmathfont { Latin~ Modern~ Math }
+            \setmathfont { Latin~ Modern~ Math } [ BoldFont = *, version = pnum       ]
             \setmathfont { Latin~ Modern~ Math } [ BoldFont = *, version = upintegral ]
             \setmathfont { Latin~ Modern~ Math } [ BoldFont = *, version = hbar       ]
             \setmathfont { Latin~ Modern~ Math } [ BoldFont = *, version = complement ]
