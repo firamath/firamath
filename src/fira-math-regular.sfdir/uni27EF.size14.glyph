@@ -1,0 +1,19 @@
+StartChar: uni27EF.size14
+Encoding: 1114512 -1 1840
+Width: 544
+Flags: W
+VStem: 339 108<-1101.17 1660.17>
+LayerCount: 2
+Fore
+SplineSet
+63 -2481 m 1
+ 292 -1969 339 -1487 339 -836 c 2
+ 339 1395 l 2
+ 339 2046 292 2528 63 3040 c 1
+ 134 3071 l 1
+ 375 2578 447 2125 447 1415 c 2
+ 447 -856 l 2
+ 447 -1566 375 -2019 134 -2512 c 1
+ 63 -2481 l 1
+EndSplineSet
+EndChar

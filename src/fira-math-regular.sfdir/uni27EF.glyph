@@ -1,19 +1,21 @@
 StartChar: uni27EF
 Encoding: 10223 10223 966
-Width: 274
+Width: 287
 Flags: W
-GlyphVariantsVertical: uni27EF uni27EF.size1 uni27EF.size2 uni27EF.size3 uni27EF.size4
+GlyphVariantsVertical: uni27EF uni27EF.size1 uni27EF.size2 uni27EF.size3 uni27EF.size4 uni27EF.size5 uni27EF.size6 uni27EF.size7 uni27EF.size8 uni27EF.size9 uni27EF.size10 uni27EF.size11 uni27EF.size12 uni27EF.size13 uni27EF.size14 uni27EF.size15
 GlyphCompositionVertical: 3  uni23A0%0,0,150,1485 uni239F%1,150,150,700 uni239E%0,150,0,1485
-VStem: 148 86<34.0663 526.132>
+VStem: 143 88<29.2918 530.708>
 LayerCount: 2
 Fore
 SplineSet
-98 775 m 1
- 196 636 234 517 234 280 c 0
- 234 43 196 -76 98 -215 c 1
- 40 -175 l 1
- 130 -42 148 66 148 280 c 4
- 148 495 130 602 40 735 c 1
- 98 775 l 1
+50 -175 m 1
+ 138 -3 143 105 143 241 c 2
+ 143 319 l 2
+ 143 455 138 563 50 735 c 1
+ 108 775 l 1
+ 204 597 231 497 231 339 c 2
+ 231 221 l 2
+ 231 63 204 -37 108 -215 c 1
+ 50 -175 l 1
 EndSplineSet
 EndChar
