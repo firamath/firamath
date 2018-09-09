@@ -1,15 +1,16 @@
 StartChar: uni239C
 Encoding: 9116 9116 838
-Width: 592
+Width: 599
 Flags: W
-VStem: 72 128
+HStem: 0 21G<72 192>
+VStem: 72 120<0 600>
 LayerCount: 2
 Fore
 SplineSet
-200 0 m 25
- 200 700 l 29
- 72 700 l 25
- 72 0 l 25
- 200 0 l 25
+72 0 m 1
+ 72 600 l 25
+ 192 600 l 25
+ 192 0 l 1
+ 72 0 l 1
 EndSplineSet
 EndChar

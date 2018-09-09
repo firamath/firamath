@@ -3,7 +3,7 @@ Encoding: 91 91 59
 Width: 322
 Flags: W
 GlyphVariantsVertical: uni005B uni005B.size1 uni005B.size2 uni005B.size3 uni005B.size4 uni005B.size5 uni005B.size6 uni005B.size7 uni005B.size8 uni005B.size9 uni005B.size10 uni005B.size11 uni005B.size12 uni005B.size13 uni005B.size14 uni005B.size15
-GlyphCompositionVertical: 3  uni23A3%0,0,150,1485 uni23A2%1,150,150,700 uni23A1%0,150,0,1485
+GlyphCompositionVertical: 3  uni23A3%0,0,150,2956 uni23A2%1,150,150,600 uni23A1%0,150,0,2956
 HStem: -186 76<152 272> 669 77<152 272>
 VStem: 65 207<-186 -110 669 746> 65 87<-110 669>
 LayerCount: 2

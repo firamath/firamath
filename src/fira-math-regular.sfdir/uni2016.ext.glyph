@@ -1,21 +1,21 @@
 StartChar: uni2016.ext
 Encoding: 1114144 -1 1409
-Width: 649
-Flags: HW
-HStem: -70 21G<160 267 382 489>
-VStem: 160 107<-70 730> 382 107<-70 730>
+Width: 767
+Flags: W
+HStem: 0 21G<200 307 460 567>
+VStem: 200 107<0 800> 460 107<0 800>
 LayerCount: 2
 Fore
 SplineSet
-267 730 m 1
- 267 -70 l 5
- 160 -70 l 5
- 160 730 l 1
- 267 730 l 1
-489 730 m 1
- 489 -70 l 5
- 382 -70 l 5
- 382 730 l 1
- 489 730 l 1
+200 0 m 1
+ 200 800 l 1
+ 307 800 l 1
+ 307 0 l 1
+ 200 0 l 1
+460 0 m 1
+ 460 800 l 1
+ 567 800 l 1
+ 567 0 l 1
+ 460 0 l 1
 EndSplineSet
 EndChar

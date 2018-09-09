@@ -3,7 +3,7 @@ Encoding: 41 41 9
 Width: 324
 Flags: W
 GlyphVariantsVertical: uni0029 uni0029.size1 uni0029.size2 uni0029.size3 uni0029.size4 uni0029.size5 uni0029.size6 uni0029.size7 uni0029.size8 uni0029.size9 uni0029.size10 uni0029.size11 uni0029.size12 uni0029.size13 uni0029.size14 uni0029.size15
-GlyphCompositionVertical: 3  uni23A0%0,0,150,1485 uni239F%1,150,150,700 uni239E%0,150,0,1485
+GlyphCompositionVertical: 3  uni23A0%0,0,150,2956 uni239F%1,150,150,600 uni239E%0,150,0,2956
 VStem: 188 96<97.7322 462.49>
 LayerCount: 2
 Fore
