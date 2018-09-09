@@ -1,5 +1,5 @@
 StartChar: uni2210
-Encoding: 8720 8720 781
+Encoding: 8720 8720 799
 Width: 738
 Flags: W
 IsExtendedShape: 1
@@ -8,5 +8,5 @@ HStem: -153 76<57 129 219 524 614 681>
 VStem: 129 90<-77 709> 524 90<-77 709>
 LayerCount: 2
 Fore
-Refer: 780 8719 N 1 0 0 -1 0 556 2
+Refer: 798 8719 N 1 0 0 -1 0 556 2
 EndChar

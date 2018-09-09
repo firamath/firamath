@@ -414,7 +414,3 @@ uni2230.display.up
 uni210F.ss02
 ; Stylistic Set 3: Complement Alternates
 uni2201.ss03
-; Integral Contours
-uni222E.o
-uni222F.o
-uni2230.o

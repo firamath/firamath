@@ -1,5 +1,5 @@
 StartChar: uni2210.display
-Encoding: 1114117 -1 1390
+Encoding: 1114117 -1 1453
 Width: 1403
 Flags: W
 IsExtendedShape: 1
@@ -7,5 +7,5 @@ HStem: -355 105<90 273 383 1033 1143 1313>
 VStem: 273 110<-250 1172> 1033 110<-250 1172>
 LayerCount: 2
 Fore
-Refer: 1389 -1 N 1 0 0 -1 0 817 2
+Refer: 1452 -1 N 1 0 0 -1 0 817 2
 EndChar
