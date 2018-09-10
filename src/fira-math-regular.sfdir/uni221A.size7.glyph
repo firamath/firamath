@@ -1,0 +1,22 @@
+StartChar: uni221A.size7
+Encoding: 1114520 -1 1850
+Width: 779
+Flags: W
+HStem: 2443 77<767 794>
+LayerCount: 2
+Fore
+SplineSet
+19 527 m 1
+ 193 554 l 1
+ 406 -710 l 1
+ 694 2520 l 1
+ 794 2520 l 1
+ 794 2443 l 1
+ 767 2443 l 1
+ 471 -854 l 1
+ 351 -854 l 1
+ 129 462 l 1
+ 32 446 l 1
+ 19 527 l 1
+EndSplineSet
+EndChar

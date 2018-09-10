@@ -1,21 +1,23 @@
 StartChar: uni221A
 Encoding: 8730 8730 807
-Width: 629
+Width: 649
 Flags: W
-GlyphVariantsVertical: uni221A uni221A.size1 uni221A.size2 uni221A.size3
-HStem: 875 77<617 644>
+GlyphVariantsVertical: uni221A uni221A.size1 uni221A.size2 uni221A.size3 uni221A.size4 uni221A.size5 uni221A.size6 uni221A.size7 uni221A.size8 uni221A.size9 uni221A.size10 uni221A.size11 uni221A.size12 uni221A.size13 uni221A.size14 uni221A.size15
+HStem: 875 77<637 664>
 LayerCount: 2
 Fore
 SplineSet
-644 952 m 1
- 644 875 l 1
- 617 875 l 1
- 313 -200 l 1
- 209 -200 l 1
- 42 257 l 1
- 123 284 l 1
- 258 -105 l 1
- 552 952 l 1
- 644 952 l 1
+16 258 m 1
+ 143 284 l 1
+ 278 -105 l 1
+ 572 952 l 1
+ 664 952 l 1
+ 664 875 l 1
+ 637 875 l 1
+ 333 -200 l 1
+ 229 -200 l 1
+ 85 194 l 1
+ 31 182 l 1
+ 16 258 l 1
 EndSplineSet
 EndChar

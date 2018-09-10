@@ -1,38 +1,40 @@
 StartChar: uni221C
 Encoding: 8732 8732 809
-Width: 629
+Width: 693
 Flags: W
-GlyphVariantsVertical: uni221C uni221C.size1 uni221C.size2 uni221C.size3
-HStem: 604 60<125 230 306 359> 875 77<617 644>
-VStem: 230 76<508 604 664 755.875> 238 68<664 769>
+GlyphVariantsVertical: uni221C uni221C.size1 uni221C.size2 uni221C.size3 uni221C.size4 uni221C.size5 uni221C.size6 uni221C.size7 uni221C.size8 uni221C.size9 uni221C.size10 uni221C.size11 uni221C.size12 uni221C.size13 uni221C.size14 uni221C.size15
+HStem: 604 60<189 294 370 423> 875 77<681 708>
+VStem: 294 76<508 604 664 755.875> 302 68<664 769>
 LayerCount: 2
 Fore
 SplineSet
-359 664 m 1xe0
- 359 604 l 1
- 306 604 l 1
- 306 508 l 1
- 230 508 l 1
- 230 604 l 1xe0
- 44 604 l 1
- 44 658 l 1
- 172 932 l 1
- 238 907 l 1
- 125 664 l 1
- 231 664 l 1
- 238 769 l 1
- 306 769 l 1xd0
- 306 664 l 1
- 359 664 l 1xe0
-644 952 m 1
- 644 875 l 1
- 617 875 l 1
- 313 -200 l 1
- 209 -200 l 1
- 42 257 l 1
- 123 284 l 1
- 258 -105 l 1
- 552 952 l 1
- 644 952 l 1
+60 258 m 1xc0
+ 187 284 l 1
+ 322 -105 l 1
+ 616 952 l 1
+ 708 952 l 1
+ 708 875 l 1
+ 681 875 l 1
+ 377 -200 l 1
+ 273 -200 l 1
+ 129 194 l 1
+ 75 182 l 1
+ 60 258 l 1xc0
+108 604 m 1
+ 108 658 l 1
+ 236 932 l 1
+ 302 907 l 1
+ 189 664 l 1
+ 295 664 l 1
+ 302 769 l 1
+ 370 769 l 1xd0
+ 370 664 l 1
+ 423 664 l 1
+ 423 604 l 1
+ 370 604 l 1
+ 370 508 l 1
+ 294 508 l 1
+ 294 604 l 1xe0
+ 108 604 l 1
 EndSplineSet
 EndChar
