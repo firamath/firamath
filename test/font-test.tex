@@ -192,6 +192,20 @@
 \cs_set:Npn \LigatureText
   { ff \quad fi \quad fl \quad ffi \quad ffl }
 
+\NewDocumentCommand \PrintRadical { m m m }
+  { \fonttest_print_root:nnn {#1} {#2} {#3} }
+\cs_new_protected:Npn \fonttest_print_root:nnn #1#2#3
+  {
+    \tl_set:Nn \l__fonttest_root_tl {#2}
+    \int_step_inline:nn {#3}
+      {
+        \tl_set:Nx \l__fonttest_root_tl
+          { \exp_not:n {#1} { \exp_not:V \l__fonttest_root_tl } }
+      }
+    \tl_use:N \l__fonttest_root_tl
+  }
+\tl_new:N \l__fonttest_root_tl
+
 \NewDocumentCommand \PrintDelimiters { m m }
   { \fonttest_print_delimiters:nnnnn {#1} {#2} { 9 } { 1.8 } { 40 } }
 \cs_new_protected:Npn \fonttest_print_delimiters:nnnnn #1#2#3#4#5
@@ -466,21 +480,34 @@
           + \fourthroot{\fourthroot{\fourthroot{\fourthroot{2}}}} + \fourthroot{\frac{1}{2}}
         \]
         \[
-          \sqrt[x]{y} + \sqrt[x]{\sqrt[x]{y}} + \sqrt[x]{\sqrt[x]{\sqrt[x]{y}}} + \sqrt[x]{\frac{1}{2}}
+            \sqrt[x]{y} + \sqrt[x]{\sqrt[x]{y}} + \sqrt[x]{\sqrt[x]{\sqrt[x]{y}}}
+          + \sqrt[x]{\frac{1}{2}}
+          + \sqrt      { \begin{matrix} x \\ y \\ z \\ w \end{matrix} }
+          + \cuberoot  { \begin{matrix} x \\ y \\ z \\ w \end{matrix} }
+          + \fourthroot{ \begin{matrix} x \\ y \\ z \\ w \end{matrix} }
+          + \sqrt[x]   { \begin{matrix} x \\ y \\ z \\ w \end{matrix} }
+          + \sqrt      { \begin{matrix} x \\ y \\ z \\ w \\ p \end{matrix} }
+          + \cuberoot  { \begin{matrix} x \\ y \\ z \\ w \\ p \end{matrix} }
+          + \fourthroot{ \begin{matrix} x \\ y \\ z \\ w \\ p \end{matrix} }
+          + \sqrt[x]   { \begin{matrix} x \\ y \\ z \\ w \\ p \end{matrix} }
         \]
+        \[ \PrintRadical{\sqrt}{x}{25}       \]
+        \[ \PrintRadical{\cuberoot}{x}{25}   \]
+        \[ \PrintRadical{\fourthroot}{x}{25} \]
+        \[ \PrintRadical{\sqrt[x]}{x}{4}     \]
   \item Brackets:
         \[ (a) (A) (O) (Y) (y) (f) (Q) (T) (Y) (j) (q) \]
-        \[ \PrintDelimiters{(}{)}             \]
-        \[ \PrintDelimiters{\lgroup}{\rgroup} \]
-        \[ \PrintDelimiters{[}{]}             \]
-        \[ \PrintDelimiters{\{}{\}}           \]
-        \[ \PrintDelimiters{\vert}{\vert}     \]
-        \[ \PrintDelimiters{\Vert}{\Vert}     \]
-        \[ \PrintDelimiters{\Vvert}{\Vvert}   \]
-        \[ \PrintDelimiters{\langle}{\rangle} \]
-        \[ \PrintDelimiters{\lAngle}{\rAngle} \]
-        \[ \PrintDelimiters{\lceil}{\rceil}   \]
-        \[ \PrintDelimiters{\lfloor}{\rfloor} \]
+        % \[ \PrintDelimiters{(}{)}             \]
+        % \[ \PrintDelimiters{\lgroup}{\rgroup} \]
+        % \[ \PrintDelimiters{[}{]}             \]
+        % \[ \PrintDelimiters{\{}{\}}           \]
+        % \[ \PrintDelimiters{\vert}{\vert}     \]
+        % \[ \PrintDelimiters{\Vert}{\Vert}     \]
+        % \[ \PrintDelimiters{\Vvert}{\Vvert}   \]
+        % \[ \PrintDelimiters{\langle}{\rangle} \]
+        % \[ \PrintDelimiters{\lAngle}{\rAngle} \]
+        % \[ \PrintDelimiters{\lceil}{\rceil}   \]
+        % \[ \PrintDelimiters{\lfloor}{\rfloor} \]
         \[
           \Biggl(  \biggl(  \Bigl(  \bigl(   (x)  \bigr)  \Bigr)  \biggr)  \Biggr)  \quad
           \Biggl\lgroup \biggl\lgroup \Bigl\lgroup  \bigl\lgroup  \lgroup x \rgroup

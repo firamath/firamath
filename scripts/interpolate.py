@@ -176,10 +176,19 @@ def main():
     # write_files(generate_new_glyphs("uniE00F", "uniE033", "uniE1C0", 15))
 
     # Bra-kets
-    write_files(generate_new_glyphs("uniE008", "uniE01D", "uniE1D0", 15))
-    write_files(generate_new_glyphs("uniE009", "uniE01E", "uniE1E0", 15))
-    write_files(generate_new_glyphs("uniE00A", "uniE01F", "uniE1F0", 15))
-    write_files(generate_new_glyphs("uniE00B", "uniE020", "uniE200", 15))
+    # write_files(generate_new_glyphs("uniE008", "uniE01D", "uniE1D0", 15))
+    # write_files(generate_new_glyphs("uniE009", "uniE01E", "uniE1E0", 15))
+    # write_files(generate_new_glyphs("uniE00A", "uniE01F", "uniE1F0", 15))
+    # write_files(generate_new_glyphs("uniE00B", "uniE020", "uniE200", 15))
+
+    # Flattened arentheses
+    # write_files(generate_new_glyphs("uniE002", "uniE017", "uniE210", 15))
+    # write_files(generate_new_glyphs("uniE003", "uniE018", "uniE220", 15))
+
+    # Roots
+    # write_files(generate_new_glyphs("uniE034", "uniE037", "uniE230", 15))
+    write_files(generate_new_glyphs("uniE035", "uniE038", "uniE240", 15))
+    write_files(generate_new_glyphs("uniE036", "uniE039", "uniE250", 15))
 
 if __name__ == "__main__":
     main()

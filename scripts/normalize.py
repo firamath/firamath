@@ -147,7 +147,12 @@ def normalize_file_name(file_name):
     When `file_name` is begin with `u` rather than `uni`, there should be an extra
     `_` before the last letter.
     """
-    return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name)
+    if "." in file_name:
+        file_name_base, file_name_ext = file_name.split(".", 1)
+        file_name_ext = "." + file_name_ext
+    else:
+        file_name_base, file_name_ext = file_name, ""
+    return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name_base) + file_name_ext
 
 def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
     """Use the data in `meta_data_list` to normalize glyphs.
