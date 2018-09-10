@@ -347,6 +347,15 @@ uni230B.size13
 uni230B.size14
 uni230B.size15
 ; Extensible Delimiters
+uni221A.top
+uni221A.ext
+uni221A.bot
+uni221B.top
+uni221B.ext
+uni221B.bot
+uni221C.top
+uni221C.ext
+uni221C.bot
 uni007C.ext
 uni2016.ext
 uni2980.ext
