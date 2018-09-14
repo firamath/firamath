@@ -52,12 +52,12 @@
 \setsansfont {TeX~ Gyre~ Heros      }
 \setmonofont {CMU~ Typewriter~ Text } [UprightFont = *~ Light, HyphenChar = None ]
 
-%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \str_new:N  \l_fonttest_font_str
 \str_set:Nn \l_fonttest_font_str { fira }  % Can be either fira/xits/lm
 \cs_set:Npn \WIEGHT { Regular }
 \cs_set:Npn \SSTY   { }
-%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
@@ -103,6 +103,26 @@
       }
   }
 
+% More characters.
+\AtBeginDocument{
+  \__um_sym:nnn { "0323 } { \underdot             } { \mathbotaccent }
+  \__um_sym:nnn { "0324 } { \twounderdot          } { \mathbotaccent }
+  \__um_sym:nnn { "20D3 } { \shortvertoverlay     } { \mathaccent    }
+  \__um_sym:nnn { "20D6 } { \cev                  } { \mathaccent    }
+  \__um_sym:nnn { "20E1 } { \leftrightarrowaccent } { \mathaccent    }
+  \__um_sym:nnn { "20EC } { \underrightharpoon    } { \mathbotaccent }
+  \__um_sym:nnn { "20ED } { \underleftharpoon     } { \mathbotaccent }
+  \__um_sym:nnn { "20EE } { \underleftarrow       } { \mathbotaccent }
+  \__um_sym:nnn { "20EF } { \underrightarrow      } { \mathbotaccent }
+
+  % \cs_set:Npn \mathcolon { \mathpunct { \symbol { "3A } } }
+  % \cs_show:N \DeclareMathSymbol
+  % \cs_show:N \underleftarrow
+  % \cs_show:N \mathcolon
+  % \DeclareMathSymbol { \mathcolon } { \mathpunct }{ operators } { "3A }
+  % \__um_set_mathsymbol:nNNn { operators } \mathcolon \mathpunct { "3A }
+}
+
 \cs_set:Npn \LatinAlphabets { ABCDEFGHIJKLMNOPQRSTUVWXYZ }
 \cs_set:Npn \latinAlphabets { abcdefghijklmnopqrstuvwxyz }
 
@@ -125,19 +145,6 @@
     \varrho     \sigma      \varsigma   \tau        \upsilon
     \phi        \varphi     \chi        \psi        \omega
   }
-
-% More characters.
-\AtBeginDocument{
-  \__um_sym:nnn { "0323 } { \underdot             } { \mathbotaccent }
-  \__um_sym:nnn { "0324 } { \twounderdot          } { \mathbotaccent }
-  \__um_sym:nnn { "20D3 } { \shortvertoverlay     } { \mathaccent    }
-  \__um_sym:nnn { "20D6 } { \cev                  } { \mathaccent    }
-  \__um_sym:nnn { "20E1 } { \leftrightarrowaccent } { \mathaccent    }
-  \__um_sym:nnn { "20EC } { \underrightharpoon    } { \mathbotaccent }
-  \__um_sym:nnn { "20ED } { \underleftharpoon     } { \mathbotaccent }
-  \__um_sym:nnn { "20EE } { \underleftarrow       } { \mathbotaccent }
-  \__um_sym:nnn { "20EF } { \underrightarrow      } { \mathbotaccent }
-}
 
 \tl_const:Nn \c__fonttest_accents_tl
   {
@@ -184,9 +191,7 @@
   { \tl_map_inline:Nn \c__fonttest_accents_tl { ##1 {#1} \, } }
 
 \cs_set:Npn \OverUnderline #1
-  {
-    #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c}
-  }
+  {  #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c} }
 \cs_set:Npn \ListText
   { x\sb{1}, \, x\sb{2}, \, \ldots, \, x\sb{n} }
 \cs_set:Npn \LigatureText
@@ -322,9 +327,13 @@
 \begin{itemize}
   \item Basic:
         \[ 1 + 2 - 3 \times 4 \div 5 \pm 6 \mp 7 \dotplus 8 = -a \oplus b \otimes c \]
-  \item Binary relations
+  \item Binary relations:
         \[ x + - \oplus \otimes \ominus \odot \oslash \cdot \cdotp \times \div y \]
-  \item Set theory
+        \[
+          bar \vert bar \quad mid \mid mid \qquad
+          double \Vert double \quad parallel \parallel parallel
+        \]
+  \item Set theory:
         \[ A \cap B \cup C \sqcap D \sqcup R \cupleftarrow k \cupdot l \uplus m \]
         \[
             A \subset B \supset C \subseteq D \supseteq E \Subset F \Supset G
@@ -334,6 +343,26 @@
           \complement_U A \cup \complement_C C
           \subset \mbox{\mathversion{complement}$\complement_U A \cup \complement_C C$}
           \in R \smallin Q \ni Z \smallni N
+        \]
+  \item Punctuations:
+        \[ a, b, c \quad a ,\, b ,\, c \quad a ;\; b ;\; c \quad a = b. \]
+        \[
+          1 :          2 :          3 \quad
+          1 \colon     2 \colon     3 \quad
+          1 \mathcolon 2 \mathcolon 3 \quad
+          1 \mathratio 2 \mathratio 3
+        \]
+        \[
+          \{ x :          x \in A \} \quad
+          \{ x \colon     x \in A \} \quad
+          \{ x \mathcolon x \in A \} \quad
+          \{ x \mathratio x \in A \}
+        \]
+        \[
+          f :          A \to B \quad
+          f \colon     A \to B \quad
+          f \mathcolon A \to B \quad
+          f \mathratio A \to B
         \]
   \item Superscript and subscript:
         \[ 2^2 + 2^{2^2} + 2^{2^{2^2}} + {2^2}^2 + x_a + x_{a_i} + x_{a_{i_1}} \]
@@ -491,10 +520,10 @@
           + \fourthroot{ \begin{matrix} x \\ y \\ z \\ w \\ p \end{matrix} }
           + \sqrt[x]   { \begin{matrix} x \\ y \\ z \\ w \\ p \end{matrix} }
         \]
-        \[ \PrintRadical{\sqrt}{x}{25}       \]
-        \[ \PrintRadical{\cuberoot}{x}{25}   \]
-        \[ \PrintRadical{\fourthroot}{x}{25} \]
-        \[ \PrintRadical{\sqrt[x]}{x}{4}     \]
+        % \[ \PrintRadical{\sqrt}{x}{25}       \]
+        % \[ \PrintRadical{\cuberoot}{x}{25}   \]
+        % \[ \PrintRadical{\fourthroot}{x}{25} \]
+        % \[ \PrintRadical{\sqrt[x]}{x}{4}     \]
   \item Brackets:
         \[ (a) (A) (O) (Y) (y) (f) (Q) (T) (Y) (j) (q) \]
         % \[ \PrintDelimiters{(}{)}             \]
