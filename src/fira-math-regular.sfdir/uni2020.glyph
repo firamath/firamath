@@ -1,9 +1,9 @@
 StartChar: uni2020
 Encoding: 8224 8224 667
 Width: 510
-Flags: HW
-HStem: -64 21G<211 299 211 211> 381 77<42 211 42 211 299 468>
-VStem: 211 88<-64 381 -64 381 458 605>
+Flags: W
+HStem: 381 77<42 211 299 468>
+VStem: 211 88<-64 381 458 605>
 LayerCount: 2
 Fore
 SplineSet

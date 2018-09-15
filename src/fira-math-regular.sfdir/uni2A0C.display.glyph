@@ -1,5 +1,5 @@
 StartChar: uni2A0C.display
-Encoding: 1114122 -1 1458
+Encoding: 1114122 -1 1461
 Width: 2500
 Flags: W
 ItalicCorrection: 580
@@ -7,8 +7,8 @@ IsExtendedShape: 1
 HStem: -650 86<114.166 285.361 554.166 725.361 994.166 1165.36 1434.17 1605.36> 1338 86<858.639 1029.83 1298.64 1469.83 1738.64 1909.83 2178.64 2349.83>
 LayerCount: 2
 Fore
-Refer: 1455 -1 N 1 0 0 1 440 0 2
-Refer: 1455 -1 N 1 0 0 1 880 0 2
-Refer: 1455 -1 N 1 0 0 1 1320 0 2
-Refer: 1455 -1 N 1 0 0 1 0 0 2
+Refer: 1458 -1 N 1 0 0 1 440 0 2
+Refer: 1458 -1 N 1 0 0 1 880 0 2
+Refer: 1458 -1 N 1 0 0 1 1320 0 2
+Refer: 1458 -1 N 1 0 0 1 0 0 2
 EndChar

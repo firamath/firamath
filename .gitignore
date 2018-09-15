@@ -22,4 +22,5 @@ temp/
 tools/
 
 # Other
+*.zip
 data/*.json

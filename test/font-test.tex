@@ -191,7 +191,10 @@
   { \tl_map_inline:Nn \c__fonttest_accents_tl { ##1 {#1} \, } }
 
 \cs_set:Npn \OverUnderline #1
-  {  #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde} \quad #1{a+b+c} }
+  {
+    #1{} \quad #1{b} \quad #1{ab} \quad #1{abc} \quad #1{abcd} \quad #1{abcde}
+    \quad #1{abcdef} \quad #1{abcdefg}
+  }
 \cs_set:Npn \ListText
   { x\sb{1}, \, x\sb{2}, \, \ldots, \, x\sb{n} }
 \cs_set:Npn \LigatureText

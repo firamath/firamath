@@ -1,12 +1,17 @@
-# Changelog of FiraMath
+# Changelog of Fira Math
 
-## Unreleased
+## v0.3 (2018-09-15)
 
 - Added:
   - Mathematical double-struck (blackboard) letters
+  - More large delimiters and radicals
+  - Some relation symbols (`\colon` etc) - [#15](https://github.com/Stone-Zeng/FiraMath/issues/15)
 - Changed:
   - Default digits become mono-spaced (and slightly modified, according to FiraGO), while the proportional digits are now under `pnum` tag - [#10](https://github.com/Stone-Zeng/FiraMath/issues/10)
+  - Integral contours are removed
 - Improved:
+  - Extensible delimiters are re-designed
+  - (TODO) Now Fira Math is available on CTAN - [#3](https://github.com/Stone-Zeng/FiraMath/issues/3)
   - Use [continuous integration](https://travis-ci.org/Stone-Zeng/FiraMath) (CI) for basic building test
 
 ## v0.2.2 (2018-06-28)

@@ -1,7 +1,7 @@
 StartChar: uni20E9
 Encoding: 8425 8425 691
 Width: 0
-Flags: HW
+Flags: W
 TopAccentHorizontal: -245
 HStem: 634 149<-460 -400 -90 -30> 723 60<-400 -90>
 VStem: -460 60<634 723> -90 60<634 723>

@@ -1,12 +1,12 @@
 StartChar: uni222B.up
-Encoding: 1114546 -1 1882
+Encoding: 1114546 -1 1885
 Width: 491
-Flags: HW
+Flags: W
 ItalicCorrection: 180
 IsExtendedShape: 1
 GlyphVariantsVertical: uni222B.display.up
 HStem: -220 74<-17.5159 134.271> 778 74<250.729 402.516>
-VStem: 148 89<-131.624 763.619>
+VStem: 148 89<-131.624 763.624>
 LayerCount: 2
 Fore
 SplineSet

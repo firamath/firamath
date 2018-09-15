@@ -1,11 +1,11 @@
 StartChar: u1D48A
-Encoding: 119946 119946 1147
+Encoding: 119946 119946 1150
 Width: 317
-Flags: HW
+Flags: W
 ItalicCorrection: 30
 TopAccentHorizontal: 212
-HStem: 0 21G<24 179 24 24> 511 20G<98 253 253 253> 631 179<183 221>
-VStem: 109 186<702.5 739.5>
+HStem: 0 21G<24 181.787> 511 20G<95.2128 253> 631 179<147.114 256.062>
+VStem: 109 186<668.71 773.017>
 LayerCount: 2
 Fore
 SplineSet

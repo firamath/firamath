@@ -1,9 +1,9 @@
 StartChar: uni2022
 Encoding: 8226 8226 669
 Width: 324
-Flags: HW
-HStem: 167 225<130 194>
-VStem: 50 224<248 311 247 312>
+Flags: W
+HStem: 167 225<94.0674 229.933>
+VStem: 50 224<213.232 345.768>
 LayerCount: 2
 Fore
 SplineSet
