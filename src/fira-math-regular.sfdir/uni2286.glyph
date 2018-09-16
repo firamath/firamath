@@ -9,8 +9,8 @@ LayerCount: 2
 Fore
 SplineSet
 70 14 m 1
- 592 14 l 5
- 592 -58 l 5
+ 592 14 l 1
+ 592 -58 l 1
  70 -58 l 1
  70 14 l 1
 60 362 m 0
