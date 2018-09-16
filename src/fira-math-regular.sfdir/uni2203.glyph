@@ -7,18 +7,18 @@ VStem: 413 76<76 312 388 614>
 LayerCount: 2
 Fore
 SplineSet
-88 690 m 1
- 489 690 l 1
- 489 0 l 1
- 88 0 l 1
+88 0 m 1
  88 76 l 1
  413 76 l 1
  413 312 l 1
- 98 312 l 5
+ 98 312 l 1
  98 388 l 1
  413 388 l 1
  413 614 l 1
  88 614 l 1
  88 690 l 1
+ 489 690 l 1
+ 489 0 l 1
+ 88 0 l 1
 EndSplineSet
 EndChar
