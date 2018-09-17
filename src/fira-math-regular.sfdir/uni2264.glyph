@@ -2,19 +2,18 @@ StartChar: uni2264
 Encoding: 8804 8804 830
 Width: 500
 Flags: W
-HStem: 0 77<62 438 62 438>
-VStem: 50 73<363 363 363 410 363 410>
+HStem: 0 77<62 438>
 LayerCount: 2
 Fore
 SplineSet
-417 581 m 1
+50 316 m 1
+ 50 410 l 1
+ 417 581 l 1
  450 505 l 1
  123 363 l 1
  450 219 l 1
  417 145 l 1
  50 316 l 1
- 50 410 l 1
- 417 581 l 1
 62 0 m 1
  62 77 l 1
  438 77 l 1
