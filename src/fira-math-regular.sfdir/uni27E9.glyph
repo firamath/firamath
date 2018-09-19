@@ -2,6 +2,7 @@ StartChar: uni27E9
 Encoding: 10217 10217 983
 Width: 336
 Flags: W
+IsExtendedShape: 1
 GlyphVariantsVertical: uni27E9 uni27E9.size1 uni27E9.size2 uni27E9.size3 uni27E9.size4 uni27E9.size5 uni27E9.size6 uni27E9.size7 uni27E9.size8 uni27E9.size9 uni27E9.size10 uni27E9.size11 uni27E9.size12 uni27E9.size13 uni27E9.size14 uni27E9.size15
 LayerCount: 2
 Fore

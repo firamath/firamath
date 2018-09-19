@@ -2,6 +2,7 @@ StartChar: uni230B
 Encoding: 8971 8971 856
 Width: 322
 Flags: W
+IsExtendedShape: 1
 GlyphVariantsVertical: uni230B uni230B.size1 uni230B.size2 uni230B.size3 uni230B.size4 uni230B.size5 uni230B.size6 uni230B.size7 uni230B.size8 uni230B.size9 uni230B.size10 uni230B.size11 uni230B.size12 uni230B.size13 uni230B.size14 uni230B.size15
 GlyphCompositionVertical: 2  uni230B.bot%0,0,150,1600 uni230B.ext%1,150,150,600
 HStem: -186 76<50 170>

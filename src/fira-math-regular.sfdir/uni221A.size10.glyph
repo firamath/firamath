@@ -2,6 +2,7 @@ StartChar: uni221A.size10
 Encoding: 1114135 -1 1474
 Width: 835
 Flags: W
+IsExtendedShape: 1
 HStem: 3115 77<823 850>
 LayerCount: 2
 Fore

@@ -2,6 +2,7 @@ StartChar: uni230B.size14
 Encoding: 1114454 -1 1793
 Width: 507
 Flags: W
+IsExtendedShape: 1
 HStem: -2512 88<63 296>
 VStem: 296 109<-2424 3071>
 LayerCount: 2

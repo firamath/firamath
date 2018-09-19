@@ -2,6 +2,7 @@ StartChar: uni007B.size12
 Encoding: 1114242 -1 1581
 Width: 600
 Flags: W
+IsExtendedShape: 1
 HStem: -2181 91<403.5 491> 241 84<77 147.656> 2656 91<403.5 491>
 VStem: 243 105<-2040.54 99.0424 466.231 2606.07>
 CounterMasks: 1 e0

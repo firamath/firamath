@@ -2,6 +2,7 @@ StartChar: uni221C
 Encoding: 8732 8732 809
 Width: 693
 Flags: W
+IsExtendedShape: 1
 GlyphVariantsVertical: uni221C uni221C.size1 uni221C.size2 uni221C.size3 uni221C.size4 uni221C.size5 uni221C.size6 uni221C.size7 uni221C.size8 uni221C.size9 uni221C.size10 uni221C.size11 uni221C.size12 uni221C.size13 uni221C.size14 uni221C.size15
 GlyphCompositionVertical: 3  uni221C.bot%0,0,150,3800 uni221C.ext%1,150,150,600 uni221C.top%0,150,0,1600
 HStem: 604 60<189 294 370 423> 875 77<681 708>

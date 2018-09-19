@@ -2,6 +2,7 @@ StartChar: uni27EE.size2
 Encoding: 1114262 -1 1601
 Width: 323
 Flags: W
+IsExtendedShape: 1
 VStem: 61 91<-169.616 728.616>
 LayerCount: 2
 Fore

@@ -2,6 +2,7 @@ StartChar: uni005D.size2
 Encoding: 1114217 -1 1556
 Width: 348
 Flags: W
+IsExtendedShape: 1
 HStem: -544 78<51 188> 1024 79<51 188>
 VStem: 51 227<-544 -466 1024 1103> 188 90<-466 1024>
 LayerCount: 2

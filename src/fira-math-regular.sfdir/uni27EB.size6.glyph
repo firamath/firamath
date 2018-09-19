@@ -2,6 +2,7 @@ StartChar: uni27EB.size6
 Encoding: 1114341 -1 1680
 Width: 695
 Flags: W
+IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet

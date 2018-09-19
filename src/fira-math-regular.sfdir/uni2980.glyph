@@ -2,6 +2,7 @@ StartChar: uni2980
 Encoding: 10624 10624 1002
 Width: 751
 Flags: W
+IsExtendedShape: 1
 GlyphVariantsVertical: uni2980 uni2980.size1 uni2980.size2 uni2980.size3 uni2980.size4 uni2980.size5 uni2980.size6 uni2980.size7 uni2980.size8 uni2980.size9 uni2980.size10 uni2980.size11 uni2980.size12 uni2980.size13 uni2980.size14 uni2980.size15
 GlyphCompositionVertical: 2  uni2980.ext%0,0,150,600 uni2980.ext%1,150,150,600
 VStem: 160 83<-186 746> 334 83<-186 746> 508 83<-186 746>
