@@ -1,6 +1,7 @@
 # Fira Math
 
 [![Build Status](https://travis-ci.org/Stone-Zeng/FiraMath.svg?branch=master)](https://travis-ci.org/Stone-Zeng/FiraMath)
+[![CTAN](https://img.shields.io/ctan/v/firamath.svg)](https://www.ctan.org/pkg/firamath)
 [![GitHub release](https://img.shields.io/github/release/Stone-Zeng/FiraMath/all.svg)](https://github.com/Stone-Zeng/FiraMath/releases/latest)
 
 Fira Math is a sans-serif font with Unicode math support. This font is a fork of
@@ -27,6 +28,8 @@ Fira Math can be used in LaTeX or Microsoft Word after installed on your OS.
 \]
 \end{document}
 ```
+
+You may try the [`firamath-otf`](https://ctan.org/pkg/firamath-otf) package as well. - Thanks [Herbert Voß](https://github.com/hvoss49)!
 
 ### Microsoft Word
 

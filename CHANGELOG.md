@@ -1,5 +1,12 @@
 # Changelog of Fira Math
 
+## Unreleased
+
+- Changed:
+  - Update to Unicode 11.0
+- Fixed:
+  - Super-/subscripts position of large delimiters - [#16](https://github.com/Stone-Zeng/FiraMath/issues/16)
+
 ## v0.3 (2018-09-15)
 
 - Added:
@@ -11,7 +18,7 @@
   - Integral contours are removed
 - Improved:
   - Extensible delimiters are re-designed
-  - (TODO) Now Fira Math is available on CTAN - [#3](https://github.com/Stone-Zeng/FiraMath/issues/3)
+  - Now Fira Math is available on CTAN (named as [`firamath`](https://ctan.org/pkg/firamath)) - [#3](https://github.com/Stone-Zeng/FiraMath/issues/3)
   - Use [continuous integration](https://travis-ci.org/Stone-Zeng/FiraMath) (CI) for basic building test
 
 ## v0.2.2 (2018-06-28)
