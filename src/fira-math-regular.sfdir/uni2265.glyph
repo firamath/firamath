@@ -2,7 +2,7 @@ StartChar: uni2265
 Encoding: 8805 8805 831
 Width: 500
 Flags: W
-HStem: 0 77<62 438>
+HStem: 0 76<62 438>
 LayerCount: 2
 Fore
 SplineSet
@@ -15,8 +15,8 @@ SplineSet
  83 145 l 1
  50 219 l 1
 62 0 m 1
- 62 77 l 1
- 438 77 l 1
+ 62 76 l 1
+ 438 76 l 1
  438 0 l 1
  62 0 l 1
 EndSplineSet

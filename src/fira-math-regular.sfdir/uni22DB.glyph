@@ -1,0 +1,31 @@
+StartChar: uni22DB
+Encoding: 8923 8923 1981
+Width: 500
+Flags: W
+HStem: 242 76<62 438>
+LayerCount: 2
+Fore
+SplineSet
+50 23 m 1
+ 417 194 l 1
+ 450 120 l 1
+ 123 -24 l 1
+ 450 -166 l 1
+ 417 -242 l 1
+ 50 -71 l 1
+ 50 23 l 1
+50 440 m 1
+ 377 584 l 1
+ 50 726 l 1
+ 83 802 l 1
+ 450 631 l 1
+ 450 537 l 1
+ 83 366 l 1
+ 50 440 l 1
+62 242 m 1
+ 62 318 l 1
+ 438 318 l 1
+ 438 242 l 1
+ 62 242 l 1
+EndSplineSet
+EndChar

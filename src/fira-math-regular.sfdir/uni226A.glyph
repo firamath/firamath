@@ -1,0 +1,25 @@
+StartChar: uni226A
+Encoding: 8810 8810 1962
+Width: 800
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 233 m 1
+ 50 327 l 1
+ 417 498 l 1
+ 450 422 l 1
+ 123 280 l 1
+ 450 136 l 1
+ 417 62 l 1
+ 50 233 l 1
+350 233 m 1
+ 350 327 l 1
+ 717 498 l 1
+ 750 422 l 1
+ 423 280 l 1
+ 750 136 l 1
+ 717 62 l 1
+ 350 233 l 1
+EndSplineSet
+EndChar
