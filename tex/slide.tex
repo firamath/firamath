@@ -1,20 +1,28 @@
 \documentclass[aspectratio=169]{beamer}
-\usepackage{amsmath}
-\usepackage[no-math]{fontspec}
-\usepackage[math-style=ISO, bold-style=ISO, mathrm=sym]{unicode-math}
-\usepackage{tensor,physics}
+\usepackage{amsmath,unicode-math,physics,tensor}
 \useoutertheme{metropolis}
 \useinnertheme{metropolis}
 \usecolortheme{metropolis}
 \usefonttheme{professionalfonts}
-\setbeamertemplate{footline}{\vspace*{0.5cm}}
+
+\setbeamerfont{title}{size=\Large, series=\bfseries}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\small}
 
 \setsansfont{FiraGO}[BoldFont=* SemiBold]
 \setmathfont{FiraMath-Regular.otf}[Path=../assets/]
+\unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
+
+\title{Fira Math}
+\subtitle{Sans-serif font with Unicode math support}
+\author{Xiangdong Zeng}
+\date{\today}
 
 \begin{document}
 
-\begin{frame}[noframenumbering]{General relativity}
+\maketitle
+
+\begin{frame}{General relativity}
 \begin{itemize}
   \item Covariant derivative:
     \[

@@ -16,9 +16,7 @@ import json
 import os
 import platform
 import re
-
-# For debug only.
-# import sys
+import sys
 
 CWD = os.getcwd()
 if platform.system() == "Linux":
@@ -43,8 +41,8 @@ def get_glyph_meta_data(family_name, weight_list, non_unicode_data, otf_path, js
     meta_data_list = []
     for weight in weight_list:
         font_name = family_name + "-" + weight.capitalize()
-        font_otf = otf_path + font_name + ".otf"
-        font_json = json_path + font_name + ".json"
+        font_otf = os.path.join(otf_path, font_name + ".otf")
+        font_json = os.path.join(json_path, font_name + ".json")
         otfcc_dump(font_otf, font_json)
         unicode_glyphs = get_unicode_glyph_meta_data(font_json)
         non_unicode_glyphs = get_non_unicode_glyph_meta_data(
@@ -57,7 +55,10 @@ def get_glyph_meta_data(family_name, weight_list, non_unicode_data, otf_path, js
 def otfcc_dump(otf_file, json_file):
     """Use `otfcc` library for JSON serialization.
     """
-    run_process(OTFCC, ["--pretty", "-o", json_file, otf_file])
+    exit_code = run_process(OTFCC, ["--pretty", "-o", json_file, otf_file])
+    if exit_code != 0:
+        print("ERROR: otfcc failed.", file=sys.stderr)
+        sys.exit()
 
 def run_process(cmd, args):
     """Run `cmd` with `args`. Spaces will be added automatically.
@@ -65,7 +66,8 @@ def run_process(cmd, args):
     cmd_line = cmd
     for i in args:
         cmd_line += (" " + i)
-    os.system(cmd_line)
+    exit_code = os.system(cmd_line)
+    return exit_code
 
 def get_unicode_glyph_meta_data(json_file_name, begin_index=0):
     """Return a list of meta data dict for glyphs in unicode block.
@@ -158,11 +160,8 @@ def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
     """Use the data in `meta_data_list` to normalize glyphs.
     """
     for weight, meta_data in zip(weight_list, meta_data_list):
-        if platform.system() == "Linux":
-            sfdir = sfd_path + family_name_full + "-" + weight + ".sfdir/"
-        elif platform.system() == "Windows":
-            sfdir = sfd_path + family_name_full + "-" + weight + ".sfdir\\"
-        glyph_file_list = glob.glob(sfdir + "*.glyph") + glob.glob(sfdir + ".notdef.glyph")
+        sfdir = os.path.join(sfd_path, family_name_full + "-" + weight + ".sfdir")
+        glyph_file_list = glob.glob(os.path.join(sfdir, "*.glyph")) + [os.path.join(sfdir, ".notdef.glyph")]
         # Read glyph files.
         glyph_content_list = []
         for glyph_file_name in glyph_file_list:
@@ -176,7 +175,7 @@ def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
         for i in glyph_content_list:
             (name, content) = replace_meta_data(i, meta_data)
             content = replace_refer(content, old_meta_data, meta_data)
-            new_glyph_file_list.append(sfdir + name)
+            new_glyph_file_list.append(os.path.join(sfdir, name))
             new_glyph_content_list.append(content)
         # Delete old files then write new files.
         delete_files(glyph_file_list)
@@ -256,21 +255,24 @@ def delete_files(file_list):
     for i in file_list:
         os.remove(i)
 
+# def join_path(*args):
+#     """Concatenate paths according to the system.
+#     """
+#     if platform.system() == "Linux":
+#         sep = "/"
+#     elif platform.system() == "Windows":
+#         sep = "\\"
+#     return sep.join(args)
+
 def main():
     """The main function.
     """
     # Directories and files.
-    if platform.system() == "Linux":
-        sfd_path = CWD + "/src/"
-        otf_path = CWD + "/docs/assets/"
-        data_path = CWD + "/data/"
-        json_path = CWD + "/data/"
-    elif platform.system() == "Windows":
-        sfd_path = CWD + "\\src\\"
-        otf_path = CWD + "\\docs\\assets\\"
-        data_path = CWD + "\\data\\"
-        json_path = CWD + "\\data\\"
-    non_unicode_data = data_path + "non-unicode.txt"
+    sfd_path  = os.path.join(CWD, "src")
+    otf_path  = os.path.join(CWD, "tex")
+    data_path = os.path.join(CWD, "data")
+    json_path = os.path.join(CWD, "data")
+    non_unicode_data = os.path.join(data_path, "non-unicode.txt")
     # Font meta data.
     family_name = "FiraMath"
     family_name_full = "fira-math"

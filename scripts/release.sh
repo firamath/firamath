@@ -1,9 +1,12 @@
 #!/usr/bin/env sh
 
-# This script is used for creating CTAN archive of fira-math.
+# This script is used for creating CTAN archive of firamath.
 
-JOB_NAME=fira-math
+JOB_NAME=firamath
 WORKING_DIR=$PWD
+RELEASE_DIR=$WORKING_DIR/release
+
+mkdir -p $RELEASE_DIR
 
 # Copy all the files to system temp folder, in order to use
 # chmod correctly.
@@ -49,7 +52,7 @@ cd $TEMP_DIR
 zip -q -r -9 $JOB_NAME.zip .
 
 cd $WORKING_DIR
-cp -f $TEMP_DIR/$JOB_NAME.zip     .
-cp -f $TEMP_DIR/$JOB_NAME.tds.zip .
+cp -f $TEMP_DIR/$JOB_NAME.zip     $RELEASE_DIR
+cp -f $TEMP_DIR/$JOB_NAME.tds.zip $RELEASE_DIR
 
 rm -r $TEMP_DIR

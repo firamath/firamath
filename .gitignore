@@ -18,9 +18,10 @@
 
 # Folders
 .vscode/
+release/
 temp/
-tools/
+tex/standalone/
+tex/unimath-symbols.tex
 
 # Other
-*.zip
 data/*.json

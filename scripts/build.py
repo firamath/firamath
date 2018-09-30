@@ -7,57 +7,69 @@ import platform
 
 import fontforge
 
-pwd              = os.getcwd()
-sfd_path         = pwd + "/src/"
-feature_path     = pwd + "/src/features/"
-otf_path         = pwd + "/docs/assets/"
-test_path        = pwd + "/test/"
-docs_path        = pwd + "/docs/tex/"
-family_name      = "FiraMath"
-family_name_full = "fira-math"
-test_file_name   = "font-test"
-docs_file_names  = ["specimen", "unimath-symbols"]
-weights          = ["thin", "light", "regular", "medium", "bold"]
-# weights          = ["regular"]
+# Even on Windows, we should use `/`, otherwise `include()` in AFDKO feature files will break.
+PATH_SEP         = "/"
+PWD              = os.getcwd()
+SFD_PATH         = PATH_SEP.join([PWD, "src"])
+FEATURE_PATH     = PATH_SEP.join([PWD, "src", "features"])
+TEST_PATH        = PATH_SEP.join([PWD, "test"])
+TEX_PATH         = PATH_SEP.join([PWD, "tex"])
+OTF_PATH         = PATH_SEP.join([PWD, "tex"])
+FAMILY_NAME      = "FiraMath"
+FAMILY_NAME_FULL = "fira-math"
+TEST_FILE_NAME   = "font-test"
+DOCS_FILE_NAMES  = ["specimen", "unimath-symbols"]
+# weights          = ["thin", "light", "regular", "medium", "bold"]
+weights          = ["regular"]
 
 def generate_fonts():
     print("FontForge version: " + fontforge.version())
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
     for i in weights:
-        font_name = family_name + "-" + i.capitalize()
-        font_name_full = family_name_full + "-" + i
-        font = fontforge.open(sfd_path + font_name_full + ".sfdir")
-        font.mergeFeature(feature_path + font_name_full + ".fea")
-        font.generate(otf_path + font_name + ".otf", flags=("opentype"))
+        font_name      = FAMILY_NAME + "-" + i.capitalize()
+        font_name_full = FAMILY_NAME_FULL + "-" + i
+        sfdir          = PATH_SEP.join([SFD_PATH, font_name_full + ".sfdir"])
+        feature_file   = PATH_SEP.join([FEATURE_PATH, font_name_full + ".fea"])
+        otf_file       = PATH_SEP.join([OTF_PATH, font_name + ".otf"])
+
+        font = fontforge.open(sfdir)
+        print(font.mergeFeature(feature_file))
+        font.generate(otf_file, flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
             + " '" + font_name + "' " + "generated successfully.")
 
 def xelatex_test():
-    os.chdir(test_path)
-    run_xelatex(test_file_name)
+    os.chdir(TEST_PATH)
+    run_xelatex(TEST_FILE_NAME)
 
 def run_xelatex(file_name):
     os.system("xelatex " + file_name + ".tex")
 
 def make_docs():
-    os.chdir(docs_path)
-    for i in docs_file_names:
+    os.chdir(TEX_PATH)
+    for i in DOCS_FILE_NAMES:
         run_latexmk(i)
 
 def run_latexmk(file_name):
     os.system("latexmk -g -xelatex " + file_name + ".tex")
 
 def clean():
-    os.chdir(test_path)
+    os.chdir(TEST_PATH)
     clean_aux_files()
-    os.chdir(docs_path)
+    os.chdir(TEX_PATH)
     clean_aux_files()
 
 def clean_aux_files():
     aux_file_suffixes = ["aux", "fdb_latexmk", "fls", "log", "nav", "out", "snm", "toc", "xdv"]
     for i in aux_file_suffixes:
-        os.system("rm -f *." + i)
+        rm("*." + i)
+
+def rm(file_name):
+    if platform.system() == "Linux":
+        os.system("rm -f " + file_name)
+    elif platform.system() == "Windows":
+        os.system("DEL /Q " + file_name)
 
 parser = argparse.ArgumentParser()
 group = parser.add_mutually_exclusive_group()
