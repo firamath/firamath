@@ -1,12 +1,12 @@
 #!/usr/bin/python
-"""A simple python script for sfd normalization. It will do the following jobs:
+"""A simple python script for SFDIR normalization. It will do the following jobs:
 
 - Sort the glpyhs with unicode order (in unicode block) or the order defined in `non-unicode.txt`
   (not in unicode block).
 - Rename glyphs as `uniXXXX` or `uXXXX`.
 - Check unused glpyhs (i.e. in the font but not defined in `non-unicode.txt`, or vice versa).
 
-This script requires `otfcc` for otf -> JSON serialization.
+This script requires `otfcc` for OTF -> JSON serialization.
 """
 
 from __future__ import print_function
@@ -31,7 +31,7 @@ ENCODING_PATTERN = re.compile(r"(StartChar: )(.+)(\nEncoding: )(\S+) (\S+) (\S+)
 REFER_PATTERN = re.compile(r"(Refer: )(\S+) (\S+) ([NS])")
 
 # Other constants
-NON_UNICODE_BEGIN_INDEX = 1114112 # 1114112 = 0x110000 is the beginning of non-unicode block
+NON_UNICODE_BEGIN_INDEX = 0x110000
 NON_UNICODE_CODE_POINT = -1
 
 def get_glyph_meta_data(family_name, weight_list, non_unicode_data, otf_path, json_path):
@@ -161,7 +161,8 @@ def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
     """
     for weight, meta_data in zip(weight_list, meta_data_list):
         sfdir = os.path.join(sfd_path, family_name_full + "-" + weight + ".sfdir")
-        glyph_file_list = glob.glob(os.path.join(sfdir, "*.glyph")) + [os.path.join(sfdir, ".notdef.glyph")]
+        glyph_file_list = (glob.glob(os.path.join(sfdir, "*.glyph"))
+                           + [os.path.join(sfdir, ".notdef.glyph")])
         # Read glyph files.
         glyph_content_list = []
         for glyph_file_name in glyph_file_list:
@@ -255,24 +256,15 @@ def delete_files(file_list):
     for i in file_list:
         os.remove(i)
 
-# def join_path(*args):
-#     """Concatenate paths according to the system.
-#     """
-#     if platform.system() == "Linux":
-#         sep = "/"
-#     elif platform.system() == "Windows":
-#         sep = "\\"
-#     return sep.join(args)
-
 def main():
     """The main function.
     """
     # Directories and files.
     sfd_path  = os.path.join(CWD, "src")
-    otf_path  = os.path.join(CWD, "tex")
+    otf_path  = os.path.join(CWD, "release", "fonts")
     data_path = os.path.join(CWD, "data")
     json_path = os.path.join(CWD, "data")
-    non_unicode_data = os.path.join(data_path, "non-unicode.txt")
+    non_unicode_data = os.path.join(data_path, "firamath-non-unicode.txt")
     # Font meta data.
     family_name = "FiraMath"
     family_name_full = "fira-math"

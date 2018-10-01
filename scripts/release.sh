@@ -2,6 +2,8 @@
 
 # This script is used for creating CTAN archive of firamath.
 
+# On CTAN, the package name is `firamath`, rather than `fira-math`
+# or `FiraMath`.
 JOB_NAME=firamath
 WORKING_DIR=$PWD
 RELEASE_DIR=$WORKING_DIR/release
@@ -22,11 +24,23 @@ mkdir -p $CTAN_DIR
 mkdir -p $FONT_DIR
 mkdir -p $DOC_DIR
 
-cp $WORKING_DIR/docs/assets/FiraMath-Regular.otf $TEMP_DIR
-cp $WORKING_DIR/docs/tex/specimen.pdf            $TEMP_DIR/fira-math-specimen.pdf
-cp $WORKING_DIR/README.ctan.md                   $TEMP_DIR/README.md
+# TODO: we only need `Regular` weight now
+cp $WORKING_DIR/release/fonts/FiraMath-Regular.otf  $TEMP_DIR
+cp $WORKING_DIR/tex/README.md                       $TEMP_DIR
+cp $WORKING_DIR/tex/firamath-demo.tex               $TEMP_DIR
+cp $WORKING_DIR/tex/firamath-specimen.tex           $TEMP_DIR
+cp $WORKING_DIR/tex/firamath-demo.pdf               $TEMP_DIR
+cp $WORKING_DIR/tex/firamath-specimen.pdf           $TEMP_DIR
+cp $WORKING_DIR/data/firamath-non-unicode.txt       $TEMP_DIR
 
 cd $TEMP_DIR
+
+# Replace local settings in TeX files
+# See ...
+PATTERN=":a;N;s/%%<DEBUG>\n\(.*\)\n%%<RELEASE>\n%%\(.*\)\n%%<END>/\2/g;ba"
+
+sed -i $PATTERN firamath-demo.tex
+sed -i $PATTERN firamath-specimen.tex
 
 # All files should be rw-r--r--
 chmod 644 $TEMP_DIR/*.*
@@ -34,6 +48,8 @@ chmod 644 $TEMP_DIR/*.*
 cp $TEMP_DIR/*.otf $FONT_DIR
 cp $TEMP_DIR/*.md  $DOC_DIR
 cp $TEMP_DIR/*.pdf $DOC_DIR
+cp $TEMP_DIR/*.tex $DOC_DIR
+cp $TEMP_DIR/*.txt $DOC_DIR
 
 # Make TDS zip
 cd $TDS_DIR
@@ -42,6 +58,8 @@ zip -q -r -9 $JOB_NAME.tds.zip .
 cp $TEMP_DIR/*.otf $CTAN_DIR
 cp $TEMP_DIR/*.md  $CTAN_DIR
 cp $TEMP_DIR/*.pdf $CTAN_DIR
+cp $TEMP_DIR/*.tex $CTAN_DIR
+cp $TEMP_DIR/*.txt $CTAN_DIR
 
 rm $TEMP_DIR/*.*
 cp $TDS_DIR/*.zip $TEMP_DIR

@@ -62,7 +62,7 @@
 \str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
     \cs_new:Npn \__fonttest_set_fira_math:n #1
-      { \setmathfont { FiraMath-\WIEGHT.otf } [ Path=../docs/assets/, BoldFont = *, #1 ] }
+      { \setmathfont { FiraMath-\WIEGHT.otf } [ Path = ../release/fonts/, BoldFont = *, #1 ] }
     \cs_if_exist:NTF \SSTY
       {
         \__fonttest_set_fira_math:n { }
@@ -78,7 +78,7 @@
         \__fonttest_set_fira_math:n { version = hbar       }
         \__fonttest_set_fira_math:n { version = complement }
       }
-    \newfontface\firatext{FiraMath-\WIEGHT.otf}[BoldFont = *, Path=../docs/assets/]
+    \newfontface \firatext { FiraMath-\WIEGHT.otf } [ Path = ../release/fonts/, BoldFont = * ]
   }
   {
     \str_if_eq:VnTF \l_fonttest_font_str { xits }

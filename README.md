@@ -47,6 +47,12 @@ See <https://superuser.com/q/1114697>.
 
 ![Showcase](https://raw.githubusercontent.com/Stone-Zeng/FiraMath/master/docs/images/slide.png)
 
+## Contributing
+
+[Issues](https://github.com/Stone-Zeng/FiraMath/issues) and
+[pull requests](https://github.com/Stone-Zeng/FiraMath/pulls)
+are always welcome.
+
 ## License
 
 This Font Software is licensed under the [SIL Open Font License](http://scripts.sil.org/OFL), Version 1.1.

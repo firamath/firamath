@@ -135,19 +135,19 @@
 \cs_new_protected:Npn \xfonttable_unicode:nn #1#2
   {
     \tl_set:Nn \l__xfonttable_glyph_count_tl
-      { \ref*{count:glyph@#1} / \ref*{count:codepoint@#1} }
-    \section{#1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl)}
-    \cs_set:Npn \xfonttable_left_foot: { \xfonttable_left_foot_unicode: }
+      { \ref* { count: glyph @ #1 } / \ref* { count: codepoint @ #1 } }
+    \section { #1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl) }
+    \cs_set_eq:NN \xfonttable_left_foot: \xfonttable_left_foot_unicode:
     \xfonttable_parse_encoding:n {#2}
     \int_gzero:N \g__xfonttable_glyph_int
     \int_gzero:N \g__xfonttable_code_point_int
     \xfonttable_make_table:
-    \newcounter     {    glyph     @ #1 }
-    \newcounter     {    codepoint @ #1 }
-    \int_set:cn     { c@ glyph     @ #1 } { \g__xfonttable_glyph_int      - 1 }
-    \int_set:cn     { c@ codepoint @ #1 } { \g__xfonttable_code_point_int - 1 }
-    \refstepcounter {    glyph     @ #1 } \label{count:glyph@#1}
-    \refstepcounter {    codepoint @ #1 } \label{count:codepoint@#1}
+    \newcounter     {     glyph     @ #1 }
+    \newcounter     {     codepoint @ #1 }
+    \int_set:cn     { c @ glyph     @ #1 } { \g__xfonttable_glyph_int      - 1 }
+    \int_set:cn     { c @ codepoint @ #1 } { \g__xfonttable_code_point_int - 1 }
+    \refstepcounter {     glyph     @ #1 } \label { count: glyph     @ #1 }
+    \refstepcounter {     codepoint @ #1 } \label { count: codepoint @ #1 }
   }
 \tl_new:N  \l__xfonttable_glyph_count_tl
 \int_new:N \g__xfonttable_glyph_int
@@ -359,21 +359,21 @@
 % #2 = non-unicode data file
 \cs_new_protected:Npn \xfonttable_non_unicode:nn #1#2
   {
-    \tl_set:Nn \l__xfonttable_glyph_count_tl { \ref*{count:glyph@nuni} }
-    \section{#1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl)}
-    \cs_set:Npn \xfonttable_left_foot: { }
+    \tl_set:Nn \l__xfonttable_glyph_count_tl { \ref* { count: glyph @ nuni } }
+    \section { #1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl) }
+    \cs_set_eq:NN \xfonttable_left_foot: \prg_do_nothing:
     \int_gzero:N \g__xfonttable_nuni_glyph_int
     \xfonttable_nuni_import:n {#2}
     \xfonttable_nuni_parse:
     \xfonttable_nuni_print:
-    \newcounter     {    glyph @ nuni }
-    \int_set:cn     { c@ glyph @ nuni } { \g__xfonttable_nuni_glyph_int - 1 }
-    \refstepcounter {    glyph @ nuni } \label{count:glyph@nuni}
-    \refstepcounter {    glyph        } \label{count:glyph}
+    \newcounter     {     glyph @ nuni }
+    \int_set:cn     { c @ glyph @ nuni } { \g__xfonttable_nuni_glyph_int - 1 }
+    \refstepcounter {     glyph @ nuni } \label { count: glyph @ nuni }
+    \refstepcounter {     glyph        } \label { count: glyph        }
   }
 \int_new:N \g__xfonttable_nuni_glyph_int
 
-% #1 = file name (../../data/non-unicode.txt)
+% #1 = file name (non-unicode.txt)
 \cs_new_protected:Npn \xfonttable_nuni_import:n #1
   {
     \ior_open:Nn \g__xfonttable_nuni_ior {#1}
@@ -425,7 +425,7 @@
 % #2 = clist of glyph names
 \cs_new_protected:Npn \xfonttable_nuni_print_class:nn #1#2
   {
-    \subsection{#1 ~ (\clist_count:n {#2})}
+    \subsection { #1 ~ (\clist_count:n {#2}) }
     \clist_map_inline:nn {#2}
       {
         \xfonttable_nuni_cell:n {##1}
@@ -490,7 +490,11 @@
 \setmainfont{FiraGO}[BoldFont=* SemiBold, Numbers=Monospaced]
 \setmonofont{Fira Code}[UprightFont=* Light, BoldFont=* Regular]
 
-\newfontface\SymbolFont{FiraMath-Regular.otf}
+%%<DEBUG>
+\newfontface\SymbolFont{FiraMath-Regular.otf}[Path=../release/fonts/]
+%%<RELEASE>
+%%\newfontface\SymbolFont{Fira Math Regular}
+%%<END>
 \newfontface\BMPFallbackFont{Unifont}
 \newfontface\SMPFallbackFont{Unifont Upper}
 
@@ -563,6 +567,10 @@
 \fonttable{Arabic Presentation Forms-B}{"FE70-"FEFF}
 \fonttable{Mathematical Alphanumeric Symbols}{"1D400-"1D7FF}
 
-\fonttable*{Non-Unicode Glyphs}{../../data/non-unicode.txt}
+%%<DEBUG>
+\fonttable*{Non-Unicode Glyphs}{../data/firamath-non-unicode.txt}
+%%<RELEASE>
+%%\fonttable*{Non-Unicode Glyphs}{non-unicode.txt}
+%%<END>
 
 \end{document}

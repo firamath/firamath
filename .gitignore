@@ -20,8 +20,8 @@
 .vscode/
 release/
 temp/
-tex/standalone/
-tex/unimath-symbols.tex
 
 # Other
 data/*.json
+tex/standalone/
+tex/unimath-symbols.tex

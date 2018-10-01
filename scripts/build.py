@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+from __future__ import print_function
+
 import argparse
 import datetime
 import os
@@ -12,13 +14,13 @@ PATH_SEP         = "/"
 PWD              = os.getcwd()
 SFD_PATH         = PATH_SEP.join([PWD, "src"])
 FEATURE_PATH     = PATH_SEP.join([PWD, "src", "features"])
+OTF_PATH         = PATH_SEP.join([PWD, "release", "fonts"])
 TEST_PATH        = PATH_SEP.join([PWD, "test"])
 TEX_PATH         = PATH_SEP.join([PWD, "tex"])
-OTF_PATH         = PATH_SEP.join([PWD, "tex"])
 FAMILY_NAME      = "FiraMath"
 FAMILY_NAME_FULL = "fira-math"
 TEST_FILE_NAME   = "font-test"
-DOCS_FILE_NAMES  = ["specimen", "unimath-symbols"]
+DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
 # weights          = ["thin", "light", "regular", "medium", "bold"]
 weights          = ["regular"]
 
