@@ -6,6 +6,7 @@ import argparse
 import datetime
 import os
 import platform
+import sys
 
 import fontforge
 
@@ -34,9 +35,16 @@ def generate_fonts():
         sfdir          = PATH_SEP.join([SFD_PATH, font_name_full + ".sfdir"])
         feature_file   = PATH_SEP.join([FEATURE_PATH, font_name_full + ".fea"])
         otf_file       = PATH_SEP.join([OTF_PATH, font_name + ".otf"])
+        
+        print(font_name)
+        print(font_name_full)
+        print(sfdir)
+        print(feature_file)
+        print(otf_file)
 
         font = fontforge.open(sfdir)
-        print(font.mergeFeature(feature_file))
+        print("Open:", font)
+        print("Merge:", font.mergeFeature(feature_file))
         font.generate(otf_file, flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
             + " '" + font_name + "' " + "generated successfully.")
