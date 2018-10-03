@@ -4,4 +4,7 @@ services:
 install:
   - docker build --tag fontforge .travis
 script:
-  - docker run fontforge python ./scripts/build.py --fonts
+  - docker run
+    --volume $(pwd):/firamath/work
+    fontforge
+    python ./scripts/build.py --fonts
