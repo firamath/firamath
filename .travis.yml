@@ -1,8 +1,19 @@
+# sudo: required
+# services:
+#   - docker
+# install:
+#   - docker build --tag fontforge .travis
+# script:
+#   - docker run --volume $(pwd):/FiraMath/work fontforge
+#     python ./scripts/build.py --fonts
 sudo: required
-services:
-  - docker
+language: python
+python:
+  - "2.7"
 install:
-  - docker build --tag fontforge .travis
+  - sudo apt-get update
+  - sudo apt-get install --yes python-fontforge
+before_script:
+  - chmod --verbose +x ./scripts/*.py
 script:
-  - docker run --volume $(pwd):/FiraMath/work fontforge
-    python ./scripts/build.py --fonts
+  - ./scripts/build.py --fonts
