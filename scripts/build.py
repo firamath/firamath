@@ -12,9 +12,15 @@ import fontforge
 # Even on Windows, we should use `/`, otherwise `include()` in AFDKO feature files will break.
 PATH_SEP         = "/"
 PWD              = os.getcwd()
-SFD_PATH         = PATH_SEP.join([PWD, "src"])
-FEATURE_PATH     = PATH_SEP.join([PWD, "src", "features"])
-OTF_PATH         = PATH_SEP.join([PWD, "release", "fonts"])
+
+# SFD_PATH         = PATH_SEP.join([PWD, "src"])
+# FEATURE_PATH     = PATH_SEP.join([PWD, "src", "features"])
+# OTF_PATH         = PATH_SEP.join([PWD, "release", "fonts"])
+
+SFD_PATH         = PWD + "/src/"
+FEATURE_PATH     = PWD + "/src/features/"
+OTF_PATH         = PWD + "/docs/assets/"
+
 TEST_PATH        = PATH_SEP.join([PWD, "test"])
 TEX_PATH         = PATH_SEP.join([PWD, "tex"])
 FAMILY_NAME      = "FiraMath"
@@ -31,13 +37,20 @@ def generate_fonts():
     for i in WEIGHTS:
         font_name      = FAMILY_NAME + "-" + i.capitalize()
         font_name_full = FAMILY_NAME_FULL + "-" + i
-        sfdir          = PATH_SEP.join([SFD_PATH, font_name_full + ".sfdir"])
-        feature_file   = PATH_SEP.join([FEATURE_PATH, font_name_full + ".fea"])
-        otf_file       = PATH_SEP.join([OTF_PATH, font_name + ".otf"])
 
-        font = fontforge.open(sfdir)
-        font.mergeFeature(feature_file)
-        font.generate(otf_file, flags=("opentype"))
+        # sfdir          = PATH_SEP.join([SFD_PATH, font_name_full + ".sfdir"])
+        # feature_file   = PATH_SEP.join([FEATURE_PATH, font_name_full + ".fea"])
+        # otf_file       = PATH_SEP.join([OTF_PATH, font_name + ".otf"])
+
+        # font = fontforge.open(sfdir)
+        # font.mergeFeature(feature_file)
+        # font.generate(otf_file, flags=("opentype"))
+        # print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
+        #       + " '" + font_name + "' " + "generated successfully.")
+
+        font = fontforge.open(SFD_PATH + font_name_full + ".sfdir")
+        font.mergeFeature(FEATURE_PATH + font_name_full + ".fea")
+        font.generate(OTF_PATH + font_name + ".otf", flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
               + " '" + font_name + "' " + "generated successfully.")
 
