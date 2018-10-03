@@ -3,6 +3,6 @@ services:
   - docker
 install:
   - docker pull ubuntu
-  - dockre run ubuntu apt-get update && apt-get install --yes python-fontforge
+  - docker run ubuntu apt-get update && apt-get install --yes python-fontforge
 script:
   - docker run ubuntu python ./scripts/build.py --fonts
