@@ -6,7 +6,6 @@ import argparse
 import datetime
 import os
 import platform
-import sys
 
 import fontforge
 
