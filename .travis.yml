@@ -1,11 +1,8 @@
 sudo: required
-language: python
-python:
-  - "2.7"
+services:
+  - docker
 install:
-  - sudo apt-get update
-  - sudo apt-get install --yes python-fontforge
-before_script:
-  - chmod --verbose +x ./scripts/*.py
+  - docker pull ubuntu
+  - dockre run ubuntu apt-get update && apt-get install --yes python-fontforge
 script:
-  - ./scripts/build.py --fonts
+  - docker run ubuntu python ./scripts/build.py --fonts
