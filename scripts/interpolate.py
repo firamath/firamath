@@ -187,8 +187,20 @@ def main():
 
     # Roots
     # write_files(generate_new_glyphs("uniE034", "uniE037", "uniE230", 15))
-    write_files(generate_new_glyphs("uniE035", "uniE038", "uniE240", 15))
-    write_files(generate_new_glyphs("uniE036", "uniE039", "uniE250", 15))
+    # write_files(generate_new_glyphs("uniE035", "uniE038", "uniE240", 15))
+    # write_files(generate_new_glyphs("uniE036", "uniE039", "uniE250", 15))
+
+    # Over parentheses
+    # write_files(generate_new_glyphs("uniE026", "uniE02A", "uniE300", 15))
+    # write_files(generate_new_glyphs("uniE027", "uniE02B", "uniE310", 15))
+
+    # Over square brackets
+    # write_files(generate_new_glyphs("uniE024", "uniE02C", "uniE320", 15))
+    # write_files(generate_new_glyphs("uniE025", "uniE02D", "uniE330", 15))
+
+    # Over curly brackets
+    write_files(generate_new_glyphs("uniE028", "uniE02E", "uniE340", 15))
+    write_files(generate_new_glyphs("uniE029", "uniE02F", "uniE350", 15))
 
 if __name__ == "__main__":
     main()

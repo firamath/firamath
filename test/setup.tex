@@ -1,0 +1,28 @@
+\makeatletter
+\def\e@alloc#1#2#3#4#5#6{%
+  \global\advance#3\@ne
+  \e@ch@ck{#3}{#4}{#5}#1%
+  \allocationnumber#3\relax
+  \global#2#6\allocationnumber
+  }
+\def\@pr@videpackage[#1]{%
+  \expandafter\xdef\csname ver@\@currname.\@currext\endcsname{#1}}
+\def\@providesfile#1[#2]{%
+    \expandafter\xdef\csname ver@#1\endcsname{#2}%
+  \endgroup}
+\def\@latex@info#1{}
+\def\@font@info#1{}
+\def\ClassInfo#1#2{}
+\def\PackageInfo#1#2{}
+\RequirePackage[log-declarations=false]{xparse}
+\RequirePackage{ctexhook}
+
+\ExplSyntaxOn
+\cs_new:Npn \__fonttest_close_msg:nn #1#2
+  { \msg_redirect_name:nnn {#1} {#2} { none } }
+\__fonttest_close_msg:nn { LaTeX / xparse } { not-single-char     }
+% \__fonttest_close_msg:nn { fontspec       } { defining-font       }
+% \__fonttest_close_msg:nn { fontspec       } { no-scripts          }
+\__fonttest_close_msg:nn { unicode-math   } { patch-macro         }
+\ctex_at_end_package:nn { geometry } { \def\Gm@showparams#1{} }
+\ExplSyntaxOff

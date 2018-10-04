@@ -13,12 +13,12 @@ import fontforge
 PWD              = os.getcwd()
 SFD_PATH         = PWD + "/src"
 FEATURE_PATH     = PWD + "/src/features"
-OTF_PATH         = PWD + "/docs/assets"
+OTF_PATH         = PWD + "/release/fonts"
 TEST_PATH        = PWD + "/test"
 TEX_PATH         = PWD + "/tex"
 FAMILY_NAME      = "FiraMath"
 FAMILY_NAME_FULL = "fira-math"
-TEST_FILE_NAME   = "font-test"
+TEST_FILE_NAME   = "basic"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
 # WEIGHTS          = ["thin", "light", "regular", "medium", "bold"]
 WEIGHTS          = ["regular"]
