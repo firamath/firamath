@@ -23,6 +23,8 @@ DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
 # WEIGHTS          = ["thin", "light", "regular", "medium", "bold"]
 WEIGHTS          = ["regular"]
 
+os.mkdir(OTF_PATH)
+
 def generate_fonts():
     print("FontForge version: " + fontforge.version())
     print("Python version: "+ platform.python_version())
