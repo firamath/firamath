@@ -1,19 +1,18 @@
 StartChar: uni23DC
 Encoding: 9180 9180 879
-Width: 1070
-Flags: W
-GlyphVariantsHorizontal: uni23DC uni23DC.size1 uni23DC.size2 uni23DC.size3 uni23DC.size4
+Width: 802
+Flags: HW
+GlyphVariantsHorizontal: uni23DC uni23DC.size1 uni23DC.size2 uni23DC.size3 uni23DC.size4 uni23DC.size5 uni23DC.size6 uni23DC.size7 uni23DC.size8 uni23DC.size9 uni23DC.size10 uni23DC.size11 uni23DC.size12 uni23DC.size13 uni23DC.size14 uni23DC.size15
 GlyphCompositionHorizontal: 3  uni23DC.left%0,0,150,1485 uni23DC.ext%1,150,150,700 uni23DC.right%0,150,0,1485
-HStem: 868 96<352.732 717.49>
 LayerCount: 2
 Fore
 SplineSet
-1030 778 m 1
- 990 720 l 1
- 857 810 750 868 535 868 c 0
- 321 868 213 810 80 720 c 1
- 40 778 l 1
- 179 876 298 964 535 964 c 0
- 772 964 891 876 1030 778 c 1
+32 693 m 1
+ 132 771 230 849 401 849 c 0
+ 572 849 670 771 770 693 c 1
+ 729 640 l 1
+ 633 712 555 759 401 759 c 0
+ 247 759 169 712 73 640 c 1
+ 32 693 l 1
 EndSplineSet
 EndChar

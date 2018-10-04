@@ -1,0 +1,16 @@
+StartChar: uni23DD.size10
+Encoding: 1114586 -1 2002
+Width: 4251
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+32 -229 m 1
+ 692 -449 1335 -539 2125 -539 c 0
+ 2916 -539 3559 -449 4219 -229 c 1
+ 4191 -160 l 1
+ 3515 -372 2858 -429 2125 -429 c 0
+ 1393 -429 735 -372 60 -160 c 1
+ 32 -229 l 1
+EndSplineSet
+EndChar

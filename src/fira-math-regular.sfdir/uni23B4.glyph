@@ -1,22 +1,20 @@
 StartChar: uni23B4
 Encoding: 9140 9140 877
-Width: 1012
-Flags: W
-GlyphVariantsHorizontal: uni23B4 uni23B4.size1 uni23B4.size2 uni23B4.size3 uni23B4.size4
+Width: 802
+Flags: HW
+GlyphVariantsHorizontal: uni23B4 uni23B4.size1 uni23B4.size2 uni23B4.size3 uni23B4.size4 uni23B4.size5 uni23B4.size6 uni23B4.size7 uni23B4.size8 uni23B4.size9 uni23B4.size10 uni23B4.size11 uni23B4.size12 uni23B4.size13 uni23B4.size14 uni23B4.size15
 GlyphCompositionHorizontal: 3  uni23B4.left%0,0,150,1485 uni23B4.ext%1,150,150,700 uni23B4.right%0,150,0,1485
-HStem: 720 208<40 116 896 972> 840 88<116 896>
-VStem: 40 76<720 840> 896 76<720 840>
 LayerCount: 2
 Fore
 SplineSet
-972 720 m 1xb0
- 896 720 l 1xb0
- 896 840 l 1
- 116 840 l 1x70
- 116 720 l 1
- 40 720 l 1
- 40 928 l 1
- 972 928 l 1
- 972 720 l 1xb0
+32 640 m 1
+ 32 840 l 1
+ 770 840 l 1
+ 770 640 l 1
+ 698 640 l 1
+ 698 760 l 1
+ 104 760 l 1
+ 104 640 l 1
+ 32 640 l 1
 EndSplineSet
 EndChar

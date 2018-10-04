@@ -1,20 +1,18 @@
 StartChar: uni23B4.size1
-Encoding: 1114490 -1 1829
-Width: 1572
-Flags: W
-HStem: 720 236<44 124 1448 1528> 862 94<124 1448>
-VStem: 44 80<720 862> 1448 80<720 862>
+Encoding: 1114592 -1 2008
+Width: 1146
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-1528 720 m 1xb0
- 1448 720 l 1xb0
- 1448 862 l 1
- 124 862 l 1x70
- 124 720 l 1
- 44 720 l 1
- 44 956 l 1
- 1528 956 l 1
- 1528 720 l 1xb0
+32 640 m 1
+ 32 849 l 1
+ 1114 849 l 1
+ 1114 640 l 1
+ 1041 640 l 1
+ 1041 768 l 1
+ 105 768 l 1
+ 105 640 l 1
+ 32 640 l 1
 EndSplineSet
 EndChar
