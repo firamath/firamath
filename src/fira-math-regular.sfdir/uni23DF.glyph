@@ -1,9 +1,12 @@
 StartChar: uni23DF
 Encoding: 9183 9183 882
 Width: 802
-Flags: HW
+Flags: W
 GlyphVariantsHorizontal: uni23DF uni23DF.size1 uni23DF.size2 uni23DF.size3 uni23DF.size4 uni23DF.size5 uni23DF.size6 uni23DF.size7 uni23DF.size8 uni23DF.size9 uni23DF.size10 uni23DF.size11 uni23DF.size12 uni23DF.size13 uni23DF.size14 uni23DF.size15
-GlyphCompositionHorizontal: 5  uni23DF.left%0,0,150,700 uni23DF.ext%1,150,150,800 uni23DF.mid%0,150,150,800 uni23DF.ext%1,150,150,800 uni23DF.right%0,150,0,700
+GlyphCompositionHorizontal: 5  uni23DF.left%0,0,150,1400 uni23DF.ext%1,150,150,600 uni23DF.mid%0,150,150,2000 uni23DF.ext%1,150,150,600 uni23DF.right%0,150,0,1400
+HStem: -333 80<113.046 350.762 451.238 688.954>
+VStem: 32 66<-238.5 -160> 370 62<-396 -352.934> 704 66<-238.5 -160>
+CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet

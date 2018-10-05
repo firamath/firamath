@@ -3,7 +3,7 @@ Encoding: 9141 9141 878
 Width: 802
 Flags: HW
 GlyphVariantsHorizontal: uni23B5 uni23B5.size1 uni23B5.size2 uni23B5.size3 uni23B5.size4 uni23B5.size5 uni23B5.size6 uni23B5.size7 uni23B5.size8 uni23B5.size9 uni23B5.size10 uni23B5.size11 uni23B5.size12 uni23B5.size13 uni23B5.size14 uni23B5.size15
-GlyphCompositionHorizontal: 3  uni23B5.left%0,0,150,1485 uni23B5.ext%1,150,150,700 uni23B5.right%0,150,0,1485
+GlyphCompositionHorizontal: 3  uni23B5.left%0,0,150,2956 uni23B5.ext%1,150,150,700 uni23B5.right%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet

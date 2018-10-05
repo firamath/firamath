@@ -1,9 +1,11 @@
 StartChar: uni23DE
 Encoding: 9182 9182 881
 Width: 802
-Flags: HW
+Flags: W
 GlyphVariantsHorizontal: uni23DE uni23DE.size1 uni23DE.size2 uni23DE.size3 uni23DE.size4 uni23DE.size5 uni23DE.size6 uni23DE.size7 uni23DE.size8 uni23DE.size9 uni23DE.size10 uni23DE.size11 uni23DE.size12 uni23DE.size13 uni23DE.size14 uni23DE.size15
-GlyphCompositionHorizontal: 5  uni23DE.left%0,0,150,700 uni23DE.ext%1,150,150,800 uni23DE.mid%0,150,150,800 uni23DE.ext%1,150,150,800 uni23DE.right%0,150,0,700
+GlyphCompositionHorizontal: 5  uni23DE.left%0,0,150,1400 uni23DE.ext%1,150,150,600 uni23DE.mid%0,150,150,2000 uni23DE.ext%1,150,150,600 uni23DE.right%0,150,0,1400
+HStem: 733 80<113.046 350.762 451.238 688.954>
+VStem: 32 66<640 718.5> 370 62<832.934 876> 704 66<640 718.5>
 CounterMasks: 1 70
 LayerCount: 2
 Fore

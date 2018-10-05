@@ -1,15 +1,15 @@
 StartChar: uni23DD.left
 Encoding: 1114509 -1 1824
-Width: 1485
+Width: 2956
 Flags: W
-HStem: -648 128<1204.9 1485>
+HStem: -624 120<2701.46 2956>
 LayerCount: 2
 Fore
 SplineSet
-1485 -520 m 17
- 843 -520 473 -389 74 -200 c 1
- 0 -274 l 1
- 417 -480 774 -648 1485 -648 c 9
- 1485 -520 l 17
+0 -236 m 1
+ 22 -160 l 1
+ 987 -442 1934 -504 2956 -504 c 9
+ 2956 -624 l 17
+ 1856 -624 940 -528 0 -236 c 1
 EndSplineSet
 EndChar
