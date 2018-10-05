@@ -1,7 +1,9 @@
 StartChar: uni23DF.size13
 Encoding: 1114649 -1 2065
 Width: 5286
-Flags: HW
+Flags: W
+HStem: -413 106<174.689 2443.45 2841.57 5110.43>
+VStem: 32 92<-248.704 -160> 2601 83<-586 -517.02> 5162 92<-248.704 -160>
 LayerCount: 2
 Fore
 SplineSet

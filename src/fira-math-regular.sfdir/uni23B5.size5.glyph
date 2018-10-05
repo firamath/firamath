@@ -1,18 +1,20 @@
 StartChar: uni23B5.size5
 Encoding: 1114611 -1 2027
 Width: 2526
-Flags: HW
+Flags: W
+HStem: -408 248<32 109 2417 2494> -408 87<109 2417>
+VStem: 32 77<-321 -160> 2417 77<-321 -160>
 LayerCount: 2
 Fore
 SplineSet
-32 -160 m 1
- 109 -160 l 1
+32 -160 m 1xb0
+ 109 -160 l 1xb0
  109 -321 l 1
- 2417 -321 l 1
+ 2417 -321 l 1x70
  2417 -160 l 1
  2494 -160 l 1
  2494 -408 l 1
  32 -408 l 1
- 32 -160 l 1
+ 32 -160 l 1xb0
 EndSplineSet
 EndChar
