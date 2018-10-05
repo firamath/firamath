@@ -2,6 +2,7 @@ sudo: required
 services:
   - docker
 install:
+  - mkdir ./release/fonts
   - docker build --tag fontforge .travis
 script:
   - docker run --volume $(pwd):/FiraMath/work fontforge
