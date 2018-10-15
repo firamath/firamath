@@ -20,8 +20,8 @@ FAMILY_NAME      = "FiraMath"
 FAMILY_NAME_FULL = "fira-math"
 TEST_FILE_NAME   = "basic"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
-# WEIGHTS          = ["thin", "light", "regular", "medium", "bold"]
-WEIGHTS          = ["regular"]
+WEIGHTS          = ["thin", "light", "regular", "medium", "bold"]
+# WEIGHTS          = ["regular"]
 
 if not os.path.exists(OTF_PATH):
     os.mkdir(OTF_PATH)
