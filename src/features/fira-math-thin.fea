@@ -1,1 +1,11 @@
-include(common.fea);
+include(common.fea)
+
+table name {
+    nameid 1  "Fira Math Thin";        # Font Family name
+    nameid 2  "Regular";               # Font Subfamily name
+    nameid 3  "Fira Math Thin: 2018";  # Unique font identifier
+    nameid 4  "Fira Math Thin";        # Full font name
+    nameid 6  "FiraMath-Thin";         # PostScript name
+    nameid 16 "Fira Math";             # Typographic (Preferred) Family name
+    nameid 17 "Thin";                  # Typographic (Preferred) Subfamily name
+} name;

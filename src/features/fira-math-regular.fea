@@ -1,5 +1,15 @@
 include(common.fea)
 
+table name {
+    nameid 1  "Fira Math";                # Font Family name
+    nameid 2  "Regular";                  # Font Subfamily name
+    nameid 3  "Fira Math Regular: 2018";  # Unique font identifier
+    nameid 4  "Fira Math Regular";        # Full font name
+    nameid 6  "FiraMath-Regular";         # PostScript name
+    nameid 16 "Fira Math";                # Typographic (Preferred) Family name
+    nameid 17 "Regular";                  # Typographic (Preferred) Subfamily name
+} name;
+
 lookup pnum01 {
     sub uni0030 by uni0030.pnum;  # 0
     sub uni0031 by uni0031.pnum;  # 1

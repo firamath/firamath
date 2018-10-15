@@ -2,6 +2,19 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem math dflt;
 
+table name {
+    nameid 0 "Copyright (C) 2018 Xiangdong Zeng";
+    nameid 5 "Version 0.3";
+    nameid 8 "Xiangdong Zeng";
+    nameid 9 "Xiangdong Zeng";
+    nameid 10 "Sans-serif font with Unicode math support. https://github.com/Stone-Zeng/FiraMath";
+    nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ This Font Software is distributed on an \0022AS IS\0022 BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+ ANY KIND, either express or implied. See the SIL Open Font License for the specific language,
+ permissions and limitations governing your use of this Font Software.";
+    nameid 14 "http://scripts.sil.org/OFL";
+} name;
+
 lookup liga01 {
     sub uni0066 uni0066         by uniFB00;  # f f
     sub uni0066 uni0069         by uniFB01;  # f i

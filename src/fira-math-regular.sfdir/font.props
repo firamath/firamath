@@ -3,15 +3,15 @@ FontName: FiraMath-Regular
 FullName: Fira Math Regular
 FamilyName: Fira Math
 Weight: Regular
-Copyright: Copyright (C) 2018 Xiangdong Zeng
-UComments: "2018-1-8: Created with FontForge (http://fontforge.org)"
-Version: 0.3
+Copyright: 
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
 InvalidEm: 0
+sfntRevision: 0x00000000
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1515392906
-ModificationTime: 1537012273
+ModificationTime: 1539596449
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -44,7 +44,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1" "http://scripts.sil.org/OFL"
+LangName: 1033
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
 MATH:DelimitedSubFormulaMinHeight: 1500
@@ -109,7 +109,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 702 27 9
+WinInfo: 756 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 552600 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
