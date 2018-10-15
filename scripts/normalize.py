@@ -40,7 +40,7 @@ def get_glyph_meta_data(family_name, weight_list, non_unicode_data, otf_path, js
     """
     meta_data_list = []
     for weight in weight_list:
-        font_name = family_name + "-" + weight.capitalize()
+        font_name = family_name + "-" + weight
         font_otf = os.path.join(otf_path, font_name + ".otf")
         font_json = os.path.join(json_path, font_name + ".json")
         otfcc_dump(font_otf, font_json)
@@ -156,11 +156,11 @@ def normalize_file_name(file_name):
         file_name_ext = "." + file_name_ext
     return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name_base) + file_name_ext
 
-def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
+def update_glyph_files(meta_data_list, family_name, weight_list, sfd_path):
     """Use the data in `meta_data_list` to normalize glyphs.
     """
     for weight, meta_data in zip(weight_list, meta_data_list):
-        sfdir = os.path.join(sfd_path, family_name_full + "-" + weight + ".sfdir")
+        sfdir = os.path.join(sfd_path, family_name + "-" + weight + ".sfdir")
         glyph_file_list = (glob.glob(os.path.join(sfdir, "*.glyph"))
                            + [os.path.join(sfdir, ".notdef.glyph")])
         # Read glyph files.
@@ -181,7 +181,7 @@ def update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path):
         # Delete old files then write new files.
         delete_files(glyph_file_list)
         write_files(new_glyph_file_list, new_glyph_content_list)
-        print("Processing " + family_name_full + "-" + weight + " finished!")
+        print("Processing " + family_name + "-" + weight + " finished!")
 
 def get_single_glyph_meta_data(glyph_content):
     """Get meta data dict from a single glyph file.
@@ -267,16 +267,15 @@ def main():
     non_unicode_data = os.path.join(data_path, "firamath-non-unicode.txt")
     # Font meta data.
     family_name = "FiraMath"
-    family_name_full = "fira-math"
-    weight_list = ["thin", "light", "regular", "medium", "bold"]
+    weight_list = ["Thin", "Light", "Regular", "Medium", "Bold"]
     # For debug
-    weight_list = ["regular"]
+    weight_list = ["Regular"]
     # sfd_path = "./temp/"
 
     # The core procedure.
     meta_data_list = get_glyph_meta_data(family_name, weight_list, non_unicode_data,
                                          otf_path, json_path)
-    update_glyph_files(meta_data_list, family_name_full, weight_list, sfd_path)
+    update_glyph_files(meta_data_list, family_name, weight_list, sfd_path)
 
 if __name__ == "__main__":
     main()

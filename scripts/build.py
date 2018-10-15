@@ -17,11 +17,10 @@ OTF_PATH         = PWD + "/release/fonts"
 TEST_PATH        = PWD + "/test"
 TEX_PATH         = PWD + "/tex"
 FAMILY_NAME      = "FiraMath"
-FAMILY_NAME_FULL = "fira-math"
 TEST_FILE_NAME   = "basic"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
-WEIGHTS          = ["thin", "light", "regular", "medium", "bold"]
-# WEIGHTS          = ["regular"]
+WEIGHT_LIST      = ["Thin", "Light", "Regular", "Medium", "Bold"]
+# WEIGHT_LIST      = ["Regular"]
 
 if not os.path.exists(OTF_PATH):
     os.mkdir(OTF_PATH)
@@ -30,11 +29,10 @@ def generate_fonts():
     print("FontForge version: " + fontforge.version())
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
-    for i in WEIGHTS:
-        font_name      = FAMILY_NAME + "-" + i.capitalize()
-        font_name_full = FAMILY_NAME_FULL + "-" + i
-        sfdir          = SFD_PATH + "/" + font_name_full + ".sfdir"
-        feature_file   = FEATURE_PATH + "/" + font_name_full + ".fea"
+    for i in WEIGHT_LIST:
+        font_name      = FAMILY_NAME + "-" + i
+        sfdir          = SFD_PATH + "/" + font_name + ".sfdir"
+        feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
         otf_file       = OTF_PATH + "/" + font_name + ".otf"
 
         font = fontforge.open(sfdir)

@@ -24,13 +24,13 @@ def delete_files(file_list):
         os.remove(i)
 
 def main():
-    path = CWD + "/src/fira-math-regular.sfdir/"
+    path = CWD + "/src/FiraMath-Regular.sfdir/"
 
     old_file_name_prefix = "_Name_Me."
-    old_begin_index = 1654
-    old_end_index = 1668
+    old_begin_index = 2077
+    old_end_index = 2091
 
-    new_file_name_prefix = "uni005D.size"
+    new_file_name_prefix = "uni23DF.size"
     new_glyph_name_prefix = new_file_name_prefix
     new_begin_index = 1
 
