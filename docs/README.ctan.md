@@ -28,8 +28,8 @@ You may try the [`firamath-otf`](https://ctan.org/pkg/firamath-otf) package as w
 Contributing
 ------------
 
-[Issues](https://github.com/Stone-Zeng/FiraMath/issues) and
-[pull requests](https://github.com/Stone-Zeng/FiraMath/pulls)
+[Issues](https://github.com/firamath/firamath/issues) and
+[pull requests](https://github.com/firamath/firamath/pulls)
 are always welcome.
 
 License

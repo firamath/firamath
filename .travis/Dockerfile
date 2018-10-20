@@ -2,4 +2,4 @@ FROM ubuntu:latest
 RUN apt-get update && \
     apt-get upgrade --yes && \
     apt-get install --yes python-fontforge
-WORKDIR /FiraMath/work
+WORKDIR /firamath/work

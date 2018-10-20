@@ -1,8 +1,8 @@
 # Fira Math
 
-[![Build Status](https://travis-ci.org/Stone-Zeng/FiraMath.svg?branch=master)](https://travis-ci.org/Stone-Zeng/FiraMath)
+[![Build Status](https://travis-ci.org/firamath/firamath.svg?branch=master)](https://travis-ci.org/firamath/firamath)
 [![CTAN](https://img.shields.io/ctan/v/firamath.svg)](https://www.ctan.org/pkg/firamath)
-[![GitHub release](https://img.shields.io/github/release/Stone-Zeng/FiraMath/all.svg)](https://github.com/Stone-Zeng/FiraMath/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/firamath/firamath/all.svg)](https://github.com/firamath/firamath/releases/latest)
 
 Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 
@@ -45,14 +45,12 @@ See <https://superuser.com/q/1114697>.
 
 ## Showcase
 
-![Showcase](https://raw.githubusercontent.com/Stone-Zeng/FiraMath/master/img/demo.png)
-
 ![Showcase](img/demo.png)
 
 ## Contributing
 
-[Issues](https://github.com/Stone-Zeng/FiraMath/issues) and
-[pull requests](https://github.com/Stone-Zeng/FiraMath/pulls)
+[Issues](https://github.com/firamath/firamath/issues) and
+[pull requests](https://github.com/firamath/firamath/pulls)
 are always welcome.
 
 ## License
