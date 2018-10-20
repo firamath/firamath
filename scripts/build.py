@@ -15,7 +15,7 @@ SFD_PATH         = PWD + "/src"
 FEATURE_PATH     = PWD + "/src/features"
 OTF_PATH         = PWD + "/release/fonts"
 TEST_PATH        = PWD + "/test"
-TEX_PATH         = PWD + "/tex"
+DOCS_PATH        = PWD + "/docs"
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
@@ -49,7 +49,7 @@ def run_xelatex(file_name):
     os.system("xelatex " + file_name + ".tex")
 
 def make_docs():
-    os.chdir(TEX_PATH)
+    os.chdir(DOCS_PATH)
     for i in DOCS_FILE_NAMES:
         run_latexmk(i)
 
@@ -59,7 +59,7 @@ def run_latexmk(file_name):
 def clean():
     os.chdir(TEST_PATH)
     clean_aux_files()
-    os.chdir(TEX_PATH)
+    os.chdir(DOCS_PATH)
     clean_aux_files()
 
 def clean_aux_files():

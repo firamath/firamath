@@ -23,5 +23,5 @@ temp/
 
 # Other
 data/*.json
-tex/standalone/
-tex/unimath-symbols.tex
+docs/standalone/
+docs/unimath-symbols.tex

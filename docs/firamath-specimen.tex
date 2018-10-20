@@ -107,15 +107,16 @@
 \cs_set:Npn \EncodingStyle
   { \ttfamily \fontsize {4} {5} \selectfont \cellcolor { encoding@bg } }
 
-\cs_set:Npn \GlyphStrut           { \xfonttable_set_arstrut:nn {  20 pt } { 10 pt } }
-\cs_set:Npn \NonUnicodeGlyphStrut { \xfonttable_set_arstrut:nn {  32 pt } { 20 pt } }
-\cs_set:Npn \EncodingStrut        { \xfonttable_set_arstrut:nn { 4.5 pt } {  1 pt } }
+\cs_set:Npn \GlyphStrut               { \xfonttable_set_arstrut:nn {  20 pt } { 10 pt } }
+\cs_set:Npn \NonUnicodeGlyphStrut     { \xfonttable_set_arstrut:nn {  32 pt } { 20 pt } }
+\cs_set:Npn \NonUnicodeHighGlyphStrut { \xfonttable_set_arstrut:nn {  64 pt } { 40 pt } }
+\cs_set:Npn \EncodingStrut            { \xfonttable_set_arstrut:nn { 4.5 pt } {  1 pt } }
 
 \dim_const:Nn \c__xfonttable_cell_wd_dim        { 30 pt }
 \dim_const:Nn \c__xfonttable_column_sep_dim     {  0 pt }
 \dim_const:Nn \c__xfonttable_row_number_ht_dim  { 20 pt }
 \dim_const:Nn \c__xfonttable_row_number_sep_dim {  6 pt }
-\dim_const:Nn \c__xfonttable_nuni_wd_dim        { 50 pt }
+\dim_const:Nn \c__xfonttable_nuni_wd_dim        { 87 pt }
 
 % The total number of glyphs.
 \newcounter { glyph }
@@ -440,7 +441,21 @@
     \tabular { | C { \c__xfonttable_nuni_wd_dim } | }
       % Glyph
       \hline
+
+% \hbox_set:Nn \l_tmpa_box { \GlyphStyle \xfonttable_glyph_from_name:n {#1} }
+% \box_ht:N \l_tmpa_box
+% \dim_compare:nNnTF 
+
       \NonUnicodeGlyphStrut \GlyphStyle
+
+
+% \hbox_set:Nn \l_tmpa_box { \xfonttable_glyph_from_name:n {#1} }
+% \box_show:N \l_tmpa_box
+% \dim_show:n { \box_dp:N \l_tmpa_box }
+% \dim_show:n { \box_ht:N \l_tmpa_box }
+% \dim_show:n { \box_wd:N \l_tmpa_box }
+
+
       \xfonttable_glyph_from_name:n {#1}
       \\
       \xfonttable_restore_arstrut:
@@ -482,7 +497,7 @@
 
 \ExplSyntaxOff\makeatother
 
-\geometry{a4paper, hmargin=0.5in, vmargin=1.0in}
+\geometry{a4paper, hmargin=1cm, vmargin=2.5cm}
 \ctexset{section/format=\Large\bfseries\centering}
 \hypersetup{bookmarksnumbered=true, colorlinks=true,
   linkcolor=[HTML]34A853, urlcolor=[HTML]E91E63}

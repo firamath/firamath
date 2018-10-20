@@ -45,7 +45,9 @@ See <https://superuser.com/q/1114697>.
 
 ## Showcase
 
-![Showcase](https://raw.githubusercontent.com/Stone-Zeng/FiraMath/master/docs/images/slide.png)
+![Showcase](https://raw.githubusercontent.com/Stone-Zeng/FiraMath/master/img/demo.png)
+
+![Showcase](img/demo.png)
 
 ## Contributing
 
