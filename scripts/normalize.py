@@ -5,24 +5,16 @@
   (not in unicode block).
 - Rename glyphs as `uniXXXX` or `uXXXX`.
 - Check unused glpyhs (i.e. in the font but not defined in `non-unicode.txt`, or vice versa).
-
-This script requires `otfcc` for OTF -> JSON serialization.
 """
 
 from __future__ import print_function
 
 import glob
-import json
 import os
 import platform
 import re
-import sys
 
 CWD = os.getcwd()
-if platform.system() == "Linux":
-    OTFCC = CWD + "/lib/otfcc/bin/release-x64/otfccdump"
-elif platform.system() == "Windows":
-    OTFCC = "otfccdump"
 
 # RE patterns.
 # Groups:                        1            2   3             4     5     6
@@ -31,170 +23,84 @@ ENCODING_PATTERN = re.compile(r"(StartChar: )(.+)(\nEncoding: )(\S+) (\S+) (\S+)
 REFER_PATTERN = re.compile(r"(Refer: )(\S+) (\S+) ([NS])")
 
 # Other constants
-NON_UNICODE_BEGIN_INDEX = 0x110000
+NON_UNICODE_BEGIN_ENCODING = 0x110000
 NON_UNICODE_CODE_POINT = -1
 
-def get_glyph_meta_data(family_name, weight_list, non_unicode_data, otf_path, json_path):
-    """Each element in `meta_data_list` should be a list of dict:
-    `{"encoding": e, "unicode": u, "index": i, "name": n}`.
-    """
-    meta_data_list = []
-    for weight in weight_list:
-        font_name = family_name + "-" + weight
-        font_otf = os.path.join(otf_path, font_name + ".otf")
-        font_json = os.path.join(json_path, font_name + ".json")
-        otfcc_dump(font_otf, font_json)
-        unicode_glyphs = get_unicode_glyph_meta_data(font_json)
-        non_unicode_glyphs = get_non_unicode_glyph_meta_data(
-            font_json, non_unicode_data,
-            begin_index=len(unicode_glyphs),
-            show_info=True)
-        meta_data_list.append(unicode_glyphs + non_unicode_glyphs)
-    return meta_data_list
+def _get_non_unicode_data(file_name):
+    with open(file_name, "r") as f:
+        return [line.strip() for line in f if not line.startswith(";")]
 
-def otfcc_dump(otf_file, json_file):
-    """Use `otfcc` library for JSON serialization.
-    """
-    exit_code = run_process(OTFCC, ["--pretty", "-o", json_file, otf_file])
-    if exit_code != 0:
-        print("ERROR: otfcc failed.", file=sys.stderr)
-        sys.exit()
+def _get_glyph_data(path):
+    def _read_glyph_file(file_name):
+        with open(file_name, "r") as f:
+            return f.read()
+    return [_read_glyph_file(i) for i in _get_glyph_file_list(path)]
 
-def run_process(cmd, args):
-    """Run `cmd` with `args`. Spaces will be added automatically.
-    """
-    cmd_line = cmd
-    for i in args:
-        cmd_line += (" " + i)
-    exit_code = os.system(cmd_line)
-    return exit_code
+def _get_glyph_file_list(path):
+    return glob.glob(os.path.join(path, "*.glyph")) + [os.path.join(path, ".notdef.glyph")]
 
-def get_unicode_glyph_meta_data(json_file_name, begin_index=0):
-    """Return a list of meta data dict for glyphs in unicode block.
-    """
-    with open(json_file_name, "r") as json_file:
-        encoding_list = sorted([int(i) for i in json.load(json_file)["cmap"].keys()])
-    return [
-        {"encoding": v, "unicode": v, "index": begin_index + i, "name": make_glyph_name(v)}
-        for i, v in enumerate(encoding_list)
-    ]
+def _get_meta_data(glyph_data, non_unicode_data):
+    old_meta_data = [_get_single_meta_data(i) for i in glyph_data]
+    new_meta_data = _update_meta_data(old_meta_data, non_unicode_data)
+    return {"old": old_meta_data, "new": new_meta_data}
 
-def make_glyph_name(unicode_dec):
-    """
-    Arg:
-        `unicode_dec`: unicode integer (decimal)
-    Return:
-        `uXXXXX` if `hex` >= 0x10000, `uniXXXX` if `hex` < 0x10000.
-    """
-    u_hex_str = hex(unicode_dec)[2:].upper() # Remove `0x` and capitalize.
-    str_len = len(u_hex_str)
-    if str_len == 5:
-        return "u" + u_hex_str
-    if str_len == 4:
-        return "uni" + u_hex_str
-    if str_len == 3:
-        return "uni0" + u_hex_str
-    if str_len == 2:
-        return "uni00" + u_hex_str
-
-def get_non_unicode_glyph_meta_data(
-        json_file,
-        non_unicode_data_file,
-        begin_index=0,
-        show_info=True):
-    """Return a list of meta data dict for glyphs NOT in unicode block.
-
-    Args:
-        `begin_index`: it should be the number of unicode glyphs.
-        `show_info`:   whether print debug information.
-    """
-    glyph_list_from_json = get_non_unicode_from_json(json_file)
-    glyph_list_from_data = get_non_unicode_from_data(non_unicode_data_file)
-    # Get the intersection of `glyph_list_from_json` and `glyph_list_from_data`.
-    # The glyphs' order should be the same as in `glyph_list_from_data`.
-    glyph_list = [i for i in glyph_list_from_data if i in glyph_list_from_json]
-    if show_info:
-        for i in glyph_list_from_json:
-            if not i in glyph_list:
-                print("Warning: Glyph \"" + i + "\" in JSON will be ignored.")
-        for i in glyph_list_from_data:
-            if not i in glyph_list:
-                print("Warning: Glyph \"" + i + "\" in \"non-unicode.txt\" will be ignored.")
-    return [
-        {
-            "encoding": NON_UNICODE_BEGIN_INDEX + i,
-            "unicode": NON_UNICODE_CODE_POINT,
-            "index": begin_index + i,
-            "name": v
-        }
-        for i, v in enumerate(glyph_list)
-    ]
-
-def get_non_unicode_from_json(json_file_name):
-    """Return a list of non-unicode glyph names from JSON.
-    """
-    with open(json_file_name, "r") as json_file:
-        json_data = json.load(json_file)
-    return [i for i in json_data["glyph_order"] if not i in json_data["cmap"].values()]
-
-def get_non_unicode_from_data(data_file_name):
-    """Return a list of non-unicode glyph names from JSON.
-    """
-    with open(data_file_name, "r") as data_file:
-        return [line.strip() for line in data_file if not line.startswith(";")]
-
-def normalize_file_name(file_name):
-    """Normalize glyph file name, i.e. add underlines.
-
-    When `file_name` is begin with `u` rather than `uni`, there should be an extra
-    `_` before the last letter.
-    """
-    if file_name == ".notdef" or "." not in file_name:
-        file_name_base, file_name_ext = file_name, ""
-    else:
-        file_name_base, file_name_ext = file_name.split(".", 1)
-        file_name_ext = "." + file_name_ext
-    return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name_base) + file_name_ext
-
-def update_glyph_files(meta_data_list, family_name, weight_list, sfd_path):
-    """Use the data in `meta_data_list` to normalize glyphs.
-    """
-    for weight, meta_data in zip(weight_list, meta_data_list):
-        sfdir = os.path.join(sfd_path, family_name + "-" + weight + ".sfdir")
-        glyph_file_list = (glob.glob(os.path.join(sfdir, "*.glyph"))
-                           + [os.path.join(sfdir, ".notdef.glyph")])
-        # Read glyph files.
-        glyph_content_list = []
-        for glyph_file_name in glyph_file_list:
-            with open(glyph_file_name, "r") as glyph_file:
-                glyph_content_list.append(glyph_file.read())
-        # We need the old meta data to update `Refer`.
-        old_meta_data = [get_single_glyph_meta_data(i) for i in glyph_content_list]
-        # Get the new glyph file names and contents.
-        new_glyph_file_list = []
-        new_glyph_content_list = []
-        for i in glyph_content_list:
-            (name, content) = replace_meta_data(i, meta_data)
-            content = replace_refer(content, old_meta_data, meta_data)
-            new_glyph_file_list.append(os.path.join(sfdir, name))
-            new_glyph_content_list.append(content)
-        # Delete old files then write new files.
-        delete_files(glyph_file_list)
-        write_files(new_glyph_file_list, new_glyph_content_list)
-        print("Processing " + family_name + "-" + weight + " finished!")
-
-def get_single_glyph_meta_data(glyph_content):
-    """Get meta data dict from a single glyph file.
-    """
+def _get_single_meta_data(glyph_content):
     search_result = re.search(ENCODING_PATTERN, glyph_content)
     return {
         "encoding": int(search_result.group(4)),
-        "unicode":int(search_result.group(5)),
+        "unicode": int(search_result.group(5)),
         "index": int(search_result.group(6)),
         "name": search_result.group(2)
     }
 
-def replace_meta_data(glyph_content, new_meta_data_list):
+def _update_meta_data(old_meta_data, non_unicode_data):
+    # Unicode block
+    unicode_list = sorted([i["unicode"] for i in old_meta_data if i["unicode"] != -1])
+    unicode_meta_data = [{
+        "encoding": v,
+        "unicode": v,
+        "index": i,
+        "name": _make_glyph_name(v)
+    } for i, v in enumerate(unicode_list)]
+    # Non-unicode block
+    raw_non_unicode_list = [i["name"] for i in old_meta_data if i["unicode"] == -1]
+    non_unicode_list = []
+    for i in non_unicode_data:
+        if i in raw_non_unicode_list:
+            non_unicode_list.append(i)
+        else:
+            print("Warning: Glyph \"" + i + "\" in \"non-unicode.txt\" will be ignored.")
+    # non_unicode_list = [i for i in non_unicode_data if i in raw_non_unicode_list]
+    non_unicode_meta_data = [{
+        "encoding": NON_UNICODE_BEGIN_ENCODING + i,
+        "unicode": NON_UNICODE_CODE_POINT,
+        "index": len(unicode_meta_data) + i,
+        "name": v
+    } for i, v in enumerate(non_unicode_list)]
+    # Result
+    return unicode_meta_data + non_unicode_meta_data
+
+def _make_glyph_name(unicode_dec):
+    """Return `uXXXXX` if `hex` >= 0x10000, `uniXXXX` if `hex` < 0x10000.
+    """
+    unicode_hex_str = hex(unicode_dec)[2:].upper() # Remove `0x` and capitalize.
+    prefix_dict = {5: "u", 4: "uni", 3: "uni0", 2: "uni00"}
+    return prefix_dict[len(unicode_hex_str)] + unicode_hex_str
+
+def _update_sfd(path, glyph_data, meta_data):
+    new_glyph_data = _update_glyph_data(glyph_data, meta_data)
+    _clear_sfd(path)
+    _write_sfd(path, new_glyph_data)
+
+def _update_glyph_data(glyph_data, meta_data):
+    new_glyph_data = []
+    for i in glyph_data:
+        (name, content) = _replace_meta_data(i, meta_data["new"])
+        content = _replace_refer(content, meta_data["old"], meta_data["new"])
+        new_glyph_data.append({"file_name": name, "content": content})
+    return new_glyph_data
+
+def _replace_meta_data(glyph_content, new_meta_data_list):
     """Return the new file name and the new meta data.
     """
     encoding_search = re.search(ENCODING_PATTERN, glyph_content)
@@ -213,10 +119,23 @@ def replace_meta_data(glyph_content, new_meta_data_list):
                    encoding_search.group(3) + str(new_meta_data["encoding"]) + " " + \
                                               str(new_meta_data["unicode"]) + " " + \
                                               str(new_meta_data["index"]) + "\n"
-    file_name = normalize_file_name(new_meta_data["name"]) + ".glyph"
+    file_name = _normalize_file_name(new_meta_data["name"]) + ".glyph"
     return (file_name, re.sub(ENCODING_PATTERN, new_meta_str, glyph_content))
 
-def replace_refer(glyph_content, old_meta_data_list, new_meta_data_list):
+def _normalize_file_name(file_name):
+    """Normalize glyph file name, i.e. add underlines.
+
+    When `file_name` is begin with `u` rather than `uni`, there should be an extra
+    `_` before the last letter.
+    """
+    if file_name == ".notdef" or "." not in file_name:
+        file_name_base, file_name_ext = file_name, ""
+    else:
+        file_name_base, file_name_ext = file_name.split(".", 1)
+        file_name_ext = "." + file_name_ext
+    return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name_base) + file_name_ext
+
+def _replace_refer(glyph_content, old_meta_data_list, new_meta_data_list):
     """Return the new `Refer` meta data.
     """
     refer_search = re.search(REFER_PATTERN, glyph_content)
@@ -239,43 +158,36 @@ def replace_refer(glyph_content, old_meta_data_list, new_meta_data_list):
     else:
         return glyph_content
 
-def write_files(file_list, content_list):
-    """Write files in `file_list` with the content in `content_list`.
-    """
-    for i, content in zip(file_list, content_list):
-        if platform.system() == "Linux":
-            with open(i, "w") as file_i:
-                file_i.write(content)
-        elif platform.system() == "Windows":
-            with open(i, "w", newline="\n") as file_i:
-                file_i.write(content)
-
-def delete_files(file_list):
-    """Delete all files in `file_list`.
-    """
-    for i in file_list:
+def _clear_sfd(path):
+    for i in _get_glyph_file_list(path):
         os.remove(i)
 
-def main():
-    """The main function.
-    """
-    # Directories and files.
-    sfd_path  = os.path.join(CWD, "src")
-    otf_path  = os.path.join(CWD, "release", "fonts")
-    data_path = os.path.join(CWD, "data")
-    json_path = os.path.join(CWD, "data")
-    non_unicode_data = os.path.join(data_path, "firamath-non-unicode.txt")
-    # Font meta data.
+def _write_sfd(path, new_glyph_data):
+    for i in new_glyph_data:
+        file_name = os.path.join(path, i["file_name"])
+        if platform.system() == "Linux":
+            with open(file_name, "w") as f:
+                f.write(i["content"])
+        elif platform.system() == "Windows":
+            with open(file_name, "w", newline="\n") as f:
+                f.write(i["content"])
+
+def _main():
+    src_path = os.path.join(CWD, "src")
+    non_unicode_data_file = os.path.join(CWD, "data", "firamath-non-unicode.txt")
     family_name = "FiraMath"
     weight_list = ["Thin", "Light", "Regular", "Medium", "Bold"]
     # For debug
     weight_list = ["Regular"]
-    # sfd_path = "./temp/"
 
-    # The core procedure.
-    meta_data_list = get_glyph_meta_data(family_name, weight_list, non_unicode_data,
-                                         otf_path, json_path)
-    update_glyph_files(meta_data_list, family_name, weight_list, sfd_path)
+    # Core procedure.
+    non_unicode_data = _get_non_unicode_data(non_unicode_data_file)
+    for weight in weight_list:
+        sfd_path = os.path.join(src_path, family_name + "-" + weight + ".sfdir")
+        glyph_data = _get_glyph_data(sfd_path)
+        meta_data = _get_meta_data(glyph_data, non_unicode_data)
+        _update_sfd(sfd_path, glyph_data, meta_data)
+        print("Info: Processing " + family_name + "-" + weight + " finished!")
 
 if __name__ == "__main__":
-    main()
+    _main()

@@ -11,6 +11,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com),
   - Super-/subscripts position of large delimiters - [#16](https://github.com/Stone-Zeng/FiraMath/issues/16)
 - Improved:
   - Continuous integration uses Ubuntu 18.04 Bionic and FontForge 20170924 now
+  - Source files are renamed as PostScript names, i.e. `FiraMath-<Weight>`
+  - Do not depend on `otfcc` library
 
 ## v0.3 (2018-09-15)
 

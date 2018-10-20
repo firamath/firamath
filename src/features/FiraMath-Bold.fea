@@ -1,4 +1,4 @@
-include(common.fea)
+include(common.fea);
 
 table name {
     nameid 1  "Fira Math";             # Font Family name

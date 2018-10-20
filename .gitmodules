@@ -1,6 +1,3 @@
-[submodule "lib/otfcc"]
-    path = lib/otfcc
-    url = https://github.com/caryll/otfcc.git
 [submodule "docs/assets/adobe-blank"]
     path = docs/assets/adobe-blank
     url = https://github.com/adobe-fonts/adobe-blank/
