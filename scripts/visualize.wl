@@ -62,18 +62,49 @@ plotCurve[curveList_, opts: OptionsPattern[]] :=
 
 
 plotGlyph[file_, opts: OptionsPattern[]] :=
-  plotCurve[getCurve /@ getSpline @ Import @ file,
+  plotCurve[getCurve /@ getSpline @ ReadString @ file,
     FilterRules[{opts}, Options @ Graphics]]
 
 
 plotInterpolatedGlyphs[file1_, file2_, opts: OptionsPattern[]] :=
   DynamicModule[{c1, c2},
-    c1 = getCurve /@ getSpline @ Import @ file1;
-    c2 = getCurve /@ getSpline @ Import @ file2;
-    Manipulate[plotCurve[interpolate[c1, c2, t], FilterRules[{opts}, Options @ Graphics]],
+    {c1, c2} = (getCurve /@ getSpline @ ReadString @ #) & /@ {file1, file2};
+    c1 = getCurve /@ getSpline @ ReadString @ file1;
+    c2 = getCurve /@ getSpline @ ReadString @ file2;
+    Manipulate[
+      plotCurve[interpolate[c1, c2, t], FilterRules[{opts}, Options @ Graphics]],
+      {t, OptionValue["range"][[1]], OptionValue["range"][[2]]}]
+  ]
+plotInterpolatedGlyphs[file1_, file2_, file0_, opts: OptionsPattern[]] :=
+  DynamicModule[{c1, c2, c0},
+    {c1, c2, c0} = (getCurve /@ getSpline @ ReadString @ #) & /@ {file1, file2, file0};
+    (*c1 = getCurve /@ getSpline @ ReadString @ file1;
+    c2 = getCurve /@ getSpline @ ReadString @ file2;
+    c0 = getCurve /@ getSpline @ ReadString @ file0;*)
+    Manipulate[
+      plotCurve[Append[interpolate[c1, c2, t], c0], FilterRules[{opts}, Options @ Graphics]],
       {t, OptionValue["range"][[1]], OptionValue["range"][[2]]}]
   ]
 Options[plotInterpolatedGlyphs] = Append[Options @ Graphics, "range" -> {0, 1}];
+
+
+getRawPoints[strList_] :=
+  Flatten[#[[;;-3]] & /@ StringSplit[strList]]
+glyphDistance[file1_, file2_] :=
+  Module[{p1, p2},
+    p1 = Flatten[getRawPoints /@ getSpline @ ReadString @ file1];
+    p2 = Flatten[getRawPoints /@ getSpline @ ReadString @ file2];
+    EuclideanDistance @@@
+      Transpose[ToExpression @ Partition[#, 2] & /@ {p1, p2}] // Mean
+  ]
+glyphInterpolationDistance[file1_, file2_, t_, file0_] :=
+  Module[{p1, p2, p0, pInt},
+    {p1, p2, p0} =
+      ToExpression @ Flatten[getRawPoints /@ getSpline @ ReadString @ #] & /@ {file1, file2, file0};
+    pInt = ((1 - t) #1 + t #2) & @@@ Transpose @ {p1, p2};
+    EuclideanDistance @@@
+      Transpose[ToExpression @ Partition[#, 2] & /@ {p0, pInt}] // Mean
+  ]
 
 
 (* ::Section:: *)
@@ -90,13 +121,78 @@ $path = FileNameJoin[{ParentDirectory[], "src"}];
   Frame -> True, ImageSize -> 200]}
 
 
-$name = "uni0123";
-$range = {{-50, 600}, {-250, 850}};
+$name = "uni0031";
+$range = {{-50, 700}, {-50, 850}};
 $aspectRatio = 1 / Divide @@ Subtract @@ Transpose @ $range;
 plotInterpolatedGlyphs[
   FileNameJoin[{$path, "FiraMath-Thin.sfdir", $name <> ".glyph"}],
   FileNameJoin[{$path, "FiraMath-Bold.sfdir", $name <> ".glyph"}],
+  FileNameJoin[{$path, "FiraMath-Regular.sfdir", $name <> ".glyph"}],
   PlotRange -> $range,
   Frame -> True, GridLines -> {None, {{0, Dashed}}},
-  AspectRatio -> $aspectRatio, ImageSize -> 300]
+  AspectRatio -> $aspectRatio, ImageSize -> 500]
 Remove[$name, $range, $aspectRatio];
+
+
+(* ::Section:: *)
+(*Optimize*)
+
+
+Through[{Mean, StandardDeviation}[#]]& /@
+  {
+    {0.275, 0.300, 0.270, 0.284, 0.290, 0.280, 0.290},
+    {0.508, 0.566, 0.518, 0.544, 0.560, 0.560, 0.550},
+    {0.792, 0.792, 0.788, 0.792, 0.798, 0.782, 0.788}
+  }
+
+
+N@glyphDistance[
+  FileNameJoin[{$path, "FiraMath-Thin.sfdir", "uni0041.glyph"}],
+  FileNameJoin[{$path, "FiraMath-Bold.sfdir", "uni0041.glyph"}]]
+
+
+N@glyphInterpolationDistance[
+  FileNameJoin[{$path, "FiraMath-Thin.sfdir", "uni0041.glyph"}],
+  FileNameJoin[{$path, "FiraMath-Bold.sfdir", "uni0041.glyph"}],
+  0.2,
+  FileNameJoin[{$path, "FiraMath-Thin.sfdir", "uni0041.glyph"}]]
+
+
+IntegerString[Range[#1] + FromDigits[#2, 16], 16] & @@@
+  {{8, "31"}, {16, "40"}, {16, "60"}} // Flatten;
+Echo @ Length[glyphSet = "uni00" <> ToUpperCase[#] <> ".glyph" & /@ %];
+Echo @ Length[interpolateRange = Range[0.75, 0.85, 0.001]];
+
+
+$fileName[weight_, glyph_] :=
+  FileNameJoin[{$path, "FiraMath-" <> weight <> ".sfdir", glyph}]
+$findInterpolationArg[weight_, glyphSet_, interpolateRange_] :=
+  AssociationThread[interpolateRange -> Transpose @
+    ParallelTable[
+      N @ glyphInterpolationDistance[
+        $fileName["Thin", g], $fileName["Bold", g],
+        t,
+        $fileName[weight, g]],
+      {g, glyphSet}, {t, interpolateRange}]]
+
+
+$weights = {"Thin", "Light", "Regular", "Medium", "Bold"};
+$weights = {"Medium"};
+AbsoluteTiming[$result =
+  $findInterpolationArg[#, glyphSet, interpolateRange] & /@ $weights;]
+
+
+$style = With[{w = Length @ $weights, c = ColorData[97]},
+  Flatten[{c[#], None, None} & /@ Range[w], 1]];
+$filling = With[{w = Length @ $weights, c = ColorData[97]},
+  3# - 1 -> {3#} & /@ Range[w]];
+$fillingStyle = Directive[Opacity[0.1], ColorData[97][2]];
+$legends = Flatten[{#, None, None} & /@ $weights];
+
+
+TakeSmallest[Mean /@ #, 1] & /@ $result
+Map[{Mean[#], StandardDeviation[#]} &, $result, {2}];
+Normal[%] /. (x_ -> {y_, dy_}) -> {{x, y}, {x, y - dy}, {x, y + dy}};
+ListPlot[Flatten[Transpose[%, 2 <-> 3], 1],
+  Joined -> True, PlotStyle -> $style, Frame -> True,
+  Filling -> $filling, FillingStyle -> $fillingStyle, PlotLegends -> $legends]
