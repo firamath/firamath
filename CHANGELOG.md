@@ -1,8 +1,12 @@
 # Changelog of Fira Math
 
-The format is based on [Keep a Changelog](https://keepachangelog.com),
+The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...master).
+
+## v0.3.1 (2018-10-26)
 
 - Changed:
   - Update to Unicode 11.0
@@ -14,6 +18,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com),
   - Continuous integration uses Ubuntu 18.04 Bionic and FontForge 20170924 now
   - Source files are renamed as PostScript names, i.e. `FiraMath-<Weight>`
   - Do not depend on `otfcc` library
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3...v0.3.1).
 
 ## v0.3 (2018-09-15)
 
@@ -29,6 +35,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com),
   - Now Fira Math is available on CTAN (named as [`firamath`](https://ctan.org/pkg/firamath)) - [#3](https://github.com/firamath/firamath/issues/3)
   - Use [continuous integration](https://travis-ci.org/firamath/firamath) (CI) for basic building test
 
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.2.2...v0.3).
+
 ## v0.2.2 (2018-06-28)
 
 - Added:
@@ -41,10 +49,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com),
   - Update [README](README.md) for LaTeX and Microsoft Word usage - [#7](https://github.com/firamath/firamath/pull/7). Thanks [@bwiernik](https://github.com/bwiernik)!
   - Add [CHANGELOG](CHANGELOG.md)
 
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.2.1...v0.2.2).
+
 ## v0.2.1 (2018-06-25)
 
 - Fixed:
   - Wrong intersection behavior in `\oint`, etc - [#6](https://github.com/firamath/firamath/issues/6)
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.2...v0.2.1).
 
 ## v0.2 (2018-06-23)
 
@@ -61,6 +73,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com),
 - Fixed:
   - Wrong mapping of Greek letters - [#5](https://github.com/firamath/firamath/issues/5)
 
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.1...v0.2).
+
 ## v0.1 (2018-01-20)
 
 - Latin and Greek letters with different styles
@@ -70,3 +84,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com),
 - Huge operators (e.g. integral and summation)
 - Math accents
 - Over-/underline and over-/underbraces
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/5011a1e9...v0.1).

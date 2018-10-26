@@ -10,22 +10,23 @@
 \setbeamerfont{date}{size=\small}
 \setbeamertemplate{footline}{\vspace*{0.3cm}}
 
-\setsansfont{FiraGO}[BoldFont=* SemiBold]
+\unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
+
+\setsansfont{FiraGO}[BoldFont=* SemiBold, Numbers=Monospaced]
 %%<DEBUG>
 \setmathfont{FiraMath-Regular.otf}[Path=../release/fonts/]
 %%<RELEASE>
 %%\setmathfont{Fira Math Regular}
 %%<END>
-\unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
 
 \title{Fira Math}
 \subtitle{Sans-serif font with Unicode math support}
 \author{Xiangdong Zeng}
-\date{\today}
+\date{2018/10/26\quad v0.3.1}
 
 \begin{document}
 
-% \maketitle
+\maketitle
 
 \begin{frame}[noframenumbering]{General relativity}
 \begin{itemize}
