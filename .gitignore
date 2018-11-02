@@ -18,10 +18,11 @@
 
 # Folders
 .vscode/
+assets/
+references/
 release/
 temp/
 
 # Other
-data/*.json
 docs/standalone/
 docs/unimath-symbols.tex
