@@ -2,10 +2,23 @@ StartChar: uni2034.ssty1
 Encoding: 1114115 -1 1555
 Width: 780
 Flags: W
-VStem: 80 230 275 230 470 230
 LayerCount: 2
 Fore
-Refer: 1553 -1 N 1 0 0 1 390 0 2
-Refer: 1553 -1 N 1 0 0 1 195 0 2
-Refer: 1553 -1 N 1 0 0 1 0 0 2
+SplineSet
+80 54 m 1
+ 201 427 l 1
+ 310 427 l 1
+ 149 54 l 1
+ 80 54 l 1
+275 54 m 1
+ 396 427 l 1
+ 505 427 l 1
+ 344 54 l 1
+ 275 54 l 1
+470 54 m 1
+ 591 427 l 1
+ 700 427 l 1
+ 539 54 l 1
+ 470 54 l 1
+EndSplineSet
 EndChar

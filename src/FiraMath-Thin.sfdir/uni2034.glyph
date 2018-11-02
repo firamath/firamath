@@ -3,11 +3,23 @@ Encoding: 8244 8244 590
 Width: 516
 Flags: W
 HStem: 441 240
-VStem: 83 110 203 110 323 110
-CounterMasks: 1 70
 LayerCount: 2
 Fore
-Refer: 588 8242 N 1 0 0 1 240 0 2
-Refer: 588 8242 N 1 0 0 1 120 0 2
-Refer: 588 8242 N 1 0 0 1 0 0 2
+SplineSet
+83 441 m 1
+ 170 681 l 1
+ 193 681 l 1
+ 101 441 l 1
+ 83 441 l 1
+203 441 m 1
+ 290 681 l 1
+ 313 681 l 1
+ 221 441 l 1
+ 203 441 l 1
+323 441 m 1
+ 410 681 l 1
+ 433 681 l 1
+ 341 441 l 1
+ 323 441 l 1
+EndSplineSet
 EndChar
