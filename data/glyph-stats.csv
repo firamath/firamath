@@ -1001,7 +1001,7 @@ U+21C8,uni21C8,,,Arrows,,A
 U+21C9,uni21C9,,,Arrows,,A
 U+21CA,uni21CA,,,Arrows,,A
 U+21CB,uni21CB,,,Arrows,,A
-U+21CC,uni21CC,,,Arrows,,T
+U+21CC,uni21CC,,,Arrows,,A
 U+21CD,uni21CD,,,Arrows,,T
 U+21CE,uni21CE,,,Arrows,,T
 U+21CF,uni21CF,,,Arrows,,A
@@ -2268,11 +2268,11 @@ U+2BFB,uni2BFB,,,Miscellaneous Symbols and Arrows,,T
 U+2BFC,uni2BFC,,,Miscellaneous Symbols and Arrows,,T
 U+2BFD,uni2BFD,,,Miscellaneous Symbols and Arrows,,T
 U+2BFE,uni2BFE,,,Miscellaneous Symbols and Arrows,,A
-U+FB00,uniFB02,,,Alphabetic Presentation Forms,,A
+U+FB00,uniFB00,,,Alphabetic Presentation Forms,,A
 U+FB01,uniFB01,AL3,,Alphabetic Presentation Forms,,A
 U+FB02,uniFB02,AL3,,Alphabetic Presentation Forms,,A
-U+FB03,uniFB02,,,Alphabetic Presentation Forms,,A
-U+FB04,uniFB02,,,Alphabetic Presentation Forms,,A
+U+FB03,uniFB03,,,Alphabetic Presentation Forms,,A
+U+FB04,uniFB04,,,Alphabetic Presentation Forms,,A
 U+FEFF,uniFEFF,,,Arabic Presentation Forms-B,,A/C
 U+1D400,u1D400,,Bold,Mathematical Alphanumeric Symbols,,A
 U+1D401,u1D401,,Bold,Mathematical Alphanumeric Symbols,,A

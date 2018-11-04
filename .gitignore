@@ -16,6 +16,9 @@
 *.pdf
 *.xdv
 
+# Backup files
+*.bak
+
 # Folders
 .vscode/
 assets/

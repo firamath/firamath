@@ -11,6 +11,7 @@ WARNING: `Refer` info is not considered in this script!
 from __future__ import print_function
 
 import csv
+import os
 import platform
 import re
 
@@ -19,7 +20,7 @@ SINGLE_CHAR_PATTERN = r"""StartChar:\s*(\S*)\n*
                           Encoding:\s*([-\d]+)\s*([-\d]+)\s*([-\d]+)\n
                           (.+?)
                           EndChar"""
-DROP_PATTERN = re.compile(r"((?:WinInfo|DisplaySize|ModificationTime):\s).*")
+DROP_PATTERN = re.compile(r"((?:Compacted|DisplaySize|FitToEm|ModificationTime|WinInfo):\s).*")
 DROP_REPL = r"\1"
 
 CSV_GLYPH_NAME_INDEX = 1
@@ -29,16 +30,21 @@ CSV_STATUS_VALID_TUPLE = ("A", "A/C", "D")
 NON_UNICODE_BEGIN_ENCODING = 0x110000
 NON_UNICODE_CODE_POINT = -1
 
+CWD = os.getcwd()
+FONT_FAMILY_NAME = "FiraMath"
+SFD_PATH = os.sep.join([CWD, "src"])
+CSV_FILE_NAME = os.sep.join([CWD, "data", "glyph-stats.csv"])
+
 
 class Char:
     """Descript a single char/glyph in SFD file.
     """
     _prefix_dict = {5: "u", 4: "uni", 3: "uni0", 2: "uni00"}
 
-    def __init__(self, name, encoding, unicode, index=None, data=""):
+    def __init__(self, name, encoding, _unicode, index=None, data=""):
         self.name = name
         self.encoding = encoding
-        self.unicode = unicode
+        self.unicode = _unicode
         self.index = index
         self.data = data
 
@@ -75,14 +81,16 @@ def get_name_list(csv_file_name):
                 if row[CSV_STATUS_INDEX] in CSV_STATUS_VALID_TUPLE]
 
 
-def sfd_parse(sfd_file_name):
+def sfd_parse(sfd_file_name, backup=False):
     """Read and parse the `.sfd` file. Return a dict of `head` string and `chars` list.
     """
     with open(sfd_file_name, "r") as sfd_file:
-        sfd_content_str = sfd_file.read()
-    sfd_head_str, sfd_chars_str = re.findall(SFD_PATTERN, sfd_content_str, flags=re.DOTALL)[0]
+        sfd_str = sfd_file.read()
+    if backup:
+        sfd_write(sfd_file_name + ".bak", sfd_str)
+    sfd_head_str, sfd_chars_str = re.findall(SFD_PATTERN, sfd_str, flags=re.DOTALL)[0]
     sfd_chars_list = [
-        Char(name=i[0], encoding=int(i[1]), unicode=int(i[2]), data=i[4])
+        Char(name=i[0], encoding=int(i[1]), _unicode=int(i[2]), data=i[4])
         for i in re.findall(SINGLE_CHAR_PATTERN, sfd_chars_str, flags=re.DOTALL + re.VERBOSE)]
     return {"head": sfd_head_str, "chars": sfd_chars_list}
 
@@ -131,10 +139,14 @@ def sfd_write(sfd_file_name, sfd_str):
 
 
 def _main():
-    # TODO
-    sfd = sfd_parse(_file_name)
-    sfd_str = sfd_normalize(sfd, get_name_list(_csv_file_name))
-    sfd_write(_file_name, sfd_str)
+    weights = ["Thin", "Regular", "Bold", "Ultra"]
+    for i in weights:
+        file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + i + ".sfd"])
+        # old_file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + i + ".old.sfd"])
+        # print(file_name)
+        sfd = sfd_parse(file_name, backup=True)
+        sfd_str = sfd_normalize(sfd, get_name_list(CSV_FILE_NAME))
+        sfd_write(file_name, sfd_str)
 
 
 if __name__ == "__main__":
