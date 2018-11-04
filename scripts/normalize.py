@@ -1,193 +1,141 @@
 #!/usr/bin/python
-"""A simple python script for SFDIR normalization. It will do the following jobs:
+"""A simple python script for FontForge SFD normalization. It will do the following jobs:
 
-- Sort the glpyhs with unicode order (in unicode block) or the order defined in `non-unicode.txt`
-  (not in unicode block).
+- Discard GUI information.
+- Sort the glpyhs.
 - Rename glyphs as `uniXXXX` or `uXXXX`.
-- Check unused glpyhs (i.e. in the font but not defined in `non-unicode.txt`, or vice versa).
+
+WARNING: `Refer` info is not considered in this script!
 """
 
 from __future__ import print_function
 
-import glob
-import os
+import csv
 import platform
 import re
 
-CWD = os.getcwd()
+SFD_PATTERN = r"^(.*)BeginChars\S*\n*(.*)EndChars"
+SINGLE_CHAR_PATTERN = r"""StartChar:\s*(\S*)\n*
+                          Encoding:\s*([-\d]+)\s*([-\d]+)\s*([-\d]+)\n
+                          (.+?)
+                          EndChar"""
+DROP_PATTERN = re.compile(r"((?:WinInfo|DisplaySize|ModificationTime):\s).*")
+DROP_REPL = r"\1"
 
-# RE patterns.
-# Groups:                        1            2   3             4     5     6
-ENCODING_PATTERN = re.compile(r"(StartChar: )(.+)(\nEncoding: )(\S+) (\S+) (\S+)\n")
-# Groups:                     1        2     3     4
-REFER_PATTERN = re.compile(r"(Refer: )(\S+) (\S+) ([NS])")
+CSV_GLYPH_NAME_INDEX = 1
+CSV_STATUS_INDEX = 6
+CSV_STATUS_VALID_TUPLE = ("A", "A/C", "D")
 
-# Other constants
 NON_UNICODE_BEGIN_ENCODING = 0x110000
 NON_UNICODE_CODE_POINT = -1
 
-def _get_non_unicode_data(file_name):
-    with open(file_name, "r") as f:
-        return [line.strip() for line in f if not line.startswith(";")]
 
-def _get_glyph_data(path):
-    def _read_glyph_file(file_name):
-        with open(file_name, "r") as f:
-            return f.read()
-    return [_read_glyph_file(i) for i in _get_glyph_file_list(path)]
-
-def _get_glyph_file_list(path):
-    return glob.glob(os.path.join(path, "*.glyph")) + [os.path.join(path, ".notdef.glyph")]
-
-def _get_meta_data(glyph_data, non_unicode_data):
-    old_meta_data = [_get_single_meta_data(i) for i in glyph_data]
-    new_meta_data = _update_meta_data(old_meta_data, non_unicode_data)
-    return {"old": old_meta_data, "new": new_meta_data}
-
-def _get_single_meta_data(glyph_content):
-    search_result = re.search(ENCODING_PATTERN, glyph_content)
-    return {
-        "encoding": int(search_result.group(4)),
-        "unicode": int(search_result.group(5)),
-        "index": int(search_result.group(6)),
-        "name": search_result.group(2)
-    }
-
-def _update_meta_data(old_meta_data, non_unicode_data):
-    # Unicode block
-    unicode_list = sorted([i["unicode"] for i in old_meta_data if i["unicode"] != -1])
-    unicode_meta_data = [{
-        "encoding": v,
-        "unicode": v,
-        "index": i,
-        "name": _make_glyph_name(v)
-    } for i, v in enumerate(unicode_list)]
-    # Non-unicode block
-    raw_non_unicode_list = [i["name"] for i in old_meta_data if i["unicode"] == -1]
-    non_unicode_list = []
-    for i in non_unicode_data:
-        if i in raw_non_unicode_list:
-            non_unicode_list.append(i)
-        else:
-            print("Warning: Glyph \"" + i + "\" in \"non-unicode.txt\" will be ignored.")
-    # non_unicode_list = [i for i in non_unicode_data if i in raw_non_unicode_list]
-    non_unicode_meta_data = [{
-        "encoding": NON_UNICODE_BEGIN_ENCODING + i,
-        "unicode": NON_UNICODE_CODE_POINT,
-        "index": len(unicode_meta_data) + i,
-        "name": v
-    } for i, v in enumerate(non_unicode_list)]
-    # Result
-    return unicode_meta_data + non_unicode_meta_data
-
-def _make_glyph_name(unicode_dec):
-    """Return `uXXXXX` if `hex` >= 0x10000, `uniXXXX` if `hex` < 0x10000.
+class Char:
+    """Descript a single char/glyph in SFD file.
     """
-    unicode_hex_str = hex(unicode_dec)[2:].upper() # Remove `0x` and capitalize.
-    prefix_dict = {5: "u", 4: "uni", 3: "uni0", 2: "uni00"}
-    return prefix_dict[len(unicode_hex_str)] + unicode_hex_str
+    _prefix_dict = {5: "u", 4: "uni", 3: "uni0", 2: "uni00"}
 
-def _update_sfd(path, glyph_data, meta_data):
-    new_glyph_data = _update_glyph_data(glyph_data, meta_data)
-    _clear_sfd(path)
-    _write_sfd(path, new_glyph_data)
+    def __init__(self, name, encoding, unicode, index=None, data=""):
+        self.name = name
+        self.encoding = encoding
+        self.unicode = unicode
+        self.index = index
+        self.data = data
 
-def _update_glyph_data(glyph_data, meta_data):
-    new_glyph_data = []
-    for i in glyph_data:
-        (name, content) = _replace_meta_data(i, meta_data["new"])
-        content = _replace_refer(content, meta_data["old"], meta_data["new"])
-        new_glyph_data.append({"file_name": name, "content": content})
-    return new_glyph_data
+    def name_normalize(self):
+        """The `name` will be `uXXXXX` if `hex` >= 0x10000, `uniXXXX` if `hex` < 0x10000.
+        """
+        if self.is_unicode():
+            unicode_hex_str = hex(self.unicode)[2:].upper()  # Remove `0x` and capitalize
+            self.name = self._prefix_dict[len(unicode_hex_str)] + unicode_hex_str
+        return self
 
-def _replace_meta_data(glyph_content, new_meta_data_list):
-    """Return the new file name and the new meta data.
+    def encoding_index_normalize(self, new_index, non_unicode_begin_index):
+        """Update `encoding` and index`.
+        """
+        if not self.is_unicode():
+            self.encoding = NON_UNICODE_BEGIN_ENCODING + new_index - non_unicode_begin_index
+        self.index = new_index
+        return self
+
+    def is_unicode(self):
+        """Check if this `Char` is unicode or not.
+        """
+        if self.unicode != NON_UNICODE_CODE_POINT:
+            return True
+        return False
+
+
+def get_name_list(csv_file_name):
+    """Return a list of glyph names from font data file (CSV).
     """
-    encoding_search = re.search(ENCODING_PATTERN, glyph_content)
-    unicode_str = encoding_search.group(5)
-    glyph_name = encoding_search.group(2)
-    # Search in `new_meta_data_list`.
-    # Unicode glyphs will be identified with unicode,
-    # while non-unicode glyphs will be identified with glyph name.
-    if unicode_str != "-1":
-        new_meta_data = next(
-            (x for x in new_meta_data_list if x["unicode"] == int(unicode_str)), None)
-    else:
-        new_meta_data = next(
-            (x for x in new_meta_data_list if x["name"] == glyph_name), None)
-    new_meta_str = encoding_search.group(1) + new_meta_data["name"] + \
-                   encoding_search.group(3) + str(new_meta_data["encoding"]) + " " + \
-                                              str(new_meta_data["unicode"]) + " " + \
-                                              str(new_meta_data["index"]) + "\n"
-    file_name = _normalize_file_name(new_meta_data["name"]) + ".glyph"
-    return (file_name, re.sub(ENCODING_PATTERN, new_meta_str, glyph_content))
+    with open(csv_file_name, "r") as csv_file:
+        csv_reader = csv.reader(csv_file)
+        return [row[CSV_GLYPH_NAME_INDEX] for row in csv_reader
+                if row[CSV_STATUS_INDEX] in CSV_STATUS_VALID_TUPLE]
 
-def _normalize_file_name(file_name):
-    """Normalize glyph file name, i.e. add underlines.
 
-    When `file_name` is begin with `u` rather than `uni`, there should be an extra
-    `_` before the last letter.
+def sfd_parse(sfd_file_name):
+    """Read and parse the `.sfd` file. Return a dict of `head` string and `chars` list.
     """
-    if file_name == ".notdef" or "." not in file_name:
-        file_name_base, file_name_ext = file_name, ""
-    else:
-        file_name_base, file_name_ext = file_name.split(".", 1)
-        file_name_ext = "." + file_name_ext
-    return re.sub(r"^(u[^n].*)(\D)$", r"\1_\2", file_name_base) + file_name_ext
+    with open(sfd_file_name, "r") as sfd_file:
+        sfd_content_str = sfd_file.read()
+    sfd_head_str, sfd_chars_str = re.findall(SFD_PATTERN, sfd_content_str, flags=re.DOTALL)[0]
+    sfd_chars_list = [
+        Char(name=i[0], encoding=int(i[1]), unicode=int(i[2]), data=i[4])
+        for i in re.findall(SINGLE_CHAR_PATTERN, sfd_chars_str, flags=re.DOTALL + re.VERBOSE)]
+    return {"head": sfd_head_str, "chars": sfd_chars_list}
 
-def _replace_refer(glyph_content, old_meta_data_list, new_meta_data_list):
-    """Return the new `Refer` meta data.
+
+def _sfd_head_normalize(sfd_head_str):
+    return re.subn(DROP_PATTERN, DROP_REPL, sfd_head_str)[0]
+
+
+def _sfd_chars_normalize(sfd_chars_list, name_list):
+    name_index_dict = {v: i for i, v in enumerate(name_list)}
+    non_unicode_begin_index = len([char for char in sfd_chars_list if char.is_unicode()])
+    result = [char.name_normalize() for char in sfd_chars_list]
+    result.sort(key=lambda i: name_index_dict[i.name])
+    return [char.encoding_index_normalize(i, non_unicode_begin_index)
+            for i, char in enumerate(result)]
+
+
+def sfd_normalize(sfd, name_list):
+    """Normalize the whole SFD file.
     """
-    refer_search = re.search(REFER_PATTERN, glyph_content)
-    if refer_search != None:
-        refer_index_str = refer_search.group(2)
-        refer_unicode_str = refer_search.group(3)
-        old_refer = next(
-            (x for x in old_meta_data_list if x["index"] == int(refer_index_str)), None)
-        if refer_unicode_str != "-1":
-            new_refer = next(
-                (x for x in new_meta_data_list if x["unicode"] == int(refer_unicode_str)), None)
-        else:
-            new_refer = next(
-                (x for x in new_meta_data_list if x["name"] == old_refer["name"]), None)
-        new_refer_str = refer_search.group(1) + \
-            str(new_refer["index"]) + " " + \
-            str(new_refer["unicode"]) + " " + \
-            refer_search.group(4)
-        return re.sub(REFER_PATTERN, new_refer_str, glyph_content)
-    else:
-        return glyph_content
+    # Head
+    sfd_head_str = _sfd_head_normalize(sfd["head"])
+    # Chars
+    sfd_chars_list = _sfd_chars_normalize(sfd["chars"], name_list)
+    sfd_chars_str = "\n\n".join(
+        [("StartChar: " + char.name + "\n" +
+          "Encoding: " + " ".join(map(str, (char.encoding, char.unicode, char.index))) + "\n" +
+          char.data + "EndChar") for char in sfd_chars_list])
+    # Begin/end chars
+    sfd_begin_chars_str = ("BeginChars: " + str(sfd_chars_list[-1].encoding + 1) + " " +
+                           str(len(sfd_chars_list)) + "\n\n")
+    sfd_end_chars_str = "\nEndChars\nEndSplineFont\n"
 
-def _clear_sfd(path):
-    for i in _get_glyph_file_list(path):
-        os.remove(i)
+    return sfd_head_str + sfd_begin_chars_str + sfd_chars_str + sfd_end_chars_str
 
-def _write_sfd(path, new_glyph_data):
-    for i in new_glyph_data:
-        file_name = os.path.join(path, i["file_name"])
-        if platform.system() == "Linux":
-            with open(file_name, "w") as f:
-                f.write(i["content"])
-        elif platform.system() == "Windows":
-            with open(file_name, "w", newline="\n") as f:
-                f.write(i["content"])
+
+def sfd_write(sfd_file_name, sfd_str):
+    """Write `sfd_str` into SFD file.
+    """
+    if platform.system() == "Linux":
+        with open(sfd_file_name, "w") as sfd_file:
+            sfd_file.write(sfd_str)
+    elif platform.system() == "Windows":
+        with open(sfd_file_name, "w", newline="\n") as sfd_file:
+            sfd_file.write(sfd_str)
+
 
 def _main():
-    src_path = os.path.join(CWD, "src")
-    non_unicode_data_file = os.path.join(CWD, "data", "firamath-non-unicode.txt")
-    family_name = "FiraMath"
-    weight_list = ["Thin", "Light", "Regular", "Medium", "Bold"]
-    # For debug
-    weight_list = ["Regular"]
+    # TODO
+    sfd = sfd_parse(_file_name)
+    sfd_str = sfd_normalize(sfd, get_name_list(_csv_file_name))
+    sfd_write(_file_name, sfd_str)
 
-    # Core procedure.
-    non_unicode_data = _get_non_unicode_data(non_unicode_data_file)
-    for weight in weight_list:
-        sfd_path = os.path.join(src_path, family_name + "-" + weight + ".sfdir")
-        glyph_data = _get_glyph_data(sfd_path)
-        meta_data = _get_meta_data(glyph_data, non_unicode_data)
-        _update_sfd(sfd_path, glyph_data, meta_data)
-        print("Info: Processing " + family_name + "-" + weight + " finished!")
 
 if __name__ == "__main__":
     _main()
