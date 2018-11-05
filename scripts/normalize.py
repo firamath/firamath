@@ -19,21 +19,21 @@ import platform
 import re
 
 SFD_PATTERN = re.compile(r"^(.*)BeginChars\S*\n*(.*)EndChars", flags=re.DOTALL)
-DROP_PATTERN = re.compile(r"((?:Compacted|DisplaySize|FitToEm|ModificationTime|WinInfo):\s).*")
+DROP_PATTERN = re.compile(r"(?:Compacted|DisplaySize|FitToEm|ModificationTime|WinInfo):\s.*\n")
 SINGLE_CHAR_PATTERN = re.compile(
     r"""StartChar:\s*(\S*)\n*Encoding:\s*([-\d]+)\s*([-\d]+)\s*([-\d]+)\n(.+?)EndChar""",
     flags=re.DOTALL)
 FLAG_PATTERN = re.compile(r"(Flags:\s).*\n")
 HINT_PATTERN = re.compile(r"[HVD]Stem2?:\s.*\n")
 MASK_PATTERN = re.compile(r"(\s[mcl]\s)(\d)(?:x?.*)\n")
-DROP_REPL = r"\1"
+DROP_REPL = ""
 FLAG_REPL = r"\1W\n"
 HINT_REPL = ""
 # `0x4` means that the point is selected
 MAKS_REPL = lambda mask_match: mask_match.group(1) + str(int(mask_match.group(2)) % 0x4) + "\n"
 
 CSV_GLYPH_NAME_INDEX = 1
-CSV_STATUS_INDEX = 6
+CSV_STATUS_INDEX = 5
 CSV_STATUS_VALID_TUPLE = ("A", "A/C", "D")
 
 NON_UNICODE_BEGIN_ENCODING = 0x110000

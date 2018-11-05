@@ -20,7 +20,6 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1541149813
-ModificationTime: 
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -40,8 +39,6 @@ Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 AntiAlias: 1
-FitToEm: 
-WinInfo: 
 BeginChars: 1114121 18
 
 StartChar: uni0021

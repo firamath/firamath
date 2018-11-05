@@ -20,7 +20,6 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1527825812
-ModificationTime: 
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -96,13 +95,9 @@ MATH:RadicalKernAfterDegree: -400
 MATH:RadicalDegreeBottomRaisePercent: 64
 MATH:MinConnectorOverlap: 20
 Encoding: UnicodeFull
-Compacted: 
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: 
 AntiAlias: 1
-FitToEm: 
-WinInfo: 
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114116 955
