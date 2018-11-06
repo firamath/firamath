@@ -19,7 +19,8 @@ import platform
 import re
 
 SFD_PATTERN = re.compile(r"^(.*)BeginChars\S*\n*(.*)EndChars", flags=re.DOTALL)
-DROP_PATTERN = re.compile(r"(?:Compacted|DisplaySize|FitToEm|ModificationTime|WinInfo):\s.*\n")
+DROP_PATTERN = re.compile(
+    r"(?:UComments|sfntRevision|Compacted|DisplaySize|FitToEm|ModificationTime|WinInfo):\s.*\n")
 SINGLE_CHAR_PATTERN = re.compile(
     r"""StartChar:\s*(\S*)\n*Encoding:\s*([-\d]+)\s*([-\d]+)\s*([-\d]+)\n(.+?)EndChar""",
     flags=re.DOTALL)
@@ -34,15 +35,17 @@ MAKS_REPL = lambda mask_match: mask_match.group(1) + str(int(mask_match.group(2)
 
 CSV_GLYPH_NAME_INDEX = 1
 CSV_STATUS_INDEX = 5
-CSV_STATUS_VALID_TUPLE = ("A", "A/C", "D")
+CSV_STATUS_VALID_TUPLE = ("A", "A/C")
 
 NON_UNICODE_BEGIN_ENCODING = 0x110000
 NON_UNICODE_CODE_POINT = -1
 
 CWD = os.getcwd()
-FONT_FAMILY_NAME = "FiraMath"
 SFD_PATH = os.sep.join([CWD, "src"])
 CSV_FILE_NAME = os.sep.join([CWD, "data", "glyph-stats.csv"])
+FONT_FAMILY_NAME = "FiraMath"
+WEIGHT_LIST = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
+               "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
 
 
 class Char:
@@ -137,8 +140,9 @@ def sfd_normalize(sfd, name_list):
           "Encoding: " + " ".join(map(str, (char.encoding, char.unicode, char.index))) + "\n" +
           char.data + "EndChar") for char in sfd_chars_list])
     # Begin/end chars
-    sfd_begin_chars_str = ("BeginChars: " + str(sfd_chars_list[-1].encoding + 1) + " " +
-                           str(len(sfd_chars_list)) + "\n\n")
+    sfd_capacity = str(max(sfd_chars_list[-1].encoding + 1, NON_UNICODE_BEGIN_ENCODING))
+    sfd_length = str(len(sfd_chars_list))
+    sfd_begin_chars_str = ("BeginChars: " + sfd_capacity + " " + sfd_length + "\n\n")
     sfd_end_chars_str = "\nEndChars\nEndSplineFont\n"
     return sfd_head_str + sfd_begin_chars_str + sfd_chars_str + sfd_end_chars_str
 
@@ -156,8 +160,7 @@ def _sfd_chars_normalize(sfd_chars_list, name_list):
 
 
 def _main():
-    weights = ["Thin", "Regular", "Bold", "Ultra"]
-    for i in weights:
+    for i in WEIGHT_LIST:
         file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + i + ".sfd"])
         sfd = sfd_parse(file_name, backup=True)
         sfd_str = sfd_normalize(sfd, get_name_list(CSV_FILE_NAME))
