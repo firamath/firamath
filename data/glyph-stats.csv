@@ -2023,11 +2023,11 @@ U+2BFB,uni2BFB,,Miscellaneous Symbols and Arrows,,T,,
 U+2BFC,uni2BFC,,Miscellaneous Symbols and Arrows,,T,,
 U+2BFD,uni2BFD,,Miscellaneous Symbols and Arrows,,T,,
 U+2BFE,uni2BFE,,Miscellaneous Symbols and Arrows,,A,,
-U+FB00,uniFB00,,Alphabetic Presentation Forms,,A,,
-U+FB01,uniFB01,AL3,Alphabetic Presentation Forms,,A,,
-U+FB02,uniFB02,AL3,Alphabetic Presentation Forms,,A,,
-U+FB03,uniFB03,,Alphabetic Presentation Forms,,A,,
-U+FB04,uniFB04,,Alphabetic Presentation Forms,,A,,
+U+FB00,uniFB00,,Alphabetic Presentation Forms,,A,R,f_f
+U+FB01,uniFB01,AL3,Alphabetic Presentation Forms,,A,R,f_i
+U+FB02,uniFB02,AL3,Alphabetic Presentation Forms,,A,R,f_l
+U+FB03,uniFB03,,Alphabetic Presentation Forms,,A,R,f_f_i
+U+FB04,uniFB04,,Alphabetic Presentation Forms,,A,R,f_f_l
 U+FEFF,uniFEFF,,Arabic Presentation Forms-B,,A/C,,
 U+1D400,u1D400,,Mathematical Alphanumeric Symbols,,A,B,U+0041
 U+1D401,u1D401,,Mathematical Alphanumeric Symbols,,A,B,U+0042

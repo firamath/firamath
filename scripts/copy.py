@@ -70,8 +70,16 @@ def get_mapping_dict(csv_file_name):
     def _key(row):
         return unicode_str_to_int(row[CSV_UNICODE_INDEX])
     def _val(row):
-        fira_glyph = unicode_str_to_int(row[
-            CSV_UNICODE_INDEX if row[CSV_FIRA_GLYPH_INDEX] == "" else CSV_FIRA_GLYPH_INDEX])
+        fira_glyph_str = row[CSV_FIRA_GLYPH_INDEX]
+        if fira_glyph_str == "":
+            fira_glyph = unicode_str_to_int(row[CSV_UNICODE_INDEX])
+        else:
+            if fira_glyph_str[:2] == "U+":
+                fira_glyph = unicode_str_to_int(fira_glyph_str)
+            else:
+                fira_glyph = fira_glyph_str
+        # fira_glyph = unicode_str_to_int(row[
+        #     CSV_UNICODE_INDEX if row[CSV_FIRA_GLYPH_INDEX] == "" else CSV_FIRA_GLYPH_INDEX])
         return {"source": row[CSV_SOURCE_INDEX], "fira-glyph": fira_glyph}
     with open(csv_file_name, "r") as csv_file:
         csv_reader = csv.reader(csv_file)
