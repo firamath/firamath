@@ -5,17 +5,18 @@
 - Sort the glpyhs.
 - Rename glyphs as `uniXXXX` or `uXXXX`.
 
-See: http://fontforge.github.io/sfdformat.html
+See: https://fontforge.github.io/sfdformat.html
      https://github.com/libertinus-fonts/libertinus/blob/master/tools/sfdnormalize.py
 
 WARNING: `Refer` info is not considered in this script!
 """
 
 from __future__ import print_function
+from __future__ import unicode_literals
 
 import csv
+import io
 import os
-import platform
 import re
 
 SFD_PATTERN = re.compile(r"^(.*)BeginChars\S*\n*(.*)EndChars", flags=re.DOTALL)
@@ -103,29 +104,28 @@ def get_name_list(csv_file_name):
                 if row[CSV_STATUS_INDEX] in CSV_STATUS_VALID_TUPLE]
 
 
-def sfd_parse(sfd_file_name, backup=False):
+def sfd_parse(sfd_file_name):
     """Read and parse the `.sfd` file. Return a dict of `head` string and `chars` list.
     """
     with open(sfd_file_name, "r") as sfd_file:
         sfd_str = sfd_file.read()
-    if backup:
-        sfd_write(sfd_file_name + ".bak", sfd_str)
     sfd_head_str, sfd_chars_str = re.findall(SFD_PATTERN, sfd_str)[0]
-    sfd_chars_list = [
-        Char(name=i[0], encoding=int(i[1]), _unicode=int(i[2]), data=i[4])
-        for i in re.findall(SINGLE_CHAR_PATTERN, sfd_chars_str)]
+    sfd_chars_list = [Char(name=i[0], encoding=int(i[1]), _unicode=int(i[2]), data=i[4])
+                      for i in re.findall(SINGLE_CHAR_PATTERN, sfd_chars_str)]
     return {"head": sfd_head_str, "chars": sfd_chars_list}
 
 
-def sfd_write(sfd_file_name, sfd_str):
+def sfd_write(sfd_file_name, sfd_str, backup=False):
     """Write `sfd_str` into SFD file.
     """
-    if platform.system() == "Linux":
-        with open(sfd_file_name, "w") as sfd_file:
-            sfd_file.write(sfd_str)
-    elif platform.system() == "Windows":
-        with open(sfd_file_name, "w", newline="\n") as sfd_file:
-            sfd_file.write(sfd_str)
+    def _write(file_name, content):
+        with io.open(file_name, "w", newline="\n") as sfd_file:
+            sfd_file.write(content)
+    if backup:
+        with open(sfd_file_name, "r") as sfd_file:
+            bak_sfd_str = sfd_file.read()
+        _write(sfd_file_name + ".bak", bak_sfd_str)
+    _write(sfd_file_name, sfd_str)
 
 
 def sfd_normalize(sfd, name_list):
@@ -162,8 +162,9 @@ def _sfd_chars_normalize(sfd_chars_list, name_list):
 def _main():
     for i in WEIGHT_LIST:
         file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + i + ".sfd"])
-        sfd = sfd_parse(file_name, backup=True)
+        sfd = sfd_parse(file_name)
         sfd_str = sfd_normalize(sfd, get_name_list(CSV_FILE_NAME))
+        # sfd_write(file_name, sfd_str, backup=True)
         sfd_write(file_name, sfd_str)
 
 

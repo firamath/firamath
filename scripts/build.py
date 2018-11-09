@@ -1,4 +1,10 @@
 #!/usr/bin/python
+"""Build script for Fira Math. It can
+
+- Generate fonts with FontForge.
+- Run tests with XeLaTeX.
+- Generate documentations.
+"""
 
 from __future__ import print_function
 
@@ -62,6 +68,8 @@ def clean():
     clean_aux_files()
     os.chdir(DOCS_PATH)
     clean_aux_files()
+    os.chdir(SFD_PATH)
+    rm("*.bak")
 
 def clean_aux_files():
     aux_file_suffixes = ["aux", "fdb_latexmk", "fls", "log", "nav", "out", "snm", "toc", "xdv"]
