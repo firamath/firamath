@@ -664,7 +664,7 @@ U+20F0,uni20F0,,Combining Diacritical Marks for Symbols,,A,,
 U+2102,uni2102,,Letterlike Symbols,,A,,
 U+210A,uni210A,,Letterlike Symbols,,A,R,
 U+210D,uni210D,,Letterlike Symbols,,A,,
-U+210E,uni210E,,Letterlike Symbols,,A,,
+U+210E,uni210E,,Letterlike Symbols,,A,I,U+0068
 U+210F,uni210F,,Letterlike Symbols,,A,,
 U+2113,uni2113,AL3,Letterlike Symbols,,A,R,
 U+2115,uni2115,,Letterlike Symbols,,A,,
@@ -2492,7 +2492,7 @@ U+1D6B5,u1D6B5,,Mathematical Alphanumeric Symbols,,A,B,U+039E
 U+1D6B6,u1D6B6,,Mathematical Alphanumeric Symbols,,A,B,U+039F
 U+1D6B7,u1D6B7,,Mathematical Alphanumeric Symbols,,A,B,U+03A0
 U+1D6B8,u1D6B8,,Mathematical Alphanumeric Symbols,,A,B,U+03A1
-U+1D6B9,u1D6B9,,Mathematical Alphanumeric Symbols,,A,B,U+03A2
+U+1D6B9,u1D6B9,,Mathematical Alphanumeric Symbols,,A,B,U+03F4
 U+1D6BA,u1D6BA,,Mathematical Alphanumeric Symbols,,A,B,U+03A3
 U+1D6BB,u1D6BB,,Mathematical Alphanumeric Symbols,,A,B,U+03A4
 U+1D6BC,u1D6BC,,Mathematical Alphanumeric Symbols,,A,B,U+03A5
@@ -2550,7 +2550,7 @@ U+1D6EF,u1D6EF,,Mathematical Alphanumeric Symbols,,A,I,U+039E
 U+1D6F0,u1D6F0,,Mathematical Alphanumeric Symbols,,A,I,U+039F
 U+1D6F1,u1D6F1,,Mathematical Alphanumeric Symbols,,A,I,U+03A0
 U+1D6F2,u1D6F2,,Mathematical Alphanumeric Symbols,,A,I,U+03A1
-U+1D6F3,u1D6F3,,Mathematical Alphanumeric Symbols,,A,I,U+03A2
+U+1D6F3,u1D6F3,,Mathematical Alphanumeric Symbols,,A,I,U+03F4
 U+1D6F4,u1D6F4,,Mathematical Alphanumeric Symbols,,A,I,U+03A3
 U+1D6F5,u1D6F5,,Mathematical Alphanumeric Symbols,,A,I,U+03A4
 U+1D6F6,u1D6F6,,Mathematical Alphanumeric Symbols,,A,I,U+03A5
@@ -2608,7 +2608,7 @@ U+1D729,u1D729,,Mathematical Alphanumeric Symbols,,A,X,U+039E
 U+1D72A,u1D72A,,Mathematical Alphanumeric Symbols,,A,X,U+039F
 U+1D72B,u1D72B,,Mathematical Alphanumeric Symbols,,A,X,U+03A0
 U+1D72C,u1D72C,,Mathematical Alphanumeric Symbols,,A,X,U+03A1
-U+1D72D,u1D72D,,Mathematical Alphanumeric Symbols,,A,X,U+03A2
+U+1D72D,u1D72D,,Mathematical Alphanumeric Symbols,,A,X,U+03F4
 U+1D72E,u1D72E,,Mathematical Alphanumeric Symbols,,A,X,U+03A3
 U+1D72F,u1D72F,,Mathematical Alphanumeric Symbols,,A,X,U+03A4
 U+1D730,u1D730,,Mathematical Alphanumeric Symbols,,A,X,U+03A5
