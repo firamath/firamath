@@ -20,6 +20,7 @@
 *.bak
 
 # Folders
+__pycache__/
 .vscode/
 assets/
 references/

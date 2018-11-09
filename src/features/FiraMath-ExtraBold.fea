@@ -1,0 +1,11 @@
+include(common.fea);
+
+table name {
+    nameid 1  "Fira Math ExtraBold";        # Font Family name
+    nameid 2  "Regular";                    # Font Subfamily name
+    nameid 3  "Fira Math ExtraBold: 2018";  # Unique font identifier
+    nameid 4  "Fira Math ExtraBold";        # Full font name
+    nameid 6  "FiraMath-ExtraBold";         # PostScript name
+    nameid 16 "Fira Math";                  # Typographic (Preferred) Family name
+    nameid 17 "ExtraBold";                  # Typographic (Preferred) Subfamily name
+} name;

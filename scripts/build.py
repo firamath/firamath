@@ -19,7 +19,8 @@ DOCS_PATH        = PWD + "/docs"
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
-WEIGHT_LIST      = ["Thin", "Light", "Regular", "Medium", "Bold"]
+WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
+                    "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
 # WEIGHT_LIST      = ["Regular"]
 
 if not os.path.exists(OTF_PATH):
@@ -31,11 +32,11 @@ def generate_fonts():
     print("Platform: " + platform.platform() + "\n")
     for i in WEIGHT_LIST:
         font_name      = FAMILY_NAME + "-" + i
-        sfdir          = SFD_PATH + "/" + font_name + ".sfdir"
+        sfd_file       = SFD_PATH + "/" + font_name + ".sfd"
         feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
         otf_file       = OTF_PATH + "/" + font_name + ".otf"
 
-        font = fontforge.open(sfdir)
+        font = fontforge.open(sfd_file)
         font.mergeFeature(feature_file)
         font.generate(otf_file, flags=("opentype"))
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
