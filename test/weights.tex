@@ -1,0 +1,45 @@
+\input{setup.tex}
+
+\documentclass{article}
+\usepackage{amsmath,unicode-math,physics,geometry}
+
+% \geometry{paperheight=200cm, margin=2.54cm, showframe}
+\geometry{margin=2.54cm, showframe}
+\unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
+
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{CMU Typewriter Text}[UprightFont=* Light, HyphenChar=None]
+
+\ExplSyntaxOn
+
+\clist_const:Nn \c__fonttest_weights_clist
+  % {
+  %   Thin, UltraLight, ExtraLight, Light, Book, Regular,
+  %   Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra
+  % }
+  { Thin, Regular, Ultra }
+  % {Regular}
+
+\clist_map_inline:Nn \c__fonttest_weights_clist
+  { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, BoldFont = *, version = #1 ] }
+
+\cs_new:Npn \WeightTest #1
+  {
+    \clist_map_inline:Nn \c__fonttest_weights_clist
+      {
+        \group_begin:
+          \mathversion {##1} #1
+        \group_end:
+      }
+  }
+
+\ExplSyntaxOff
+
+\begin{document}
+
+\WeightTest{
+  \[ \int_0^{+\infty}  f(x) \,\mathrm{d}x \]}
+% \WeightTest{\[ \int\!\!\!\!\iint\!\!\!f \]}
+
+\end{document}
