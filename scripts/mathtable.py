@@ -5,6 +5,7 @@ See https://docs.microsoft.com/typography/opentype/spec/math#mathconstants-table
 """
 
 import collections
+import csv
 import io
 import os
 import re
@@ -12,80 +13,16 @@ import re
 
 CWD = os.getcwd()
 SFD_PATH = os.sep.join([CWD, "src"])
+CSV_FILE_NAME = os.sep.join([CWD, "data", "math-constants.csv"])
+
 FONT_FAMILY_NAME = "FiraMath"
 WEIGHT_LIST = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
                "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
 
+CSV_WEIGHTS_TUPLE = ("<Thin>", "<Regular>", "<Ultra>")
+
 MATH_TABLE_PATTERN = re.compile(r"MATH:.+(Encoding: UnicodeFull\n)", flags=re.DOTALL)
 MATH_TABLE_END_PATTERN = re.compile(r"(Encoding: UnicodeFull\n)")
-
-MATH_CONSTANTS = collections.OrderedDict({
-    # General
-    "ScriptPercentScaleDown": [80],
-    "ScriptScriptPercentScaleDown": [60],
-    "DelimitedSubFormulaMinHeight": [1500],
-    "DisplayOperatorMinHeight": [1500],
-    "MathLeading": [150],
-    "AxisHeight": [280],
-    "AccentBaseHeight": [527],
-    "FlattenedAccentBaseHeight": [689],
-    # Sub/Superscript
-    "SubscriptShiftDown": [350],
-    "SubscriptTopMax": [527],
-    "SubscriptBaselineDropMin": [250],
-    "SuperscriptShiftUp": [400],
-    "SuperscriptShiftUpCramped": [270],
-    "SuperscriptBottomMin": [130],
-    "SuperscriptBaselineDropMax": [360],
-    "SubSuperscriptGapMin": [200],
-    "SuperscriptBottomMaxWithSubscript": [527],
-    "SpaceAfterScript": [41],
-    # Limits
-    "UpperLimitGapMin": [150],
-    "UpperLimitBaselineRiseMin": [150],
-    "LowerLimitGapMin": [150],
-    "LowerLimitBaselineDropMin": [600],
-    # Stacks
-    "StackTopShiftUp": [450],
-    "StackTopDisplayStyleShiftUp": [580],
-    "StackBottomShiftDown": [480],
-    "StackBottomDisplayStyleShiftDown": [700],
-    "StackGapMin": [200],
-    "StackDisplayStyleGapMin": [500],
-    "StretchStackTopShiftUp": [300],
-    "StretchStackBottomShiftDown": [600],
-    "StretchStackGapAboveMin": [150],
-    "StretchStackGapBelowMin": [150],
-    # Fractions
-    "FractionNumeratorShiftUp": [450],
-    "FractionNumeratorDisplayStyleShiftUp": [580],
-    "FractionDenominatorShiftDown": [480],
-    "FractionDenominatorDisplayStyleShiftDown": [700],
-    "FractionNumeratorGapMin": [80],
-    "FractionNumeratorDisplayStyleGapMin": [200],
-    "FractionRuleThickness": [76],
-    "FractionDenominatorGapMin": [80],
-    "FractionDenominatorDisplayStyleGapMin": [200],
-    "SkewedFractionHorizontalGap": [0],
-    "SkewedFractionVerticalGap": [0],
-    # Over/Underbars
-    "OverbarVerticalGap": [150],
-    "OverbarRuleThickness": [66],
-    "OverbarExtraAscender": [50],
-    "UnderbarVerticalGap": [150],
-    "UnderbarRuleThickness": [66],
-    "UnderbarExtraDescender": [50],
-    # Radicals
-    "RadicalVerticalGap": [96],
-    "RadicalDisplayStyleVerticalGap": [142],
-    "RadicalRuleThickness": [76],
-    "RadicalExtraAscender": [76],
-    "RadicalKernBeforeDegree": [276],
-    "RadicalKernAfterDegree": [-400],
-    "RadicalDegreeBottomRaisePercent": [64],
-    # Connectors
-    "MinConnectorOverlap": [20]
-})
 
 MATH_CONSTANTS_INT_KEYS = [
     "ScriptPercentScaleDown",
@@ -115,10 +52,34 @@ def sfd_write(sfd_file_name, sfd_str, backup=False):
     _write(sfd_file_name, sfd_str)
 
 
-def get_math_table_str():
+def math_constants_interpolation(v1, v2, v3):
+    """TODO: this is just a prototype.
+    """
+    def _interpolation(_v1, _v2, n):
+        return tuple(((n - i) * _v1 + i * _v2) // n for i in range(n))
+    part_1 = _interpolation(v1, v2, 5)  # There are 5 weights in [Thin..Regular].
+    part_2 = _interpolation(v2, v3, 6)  # There are 6 weights in [Regular..Ultra].
+    return part_1 + part_2 + (v3, )
+
+
+def get_math_table(csv_file_name):
+    def _read_row(row):
+        _v2 = row["<Regular>"]
+        _v1 = row["<Thin>"] if row["<Thin>"] != "" else _v2
+        _v3 = row["<Ultra>"] if row["<Ultra>"] != "" else _v2
+        return (row["<Name>"], math_constants_interpolation(int(_v1), int(_v2), int(_v3)))
+    with open(csv_file_name, "r") as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+        result = collections.OrderedDict([_read_row(row) for row in csv_reader])
+        return result
+
+
+def get_math_table_str(math_table, index):
+    def _add_space(key):
+        return " " if key not in MATH_CONSTANTS_INT_KEYS else ""
     math_table_entries = [
-        "MATH:" + key + ": " + str(value[0]) + (" " if key not in MATH_CONSTANTS_INT_KEYS else "")
-        for key, value in MATH_CONSTANTS.items()]
+        "MATH:" + key + ": " + str(value[index]) + _add_space(key)
+        for key, value in math_table.items()]
     return "\n".join(math_table_entries)
 
 
@@ -129,11 +90,13 @@ def add_math_table(sfd_file_name, math_table_str):
 
 
 def _main():
-    math_table_str = get_math_table_str()
-    for i in WEIGHT_LIST:
-        file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + i + ".sfd"])
-        add_math_table(file_name, math_table_str)
+    math_table = get_math_table(CSV_FILE_NAME)
+    for i, weight in enumerate(WEIGHT_LIST):
+        file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + weight + ".sfd"])
+        add_math_table(file_name, get_math_table_str(math_table, i))
 
 
 if __name__ == "__main__":
     _main()
+    # [print(i, v) for i, v in get_math_table(CSV_FILE_NAME).items()]
+    # print(math_constants_interpolation(10, 20, 30))

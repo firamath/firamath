@@ -72,7 +72,7 @@ MATH:FractionDenominatorShiftDown: 480
 MATH:FractionDenominatorDisplayStyleShiftDown: 700 
 MATH:FractionNumeratorGapMin: 80 
 MATH:FractionNumeratorDisplayStyleGapMin: 200 
-MATH:FractionRuleThickness: 76 
+MATH:FractionRuleThickness: 31 
 MATH:FractionDenominatorGapMin: 80 
 MATH:FractionDenominatorDisplayStyleGapMin: 200 
 MATH:SkewedFractionHorizontalGap: 0 
@@ -85,8 +85,8 @@ MATH:UnderbarRuleThickness: 66
 MATH:UnderbarExtraDescender: 50 
 MATH:RadicalVerticalGap: 96 
 MATH:RadicalDisplayStyleVerticalGap: 142 
-MATH:RadicalRuleThickness: 76 
-MATH:RadicalExtraAscender: 76 
+MATH:RadicalRuleThickness: 31 
+MATH:RadicalExtraAscender: 31 
 MATH:RadicalKernBeforeDegree: 276 
 MATH:RadicalKernAfterDegree: -400 
 MATH:RadicalDegreeBottomRaisePercent: 64
