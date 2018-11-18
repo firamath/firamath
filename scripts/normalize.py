@@ -32,7 +32,7 @@ DROP_REPL = ""
 FLAG_REPL = r"\1W\n"
 HINT_REPL = ""
 # `0x4` means that the point is selected
-MAKS_REPL = lambda mask_match: mask_match.group(1) + str(int(mask_match.group(2)) % 0x4) + "\n"
+MASK_REPL = lambda mask_match: mask_match.group(1) + str(int(mask_match.group(2)) % 0x4) + "\n"
 
 CSV_GLYPH_NAME_INDEX = 1
 CSV_STATUS_INDEX = 5
@@ -76,7 +76,7 @@ class Char:
         """
         self.data = re.sub(FLAG_PATTERN, FLAG_REPL, self.data)
         self.data = re.sub(HINT_PATTERN, HINT_REPL, self.data)
-        self.data = re.sub(MASK_PATTERN, MAKS_REPL, self.data)
+        self.data = re.sub(MASK_PATTERN, MASK_REPL, self.data)
         return self
 
     def encoding_index_normalize(self, new_index, non_unicode_begin_index):
