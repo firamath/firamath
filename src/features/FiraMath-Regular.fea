@@ -25,7 +25,7 @@ feature ssty {
     sub uni2034 from [uni2034.ssty1];  # triple prime -> supscript triple prime
 } ssty;
 
-lookup pnum01 {
+feature pnum {
     sub uni0030 by uni0030.pnum;  # 0
     sub uni0031 by uni0031.pnum;  # 1
     sub uni0032 by uni0032.pnum;  # 2
@@ -46,20 +46,10 @@ lookup pnum01 {
     sub u1D7D5  by u1D7D5.pnum;   # bold 7
     sub u1D7D6  by u1D7D6.pnum;   # bold 8
     sub u1D7D7  by u1D7D7.pnum;   # bold 9
-} pnum01;
-
-feature pnum {
-    script DFLT;
-        lookup pnum01;
-    script latn;
-        lookup pnum01;
-    script math;
-        lookup pnum01;
 } pnum;
 
 feature ss01 {
     featureNames { name "Upright Integrals"; };
-    script math;
     sub uni222B         by uni222B.up;  # \int
     sub uni222C         by uni222C.up;  # \iint
     sub uni222D         by uni222D.up;  # \iiint
@@ -78,12 +68,10 @@ feature ss01 {
 
 feature ss02 {
     featureNames { name "Planck Constant with Bar"; };
-    script math;
     sub uni210F by uni210F.ss02;
 } ss02;
 
 feature ss03 {
     featureNames { name "Complement Alternates"; };
-    script math;
     sub uni2201 by uni2201.ss03;
 } ss03;
