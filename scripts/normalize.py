@@ -34,8 +34,8 @@ HINT_REPL = ""
 # `0x4` means that the point is selected
 MASK_REPL = lambda mask_match: mask_match.group(1) + str(int(mask_match.group(2)) % 0x4) + "\n"
 
-CSV_GLYPH_NAME_INDEX = 1
-CSV_STATUS_INDEX = 5
+CSV_GLYPH_NAME_INDEX = 2
+CSV_STATUS_INDEX = 6
 CSV_STATUS_VALID_TUPLE = ("A", "A/C")
 
 NON_UNICODE_BEGIN_ENCODING = 0x110000
