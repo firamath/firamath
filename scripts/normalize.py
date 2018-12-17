@@ -14,10 +14,11 @@ WARNING: `Refer` info is not considered in this script!
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import csv
 import io
 import os
 import re
+
+import glyph_data
 
 SFD_PATTERN = re.compile(r"^(.*)BeginChars\S*\n*(.*)EndChars", flags=re.DOTALL)
 DROP_PATTERN = re.compile(
@@ -34,16 +35,11 @@ HINT_REPL = ""
 # `0x4` means that the point is selected
 MASK_REPL = lambda mask_match: mask_match.group(1) + str(int(mask_match.group(2)) % 0x4) + "\n"
 
-CSV_GLYPH_NAME_INDEX = 2
-CSV_STATUS_INDEX = 6
-CSV_STATUS_VALID_TUPLE = ("A", "A/C")
-
 NON_UNICODE_BEGIN_ENCODING = 0x110000
 NON_UNICODE_CODE_POINT = -1
 
 CWD = os.getcwd()
 SFD_PATH = os.sep.join([CWD, "src"])
-CSV_FILE_NAME = os.sep.join([CWD, "data", "glyph-stats.csv"])
 FONT_FAMILY_NAME = "FiraMath"
 WEIGHT_LIST = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
                "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
@@ -93,15 +89,6 @@ class Char:
         if self.unicode != NON_UNICODE_CODE_POINT:
             return True
         return False
-
-
-def get_name_list(csv_file_name):
-    """Return a list of glyph names from font data file (CSV).
-    """
-    with open(csv_file_name, "r") as csv_file:
-        csv_reader = csv.reader(csv_file)
-        return [row[CSV_GLYPH_NAME_INDEX] for row in csv_reader
-                if row[CSV_STATUS_INDEX] in CSV_STATUS_VALID_TUPLE]
 
 
 def sfd_parse(sfd_file_name):
@@ -163,7 +150,7 @@ def _main():
     for i in WEIGHT_LIST:
         file_name = os.sep.join([SFD_PATH, FONT_FAMILY_NAME + "-" + i + ".sfd"])
         sfd = sfd_parse(file_name)
-        sfd_str = sfd_normalize(sfd, get_name_list(CSV_FILE_NAME))
+        sfd_str = sfd_normalize(sfd, glyph_data.get_name_list())
         # sfd_write(file_name, sfd_str, backup=True)
         sfd_write(file_name, sfd_str)
 

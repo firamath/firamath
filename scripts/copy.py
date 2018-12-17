@@ -19,15 +19,10 @@ Here, `+` denotes the masters, `-` means no bold versions are available.
 
 from __future__ import print_function
 
-import csv
 import os
 import fontforge
 
-CSV_UNICODE_INDEX = 0
-CSV_STATUS_INDEX = 6
-CSV_SOURCE_INDEX = 7
-CSV_FIRA_GLYPH_INDEX = 8
-CSV_SOURCE_VALID_TUPLE = ("R", "B", "I", "X")
+import glyph_data
 
 SOURCE_FONT_FAMILY_NAME = "FiraSans"
 FONT_FAMILY_NAME = "FiraMath"
@@ -54,37 +49,6 @@ WEIGHT_MAPPING_DICT = {"Thin":       "ExtraLight",
 CWD = os.getcwd()
 OTF_PATH = os.sep.join([CWD, "assets", "Fira_Sans_OTF_4301", "Normal"])
 SFD_PATH = os.sep.join([CWD, "temp", "sfd", "new"])
-CSV_FILE_NAME = os.sep.join([CWD, "data", "glyph-stats.csv"])
-
-
-def unicode_str_to_int(unicode_str):
-    """`unicode_str` should be `"U+XXXX"` or `"U+XXXXX"`.
-    """
-    return int(unicode_str[2:], 16)
-
-
-def get_mapping_dict(csv_file_name):
-    """Return a dict of glyph mappings from font data file (CSV). Each entry is in the format:
-        unicode<int>: {"source": R/B/I/X, "fira-glyph": <int>}.
-    """
-    def _key(row):
-        return unicode_str_to_int(row[CSV_UNICODE_INDEX])
-    def _val(row):
-        fira_glyph_str = row[CSV_FIRA_GLYPH_INDEX]
-        if fira_glyph_str == "":
-            fira_glyph = unicode_str_to_int(row[CSV_UNICODE_INDEX])
-        else:
-            if fira_glyph_str[:2] == "U+":
-                fira_glyph = unicode_str_to_int(fira_glyph_str)
-            else:
-                fira_glyph = fira_glyph_str
-        # fira_glyph = unicode_str_to_int(row[
-        #     CSV_UNICODE_INDEX if row[CSV_FIRA_GLYPH_INDEX] == "" else CSV_FIRA_GLYPH_INDEX])
-        return {"source": row[CSV_SOURCE_INDEX], "fira-glyph": fira_glyph}
-    with open(csv_file_name, "r") as csv_file:
-        csv_reader = csv.reader(csv_file)
-        return {_key(row): _val(row) for row in csv_reader
-                if row[CSV_SOURCE_INDEX] in CSV_SOURCE_VALID_TUPLE}
 
 
 def open_font(weight, copy_bold=True):
@@ -143,7 +107,7 @@ def _split_list(x, func):
 
 
 def _main():
-    mapping_dict = get_mapping_dict(CSV_FILE_NAME)
+    mapping_dict = glyph_data.get_mapping_dict()
     source_font_dict = {i: open_font(i) for i in WEIGHT_LIST_A}
     source_font_dict.update({i: open_font(i, copy_bold=False) for i in WEIGHT_LIST_B})
     for weight, val in source_font_dict.items():

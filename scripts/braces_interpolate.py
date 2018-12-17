@@ -10,6 +10,7 @@ if platform.system() == "Linux":
 elif platform.system() == "Windows":
     PATH = CWD + "\\temp\\sfd\\braces.sfdir\\"
 
+
 def get_points(path):
     """
     Return:
@@ -38,6 +39,7 @@ def get_points(path):
                                    "tag": i[2]})
     return width, points_list
 
+
 def list_subdivide(list_min, list_max, n, round_to_int=True):
     """Return `n` subdivisions of two equal-length lists.
 
@@ -52,6 +54,7 @@ def list_subdivide(list_min, list_max, n, round_to_int=True):
         result.append([subdivide(min_val, max_val, i)
                        for min_val, max_val in zip(list_min, list_max)])
     return result
+
 
 def get_spline_set_str(points):
     """Return a string of SplineSet.
@@ -68,6 +71,7 @@ def get_spline_set_str(points):
                 point_str += str(coord) + " "
         spline_set_str += point_str + i["type"] + " " + i["tag"] + "\n"
     return spline_set_str
+
 
 def interpolate(glyph_min, glyph_max, num):
     result = []
@@ -87,6 +91,7 @@ def interpolate(glyph_min, glyph_max, num):
     # Transpose `result`
     return map(list, zip(*result))
 
+
 def get_new_meta_data(start_name, num):
     start_unicode_dec = int(start_name[3:], 16) + 1
 
@@ -102,6 +107,7 @@ def get_new_meta_data(start_name, num):
                        "encoding": str(unicode_dec),
                        "index": str(glyphs_count + i)})
     return result
+
 
 def generate_new_glyphs(min_name, max_name, start_name, num):
     path_min = PATH + min_name + ".glyph"
@@ -142,6 +148,7 @@ def generate_new_glyphs(min_name, max_name, start_name, num):
         result.append({"name": file_name, "content": new_str})
     return result
 
+
 def write_files(file_list):
     for i in file_list:
         if platform.system() == "Linux":
@@ -150,6 +157,7 @@ def write_files(file_list):
         elif platform.system() == "Windows":
             with open(PATH + i["name"], "w", newline="\n") as file_i:
                 file_i.write(i["content"])
+
 
 def main():
     # Parentheses
