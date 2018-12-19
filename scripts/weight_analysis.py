@@ -109,7 +109,7 @@ def analysis(weight_list, accuracy_goal=2):
         - `weight_list`: the first one and the last one will be used as base style.
         - `accuracy_goal`: The decimals of the final results.
     """
-    font_list = [_open_font(w) for w in weight_list]
+    font_list = [_open_font(weight) for weight in weight_list]
     font_a, font_b = font_list[0], font_list[-1]
     result = collections.OrderedDict()
     for font_check in font_list:

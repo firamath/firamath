@@ -16,11 +16,14 @@
 *.pdf
 *.xdv
 
+# Python caches
+*.pyc
+__pycache__/
+
 # Backup files
 *.bak
 
 # Folders
-__pycache__/
 .vscode/
 assets/
 references/
