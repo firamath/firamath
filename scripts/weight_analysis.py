@@ -4,7 +4,9 @@
 
 from __future__ import print_function
 
+import collections
 import itertools
+import json
 import math
 import os
 import fontforge as ff
@@ -35,16 +37,9 @@ ANALYSIS_GLYPH_LIST = list(itertools.chain.from_iterable(
      (0x221E, ),            # Infinity
      (0x1D434, 0x1D443),    # Mathematical italic latin letters (1)
      (0x1D45B, 0x1D467)]))  # Mathematical italic latin letters (2)
-WEIGHT_LIST = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
-               "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
-# The decimals of the final results.
-ACCURACY_GOAL = 4
 
 # DEBUG
 # ANALYSIS_GLYPH_LIST = _make_unicode_list(0x30, 0x39)
-# WEIGHT_LIST = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular"]
-# WEIGHT_LIST = ["Regular", "Medium", "SemiBold", "Bold"]
-# WEIGHT_LIST = ["Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
 
 
 def _open_font(weight):
@@ -107,20 +102,39 @@ def get_interpolation_t(font_a, font_b, font_check, t_list):
     return _list_min_pos(dist_list)
 
 
-def _main():
+def analysis(weight_list, accuracy_goal=2):
     """Use iteration method to find the best interpolation coefficient.
+
+    Args:
+        - `weight_list`: the first one and the last one will be used as base style.
+        - `accuracy_goal`: The decimals of the final results.
     """
-    font_list = [_open_font(w) for w in WEIGHT_LIST]
+    font_list = [_open_font(w) for w in weight_list]
     font_a, font_b = font_list[0], font_list[-1]
+    result = collections.OrderedDict()
     for font_check in font_list:
         accuracy_count = 0
         t_interval = (0, 1)  # Initial interval
-        while accuracy_count < ACCURACY_GOAL:
+        while accuracy_count < accuracy_goal:
             t_list = _subdivide(*t_interval)
             t_dict = get_interpolation_t(font_a, font_b, font_check, t_list)
             t_interval = tuple(t_list[i] for i in t_dict["min_interval"])
             accuracy_count += 1
-        print(font_check.weight, t_list[t_dict["min_pos"]])
+        result.update({font_check.weight: t_list[t_dict["min_pos"]]})
+    return (weight_list[0] + "-" + weight_list[-1], result)
+
+
+def _main():
+    weight_lists = [
+        ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular"],
+        ["Regular", "Medium", "SemiBold", "Bold"],
+        ["Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"],
+        ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular", "Medium",
+         "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]]
+    accuracy_goal = 4
+    result = collections.OrderedDict([analysis(w_list, accuracy_goal) for w_list in weight_lists])
+    json.encoder.FLOAT_REPR = lambda o: format(o, "." + str(accuracy_goal) + "f")
+    print(json.dumps(result, indent=4, separators=(',', ': ')))
 
 if __name__ == "__main__":
     _main()
