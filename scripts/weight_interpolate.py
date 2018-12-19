@@ -10,7 +10,6 @@ import os
 import fontforge as ff
 
 
-WEIGHT_LIST = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular"]
 with open(os.sep.join([os.getcwd(), "data", "weight-analysis.json"])) as f:
     WEIGHT_ANALYSIS_DATA = json.loads(f.read(), object_pairs_hook=collections.OrderedDict)
 
@@ -18,19 +17,6 @@ with open(os.sep.join([os.getcwd(), "data", "weight-analysis.json"])) as f:
 def _open_font(weight):
     file_name = os.sep.join([os.getcwd(), "src", "FiraMath-" + weight + ".sfd"])
     return ff.open(file_name)
-
-
-# def _transpose(_list):
-#     return map(list, zip(*_list))
-
-
-# def _name_to_unicode(char_name):
-#     if "." in char_name:
-#         return -1
-#     if "uni" in char_name:
-#         return int(char_name[4:], 16)
-#     if "u" in char_name:
-#         return int(char_name[1:], 16)
 
 
 def interpolate_font(weight_dict, glyph_list):

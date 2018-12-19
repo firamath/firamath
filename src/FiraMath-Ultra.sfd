@@ -15053,6 +15053,7 @@ StartChar: uni222B
 Encoding: 8747 8747 587
 Width: 1418
 Flags: W
+GlyphVariantsVertical: uni222B uni222B.display
 LayerCount: 2
 Fore
 SplineSet
@@ -15076,6 +15077,7 @@ StartChar: uni222C
 Encoding: 8748 8748 588
 Width: 2038
 Flags: W
+GlyphVariantsVertical: uni222C uni222C.display
 LayerCount: 2
 Fore
 SplineSet
@@ -15112,6 +15114,7 @@ StartChar: uni222D
 Encoding: 8749 8749 589
 Width: 2658
 Flags: W
+GlyphVariantsVertical: uni222D uni222D.display
 LayerCount: 2
 Fore
 SplineSet
@@ -15161,6 +15164,7 @@ StartChar: uni2A0C
 Encoding: 10764 10764 590
 Width: 3278
 Flags: W
+GlyphVariantsVertical: uni2A0C uni2A0C.display
 LayerCount: 2
 Fore
 SplineSet

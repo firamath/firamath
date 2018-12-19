@@ -25297,7 +25297,7 @@ Width: 1479
 Flags: W
 ItalicCorrection: 240
 IsExtendedShape: 1
-GlyphVariantsVertical: uni2A0C.display
+GlyphVariantsVertical: uni2A0C uni2A0C.display
 LayerCount: 2
 Fore
 SplineSet
