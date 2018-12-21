@@ -35,10 +35,34 @@ def interpolate_font(weight_dict, glyph_list):
 
 
 if __name__ == "__main__":
+    # integral_glyphs = [
+    #     "uni222B.display",
+    #     "uni222C.display",
+    #     "uni222D.display",
+    #     "uni2A0C.display"]
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
+    
     integral_glyphs = [
-        "uni222B.display",
-        "uni222C.display",
-        "uni222D.display",
-        "uni2A0C.display"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
+        "uni2032",
+        "uni2033",
+        "uni2034",
+        "uni2057",
+        "uni2035",
+        "uni2036",
+        "uni2037",
+        "uni2032.ssty1",
+        "uni2033.ssty1",
+        "uni2034.ssty1",
+        "uni2057.ssty1",
+        "uni2035.ssty1",
+        "uni2036.ssty1",
+        "uni2037.ssty1",
+        "uni2032.ssty2",
+        "uni2033.ssty2",
+        "uni2034.ssty2",
+        "uni2057.ssty2",
+        "uni2035.ssty2",
+        "uni2036.ssty2",
+        "uni2037.ssty2"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Ultra"], integral_glyphs)

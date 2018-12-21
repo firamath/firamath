@@ -28,6 +28,7 @@ TEST_FILE_NAME   = "weights"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
 WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
                     "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
+# WEIGHT_LIST      = ["Thin", "Ultra"]
 # WEIGHT_LIST      = ["Regular"]
 
 if not os.path.exists(OTF_PATH):

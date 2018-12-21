@@ -19,11 +19,11 @@
 \str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
     \clist_const:Nn \c__fonttest_weights_clist
-      % {
-      %   Thin, UltraLight, ExtraLight, Light, Book, Regular,
-      %   Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra
-      % }
-      { Thin, Regular, Ultra }
+      {
+        Thin, UltraLight, ExtraLight, Light, Book, Regular,
+        Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra
+      }
+      % { Thin, Regular, Ultra }
       % {Regular}
     \clist_map_inline:Nn \c__fonttest_weights_clist
       { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, BoldFont = *, version = #1 ] }

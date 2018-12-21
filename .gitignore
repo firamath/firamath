@@ -20,9 +20,6 @@
 *.pyc
 __pycache__/
 
-# Backup files
-*.bak
-
 # Folders
 .vscode/
 assets/
@@ -31,5 +28,6 @@ release/
 temp/
 
 # Other
+*.nb
 docs/standalone/
 docs/unimath-symbols.tex
