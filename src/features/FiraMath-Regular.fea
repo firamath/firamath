@@ -10,21 +10,6 @@ table name {
     nameid 17 "Regular";                  # Typographic (Preferred) Subfamily name
 } name;
 
-feature dtls {
-    script math;
-    sub uni0069 by uni0131;  # i -> dotless i
-    sub uni006A by uni0237;  # j -> dotless j
-    sub u1D456  by u1D6A4;   # mathit i -> mathit dotless i
-    sub u1D457  by u1D6A5;   # mathit j -> mathit dotless j
-} dtls;
-
-feature ssty {
-    script math;
-    sub uni2032 from [uni2032.ssty1];  # prime -> supscript prime
-    sub uni2033 from [uni2033.ssty1];  # double prime -> supscript double prime
-    sub uni2034 from [uni2034.ssty1];  # triple prime -> supscript triple prime
-} ssty;
-
 feature pnum {
     sub uni0030 by uni0030.pnum;  # 0
     sub uni0031 by uni0031.pnum;  # 1

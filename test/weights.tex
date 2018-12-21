@@ -8,21 +8,34 @@
 \unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
 
 \setmainfont{TeX Gyre Pagella}
-\setsansfont{TeX Gyre Heros}
-\setmonofont{CMU Typewriter Text}[UprightFont=* Light, HyphenChar=None]
+% \setsansfont{TeX Gyre Heros}
+% \setmonofont{CMU Typewriter Text}[UprightFont=* Light, HyphenChar=None]
 
 \ExplSyntaxOn
+\str_new:N  \l_fonttest_font_str
+\str_set:Nn \l_fonttest_font_str { fira }  % Can be either fira/xits
 
-\clist_const:Nn \c__fonttest_weights_clist
+
+\str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
-    Thin, UltraLight, ExtraLight, Light, Book, Regular,
-    Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra
+    \clist_const:Nn \c__fonttest_weights_clist
+      % {
+      %   Thin, UltraLight, ExtraLight, Light, Book, Regular,
+      %   Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra
+      % }
+      { Thin, Regular, Ultra }
+      % {Regular}
+    \clist_map_inline:Nn \c__fonttest_weights_clist
+      { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, BoldFont = *, version = #1 ] }
   }
-  % { Thin, Regular, Ultra }
-  % {Regular}
-
-\clist_map_inline:Nn \c__fonttest_weights_clist
-  { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, BoldFont = *, version = #1 ] }
+  {
+    \str_if_eq:VnT \l_fonttest_font_str { xits }
+      {
+        \clist_const:Nn \c__fonttest_weights_clist { Regular, Bold }
+        \clist_map_inline:Nn \c__fonttest_weights_clist
+          { \setmathfont { XITSMath-#1.otf } [ BoldFont = *, version = #1 ] }
+      }
+  }
 
 \cs_new:Npn \WeightTest #1
   {
@@ -52,5 +65,17 @@
     \oiint_0^{+\infty}   f(x) \,\mathrm{d}x \,
     \oiiint_0^{+\infty}  f(x) \,\mathrm{d}x
   \]}
+
+\WeightTest{
+  \[\begin{gathered}
+    {f'}^{{f'}^{f'}} - {x''}^{{x''}^{x''}} + {F'''}^{{F'''}^{F'''}} - {H''''}^{{H''''}^{H''''}} \\
+    f'f^\prime f\prime + f''f^\dprime f\dprime + f'''f^\trprime f\trprime + f''''f^\qprime f\qprime \\
+      f'(x)   + g'(x)   - F'(x)   + V'(y)   - L'(x) + f\prime g\dprime h\trprime k\qprime
+    + f`(x)   + g`(x)   - F`(x)   + V`(y)   - L`(x) + f\backprime g\backdprime h\backtrprime \\
+      f''(x)  + g''(x)  - F''(x)  + V''(y)  - L''(x)
+    + f``(x)  + g``(x)  - F``(x)  + V``(y)  - L``(x) \\
+      f'''(x) + g'''(x) - F'''(x) + V'''(y) - L'''(x)
+    + f```(x) + g```(x) - F```(x) + V```(y) - L```(x)
+  \end{gathered}\]}
 
 \end{document}

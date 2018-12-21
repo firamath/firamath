@@ -29,3 +29,22 @@ feature liga {
     script latn;
         lookup liga01;
 } liga;
+
+feature dtls {
+    script math;
+    sub uni0069 by uni0131;  # dotless i
+    sub uni006A by uni0237;  # dotless j
+    sub u1D456  by u1D6A4;   # dotless mathit i
+    sub u1D457  by u1D6A5;   # dotless mathit j
+} dtls;
+
+feature ssty {
+    script math;
+    sub uni2032 from [uni2032.ssty1 uni2032.ssty2];  # prime
+    sub uni2033 from [uni2033.ssty1 uni2033.ssty2];  # double prime
+    sub uni2034 from [uni2034.ssty1 uni2034.ssty2];  # triple prime
+    sub uni2057 from [uni2057.ssty1 uni2057.ssty2];  # quadruple prime
+    sub uni2035 from [uni2035.ssty1 uni2035.ssty2];  # reversed prime
+    sub uni2036 from [uni2036.ssty1 uni2036.ssty2];  # reversed double prime
+    sub uni2037 from [uni2037.ssty1 uni2037.ssty2];  # reversed triple prime
+} ssty;
