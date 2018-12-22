@@ -4,7 +4,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
-More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...master).
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-1...master).
+
+## v0.4-beta-1 (2018-12-22)
+
+- Added:
+  - Support multiple weights - [#1](https://github.com/firamath/firamath/issues/1), [#4](https://github.com/firamath/firamath/issues/4) and [#9](https://github.com/firamath/firamath/issues/9)
+- Changed:
+  - Use single `.sfd` files instead of the `.sfdir` folders
+  - Latin, Greek and Cyrillic characters now (almost) follow Adobe Latin-3, Greek-1 and Cyrillic-1 charcter sets
+- Improved:
+  - Optimize the glyph of integrals, primes, etc
+  - Python scripts are re-written with FontForge's API
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3..1...v0.4-beta-1).
 
 ## v0.3.1 (2018-10-26)
 

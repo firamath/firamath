@@ -4,6 +4,17 @@
 uni2032.ssty1
 uni2033.ssty1
 uni2034.ssty1
+uni2057.ssty1
+uni2035.ssty1
+uni2036.ssty1
+uni2037.ssty1
+uni2032.ssty2
+uni2033.ssty2
+uni2034.ssty2
+uni2057.ssty2
+uni2035.ssty2
+uni2036.ssty2
+uni2037.ssty2
 ; Display Math Operators
 uni220F.display
 uni2210.display
