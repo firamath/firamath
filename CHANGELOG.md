@@ -17,7 +17,7 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
   - Optimize the glyph of integrals, primes, etc
   - Python scripts are re-written with FontForge's API
 
-More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3..1...v0.4-beta-1).
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.4-beta-1).
 
 ## v0.3.1 (2018-10-26)
 

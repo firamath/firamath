@@ -9,6 +9,41 @@ Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 - [FiraSans](https://github.com/bBoxType/FiraSans)
 - [FiraGO](https://github.com/bBoxType/FiraGO)
 
+## Showcase
+
+![Showcase](img/demo.png)
+
+## Installation
+
+### On your system
+
+Download `firamath-otf.zip` from [GitHub release](https://github.com/firamath/firamath/releases). Unzip and open the folder, then follow the instructions:
+
+- Windows
+  1. Quit related programs, e.g. Microsoft Word.
+  1. Double-click the font file to open it in the Font Previewer.
+  1. Click `Install` bottom to install.
+  1. You can also directly copy all the `.otf` font files into `%WINDOWS%\Fonts\` to install them.
+- macOS
+  1. Double-click on the font files in Finder.
+  1. It will open in the font previewer. Click Install Font. It will open in the Font Book.
+  1. Close the Font Book. The fonts should now be available.
+  1. Details can be found in [this article](http://support.apple.com/kb/HT2509).
+- Linux
+  1. Copy the `.otf` font files to your fonts directory.
+  1. Run `sudo fc-cache`.
+
+### On the TeX distribution
+
+- If there are no special reasons, you should always install Fira Math via the package manager:
+
+  - TeX Live: run `tlmgr install firamath`
+  - MiKTeX: run `mpm --admin --install=firamath`
+
+  Both distributions have GUI interfaces, you may enjoy them as well.
+
+- **[NOT RECOMMENDED]** Download `firamath.tds.zip` from [CTAN](https://ctan.org/pkg/firamath) or [GitHub release](https://github.com/firamath/firamath/releases), extract it in the root of one of your TDS trees, then run `mktexlsr` and `fc-cache` to update the filename database and font cache.
+
 ## Usage
 
 Fira Math can be used in LaTeX or Microsoft Word after installed on your OS.
@@ -43,15 +78,25 @@ You may try the [`firamath-otf`](https://ctan.org/pkg/firamath-otf) package as w
 
 See <https://superuser.com/q/1114697>.
 
-## Showcase
+## Building from source
 
-![Showcase](img/demo.png)
+The source files `FiraMath-*.sfd` are not designed for generating fonts directly. You need run the Python scripts to build Fira Math.
+
+### Windows
+
+1. Install [FontForge](https://fontforge.github.io).
+
+1. Run `ffpython.exe .\scripts\build.py --fonts`.
+
+### Linux
+
+1. Install Python 2.7 and `python-fontforge`, or the full [FontForge](https://fontforge.github.io).
+
+1. Run `python ./scripts/build.py --fonts`.
 
 ## Contributing
 
-[Issues](https://github.com/firamath/firamath/issues) and
-[pull requests](https://github.com/firamath/firamath/pulls)
-are always welcome.
+[Issues](https://github.com/firamath/firamath/issues) and [pull requests](https://github.com/firamath/firamath/pulls) are always welcome.
 
 ## License
 

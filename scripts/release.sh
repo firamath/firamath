@@ -24,15 +24,14 @@ mkdir -p $CTAN_DIR
 mkdir -p $FONT_DIR
 mkdir -p $DOC_DIR
 
-# TODO: we only need `Regular` weight now
-cp $WORKING_DIR/release/fonts/FiraMath-Regular.otf  $TEMP_DIR
-cp $WORKING_DIR/docs/firamath-demo.tex              $TEMP_DIR
-cp $WORKING_DIR/docs/firamath-specimen.tex          $TEMP_DIR
-cp $WORKING_DIR/docs/firamath-demo.pdf              $TEMP_DIR
-cp $WORKING_DIR/docs/firamath-specimen.pdf          $TEMP_DIR
-cp $WORKING_DIR/data/firamath-non-unicode.txt       $TEMP_DIR
+cp $WORKING_DIR/release/fonts/FiraMath-*.otf   $TEMP_DIR
+cp $WORKING_DIR/docs/firamath-demo.tex         $TEMP_DIR
+cp $WORKING_DIR/docs/firamath-specimen.tex     $TEMP_DIR
+cp $WORKING_DIR/docs/firamath-demo.pdf         $TEMP_DIR
+cp $WORKING_DIR/docs/firamath-specimen.pdf     $TEMP_DIR
+cp $WORKING_DIR/data/firamath-non-unicode.txt  $TEMP_DIR
 
-cp $WORKING_DIR/docs/README.ctan.md                 $TEMP_DIR/README.md
+cp $WORKING_DIR/docs/README.ctan.md            $TEMP_DIR/README.md
 
 cd $TEMP_DIR
 
