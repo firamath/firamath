@@ -79,7 +79,7 @@ def check_fonts():
 def _check_name(font, font_name):
     sfnt_font_name = font.sfnt_names[6][2]  # PostScript name
     if sfnt_font_name != font_name:
-        raise ValueError("'" + font_name + "' has an incorrect name '" + sfnt_font_name + "'!")
+        raise ValueError(str(font) + " has an incorrect name '" + sfnt_font_name + "'!")
     else:
         print("  Name check passed.")
 
@@ -90,11 +90,11 @@ def _check_gsub_lookups(font):
         for i in lookups:
             print("    " + i)
     else:
-        raise ValueError("'" + font.font_name + "' has empty GSUB lookups!")
+        raise ValueError(str(font) + " has empty GSUB lookups!")
 
 def _check_math_table(font):
     if not font.math.exists():
-        raise ValueError("'" + font.font_name + "' has empty MATH table!")
+        raise ValueError(str(font) + " has empty MATH table!")
     else:
         print("  MATH table check passed.")
 
