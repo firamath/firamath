@@ -1,4 +1,4 @@
-include(src/features/common.fea);
+include(common.fea);
 
 table name {
     nameid 1  "Fira Math Thin";        # Font Family name
