@@ -5,5 +5,5 @@ install:
   - mkdir -p ./release/fonts
   - docker build --tag fontforge .travis
 script:
-  - docker run --volume $(pwd):/firamath/work fontforge /bin/bash -c
-    'python ./scripts/build.py --fonts && python ./scripts/build.py --check'
+  - docker run --volume $(pwd):/home/firamath/work fontforge /bin/bash -c
+    "python ./scripts/build.py --fonts && python ./scripts/build.py --check"
