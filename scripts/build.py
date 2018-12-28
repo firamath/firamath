@@ -13,15 +13,20 @@ import datetime
 import os
 import platform
 
-import fontforge
+import fontforge as ff
 
 # Even on Windows, we should use `/` for paths, otherwise font generation will raise an error.
 PWD              = os.getcwd()
-SFD_PATH         = PWD + "/src"
-FEATURE_PATH     = PWD + "/src/features"
-OTF_PATH         = PWD + "/release/fonts"
-TEST_PATH        = PWD + "/test"
-DOCS_PATH        = PWD + "/docs"
+# SFD_PATH         = PWD + "/src"
+# FEATURE_PATH     = PWD + "/src/features"
+# OTF_PATH         = PWD + "/release/fonts"
+# TEST_PATH        = PWD + "/test"
+# DOCS_PATH        = PWD + "/docs"
+SFD_PATH         = os.path.join(PWD, "src")
+FEATURE_PATH     = os.path.join(PWD, "src", "features")
+OTF_PATH         = os.path.join(PWD, "release", "fonts")
+TEST_PATH        = os.path.join(PWD, "test")
+DOCS_PATH        = os.path.join(PWD, "docs")
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
 TEST_FILE_NAME   = "weights"
@@ -35,18 +40,25 @@ if not os.path.exists(OTF_PATH):
     os.mkdir(OTF_PATH)
 
 def generate_fonts():
-    print("FontForge version: " + fontforge.version())
+    print("FontForge version: " + ff.version())
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
     for i in WEIGHT_LIST:
-        font_name      = FAMILY_NAME + "-" + i
-        sfd_file       = SFD_PATH + "/" + font_name + ".sfd"
-        feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
-        otf_file       = OTF_PATH + "/" + font_name + ".otf"
+        # font_name      = FAMILY_NAME + "-" + i
+        # sfd_file       = SFD_PATH + "/" + font_name + ".sfd"
+        # feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
+        # otf_file       = OTF_PATH + "/" + font_name + ".otf"
+        font_name    = FAMILY_NAME + "-" + i
+        sfd_file     = os.path.join(SFD_PATH, font_name + ".sfd")
+        feature_file = os.path.join(FEATURE_PATH, font_name + ".fea")
+        otf_file     = os.path.join(OTF_PATH, font_name + ".otf")
 
-        font = fontforge.open(sfd_file)
+        font = ff.open(sfd_file)
         font.mergeFeature(feature_file)
-        font.generate(otf_file, flags=("opentype"))
+        font.generate(otf_file, flags=("opentype", "round"))
+        # x = font.generate(otf_file, flags=("opentype", "round"))
+        # print(x)
+        # platform.sys.exit()
         print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
               + " '" + font_name + "' " + "generated successfully.")
 
