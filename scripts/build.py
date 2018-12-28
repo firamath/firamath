@@ -74,21 +74,21 @@ def check_fonts():
         _check_gsub_lookups(font)
         _check_math_table(font)
         _validate(font)
-    print("\n\nAll tests passed.")
+    print("\n\nAll checks passed.")
 
 def _check_name(font, font_name):
     sfnt_font_name = font.sfnt_names[6][2]  # PostScript name
     if sfnt_font_name != font_name:
         raise ValueError("'" + font_name + "' has an incorrect name '" + sfnt_font_name + "'!")
     else:
-        print("\tName check passed.")
+        print("  Name check passed.")
 
 def _check_gsub_lookups(font):
     lookups = font.gsub_lookups
     if lookups != ():
-        print("\tGSUB lookups:")
+        print("  GSUB lookups:")
         for i in lookups:
-            print("\t\t", i)
+            print("    " + i)
     else:
         raise ValueError("'" + font.font_name + "' has empty GSUB lookups!")
 
@@ -96,17 +96,17 @@ def _check_math_table(font):
     if not font.math.exists():
         raise ValueError("'" + font.font_name + "' has empty MATH table!")
     else:
-        print("\tMATH table check passed.")
+        print("  MATH table check passed.")
 
 def _validate(font):
     validation_state_dict = {glyph: font[glyph].validation_state for glyph in font}
     if sum(validation_state_dict.values()) != 0:
-        print("\tGlyph validation state:")
+        print("  Glyph validation state:")
         for glyph, state in validation_state_dict.items():
             if state != 0:
-                print("\t\t" + glyph + ": " + hex(state))
+                print("    " + glyph + ": " + hex(state))
     else:
-        print("\tValidation passed.")
+        print("  Validation passed.")
 
 def xelatex_test():
     os.chdir(TEST_PATH)
