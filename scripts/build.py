@@ -65,7 +65,7 @@ def check_fonts():
     for weight in WEIGHT_LIST:
         font_name = FAMILY_NAME + "-" + weight
         otf_file  = os.path.join(OTF_PATH, font_name + ".otf")
-        print("\n", font_name)
+        print("\n" + font_name)
         if os.path.isfile(otf_file):
             font = ff.open(otf_file)
         else:
