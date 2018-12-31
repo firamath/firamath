@@ -1,11 +1,11 @@
 include(common.fea);
 
 table name {
-    nameid 1  "Fira Math Heavy";        # Font Family name
-    nameid 2  "Regular";                # Font Subfamily name
-    nameid 3  "Fira Math Heavy: 2018";  # Unique font identifier
-    nameid 4  "Fira Math Heavy";        # Full font name
-    nameid 6  "FiraMath-Heavy";         # PostScript name
-    nameid 16 "Fira Math";              # Typographic (Preferred) Family name
-    nameid 17 "Heavy";                  # Typographic (Preferred) Subfamily name
+    nameid 1  "Fira Math Heavy";
+    nameid 2  "Regular";
+    nameid 3  "0.4-beta-1;Fira Math Heavy";
+    nameid 4  "Fira Math Heavy";
+    nameid 6  "FiraMath-Heavy";
+    nameid 16 "Fira Math";
+    nameid 17 "Heavy";
 } name;

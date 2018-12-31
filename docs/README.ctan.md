@@ -41,4 +41,4 @@ This Font Software is licensed under the [SIL Open Font License](http://scripts.
 
 -----
 
-Copyright (C) 2018 by Xiangdong Zeng <xdzeng96@gmail.com>.
+Copyright (C) 2018, 2019 by Xiangdong Zeng <xdzeng96@gmail.com>.

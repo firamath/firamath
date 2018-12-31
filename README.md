@@ -104,4 +104,4 @@ This Font Software is licensed under the [SIL Open Font License](http://scripts.
 
 -----
 
-Copyright (C) 2018 by Xiangdong Zeng.
+Copyright (C) 2018, 2019 by Xiangdong Zeng.

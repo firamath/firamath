@@ -1,11 +1,11 @@
 include(common.fea);
 
 table name {
-    nameid 1  "Fira Math Light";        # Font Family name
-    nameid 2  "Regular";                # Font Subfamily name
-    nameid 3  "Fira Math Light: 2018";  # Unique font identifier
-    nameid 4  "Fira Math Light";        # Full font name
-    nameid 6  "FiraMath-Light";         # PostScript name
-    nameid 16 "Fira Math";              # Typographic (Preferred) Family name
-    nameid 17 "Light";                  # Typographic (Preferred) Subfamily name
+    nameid 1  "Fira Math Light";
+    nameid 2  "Regular";
+    nameid 3  "0.4-beta-1;Fira Math Light";
+    nameid 4  "Fira Math Light";
+    nameid 6  "FiraMath-Light";
+    nameid 16 "Fira Math";
+    nameid 17 "Light";
 } name;
