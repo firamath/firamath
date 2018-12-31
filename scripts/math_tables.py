@@ -29,11 +29,15 @@ def _name_to_unicode(name):
 def _main():
     weight_lists = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular", "Medium",
                     "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
+    # weight_lists = ["Thin", "Regular", "Ultra"]
     integral_glyphs = {
         "uni222B": "uni222B uni222B.display",
         "uni222C": "uni222C uni222C.display",
         "uni222D": "uni222D uni222D.display",
-        "uni2A0C": "uni2A0C uni2A0C.display"}
+        "uni2A0C": "uni2A0C uni2A0C.display",
+        "uni222E": "uni222E uni222E.display",
+        "uni222F": "uni222F uni222F.display",
+        "uni2230": "uni2230 uni2230.display"}
     font_list = [_open_font(weight) for weight in weight_lists]
     for font in font_list:
         for glyph_name in integral_glyphs.keys():
@@ -44,7 +48,7 @@ def _main():
                 font.copy()
                 font.selection.select(glyph_unicode)
                 font.paste()
-            font[glyph_unicode].verticalVariants = integral_glyphs[glyph_name]
+            font[glyph_name].verticalVariants = integral_glyphs[glyph_name]
         font.save()
 
 if __name__ == "__main__":

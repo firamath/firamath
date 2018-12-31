@@ -92,6 +92,7 @@ MATH:RadicalKernAfterDegree: -400
 MATH:RadicalDegreeBottomRaisePercent: 64
 MATH:MinConnectorOverlap: 20
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 AntiAlias: 1

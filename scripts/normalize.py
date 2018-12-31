@@ -22,7 +22,8 @@ import glyph_data
 
 SFD_PATTERN = re.compile(r"^(.*)BeginChars\S*\n*(.*)EndChars", flags=re.DOTALL)
 DROP_PATTERN = re.compile(
-    r"(?:UComments|sfntRevision|Compacted|DisplaySize|FitToEm|ModificationTime|WinInfo):\s.*\n")
+    r"(?:UComments|sfntRevision|DisplaySize|FitToEm|ModificationTime|WinInfo):\s.*\n")
+ENCODING_PATTERN = re.compile(r"Encoding:\s*.+\n(?:Compacted:.+\n)?")
 SINGLE_CHAR_PATTERN = re.compile(
     r"""StartChar:\s*(\S*)\n*Encoding:\s*([-\d]+)\s*([-\d]+)\s*([-\d]+)\n(.+?)EndChar""",
     flags=re.DOTALL)
@@ -30,6 +31,7 @@ FLAG_PATTERN = re.compile(r"(Flags:\s).*\n")
 HINT_PATTERN = re.compile(r"[HVD]Stem2?:\s.*\n")
 MASK_PATTERN = re.compile(r"(\s[mcl]\s)(\d)(?:x?.*)\n")
 DROP_REPL = ""
+ENCODING_REPL = r"Encoding: UnicodeFull\nCompacted: 1\n"
 FLAG_REPL = r"\1W\n"
 HINT_REPL = ""
 # `0x4` means that the point is selected
@@ -135,7 +137,8 @@ def sfd_normalize(sfd, name_list):
 
 
 def _sfd_head_normalize(sfd_head_str):
-    return re.sub(DROP_PATTERN, DROP_REPL, sfd_head_str)
+    return re.sub(ENCODING_PATTERN, ENCODING_REPL,
+                  re.sub(DROP_PATTERN, DROP_REPL, sfd_head_str))
 
 
 def _sfd_chars_normalize(sfd_chars_list, name_list):

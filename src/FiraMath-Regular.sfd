@@ -101,6 +101,7 @@ MATH:RadicalKernAfterDegree: -400
 MATH:RadicalDegreeBottomRaisePercent: 64
 MATH:MinConnectorOverlap: 20
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 AntiAlias: 1
@@ -18691,7 +18692,7 @@ Width: 639
 Flags: W
 ItalicCorrection: 240
 IsExtendedShape: 1
-GlyphVariantsVertical: uni222E.display
+GlyphVariantsVertical: uni222E uni222E.display
 LayerCount: 2
 Fore
 SplineSet
@@ -18729,7 +18730,7 @@ Width: 919
 Flags: W
 ItalicCorrection: 240
 IsExtendedShape: 1
-GlyphVariantsVertical: uni222F.display
+GlyphVariantsVertical: uni222F uni222F.display
 LayerCount: 2
 Fore
 SplineSet
@@ -18792,7 +18793,7 @@ Width: 1199
 Flags: W
 ItalicCorrection: 240
 IsExtendedShape: 1
-GlyphVariantsVertical: uni2230.display
+GlyphVariantsVertical: uni2230 uni2230.display
 LayerCount: 2
 Fore
 SplineSet
