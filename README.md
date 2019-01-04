@@ -42,11 +42,11 @@ Download `firamath-otf.zip` from [GitHub release](https://github.com/firamath/fi
 
   Both distributions have GUI interfaces, you may enjoy them as well.
 
-- **[NOT RECOMMENDED]** Download `firamath.tds.zip` from [CTAN](https://ctan.org/pkg/firamath) or [GitHub release](https://github.com/firamath/firamath/releases), extract it in the root of one of your TDS trees, then run `mktexlsr` and `fc-cache` to update the filename database and font cache.
+- **[NOT RECOMMENDED]** Download `firamath.tds.zip` from [CTAN](https://ctan.org/pkg/firamath) or [GitHub release page](https://github.com/firamath/firamath/releases), extract it in the root of one of your TDS trees, then run `mktexlsr` and `fc-cache` to update the filename database and font cache.
 
 ## Usage
 
-Fira Math can be used in LaTeX or Microsoft Word after installed on your OS.
+Fira Math can be used in LaTeX, ConTeXt and Microsoft Word after installed on your OS (or the TeX distribution).
 
 ### LaTeX
 
@@ -65,6 +65,23 @@ Fira Math can be used in LaTeX or Microsoft Word after installed on your OS.
 ```
 
 You may try the [`firamath-otf`](https://ctan.org/pkg/firamath-otf) package as well. - Thanks [Herbert Voß](https://github.com/hvoss49)!
+
+### ConTeXt
+
+```tex
+% Compiled with ConTeXt MkIV
+\definefontfamily [mainface] [rm] [FiraGO]  % Require FiraGO fonts
+\definefontfamily [mainface] [mm] [Fira Math]
+\setupbodyfont    [mainface]
+
+\starttext
+\startformula
+  \int_0^{\mathrm{\pi}} \sin x \, \mathrm{d}x = 2
+\stopformula
+\stoptext
+```
+
+See <https://tex.stackexchange.com/q/429621>.
 
 ### Microsoft Word
 

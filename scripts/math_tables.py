@@ -46,7 +46,7 @@ def _main():
                 font.createChar(glyph_unicode, glyph_name)
                 font.selection.select(0x0020)  # Space
                 font.copy()
-                font.selection.select(glyph_unicode)
+                font.selection.select(glyph_name)
                 font.paste()
             font[glyph_name].verticalVariants = integral_glyphs[glyph_name]
         font.save()
