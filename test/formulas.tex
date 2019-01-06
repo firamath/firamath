@@ -1,18 +1,22 @@
 \input{setup.tex}
 
 \documentclass{article}
-\usepackage{amsmath,unicode-math,slashed,physics,geometry,xcolor,hyperref}
+\usepackage{amsmath,physics,unicode-math,xeCJK,slashed,geometry,xcolor,hyperref}
 
-\geometry{paperwidth=30cm, paperheight=80cm, margin=2.54cm, showframe}
+% \geometry{paperwidth=30cm, paperheight=80cm, margin=2.54cm}
+\geometry{a3paper, margin=2.54cm}
 \unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
-\hypersetup{colorlinks=true,urlcolor=MaterialIndigo}
+\hypersetup{colorlinks=true, urlcolor=MaterialIndigo, citecolor=MaterialTeal}
 \definecolor{MaterialIndigo}{HTML}{3F51B5}
+\definecolor{MaterialTeal}{HTML}{009688}
 
 \setmainfont{FiraGO}[BoldFont=* SemiBold]
 \setmonofont{Iosevka}
+\setmathfont{FiraMath-Regular.otf}[Path=../release/fonts/, BoldFont=*]
+\setCJKmainfont{Source Han Sans SC}
 
-\def\WIEGHT{Regular}
-\setmathfont{FiraMath-\WIEGHT.otf}[Path=../release/fonts/, BoldFont=*]
+% \setmainfont{XITS}
+% \setmonofont{TeX Gyre Cursor}
 % \setmathfont{XITS Math}
 % \setmathfont{STIX Two Math}
 
@@ -31,18 +35,28 @@
 \def\lagL{\symscr{L}}
 \def\actS{\symscr{S}}
 \def\maniM{\symscr{M}}
+\def\info{\symscr{o}}
 
+\def\realR{\symbb{R}}
+
+\def\pd{\partial}
+\def\Box{\mdlgwhtsquare}
 \def\hodge{\ast} % TODO: \star is not available
 \def\trans{{\symrm{T}}}
 
 \def\infint{\int_{-\infty}^{+\infty}}
 \def\fhalf{\frac{1}{2}}
 
+\title{\textbf{Formulas Test for Fira Math}}
+\author{Xiangdong Zeng}
+
 \begin{document}
 
-\section{Ramanujan's Formulas}
+\maketitle
 
-Ramanujan--Sato series (\url{https://en.wikipedia.org/wiki/Ramanujan%E2%80%93Sato_series})
+\section{Ramanujan's formulas}
+
+Ramanujan--Sato series \cite{wiki:ramanujan-sato-series}
 \begin{align}
   \frac{1}{\pp}
   &= \frac{2\sqrt2}{99^2} \sum_{k=0}^{\infty} \frac{(4k)!}{k!^4} \frac{26390k+1103}{396^{4k}} \\
@@ -50,15 +64,12 @@ Ramanujan--Sato series (\url{https://en.wikipedia.org/wiki/Ramanujan%E2%80%93Sat
      \frac{(6k)! (545140134k+13591409)}{(3k)! (k!)^3 (-2625 3741 2640 7680 00)^k} \\
   &= \frac{\sqrt{n}}{3} \sum_{m=0}^{\infty} \qty\big[6v(k)m + \bar{G}(k_1,\,k)] \, b_m c^m (k).
 \end{align}
-
-Rogers--Ramanujan continued fraction
-(\url{http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html})
+Rogers--Ramanujan continued fraction \cite{mathworld:rogers-ramanujan-continued-fraction}
 \begin{equation}
   r = \cfrac{1}{1+\cfrac{\ee^{-2\pp}}{1+\cfrac{\ee^{-4\pp}}{1+\cdots}}}
     = \frac{\fourthroot{5}\sqrt{\phi}-\phi}{\ee^{-2\pp/5}} \approx 1.
 \end{equation}
-
-Ramanujan's Integral I (\url{http://mathworld.wolfram.com/RamanujansIntegral.html})
+Ramanujan's Integral I \cite{mathworld:ramanujan-integral}
 \begin{equation}
   \infint \frac{\BesselJ_{\mu+\xi}(x)}{x^{\mu+\xi}} \frac{\BesselJ_{\nu-\xi}(y)}{y^{\nu-\xi}}
           \ee^{\ii t\xi} \dd{\xi}
@@ -66,7 +77,6 @@ Ramanujan's Integral I (\url{http://mathworld.wolfram.com/RamanujansIntegral.htm
     \cdot \BesselJ_{\mu+\nu} \sqrt{2\cos(\fhalf t)\qty(x^2\ee^{-\ii t/2}+y^2\ee^{\ii t/2})}
     \cdot \ee^{\ii t(\nu-\mu)/2}.
 \end{equation}
-
 Ramanujan's Integral II
 \begin{align}
      \int_0^\infty \frac{\dd{x}}{(1+x^2)\,(1+r^2x^2)\,(1+r^4x^2)\cdots}
@@ -75,9 +85,7 @@ Ramanujan's Integral II
      x^{n-1} \dd{x}
   &= \frac{\pp}{\sin n\pp} \prod_{m=1}^\infty \frac{(1-r^{m-n})\,(1-ar^m)}{(1-r^m)\,(1-ar^{m-n})}.
 \end{align}
-
-Ramanujan log-trigonometric integrals
-(\url{http://mathworld.wolfram.com/RamanujanLog-TrigonometricIntegrals.html})
+Ramanujan log-trigonometric integrals \cite{mathworld:ramanujan-log-trigonometric-integrals}
 \begin{equation}
   \int_0^{\frac{\pp}{2}}
     \frac{\sqrt{\fhalf \sqrt{\frac{\ln^2\cos\theta}{\theta^2+\ln^2\cos\theta}} + \fhalf}}%
@@ -95,15 +103,13 @@ Generalization:
                                     \frac{\ln^2\cos\theta}{\theta^2+\ln^2\cos\theta}}}} \dd{\theta}
          = (\ln 2)^{2^{-n}}.
 \end{align}
-
-Ramanujan cos/cosh identity (\url{http://mathworld.wolfram.com/RamanujanCosCoshIdentity.html})
+Ramanujan cos/cosh identity \cite{mathworld:ramanujan-cos-cosh-identity}
 \begin{equation}
     \qty(1+2\sum_{n=1}^\infty \frac{\cos  n\theta}{\cosh n\pp})^{-2}
   + \qty(1+2\sum_{n=1}^\infty \frac{\cosh n\theta}{\cosh n\pp})^{-2}
   = \frac{2\EulerGamma^4\qty(\frac{3}{4})}{\pp}.
 \end{equation}
-
-See \url{https://www.zhihu.com/question/26292855/answer/266846441}.
+See also \cite{zhihu:ramanujan}.
 
 \section{Lagrangian and action}
 
@@ -111,31 +117,26 @@ Electromagnetism
 \begin{equation}
   \lagL(x) = j^\mu(x) A_\mu(x) - \frac{1}{4\mu_0} F_{\mu\nu}(x) F^{\mu\nu}(x).
 \end{equation}
-
 Electromagnetism using differential forms
 \begin{equation}
   \actS[\bm{A}] = -\int_{\maniM} \qty(\fhalf\bm{F}\wedge\hodge\bm{F} + \bm{A}\wedge\hodge\bm{J}).
 \end{equation}
-
 Dirac Lagrangian
 \begin{equation}
-  \lagL = \ii\hbar c\bar{\psi}\slashed{\partial}\psi - mc^2\bar{\psi}\psi.
+  \lagL = \ii\hbar c\bar{\psi}\slashed{\pd}\psi - mc^2\bar{\psi}\psi.
 \end{equation}
-
 Quantum electrodynamic (QED) Lagrangian
 \begin{equation}
   \lagL_{\mathrm{QED}}
   = \ii\hbar c\bar{\psi}\slashed{\dD}\psi - mc^2\bar{\psi}\psi
   - \frac{1}{4\mu_0} F_{\mu\nu} F^{\mu\nu}.
 \end{equation}
-
 Quantum chromodynamic (QCD) Lagrangian
 \begin{equation}
   \lagL_{\mathrm{QCD}}
   = \sum_n \qty(\ii\hbar c\bar{\psi}_n\slashed{\dD}\psi_n - mc^2\bar{\psi}_n\psi_n)
   - \frac{1}{4} G^\alpha{}_{\mu\nu} G_\alpha{}^{\mu\nu}.
 \end{equation}
-
 Standard Model Lagrangian
 \begingroup
 \def\L{{\symrm{L}}}
@@ -170,148 +171,173 @@ Standard Model Lagrangian
                           + \bar{u}_\R \bar{M}^u \phi^\trans \mqty(-d_\L \\ u_\L)]}%
             ^{\text{up, charmed, top}}
         \tag*{[quark mass]} \\
-    % &{} - \frac{\sqrt{2}}{v} \qty[  \qty(\bar{u}_\L,\,\bar{d}_\L) \, \phi M^d d_\R
-    %                               + \bar{d}_\R \bar{M}^d \bar{\phi} \, \mqty(u_\L \\ d_\L)]
-    %     - \frac{\sqrt{2}}{v} \qty[  \qty(-\bar{d}_\L,\,\bar{u}_\L) \, \phi^* M^u u_\R
-    %                               + \bar{u}_\R \bar{M}^u \phi^\trans \mqty(-d_\L \\ u_\L)]
-    %     \tag*{[quark mass]} \\
     &{} + \overline{\dD_\mu\phi} \, \dD^\mu\phi
         - \frac{m_H^2}{2v^2} \qty(\bar{\phi}\phi-\frac{v^2}{2})^2
         \tag*{[Higgs dynamical and mass]}.
 \end{align}
 \endgroup
+See \cite{wiki:lagrangian} and \cite{shifflett:lagrangian}.
 
-See \url{https://en.wikipedia.org/wiki/Lagrangian_(field_theory)} and
-\url{http://einstein-schrodinger.com/Standard_Model.pdf}.
+\section{Maxwell's equations}
+
+Differential equations (vaccum):
+\begin{equation}
+  \nabla\cdot\bm{E} = \frac{\rho}{\varepsilon_p} \qc
+  \nabla\cdot\bm{B} = 0 \qc
+  \nabla\times\bm{E} = -\pdv{\bm{B}}{t} \qc
+  \nabla\times\bm{B} = \mu_0\bm{J} + \mu_0\varepsilon_0\pdv{\bm{E}}{t}.
+\end{equation}
+Integral equations (vaccum):
+\begin{equation}
+  \oiint_{\pd\Omega} \bm{E}\cdot\dd{\bm{S}}
+    = \frac{1}{\varepsilon_0} \iiint_\Omega \rho\dd{V} \qc
+  \oiint_{\pd\Omega} \bm{B}\cdot\dd{\bm{S}} = 0 \qc
+  \oint_{\pd\Sigma} \bm{E}\cdot\dd{\bm{l}}
+    = - \dv{t} \iint_\Sigma \bm{B}\cdot\dd{\bm{S}} \qc
+  \oint_{\pd\Sigma} \bm{B}\cdot\dd{\bm{l}}
+    = \iint_\Sigma \mu_0\bm{J}\cdot\dd{\bm{S}}
+    + \dv{t}\iint_\Sigma \mu_0\varepsilon_0\bm{E}\cdot\dd{\bm{S}}.
+\end{equation}
+Differential equations (matter):
+\begin{equation}
+  \nabla\cdot\bm{D} = \rho_{\mathrm{f}} \qc
+  \nabla\cdot\bm{B} = 0 \qc
+  \nabla\times\bm{E} = -\pdv{\bm{B}}{t} \qc
+  \nabla\times\bm{B} = \bm{J}_{\mathrm{f}} + \pdv{\bm{D}}{t}.
+\end{equation}
+Integral equations (matter):
+\begin{equation}
+  \oiint_{\pd\Omega} \bm{D}\cdot\dd{\bm{S}}
+    = \iiint_\Omega \rho_{\mathrm{f}}\dd{V} \qc
+  \oiint_{\pd\Omega} \bm{B}\cdot\dd{\bm{S}} = 0 \qc
+  \oint_{\pd\Sigma} \bm{E}\cdot\dd{\bm{l}}
+    = - \dv{t} \iint_\Sigma \bm{B}\cdot\dd{\bm{S}} \qc
+  \oint_{\pd\Sigma} \bm{H}\cdot\dd{\bm{l}}
+    = \iint_\Sigma \bm{J}_{\mathrm{f}}\cdot\dd{\bm{S}}
+    + \dv{t}\iint_\Sigma \bm{D}\cdot\dd{\bm{S}}.
+\end{equation}
+Tensor calculus (Lorenz gauge):
+\begin{gather}
+  B_{ij} = \pd_{[i} A_{j]} = \nabla_{[i} A_{j]} \qc
+  E_i = - \pdv{A_i}{t} - \pd_i\phi = -\pdv{A_i}{t} - \nabla_i\phi, \\
+  - \frac{1}{\sqrt{h}} \pd_i\sqrt{h} \qty(\pd^i\phi + \pdv{A^i}{t})
+    = - \nabla_i\nabla^i\phi - \pdv{t}\nabla_i A^i = \frac{\rho}{\varepsilon_0}, \\
+  - \frac{1}{\sqrt{h}} \pd_i \qty(\sqrt{h}h^{im}h^{jn}\pd_{[m}A_{n]})
+  + \frac{1}{c^2} \pdv{t} \qty(\pdv{A^j}{t} + \pd^j\phi)
+    = - \nabla_i\nabla^i A^j + \frac{1}{c^2}\pdv[2]{A^j}{t} + R^j_i A^i
+      + \nabla^j \qty(\nabla_i A^i + \frac{1}{c^2}\pdv{\phi}{t}) = \mu_0 J^i.
+\end{gather}
+Differential forms (Lorenz gauge):
+\begin{equation}
+  F = \dd{A} \qc
+  \dd{\hodge A} = 0 \qc
+  \hodge\Box A = \mu_0 J.
+\end{equation}
+See \cite{wiki:maxwell-equations}.
+
+\section{Frenet--Serret frame}
+
+Definition
+\begin{equation}
+  \bm{T}(s) = \dot{\bm{r}}(s) \qc
+  \bm{N}(s) = \frac{\ddot{\bm{r}}(s)}{\norm{\ddot{\bm{r}}(s)}_{\realR^3}} \qc
+  \bm{B}(s) = \bm{T}(s)\vectimes\bm{N}(s)
+            = \frac{\dot{\bm{r}}(s)\vectimes\ddot{\bm{r}}(s)}{\norm{\ddot{\bm{r}}(s)}_{\realR^3}}.
+\end{equation}
+Frenet--Serret formulas
+\begin{equation}
+  \mqty[\dot{\bm{T}}(s) \\[0.4ex] \dot{\bm{N}}(s) \\[0.4ex] \dot{\bm{B}}(s)]
+  = \mqty[0 & \kappa & 0 \\[0.5ex] -\kappa & 0 & \tau \\[0.5ex] 0 & -\tau & 0] \,
+    \mqty[\bm{T}(s) \\[0.5ex] \bm{N}(s) \\[0.5ex] \bm{B}(s)] \qc \text{where curvature\ }
+  \kappa = \norm{\ddot{\bm{r}}(s)}_{\realR^3} \qc \text{torsion\ }
+  \tau   = \frac{\det\qty\big(\dot{\bm{r}}(s),\,\ddot{\bm{r}}(s),\,\dddot{\bm{r}}(s))}%
+                {\norm{\ddot{\bm{r}}(s)}_{\realR^3}^2}
+         = \frac{\qty\big(\dot{\bm{r}}(s)\vectimes\ddot{\bm{r}}(s))\cdotp\dddot{\bm{r}}(s)}%
+                {\norm{\ddot{\bm{r}}(s)}_{\realR^3}^2}.
+\end{equation}
+Taylor's expansion
+\begin{equation}
+  \bm{r}(s) = \bm{r}(0) + \qty[s-\frac16 s^3\kappa^2(0)] \, \bm{T}(0)
+    + \qty[\frac12 s^2\kappa(0) + \frac16 s^3\kappa'(0)] \, \bm{N}(0)
+    + \qty[\frac16 s^3\kappa(0)\tau(0)] \, \bm{B}(0) + \info\qty(s^3).
+\end{equation}
+Generalization
+\begin{equation}
+  \mqty(\dot{\bm{e}}_1(s) \\[0.4ex] \vdots \\[0.4ex] \dot{\bm{e}}_n(s))
+  = \mqty(0 & \chi_1(s) & & 0 \\[0.5ex] -\chi_1(s) & \ddots & \ddots & \\[0.5ex]
+            & \ddots & 0 & \chi_{n-1}(s) \\[0.5ex] 0 & & -\chi_{n-1}(s) & 0) \,
+    \mqty(\bm{e}_1(s) \\[0.5ex] \vdots \\[0.5ex] \bm{e}_n(s)) \qc
+  \text{where generalized curvature\ }
+  \chi_i(s) = \frac{\ev{\dot{\bm{e}}_i(s),\,\bm{e}_{i+1}(s)}}%
+                   {\norm{\dot{\bm{r}}(s)}_{\realR^n}}.
+\end{equation}
+See \cite{wiki:frenet-serret-formulas} and \cite{xie:tensor}.
+
+\begin{thebibliography}{99}
+  \bibitem{mathworld:ramanujan-cos-cosh-identity}
+    \newblock Eric W. Weisstein,
+    \newblock \href{http://mathworld.wolfram.com/RamanujanCosCoshIdentity.html}%
+                   {\textbf{Ramanujan Cos/Cosh Identity}}.
+    \newblock \textit{MathWorld--A Wolfram Web Resource}.
+
+  \bibitem{mathworld:ramanujan-integral}
+    \newblock Eric W. Weisstein,
+    \newblock \href{http://mathworld.wolfram.com/RamanujansIntegral.html}%
+                   {\textbf{Ramanujan's Integral}}.
+    \newblock \textit{MathWorld--A Wolfram Web Resource}.
+
+  \bibitem{mathworld:ramanujan-log-trigonometric-integrals}
+    \newblock Eric W. Weisstein,
+    \newblock \href{http://mathworld.wolfram.com/RamanujanLog-TrigonometricIntegrals.html}%
+                   {\textbf{Ramanujan Log-Trigonometric Integrals}}.
+    \newblock \textit{MathWorld--A Wolfram Web Resource}.
+
+  \bibitem{mathworld:rogers-ramanujan-continued-fraction}
+    \newblock Tito Piezas III and Eric W. Weisstein,
+    \newblock \href{http://mathworld.wolfram.com/Rogers-RamanujanContinuedFraction.html}%
+                   {\textbf{Rogers--Ramanujan Continued Fraction}}.
+    \newblock \textit{MathWorld--A Wolfram Web Resource}.
+
+  \bibitem{wiki:frenet-serret-formulas}
+    \newblock Wikipedia contributors,
+    \newblock \href{https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas}%
+                   {\textbf{Frenet--Serret formulas}}.
+    \newblock \textit{Wikipedia, the free encyclopedia}.
+
+  \bibitem{wiki:lagrangian}
+    \newblock Wikipedia contributors,
+    \newblock \href{https://en.wikipedia.org/wiki/Lagrangian_(field_theory)}%
+                   {\textbf{Lagrangian (field theory)}}.
+    \newblock \textit{Wikipedia, the free encyclopedia}.
+
+  \bibitem{wiki:maxwell-equations}
+    \newblock Wikipedia contributors,
+    \newblock \href{https://en.wikipedia.org/wiki/Maxwell%27s_equations}%
+                   {\textbf{Maxwell's equations}}.
+    \newblock \textit{Wikipedia, the free encyclopedia}.
+
+  \bibitem{wiki:ramanujan-sato-series}
+    \newblock Wikipedia contributors,
+    \newblock \href{https://en.wikipedia.org/wiki/Ramanujan%E2%80%93Sato_series}%
+                   {\textbf{Ramanujan--Sato series}}.
+    \newblock \textit{Wikipedia, the free encyclopedia}.
+
+  \bibitem{shifflett:lagrangian}
+    \newblock Jim Shifflett,
+    \newblock \href{http://einstein-schrodinger.com/Standard_Model.pdf}%
+                   {\textbf{Standard Model Lagrangian (including neutrino mass terms)}}.
+
+  \bibitem{zhihu:ramanujan}
+    \newblock 酱紫君,
+    \newblock \href{https://www.zhihu.com/question/26292855/answer/266846441}%
+                   {\textbf{有哪些美丽或神奇的理科公式？- 酱紫君的回答}}.
+    \newblock 知乎.
+
+  \bibitem{xie:tensor}
+    \newblock 谢锡麟,
+    \newblock \textbf{现代张量分析及其在连续介质力学中的应用}.
+    \newblock 上海: 复旦大学出版社.
+    \newblock ISBN: 978-7-309-10980-1.
+\end{thebibliography}
 
 \end{document}
-
-% \def\ee{\mathrm{e}}
-% \def\ii{\mathrm{i}}
-% \def\bm{\symbf}
-% \newcommand{\innerprod}[2]{\left\langle{#1}\middle\vert{#2}\right\rangle}
-% \newcommand{\brakket}[3]{\left\langle{#1}\middle\vert{#2}\middle\vert{#3}\right\rangle}
-% % \newcommand{\ket}[1]{\left\lvert{#1}\right\rangle}
-% % \newcommand{\bra}[1]{\left\langle{#1}\right\rvert}
-% % \newcommand{\ip}[2]{\left\langle{#1}\middle\vert{#2}\right\rangle}
-% % \newcommand{\op}[2]{\left\lvert{#1}\middle\rangle\middle\langle{#2}\right\rvert}
-% % \newcommand{\dd}{\,\mathrm{d}}
-% % \newcommand{\norm}[1]{\left\lVert{#1}\right\rVert}
-
-% \[ g^{mn} g_{mn} T^{i}_{jk} \]
-
-% \[ x \to \infty + \infty - \infty \]
-
-% \begin{align*}
-%      \int_{-\infty}^\infty \ee^{-x^2} \dd{x}
-%   &= \qty[\int_{-\infty}^\infty \ee^{-x^2} \dd{x} \, \int_{-\infty}^\infty \ee^{-y^2} \dd{y}]^{1/2} \\
-%   &= \qty[\int_0^{2\pi} \int_0^\infty \ee^{-r^2} r \dd{r}\dd{\theta}]^{1/2} \\
-%   &= \qty[\pi \int_0^\infty \ee^{-u} \dd{u}]^{1/2} \\
-%   &= \sqrt{\pi}
-% \end{align*}
-
-
-% \begin{align*}
-% \int_{0}^aJ_0\left[\frac{x_n^{(0)}}{a}r\right]J_0\left[\frac{x_m^{(0)}}{a}r\right]r\dd{r}=\frac{a^2}{2}J_1^2[x_n^{(0)}]\delta_m^n.\\
-% \int_{0}^{\infty}\frac{\cos x-\ee^{-x}}{x}\dd{x}=0\\
-% \end{align*}
-% \[\oint_{\partial\Sigma}\vec E\cdot \dd{\vec{l}}=-\frac{1}{c}\frac{\dd}{\dd t}\iint_{\Sigma}\vec B \cdot \dd{\vec{S}};\]
-% \[\partial_{[a}F_{\beta\gamma]}=0;\quad \partial_\alpha F^{\alpha\beta}=\mu_0J^\beta\]
-% \[\left(\frac{-\hbar^2}{2m}\nabla^2+V\right)\Psi=i\hbar\dot{\Psi}\]
-% \[\begin{split}
-% \frac{1}{\mathcal{C}^2}&{}=\frac{\innerprod{g'}{g'}}{\mathcal{C}^2}=\sum_{\bm{k}}\sum_{\bm{k}'}\brakket{g}{c_{\bm{k}',\uparrow}^\dagger c_{\bm{k}',\downarrow} c_{\bm{k},\downarrow}^\dagger c_{\bm{k},\uparrow}}{g}=\sum_{\bm{k}}\brakket{g}{c_{\bm{k},\uparrow}^\dagger c_{\bm{k},\downarrow} c_{\bm{k},\downarrow}^\dagger c_{\bm{k},\uparrow}}{g}\\
-% &{}=\sum_{\bm{k}}\brakket{g}{n_{\bm{k},\uparrow}\left(1-n_{\bm{k},\downarrow}\right)}{g}\\
-% &{}=\sum_{\norm{\bm{k}}<k_F^\downarrow}\brakket{g}{0}{g}+\sum_{k_F^\downarrow<\norm{\bm{k}}<k_F^\uparrow}\brakket{g}{1}{g}+\sum_{\norm{\bm{k}}>k_F^\uparrow}\brakket{g}{0}{g}\\
-% &{}=N_\uparrow-N_\downarrow
-% \end{split}\]
-% \[\left[ f,g \right]\equiv \sum_{\alpha =1}^{s}{\left( \frac{\partial f}{\partial {{q}_{\alpha }}}\frac{\partial g}{\partial {{p}_{\alpha }}}-\frac{\partial g}{\partial {{q}_{\alpha }}}\frac{\partial f}{\partial {{p}_{\alpha }}} \right)}=\sum\limits_{\alpha =1}^{s}{\begin{vmatrix}
-% 	\partial_{{q}_{\alpha }} f & \partial_{{p}_{\alpha }} f  \\
-% 	\partial_{{q}_{\alpha }} g & \partial_{{p}_{\alpha }} g  \\
-% 	\end{vmatrix} }=\sum\limits_{\alpha =1}^{s}{\frac{\partial \left( f,g \right)}{\partial \left( {{q}_{\alpha }},{{p}_{\alpha }} \right)}}\]
-% \[\begin{split}
-% & \frac{{{\text{d}}^{2}}f}{\text{d}{{t}^{2}}}=\frac{\text{d}}{\text{d}t}\left[ f,H \right]=\left[ \left[ f,H \right],H \right]=\hat{H}\hat{H}f={{{\hat{H}}}^{2}}f \\ 
-% & \vdots  \\ 
-% & \frac{{{\text{d}}^{n}}f}{\text{d}{{t}^{n}}}=\underbrace{\left[ \left[ \left[ f,H \right],\cdots  \right],H \right]}_{n}={{{\hat{H}}}^{n}}f  \\
-% \end{split}\]
-% \[\tilde{U}(r,z)=E_0\dfrac{\omega_0}{\omega(z)}\exp\left[-r^2\left(\dfrac{1}{\omega^2(z)}+\dfrac{\ii k}{2R(z)}\right)-\ii k z+\ii \zeta(z)\right]\]
-% \[\omega(z)=\omega_0\sqrt{1+\left(\dfrac{\lambda z}{\pi {\omega_0}^2}\right)^2};\quad R(z)=z\left[1+\left(\dfrac{\pi {\omega_0}^2}{\lambda z}\right)^2\right]\]
-% \[\left( \begin{matrix}
-% {mg}/{l}\;+k-m\omega _{1}^{2} & -k  \\
-% -k & {mg}/{l}\;+k-m\omega _{1}^{2}  \\
-% \end{matrix} \right)\left( \begin{matrix}
-% {{a}_{11}}  \\
-% {{a}_{21}}  \\
-% \end{matrix} \right)=0\]
-% \[V=\underbrace{{{V}_{0}}}_{=0}+\underbrace{\sum\limits_{\alpha =1}^{s}{{{\left( \frac{\partial V}{\partial {{q}_{\alpha }}} \right)}_{0}}{{q}_{\alpha }}}}_{=0}+\underbrace{\frac{1}{2}\sum\limits_{\alpha ,\beta =1}^{s}{{{\left( \frac{{{\partial }^{2}}V}{\partial {{q}_{\alpha }}\partial {{q}_{\beta }}} \right)}_{0}}{{q}_{\alpha }}{{q}_{\beta }}}}_{>0}+\cdots \]
-% \[T=\frac{1}{2}\sum\limits_{i=1}^{n}{{{m}_{i}}{{{\dot{\bm r}}}_{i}}\cdot {{{\dot{\bm r}}}_{i}}}=\frac{1}{2}\sum\limits_{\alpha ,\beta =1}^{s}{\left[ \sum\limits_{i=1}^{n}{{{m}_{i}}{{\left( \frac{\partial {{\bm r}_{i}}}{\partial {{q}_{\alpha }}} \right)}_{0}}\cdot {{\left( \frac{\partial {{\bm r}_{i}}}{\partial {{q}_{\beta }}} \right)}_{0}}} \right]{{{\dot{q}}}_{\alpha }}{{{\dot{q}}}_{\beta }}}+\cdots \]
-% \[\left( \begin{matrix}
-% {{u}_{0}}  \\
-% {{u}_{1}}  \\
-% \vdots   \\
-% {{u}_{N-1}}  \\
-% \end{matrix} \right)=\sum\limits_{k>0}{\left[ \left( \begin{matrix}
-% 	1  \\
-% 	\cos ka  \\
-% 	\vdots   \\
-% 	\cos k\left( N-1 \right)a  \\
-% 	\end{matrix} \right)\underbrace{{{C}_{k+}}\cos \left( {{\omega }_{k}}t+{{\varphi }_{k+}} \right)}_{\frac{2}{\sqrt{N}}{{q}_{k+}}}+\left( \begin{matrix}
-% 	0  \\
-% 	\sin ka  \\
-% 	\vdots   \\
-% 	\sin k\left( N-1 \right)a  \\
-% 	\end{matrix} \right)\underbrace{{{C}_{k-}}\cos \left( {{\omega }_{k}}t+{{\varphi }_{k-}} \right)}_{\frac{2}{\sqrt{N}}{{q}_{k-}}} \right]}\]
-% \[G(\vec{r},{\vec{r}}',\tau )=\int _{-\infty }^{\infty }\tilde{G}(\vec{r},{\vec{r}}',\omega )e^{-i \tau  \omega }d\omega=\int_{-\infty }^{\infty } \frac{e^{-i \tau  \omega } e^{i k |\vec{r}-{\vec{r}}'| }}{(2 \pi ) |\vec{r}-{\vec{r}}'| } \, d\omega=\frac{\delta  \left(\tau -\frac{R}{c}\right)}{|\vec{r}-{\vec{r}}'| }\]
-% \[
-% \begin{split}	
-% \mathcal{F}^{-1}(\ket{j})
-% &{}=\frac{1}{\sqrt{2^n}}\sum_{k=0}^{2^n-1}\exp\left(-2\uppi \ii \frac{jk}{2^n}\right)\ket{k}.\\
-% &{}=\frac{1}{\sqrt{2^n}}\sum_{k_{n-1}=0}^1\cdots\sum_{k_{0}=0}^1\exp\left(-2\uppi \ii j\sum_{l=0}^{n-1}\frac{2^l k_l}{2^n}\right)\ket{k_{n-1}\cdots k_0}\\
-% &{}=\frac{1}{\sqrt{2^n}}\sum_{k_{n-1}=0}^1\cdots\sum_{k_{0}=0}^1\bigotimes_{l=1}^n\left[\exp\left(-2\uppi \ii j\frac{k_{n-l}}{2^l}\right)\ket{k_{n-l}}\right]\\
-% &{}=\frac{1}{\sqrt{2^n}}\bigotimes_{l=1}^n\left[\sum_{k_{n-l}=0}^1\exp\left(-2\uppi \ii j\frac{k_{n-l}}{2^l}\right)\ket{k_{n-l}}\right]\\
-% &{}=\frac{1}{\sqrt{2^n}}\bigotimes_{l=1}^n\left[\ket{0}_{n-l}+\ee^{-2\uppi \ii j /2^l}\ket{1}_{n-l}\right]\\
-% &{}=\frac{1}{\sqrt{2^n}}\bigotimes_{l=1}^n\left[\ket{0}_{n-l}+\ee^{-2\uppi \ii ({0.j_{l-1}\ldots j_0})}\ket{1}_{n-l}\right].
-% \end{split}
-% \]
-
-% \newcommand{\lb}{\left(}
-% \newcommand{\rb}{\right)}
-% \newcommand{\ec}{\text{,}}
-% \newcommand{\ed}{\text{.}}
-% \newcommand{\bt}{\lb t\rb}
-% \newcommand{\deltaup}{\updelta}
-% \newcommand{\piup}{\uppi}
-% \newcommand{\ndd}{\,\mathrm{d}}
-% \subsection*{Problem 1}
-% For convenience, first we set $t_i=0$, and in the end, we replace $t_f$ by $t_f-t_i$ and right answer is obtained.
-% The classical path is \[x_c\lb t\rb=A \cos\omega t+B\sin \omega t\ec\]where $A$ and $B$ can be determined by plugging $\lb0,x_i\rb$ and $\lb t_f, x_f\rb$ into the equation. The result is
-% \[x_c\lb t\rb=x_i \cos\omega t+\frac{x_f-x_i\cos\omega t_f}{\sin\omega t_f}\sin \omega t\ed\]
-% We write $x\lb t\rb=x_c\lb t\rb+\deltaup x\bt$. Due to the fact that $\deltaup x$ should vanish at $t=0$ and $t=t_f$, $\deltaup x$ can be expanded as sine series: \[\deltaup x\bt=\sum_{n=1}^\infty a_n\sin\frac{n\piup t}{t_f}\ed\]
-% Also, the functional integral can be rewritten as \[\int\mathcal{D}\left[x\bt\right]=c\int\prod_{n=1}^\infty \dd a_n\ed\]
-% So, we have
-% \[L=\frac{m}{2}\lb\dot{x}_c+\deltaup\dot{x}\rb^2-\frac{m\omega^2}{2}\lb x_c+\deltaup x\rb^2\ec\]
-% \[\dot{x}\bt=-\omega x_i \sin\omega t +\omega \frac{x_f-x_i\cos\omega t_f}{\sin\omega t_f}\cos\omega t+\sum_{n=1}^\infty\frac{a_n n \piup}{t_f}\cos\frac{n \piup t}{t_f}\ec\]
-% \[S=\int_0^{t_f} L\ndd t\ed\]
-% Because $x_c$ is the classical path, $\deltaup S_\text{classical}=0$, so there can't be any the linear term in the expression of $S$, and we also have in mind that the sine and cosine series are orthogonal. So, we can write S as following:
-% \[\begin{split}S&{}=\frac{m}{2}\int_0^{t_f}\left[\lb-\omega x_i\sin\omega t+\omega \frac{x_f-x_i\cos\omega t_f}{\sin\omega t_f}\cos\omega t\rb^2+\sum_{n=1}^\infty\lb\frac{a_n n \piup}{t_f}\rb^2\cos^2\frac{n \piup t}{t_f}\right]\ndd t\\%
-% &\quad{}-\frac{m\omega^2}{2}\int_0^{t_f}\left[\lb x_i\cos\omega t+ \frac{x_f-x_i\cos\omega t_f}{\sin\omega t_f}\sin\omega t\rb^2+\sum_{n=1}^\infty {a_n}^2\sin^2\frac{n \piup t}{t_f}\right]\ndd t\\%
-% &{}=\sum_{n=1}^\infty\int_0^{t_f}\left[\frac{m}{2}\lb\frac{a_n n \piup}{t_f}\rb^2\cos^2\frac{n \piup t}{t_f}-\frac{m\omega^2}{2}{a_n}^2\sin^2\frac{n \piup t}{t_f}\right]\ndd t\\%
-% &\quad{}+\frac{m\omega^2}{2}\int_0^{t_f}\left[ {x_i}^2-\lb\frac{x_f-x_i\cos\omega t_f}{\sin\omega t_f}\rb^2\right]\lb\sin^2\omega t-\cos^2\omega t\rb\ndd t\\%
-% &\quad{}-\frac{m\omega^2}{2}\int_0^{t_f}4 {x_i}\lb\frac{x_f-x_i\cos\omega t_f}{\sin\omega t_f}\rb\lb\sin\omega t\cos\omega t\rb\ndd t\ed\end{split}\]
-% Using 
-% \[\int_0^{t_f}\lb\sin^2\omega t-\cos^2\omega t\rb\ndd t=-\frac{\sin2\omega t_f}{2\omega}\ec\]
-% \[\int_0^{t_f}\sin\omega t\cdot\cos\omega t\ndd t=\frac{\sin^2\omega t_f}{2\omega}\ec\]
-% \[\int_0^{t_f}\sin^2\frac{n\piup t}{t_f} \ndd t=\int_0^{t_f}\cos^2\frac{n\piup t}{t_f} \ndd t=\frac{a_n n \piup}{t_f}\ec\]
-% we get
-% \[S=\sum_{n=1}^\infty\left[\frac{m}{2}\lb\frac{a_n n \piup}{t_f}\rb^2-\frac{m\omega^2}{2}{a_n}^2\right]\frac{t_f}{2}+\frac{m\omega}{2\sin\omega t_f}\left[\lb {x_i}^2+{x_f}^2\rb\cos\omega t_f-2 x_i x_f\right]\ed\]
-% \[\begin{split}U={}&\exp\left\{\frac{\ii}{\hbar}\frac{m\omega}{2\sin\omega t_f}\left[\lb {x_i}^2+{x_f}^2\rb\cos\omega t_f-2 x_i x_f\right]\right\}\\%
-% &{}\times c\prod_{n=1}^{\infty}\int_{-\infty}^\infty\exp{\frac{\ii}{\hbar}\left[\frac{m}{2}\lb\frac{n \piup}{t_f}\rb^2-\frac{m\omega^2}{2}\right]\frac{t_f {a_n}^2}{2}}\ndd a_n\ed\end{split}\]
-% Using the Fresnel integral formula:
-% \[\int_{-\infty}^\infty\exp\lb \ii t\rb\ndd t=\sqrt{\piup \ii}\ec\]
-% \[\int_{-\infty}^\infty\exp{\frac{\ii}{\hbar}\left[\frac{m}{2}\lb\frac{n \piup}{t_f}\rb^2-\frac{m\omega^2}{2}\right]\frac{t_f {a_n}^2}{2}}\ndd a_n\sim\frac{\sqrt{t_f}}{n}\ec\]
-% \[U\lb x_f,t_f;x_i,t_i\rb=c'\lb t_f-t_i\rb\exp\left\{\frac{\ii m\omega}{2\hbar\sin\left[\omega \lb t_f-t_i\rb\right]}\left[\lb {x_i}^2+{x_f}^2\rb\cos\left[\omega\lb t_f-t_i\rb\right]-2 x_i x_f\right]\right\}\ed\]
-% Because \[\int\dd x U\lb x_f,t_f;x,t\rb U\lb x,t;x_i,t_i\rb=U\lb x_f,t_f;x_i,t_i\rb\ec\]
-% By using the Fresnel integral again:
-% \[c'\lb t_f-t\rb c'\lb t-t_i\rb\sqrt{\frac{2 \piup \ii \hbar}{m \omega}\lb\frac{\cos\left[\omega\lb t_f-t\rb\right]}{\sin\left[\omega\lb t_f-t\rb\right]}+\frac{\cos\left[\omega\lb t-t_i\rb\right]}{\sin\left[\omega\lb t-t_i\rb\right]}\rb}=c'\lb t_f-t_i\rb\ec\]
-% \[c'\lb t_f-t_i\rb=\sqrt{\frac{m\omega}{2\piup \ii \hbar\sin\left[\omega\lb t_f-t_i\rb\right]}}\ed\]
-% Thus
-% \[\begin{split}U\lb x_f,t_f;x_i,t_i\rb=&\sqrt{\frac{m\omega}{2\piup \ii \hbar\sin\left[\omega\lb t_f-t_i\rb\right]}}\\&{}\times\exp\left\{\frac{\ii m\omega}{2\hbar\sin\left[\omega \lb t_f-t_i\rb\right]}\left[\lb {x_i}^2+{x_f}^2\rb\cos\left[\omega\lb t_f-t_i\rb\right]-2 x_i x_f\right]\right\}\ed\end{split}\]

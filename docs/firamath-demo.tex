@@ -38,8 +38,6 @@
     \]
   \item Einstein's field equations:
     \[ G_{\mu\nu} \equiv R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu} \]
-  %\item Conservation of energy and momentum:
-  %  \[ \nabla_\beta T^{\alpha\beta} = \tensor{T}{^{\alpha\beta}_{;\,\beta}} = 0 \]
   \item Schwarzschild metric:
     \[
       c^2 \dd{\tau}^2 = \qty(1-\frac{r_{\mathrm{s}}}{r}) \, c^2 \dd{t}^2
@@ -48,6 +46,36 @@
     \]
   \item Einstein--Hilbert action:
     \[ S = \frac{1}{2\kappa} \int R \sqrt{-g} \dd[4]{x} \]
+\end{itemize}
+\end{frame}
+
+\begin{frame}[noframenumbering]{Ramanujan log-trigonometric integrals}
+\def\pp{\symrm{\pi}}
+\begin{itemize}
+  \item Case $n=1$
+    \small
+    \[
+      \int_0^{\frac{\pp}{2}}
+        \frac{\sqrt{\frac12 \sqrt{\frac{\ln^2\cos\theta}{\theta^2+\ln^2\cos\theta}} + \frac12}}%
+            {\fourthroot{\theta^2 + \ln^2\cos\theta}} \dd{\theta}
+      = \frac{\pp}{2\sqrt{\ln 2}}
+    \]
+  \item Generalization:
+    \small\vspace{1ex}
+    \[
+      \begin{cases}
+        \smash[t]{\displaystyle
+          R_n^- = \frac{2}{\pp} \int_0^{\pp/2} \qty(\theta^2+\ln^2\cos\theta)^{-2^{-n-1}}
+                  \sqrt{\frac12+\frac12\sqrt{\frac12+\cdots+\frac12\sqrt{
+                        \frac{\ln^2\cos\theta}{\theta^2+\ln^2\cos\theta}}}} \dd{\theta}
+                = (\ln 2)^{-2^{-n}}} \\[3ex]
+        \smash[b]{\displaystyle
+          R_n^+ = \frac{2}{\pp} \int_0^{\pp/2} \qty(\theta^2+\ln^2\cos\theta)^{2^{-n-1}}
+                  \sqrt{\frac12+\frac12\sqrt{\frac12+\cdots+\frac12\sqrt{
+                        \frac{\ln^2\cos\theta}{\theta^2+\ln^2\cos\theta}}}} \dd{\theta}
+                = (\ln 2)^{2^{-n}}}
+      \end{cases}
+    \]
 \end{itemize}
 \end{frame}
 
