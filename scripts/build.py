@@ -22,15 +22,10 @@ FEATURE_PATH     = PWD + "/src/features"
 OTF_PATH         = PWD + "/release/fonts"
 TEST_PATH        = PWD + "/test"
 DOCS_PATH        = PWD + "/docs"
-# SFD_PATH         = os.path.join(PWD, "src")
-# FEATURE_PATH     = os.path.join(PWD, "src", "features")
-# OTF_PATH         = os.path.join(PWD, "release", "fonts")
-# TEST_PATH        = os.path.join(PWD, "test")
-# DOCS_PATH        = os.path.join(PWD, "docs")
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
 TEST_FILE_NAME   = "weights"
-DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "unimath-symbols"]
+DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "firamath-technical-report"]
 WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
                     "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
 # WEIGHT_LIST      = ["Thin", "Ultra"]
@@ -40,7 +35,7 @@ WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regula
 if not os.path.exists(OTF_PATH):
     os.mkdir(OTF_PATH)
 
-def generate_fonts():
+def generate_fonts(hint_flag):
     print("FontForge version: " + ff.version())
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
@@ -49,17 +44,23 @@ def generate_fonts():
         sfd_file       = SFD_PATH + "/" + font_name + ".sfd"
         feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
         otf_file       = OTF_PATH + "/" + font_name + ".otf"
-        # font_name    = FAMILY_NAME + "-" + weight
-        # sfd_file     = os.path.join(SFD_PATH, font_name + ".sfd")
-        # feature_file = os.path.join(FEATURE_PATH, font_name + ".fea")
-        # otf_file     = os.path.join(OTF_PATH, font_name + ".otf")
+        _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag)
 
-        font = ff.open(sfd_file)
-        font.mergeFeature(feature_file)
-        font.generate(otf_file, flags=("opentype", "round"))
-        font.close()
-        print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
-              + " '" + font_name + "' " + "generated.")
+def _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag):
+    font = ff.open(sfd_file)
+    if hint_flag:
+        # The following procedures are very slow.
+        # We will not turn on them for local test.
+        font.selection.all()
+        font.autoHint()
+        font.removeOverlap()
+        font.round()
+        font.selection.none()
+    font.mergeFeature(feature_file)
+    font.generate(otf_file, flags=("opentype", "round"))
+    font.close()
+    print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
+          + " '" + font_name + "' " + "generated.")
 
 def check_fonts():
     for weight in WEIGHT_LIST:
@@ -151,10 +152,11 @@ group.add_argument("-d", "--docs",  action="store_true", help="generate document
 group.add_argument("-r", "--run",   action="store_true", help="generate fonts and run test")
 group.add_argument("-a", "--all",   action="store_true", help="generate fonts and documentations")
 group.add_argument("-c", "--clean", action="store_true", help="clean working directory")
+parser.add_argument("--hint", action="store_true", help="auto hint, remove overlap and round")
 args = parser.parse_args()
 
 if args.fonts:
-    generate_fonts()
+    generate_fonts(args.hint)
 if args.check:
     check_fonts()
 if args.test:
@@ -162,10 +164,10 @@ if args.test:
 if args.docs:
     make_docs()
 if args.run:
-    generate_fonts()
+    generate_fonts(args.hint)
     xelatex_test()
 if args.all:
-    generate_fonts()
+    generate_fonts(hint_flag=True)
     make_docs()
 if args.clean:
     clean()
