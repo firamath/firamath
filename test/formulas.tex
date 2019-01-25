@@ -13,7 +13,10 @@
 \setmainfont{FiraGO}[BoldFont=* SemiBold]
 \setmonofont{Iosevka}
 \setmathfont{FiraMath-Regular.otf}[Path=../release/fonts/, BoldFont=*]
-\setCJKmainfont{Source Han Sans SC}
+\IfFontExistsTF{Source Han Sans SC}{%
+  \setCJKmainfont{Source Han Sans SC}}{%
+  \IfFontExistsTF{Noto Sans CJK SC}{
+    \setCJKmainfont{Noto Sans CJK SC}}{}}
 
 % \setmainfont{XITS}
 % \setmonofont{TeX Gyre Cursor}
