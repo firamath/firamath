@@ -12,8 +12,12 @@ import argparse
 import datetime
 import os
 import platform
+import sys
 
 import fontforge as ff
+
+sys.path.append(os.path.sep.join([os.getcwd(), os.path.dirname(__file__)]))
+import math_table
 
 # Even on Windows, we should use `/` for paths, otherwise font generation will raise an error.
 PWD              = os.getcwd()
@@ -35,6 +39,7 @@ WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regula
 if not os.path.exists(OTF_PATH):
     os.mkdir(OTF_PATH)
 
+
 def generate_fonts(hint_flag):
     print("FontForge version: " + ff.version())
     print("Python version: "+ platform.python_version())
@@ -45,6 +50,7 @@ def generate_fonts(hint_flag):
         feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
         otf_file       = OTF_PATH + "/" + font_name + ".otf"
         _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag)
+
 
 def _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag):
     font = ff.open(sfd_file)
@@ -57,10 +63,12 @@ def _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag):
         font.round()
         font.selection.none()
     font.mergeFeature(feature_file)
+    math_table.add_math_table(font)
     font.generate(otf_file, flags=("opentype", "round"))
     font.close()
     print(datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S.%f]')
           + " '" + font_name + "' " + "generated.")
+
 
 def check_fonts():
     for weight in WEIGHT_LIST:
@@ -77,12 +85,14 @@ def check_fonts():
         _validate(font)
     print("\n\nAll checks passed.")
 
+
 def _check_name(font, font_name):
     sfnt_font_name = font.sfnt_names[6][2]  # PostScript name
     if sfnt_font_name != font_name:
         raise ValueError(str(font) + " has an incorrect name '" + sfnt_font_name + "'!")
     else:
         print("  Name check passed.")
+
 
 def _check_gsub_lookups(font):
     lookups = font.gsub_lookups
@@ -93,11 +103,13 @@ def _check_gsub_lookups(font):
     else:
         raise ValueError(str(font) + " has empty GSUB lookups!")
 
+
 def _check_math_table(font):
     if not font.math.exists():
         raise ValueError(str(font) + " has empty MATH table!")
     else:
         print("  MATH table check passed.")
+
 
 def _validate(font):
     validation_state_dict = {glyph: font[glyph].validation_state for glyph in font}
@@ -109,20 +121,25 @@ def _validate(font):
     else:
         print("  Validation passed.")
 
+
 def xelatex_test():
     os.chdir(TEST_PATH)
     run_xelatex(TEST_FILE_NAME)
 
+
 def run_xelatex(file_name):
     os.system("xelatex " + file_name + ".tex")
+
 
 def make_docs():
     os.chdir(DOCS_PATH)
     for i in DOCS_FILE_NAMES:
         run_latexmk(i)
 
+
 def run_latexmk(file_name):
     os.system("latexmk -g -xelatex " + file_name + ".tex")
+
 
 def clean():
     os.chdir(TEST_PATH)
@@ -132,16 +149,19 @@ def clean():
     os.chdir(SFD_PATH)
     rm("*.bak")
 
+
 def clean_aux_files():
     aux_file_suffixes = ["aux", "fdb_latexmk", "fls", "log", "nav", "out", "snm", "toc", "xdv"]
     for i in aux_file_suffixes:
         rm("*." + i)
+
 
 def rm(file_name):
     if platform.system() == "Linux":
         os.system("rm -f " + file_name)
     elif platform.system() == "Windows":
         os.system("DEL /Q " + file_name)
+
 
 parser = argparse.ArgumentParser()
 group = parser.add_mutually_exclusive_group()

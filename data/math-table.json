@@ -1,0 +1,118 @@
+{
+    "MathConstants": {
+        "ScriptPercentScaleDown": [80, 80, 80],
+        "ScriptScriptPercentScaleDown": [60, 60, 60],
+        "DelimitedSubFormulaMinHeight": [1500, 1500, 1500],
+        "DisplayOperatorMinHeight": [1500, 1500, 1500],
+        "MathLeading": [150, 150, 150],
+        "AxisHeight": [280, 280, 280],
+        "AccentBaseHeight": [527, 527, 527],
+        "FlattenedAccentBaseHeight": [689, 689, 689],
+        "SubscriptShiftDown": [350, 350, 350],
+        "SubscriptTopMax": [527, 527, 527],
+        "SubscriptBaselineDropMin": [250, 250, 250],
+        "SuperscriptShiftUp": [400, 400, 400],
+        "SuperscriptShiftUpCramped": [270, 270, 270],
+        "SuperscriptBottomMin": [130, 130, 130],
+        "SuperscriptBaselineDropMax": [360, 360, 360],
+        "SubSuperscriptGapMin": [200, 200, 200],
+        "SuperscriptBottomMaxWithSubscript": [527, 527, 527],
+        "SpaceAfterScript": [41, 41, 41],
+        "UpperLimitGapMin": [150, 150, 150],
+        "UpperLimitBaselineRiseMin": [150, 150, 150],
+        "LowerLimitGapMin": [150, 150, 150],
+        "LowerLimitBaselineDropMin": [600, 600, 600],
+        "StackTopShiftUp": [450, 450, 450],
+        "StackTopDisplayStyleShiftUp": [580, 580, 580],
+        "StackBottomShiftDown": [480, 480, 480],
+        "StackBottomDisplayStyleShiftDown": [700, 700, 700],
+        "StackGapMin": [200, 200, 200],
+        "StackDisplayStyleGapMin": [500, 500, 500],
+        "StretchStackTopShiftUp": [300, 300, 300],
+        "StretchStackBottomShiftDown": [600, 600, 600],
+        "StretchStackGapAboveMin": [150, 150, 150],
+        "StretchStackGapBelowMin": [150, 150, 150],
+        "FractionNumeratorShiftUp": [450, 450, 450],
+        "FractionNumeratorDisplayStyleShiftUp": [580, 580, 580],
+        "FractionDenominatorShiftDown": [480, 480, 480],
+        "FractionDenominatorDisplayStyleShiftDown": [700, 700, 700],
+        "FractionNumeratorGapMin": [80, 80, 80],
+        "FractionNumeratorDisplayStyleGapMin": [200, 200, 200],
+        "FractionRuleThickness": [20, 76, 166],
+        "FractionDenominatorGapMin": [80, 80, 80],
+        "FractionDenominatorDisplayStyleGapMin": [200, 200, 200],
+        "SkewedFractionHorizontalGap": [0, 0, 0],
+        "SkewedFractionVerticalGap": [0, 0, 0],
+        "OverbarVerticalGap": [150, 150, 150],
+        "OverbarRuleThickness": [66, 66, 66],
+        "OverbarExtraAscender": [50, 50, 50],
+        "UnderbarVerticalGap": [150, 150, 150],
+        "UnderbarRuleThickness": [66, 66, 66],
+        "UnderbarExtraDescender": [50, 50, 50],
+        "RadicalVerticalGap": [96, 96, 96],
+        "RadicalDisplayStyleVerticalGap": [142, 142, 142],
+        "RadicalRuleThickness": [20, 76, 166],
+        "RadicalExtraAscender": [20, 76, 166],
+        "RadicalKernBeforeDegree": [276, 276, 276],
+        "RadicalKernAfterDegree": [-400, -400, -400],
+        "RadicalDegreeBottomRaisePercent": [64, 64, 64],
+        "MinConnectorOverlap": [20, 20, 20]
+    },
+    "MathGlyphInfo": {},
+    "MathVariants": {
+        "horizontalVariants": {
+            // TOP/BOTTOM SQUARE BRACKET
+            "uni23B4": ["uni23B4", "uni23B4.size1", "uni23B4.size2", "uni23B4.size3", "uni23B4.size4", "uni23B4.size5", "uni23B4.size6", "uni23B4.size7", "uni23B4.size8", "uni23B4.size9", "uni23B4.size10", "uni23B4.size11", "uni23B4.size12", "uni23B4.size13", "uni23B4.size14", "uni23B4.size15"],
+            "uni23B5": ["uni23B5", "uni23B5.size1", "uni23B5.size2", "uni23B5.size3", "uni23B5.size4", "uni23B5.size5", "uni23B5.size6", "uni23B5.size7", "uni23B5.size8", "uni23B5.size9", "uni23B5.size10", "uni23B5.size11", "uni23B5.size12", "uni23B5.size13", "uni23B5.size14", "uni23B5.size15"],
+            // TOP/BOTTOM PARENTHESIS
+            "uni23DC": ["uni23DC", "uni23DC.size1", "uni23DC.size2", "uni23DC.size3", "uni23DC.size4", "uni23DC.size5", "uni23DC.size6", "uni23DC.size7", "uni23DC.size8", "uni23DC.size9", "uni23DC.size10", "uni23DC.size11", "uni23DC.size12", "uni23DC.size13", "uni23DC.size14", "uni23DC.size15"],
+            "uni23DD": ["uni23DD", "uni23DD.size1", "uni23DD.size2", "uni23DD.size3", "uni23DD.size4", "uni23DD.size5", "uni23DD.size6", "uni23DD.size7", "uni23DD.size8", "uni23DD.size9", "uni23DD.size10", "uni23DD.size11", "uni23DD.size12", "uni23DD.size13", "uni23DD.size14", "uni23DD.size15"],
+            // TOP/BOTTOM CURLY BRACKET
+            "uni23DE": ["uni23DE", "uni23DE.size1", "uni23DE.size2", "uni23DE.size3", "uni23DE.size4", "uni23DE.size5", "uni23DE.size6", "uni23DE.size7", "uni23DE.size8", "uni23DE.size9", "uni23DE.size10", "uni23DE.size11", "uni23DE.size12", "uni23DE.size13", "uni23DE.size14", "uni23DE.size15"],
+            "uni23DF": ["uni23DF", "uni23DF.size1", "uni23DF.size2", "uni23DF.size3", "uni23DF.size4", "uni23DF.size5", "uni23DF.size6", "uni23DF.size7", "uni23DF.size8", "uni23DF.size9", "uni23DF.size10", "uni23DF.size11", "uni23DF.size12", "uni23DF.size13", "uni23DF.size14", "uni23DF.size15"]
+        },
+        "verticalVariants": {
+            "uni220F": ["uni220F", "uni220F.display"], // N-ARY PRODUCT
+            "uni2210": ["uni2210", "uni2210.display"], // N-ARY COPRODUCT
+            "uni2211": ["uni2211", "uni2211.display"], // N-ARY SUMMATION
+            "uni222B": ["uni222B", "uni222B.display"], // INTEGRAL
+            "uni222C": ["uni222C", "uni222C.display"], // DOUBLE INTEGRAL
+            "uni222D": ["uni222D", "uni222D.display"], // TRIPLE INTEGRAL
+            "uni2A0C": ["uni2A0C", "uni2A0C.display"], // QUADRUPLE INTEGRAL OPERATOR
+            "uni222E": ["uni222E", "uni222E.display"], // CONTOUR INTEGRAL
+            "uni222F": ["uni222F", "uni222F.display"], // SURFACE INTEGRAL
+            "uni2230": ["uni2230", "uni2230.display"], // VOLUME INTEGRAL
+            // LEFT/RIGHT PARENTHEIS
+            "uni0028": ["uni0028", "uni0028.size1", "uni0028.size2", "uni0028.size3", "uni0028.size4", "uni0028.size5", "uni0028.size6", "uni0028.size7", "uni0028.size8", "uni0028.size9", "uni0028.size10", "uni0028.size11", "uni0028.size12", "uni0028.size13", "uni0028.size14", "uni0028.size15"],
+            "uni0029": ["uni0029", "uni0029.size1", "uni0029.size2", "uni0029.size3", "uni0029.size4", "uni0029.size5", "uni0029.size6", "uni0029.size7", "uni0029.size8", "uni0029.size9", "uni0029.size10", "uni0029.size11", "uni0029.size12", "uni0029.size13", "uni0029.size14", "uni0029.size15"],
+            // LEFT/RIGHT SQUARE BRACKET
+            "uni005B": ["uni005B", "uni005B.size1", "uni005B.size2", "uni005B.size3", "uni005B.size4", "uni005B.size5", "uni005B.size6", "uni005B.size7", "uni005B.size8", "uni005B.size9", "uni005B.size10", "uni005B.size11", "uni005B.size12", "uni005B.size13", "uni005B.size14", "uni005B.size15"],
+            "uni005D": ["uni005D", "uni005D.size1", "uni005D.size2", "uni005D.size3", "uni005D.size4", "uni005D.size5", "uni005D.size6", "uni005D.size7", "uni005D.size8", "uni005D.size9", "uni005D.size10", "uni005D.size11", "uni005D.size12", "uni005D.size13", "uni005D.size14", "uni005D.size15"],
+            // LEFT/RIGHT CURLY BRACKET
+            "uni007B": ["uni007B", "uni007B.size1", "uni007B.size2", "uni007B.size3", "uni007B.size4", "uni007B.size5", "uni007B.size6", "uni007B.size7", "uni007B.size8", "uni007B.size9", "uni007B.size10", "uni007B.size11", "uni007B.size12", "uni007B.size13", "uni007B.size14", "uni007B.size15"],
+            "uni007D": ["uni007D", "uni007D.size1", "uni007D.size2", "uni007D.size3", "uni007D.size4", "uni007D.size5", "uni007D.size6", "uni007D.size7", "uni007D.size8", "uni007D.size9", "uni007D.size10", "uni007D.size11", "uni007D.size12", "uni007D.size13", "uni007D.size14", "uni007D.size15"],
+            // LEFT/RIGHT CEILING
+            "uni2308": ["uni2308", "uni2308.size1", "uni2308.size2", "uni2308.size3", "uni2308.size4", "uni2308.size5", "uni2308.size6", "uni2308.size7", "uni2308.size8", "uni2308.size9", "uni2308.size10", "uni2308.size11", "uni2308.size12", "uni2308.size13", "uni2308.size14", "uni2308.size15"],
+            "uni2309": ["uni2309", "uni2309.size1", "uni2309.size2", "uni2309.size3", "uni2309.size4", "uni2309.size5", "uni2309.size6", "uni2309.size7", "uni2309.size8", "uni2309.size9", "uni2309.size10", "uni2309.size11", "uni2309.size12", "uni2309.size13", "uni2309.size14", "uni2309.size15"],
+            // LEFT/RIGHT FLOOR
+            "uni230A": ["uni230A", "uni230A.size1", "uni230A.size2", "uni230A.size3", "uni230A.size4", "uni230A.size5", "uni230A.size6", "uni230A.size7", "uni230A.size8", "uni230A.size9", "uni230A.size10", "uni230A.size11", "uni230A.size12", "uni230A.size13", "uni230A.size14", "uni230A.size15"],
+            "uni230B": ["uni230B", "uni230B.size1", "uni230B.size2", "uni230B.size3", "uni230B.size4", "uni230B.size5", "uni230B.size6", "uni230B.size7", "uni230B.size8", "uni230B.size9", "uni230B.size10", "uni230B.size11", "uni230B.size12", "uni230B.size13", "uni230B.size14", "uni230B.size15"],
+            // MATHEMATICAL LEFT/RIGHT (SINGLE)/DOUBLE ANGLE BRACKET
+            "uni27E8": ["uni27E8", "uni27E8.size1", "uni27E8.size2", "uni27E8.size3", "uni27E8.size4", "uni27E8.size5", "uni27E8.size6", "uni27E8.size7", "uni27E8.size8", "uni27E8.size9", "uni27E8.size10", "uni27E8.size11", "uni27E8.size12", "uni27E8.size13", "uni27E8.size14", "uni27E8.size15"],
+            "uni27E9": ["uni27E9", "uni27E9.size1", "uni27E9.size2", "uni27E9.size3", "uni27E9.size4", "uni27E9.size5", "uni27E9.size6", "uni27E9.size7", "uni27E9.size8", "uni27E9.size9", "uni27E9.size10", "uni27E9.size11", "uni27E9.size12", "uni27E9.size13", "uni27E9.size14", "uni27E9.size15"],
+            "uni27EA": ["uni27EA", "uni27EA.size1", "uni27EA.size2", "uni27EA.size3", "uni27EA.size4", "uni27EA.size5", "uni27EA.size6", "uni27EA.size7", "uni27EA.size8", "uni27EA.size9", "uni27EA.size10", "uni27EA.size11", "uni27EA.size12", "uni27EA.size13", "uni27EA.size14", "uni27EA.size15"],
+            "uni27EB": ["uni27EB", "uni27EB.size1", "uni27EB.size2", "uni27EB.size3", "uni27EB.size4", "uni27EB.size5", "uni27EB.size6", "uni27EB.size7", "uni27EB.size8", "uni27EB.size9", "uni27EB.size10", "uni27EB.size11", "uni27EB.size12", "uni27EB.size13", "uni27EB.size14", "uni27EB.size15"],
+            // MATHEMATICAL LEFT/RIGHT FLATTENED PARENTHESIS
+            "uni27EE": ["uni27EE", "uni27EE.size1", "uni27EE.size2", "uni27EE.size3", "uni27EE.size4", "uni27EE.size5", "uni27EE.size6", "uni27EE.size7", "uni27EE.size8", "uni27EE.size9", "uni27EE.size10", "uni27EE.size11", "uni27EE.size12", "uni27EE.size13", "uni27EE.size14", "uni27EE.size15"],
+            "uni27EF": ["uni27EF", "uni27EF.size1", "uni27EF.size2", "uni27EF.size3", "uni27EF.size4", "uni27EF.size5", "uni27EF.size6", "uni27EF.size7", "uni27EF.size8", "uni27EF.size9", "uni27EF.size10", "uni27EF.size11", "uni27EF.size12", "uni27EF.size13", "uni27EF.size14", "uni27EF.size15"],
+            // VERTICAL LINE/DOUBLE VERTICAL LINE/TRIPLE VERTICAL BAR DELIMITER
+            "uni007C": ["uni007C", "uni007C.size1", "uni007C.size2", "uni007C.size3", "uni007C.size4", "uni007C.size5", "uni007C.size6", "uni007C.size7", "uni007C.size8", "uni007C.size9", "uni007C.size10", "uni007C.size11", "uni007C.size12", "uni007C.size13", "uni007C.size14", "uni007C.size15"],
+            "uni2016": ["uni2016", "uni2016.size1", "uni2016.size2", "uni2016.size3", "uni2016.size4", "uni2016.size5", "uni2016.size6", "uni2016.size7", "uni2016.size8", "uni2016.size9", "uni2016.size10", "uni2016.size11", "uni2016.size12", "uni2016.size13", "uni2016.size14", "uni2016.size15"],
+            "uni2980": ["uni2980", "uni2980.size1", "uni2980.size2", "uni2980.size3", "uni2980.size4", "uni2980.size5", "uni2980.size6", "uni2980.size7", "uni2980.size8", "uni2980.size9", "uni2980.size10", "uni2980.size11", "uni2980.size12", "uni2980.size13", "uni2980.size14", "uni2980.size15"],
+            // SQUARE/CUBE/FOURTH ROOT
+            "uni221A": ["uni221A", "uni221A.size1", "uni221A.size2", "uni221A.size3", "uni221A.size4", "uni221A.size5", "uni221A.size6", "uni221A.size7", "uni221A.size8", "uni221A.size9", "uni221A.size10", "uni221A.size11", "uni221A.size12", "uni221A.size13", "uni221A.size14", "uni221A.size15"],
+            "uni221B": ["uni221B", "uni221B.size1", "uni221B.size2", "uni221B.size3", "uni221B.size4", "uni221B.size5", "uni221B.size6", "uni221B.size7", "uni221B.size8", "uni221B.size9", "uni221B.size10", "uni221B.size11", "uni221B.size12", "uni221B.size13", "uni221B.size14", "uni221B.size15"],
+            "uni221C": ["uni221C", "uni221C.size1", "uni221C.size2", "uni221C.size3", "uni221C.size4", "uni221C.size5", "uni221C.size6", "uni221C.size7", "uni221C.size8", "uni221C.size9", "uni221C.size10", "uni221C.size11", "uni221C.size12", "uni221C.size13", "uni221C.size14", "uni221C.size15"]
+        }
+    }
+}
