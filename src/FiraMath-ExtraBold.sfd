@@ -15152,7 +15152,6 @@ StartChar: uni222B
 Encoding: 8747 8747 594
 Width: 228
 Flags: W
-GlyphVariantsVertical: uni222B uni222B.display
 LayerCount: 2
 EndChar
 
@@ -15160,7 +15159,6 @@ StartChar: uni222C
 Encoding: 8748 8748 595
 Width: 228
 Flags: W
-GlyphVariantsVertical: uni222C uni222C.display
 LayerCount: 2
 EndChar
 
@@ -15168,7 +15166,6 @@ StartChar: uni222D
 Encoding: 8749 8749 596
 Width: 228
 Flags: W
-GlyphVariantsVertical: uni222D uni222D.display
 LayerCount: 2
 EndChar
 
@@ -15176,7 +15173,6 @@ StartChar: uni222E
 Encoding: 8750 8750 597
 Width: 1020
 Flags: W
-GlyphVariantsVertical: uni222E uni222E.display
 LayerCount: 2
 Fore
 SplineSet
@@ -15212,7 +15208,6 @@ StartChar: uni222F
 Encoding: 8751 8751 598
 Width: 1020
 Flags: W
-GlyphVariantsVertical: uni222F uni222F.display
 LayerCount: 2
 Fore
 SplineSet
@@ -15248,7 +15243,6 @@ StartChar: uni2230
 Encoding: 8752 8752 599
 Width: 1020
 Flags: W
-GlyphVariantsVertical: uni2230 uni2230.display
 LayerCount: 2
 Fore
 SplineSet
@@ -15284,7 +15278,6 @@ StartChar: uni2A0C
 Encoding: 10764 10764 600
 Width: 228
 Flags: W
-GlyphVariantsVertical: uni2A0C uni2A0C.display
 LayerCount: 2
 EndChar
 
