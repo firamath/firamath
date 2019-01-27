@@ -272,7 +272,6 @@ Encoding: 40 40 8
 Width: 324
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni239D%0,0,150,2956 uni239C%1,150,150,600 uni239B%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -291,7 +290,6 @@ Encoding: 41 41 9
 Width: 324
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni23A0%0,0,150,2956 uni239F%1,150,150,600 uni239E%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -1453,7 +1451,6 @@ Encoding: 91 91 59
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni23A3%0,0,150,2956 uni23A2%1,150,150,600 uni23A1%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -1490,7 +1487,6 @@ Encoding: 93 93 61
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni23A6%0,0,150,2956 uni23A5%1,150,150,600 uni23A4%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -2247,7 +2243,6 @@ Encoding: 123 123 91
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 5  uni23A9%0,0,150,1400 uni23AA%1,150,150,600 uni23A8%0,150,150,2000 uni23AA%1,150,150,600 uni23A7%0,150,0,1400
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -2276,7 +2271,6 @@ Encoding: 124 124 92
 Width: 403
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni007C.ext%0,0,150,600 uni007C.ext%1,150,150,600
 LayerCount: 2
 Fore
 SplineSet
@@ -2293,7 +2287,6 @@ Encoding: 125 125 93
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 5  uni23AD%0,0,150,1400 uni23AA%1,150,150,600 uni23AC%0,150,150,2000 uni23AA%1,150,150,600 uni23AB%0,150,0,1400
 LayerCount: 2
 Fore
 SplineSet
@@ -13858,7 +13851,6 @@ Encoding: 8214 8214 543
 Width: 577
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni2016.ext%0,0,150,600 uni2016.ext%1,150,150,600
 LayerCount: 2
 Fore
 SplineSet
@@ -18079,7 +18071,6 @@ Encoding: 8730 8730 700
 Width: 649
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni221A.bot%0,0,150,3800 uni221A.ext%1,150,150,600 uni221A.top%0,150,0,1600
 LayerCount: 2
 Fore
 SplineSet
@@ -18103,7 +18094,6 @@ Encoding: 8731 8731 701
 Width: 693
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni221B.bot%0,0,150,3800 uni221B.ext%1,150,150,600 uni221B.top%0,150,0,1600
 LayerCount: 2
 Fore
 SplineSet
@@ -18145,7 +18135,6 @@ Encoding: 8732 8732 702
 Width: 693
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni221C.bot%0,0,150,3800 uni221C.ext%1,150,150,600 uni221C.top%0,150,0,1600
 LayerCount: 2
 Fore
 SplineSet
@@ -22042,7 +22031,6 @@ Encoding: 8968 8968 834
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni2308.ext%1,0,150,600 uni2308.top%0,150,150,1600
 LayerCount: 2
 Fore
 SplineSet
@@ -22061,7 +22049,6 @@ Encoding: 8969 8969 835
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni2309.ext%1,0,150,600 uni2309.top%0,150,150,1600
 LayerCount: 2
 Fore
 SplineSet
@@ -22080,7 +22067,6 @@ Encoding: 8970 8970 836
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni230A.bot%0,0,150,1600 uni230A.ext%1,150,150,600
 LayerCount: 2
 Fore
 SplineSet
@@ -22099,7 +22085,6 @@ Encoding: 8971 8971 837
 Width: 322
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni230B.bot%0,0,150,1600 uni230B.ext%1,150,150,600
 LayerCount: 2
 Fore
 SplineSet
@@ -22449,7 +22434,6 @@ StartChar: uni23B4
 Encoding: 9140 9140 858
 Width: 802
 Flags: W
-GlyphCompositionHorizontal: 3  uni23B4.left%0,0,150,2956 uni23B4.ext%1,150,150,700 uni23B4.right%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -22469,7 +22453,6 @@ StartChar: uni23B5
 Encoding: 9141 9141 859
 Width: 802
 Flags: W
-GlyphCompositionHorizontal: 3  uni23B5.left%0,0,150,2956 uni23B5.ext%1,150,150,700 uni23B5.right%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -22489,7 +22472,6 @@ StartChar: uni23DC
 Encoding: 9180 9180 860
 Width: 802
 Flags: W
-GlyphCompositionHorizontal: 3  uni23DC.left%0,0,150,2956 uni23DC.ext%1,150,150,700 uni23DC.right%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -22507,7 +22489,6 @@ StartChar: uni23DD
 Encoding: 9181 9181 861
 Width: 802
 Flags: W
-GlyphCompositionHorizontal: 3  uni23DD.left%0,0,150,2956 uni23DD.ext%1,150,150,700 uni23DD.right%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -22525,7 +22506,6 @@ StartChar: uni23DE
 Encoding: 9182 9182 862
 Width: 802
 Flags: W
-GlyphCompositionHorizontal: 5  uni23DE.left%0,0,150,1400 uni23DE.ext%1,150,150,600 uni23DE.mid%0,150,150,2000 uni23DE.ext%1,150,150,600 uni23DE.right%0,150,0,1400
 CounterMasks: 1 70
 LayerCount: 2
 Fore
@@ -22553,7 +22533,6 @@ StartChar: uni23DF
 Encoding: 9183 9183 863
 Width: 802
 Flags: W
-GlyphCompositionHorizontal: 5  uni23DF.left%0,0,150,1400 uni23DF.ext%1,150,150,600 uni23DF.mid%0,150,150,2000 uni23DF.ext%1,150,150,600 uni23DF.right%0,150,0,1400
 CounterMasks: 1 70
 LayerCount: 2
 Fore
@@ -24674,7 +24653,6 @@ Encoding: 10222 10222 968
 Width: 287
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni27EE.bot%0,0,150,2956 uni27EE.ext%1,150,150,600 uni27EE.top%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -24695,7 +24673,6 @@ Encoding: 10223 10223 969
 Width: 287
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 3  uni27EF.bot%0,0,150,2956 uni27EF.ext%1,150,150,600 uni27EF.top%0,150,0,2956
 LayerCount: 2
 Fore
 SplineSet
@@ -25083,7 +25060,6 @@ Encoding: 10624 10624 984
 Width: 751
 Flags: W
 IsExtendedShape: 1
-GlyphCompositionVertical: 2  uni2980.ext%0,0,150,600 uni2980.ext%1,150,150,600
 CounterMasks: 1 e0
 LayerCount: 2
 Fore

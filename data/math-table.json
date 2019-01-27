@@ -113,6 +113,545 @@
             "uni221A": ["uni221A", "uni221A.size1", "uni221A.size2", "uni221A.size3", "uni221A.size4", "uni221A.size5", "uni221A.size6", "uni221A.size7", "uni221A.size8", "uni221A.size9", "uni221A.size10", "uni221A.size11", "uni221A.size12", "uni221A.size13", "uni221A.size14", "uni221A.size15"],
             "uni221B": ["uni221B", "uni221B.size1", "uni221B.size2", "uni221B.size3", "uni221B.size4", "uni221B.size5", "uni221B.size6", "uni221B.size7", "uni221B.size8", "uni221B.size9", "uni221B.size10", "uni221B.size11", "uni221B.size12", "uni221B.size13", "uni221B.size14", "uni221B.size15"],
             "uni221C": ["uni221C", "uni221C.size1", "uni221C.size2", "uni221C.size3", "uni221C.size4", "uni221C.size5", "uni221C.size6", "uni221C.size7", "uni221C.size8", "uni221C.size9", "uni221C.size10", "uni221C.size11", "uni221C.size12", "uni221C.size13", "uni221C.size14", "uni221C.size15"]
+        },
+        "horizontalComponents": {
+            "uni23B4": [{
+                    "name": "uni23B4.left",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni23B4.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [700, 700, 700]
+                },
+                {
+                    "name": "uni23B4.right",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni23B5": [{
+                    "name": "uni23B5.left",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni23B5.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [700, 700, 700]
+                },
+                {
+                    "name": "uni23B5.right",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni23DC": [{
+                    "name": "uni23DC.left",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni23DC.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [700, 700, 700]
+                },
+                {
+                    "name": "uni23DC.right",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni23DD": [{
+                    "name": "uni23DD.left",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni23DD.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [700, 700, 700]
+                },
+                {
+                    "name": "uni23DD.right",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni23DE": [{
+                    "name": "uni23DE.left",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1400, 1400, 1400]
+                },
+                {
+                    "name": "uni23DE.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23DE.mid",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2000, 2000, 2000]
+                },
+                {
+                    "name": "uni23DE.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23DE.right",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1400, 1400, 1400]
+                }
+            ],
+            "uni23DF": [{
+                    "name": "uni23DF.left",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1400, 1400, 1400]
+                },
+                {
+                    "name": "uni23DF.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23DF.mid",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2000, 2000, 2000]
+                },
+                {
+                    "name": "uni23DF.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23DF.right",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1400, 1400, 1400]
+                }
+            ]
+        },
+        "verticalComponents": {
+            "uni0028": [{
+                    "name": "uni239D",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni239C",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni239B",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni0029": [{
+                    "name": "uni23A0",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni239F",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni239E",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni005B": [{
+                    "name": "uni23A3",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni23A2",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23A1",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni005D": [{
+                    "name": "uni23A6",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni23A5",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23A4",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni007B": [{
+                    "name": "uni23A9",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1400, 1400, 1400]
+                },
+                {
+                    "name": "uni23AA",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23A8",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2000, 2000, 2000]
+                },
+                {
+                    "name": "uni23AA",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23A7",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1400, 1400, 1400]
+                }
+            ],
+            "uni007C": [{
+                    "name": "uni007C.ext",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni007C.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                }
+            ],
+            "uni007D": [{
+                    "name": "uni23AD",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1400, 1400, 1400]
+                },
+                {
+                    "name": "uni23AA",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23AC",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2000, 2000, 2000]
+                },
+                {
+                    "name": "uni23AA",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni23AB",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1400, 1400, 1400]
+                }
+            ],
+            "uni2016": [{
+                    "name": "uni2016.ext",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni2016.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                }
+            ],
+            "uni221A": [{
+                    "name": "uni221A.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [3800, 3800, 3800]
+                },
+                {
+                    "name": "uni221A.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni221A.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1600, 1600, 1600]
+                }
+            ],
+            "uni221B": [{
+                    "name": "uni221B.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [3800, 3800, 3800]
+                },
+                {
+                    "name": "uni221B.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni221B.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1600, 1600, 1600]
+                }
+            ],
+            "uni221C": [{
+                    "name": "uni221C.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [3800, 3800, 3800]
+                },
+                {
+                    "name": "uni221C.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni221C.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [1600, 1600, 1600]
+                }
+            ],
+            "uni2308": [{
+                    "name": "uni2308.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni2308.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1600, 1600, 1600]
+                }
+            ],
+            "uni2309": [{
+                    "name": "uni2309.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni2309.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1600, 1600, 1600]
+                }
+            ],
+            "uni230A": [{
+                    "name": "uni230A.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1600, 1600, 1600]
+                },
+                {
+                    "name": "uni230A.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                }
+            ],
+            "uni230B": [{
+                    "name": "uni230B.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [1600, 1600, 1600]
+                },
+                {
+                    "name": "uni230B.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                }
+            ],
+            "uni27EE": [{
+                    "name": "uni27EE.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni27EE.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni27EE.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni27EF": [{
+                    "name": "uni27EF.bot",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [2956, 2956, 2956]
+                },
+                {
+                    "name": "uni27EF.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni27EF.top",
+                    "isExtender": false,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [0, 0, 0],
+                    "fullAdvance": [2956, 2956, 2956]
+                }
+            ],
+            "uni2980": [{
+                    "name": "uni2980.ext",
+                    "isExtender": false,
+                    "startConnectorLength": [0, 0, 0],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                },
+                {
+                    "name": "uni2980.ext",
+                    "isExtender": true,
+                    "startConnectorLength": [150, 150, 150],
+                    "endConnectorLength": [150, 150, 150],
+                    "fullAdvance": [600, 600, 600]
+                }
+            ]
         }
     }
 }

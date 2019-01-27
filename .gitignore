@@ -30,5 +30,3 @@ temp/
 # Other
 *.nb
 docs/standalone/
-test/fontspec*.sty
-test/unicode-math*.sty
