@@ -4,7 +4,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
-More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-1...master).
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-2...master).
+
+## v0.4-beta-2 (2019-01-31)
+
+- Added:
+  - Integral, summation and product symbols (only display style) - [#21](https://github.com/firamath/firamath/issues/21)
+- Fixed:
+  - Correct Mathematical Capital Theta Symbols (`\varTheta`)
+- Improved:
+  - MATH-relevant data are moved to a single JSON file
+  - `autoHint`, `removeOverlap` and `round` will be done when generating OTF files
+  - Check fonts in ci
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-1...v0.4-beta-2).
 
 ## v0.4-beta-1 (2018-12-22)
 
@@ -16,6 +29,13 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
 - Improved:
   - Optimize the glyph of integrals, primes, etc
   - Python scripts are re-written with FontForge's API
+- Known issues:
+  - Only few of the basic glyphs have been created
+  - ~~Interpolated points are not rounded to integer, and overlapped paths are not removed~~ - fixed in v0.4-beta-2
+  - Now the metrics are just from the original FiraGO/FiraSans, but should be modified for math
+  - For primes, `ssty2` is identical to `ssty1`. See <https://github.com/wspr/unicode-math/issues/503>
+  - ~~Mathematical Capital Theta Symbols are not correct~~ - fixed in v0.4-beta-2
+  - This version is highly experimental so I will not upload to CTAN
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.4-beta-1).
 

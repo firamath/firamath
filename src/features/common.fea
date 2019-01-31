@@ -4,7 +4,7 @@ languagesystem math dflt;
 
 table name {
     nameid 0  "Copyright (C) 2018, 2019 Xiangdong Zeng";
-    nameid 5  "Version 0.4-beta-1";
+    nameid 5  "Version 0.4-beta-2";
     nameid 7  "Fira Sans is a trademark of The Mozilla Corporation.";
     nameid 8  "Xiangdong Zeng";
     nameid 9  "Xiangdong Zeng";
