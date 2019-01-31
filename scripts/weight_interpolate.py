@@ -38,16 +38,23 @@ def interpolate_font(weight_dict, glyph_list):
 
 if __name__ == "__main__":
     ## 2019-01-06  Primes
-    prime_glyphs = ["uni2032", "uni2033", "uni2034", "uni2057", "uni2035", "uni2036", "uni2037"]
-    prime_glyphs += ([glyph + ".ssty1" for glyph in prime_glyphs] +
-                     [glyph + ".ssty2" for glyph in prime_glyphs])
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Ultra"], prime_glyphs)
+    # prime_glyphs = ["uni2032", "uni2033", "uni2034", "uni2057", "uni2035", "uni2036", "uni2037"]
+    # prime_glyphs += ([glyph + ".ssty1" for glyph in prime_glyphs] +
+    #                  [glyph + ".ssty2" for glyph in prime_glyphs])
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Ultra"], prime_glyphs)
 
     ## 2019-01-06  Integrals
-    integral_glyphs = [
-        # Normal integrals
-        "uni222B.display", "uni222C.display", "uni222D.display", "uni2A0C.display",
-        # Contour integrals
-        "uni222E.display", "uni222F.display", "uni2230.display"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
+    # integral_glyphs = [
+    #     # Normal integrals
+    #     "uni222B.display", "uni222C.display", "uni222D.display", "uni2A0C.display",
+    #     # Contour integrals
+    #     "uni222E.display", "uni222F.display", "uni2230.display"]
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
+
+    ## 2019-01-31 Summations and products
+    sum_prod_glyphs = [
+        "uni2140", "uni220F", "uni2210", "uni2211",
+        "uni2140.display", "uni220F.display", "uni2210.display", "uni2211.display"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)

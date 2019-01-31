@@ -827,6 +827,7 @@ U+220B,CONTAINS AS MEMBER,uni220B,,Mathematical Operators,,A,,,
 U+220C,DOES NOT CONTAIN AS MEMBER,uni220C,,Mathematical Operators,,A,,,
 U+220D,SMALL CONTAINS AS MEMBER,uni220D,,Mathematical Operators,,A,,,
 U+220E,END OF PROOF,uni220E,,Mathematical Operators,,A,,,
+U+2140,DOUBLE-STRUCK N-ARY SUMMATION,uni2140,,Mathematical Operators,,A,,,
 U+220F,N-ARY PRODUCT,uni220F,AL3,Mathematical Operators,,A,,,
 U+2210,N-ARY COPRODUCT,uni2210,,Mathematical Operators,,A,,,
 U+2211,N-ARY SUMMATION,uni2211,AL3,Mathematical Operators,,A,,,
@@ -2700,9 +2701,10 @@ U+1D7FF,MATHEMATICAL MONOSPACE DIGIT NINE,u1D7FF,,Mathematical Alphanumeric Symb
 ,REVERSED PRIME,uni2035.ssty2,,<Non-Unicode>,Math Script Style Alternates,A,N,,
 ,REVERSED DOUBLE PRIME,uni2036.ssty2,,<Non-Unicode>,Math Script Style Alternates,A,N,,
 ,REVERSED TRIPLE PRIME,uni2037.ssty2,,<Non-Unicode>,Math Script Style Alternates,A,N,,
-,N-ARY PRODUCT,uni220F.display,,<Non-Unicode>,Display Math Operators,A,N,,
-,N-ARY COPRODUCT,uni2210.display,,<Non-Unicode>,Display Math Operators,A,N,,
-,N-ARY SUMMATION,uni2211.display,,<Non-Unicode>,Display Math Operators,A,N,,
+,DOUBLE-STRUCK N-ARY SUMMATION,uni2140.display,,<Non-Unicode>,Display Math Operators,A,N,,3
+,N-ARY PRODUCT,uni220F.display,,<Non-Unicode>,Display Math Operators,A,N,,3
+,N-ARY COPRODUCT,uni2210.display,,<Non-Unicode>,Display Math Operators,A,N,,3
+,N-ARY SUMMATION,uni2211.display,,<Non-Unicode>,Display Math Operators,A,N,,3
 ,INTEGRAL,uni222B.display,,<Non-Unicode>,Display Math Operators,A,N,,3
 ,DOUBLE INTEGRAL,uni222C.display,,<Non-Unicode>,Display Math Operators,A,N,,3
 ,TRIPLE INTEGRAL,uni222D.display,,<Non-Unicode>,Display Math Operators,A,N,,3
