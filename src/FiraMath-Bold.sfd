@@ -13853,150 +13853,150 @@ EndChar
 
 StartChar: uni2032
 Encoding: 8242 8242 553
-Width: 350
+Width: 349
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 74 505 m 1
  146 740 l 1
- 276 740 l 1
- 176 505 l 1
+ 275 740 l 1
+ 175 505 l 1
  74 505 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2033
 Encoding: 8243 8243 554
-Width: 546
+Width: 552
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-270 505 m 1
- 342 740 l 1
- 472 740 l 1
- 372 505 l 1
- 270 505 l 1
+277 505 m 1
+ 349 740 l 1
+ 479 740 l 1
+ 379 505 l 1
+ 277 505 l 1
 74 505 m 1
  146 740 l 1
- 276 740 l 1
- 176 505 l 1
+ 275 740 l 1
+ 175 505 l 1
  74 505 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2034
 Encoding: 8244 8244 555
-Width: 742
+Width: 755
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-466 505 m 1
- 538 740 l 1
- 668 740 l 1
- 568 505 l 1
- 466 505 l 1
-270 505 m 1
- 342 740 l 1
- 472 740 l 1
- 372 505 l 1
- 270 505 l 1
+481 505 m 1
+ 553 740 l 1
+ 682 740 l 1
+ 582 505 l 1
+ 481 505 l 1
+277 505 m 1
+ 349 740 l 1
+ 479 740 l 1
+ 379 505 l 1
+ 277 505 l 1
 74 505 m 1
  146 740 l 1
- 276 740 l 1
- 176 505 l 1
+ 275 740 l 1
+ 175 505 l 1
  74 505 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2035
 Encoding: 8245 8245 556
-Width: 350
+Width: 349
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 74 740 m 1
+ 203 740 l 1
+ 275 505 l 1
  174 505 l 1
- 276 505 l 1
- 204 740 l 1
  74 740 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2036
 Encoding: 8246 8246 557
-Width: 546
+Width: 552
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-270 740 m 1
- 370 505 l 1
- 472 505 l 1
- 400 740 l 1
- 270 740 l 1
+277 740 m 1
+ 406 740 l 1
+ 479 505 l 1
+ 377 505 l 1
+ 277 740 l 1
 74 740 m 1
+ 203 740 l 1
+ 275 505 l 1
  174 505 l 1
- 276 505 l 1
- 204 740 l 1
  74 740 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2037
 Encoding: 8247 8247 558
-Width: 742
+Width: 755
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-466 740 m 1
- 566 505 l 1
- 668 505 l 1
- 596 740 l 1
- 466 740 l 1
-270 740 m 1
- 370 505 l 1
- 472 505 l 1
- 400 740 l 1
- 270 740 l 1
+481 740 m 1
+ 610 740 l 1
+ 682 505 l 1
+ 580 505 l 1
+ 481 740 l 1
+277 740 m 1
+ 406 740 l 1
+ 479 505 l 1
+ 377 505 l 1
+ 277 740 l 1
 74 740 m 1
+ 203 740 l 1
+ 275 505 l 1
  174 505 l 1
- 276 505 l 1
- 204 740 l 1
  74 740 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2057
 Encoding: 8279 8279 559
-Width: 938
+Width: 959
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-662 505 m 1
- 734 740 l 1
- 864 740 l 1
- 764 505 l 1
- 662 505 l 1
-466 505 m 1
- 538 740 l 1
- 668 740 l 1
- 568 505 l 1
- 466 505 l 1
-270 505 m 1
- 342 740 l 1
- 472 740 l 1
- 372 505 l 1
- 270 505 l 1
+684 505 m 1
+ 756 740 l 1
+ 885 740 l 1
+ 785 505 l 1
+ 684 505 l 1
+481 505 m 1
+ 553 740 l 1
+ 682 740 l 1
+ 582 505 l 1
+ 481 505 l 1
+277 505 m 1
+ 349 740 l 1
+ 479 740 l 1
+ 379 505 l 1
+ 277 505 l 1
 74 505 m 1
  146 740 l 1
- 276 740 l 1
- 176 505 l 1
+ 275 740 l 1
+ 175 505 l 1
  74 505 l 1
 EndSplineSet
 EndChar
@@ -23563,301 +23563,301 @@ EndChar
 
 StartChar: uni2032.ssty1
 Encoding: 1114112 -1 950
-Width: 437
+Width: 463
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+91 137 m 1
+ 191 464 l 1
+ 372 464 l 1
+ 232 137 l 1
+ 91 137 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2033.ssty1
 Encoding: 1114113 -1 951
-Width: 682
+Width: 751
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-337 131 m 1
- 427 425 l 1
- 590 425 l 1
- 465 131 l 1
- 337 131 l 1
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+380 137 m 1
+ 479 464 l 1
+ 660 464 l 1
+ 520 137 l 1
+ 380 137 l 1
+91 137 m 1
+ 191 464 l 1
+ 372 464 l 1
+ 232 137 l 1
+ 91 137 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2034.ssty1
 Encoding: 1114114 -1 952
-Width: 927
+Width: 1039
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-582 131 m 1
- 672 425 l 1
- 835 425 l 1
- 710 131 l 1
- 582 131 l 1
-337 131 m 1
- 427 425 l 1
- 590 425 l 1
- 465 131 l 1
- 337 131 l 1
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+668 137 m 1
+ 767 464 l 1
+ 948 464 l 1
+ 808 137 l 1
+ 668 137 l 1
+380 137 m 1
+ 479 464 l 1
+ 660 464 l 1
+ 520 137 l 1
+ 380 137 l 1
+91 137 m 1
+ 191 464 l 1
+ 372 464 l 1
+ 232 137 l 1
+ 91 137 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2057.ssty1
 Encoding: 1114115 -1 953
-Width: 1172
+Width: 1327
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-827 131 m 1
- 917 425 l 1
- 1080 425 l 1
- 955 131 l 1
- 827 131 l 1
-582 131 m 1
- 672 425 l 1
- 835 425 l 1
- 710 131 l 1
- 582 131 l 1
-337 131 m 1
- 427 425 l 1
- 590 425 l 1
- 465 131 l 1
- 337 131 l 1
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+956 137 m 1
+ 1055 464 l 1
+ 1236 464 l 1
+ 1096 137 l 1
+ 956 137 l 1
+668 137 m 1
+ 767 464 l 1
+ 948 464 l 1
+ 808 137 l 1
+ 668 137 l 1
+380 137 m 1
+ 479 464 l 1
+ 660 464 l 1
+ 520 137 l 1
+ 380 137 l 1
+91 137 m 1
+ 191 464 l 1
+ 372 464 l 1
+ 232 137 l 1
+ 91 137 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2035.ssty1
 Encoding: 1114116 -1 954
-Width: 437
+Width: 463
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-92 425 m 1
- 218 131 l 1
- 345 131 l 1
- 256 425 l 1
- 92 425 l 1
+91 464 m 1
+ 272 464 l 1
+ 372 137 l 1
+ 231 137 l 1
+ 91 464 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2036.ssty1
 Encoding: 1114117 -1 955
-Width: 682
+Width: 751
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-337 425 m 1
- 463 131 l 1
- 590 131 l 1
- 501 425 l 1
- 337 425 l 1
-92 425 m 1
- 218 131 l 1
- 345 131 l 1
- 256 425 l 1
- 92 425 l 1
+380 464 m 1
+ 560 464 l 1
+ 660 137 l 1
+ 519 137 l 1
+ 380 464 l 1
+91 464 m 1
+ 272 464 l 1
+ 372 137 l 1
+ 231 137 l 1
+ 91 464 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2037.ssty1
 Encoding: 1114118 -1 956
-Width: 927
+Width: 1039
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-582 425 m 1
- 708 131 l 1
- 835 131 l 1
- 746 425 l 1
- 582 425 l 1
-337 425 m 1
- 463 131 l 1
- 590 131 l 1
- 501 425 l 1
- 337 425 l 1
-92 425 m 1
- 218 131 l 1
- 345 131 l 1
- 256 425 l 1
- 92 425 l 1
+668 464 m 1
+ 848 464 l 1
+ 948 137 l 1
+ 807 137 l 1
+ 668 464 l 1
+380 464 m 1
+ 560 464 l 1
+ 660 137 l 1
+ 519 137 l 1
+ 380 464 l 1
+91 464 m 1
+ 272 464 l 1
+ 372 137 l 1
+ 231 137 l 1
+ 91 464 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2032.ssty2
 Encoding: 1114119 -1 957
-Width: 437
+Width: 499
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+98 131 m 1
+ 206 483 l 1
+ 401 483 l 1
+ 252 131 l 1
+ 98 131 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2033.ssty2
 Encoding: 1114120 -1 958
-Width: 682
+Width: 804
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-337 131 m 1
- 427 425 l 1
- 590 425 l 1
- 465 131 l 1
- 337 131 l 1
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+403 131 m 1
+ 511 483 l 1
+ 706 483 l 1
+ 557 131 l 1
+ 403 131 l 1
+98 131 m 1
+ 206 483 l 1
+ 401 483 l 1
+ 252 131 l 1
+ 98 131 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2034.ssty2
 Encoding: 1114121 -1 959
-Width: 927
+Width: 1109
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-582 131 m 1
- 672 425 l 1
- 835 425 l 1
- 710 131 l 1
- 582 131 l 1
-337 131 m 1
- 427 425 l 1
- 590 425 l 1
- 465 131 l 1
- 337 131 l 1
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+708 131 m 1
+ 816 483 l 1
+ 1011 483 l 1
+ 862 131 l 1
+ 708 131 l 1
+403 131 m 1
+ 511 483 l 1
+ 706 483 l 1
+ 557 131 l 1
+ 403 131 l 1
+98 131 m 1
+ 206 483 l 1
+ 401 483 l 1
+ 252 131 l 1
+ 98 131 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2057.ssty2
 Encoding: 1114122 -1 960
-Width: 1172
+Width: 1414
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-827 131 m 1
- 917 425 l 1
- 1080 425 l 1
- 955 131 l 1
- 827 131 l 1
-582 131 m 1
- 672 425 l 1
- 835 425 l 1
- 710 131 l 1
- 582 131 l 1
-337 131 m 1
- 427 425 l 1
- 590 425 l 1
- 465 131 l 1
- 337 131 l 1
-92 131 m 1
- 182 425 l 1
- 345 425 l 1
- 220 131 l 1
- 92 131 l 1
+1013 131 m 1
+ 1121 483 l 1
+ 1316 483 l 1
+ 1167 131 l 1
+ 1013 131 l 1
+708 131 m 1
+ 816 483 l 1
+ 1011 483 l 1
+ 862 131 l 1
+ 708 131 l 1
+403 131 m 1
+ 511 483 l 1
+ 706 483 l 1
+ 557 131 l 1
+ 403 131 l 1
+98 131 m 1
+ 206 483 l 1
+ 401 483 l 1
+ 252 131 l 1
+ 98 131 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2035.ssty2
 Encoding: 1114123 -1 961
-Width: 437
+Width: 499
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-92 425 m 1
- 218 131 l 1
- 345 131 l 1
- 256 425 l 1
- 92 425 l 1
+98 483 m 1
+ 293 483 l 1
+ 401 131 l 1
+ 248 131 l 1
+ 98 483 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2036.ssty2
 Encoding: 1114124 -1 962
-Width: 682
+Width: 804
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-337 425 m 1
- 463 131 l 1
- 590 131 l 1
- 501 425 l 1
- 337 425 l 1
-92 425 m 1
- 218 131 l 1
- 345 131 l 1
- 256 425 l 1
- 92 425 l 1
+403 483 m 1
+ 598 483 l 1
+ 706 131 l 1
+ 553 131 l 1
+ 403 483 l 1
+98 483 m 1
+ 293 483 l 1
+ 401 131 l 1
+ 248 131 l 1
+ 98 483 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2037.ssty2
 Encoding: 1114125 -1 963
-Width: 927
+Width: 1109
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-582 425 m 1
- 708 131 l 1
- 835 131 l 1
- 746 425 l 1
- 582 425 l 1
-337 425 m 1
- 463 131 l 1
- 590 131 l 1
- 501 425 l 1
- 337 425 l 1
-92 425 m 1
- 218 131 l 1
- 345 131 l 1
- 256 425 l 1
- 92 425 l 1
+708 483 m 1
+ 903 483 l 1
+ 1011 131 l 1
+ 858 131 l 1
+ 708 483 l 1
+403 483 m 1
+ 598 483 l 1
+ 706 131 l 1
+ 553 131 l 1
+ 403 483 l 1
+98 483 m 1
+ 293 483 l 1
+ 401 131 l 1
+ 248 131 l 1
+ 98 483 l 1
 EndSplineSet
 EndChar
 

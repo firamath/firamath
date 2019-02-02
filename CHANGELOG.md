@@ -4,6 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+- Fixed:
+  - `ssty` for primes
+- Changed:
+  - Adjust MATH constants `ScriptPercentScaleDown` and `ScriptScriptPercentScaleDown`. See <https://github.com/wspr/unicode-math/issues/510>
+
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-2...master).
 
 ## v0.4-beta-2 (2019-01-31)
@@ -33,7 +38,7 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
   - Only few of the basic glyphs have been created
   - ~~Interpolated points are not rounded to integer, and overlapped paths are not removed~~ - fixed in v0.4-beta-2
   - Now the metrics are just from the original FiraGO/FiraSans, but should be modified for math
-  - For primes, `ssty2` is identical to `ssty1`. See <https://github.com/wspr/unicode-math/issues/503>
+  - ~~For primes, `ssty2` is identical to `ssty1`. See <https://github.com/wspr/unicode-math/issues/503>~~ -fixed in [TODO]
   - ~~Mathematical Capital Theta Symbols are not correct~~ - fixed in v0.4-beta-2
   - This version is highly experimental so I will not upload to CTAN
 

@@ -1,7 +1,7 @@
 {
     "MathConstants": {
-        "ScriptPercentScaleDown": [80, 80, 80],
-        "ScriptScriptPercentScaleDown": [60, 60, 60],
+        "ScriptPercentScaleDown": [72, 72, 72],
+        "ScriptScriptPercentScaleDown": [52, 52, 52],
         "DelimitedSubFormulaMinHeight": [1500, 1500, 1500],
         "DisplayOperatorMinHeight": [1500, 1500, 1500],
         "MathLeading": [150, 150, 150],
