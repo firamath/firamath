@@ -3,8 +3,7 @@
 \documentclass{article}
 \usepackage{amsmath,unicode-math,physics,geometry}
 
-% \geometry{paperheight=200cm, margin=2.54cm, showframe}
-\geometry{margin=2.54cm, showframe}
+\geometry{margin=1cm, showframe}
 \unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
 
 \setmainfont{TeX Gyre Pagella}
@@ -14,7 +13,6 @@
 \ExplSyntaxOn
 \str_new:N  \l_fonttest_font_str
 \str_set:Nn \l_fonttest_font_str { fira }  % Can be either fira/xits
-
 
 \str_if_eq:VnTF \l_fonttest_font_str { fira }
   {
@@ -40,11 +38,7 @@
 \cs_new:Npn \WeightTest #1
   {
     \clist_map_inline:Nn \c__fonttest_weights_clist
-      {
-        \group_begin:
-          \mathversion {##1} #1
-        \group_end:
-      }
+      { \group_begin: \mathversion {##1} #1 \group_end: }
   }
 
 \ExplSyntaxOff
@@ -53,14 +47,10 @@
 
 \WeightTest{
   \[
-    \int_0^{+\infty}    f(x) \,\mathrm{d}x \,
-    \iint_0^{+\infty}   f(x) \,\mathrm{d}x \,
-    \iiint_0^{+\infty}  f(x) \,\mathrm{d}x \,
-    \iiiint_0^{+\infty} f(x) \,\mathrm{d}x
-  \]}
-
-\WeightTest{
-  \[
+    \int_0^{+\infty}     f(x) \,\mathrm{d}x \,
+    \iint_0^{+\infty}    f(x) \,\mathrm{d}x \,
+    \iiint_0^{+\infty}   f(x) \,\mathrm{d}x \,
+    \iiiint_0^{+\infty}  f(x) \,\mathrm{d}x \quad
     \oint_0^{+\infty}    f(x) \,\mathrm{d}x \,
     \oiint_0^{+\infty}   f(x) \,\mathrm{d}x \,
     \oiiint_0^{+\infty}  f(x) \,\mathrm{d}x
@@ -90,9 +80,12 @@
   \end{gathered}\]}
 
 \WeightTest{
-  $ \int\limits_0^\infty \int_0^\infty \iint \dd{x} \iiint \dd{y} \iiiint \dd{p}
+  \[
+    \textstyle
+    \int\limits_0^\infty \int_0^\infty \iint \dd{x} \iiint \dd{y} \iiiint \dd{p}
     \oint \dd{r} \oiint \dd{\theta} \oiiint \dd{\varphi}
     \sum_{i=1}^\infty x^i \Bbbsum_{i=1}^\infty
-    \prod_{j=\symbf{i}}^\infty \symbf{A}_j(p) \coprod_{k=j}^\infty f^{(k)}_j(x) $ \par}
+    \prod_{j=\symbf{i}}^\infty \symbf{A}_j(p) \coprod_{k=j}^\infty f^{(k)}_j(x)
+  \]}
 
 \end{document}

@@ -37,7 +37,7 @@ def interpolate_font(weight_dict, glyph_list):
 
 
 if __name__ == "__main__":
-    ## 2019-01-06  Integrals
+    ## 2019-01-06  Integrals (I)
     # integral_glyphs = [
     #     # Normal integrals
     #     "uni222B.display", "uni222C.display", "uni222D.display", "uni2A0C.display",
@@ -60,6 +60,11 @@ if __name__ == "__main__":
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Ultra"], prime_glyphs)
 
     ## 2019-02-04 Summations and products (II)
-    sum_prod_glyphs = ["uni2140", "uni220F", "uni2210", "uni2211"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
+    # sum_prod_glyphs = ["uni2140", "uni220F", "uni2210", "uni2211"]
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
+
+    ## 2019-02-05  Integrals (II)
+    integral_glyphs = ["uni222B", "uni222C", "uni222D", "uni2A0C"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
