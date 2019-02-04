@@ -26,14 +26,14 @@
       % { Thin, Regular, Ultra }
       % {Regular}
     \clist_map_inline:Nn \c__fonttest_weights_clist
-      { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, BoldFont = *, version = #1 ] }
+      { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, version = #1 ] }
   }
   {
     \str_if_eq:VnT \l_fonttest_font_str { xits }
       {
         \clist_const:Nn \c__fonttest_weights_clist { Regular, Bold }
         \clist_map_inline:Nn \c__fonttest_weights_clist
-          { \setmathfont { XITSMath-#1.otf } [ BoldFont = *, version = #1 ] }
+          { \setmathfont { XITSMath-#1.otf } [ version = #1 ] }
       }
   }
 
@@ -92,6 +92,7 @@
 \WeightTest{
   $ \int\limits_0^\infty \int_0^\infty \iint \dd{x} \iiint \dd{y} \iiiint \dd{p}
     \oint \dd{r} \oiint \dd{\theta} \oiiint \dd{\varphi}
-    \sum_{i=1}^\infty \Bbbsum_{i=1}^\infty \prod_{j=i}^\infty \coprod_{i=i}^\infty $ \par}
+    \sum_{i=1}^\infty x^i \Bbbsum_{i=1}^\infty
+    \prod_{j=\symbf{i}}^\infty \symbf{A}_j(p) \coprod_{k=j}^\infty f^{(k)}_j(x) $ \par}
 
 \end{document}

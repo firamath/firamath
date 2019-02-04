@@ -46,7 +46,7 @@ if __name__ == "__main__":
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
 
-    ## 2019-01-31 Summations and products
+    ## 2019-01-31 Summations and products (I)
     # sum_prod_glyphs = [
     #     "uni2140", "uni220F", "uni2210", "uni2211",
     #     "uni2140.display", "uni220F.display", "uni2210.display", "uni2211.display"]
@@ -54,7 +54,12 @@ if __name__ == "__main__":
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
 
     ## 2019-02-02  Primes
-    prime_glyphs = ["uni2032", "uni2033", "uni2034", "uni2057", "uni2035", "uni2036", "uni2037"]
-    prime_glyphs += ([glyph + ".ssty1" for glyph in prime_glyphs] +
-                     [glyph + ".ssty2" for glyph in prime_glyphs])
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Ultra"], prime_glyphs)
+    # prime_glyphs = ["uni2032", "uni2033", "uni2034", "uni2057", "uni2035", "uni2036", "uni2037"]
+    # prime_glyphs += ([glyph + ".ssty1" for glyph in prime_glyphs] +
+    #                  [glyph + ".ssty2" for glyph in prime_glyphs])
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Ultra"], prime_glyphs)
+
+    ## 2019-02-04 Summations and products (II)
+    sum_prod_glyphs = ["uni2140", "uni220F", "uni2210", "uni2211"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
