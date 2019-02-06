@@ -70,6 +70,11 @@ if __name__ == "__main__":
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
 
     ## 2019-02-06  Binaries (I)
-    binary_glyphs = ["uni00B1", "uni2212", "uni2213", "uni2214"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], binary_glyphs)
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], binary_glyphs)
+    # binary_glyphs = ["uni00B1", "uni2212", "uni2213", "uni2214"]
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], binary_glyphs)
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], binary_glyphs)
+
+    ## 2019-02-06  Arrows (I)
+    arrow_glyphs = ["uni" + hex(0x2190 + i)[2:].upper() for i in range(112)]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], arrow_glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], arrow_glyphs)
