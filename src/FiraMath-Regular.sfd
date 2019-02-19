@@ -17121,32 +17121,6 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-144 200 m 1
- 930 200 l 1
- 930 120 l 1
- 290 120 l 1
- 414 8 l 1
- 360 -52 l 1
- 120 169 l 2
- 144 200 l 1
-916 360 m 1
- 130 360 l 1
- 130 440 l 1
- 770 440 l 1
- 646 552 l 1
- 700 612 l 1
- 940 391 l 2
- 916 360 l 1
-EndSplineSet
-EndChar
-
-StartChar: uni21CC
-Encoding: 8652 8652 682
-Width: 1060
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
 916 200 m 1
  130 200 l 1
  130 120 l 1
@@ -17163,6 +17137,32 @@ SplineSet
  360 612 l 1
  120 391 l 2
  144 360 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CC
+Encoding: 8652 8652 682
+Width: 1060
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+144 200 m 1
+ 930 200 l 1
+ 930 120 l 1
+ 290 120 l 1
+ 414 8 l 1
+ 360 -52 l 1
+ 120 169 l 2
+ 144 200 l 1
+916 360 m 1
+ 130 360 l 1
+ 130 440 l 1
+ 770 440 l 1
+ 646 552 l 1
+ 700 612 l 1
+ 940 391 l 2
+ 916 360 l 1
 EndSplineSet
 EndChar
 
@@ -24102,11 +24102,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-110 270 m 1
- 110 165 195 80 300 80 c 1
- 300 0 l 1
- 150 0 30 120 30 270 c 1
- 110 270 l 1
+570 270 m 1
+ 570 120 449 0 300 0 c 1
+ 300 80 l 1
+ 404 80 490 165 490 270 c 1
+ 570 270 l 1
 EndSplineSet
 EndChar
 
@@ -24117,11 +24117,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-570 270 m 1
- 570 120 449 0 300 0 c 1
- 300 80 l 1
- 404 80 490 165 490 270 c 1
- 570 270 l 1
+110 270 m 1
+ 110 165 195 80 300 80 c 1
+ 300 0 l 1
+ 150 0 30 120 30 270 c 1
+ 110 270 l 1
 EndSplineSet
 EndChar
 
