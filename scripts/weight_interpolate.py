@@ -36,7 +36,7 @@ def interpolate_font(weight_dict, glyph_list):
 
 
 if __name__ == "__main__":
-    ## 2019-01-06  Integrals (I)
+    ## 2019-01-06 Integrals (I)
     # integral_glyphs = [
     #     # Normal integrals
     #     "uni222B.display", "uni222C.display", "uni222D.display", "uni2A0C.display",
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
 
-    ## 2019-02-02  Primes
+    ## 2019-02-02 Primes
     # prime_glyphs = ["uni2032", "uni2033", "uni2034", "uni2057", "uni2035", "uni2036", "uni2037"]
     # prime_glyphs += ([glyph + ".ssty1" for glyph in prime_glyphs] +
     #                  [glyph + ".ssty2" for glyph in prime_glyphs])
@@ -63,17 +63,22 @@ if __name__ == "__main__":
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
 
-    ## 2019-02-05  Integrals (II)
+    ## 2019-02-05 Integrals (II)
     # integral_glyphs = ["uni222B", "uni222C", "uni222D", "uni2A0C"]
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
 
-    ## 2019-02-06  Binaries (I)
+    ## 2019-02-06 Binaries (I)
     # binary_glyphs = ["uni00B1", "uni2212", "uni2213", "uni2214"]
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], binary_glyphs)
     # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], binary_glyphs)
 
-    ## 2019-02-06  Arrows (I)
-    arrow_glyphs = ["uni" + hex(0x2190 + i)[2:].upper() for i in range(112)]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], arrow_glyphs)
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], arrow_glyphs)
+    ## 2019-02-06 Arrows (I)
+    # arrow_glyphs = ["uni" + hex(0x2190 + i)[2:].upper() for i in range(112)]
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], arrow_glyphs)
+    # interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], arrow_glyphs)
+
+    ## 2019-02-20 Integrals (III)
+    integral_glyphs = ["uni222B", "uni222C", "uni222D", "uni222E", "uni222F", "uni2230", "uni2A0C"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)

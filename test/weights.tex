@@ -6,10 +6,6 @@
 \geometry{margin=1cm, showframe}
 \unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
 
-\setmainfont{TeX Gyre Pagella}
-% \setsansfont{TeX Gyre Heros}
-% \setmonofont{CMU Typewriter Text}[UprightFont=* Light, HyphenChar=None]
-
 \ExplSyntaxOn
 \str_new:N  \l_fonttest_font_str
 \str_set:Nn \l_fonttest_font_str { fira }  % Can be either fira/xits
@@ -38,7 +34,12 @@
 \cs_new:Npn \WeightTest #1
   {
     \clist_map_inline:Nn \c__fonttest_weights_clist
-      { \group_begin: \mathversion {##1} #1 \group_end: }
+      {
+        \group_begin:
+          \cs_set:Npn \WEIGHT {##1}
+          \mathversion {##1} #1
+        \group_end:
+      }
   }
 
 \ExplSyntaxOff
@@ -79,16 +80,33 @@
 % }
 
 \WeightTest{
-  \[
+  \[\begin{gathered}
     x \leftarrow  y   \rightarrow  z \leftrightarrow  w
       \nleftarrow y   \nrightarrow z \nleftrightarrow w
       \Leftarrow  a = \Rightarrow  b \Leftrightarrow  c
       \nLeftarrow a = \nRightarrow b \nLeftrightarrow c \,
-    x \uparrow y \downarrow  z \updownarrow w
-      \Uparrow a \Downarrow  b \Updownarrow c \,
+    x \uparrow y \downarrow z \updownarrow w
+      \Uparrow a \Downarrow b \Updownarrow c \,
     p \nwarrow p \nearrow p \searrow p \swarrow p
       \Nwarrow p \Nearrow p \Searrow p \Swarrow p \\
-  \]
+    %
+    x \leftharpoonup    x \leftharpoondown  x`
+      \upharpoonright   x \upharpoonleft    x
+      \rightharpoonup   x \rightharpoondown x
+      \downharpoonright x \downharpoonleft  x \,
+    A \longleftarrow B   \longrightarrow C \longleftrightarrow D
+      \Longleftarrow E = \Longrightarrow F \Longleftrightarrow G \,
+    X \mapsfrom Y \mapsto Z \mapsup W \mapsdown P \Mapsfrom S \Mapsto R \\
+    %
+    a \twoheadleftarrow b \twoheaduparrow c \twoheadrightarrow d \twoheaddownarrow
+    e \leftarrowtail f \rightarrowtail g \,
+    M \longmapsfrom N \longmapsto O \Longmapsfrom K \Longmapsto L \,
+    f \rightleftarrows  f \updownarrows f \leftrightarrows f \downuparrows
+    g \rightrightarrows g \upuparrows   g \leftleftarrows  g \downdownarrows
+    h \rightthreearrows h \leftthreearrows
+    p \leftrightharpoons       p \rightleftharpoons
+    p \updownharpoonsleftright p \downupharpoonsleftright p
+  \end{gathered}\]
 }
 
 % \WeightTest{
@@ -165,6 +183,7 @@
     \oint \dd{r} \oiint \dd{\theta} \oiiint \dd{\varphi}
     \sum_{i=1}^\infty x^i \Bbbsum_{i=1}^\infty
     \prod_{j=\symbf{i}}^\infty \symbf{A}_j(p) \coprod_{k=j}^\infty f^{(k)}_j(x)
+    \tag{\WEIGHT}
   \]}
 
 \end{document}

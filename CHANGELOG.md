@@ -4,10 +4,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+- Added:
+  - Inline version of integral, summation and product symbols - [#30](https://github.com/firamath/firamath/issues/30)
+  - Arrows
+  - Some binary operators
 - Fixed:
   - `ssty` for primes
+  - Some wrong mappings - [#31](https://github.com/firamath/firamath/issues/31)
 - Changed:
   - Adjust MATH constants `ScriptPercentScaleDown` and `ScriptScriptPercentScaleDown`. See <https://github.com/wspr/unicode-math/issues/510>
+- Known issues:
+  - Uncreated arrows use empty glyph as a placeholder
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-2...master).
 
@@ -36,10 +43,10 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
   - Python scripts are re-written with FontForge's API
 - Known issues:
   - Only few of the basic glyphs have been created
-  - ~~Interpolated points are not rounded to integer, and overlapped paths are not removed~~ - fixed in v0.4-beta-2
+  - ~~Interpolated points are not rounded to integer, and overlapped paths are not removed~~ - *fixed in v0.4-beta-2*
   - Now the metrics are just from the original FiraGO/FiraSans, but should be modified for math
-  - ~~For primes, `ssty2` is identical to `ssty1`. See <https://github.com/wspr/unicode-math/issues/503>~~ -fixed in [TODO]
-  - ~~Mathematical Capital Theta Symbols are not correct~~ - fixed in v0.4-beta-2
+  - ~~For primes, `ssty2` is identical to `ssty1`. See <https://github.com/wspr/unicode-math/issues/503>~~ - *fixed in [TODO]*
+  - ~~Mathematical Capital Theta Symbols are not correct~~ - *fixed in v0.4-beta-2*
   - This version is highly experimental so I will not upload to CTAN
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.4-beta-1).
