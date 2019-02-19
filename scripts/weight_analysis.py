@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """Analysis interpolation coefficients for different weights.
 """
 

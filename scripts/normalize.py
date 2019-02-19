@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """A simple python script for FontForge SFD normalization. It will do the following jobs:
 
 - Discard GUI information.

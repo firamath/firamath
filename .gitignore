@@ -28,5 +28,6 @@ release/
 temp/
 
 # Other
+.DS_Store
 *.nb
 docs/standalone/

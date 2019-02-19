@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """Build script for Fira Math. It can
 
 - Generate fonts with FontForge.
@@ -26,6 +25,7 @@ FEATURE_PATH     = PWD + "/src/features"
 OTF_PATH         = PWD + "/release/fonts"
 TEST_PATH        = PWD + "/test"
 DOCS_PATH        = PWD + "/docs"
+SCRIPTS_PATH     = PWD + "/scripts"
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
 TEST_FILE_NAME   = "weights"
@@ -148,6 +148,9 @@ def clean():
     clean_aux_files()
     os.chdir(SFD_PATH)
     rm("*.bak")
+    os.chdir(SCRIPTS_PATH)
+    rm("*.pyc")
+    rmdir("__pycache__")
 
 
 def clean_aux_files():
@@ -157,10 +160,16 @@ def clean_aux_files():
 
 
 def rm(file_name):
-    if platform.system() == "Linux":
-        os.system("rm -f " + file_name)
-    elif platform.system() == "Windows":
+    if platform.system() == "Windows":
         os.system("DEL /Q " + file_name)
+    else:
+        os.system("rm -f " + file_name)
+
+def rmdir(dir_name):
+    if platform.system() == "Windows":
+        os.system("RMDIR /?")  # TODO
+    else:
+        os.system("rm -rf " + file_name)
 
 
 parser = argparse.ArgumentParser()

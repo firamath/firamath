@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """Copy glyphs from FiraSans. The weight mapping is as the following:
 
     + Thin          ExtraLight

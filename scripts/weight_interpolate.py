@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """Interpolate intermediate weights from several basic styles.
 """
 
