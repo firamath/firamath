@@ -1,5 +1,5 @@
 \documentclass[aspectratio=169]{beamer}
-\usepackage{amsmath,unicode-math,physics,tensor}
+\usepackage{amsmath,unicode-math,physics,tensor,xeCJK,bookmark}
 \useoutertheme{metropolis}
 \useinnertheme{metropolis}
 \usecolortheme{metropolis}
@@ -10,6 +10,11 @@
 \setbeamerfont{date}{size=\small}
 \setbeamertemplate{footline}{\vspace*{0.3cm}}
 
+\makeatletter
+% https://tex.stackexchange.com/q/66519
+\apptocmd{\beamer@@frametitle}{\only<1>{\bookmark[page=\the\c@page,level=3]{#1}}}{}{}
+\makeatother
+
 \unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
 
 \setsansfont{FiraGO}[BoldFont=* SemiBold, Numbers=Monospaced]
@@ -18,6 +23,13 @@
 %%<RELEASE>
 %%\setmathfont{Fira Math Regular}
 %%<END>
+
+\newCJKfontfamily\fontzhhans{Source Han Sans SC}
+\newCJKfontfamily\fontzhhant{Source Han Sans TC}
+\newCJKfontfamily\fontja{Source Han Sans}
+
+\def\ii{\symrm{i}}
+\def\pp{\symrm{\pi}}
 
 \title{Fira Math}
 \subtitle{Sans-serif font with Unicode math support}
@@ -28,7 +40,7 @@
 
 \maketitle
 
-\begin{frame}[noframenumbering]{General relativity}
+\begin{frame}[noframenumbering]{Basic examples (I)}
 \begin{itemize}
   \item Covariant derivative:
     \[
@@ -49,8 +61,7 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[noframenumbering]{Ramanujan log-trigonometric integrals}
-\def\pp{\symrm{\pi}}
+\begin{frame}[noframenumbering]{Basic examples (II)}
 \begin{itemize}
   \item Case $n=1$
     \small
@@ -75,6 +86,26 @@
                         \frac{\ln^2\cos\theta}{\theta^2+\ln^2\cos\theta}}}} \dd{\theta}
                 = (\ln 2)^{2^{-n}}}
       \end{cases}
+    \]
+\end{itemize}
+\end{frame}
+
+\begin{frame}[noframenumbering]{Using with CJK fonts}
+\begin{itemize}
+  \item {\fontzhhans 【留数定理】全纯函数 $f$ 在若尔当曲线 $\gamma$ 上的积分为：}
+    \[
+      \oint_\gamma f(z) \dd{z}
+      = 2\pp\ii \sum_{k=1}^n \Res_{z=a_k} f(z).
+    \]
+  \item {\fontzhhant 【留數定理】全純函數 $f$ 在若爾當曲線 $\gamma$ 上的積分為：}
+    \[
+      \oint_\gamma f(z) \dd{z}
+      = 2\pp\ii \sum_{k=1}^n \Res_{z=a_k} f(z).
+    \]
+  \item {\fontja 【留数定理】ジョルダン曲線 $\gamma$ に沿う正則関数 $f$ の積分は、}
+    \[
+      \oint_\gamma f(z) \dd{z}
+      = 2\pp\ii \sum_{k=1}^n \Res_{z=a_k} f(z).
     \]
 \end{itemize}
 \end{frame}
