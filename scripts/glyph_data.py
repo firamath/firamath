@@ -16,11 +16,9 @@ NON_UNICODE_TYPE_INDEX = 5
 STATUS_INDEX = 6
 SOURCE_INDEX = 7
 FIRA_GLYPH_INDEX = 8
-INTERPOLATION_INDEX = 9
 
 STATUS_VALID_TUPLE = ("A", "A/C")
 SOURCE_VALID_TUPLE = ("R", "B", "I", "X")
-INTERPOLATION_VALID_TUPLE = ("3", )
 
 
 def get_name_list():
@@ -28,8 +26,7 @@ def get_name_list():
     """
     with open(FILE_NAME, "r") as file:
         reader = csv.reader(file)
-        return [row[GLYPH_NAME_INDEX] for row in reader
-                if row[STATUS_INDEX] in STATUS_VALID_TUPLE]
+        return [row[GLYPH_NAME_INDEX] for row in reader]
 
 
 def _unicode_str_to_int(unicode_str):
@@ -60,12 +57,3 @@ def get_mapping_dict():
         reader = csv.reader(file)
         return {_key(row): _val(row) for row in reader
                 if row[SOURCE_INDEX] in SOURCE_VALID_TUPLE}
-
-
-def get_interpolation_list():
-    """Return a list of glyph names that need to be interpolated.
-    """
-    with open(FILE_NAME, "r") as file:
-        reader = csv.reader(file)
-        return [row[GLYPH_NAME_INDEX] for row in reader
-                if row[INTERPOLATION_INDEX] in INTERPOLATION_VALID_TUPLE]
