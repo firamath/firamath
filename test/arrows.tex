@@ -1,0 +1,178 @@
+\documentclass{firamath-test}
+\geometry{paperheight=100cm, paperwidth=36cm}
+\FiraTestSetup{font=fira, weights=master}
+
+\makeatletter\ExplSyntaxOn
+\cs_set:Npn \@@_new_test:nn #1#2
+  {
+    \cs_set:cpn { @@_arrow_test_#1:n } ##1
+      { \tl_map_inline:nn {#2} { ##1 ####1 } ##1 }
+  }
+\cs_set:Npn \Arrows #1#2 { \use:c { @@_arrow_test_#1:n } {#2} }
+
+\cs_set:Npn \ArrowTest #1
+  {
+    \@@_test:n
+      {
+        \[
+          \begin{gathered}
+            A\Arrows{#1}{}Z \\ \Arrows{#1}{H} \\ \Arrows{#1}{g} \\ \Arrows{#1}{2}
+          \end{gathered}
+        \]
+      }
+  }
+
+\@@_new_test:nn { single }
+  {
+    % Simple
+    \leftarrow     \leftrightarrow     \rightarrow
+    \longleftarrow \longleftrightarrow \longrightarrow
+    \twoheadleftarrow \twoheadrightarrow
+    % Maps
+    \mapsfrom \mapsto \longmapsfrom \longmapsto \twoheadmapsfrom \twoheadmapsto
+    % Tail
+    \lefttail \righttail \leftdbltail \rightdbltail \leftarrowtail \rightarrowtail
+    % Comparison
+    { \leftarrow\!\!-\!\!\rightarrow }
+    { \leftarrowtail \! \leftrightarrow \! \rightarrowtail }
+  }
+\@@_new_test:nn { not }
+  {
+    % Bar
+    \barleftarrow \rightarrowbar
+    \nvleftarrow \nvleftrightarrow \nvrightarrow
+    \nVleftarrow \nVleftrightarrow \nVrightarrow
+    \nvtwoheadleftarrow \nvtwoheadrightarrow
+    \nVtwoheadleftarrow \nVtwoheadrightarrow
+    % Tail
+    \nvleftarrowtail        \nvrightarrowtail
+    \nVleftarrowtail        \nVrightarrowtail
+    \nvtwoheadleftarrowtail \nvtwoheadrightarrowtail
+    \nVtwoheadleftarrowtail \nVtwoheadrightarrowtail
+    % Not
+    \nleftarrow \nleftrightarrow \nrightarrow
+    % Comparison
+    { \barleftarrow \leftrightarrow \rightarrowbar }
+    { \mapsfrom \barleftarrow } { \rightarrowbar \mapsto }
+    { \nVleftarrow \twoheadleftarrow \twoheadrightarrow \nVrightarrow }
+  }
+\@@_new_test:nn { dashed }
+  {
+    \leftdasharrow       \rightdasharrow
+    \leftbkarrow         \rightbkarrow
+    \leftdbkarrow        \dbkarrow
+    \twoheadleftdbkarrow \drbkarrow
+    \leftdotarrow        \rightdotarrow
+    { \leftbkarrow \!\! - \!\! \rightarrow   }
+    { \leftarrow   \!\! - \!\! \rightbkarrow }
+  }
+\@@_new_test:nn { misc }
+  {
+    \leftarrowx    \rightarrowx
+    \hookleftarrow \hookrightarrow \looparrowleft \looparrowright
+  }
+\@@_new_test:nn { half }
+  {
+    % Simple
+    \leftharpoonup   \leftrightharpoonupup     \rightharpoonup
+    \leftharpoondown \leftrightharpoondowndown \rightharpoondown
+    \leftrightharpoonupdown \leftrightharpoondownup
+    % Bar
+    \barleftharpoonup \rightharpoonupbar \barleftharpoondown \rightharpoondownbar
+    \leftharpoonupbar \barrightharpoonup \leftharpoondownbar \barrightharpoondown
+    % Comparison
+    { \leftharpoonup \!\! - \!\! \rightharpoonup }
+    { \leftarrow \rightharpoonup } { \leftharpoonup \rightarrow }
+  }
+\@@_new_test:nn { double }
+  {
+    \Leftarrow     \Leftrightarrow     \Rightarrow
+    { \Leftarrow  =      \Rightarrow  }
+    { \Lleftarrow \equiv \Rrightarrow }
+    \Longleftarrow \Longleftrightarrow \Longrightarrow
+    \Mapsfrom \Mapsto \Longmapsfrom \Longmapsto
+    \nLeftarrow  \nLeftrightarrow  \nRightarrow
+    \nvLeftarrow \nvLeftrightarrow \nvRightarrow
+    \rightleftarrows \leftrightarrows \leftleftarrows \rightrightarrows
+    \leftthreearrows \rightthreearrows
+    \barleftarrowrightarrowbar
+  }
+\@@_new_test:nn { double-half }
+  {
+    \leftharpoonsupdown  \rightharpoonsupdown
+    \leftrightharpoons   \rightleftharpoons
+    \leftrightharpoonsup \leftrightharpoonsdown
+    \rightleftharpoonsup \rightleftharpoonsdown
+    \leftharpoonupdash   \dashleftharpoondown
+    \rightharpoonupdash  \dashrightharpoondown
+    { \leftharpoonsupdown = \Rightarrow }
+    { \Leftarrow = \rightharpoonsupdown }
+  }
+\@@_new_test:nn { up-down }
+  {
+    \uparrow   \mapsup   \uparrowbarred   \baruparrow
+               \mapsdown \downarrowbarred \downarrowbar \downarrow
+    \downdownarrows  \downuparrows
+    \upuparrows      \updownarrows
+    \upharpoonleft   \upharpoonright
+    \downharpoonleft \downharpoonright
+    \updownharpoonleftleft   \updownharpoonrightright
+    \updownharpoonrightleft  \updownharpoonleftright
+    \downharpoonleftbar      \downharpoonrightbar
+    \upharpoonleftbar        \upharpoonrightbar
+    \barupharpoonleft        \barupharpoonright
+    \bardownharpoonleft      \bardownharpoonright
+    \upharpoonsleftright     \downharpoonsleftright
+    \updownharpoonsleftright \downupharpoonsleftright
+    \twoheaddownarrow \Downarrow \Ddownarrow
+    \twoheaduparrow   \Uparrow   \Uuparrow
+    \updownarrow \Updownarrow
+  }
+\@@_new_test:nn { up-down-mathord }
+  {
+    \updasharrow  \downdasharrow  \updownarrowbar \nHuparrow \nHdownarrow
+    \upwhitearrow \downwhitearrow \whitearrowupfrombar
+  }
+\@@_new_test:nn { slant }
+  {
+    \nwarrow   \nearrow   \searrow   \swarrow
+    \Nwarrow   \Nearrow   \Searrow   \Swarrow
+    \hknwarrow \hknearrow \hksearrow \hkswarrow
+    \nwsearrow \neswarrow
+    \tona      \toea      \tosa      \towa
+  }
+\ExplSyntaxOff\makeatother
+
+\begin{document}
+
+\section{Arrows}
+
+\subsection{Single arrows}
+\ArrowTest{single}
+
+\subsection{Not arrows}
+\ArrowTest{not}
+
+\subsection{Dashed arrows}
+\ArrowTest{dashed}
+
+\subsection{Miscellaneous arrows}
+\ArrowTest{misc}
+
+\subsection{Half arrows}
+\ArrowTest{half}
+
+\subsection{Double (and more) arrows}
+\ArrowTest{double}
+
+\subsection{Double half arrows}
+\ArrowTest{double-half}
+
+\subsection{Up-and-down arrows}
+\ArrowTest{up-down}
+\ArrowTest{up-down-mathord}
+
+\subsection{Slant arrows}
+\ArrowTest{slant}
+
+\end{document}

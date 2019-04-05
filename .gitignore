@@ -31,3 +31,4 @@ temp/
 .DS_Store
 *.nb
 docs/standalone/
+test/*.sh
