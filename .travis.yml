@@ -9,10 +9,10 @@ script:
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --check
 before_deploy:
   - echo $TRAVIS_COMMIT
-  - ehoc $TRAVIS_COMMIT_MESSAGE
-  - ehoc $TRAVIS_COMMIT_RANGE
+  - echo $TRAVIS_COMMIT_MESSAGE
+  - echo $TRAVIS_COMMIT_RANGE
   - echo $TRAVIS_JOB_ID
-  - ehoc $TRAVIS_JOB_NAME
+  - echo $TRAVIS_JOB_NAME
   - zip ./release/firamath-otf-$TRAVIS_COMMIT.zip ./release/fonts/*.otf
   - ls -al $(pwd)
   - ls -al $(pwd)/release
