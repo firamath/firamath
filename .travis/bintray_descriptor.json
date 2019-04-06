@@ -20,9 +20,9 @@
         "public_stats": true
     },
     "version": {
-        "name": "ci-build",
+        "name": "<CI-XXXX>",
         "desc": "This is a ci build for firamath",
-        "released": "2019-02-20",
+        "released": "<RELEASE-XXXX>",
         "gpgSign": false
     },
     "files": [
