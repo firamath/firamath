@@ -8,9 +8,9 @@ script:
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --fonts --hint
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --check
 before_deploy:
-  - ls -al /home/firamath/work
   - ls -al $(pwd)
   - ls -al $(pwd)/release
+  - ls -al $(pwd)/release/fonts
 deploy:
   provider: bintray
   user: stone-zeng
