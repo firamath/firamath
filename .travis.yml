@@ -18,3 +18,7 @@ deploy:
   skip_cleanup: true
   key:
     secure: BoWyWVaxwP4MqnAQF22nt7ZXefk5xE7CfMkdmVF/5c+0bUUWpjPl2NFdk/aJZKQN9u3M4zp3GuJ2pjvq0gSyLzzq9ei/gbW6sc8jPr1SiOuivo59TIRuxZQfNCGpILdyY/4elqqQq/IGy1vZiYyYTtGO0qCbC1m7rkI9vod2TuCmxNcOhnrn7P5DacMIpUjcyzZ3Qbps2jWWvDsd2ElhvSa3L6l90FMP6p9Xl1ouxvmml7uqP2om5TkF+9m0oHTrILtH/SNRwctb9hfFjrZk3lS3m0gKMnFSplDmfcHsCQ7jYs64JPennQw3ehzc8MIKxYl8Q29hr00JyjBQrNR/ep7ALuZYCcUE4Xwgw6mdVM78EFZDc/MGub5zC5eZEWEfRpcnsaMZEg+z9Ccq02HX4+Z/FCXfAmTMruySUKS5VRvOgo8na9v+6gFS/x4YLGanKvFipXWGZYn9hWZ5F79PWImrNj+UnTfAGACTxurJRxgwI9cGhWri6eiFi1KSt1YsJwShZzyZDIgN6Tv1f1hcCRVJOqNpcvVkcqrYnfj01aM2VMsH313mCwn86YvitjMH8QIk/Z6w5hXIPySpMUCncsC7/1ibrP+XuGU3E9e/XFPY/LAOvkpMMPugUu8+pEKvfa008D6a8Z5KjV4OolBBUatDHSB/4EyWbJHT0uS9pOw=
+  on:
+    branch:
+      - master
+      - deploy
