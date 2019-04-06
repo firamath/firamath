@@ -8,7 +8,7 @@ script:
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --fonts --hint
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --check
 before_deploy:
-  - .travis/before_deploy.sh
+  - source ./.travis/before_deploy.sh
 deploy:
   provider: bintray
   user: stone-zeng
