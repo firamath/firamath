@@ -6,8 +6,8 @@ BINTRAY_DESCRIPTOR=$TRAVIS_BUILD_DIR/.travis/bintray_descriptor.json
 
 zip -j ./release/firamath-otf-$BUILD_SUFFIX.zip ./release/fonts/*.otf
 
-sed -i '' "s/<CI-XXXX>/ci-$BUILD_DATE/g" $BINTRAY_DESCRIPTOR   || true
-sed -i '' "s/<RELEASE-XXXX>/$BUILD_DATE/g" $BINTRAY_DESCRIPTOR || true
+sed -i "s/<CI-XXXX>/ci-$BUILD_DATE/g" $BINTRAY_DESCRIPTOR   || true
+sed -i "s/<RELEASE-XXXX>/$BUILD_DATE/g" $BINTRAY_DESCRIPTOR || true
 
 echo "Bintray descriptor:"
 cat $BINTRAY_DESCRIPTOR
