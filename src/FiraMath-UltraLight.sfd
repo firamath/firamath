@@ -39,7 +39,7 @@ Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 AntiAlias: 1
-BeginChars: 1114662 1642
+BeginChars: 1114663 1643
 
 StartChar: uni0020
 Encoding: 32 32 0
@@ -24973,8 +24973,44 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni2032.ssty1
+StartChar: .notdef
 Encoding: 1114112 -1 1092
+Width: 646
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+285 169 m 0
+ 285 182 295 192 308 192 c 0
+ 321 192 332 182 332 169 c 0
+ 332 156 321 145 308 145 c 0
+ 295 145 285 156 285 169 c 0
+210 475 m 1
+ 243 521 275 538 328 538 c 0
+ 389 538 426 499 426 451 c 0
+ 426 364 320 376 320 289 c 2
+ 320 243 l 1
+ 293 243 l 1
+ 293 295 l 2
+ 293 388 397 382 397 450 c 0
+ 397 488 369 512 324 512 c 0
+ 285 512 259 499 231 460 c 1
+ 210 475 l 1
+107 27 m 1
+ 539 27 l 1
+ 539 673 l 1
+ 107 673 l 1
+ 107 27 l 1
+80 0 m 1
+ 80 700 l 1
+ 567 700 l 1
+ 567 0 l 1
+ 80 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2032.ssty1
+Encoding: 1114113 -1 1093
 Width: 285
 Flags: W
 LayerCount: 2
@@ -24989,7 +25025,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2033.ssty1
-Encoding: 1114113 -1 1093
+Encoding: 1114114 -1 1094
 Width: 466
 Flags: W
 LayerCount: 2
@@ -25009,7 +25045,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2034.ssty1
-Encoding: 1114114 -1 1094
+Encoding: 1114115 -1 1095
 Width: 648
 Flags: W
 LayerCount: 2
@@ -25034,7 +25070,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2057.ssty1
-Encoding: 1114115 -1 1095
+Encoding: 1114116 -1 1096
 Width: 829
 Flags: W
 LayerCount: 2
@@ -25064,7 +25100,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2035.ssty1
-Encoding: 1114116 -1 1096
+Encoding: 1114117 -1 1097
 Width: 285
 Flags: W
 LayerCount: 2
@@ -25079,7 +25115,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2036.ssty1
-Encoding: 1114117 -1 1097
+Encoding: 1114118 -1 1098
 Width: 466
 Flags: W
 LayerCount: 2
@@ -25099,7 +25135,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2037.ssty1
-Encoding: 1114118 -1 1098
+Encoding: 1114119 -1 1099
 Width: 648
 Flags: W
 LayerCount: 2
@@ -25124,7 +25160,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2032.ssty2
-Encoding: 1114119 -1 1099
+Encoding: 1114120 -1 1100
 Width: 305
 Flags: W
 LayerCount: 2
@@ -25139,7 +25175,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2033.ssty2
-Encoding: 1114120 -1 1100
+Encoding: 1114121 -1 1101
 Width: 497
 Flags: W
 LayerCount: 2
@@ -25159,7 +25195,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2034.ssty2
-Encoding: 1114121 -1 1101
+Encoding: 1114122 -1 1102
 Width: 689
 Flags: W
 LayerCount: 2
@@ -25184,7 +25220,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2057.ssty2
-Encoding: 1114122 -1 1102
+Encoding: 1114123 -1 1103
 Width: 881
 Flags: W
 LayerCount: 2
@@ -25214,7 +25250,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2035.ssty2
-Encoding: 1114123 -1 1103
+Encoding: 1114124 -1 1104
 Width: 305
 Flags: W
 LayerCount: 2
@@ -25229,7 +25265,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2036.ssty2
-Encoding: 1114124 -1 1104
+Encoding: 1114125 -1 1105
 Width: 497
 Flags: W
 LayerCount: 2
@@ -25249,7 +25285,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2037.ssty2
-Encoding: 1114125 -1 1105
+Encoding: 1114126 -1 1106
 Width: 689
 Flags: W
 LayerCount: 2
@@ -25274,7 +25310,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2140.display
-Encoding: 1114126 -1 1106
+Encoding: 1114127 -1 1107
 Width: 1223
 Flags: W
 LayerCount: 2
@@ -25306,7 +25342,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni220F.display
-Encoding: 1114127 -1 1107
+Encoding: 1114128 -1 1108
 Width: 1386
 Flags: W
 LayerCount: 2
@@ -25329,7 +25365,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2210.display
-Encoding: 1114128 -1 1108
+Encoding: 1114129 -1 1109
 Width: 1386
 Flags: W
 LayerCount: 2
@@ -25352,7 +25388,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2211.display
-Encoding: 1114129 -1 1109
+Encoding: 1114130 -1 1110
 Width: 1223
 Flags: W
 LayerCount: 2
@@ -25376,7 +25412,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222B.display
-Encoding: 1114130 -1 1110
+Encoding: 1114131 -1 1111
 Width: 1074
 Flags: W
 LayerCount: 2
@@ -25399,7 +25435,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222C.display
-Encoding: 1114131 -1 1111
+Encoding: 1114132 -1 1112
 Width: 1476
 Flags: W
 LayerCount: 2
@@ -25435,7 +25471,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222D.display
-Encoding: 1114132 -1 1112
+Encoding: 1114133 -1 1113
 Width: 1877
 Flags: W
 LayerCount: 2
@@ -25484,7 +25520,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2A0C.display
-Encoding: 1114133 -1 1113
+Encoding: 1114134 -1 1114
 Width: 2278
 Flags: W
 LayerCount: 2
@@ -25546,7 +25582,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222E.display
-Encoding: 1114134 -1 1114
+Encoding: 1114135 -1 1115
 Width: 1074
 Flags: W
 LayerCount: 2
@@ -25587,7 +25623,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222F.display
-Encoding: 1114135 -1 1115
+Encoding: 1114136 -1 1116
 Width: 1476
 Flags: W
 LayerCount: 2
@@ -25649,7 +25685,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2230.display
-Encoding: 1114136 -1 1116
+Encoding: 1114137 -1 1117
 Width: 1877
 Flags: W
 LayerCount: 2
@@ -25732,3675 +25768,3675 @@ EndSplineSet
 EndChar
 
 StartChar: uni0028.size1
-Encoding: 1114137 -1 1117
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni0028.size2
 Encoding: 1114138 -1 1118
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size3
+StartChar: uni0028.size2
 Encoding: 1114139 -1 1119
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size4
+StartChar: uni0028.size3
 Encoding: 1114140 -1 1120
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size5
+StartChar: uni0028.size4
 Encoding: 1114141 -1 1121
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size6
+StartChar: uni0028.size5
 Encoding: 1114142 -1 1122
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size7
+StartChar: uni0028.size6
 Encoding: 1114143 -1 1123
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size8
+StartChar: uni0028.size7
 Encoding: 1114144 -1 1124
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size9
+StartChar: uni0028.size8
 Encoding: 1114145 -1 1125
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size10
+StartChar: uni0028.size9
 Encoding: 1114146 -1 1126
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size11
+StartChar: uni0028.size10
 Encoding: 1114147 -1 1127
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size12
+StartChar: uni0028.size11
 Encoding: 1114148 -1 1128
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size13
+StartChar: uni0028.size12
 Encoding: 1114149 -1 1129
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size14
+StartChar: uni0028.size13
 Encoding: 1114150 -1 1130
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0028.size15
+StartChar: uni0028.size14
 Encoding: 1114151 -1 1131
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size1
+StartChar: uni0028.size15
 Encoding: 1114152 -1 1132
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size2
+StartChar: uni0029.size1
 Encoding: 1114153 -1 1133
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size3
+StartChar: uni0029.size2
 Encoding: 1114154 -1 1134
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size4
+StartChar: uni0029.size3
 Encoding: 1114155 -1 1135
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size5
+StartChar: uni0029.size4
 Encoding: 1114156 -1 1136
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size6
+StartChar: uni0029.size5
 Encoding: 1114157 -1 1137
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size7
+StartChar: uni0029.size6
 Encoding: 1114158 -1 1138
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size8
+StartChar: uni0029.size7
 Encoding: 1114159 -1 1139
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size9
+StartChar: uni0029.size8
 Encoding: 1114160 -1 1140
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size10
+StartChar: uni0029.size9
 Encoding: 1114161 -1 1141
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size11
+StartChar: uni0029.size10
 Encoding: 1114162 -1 1142
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size12
+StartChar: uni0029.size11
 Encoding: 1114163 -1 1143
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size13
+StartChar: uni0029.size12
 Encoding: 1114164 -1 1144
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size14
+StartChar: uni0029.size13
 Encoding: 1114165 -1 1145
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni0029.size15
+StartChar: uni0029.size14
 Encoding: 1114166 -1 1146
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size1
+StartChar: uni0029.size15
 Encoding: 1114167 -1 1147
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size2
+StartChar: uni005B.size1
 Encoding: 1114168 -1 1148
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size3
+StartChar: uni005B.size2
 Encoding: 1114169 -1 1149
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size4
+StartChar: uni005B.size3
 Encoding: 1114170 -1 1150
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size5
+StartChar: uni005B.size4
 Encoding: 1114171 -1 1151
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size6
+StartChar: uni005B.size5
 Encoding: 1114172 -1 1152
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size7
+StartChar: uni005B.size6
 Encoding: 1114173 -1 1153
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size8
+StartChar: uni005B.size7
 Encoding: 1114174 -1 1154
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size9
+StartChar: uni005B.size8
 Encoding: 1114175 -1 1155
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size10
+StartChar: uni005B.size9
 Encoding: 1114176 -1 1156
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size11
+StartChar: uni005B.size10
 Encoding: 1114177 -1 1157
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size12
+StartChar: uni005B.size11
 Encoding: 1114178 -1 1158
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size13
+StartChar: uni005B.size12
 Encoding: 1114179 -1 1159
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size14
+StartChar: uni005B.size13
 Encoding: 1114180 -1 1160
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005B.size15
+StartChar: uni005B.size14
 Encoding: 1114181 -1 1161
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size1
+StartChar: uni005B.size15
 Encoding: 1114182 -1 1162
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size2
+StartChar: uni005D.size1
 Encoding: 1114183 -1 1163
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size3
+StartChar: uni005D.size2
 Encoding: 1114184 -1 1164
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size4
+StartChar: uni005D.size3
 Encoding: 1114185 -1 1165
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size5
+StartChar: uni005D.size4
 Encoding: 1114186 -1 1166
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size6
+StartChar: uni005D.size5
 Encoding: 1114187 -1 1167
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size7
+StartChar: uni005D.size6
 Encoding: 1114188 -1 1168
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size8
+StartChar: uni005D.size7
 Encoding: 1114189 -1 1169
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size9
+StartChar: uni005D.size8
 Encoding: 1114190 -1 1170
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size10
+StartChar: uni005D.size9
 Encoding: 1114191 -1 1171
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size11
+StartChar: uni005D.size10
 Encoding: 1114192 -1 1172
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size12
+StartChar: uni005D.size11
 Encoding: 1114193 -1 1173
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size13
+StartChar: uni005D.size12
 Encoding: 1114194 -1 1174
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size14
+StartChar: uni005D.size13
 Encoding: 1114195 -1 1175
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni005D.size15
+StartChar: uni005D.size14
 Encoding: 1114196 -1 1176
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size1
+StartChar: uni005D.size15
 Encoding: 1114197 -1 1177
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size2
+StartChar: uni007B.size1
 Encoding: 1114198 -1 1178
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size3
+StartChar: uni007B.size2
 Encoding: 1114199 -1 1179
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size4
+StartChar: uni007B.size3
 Encoding: 1114200 -1 1180
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size5
+StartChar: uni007B.size4
 Encoding: 1114201 -1 1181
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size6
+StartChar: uni007B.size5
 Encoding: 1114202 -1 1182
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size7
+StartChar: uni007B.size6
 Encoding: 1114203 -1 1183
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size8
+StartChar: uni007B.size7
 Encoding: 1114204 -1 1184
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size9
+StartChar: uni007B.size8
 Encoding: 1114205 -1 1185
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size10
+StartChar: uni007B.size9
 Encoding: 1114206 -1 1186
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size11
+StartChar: uni007B.size10
 Encoding: 1114207 -1 1187
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size12
+StartChar: uni007B.size11
 Encoding: 1114208 -1 1188
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size13
+StartChar: uni007B.size12
 Encoding: 1114209 -1 1189
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size14
+StartChar: uni007B.size13
 Encoding: 1114210 -1 1190
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007B.size15
+StartChar: uni007B.size14
 Encoding: 1114211 -1 1191
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size1
+StartChar: uni007B.size15
 Encoding: 1114212 -1 1192
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size2
+StartChar: uni007C.size1
 Encoding: 1114213 -1 1193
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size3
+StartChar: uni007C.size2
 Encoding: 1114214 -1 1194
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size4
+StartChar: uni007C.size3
 Encoding: 1114215 -1 1195
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size5
+StartChar: uni007C.size4
 Encoding: 1114216 -1 1196
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size6
+StartChar: uni007C.size5
 Encoding: 1114217 -1 1197
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size7
+StartChar: uni007C.size6
 Encoding: 1114218 -1 1198
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size8
+StartChar: uni007C.size7
 Encoding: 1114219 -1 1199
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size9
+StartChar: uni007C.size8
 Encoding: 1114220 -1 1200
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size10
+StartChar: uni007C.size9
 Encoding: 1114221 -1 1201
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size11
+StartChar: uni007C.size10
 Encoding: 1114222 -1 1202
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size12
+StartChar: uni007C.size11
 Encoding: 1114223 -1 1203
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size13
+StartChar: uni007C.size12
 Encoding: 1114224 -1 1204
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size14
+StartChar: uni007C.size13
 Encoding: 1114225 -1 1205
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007C.size15
+StartChar: uni007C.size14
 Encoding: 1114226 -1 1206
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size1
+StartChar: uni007C.size15
 Encoding: 1114227 -1 1207
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size2
+StartChar: uni007D.size1
 Encoding: 1114228 -1 1208
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size3
+StartChar: uni007D.size2
 Encoding: 1114229 -1 1209
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size4
+StartChar: uni007D.size3
 Encoding: 1114230 -1 1210
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size5
+StartChar: uni007D.size4
 Encoding: 1114231 -1 1211
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size6
+StartChar: uni007D.size5
 Encoding: 1114232 -1 1212
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size7
+StartChar: uni007D.size6
 Encoding: 1114233 -1 1213
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size8
+StartChar: uni007D.size7
 Encoding: 1114234 -1 1214
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size9
+StartChar: uni007D.size8
 Encoding: 1114235 -1 1215
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size10
+StartChar: uni007D.size9
 Encoding: 1114236 -1 1216
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size11
+StartChar: uni007D.size10
 Encoding: 1114237 -1 1217
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size12
+StartChar: uni007D.size11
 Encoding: 1114238 -1 1218
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size13
+StartChar: uni007D.size12
 Encoding: 1114239 -1 1219
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size14
+StartChar: uni007D.size13
 Encoding: 1114240 -1 1220
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni007D.size15
+StartChar: uni007D.size14
 Encoding: 1114241 -1 1221
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size1
+StartChar: uni007D.size15
 Encoding: 1114242 -1 1222
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size2
+StartChar: uni2016.size1
 Encoding: 1114243 -1 1223
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size3
+StartChar: uni2016.size2
 Encoding: 1114244 -1 1224
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size4
+StartChar: uni2016.size3
 Encoding: 1114245 -1 1225
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size5
+StartChar: uni2016.size4
 Encoding: 1114246 -1 1226
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size6
+StartChar: uni2016.size5
 Encoding: 1114247 -1 1227
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size7
+StartChar: uni2016.size6
 Encoding: 1114248 -1 1228
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size8
+StartChar: uni2016.size7
 Encoding: 1114249 -1 1229
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size9
+StartChar: uni2016.size8
 Encoding: 1114250 -1 1230
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size10
+StartChar: uni2016.size9
 Encoding: 1114251 -1 1231
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size11
+StartChar: uni2016.size10
 Encoding: 1114252 -1 1232
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size12
+StartChar: uni2016.size11
 Encoding: 1114253 -1 1233
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size13
+StartChar: uni2016.size12
 Encoding: 1114254 -1 1234
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size14
+StartChar: uni2016.size13
 Encoding: 1114255 -1 1235
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2016.size15
+StartChar: uni2016.size14
 Encoding: 1114256 -1 1236
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size1
+StartChar: uni2016.size15
 Encoding: 1114257 -1 1237
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size2
+StartChar: uni2308.size1
 Encoding: 1114258 -1 1238
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size3
+StartChar: uni2308.size2
 Encoding: 1114259 -1 1239
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size4
+StartChar: uni2308.size3
 Encoding: 1114260 -1 1240
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size5
+StartChar: uni2308.size4
 Encoding: 1114261 -1 1241
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size6
+StartChar: uni2308.size5
 Encoding: 1114262 -1 1242
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size7
+StartChar: uni2308.size6
 Encoding: 1114263 -1 1243
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size8
+StartChar: uni2308.size7
 Encoding: 1114264 -1 1244
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size9
+StartChar: uni2308.size8
 Encoding: 1114265 -1 1245
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size10
+StartChar: uni2308.size9
 Encoding: 1114266 -1 1246
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size11
+StartChar: uni2308.size10
 Encoding: 1114267 -1 1247
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size12
+StartChar: uni2308.size11
 Encoding: 1114268 -1 1248
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size13
+StartChar: uni2308.size12
 Encoding: 1114269 -1 1249
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size14
+StartChar: uni2308.size13
 Encoding: 1114270 -1 1250
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2308.size15
+StartChar: uni2308.size14
 Encoding: 1114271 -1 1251
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size1
+StartChar: uni2308.size15
 Encoding: 1114272 -1 1252
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size2
+StartChar: uni2309.size1
 Encoding: 1114273 -1 1253
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size3
+StartChar: uni2309.size2
 Encoding: 1114274 -1 1254
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size4
+StartChar: uni2309.size3
 Encoding: 1114275 -1 1255
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size5
+StartChar: uni2309.size4
 Encoding: 1114276 -1 1256
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size6
+StartChar: uni2309.size5
 Encoding: 1114277 -1 1257
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size7
+StartChar: uni2309.size6
 Encoding: 1114278 -1 1258
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size8
+StartChar: uni2309.size7
 Encoding: 1114279 -1 1259
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size9
+StartChar: uni2309.size8
 Encoding: 1114280 -1 1260
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size10
+StartChar: uni2309.size9
 Encoding: 1114281 -1 1261
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size11
+StartChar: uni2309.size10
 Encoding: 1114282 -1 1262
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size12
+StartChar: uni2309.size11
 Encoding: 1114283 -1 1263
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size13
+StartChar: uni2309.size12
 Encoding: 1114284 -1 1264
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size14
+StartChar: uni2309.size13
 Encoding: 1114285 -1 1265
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2309.size15
+StartChar: uni2309.size14
 Encoding: 1114286 -1 1266
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size1
+StartChar: uni2309.size15
 Encoding: 1114287 -1 1267
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size2
+StartChar: uni230A.size1
 Encoding: 1114288 -1 1268
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size3
+StartChar: uni230A.size2
 Encoding: 1114289 -1 1269
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size4
+StartChar: uni230A.size3
 Encoding: 1114290 -1 1270
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size5
+StartChar: uni230A.size4
 Encoding: 1114291 -1 1271
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size6
+StartChar: uni230A.size5
 Encoding: 1114292 -1 1272
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size7
+StartChar: uni230A.size6
 Encoding: 1114293 -1 1273
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size8
+StartChar: uni230A.size7
 Encoding: 1114294 -1 1274
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size9
+StartChar: uni230A.size8
 Encoding: 1114295 -1 1275
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size10
+StartChar: uni230A.size9
 Encoding: 1114296 -1 1276
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size11
+StartChar: uni230A.size10
 Encoding: 1114297 -1 1277
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size12
+StartChar: uni230A.size11
 Encoding: 1114298 -1 1278
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size13
+StartChar: uni230A.size12
 Encoding: 1114299 -1 1279
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size14
+StartChar: uni230A.size13
 Encoding: 1114300 -1 1280
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230A.size15
+StartChar: uni230A.size14
 Encoding: 1114301 -1 1281
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size1
+StartChar: uni230A.size15
 Encoding: 1114302 -1 1282
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size2
+StartChar: uni230B.size1
 Encoding: 1114303 -1 1283
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size3
+StartChar: uni230B.size2
 Encoding: 1114304 -1 1284
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size4
+StartChar: uni230B.size3
 Encoding: 1114305 -1 1285
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size5
+StartChar: uni230B.size4
 Encoding: 1114306 -1 1286
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size6
+StartChar: uni230B.size5
 Encoding: 1114307 -1 1287
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size7
+StartChar: uni230B.size6
 Encoding: 1114308 -1 1288
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size8
+StartChar: uni230B.size7
 Encoding: 1114309 -1 1289
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size9
+StartChar: uni230B.size8
 Encoding: 1114310 -1 1290
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size10
+StartChar: uni230B.size9
 Encoding: 1114311 -1 1291
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size11
+StartChar: uni230B.size10
 Encoding: 1114312 -1 1292
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size12
+StartChar: uni230B.size11
 Encoding: 1114313 -1 1293
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size13
+StartChar: uni230B.size12
 Encoding: 1114314 -1 1294
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size14
+StartChar: uni230B.size13
 Encoding: 1114315 -1 1295
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni230B.size15
+StartChar: uni230B.size14
 Encoding: 1114316 -1 1296
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size1
+StartChar: uni230B.size15
 Encoding: 1114317 -1 1297
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size2
+StartChar: uni2772.size1
 Encoding: 1114318 -1 1298
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size3
+StartChar: uni2772.size2
 Encoding: 1114319 -1 1299
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size4
+StartChar: uni2772.size3
 Encoding: 1114320 -1 1300
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size5
+StartChar: uni2772.size4
 Encoding: 1114321 -1 1301
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size6
+StartChar: uni2772.size5
 Encoding: 1114322 -1 1302
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size7
+StartChar: uni2772.size6
 Encoding: 1114323 -1 1303
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size8
+StartChar: uni2772.size7
 Encoding: 1114324 -1 1304
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size9
+StartChar: uni2772.size8
 Encoding: 1114325 -1 1305
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size10
+StartChar: uni2772.size9
 Encoding: 1114326 -1 1306
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size11
+StartChar: uni2772.size10
 Encoding: 1114327 -1 1307
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size12
+StartChar: uni2772.size11
 Encoding: 1114328 -1 1308
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size13
+StartChar: uni2772.size12
 Encoding: 1114329 -1 1309
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size14
+StartChar: uni2772.size13
 Encoding: 1114330 -1 1310
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2772.size15
+StartChar: uni2772.size14
 Encoding: 1114331 -1 1311
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size1
+StartChar: uni2772.size15
 Encoding: 1114332 -1 1312
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size2
+StartChar: uni2773.size1
 Encoding: 1114333 -1 1313
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size3
+StartChar: uni2773.size2
 Encoding: 1114334 -1 1314
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size4
+StartChar: uni2773.size3
 Encoding: 1114335 -1 1315
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size5
+StartChar: uni2773.size4
 Encoding: 1114336 -1 1316
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size6
+StartChar: uni2773.size5
 Encoding: 1114337 -1 1317
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size7
+StartChar: uni2773.size6
 Encoding: 1114338 -1 1318
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size8
+StartChar: uni2773.size7
 Encoding: 1114339 -1 1319
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size9
+StartChar: uni2773.size8
 Encoding: 1114340 -1 1320
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size10
+StartChar: uni2773.size9
 Encoding: 1114341 -1 1321
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size11
+StartChar: uni2773.size10
 Encoding: 1114342 -1 1322
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size12
+StartChar: uni2773.size11
 Encoding: 1114343 -1 1323
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size13
+StartChar: uni2773.size12
 Encoding: 1114344 -1 1324
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size14
+StartChar: uni2773.size13
 Encoding: 1114345 -1 1325
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2773.size15
+StartChar: uni2773.size14
 Encoding: 1114346 -1 1326
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size1
+StartChar: uni2773.size15
 Encoding: 1114347 -1 1327
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size2
+StartChar: uni27E6.size1
 Encoding: 1114348 -1 1328
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size3
+StartChar: uni27E6.size2
 Encoding: 1114349 -1 1329
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size4
+StartChar: uni27E6.size3
 Encoding: 1114350 -1 1330
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size5
+StartChar: uni27E6.size4
 Encoding: 1114351 -1 1331
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size6
+StartChar: uni27E6.size5
 Encoding: 1114352 -1 1332
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size7
+StartChar: uni27E6.size6
 Encoding: 1114353 -1 1333
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size8
+StartChar: uni27E6.size7
 Encoding: 1114354 -1 1334
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size9
+StartChar: uni27E6.size8
 Encoding: 1114355 -1 1335
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size10
+StartChar: uni27E6.size9
 Encoding: 1114356 -1 1336
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size11
+StartChar: uni27E6.size10
 Encoding: 1114357 -1 1337
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size12
+StartChar: uni27E6.size11
 Encoding: 1114358 -1 1338
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size13
+StartChar: uni27E6.size12
 Encoding: 1114359 -1 1339
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size14
+StartChar: uni27E6.size13
 Encoding: 1114360 -1 1340
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E6.size15
+StartChar: uni27E6.size14
 Encoding: 1114361 -1 1341
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size1
+StartChar: uni27E6.size15
 Encoding: 1114362 -1 1342
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size2
+StartChar: uni27E7.size1
 Encoding: 1114363 -1 1343
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size3
+StartChar: uni27E7.size2
 Encoding: 1114364 -1 1344
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size4
+StartChar: uni27E7.size3
 Encoding: 1114365 -1 1345
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size5
+StartChar: uni27E7.size4
 Encoding: 1114366 -1 1346
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size6
+StartChar: uni27E7.size5
 Encoding: 1114367 -1 1347
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size7
+StartChar: uni27E7.size6
 Encoding: 1114368 -1 1348
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size8
+StartChar: uni27E7.size7
 Encoding: 1114369 -1 1349
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size9
+StartChar: uni27E7.size8
 Encoding: 1114370 -1 1350
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size10
+StartChar: uni27E7.size9
 Encoding: 1114371 -1 1351
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size11
+StartChar: uni27E7.size10
 Encoding: 1114372 -1 1352
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size12
+StartChar: uni27E7.size11
 Encoding: 1114373 -1 1353
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size13
+StartChar: uni27E7.size12
 Encoding: 1114374 -1 1354
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size14
+StartChar: uni27E7.size13
 Encoding: 1114375 -1 1355
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E7.size15
+StartChar: uni27E7.size14
 Encoding: 1114376 -1 1356
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size1
+StartChar: uni27E7.size15
 Encoding: 1114377 -1 1357
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size2
+StartChar: uni27E8.size1
 Encoding: 1114378 -1 1358
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size3
+StartChar: uni27E8.size2
 Encoding: 1114379 -1 1359
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size4
+StartChar: uni27E8.size3
 Encoding: 1114380 -1 1360
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size5
+StartChar: uni27E8.size4
 Encoding: 1114381 -1 1361
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size6
+StartChar: uni27E8.size5
 Encoding: 1114382 -1 1362
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size7
+StartChar: uni27E8.size6
 Encoding: 1114383 -1 1363
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size8
+StartChar: uni27E8.size7
 Encoding: 1114384 -1 1364
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size9
+StartChar: uni27E8.size8
 Encoding: 1114385 -1 1365
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size10
+StartChar: uni27E8.size9
 Encoding: 1114386 -1 1366
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size11
+StartChar: uni27E8.size10
 Encoding: 1114387 -1 1367
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size12
+StartChar: uni27E8.size11
 Encoding: 1114388 -1 1368
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size13
+StartChar: uni27E8.size12
 Encoding: 1114389 -1 1369
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size14
+StartChar: uni27E8.size13
 Encoding: 1114390 -1 1370
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E8.size15
+StartChar: uni27E8.size14
 Encoding: 1114391 -1 1371
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size1
+StartChar: uni27E8.size15
 Encoding: 1114392 -1 1372
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size2
+StartChar: uni27E9.size1
 Encoding: 1114393 -1 1373
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size3
+StartChar: uni27E9.size2
 Encoding: 1114394 -1 1374
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size4
+StartChar: uni27E9.size3
 Encoding: 1114395 -1 1375
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size5
+StartChar: uni27E9.size4
 Encoding: 1114396 -1 1376
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size6
+StartChar: uni27E9.size5
 Encoding: 1114397 -1 1377
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size7
+StartChar: uni27E9.size6
 Encoding: 1114398 -1 1378
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size8
+StartChar: uni27E9.size7
 Encoding: 1114399 -1 1379
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size9
+StartChar: uni27E9.size8
 Encoding: 1114400 -1 1380
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size10
+StartChar: uni27E9.size9
 Encoding: 1114401 -1 1381
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size11
+StartChar: uni27E9.size10
 Encoding: 1114402 -1 1382
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size12
+StartChar: uni27E9.size11
 Encoding: 1114403 -1 1383
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size13
+StartChar: uni27E9.size12
 Encoding: 1114404 -1 1384
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size14
+StartChar: uni27E9.size13
 Encoding: 1114405 -1 1385
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27E9.size15
+StartChar: uni27E9.size14
 Encoding: 1114406 -1 1386
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size1
+StartChar: uni27E9.size15
 Encoding: 1114407 -1 1387
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size2
+StartChar: uni27EA.size1
 Encoding: 1114408 -1 1388
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size3
+StartChar: uni27EA.size2
 Encoding: 1114409 -1 1389
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size4
+StartChar: uni27EA.size3
 Encoding: 1114410 -1 1390
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size5
+StartChar: uni27EA.size4
 Encoding: 1114411 -1 1391
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size6
+StartChar: uni27EA.size5
 Encoding: 1114412 -1 1392
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size7
+StartChar: uni27EA.size6
 Encoding: 1114413 -1 1393
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size8
+StartChar: uni27EA.size7
 Encoding: 1114414 -1 1394
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size9
+StartChar: uni27EA.size8
 Encoding: 1114415 -1 1395
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size10
+StartChar: uni27EA.size9
 Encoding: 1114416 -1 1396
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size11
+StartChar: uni27EA.size10
 Encoding: 1114417 -1 1397
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size12
+StartChar: uni27EA.size11
 Encoding: 1114418 -1 1398
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size13
+StartChar: uni27EA.size12
 Encoding: 1114419 -1 1399
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size14
+StartChar: uni27EA.size13
 Encoding: 1114420 -1 1400
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EA.size15
+StartChar: uni27EA.size14
 Encoding: 1114421 -1 1401
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size1
+StartChar: uni27EA.size15
 Encoding: 1114422 -1 1402
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size2
+StartChar: uni27EB.size1
 Encoding: 1114423 -1 1403
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size3
+StartChar: uni27EB.size2
 Encoding: 1114424 -1 1404
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size4
+StartChar: uni27EB.size3
 Encoding: 1114425 -1 1405
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size5
+StartChar: uni27EB.size4
 Encoding: 1114426 -1 1406
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size6
+StartChar: uni27EB.size5
 Encoding: 1114427 -1 1407
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size7
+StartChar: uni27EB.size6
 Encoding: 1114428 -1 1408
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size8
+StartChar: uni27EB.size7
 Encoding: 1114429 -1 1409
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size9
+StartChar: uni27EB.size8
 Encoding: 1114430 -1 1410
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size10
+StartChar: uni27EB.size9
 Encoding: 1114431 -1 1411
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size11
+StartChar: uni27EB.size10
 Encoding: 1114432 -1 1412
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size12
+StartChar: uni27EB.size11
 Encoding: 1114433 -1 1413
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size13
+StartChar: uni27EB.size12
 Encoding: 1114434 -1 1414
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size14
+StartChar: uni27EB.size13
 Encoding: 1114435 -1 1415
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EB.size15
+StartChar: uni27EB.size14
 Encoding: 1114436 -1 1416
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size1
+StartChar: uni27EB.size15
 Encoding: 1114437 -1 1417
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size2
+StartChar: uni27EC.size1
 Encoding: 1114438 -1 1418
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size3
+StartChar: uni27EC.size2
 Encoding: 1114439 -1 1419
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size4
+StartChar: uni27EC.size3
 Encoding: 1114440 -1 1420
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size5
+StartChar: uni27EC.size4
 Encoding: 1114441 -1 1421
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size6
+StartChar: uni27EC.size5
 Encoding: 1114442 -1 1422
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size7
+StartChar: uni27EC.size6
 Encoding: 1114443 -1 1423
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size8
+StartChar: uni27EC.size7
 Encoding: 1114444 -1 1424
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size9
+StartChar: uni27EC.size8
 Encoding: 1114445 -1 1425
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size10
+StartChar: uni27EC.size9
 Encoding: 1114446 -1 1426
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size11
+StartChar: uni27EC.size10
 Encoding: 1114447 -1 1427
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size12
+StartChar: uni27EC.size11
 Encoding: 1114448 -1 1428
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size13
+StartChar: uni27EC.size12
 Encoding: 1114449 -1 1429
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size14
+StartChar: uni27EC.size13
 Encoding: 1114450 -1 1430
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EC.size15
+StartChar: uni27EC.size14
 Encoding: 1114451 -1 1431
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size1
+StartChar: uni27EC.size15
 Encoding: 1114452 -1 1432
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size2
+StartChar: uni27ED.size1
 Encoding: 1114453 -1 1433
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size3
+StartChar: uni27ED.size2
 Encoding: 1114454 -1 1434
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size4
+StartChar: uni27ED.size3
 Encoding: 1114455 -1 1435
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size5
+StartChar: uni27ED.size4
 Encoding: 1114456 -1 1436
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size6
+StartChar: uni27ED.size5
 Encoding: 1114457 -1 1437
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size7
+StartChar: uni27ED.size6
 Encoding: 1114458 -1 1438
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size8
+StartChar: uni27ED.size7
 Encoding: 1114459 -1 1439
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size9
+StartChar: uni27ED.size8
 Encoding: 1114460 -1 1440
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size10
+StartChar: uni27ED.size9
 Encoding: 1114461 -1 1441
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size11
+StartChar: uni27ED.size10
 Encoding: 1114462 -1 1442
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size12
+StartChar: uni27ED.size11
 Encoding: 1114463 -1 1443
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size13
+StartChar: uni27ED.size12
 Encoding: 1114464 -1 1444
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size14
+StartChar: uni27ED.size13
 Encoding: 1114465 -1 1445
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27ED.size15
+StartChar: uni27ED.size14
 Encoding: 1114466 -1 1446
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size1
+StartChar: uni27ED.size15
 Encoding: 1114467 -1 1447
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size2
+StartChar: uni27EE.size1
 Encoding: 1114468 -1 1448
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size3
+StartChar: uni27EE.size2
 Encoding: 1114469 -1 1449
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size4
+StartChar: uni27EE.size3
 Encoding: 1114470 -1 1450
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size5
+StartChar: uni27EE.size4
 Encoding: 1114471 -1 1451
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size6
+StartChar: uni27EE.size5
 Encoding: 1114472 -1 1452
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size7
+StartChar: uni27EE.size6
 Encoding: 1114473 -1 1453
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size8
+StartChar: uni27EE.size7
 Encoding: 1114474 -1 1454
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size9
+StartChar: uni27EE.size8
 Encoding: 1114475 -1 1455
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size10
+StartChar: uni27EE.size9
 Encoding: 1114476 -1 1456
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size11
+StartChar: uni27EE.size10
 Encoding: 1114477 -1 1457
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size12
+StartChar: uni27EE.size11
 Encoding: 1114478 -1 1458
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size13
+StartChar: uni27EE.size12
 Encoding: 1114479 -1 1459
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size14
+StartChar: uni27EE.size13
 Encoding: 1114480 -1 1460
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EE.size15
+StartChar: uni27EE.size14
 Encoding: 1114481 -1 1461
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size1
+StartChar: uni27EE.size15
 Encoding: 1114482 -1 1462
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size2
+StartChar: uni27EF.size1
 Encoding: 1114483 -1 1463
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size3
+StartChar: uni27EF.size2
 Encoding: 1114484 -1 1464
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size4
+StartChar: uni27EF.size3
 Encoding: 1114485 -1 1465
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size5
+StartChar: uni27EF.size4
 Encoding: 1114486 -1 1466
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size6
+StartChar: uni27EF.size5
 Encoding: 1114487 -1 1467
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size7
+StartChar: uni27EF.size6
 Encoding: 1114488 -1 1468
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size8
+StartChar: uni27EF.size7
 Encoding: 1114489 -1 1469
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size9
+StartChar: uni27EF.size8
 Encoding: 1114490 -1 1470
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size10
+StartChar: uni27EF.size9
 Encoding: 1114491 -1 1471
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size11
+StartChar: uni27EF.size10
 Encoding: 1114492 -1 1472
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size12
+StartChar: uni27EF.size11
 Encoding: 1114493 -1 1473
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size13
+StartChar: uni27EF.size12
 Encoding: 1114494 -1 1474
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size14
+StartChar: uni27EF.size13
 Encoding: 1114495 -1 1475
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni27EF.size15
+StartChar: uni27EF.size14
 Encoding: 1114496 -1 1476
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size1
+StartChar: uni27EF.size15
 Encoding: 1114497 -1 1477
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size2
+StartChar: uni2980.size1
 Encoding: 1114498 -1 1478
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size3
+StartChar: uni2980.size2
 Encoding: 1114499 -1 1479
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size4
+StartChar: uni2980.size3
 Encoding: 1114500 -1 1480
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size5
+StartChar: uni2980.size4
 Encoding: 1114501 -1 1481
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size6
+StartChar: uni2980.size5
 Encoding: 1114502 -1 1482
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size7
+StartChar: uni2980.size6
 Encoding: 1114503 -1 1483
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size8
+StartChar: uni2980.size7
 Encoding: 1114504 -1 1484
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size9
+StartChar: uni2980.size8
 Encoding: 1114505 -1 1485
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size10
+StartChar: uni2980.size9
 Encoding: 1114506 -1 1486
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size11
+StartChar: uni2980.size10
 Encoding: 1114507 -1 1487
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size12
+StartChar: uni2980.size11
 Encoding: 1114508 -1 1488
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size13
+StartChar: uni2980.size12
 Encoding: 1114509 -1 1489
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size14
+StartChar: uni2980.size13
 Encoding: 1114510 -1 1490
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2980.size15
+StartChar: uni2980.size14
 Encoding: 1114511 -1 1491
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size1
+StartChar: uni2980.size15
 Encoding: 1114512 -1 1492
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size2
+StartChar: uni2983.size1
 Encoding: 1114513 -1 1493
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size3
+StartChar: uni2983.size2
 Encoding: 1114514 -1 1494
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size4
+StartChar: uni2983.size3
 Encoding: 1114515 -1 1495
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size5
+StartChar: uni2983.size4
 Encoding: 1114516 -1 1496
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size6
+StartChar: uni2983.size5
 Encoding: 1114517 -1 1497
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size7
+StartChar: uni2983.size6
 Encoding: 1114518 -1 1498
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size8
+StartChar: uni2983.size7
 Encoding: 1114519 -1 1499
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size9
+StartChar: uni2983.size8
 Encoding: 1114520 -1 1500
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size10
+StartChar: uni2983.size9
 Encoding: 1114521 -1 1501
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size11
+StartChar: uni2983.size10
 Encoding: 1114522 -1 1502
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size12
+StartChar: uni2983.size11
 Encoding: 1114523 -1 1503
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size13
+StartChar: uni2983.size12
 Encoding: 1114524 -1 1504
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size14
+StartChar: uni2983.size13
 Encoding: 1114525 -1 1505
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2983.size15
+StartChar: uni2983.size14
 Encoding: 1114526 -1 1506
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size1
+StartChar: uni2983.size15
 Encoding: 1114527 -1 1507
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size2
+StartChar: uni2984.size1
 Encoding: 1114528 -1 1508
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size3
+StartChar: uni2984.size2
 Encoding: 1114529 -1 1509
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size4
+StartChar: uni2984.size3
 Encoding: 1114530 -1 1510
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size5
+StartChar: uni2984.size4
 Encoding: 1114531 -1 1511
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size6
+StartChar: uni2984.size5
 Encoding: 1114532 -1 1512
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size7
+StartChar: uni2984.size6
 Encoding: 1114533 -1 1513
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size8
+StartChar: uni2984.size7
 Encoding: 1114534 -1 1514
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size9
+StartChar: uni2984.size8
 Encoding: 1114535 -1 1515
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size10
+StartChar: uni2984.size9
 Encoding: 1114536 -1 1516
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size11
+StartChar: uni2984.size10
 Encoding: 1114537 -1 1517
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size12
+StartChar: uni2984.size11
 Encoding: 1114538 -1 1518
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size13
+StartChar: uni2984.size12
 Encoding: 1114539 -1 1519
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size14
+StartChar: uni2984.size13
 Encoding: 1114540 -1 1520
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2984.size15
+StartChar: uni2984.size14
 Encoding: 1114541 -1 1521
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size1
+StartChar: uni2984.size15
 Encoding: 1114542 -1 1522
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size2
+StartChar: uni2985.size1
 Encoding: 1114543 -1 1523
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size3
+StartChar: uni2985.size2
 Encoding: 1114544 -1 1524
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size4
+StartChar: uni2985.size3
 Encoding: 1114545 -1 1525
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size5
+StartChar: uni2985.size4
 Encoding: 1114546 -1 1526
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size6
+StartChar: uni2985.size5
 Encoding: 1114547 -1 1527
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size7
+StartChar: uni2985.size6
 Encoding: 1114548 -1 1528
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size8
+StartChar: uni2985.size7
 Encoding: 1114549 -1 1529
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size9
+StartChar: uni2985.size8
 Encoding: 1114550 -1 1530
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size10
+StartChar: uni2985.size9
 Encoding: 1114551 -1 1531
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size11
+StartChar: uni2985.size10
 Encoding: 1114552 -1 1532
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size12
+StartChar: uni2985.size11
 Encoding: 1114553 -1 1533
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size13
+StartChar: uni2985.size12
 Encoding: 1114554 -1 1534
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size14
+StartChar: uni2985.size13
 Encoding: 1114555 -1 1535
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2985.size15
+StartChar: uni2985.size14
 Encoding: 1114556 -1 1536
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size1
+StartChar: uni2985.size15
 Encoding: 1114557 -1 1537
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size2
+StartChar: uni2986.size1
 Encoding: 1114558 -1 1538
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size3
+StartChar: uni2986.size2
 Encoding: 1114559 -1 1539
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size4
+StartChar: uni2986.size3
 Encoding: 1114560 -1 1540
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size5
+StartChar: uni2986.size4
 Encoding: 1114561 -1 1541
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size6
+StartChar: uni2986.size5
 Encoding: 1114562 -1 1542
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size7
+StartChar: uni2986.size6
 Encoding: 1114563 -1 1543
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size8
+StartChar: uni2986.size7
 Encoding: 1114564 -1 1544
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size9
+StartChar: uni2986.size8
 Encoding: 1114565 -1 1545
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size10
+StartChar: uni2986.size9
 Encoding: 1114566 -1 1546
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size11
+StartChar: uni2986.size10
 Encoding: 1114567 -1 1547
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size12
+StartChar: uni2986.size11
 Encoding: 1114568 -1 1548
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size13
+StartChar: uni2986.size12
 Encoding: 1114569 -1 1549
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size14
+StartChar: uni2986.size13
 Encoding: 1114570 -1 1550
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2986.size15
+StartChar: uni2986.size14
 Encoding: 1114571 -1 1551
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size1
+StartChar: uni2986.size15
 Encoding: 1114572 -1 1552
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size2
+StartChar: uni2987.size1
 Encoding: 1114573 -1 1553
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size3
+StartChar: uni2987.size2
 Encoding: 1114574 -1 1554
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size4
+StartChar: uni2987.size3
 Encoding: 1114575 -1 1555
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size5
+StartChar: uni2987.size4
 Encoding: 1114576 -1 1556
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size6
+StartChar: uni2987.size5
 Encoding: 1114577 -1 1557
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size7
+StartChar: uni2987.size6
 Encoding: 1114578 -1 1558
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size8
+StartChar: uni2987.size7
 Encoding: 1114579 -1 1559
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size9
+StartChar: uni2987.size8
 Encoding: 1114580 -1 1560
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size10
+StartChar: uni2987.size9
 Encoding: 1114581 -1 1561
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size11
+StartChar: uni2987.size10
 Encoding: 1114582 -1 1562
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size12
+StartChar: uni2987.size11
 Encoding: 1114583 -1 1563
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size13
+StartChar: uni2987.size12
 Encoding: 1114584 -1 1564
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size14
+StartChar: uni2987.size13
 Encoding: 1114585 -1 1565
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2987.size15
+StartChar: uni2987.size14
 Encoding: 1114586 -1 1566
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size1
+StartChar: uni2987.size15
 Encoding: 1114587 -1 1567
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size2
+StartChar: uni2988.size1
 Encoding: 1114588 -1 1568
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size3
+StartChar: uni2988.size2
 Encoding: 1114589 -1 1569
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size4
+StartChar: uni2988.size3
 Encoding: 1114590 -1 1570
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size5
+StartChar: uni2988.size4
 Encoding: 1114591 -1 1571
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size6
+StartChar: uni2988.size5
 Encoding: 1114592 -1 1572
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size7
+StartChar: uni2988.size6
 Encoding: 1114593 -1 1573
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size8
+StartChar: uni2988.size7
 Encoding: 1114594 -1 1574
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size9
+StartChar: uni2988.size8
 Encoding: 1114595 -1 1575
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size10
+StartChar: uni2988.size9
 Encoding: 1114596 -1 1576
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size11
+StartChar: uni2988.size10
 Encoding: 1114597 -1 1577
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size12
+StartChar: uni2988.size11
 Encoding: 1114598 -1 1578
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size13
+StartChar: uni2988.size12
 Encoding: 1114599 -1 1579
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size14
+StartChar: uni2988.size13
 Encoding: 1114600 -1 1580
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2988.size15
+StartChar: uni2988.size14
 Encoding: 1114601 -1 1581
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size1
+StartChar: uni2988.size15
 Encoding: 1114602 -1 1582
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size2
+StartChar: uni2989.size1
 Encoding: 1114603 -1 1583
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size3
+StartChar: uni2989.size2
 Encoding: 1114604 -1 1584
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size4
+StartChar: uni2989.size3
 Encoding: 1114605 -1 1585
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size5
+StartChar: uni2989.size4
 Encoding: 1114606 -1 1586
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size6
+StartChar: uni2989.size5
 Encoding: 1114607 -1 1587
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size7
+StartChar: uni2989.size6
 Encoding: 1114608 -1 1588
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size8
+StartChar: uni2989.size7
 Encoding: 1114609 -1 1589
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size9
+StartChar: uni2989.size8
 Encoding: 1114610 -1 1590
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size10
+StartChar: uni2989.size9
 Encoding: 1114611 -1 1591
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size11
+StartChar: uni2989.size10
 Encoding: 1114612 -1 1592
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size12
+StartChar: uni2989.size11
 Encoding: 1114613 -1 1593
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size13
+StartChar: uni2989.size12
 Encoding: 1114614 -1 1594
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size14
+StartChar: uni2989.size13
 Encoding: 1114615 -1 1595
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2989.size15
+StartChar: uni2989.size14
 Encoding: 1114616 -1 1596
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size1
+StartChar: uni2989.size15
 Encoding: 1114617 -1 1597
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size2
+StartChar: uni298A.size1
 Encoding: 1114618 -1 1598
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size3
+StartChar: uni298A.size2
 Encoding: 1114619 -1 1599
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size4
+StartChar: uni298A.size3
 Encoding: 1114620 -1 1600
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size5
+StartChar: uni298A.size4
 Encoding: 1114621 -1 1601
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size6
+StartChar: uni298A.size5
 Encoding: 1114622 -1 1602
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size7
+StartChar: uni298A.size6
 Encoding: 1114623 -1 1603
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size8
+StartChar: uni298A.size7
 Encoding: 1114624 -1 1604
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size9
+StartChar: uni298A.size8
 Encoding: 1114625 -1 1605
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size10
+StartChar: uni298A.size9
 Encoding: 1114626 -1 1606
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size11
+StartChar: uni298A.size10
 Encoding: 1114627 -1 1607
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size12
+StartChar: uni298A.size11
 Encoding: 1114628 -1 1608
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size13
+StartChar: uni298A.size12
 Encoding: 1114629 -1 1609
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size14
+StartChar: uni298A.size13
 Encoding: 1114630 -1 1610
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni298A.size15
+StartChar: uni298A.size14
 Encoding: 1114631 -1 1611
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size1
+StartChar: uni298A.size15
 Encoding: 1114632 -1 1612
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size2
+StartChar: uni2997.size1
 Encoding: 1114633 -1 1613
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size3
+StartChar: uni2997.size2
 Encoding: 1114634 -1 1614
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size4
+StartChar: uni2997.size3
 Encoding: 1114635 -1 1615
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size5
+StartChar: uni2997.size4
 Encoding: 1114636 -1 1616
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size6
+StartChar: uni2997.size5
 Encoding: 1114637 -1 1617
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size7
+StartChar: uni2997.size6
 Encoding: 1114638 -1 1618
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size8
+StartChar: uni2997.size7
 Encoding: 1114639 -1 1619
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size9
+StartChar: uni2997.size8
 Encoding: 1114640 -1 1620
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size10
+StartChar: uni2997.size9
 Encoding: 1114641 -1 1621
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size11
+StartChar: uni2997.size10
 Encoding: 1114642 -1 1622
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size12
+StartChar: uni2997.size11
 Encoding: 1114643 -1 1623
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size13
+StartChar: uni2997.size12
 Encoding: 1114644 -1 1624
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size14
+StartChar: uni2997.size13
 Encoding: 1114645 -1 1625
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2997.size15
+StartChar: uni2997.size14
 Encoding: 1114646 -1 1626
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size1
+StartChar: uni2997.size15
 Encoding: 1114647 -1 1627
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size2
+StartChar: uni2998.size1
 Encoding: 1114648 -1 1628
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size3
+StartChar: uni2998.size2
 Encoding: 1114649 -1 1629
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size4
+StartChar: uni2998.size3
 Encoding: 1114650 -1 1630
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size5
+StartChar: uni2998.size4
 Encoding: 1114651 -1 1631
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size6
+StartChar: uni2998.size5
 Encoding: 1114652 -1 1632
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size7
+StartChar: uni2998.size6
 Encoding: 1114653 -1 1633
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size8
+StartChar: uni2998.size7
 Encoding: 1114654 -1 1634
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size9
+StartChar: uni2998.size8
 Encoding: 1114655 -1 1635
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size10
+StartChar: uni2998.size9
 Encoding: 1114656 -1 1636
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size11
+StartChar: uni2998.size10
 Encoding: 1114657 -1 1637
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size12
+StartChar: uni2998.size11
 Encoding: 1114658 -1 1638
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size13
+StartChar: uni2998.size12
 Encoding: 1114659 -1 1639
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size14
+StartChar: uni2998.size13
 Encoding: 1114660 -1 1640
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uni2998.size15
+StartChar: uni2998.size14
 Encoding: 1114661 -1 1641
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2998.size15
+Encoding: 1114662 -1 1642
 Width: 0
 Flags: W
 LayerCount: 2

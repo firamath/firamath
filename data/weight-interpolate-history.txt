@@ -46,3 +46,8 @@ interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], arrow_glyphs)
 integral_glyphs = ["uni222B", "uni222C", "uni222D", "uni222E", "uni222F", "uni2230", "uni2A0C"]
 interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], integral_glyphs)
 interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
+
+# 2019-02-20 Summations and products (III)
+sum_prod_glyphs = ["uni2140", "uni220F", "uni2210", "uni2211"]
+interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
+interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
