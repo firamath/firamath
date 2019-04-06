@@ -8,12 +8,7 @@ script:
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --fonts --hint
   - docker run --volume $(pwd):/home/firamath/work fontforge python ./scripts/build.py --check
 before_deploy:
-  - echo $TRAVIS_COMMIT
-  - echo firamath-otf-$(echo $TRAVIS_COMMIT | cut -c1-7).zip
-  - zip ./release/firamath-otf-$(date "+%Y-%m-%d")-$(echo $TRAVIS_COMMIT | cut -c1-7).zip ./release/fonts/*.otf
-  - ls -al $(pwd)
-  - ls -al $(pwd)/release
-  - ls -al $(pwd)/release/fonts
+  - zip -j ./release/firamath-otf-$(date "+%Y-%m-%d")-$(echo $TRAVIS_COMMIT | cut -c1-7).zip ./release/fonts/*.otf
 deploy:
   provider: bintray
   user: stone-zeng

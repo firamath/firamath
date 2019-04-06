@@ -21,8 +21,8 @@
     },
     "version": {
         "name": "ci-build",
-        "desc": "This is a CI build",
-        "released": "v0.4-beta-3",
+        "desc": "This is a ci build for firamath",
+        "released": "2019-02-20",
         "gpgSign": false
     },
     "files": [
