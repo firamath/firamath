@@ -86,11 +86,8 @@ See <https://tex.stackexchange.com/q/429621>.
 ### Microsoft Word
 
 1. Create a new equation. Then select the little *additional settings* corner.
-
 1. In the menu, change the *Default font* to Fira Math.
-
 1. In order for the changes to take effect, you will have to create a new equation environment (the current one will not be changed).
-
 1. To change the font in existing equations, select the equation text and select an OpenType math-enabled font (such as Fira Math).
 
 See <https://superuser.com/q/1114697>.
@@ -102,14 +99,16 @@ The source files `FiraMath-*.sfd` are not designed for generating fonts directly
 ### Windows
 
 1. Install [FontForge](https://fontforge.github.io).
-
 1. Run `ffpython.exe .\scripts\build.py --fonts`.
 
 ### Linux
 
 1. Install Python 2.7 and `python-fontforge`, or the full [FontForge](https://fontforge.github.io).
-
 1. Run `python ./scripts/build.py --fonts`.
+
+### Development builds
+
+If you just want to download the latest development version, please try the [ci builds](https://dl.bintray.com/firamath/firamath).
 
 ## Contributing
 
