@@ -51,3 +51,8 @@ interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], integral_glyphs)
 sum_prod_glyphs = ["uni2140", "uni220F", "uni2210", "uni2211"]
 interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], sum_prod_glyphs)
 interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], sum_prod_glyphs)
+
+# 2019-04-06 .notdef (I)
+notdef_glyph = [".notdef"]
+interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], notdef_glyph)
+interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], notdef_glyph)

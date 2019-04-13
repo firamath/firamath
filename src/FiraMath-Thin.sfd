@@ -15437,7 +15437,7 @@ EndChar
 
 StartChar: uni21A2
 Encoding: 8610 8610 609
-Width: 920
+Width: 940
 Flags: W
 LayerCount: 2
 Fore
@@ -15462,7 +15462,7 @@ EndChar
 
 StartChar: uni21A3
 Encoding: 8611 8611 610
-Width: 920
+Width: 940
 Flags: W
 LayerCount: 2
 Fore

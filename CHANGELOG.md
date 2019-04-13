@@ -4,6 +4,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+- Added:
+  - `.notdef` for all weights
+- Changed:
+  - Update to Unicode 12.0.1 (no actual changes in the font itself)
+- Improved:
+  - Now pre-built fonts of the latest development version can be download from [bintray](https://bintray.com/firamath/firamath/firamath-travis)
+
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-3...master).
 
 ## v0.4-beta-3 (2019-02-20)

@@ -36,7 +36,6 @@ def interpolate_font(weight_dict, glyph_list):
 
 
 if __name__ == "__main__":
-    ## 2019-04-06 .notdef
+    ## 2019-04-14 .notdef (II)
     notdef_glyph = [".notdef"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], notdef_glyph)
     interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], notdef_glyph)

@@ -169,7 +169,7 @@ def rmdir(dir_name):
     if platform.system() == "Windows":
         os.system("RMDIR /?")  # TODO
     else:
-        os.system("rm -rf " + file_name)
+        os.system("rm -rf " + dir_name)
 
 
 parser = argparse.ArgumentParser()
