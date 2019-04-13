@@ -5,7 +5,7 @@ import csv
 import os
 
 
-FILE_NAME = os.sep.join([os.getcwd(), "data", "glyph-stats.csv"])
+FILE_NAME = os.sep.join([os.getcwd(), "data", "glyph-data.csv"])
 
 UNICODE_INDEX = 0
 UNICODE_NAME_INDEX = 1

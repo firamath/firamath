@@ -13,7 +13,7 @@ barChart[$data_] :=
    AspectRatio -> 0.25, ImageSize -> 900, PlotTheme -> "Business"]
 
 
-path = "./data/glyph-stats.csv";
+path = "./data/glyph-data.csv";
 columns = {3, 5, 6, 7, 8};
 
 
