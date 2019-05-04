@@ -64,6 +64,7 @@ def add_math_table(font):
     # Add MATH constants.
     for name, value in MATH_CONSTANTS_DICT.items():
         exec("font.math." + name + " = " + str(value[font.weight]))
+    # Add MATH glyph info.
     _add_math_glyph_info(font, MATH_TABLE["MathGlyphInfo"])
     # Add MATH variants and components.
     _add_math_variants(font, "verticalVariants")
@@ -73,8 +74,9 @@ def add_math_table(font):
 
 
 def _add_math_glyph_info(font, math_glyph_info_dict):
-    # TODO
-    pass
+    for _glyph in MATH_TABLE["MathGlyphInfo"]["extendedShapes"]:
+        if str(_glyph) in font:
+            font[str(_glyph)].isExtendedShape = True
 
 
 def _add_math_variants(font, variants_type):

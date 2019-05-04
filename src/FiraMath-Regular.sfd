@@ -271,7 +271,6 @@ StartChar: uni0028
 Encoding: 40 40 8
 Width: 324
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -289,7 +288,6 @@ StartChar: uni0029
 Encoding: 41 41 9
 Width: 324
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -408,7 +406,6 @@ StartChar: uni002F
 Encoding: 47 47 15
 Width: 520
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -1450,7 +1447,6 @@ StartChar: uni005B
 Encoding: 91 91 59
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -1470,7 +1466,6 @@ StartChar: uni005C
 Encoding: 92 92 60
 Width: 520
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -1486,7 +1481,6 @@ StartChar: uni005D
 Encoding: 93 93 61
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -2242,7 +2236,6 @@ StartChar: uni007B
 Encoding: 123 123 91
 Width: 322
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -2270,7 +2263,6 @@ StartChar: uni007C
 Encoding: 124 124 92
 Width: 403
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -2286,7 +2278,6 @@ StartChar: uni007D
 Encoding: 125 125 93
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -13850,7 +13841,6 @@ StartChar: uni2016
 Encoding: 8214 8214 543
 Width: 577
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19601,7 +19591,6 @@ StartChar: uni220F
 Encoding: 8719 8719 750
 Width: 736
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19625,7 +19614,6 @@ StartChar: uni2210
 Encoding: 8720 8720 751
 Width: 736
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19650,7 +19638,6 @@ Encoding: 8721 8721 752
 Width: 685
 VWidth: 1002
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19804,7 +19791,6 @@ StartChar: uni221A
 Encoding: 8730 8730 759
 Width: 649
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19827,7 +19813,6 @@ StartChar: uni221B
 Encoding: 8731 8731 760
 Width: 693
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -19868,7 +19853,6 @@ StartChar: uni221C
 Encoding: 8732 8732 761
 Width: 693
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -20226,7 +20210,6 @@ Encoding: 8747 8747 776
 Width: 701
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -20251,7 +20234,6 @@ Encoding: 8748 8748 777
 Width: 981
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -20289,7 +20271,6 @@ Encoding: 8749 8749 778
 Width: 1261
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -20340,7 +20321,6 @@ Encoding: 8750 8750 779
 Width: 701
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -20379,7 +20359,6 @@ Encoding: 8751 8751 780
 Width: 981
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -20431,7 +20410,6 @@ Encoding: 8752 8752 781
 Width: 1261
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -23742,7 +23720,6 @@ StartChar: uni2308
 Encoding: 8968 8968 893
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -23760,7 +23737,6 @@ StartChar: uni2309
 Encoding: 8969 8969 894
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -23778,7 +23754,6 @@ StartChar: uni230A
 Encoding: 8970 8970 895
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -23796,7 +23771,6 @@ StartChar: uni230B
 Encoding: 8971 8971 896
 Width: 322
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -26306,7 +26280,6 @@ StartChar: uni27E8
 Encoding: 10216 10216 1027
 Width: 336
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -26324,7 +26297,6 @@ StartChar: uni27E9
 Encoding: 10217 10217 1028
 Width: 336
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -26342,7 +26314,6 @@ StartChar: uni27EA
 Encoding: 10218 10218 1029
 Width: 516
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -26367,7 +26338,6 @@ StartChar: uni27EB
 Encoding: 10219 10219 1030
 Width: 516
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -26406,7 +26376,6 @@ StartChar: uni27EE
 Encoding: 10222 10222 1033
 Width: 287
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -26426,7 +26395,6 @@ StartChar: uni27EF
 Encoding: 10223 10223 1034
 Width: 287
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -28041,7 +28009,6 @@ StartChar: uni2980
 Encoding: 10624 10624 1120
 Width: 751
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -28321,7 +28288,6 @@ Encoding: 10764 10764 1139
 Width: 1541
 Flags: W
 ItalicCorrection: 240
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40711,7 +40677,6 @@ StartChar: uni220F.display
 Encoding: 1114128 -1 1614
 Width: 1403
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40735,7 +40700,6 @@ StartChar: uni2210.display
 Encoding: 1114129 -1 1615
 Width: 1403
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40759,7 +40723,6 @@ StartChar: uni2211.display
 Encoding: 1114130 -1 1616
 Width: 1280
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40785,7 +40748,6 @@ Encoding: 1114131 -1 1617
 Width: 1180
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40810,7 +40772,6 @@ Encoding: 1114132 -1 1618
 Width: 1640
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40848,7 +40809,6 @@ Encoding: 1114133 -1 1619
 Width: 2100
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40899,7 +40859,6 @@ Encoding: 1114134 -1 1620
 Width: 2560
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40963,7 +40922,6 @@ Encoding: 1114135 -1 1621
 Width: 1180
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -40998,7 +40956,6 @@ Encoding: 1114136 -1 1622
 Width: 1640
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41046,7 +41003,6 @@ Encoding: 1114137 -1 1623
 Width: 2100
 Flags: W
 ItalicCorrection: 580
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41106,7 +41062,6 @@ StartChar: uni221A.size1
 Encoding: 1114138 -1 1624
 Width: 667
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41129,7 +41084,6 @@ StartChar: uni221A.size2
 Encoding: 1114139 -1 1625
 Width: 686
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41152,7 +41106,6 @@ StartChar: uni221A.size3
 Encoding: 1114140 -1 1626
 Width: 705
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41175,7 +41128,6 @@ StartChar: uni221A.size4
 Encoding: 1114141 -1 1627
 Width: 723
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41198,7 +41150,6 @@ StartChar: uni221A.size5
 Encoding: 1114142 -1 1628
 Width: 742
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41221,7 +41172,6 @@ StartChar: uni221A.size6
 Encoding: 1114143 -1 1629
 Width: 761
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41244,7 +41194,6 @@ StartChar: uni221A.size7
 Encoding: 1114144 -1 1630
 Width: 779
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41267,7 +41216,6 @@ StartChar: uni221A.size8
 Encoding: 1114145 -1 1631
 Width: 798
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41290,7 +41238,6 @@ StartChar: uni221A.size9
 Encoding: 1114146 -1 1632
 Width: 817
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41313,7 +41260,6 @@ StartChar: uni221A.size10
 Encoding: 1114147 -1 1633
 Width: 835
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41336,7 +41282,6 @@ StartChar: uni221A.size11
 Encoding: 1114148 -1 1634
 Width: 854
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41359,7 +41304,6 @@ StartChar: uni221A.size12
 Encoding: 1114149 -1 1635
 Width: 873
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41382,7 +41326,6 @@ StartChar: uni221A.size13
 Encoding: 1114150 -1 1636
 Width: 891
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41405,7 +41348,6 @@ StartChar: uni221A.size14
 Encoding: 1114151 -1 1637
 Width: 910
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41428,7 +41370,6 @@ StartChar: uni221A.size15
 Encoding: 1114152 -1 1638
 Width: 929
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41451,7 +41392,6 @@ StartChar: uni221B.size1
 Encoding: 1114153 -1 1639
 Width: 713
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41492,7 +41432,6 @@ StartChar: uni221B.size2
 Encoding: 1114154 -1 1640
 Width: 734
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41533,7 +41472,6 @@ StartChar: uni221B.size3
 Encoding: 1114155 -1 1641
 Width: 754
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41574,7 +41512,6 @@ StartChar: uni221B.size4
 Encoding: 1114156 -1 1642
 Width: 775
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41615,7 +41552,6 @@ StartChar: uni221B.size5
 Encoding: 1114157 -1 1643
 Width: 795
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41656,7 +41592,6 @@ StartChar: uni221B.size6
 Encoding: 1114158 -1 1644
 Width: 816
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41697,7 +41632,6 @@ StartChar: uni221B.size7
 Encoding: 1114159 -1 1645
 Width: 836
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41738,7 +41672,6 @@ StartChar: uni221B.size8
 Encoding: 1114160 -1 1646
 Width: 857
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41779,7 +41712,6 @@ StartChar: uni221B.size9
 Encoding: 1114161 -1 1647
 Width: 877
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41820,7 +41752,6 @@ StartChar: uni221B.size10
 Encoding: 1114162 -1 1648
 Width: 898
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41861,7 +41792,6 @@ StartChar: uni221B.size11
 Encoding: 1114163 -1 1649
 Width: 918
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41902,7 +41832,6 @@ StartChar: uni221B.size12
 Encoding: 1114164 -1 1650
 Width: 939
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41943,7 +41872,6 @@ StartChar: uni221B.size13
 Encoding: 1114165 -1 1651
 Width: 959
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -41984,7 +41912,6 @@ StartChar: uni221B.size14
 Encoding: 1114166 -1 1652
 Width: 980
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42025,7 +41952,6 @@ StartChar: uni221B.size15
 Encoding: 1114167 -1 1653
 Width: 1001
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42066,7 +41992,6 @@ StartChar: uni221C.size1
 Encoding: 1114168 -1 1654
 Width: 713
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42105,7 +42030,6 @@ StartChar: uni221C.size2
 Encoding: 1114169 -1 1655
 Width: 734
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42144,7 +42068,6 @@ StartChar: uni221C.size3
 Encoding: 1114170 -1 1656
 Width: 754
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42183,7 +42106,6 @@ StartChar: uni221C.size4
 Encoding: 1114171 -1 1657
 Width: 775
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42222,7 +42144,6 @@ StartChar: uni221C.size5
 Encoding: 1114172 -1 1658
 Width: 795
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42261,7 +42182,6 @@ StartChar: uni221C.size6
 Encoding: 1114173 -1 1659
 Width: 816
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42300,7 +42220,6 @@ StartChar: uni221C.size7
 Encoding: 1114174 -1 1660
 Width: 836
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42339,7 +42258,6 @@ StartChar: uni221C.size8
 Encoding: 1114175 -1 1661
 Width: 857
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42378,7 +42296,6 @@ StartChar: uni221C.size9
 Encoding: 1114176 -1 1662
 Width: 877
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42417,7 +42334,6 @@ StartChar: uni221C.size10
 Encoding: 1114177 -1 1663
 Width: 898
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42456,7 +42372,6 @@ StartChar: uni221C.size11
 Encoding: 1114178 -1 1664
 Width: 918
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42495,7 +42410,6 @@ StartChar: uni221C.size12
 Encoding: 1114179 -1 1665
 Width: 939
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42534,7 +42448,6 @@ StartChar: uni221C.size13
 Encoding: 1114180 -1 1666
 Width: 959
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42573,7 +42486,6 @@ StartChar: uni221C.size14
 Encoding: 1114181 -1 1667
 Width: 980
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42612,7 +42524,6 @@ StartChar: uni221C.size15
 Encoding: 1114182 -1 1668
 Width: 1001
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42651,7 +42562,6 @@ StartChar: uni0028.size1
 Encoding: 1114183 -1 1669
 Width: 342
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42669,7 +42579,6 @@ StartChar: uni0028.size2
 Encoding: 1114184 -1 1670
 Width: 360
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42687,7 +42596,6 @@ StartChar: uni0028.size3
 Encoding: 1114185 -1 1671
 Width: 379
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42705,7 +42613,6 @@ StartChar: uni0028.size4
 Encoding: 1114186 -1 1672
 Width: 397
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42723,7 +42630,6 @@ StartChar: uni0028.size5
 Encoding: 1114187 -1 1673
 Width: 415
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42741,7 +42647,6 @@ StartChar: uni0028.size6
 Encoding: 1114188 -1 1674
 Width: 434
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42759,7 +42664,6 @@ StartChar: uni0028.size7
 Encoding: 1114189 -1 1675
 Width: 452
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42777,7 +42681,6 @@ StartChar: uni0028.size8
 Encoding: 1114190 -1 1676
 Width: 470
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42795,7 +42698,6 @@ StartChar: uni0028.size9
 Encoding: 1114191 -1 1677
 Width: 489
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42813,7 +42715,6 @@ StartChar: uni0028.size10
 Encoding: 1114192 -1 1678
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42831,7 +42732,6 @@ StartChar: uni0028.size11
 Encoding: 1114193 -1 1679
 Width: 525
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42849,7 +42749,6 @@ StartChar: uni0028.size12
 Encoding: 1114194 -1 1680
 Width: 544
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42867,7 +42766,6 @@ StartChar: uni0028.size13
 Encoding: 1114195 -1 1681
 Width: 562
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42885,7 +42783,6 @@ StartChar: uni0028.size14
 Encoding: 1114196 -1 1682
 Width: 580
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42903,7 +42800,6 @@ StartChar: uni0028.size15
 Encoding: 1114197 -1 1683
 Width: 599
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42921,7 +42817,6 @@ StartChar: uni0029.size1
 Encoding: 1114198 -1 1684
 Width: 342
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42939,7 +42834,6 @@ StartChar: uni0029.size2
 Encoding: 1114199 -1 1685
 Width: 360
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42957,7 +42851,6 @@ StartChar: uni0029.size3
 Encoding: 1114200 -1 1686
 Width: 379
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42975,7 +42868,6 @@ StartChar: uni0029.size4
 Encoding: 1114201 -1 1687
 Width: 397
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -42993,7 +42885,6 @@ StartChar: uni0029.size5
 Encoding: 1114202 -1 1688
 Width: 415
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43011,7 +42902,6 @@ StartChar: uni0029.size6
 Encoding: 1114203 -1 1689
 Width: 434
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43029,7 +42919,6 @@ StartChar: uni0029.size7
 Encoding: 1114204 -1 1690
 Width: 452
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43047,7 +42936,6 @@ StartChar: uni0029.size8
 Encoding: 1114205 -1 1691
 Width: 470
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43065,7 +42953,6 @@ StartChar: uni0029.size9
 Encoding: 1114206 -1 1692
 Width: 489
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43083,7 +42970,6 @@ StartChar: uni0029.size10
 Encoding: 1114207 -1 1693
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43101,7 +42987,6 @@ StartChar: uni0029.size11
 Encoding: 1114208 -1 1694
 Width: 525
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43119,7 +43004,6 @@ StartChar: uni0029.size12
 Encoding: 1114209 -1 1695
 Width: 544
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43137,7 +43021,6 @@ StartChar: uni0029.size13
 Encoding: 1114210 -1 1696
 Width: 562
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43155,7 +43038,6 @@ StartChar: uni0029.size14
 Encoding: 1114211 -1 1697
 Width: 580
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43173,7 +43055,6 @@ StartChar: uni0029.size15
 Encoding: 1114212 -1 1698
 Width: 599
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43191,7 +43072,6 @@ StartChar: uni005B.size1
 Encoding: 1114213 -1 1699
 Width: 335
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43211,7 +43091,6 @@ StartChar: uni005B.size2
 Encoding: 1114214 -1 1700
 Width: 348
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43231,7 +43110,6 @@ StartChar: uni005B.size3
 Encoding: 1114215 -1 1701
 Width: 361
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43251,7 +43129,6 @@ StartChar: uni005B.size4
 Encoding: 1114216 -1 1702
 Width: 375
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43271,7 +43148,6 @@ StartChar: uni005B.size5
 Encoding: 1114217 -1 1703
 Width: 388
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43291,7 +43167,6 @@ StartChar: uni005B.size6
 Encoding: 1114218 -1 1704
 Width: 401
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43311,7 +43186,6 @@ StartChar: uni005B.size7
 Encoding: 1114219 -1 1705
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43331,7 +43205,6 @@ StartChar: uni005B.size8
 Encoding: 1114220 -1 1706
 Width: 428
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43351,7 +43224,6 @@ StartChar: uni005B.size9
 Encoding: 1114221 -1 1707
 Width: 441
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43371,7 +43243,6 @@ StartChar: uni005B.size10
 Encoding: 1114222 -1 1708
 Width: 454
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43391,7 +43262,6 @@ StartChar: uni005B.size11
 Encoding: 1114223 -1 1709
 Width: 467
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43411,7 +43281,6 @@ StartChar: uni005B.size12
 Encoding: 1114224 -1 1710
 Width: 481
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43431,7 +43300,6 @@ StartChar: uni005B.size13
 Encoding: 1114225 -1 1711
 Width: 494
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43451,7 +43319,6 @@ StartChar: uni005B.size14
 Encoding: 1114226 -1 1712
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43471,7 +43338,6 @@ StartChar: uni005B.size15
 Encoding: 1114227 -1 1713
 Width: 521
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43491,7 +43357,6 @@ StartChar: uni005D.size1
 Encoding: 1114228 -1 1714
 Width: 335
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43511,7 +43376,6 @@ StartChar: uni005D.size2
 Encoding: 1114229 -1 1715
 Width: 348
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43531,7 +43395,6 @@ StartChar: uni005D.size3
 Encoding: 1114230 -1 1716
 Width: 361
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43551,7 +43414,6 @@ StartChar: uni005D.size4
 Encoding: 1114231 -1 1717
 Width: 375
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43571,7 +43433,6 @@ StartChar: uni005D.size5
 Encoding: 1114232 -1 1718
 Width: 388
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43591,7 +43452,6 @@ StartChar: uni005D.size6
 Encoding: 1114233 -1 1719
 Width: 401
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43611,7 +43471,6 @@ StartChar: uni005D.size7
 Encoding: 1114234 -1 1720
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43631,7 +43490,6 @@ StartChar: uni005D.size8
 Encoding: 1114235 -1 1721
 Width: 428
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43651,7 +43509,6 @@ StartChar: uni005D.size9
 Encoding: 1114236 -1 1722
 Width: 441
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43671,7 +43528,6 @@ StartChar: uni005D.size10
 Encoding: 1114237 -1 1723
 Width: 454
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43691,7 +43547,6 @@ StartChar: uni005D.size11
 Encoding: 1114238 -1 1724
 Width: 467
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43711,7 +43566,6 @@ StartChar: uni005D.size12
 Encoding: 1114239 -1 1725
 Width: 481
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43731,7 +43585,6 @@ StartChar: uni005D.size13
 Encoding: 1114240 -1 1726
 Width: 494
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43751,7 +43604,6 @@ StartChar: uni005D.size14
 Encoding: 1114241 -1 1727
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43771,7 +43623,6 @@ StartChar: uni005D.size15
 Encoding: 1114242 -1 1728
 Width: 521
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43791,7 +43642,6 @@ StartChar: uni007B.size1
 Encoding: 1114243 -1 1729
 Width: 345
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -43818,7 +43668,6 @@ StartChar: uni007B.size2
 Encoding: 1114244 -1 1730
 Width: 368
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -43846,7 +43695,6 @@ StartChar: uni007B.size3
 Encoding: 1114245 -1 1731
 Width: 391
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -43874,7 +43722,6 @@ StartChar: uni007B.size4
 Encoding: 1114246 -1 1732
 Width: 414
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -43902,7 +43749,6 @@ StartChar: uni007B.size5
 Encoding: 1114247 -1 1733
 Width: 438
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -43930,7 +43776,6 @@ StartChar: uni007B.size6
 Encoding: 1114248 -1 1734
 Width: 461
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -43958,7 +43803,6 @@ StartChar: uni007B.size7
 Encoding: 1114249 -1 1735
 Width: 484
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -43986,7 +43830,6 @@ StartChar: uni007B.size8
 Encoding: 1114250 -1 1736
 Width: 507
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44014,7 +43857,6 @@ StartChar: uni007B.size9
 Encoding: 1114251 -1 1737
 Width: 530
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44042,7 +43884,6 @@ StartChar: uni007B.size10
 Encoding: 1114252 -1 1738
 Width: 554
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44069,7 +43910,6 @@ StartChar: uni007B.size11
 Encoding: 1114253 -1 1739
 Width: 577
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44097,7 +43937,6 @@ StartChar: uni007B.size12
 Encoding: 1114254 -1 1740
 Width: 600
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44125,7 +43964,6 @@ StartChar: uni007B.size13
 Encoding: 1114255 -1 1741
 Width: 623
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44153,7 +43991,6 @@ StartChar: uni007B.size14
 Encoding: 1114256 -1 1742
 Width: 646
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44180,7 +44017,6 @@ StartChar: uni007B.size15
 Encoding: 1114257 -1 1743
 Width: 670
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44208,7 +44044,6 @@ StartChar: uni007C.size1
 Encoding: 1114258 -1 1744
 Width: 409
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44224,7 +44059,6 @@ StartChar: uni007C.size2
 Encoding: 1114259 -1 1745
 Width: 416
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44240,7 +44074,6 @@ StartChar: uni007C.size3
 Encoding: 1114260 -1 1746
 Width: 423
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44256,7 +44089,6 @@ StartChar: uni007C.size4
 Encoding: 1114261 -1 1747
 Width: 430
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44272,7 +44104,6 @@ StartChar: uni007C.size5
 Encoding: 1114262 -1 1748
 Width: 437
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44288,7 +44119,6 @@ StartChar: uni007C.size6
 Encoding: 1114263 -1 1749
 Width: 444
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44304,7 +44134,6 @@ StartChar: uni007C.size7
 Encoding: 1114264 -1 1750
 Width: 451
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44320,7 +44149,6 @@ StartChar: uni007C.size8
 Encoding: 1114265 -1 1751
 Width: 458
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44336,7 +44164,6 @@ StartChar: uni007C.size9
 Encoding: 1114266 -1 1752
 Width: 465
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44352,7 +44179,6 @@ StartChar: uni007C.size10
 Encoding: 1114267 -1 1753
 Width: 472
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44368,7 +44194,6 @@ StartChar: uni007C.size11
 Encoding: 1114268 -1 1754
 Width: 479
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44384,7 +44209,6 @@ StartChar: uni007C.size12
 Encoding: 1114269 -1 1755
 Width: 486
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44400,7 +44224,6 @@ StartChar: uni007C.size13
 Encoding: 1114270 -1 1756
 Width: 493
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44416,7 +44239,6 @@ StartChar: uni007C.size14
 Encoding: 1114271 -1 1757
 Width: 500
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44432,7 +44254,6 @@ StartChar: uni007C.size15
 Encoding: 1114272 -1 1758
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44448,7 +44269,6 @@ StartChar: uni007D.size1
 Encoding: 1114273 -1 1759
 Width: 345
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44475,7 +44295,6 @@ StartChar: uni007D.size2
 Encoding: 1114274 -1 1760
 Width: 368
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44502,7 +44321,6 @@ StartChar: uni007D.size3
 Encoding: 1114275 -1 1761
 Width: 391
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44529,7 +44347,6 @@ StartChar: uni007D.size4
 Encoding: 1114276 -1 1762
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44556,7 +44373,6 @@ StartChar: uni007D.size5
 Encoding: 1114277 -1 1763
 Width: 438
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44583,7 +44399,6 @@ StartChar: uni007D.size6
 Encoding: 1114278 -1 1764
 Width: 461
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44610,7 +44425,6 @@ StartChar: uni007D.size7
 Encoding: 1114279 -1 1765
 Width: 484
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44637,7 +44451,6 @@ StartChar: uni007D.size8
 Encoding: 1114280 -1 1766
 Width: 507
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44665,7 +44478,6 @@ StartChar: uni007D.size9
 Encoding: 1114281 -1 1767
 Width: 530
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44693,7 +44505,6 @@ StartChar: uni007D.size10
 Encoding: 1114282 -1 1768
 Width: 554
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44720,7 +44531,6 @@ StartChar: uni007D.size11
 Encoding: 1114283 -1 1769
 Width: 577
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44748,7 +44558,6 @@ StartChar: uni007D.size12
 Encoding: 1114284 -1 1770
 Width: 600
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44776,7 +44585,6 @@ StartChar: uni007D.size13
 Encoding: 1114285 -1 1771
 Width: 623
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44804,7 +44612,6 @@ StartChar: uni007D.size14
 Encoding: 1114286 -1 1772
 Width: 646
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44831,7 +44638,6 @@ StartChar: uni007D.size15
 Encoding: 1114287 -1 1773
 Width: 670
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -44859,7 +44665,6 @@ StartChar: uni2016.size1
 Encoding: 1114288 -1 1774
 Width: 589
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44880,7 +44685,6 @@ StartChar: uni2016.size2
 Encoding: 1114289 -1 1775
 Width: 602
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44901,7 +44705,6 @@ StartChar: uni2016.size3
 Encoding: 1114290 -1 1776
 Width: 615
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44922,7 +44725,6 @@ StartChar: uni2016.size4
 Encoding: 1114291 -1 1777
 Width: 627
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44943,7 +44745,6 @@ StartChar: uni2016.size5
 Encoding: 1114292 -1 1778
 Width: 640
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44964,7 +44765,6 @@ StartChar: uni2016.size6
 Encoding: 1114293 -1 1779
 Width: 653
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -44985,7 +44785,6 @@ StartChar: uni2016.size7
 Encoding: 1114294 -1 1780
 Width: 665
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45006,7 +44805,6 @@ StartChar: uni2016.size8
 Encoding: 1114295 -1 1781
 Width: 678
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45027,7 +44825,6 @@ StartChar: uni2016.size9
 Encoding: 1114296 -1 1782
 Width: 691
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45048,7 +44845,6 @@ StartChar: uni2016.size10
 Encoding: 1114297 -1 1783
 Width: 703
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45069,7 +44865,6 @@ StartChar: uni2016.size11
 Encoding: 1114298 -1 1784
 Width: 716
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45090,7 +44885,6 @@ StartChar: uni2016.size12
 Encoding: 1114299 -1 1785
 Width: 729
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45111,7 +44905,6 @@ StartChar: uni2016.size13
 Encoding: 1114300 -1 1786
 Width: 741
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45132,7 +44925,6 @@ StartChar: uni2016.size14
 Encoding: 1114301 -1 1787
 Width: 754
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45153,7 +44945,6 @@ StartChar: uni2016.size15
 Encoding: 1114302 -1 1788
 Width: 767
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45174,7 +44965,6 @@ StartChar: uni2308.size1
 Encoding: 1114303 -1 1789
 Width: 335
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45192,7 +44982,6 @@ StartChar: uni2308.size2
 Encoding: 1114304 -1 1790
 Width: 348
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45210,7 +44999,6 @@ StartChar: uni2308.size3
 Encoding: 1114305 -1 1791
 Width: 361
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45228,7 +45016,6 @@ StartChar: uni2308.size4
 Encoding: 1114306 -1 1792
 Width: 375
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45246,7 +45033,6 @@ StartChar: uni2308.size5
 Encoding: 1114307 -1 1793
 Width: 388
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45264,7 +45050,6 @@ StartChar: uni2308.size6
 Encoding: 1114308 -1 1794
 Width: 401
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45282,7 +45067,6 @@ StartChar: uni2308.size7
 Encoding: 1114309 -1 1795
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45300,7 +45084,6 @@ StartChar: uni2308.size8
 Encoding: 1114310 -1 1796
 Width: 428
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45318,7 +45101,6 @@ StartChar: uni2308.size9
 Encoding: 1114311 -1 1797
 Width: 441
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45336,7 +45118,6 @@ StartChar: uni2308.size10
 Encoding: 1114312 -1 1798
 Width: 454
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45354,7 +45135,6 @@ StartChar: uni2308.size11
 Encoding: 1114313 -1 1799
 Width: 467
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45372,7 +45152,6 @@ StartChar: uni2308.size12
 Encoding: 1114314 -1 1800
 Width: 481
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45390,7 +45169,6 @@ StartChar: uni2308.size13
 Encoding: 1114315 -1 1801
 Width: 494
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45408,7 +45186,6 @@ StartChar: uni2308.size14
 Encoding: 1114316 -1 1802
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45426,7 +45203,6 @@ StartChar: uni2308.size15
 Encoding: 1114317 -1 1803
 Width: 521
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45444,7 +45220,6 @@ StartChar: uni2309.size1
 Encoding: 1114318 -1 1804
 Width: 335
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45462,7 +45237,6 @@ StartChar: uni2309.size2
 Encoding: 1114319 -1 1805
 Width: 348
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45480,7 +45254,6 @@ StartChar: uni2309.size3
 Encoding: 1114320 -1 1806
 Width: 361
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45498,7 +45271,6 @@ StartChar: uni2309.size4
 Encoding: 1114321 -1 1807
 Width: 375
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45516,7 +45288,6 @@ StartChar: uni2309.size5
 Encoding: 1114322 -1 1808
 Width: 388
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45534,7 +45305,6 @@ StartChar: uni2309.size6
 Encoding: 1114323 -1 1809
 Width: 401
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45552,7 +45322,6 @@ StartChar: uni2309.size7
 Encoding: 1114324 -1 1810
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45570,7 +45339,6 @@ StartChar: uni2309.size8
 Encoding: 1114325 -1 1811
 Width: 428
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45588,7 +45356,6 @@ StartChar: uni2309.size9
 Encoding: 1114326 -1 1812
 Width: 441
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45606,7 +45373,6 @@ StartChar: uni2309.size10
 Encoding: 1114327 -1 1813
 Width: 454
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45624,7 +45390,6 @@ StartChar: uni2309.size11
 Encoding: 1114328 -1 1814
 Width: 467
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45642,7 +45407,6 @@ StartChar: uni2309.size12
 Encoding: 1114329 -1 1815
 Width: 481
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45660,7 +45424,6 @@ StartChar: uni2309.size13
 Encoding: 1114330 -1 1816
 Width: 494
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45678,7 +45441,6 @@ StartChar: uni2309.size14
 Encoding: 1114331 -1 1817
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45696,7 +45458,6 @@ StartChar: uni2309.size15
 Encoding: 1114332 -1 1818
 Width: 521
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45714,7 +45475,6 @@ StartChar: uni230A.size1
 Encoding: 1114333 -1 1819
 Width: 335
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45732,7 +45492,6 @@ StartChar: uni230A.size2
 Encoding: 1114334 -1 1820
 Width: 348
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45750,7 +45509,6 @@ StartChar: uni230A.size3
 Encoding: 1114335 -1 1821
 Width: 361
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45768,7 +45526,6 @@ StartChar: uni230A.size4
 Encoding: 1114336 -1 1822
 Width: 375
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45786,7 +45543,6 @@ StartChar: uni230A.size5
 Encoding: 1114337 -1 1823
 Width: 388
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45804,7 +45560,6 @@ StartChar: uni230A.size6
 Encoding: 1114338 -1 1824
 Width: 401
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45822,7 +45577,6 @@ StartChar: uni230A.size7
 Encoding: 1114339 -1 1825
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45840,7 +45594,6 @@ StartChar: uni230A.size8
 Encoding: 1114340 -1 1826
 Width: 428
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45858,7 +45611,6 @@ StartChar: uni230A.size9
 Encoding: 1114341 -1 1827
 Width: 441
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45876,7 +45628,6 @@ StartChar: uni230A.size10
 Encoding: 1114342 -1 1828
 Width: 454
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45894,7 +45645,6 @@ StartChar: uni230A.size11
 Encoding: 1114343 -1 1829
 Width: 467
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45912,7 +45662,6 @@ StartChar: uni230A.size12
 Encoding: 1114344 -1 1830
 Width: 481
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45930,7 +45679,6 @@ StartChar: uni230A.size13
 Encoding: 1114345 -1 1831
 Width: 494
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45948,7 +45696,6 @@ StartChar: uni230A.size14
 Encoding: 1114346 -1 1832
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45966,7 +45713,6 @@ StartChar: uni230A.size15
 Encoding: 1114347 -1 1833
 Width: 521
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -45984,7 +45730,6 @@ StartChar: uni230B.size1
 Encoding: 1114348 -1 1834
 Width: 335
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46002,7 +45747,6 @@ StartChar: uni230B.size2
 Encoding: 1114349 -1 1835
 Width: 348
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46020,7 +45764,6 @@ StartChar: uni230B.size3
 Encoding: 1114350 -1 1836
 Width: 361
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46038,7 +45781,6 @@ StartChar: uni230B.size4
 Encoding: 1114351 -1 1837
 Width: 375
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46056,7 +45798,6 @@ StartChar: uni230B.size5
 Encoding: 1114352 -1 1838
 Width: 388
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46074,7 +45815,6 @@ StartChar: uni230B.size6
 Encoding: 1114353 -1 1839
 Width: 401
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46092,7 +45832,6 @@ StartChar: uni230B.size7
 Encoding: 1114354 -1 1840
 Width: 414
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46110,7 +45849,6 @@ StartChar: uni230B.size8
 Encoding: 1114355 -1 1841
 Width: 428
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46128,7 +45866,6 @@ StartChar: uni230B.size9
 Encoding: 1114356 -1 1842
 Width: 441
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46146,7 +45883,6 @@ StartChar: uni230B.size10
 Encoding: 1114357 -1 1843
 Width: 454
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46164,7 +45900,6 @@ StartChar: uni230B.size11
 Encoding: 1114358 -1 1844
 Width: 467
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46182,7 +45917,6 @@ StartChar: uni230B.size12
 Encoding: 1114359 -1 1845
 Width: 481
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46200,7 +45934,6 @@ StartChar: uni230B.size13
 Encoding: 1114360 -1 1846
 Width: 494
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46218,7 +45951,6 @@ StartChar: uni230B.size14
 Encoding: 1114361 -1 1847
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46236,7 +45968,6 @@ StartChar: uni230B.size15
 Encoding: 1114362 -1 1848
 Width: 521
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46674,7 +46405,6 @@ StartChar: uni27E8.size1
 Encoding: 1114423 -1 1909
 Width: 365
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46692,7 +46422,6 @@ StartChar: uni27E8.size2
 Encoding: 1114424 -1 1910
 Width: 389
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46710,7 +46439,6 @@ StartChar: uni27E8.size3
 Encoding: 1114425 -1 1911
 Width: 412
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46728,7 +46456,6 @@ StartChar: uni27E8.size4
 Encoding: 1114426 -1 1912
 Width: 436
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46746,7 +46473,6 @@ StartChar: uni27E8.size5
 Encoding: 1114427 -1 1913
 Width: 460
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46764,7 +46490,6 @@ StartChar: uni27E8.size6
 Encoding: 1114428 -1 1914
 Width: 483
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46782,7 +46507,6 @@ StartChar: uni27E8.size7
 Encoding: 1114429 -1 1915
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46800,7 +46524,6 @@ StartChar: uni27E8.size8
 Encoding: 1114430 -1 1916
 Width: 530
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46818,7 +46541,6 @@ StartChar: uni27E8.size9
 Encoding: 1114431 -1 1917
 Width: 554
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46836,7 +46558,6 @@ StartChar: uni27E8.size10
 Encoding: 1114432 -1 1918
 Width: 578
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46854,7 +46575,6 @@ StartChar: uni27E8.size11
 Encoding: 1114433 -1 1919
 Width: 601
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46872,7 +46592,6 @@ StartChar: uni27E8.size12
 Encoding: 1114434 -1 1920
 Width: 625
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46890,7 +46609,6 @@ StartChar: uni27E8.size13
 Encoding: 1114435 -1 1921
 Width: 648
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46908,7 +46626,6 @@ StartChar: uni27E8.size14
 Encoding: 1114436 -1 1922
 Width: 672
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46926,7 +46643,6 @@ StartChar: uni27E8.size15
 Encoding: 1114437 -1 1923
 Width: 696
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46944,7 +46660,6 @@ StartChar: uni27E9.size1
 Encoding: 1114438 -1 1924
 Width: 365
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46962,7 +46677,6 @@ StartChar: uni27E9.size2
 Encoding: 1114439 -1 1925
 Width: 389
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46980,7 +46694,6 @@ StartChar: uni27E9.size3
 Encoding: 1114440 -1 1926
 Width: 412
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -46998,7 +46711,6 @@ StartChar: uni27E9.size4
 Encoding: 1114441 -1 1927
 Width: 436
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47016,7 +46728,6 @@ StartChar: uni27E9.size5
 Encoding: 1114442 -1 1928
 Width: 460
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47034,7 +46745,6 @@ StartChar: uni27E9.size6
 Encoding: 1114443 -1 1929
 Width: 483
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47052,7 +46762,6 @@ StartChar: uni27E9.size7
 Encoding: 1114444 -1 1930
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47070,7 +46779,6 @@ StartChar: uni27E9.size8
 Encoding: 1114445 -1 1931
 Width: 530
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47088,7 +46796,6 @@ StartChar: uni27E9.size9
 Encoding: 1114446 -1 1932
 Width: 554
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47106,7 +46813,6 @@ StartChar: uni27E9.size10
 Encoding: 1114447 -1 1933
 Width: 578
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47124,7 +46830,6 @@ StartChar: uni27E9.size11
 Encoding: 1114448 -1 1934
 Width: 601
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47142,7 +46847,6 @@ StartChar: uni27E9.size12
 Encoding: 1114449 -1 1935
 Width: 625
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47160,7 +46864,6 @@ StartChar: uni27E9.size13
 Encoding: 1114450 -1 1936
 Width: 648
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47178,7 +46881,6 @@ StartChar: uni27E9.size14
 Encoding: 1114451 -1 1937
 Width: 672
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47196,7 +46898,6 @@ StartChar: uni27E9.size15
 Encoding: 1114452 -1 1938
 Width: 696
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47214,7 +46915,6 @@ StartChar: uni27EA.size1
 Encoding: 1114453 -1 1939
 Width: 550
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47239,7 +46939,6 @@ StartChar: uni27EA.size2
 Encoding: 1114454 -1 1940
 Width: 579
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47264,7 +46963,6 @@ StartChar: uni27EA.size3
 Encoding: 1114455 -1 1941
 Width: 608
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47289,7 +46987,6 @@ StartChar: uni27EA.size4
 Encoding: 1114456 -1 1942
 Width: 637
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47314,7 +47011,6 @@ StartChar: uni27EA.size5
 Encoding: 1114457 -1 1943
 Width: 666
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47339,7 +47035,6 @@ StartChar: uni27EA.size6
 Encoding: 1114458 -1 1944
 Width: 695
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47364,7 +47059,6 @@ StartChar: uni27EA.size7
 Encoding: 1114459 -1 1945
 Width: 724
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47389,7 +47083,6 @@ StartChar: uni27EA.size8
 Encoding: 1114460 -1 1946
 Width: 753
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47414,7 +47107,6 @@ StartChar: uni27EA.size9
 Encoding: 1114461 -1 1947
 Width: 782
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47439,7 +47131,6 @@ StartChar: uni27EA.size10
 Encoding: 1114462 -1 1948
 Width: 811
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47464,7 +47155,6 @@ StartChar: uni27EA.size11
 Encoding: 1114463 -1 1949
 Width: 840
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47489,7 +47179,6 @@ StartChar: uni27EA.size12
 Encoding: 1114464 -1 1950
 Width: 869
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47514,7 +47203,6 @@ StartChar: uni27EA.size13
 Encoding: 1114465 -1 1951
 Width: 898
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47539,7 +47227,6 @@ StartChar: uni27EA.size14
 Encoding: 1114466 -1 1952
 Width: 927
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47564,7 +47251,6 @@ StartChar: uni27EA.size15
 Encoding: 1114467 -1 1953
 Width: 956
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47589,7 +47275,6 @@ StartChar: uni27EB.size1
 Encoding: 1114468 -1 1954
 Width: 550
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47614,7 +47299,6 @@ StartChar: uni27EB.size2
 Encoding: 1114469 -1 1955
 Width: 579
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47639,7 +47323,6 @@ StartChar: uni27EB.size3
 Encoding: 1114470 -1 1956
 Width: 608
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47664,7 +47347,6 @@ StartChar: uni27EB.size4
 Encoding: 1114471 -1 1957
 Width: 637
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47689,7 +47371,6 @@ StartChar: uni27EB.size5
 Encoding: 1114472 -1 1958
 Width: 666
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47714,7 +47395,6 @@ StartChar: uni27EB.size6
 Encoding: 1114473 -1 1959
 Width: 695
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47739,7 +47419,6 @@ StartChar: uni27EB.size7
 Encoding: 1114474 -1 1960
 Width: 724
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47764,7 +47443,6 @@ StartChar: uni27EB.size8
 Encoding: 1114475 -1 1961
 Width: 753
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47789,7 +47467,6 @@ StartChar: uni27EB.size9
 Encoding: 1114476 -1 1962
 Width: 782
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47814,7 +47491,6 @@ StartChar: uni27EB.size10
 Encoding: 1114477 -1 1963
 Width: 811
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47839,7 +47515,6 @@ StartChar: uni27EB.size11
 Encoding: 1114478 -1 1964
 Width: 840
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47864,7 +47539,6 @@ StartChar: uni27EB.size12
 Encoding: 1114479 -1 1965
 Width: 869
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47889,7 +47563,6 @@ StartChar: uni27EB.size13
 Encoding: 1114480 -1 1966
 Width: 898
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47914,7 +47587,6 @@ StartChar: uni27EB.size14
 Encoding: 1114481 -1 1967
 Width: 927
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -47939,7 +47611,6 @@ StartChar: uni27EB.size15
 Encoding: 1114482 -1 1968
 Width: 956
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48174,7 +47845,6 @@ StartChar: uni27EE.size1
 Encoding: 1114513 -1 1999
 Width: 305
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48194,7 +47864,6 @@ StartChar: uni27EE.size2
 Encoding: 1114514 -1 2000
 Width: 323
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48214,7 +47883,6 @@ StartChar: uni27EE.size3
 Encoding: 1114515 -1 2001
 Width: 342
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48234,7 +47902,6 @@ StartChar: uni27EE.size4
 Encoding: 1114516 -1 2002
 Width: 360
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48254,7 +47921,6 @@ StartChar: uni27EE.size5
 Encoding: 1114517 -1 2003
 Width: 379
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48274,7 +47940,6 @@ StartChar: uni27EE.size6
 Encoding: 1114518 -1 2004
 Width: 397
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48294,7 +47959,6 @@ StartChar: uni27EE.size7
 Encoding: 1114519 -1 2005
 Width: 415
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48314,7 +47978,6 @@ StartChar: uni27EE.size8
 Encoding: 1114520 -1 2006
 Width: 434
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48334,7 +47997,6 @@ StartChar: uni27EE.size9
 Encoding: 1114521 -1 2007
 Width: 452
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48354,7 +48016,6 @@ StartChar: uni27EE.size10
 Encoding: 1114522 -1 2008
 Width: 471
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48374,7 +48035,6 @@ StartChar: uni27EE.size11
 Encoding: 1114523 -1 2009
 Width: 489
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48394,7 +48054,6 @@ StartChar: uni27EE.size12
 Encoding: 1114524 -1 2010
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48414,7 +48073,6 @@ StartChar: uni27EE.size13
 Encoding: 1114525 -1 2011
 Width: 526
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48434,7 +48092,6 @@ StartChar: uni27EE.size14
 Encoding: 1114526 -1 2012
 Width: 544
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48454,7 +48111,6 @@ StartChar: uni27EE.size15
 Encoding: 1114527 -1 2013
 Width: 563
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48474,7 +48130,6 @@ StartChar: uni27EF.size1
 Encoding: 1114528 -1 2014
 Width: 305
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48494,7 +48149,6 @@ StartChar: uni27EF.size2
 Encoding: 1114529 -1 2015
 Width: 323
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48514,7 +48168,6 @@ StartChar: uni27EF.size3
 Encoding: 1114530 -1 2016
 Width: 342
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48534,7 +48187,6 @@ StartChar: uni27EF.size4
 Encoding: 1114531 -1 2017
 Width: 360
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48554,7 +48206,6 @@ StartChar: uni27EF.size5
 Encoding: 1114532 -1 2018
 Width: 379
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48574,7 +48225,6 @@ StartChar: uni27EF.size6
 Encoding: 1114533 -1 2019
 Width: 397
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48594,7 +48244,6 @@ StartChar: uni27EF.size7
 Encoding: 1114534 -1 2020
 Width: 415
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48614,7 +48263,6 @@ StartChar: uni27EF.size8
 Encoding: 1114535 -1 2021
 Width: 434
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48634,7 +48282,6 @@ StartChar: uni27EF.size9
 Encoding: 1114536 -1 2022
 Width: 452
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48654,7 +48301,6 @@ StartChar: uni27EF.size10
 Encoding: 1114537 -1 2023
 Width: 471
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48674,7 +48320,6 @@ StartChar: uni27EF.size11
 Encoding: 1114538 -1 2024
 Width: 489
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48694,7 +48339,6 @@ StartChar: uni27EF.size12
 Encoding: 1114539 -1 2025
 Width: 507
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48714,7 +48358,6 @@ StartChar: uni27EF.size13
 Encoding: 1114540 -1 2026
 Width: 526
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48734,7 +48377,6 @@ StartChar: uni27EF.size14
 Encoding: 1114541 -1 2027
 Width: 544
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48754,7 +48396,6 @@ StartChar: uni27EF.size15
 Encoding: 1114542 -1 2028
 Width: 563
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48774,7 +48415,6 @@ StartChar: uni2980.size1
 Encoding: 1114543 -1 2029
 Width: 769
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48800,7 +48440,6 @@ StartChar: uni2980.size2
 Encoding: 1114544 -1 2030
 Width: 787
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -48827,7 +48466,6 @@ StartChar: uni2980.size3
 Encoding: 1114545 -1 2031
 Width: 806
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48853,7 +48491,6 @@ StartChar: uni2980.size4
 Encoding: 1114546 -1 2032
 Width: 824
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48879,7 +48516,6 @@ StartChar: uni2980.size5
 Encoding: 1114547 -1 2033
 Width: 843
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48905,7 +48541,6 @@ StartChar: uni2980.size6
 Encoding: 1114548 -1 2034
 Width: 861
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48931,7 +48566,6 @@ StartChar: uni2980.size7
 Encoding: 1114549 -1 2035
 Width: 879
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48957,7 +48591,6 @@ StartChar: uni2980.size8
 Encoding: 1114550 -1 2036
 Width: 898
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -48983,7 +48616,6 @@ StartChar: uni2980.size9
 Encoding: 1114551 -1 2037
 Width: 916
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -49010,7 +48642,6 @@ StartChar: uni2980.size10
 Encoding: 1114552 -1 2038
 Width: 935
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -49036,7 +48667,6 @@ StartChar: uni2980.size11
 Encoding: 1114553 -1 2039
 Width: 953
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -49062,7 +48692,6 @@ StartChar: uni2980.size12
 Encoding: 1114554 -1 2040
 Width: 971
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -49089,7 +48718,6 @@ StartChar: uni2980.size13
 Encoding: 1114555 -1 2041
 Width: 990
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -49115,7 +48743,6 @@ StartChar: uni2980.size14
 Encoding: 1114556 -1 2042
 Width: 1008
 Flags: W
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -49141,7 +48768,6 @@ StartChar: uni2980.size15
 Encoding: 1114557 -1 2043
 Width: 1027
 Flags: W
-IsExtendedShape: 1
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
@@ -53390,7 +53016,6 @@ Encoding: 1114864 -1 2350
 Width: 491
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53415,7 +53040,6 @@ Encoding: 1114865 -1 2351
 Width: 791
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53453,7 +53077,6 @@ Encoding: 1114866 -1 2352
 Width: 1091
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -53505,7 +53128,6 @@ Encoding: 1114867 -1 2353
 Width: 1391
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53569,7 +53191,6 @@ Encoding: 1114868 -1 2354
 Width: 491
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53608,7 +53229,6 @@ Encoding: 1114869 -1 2355
 Width: 791
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53672,7 +53292,6 @@ Encoding: 1114870 -1 2356
 Width: 1146
 Flags: W
 ItalicCorrection: 180
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53753,7 +53372,6 @@ Encoding: 1114871 -1 2357
 Width: 882
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53778,7 +53396,6 @@ Encoding: 1114872 -1 2358
 Width: 1382
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53816,7 +53433,6 @@ Encoding: 1114873 -1 2359
 Width: 1882
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -53868,7 +53484,6 @@ Encoding: 1114874 -1 2360
 Width: 2382
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -53932,7 +53547,6 @@ Encoding: 1114875 -1 2361
 Width: 882
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 CounterMasks: 1 0e
 LayerCount: 2
 Fore
@@ -53972,7 +53586,6 @@ Encoding: 1114876 -1 2362
 Width: 1402
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
@@ -54036,7 +53649,6 @@ Encoding: 1114877 -1 2363
 Width: 1942
 Flags: W
 ItalicCorrection: 280
-IsExtendedShape: 1
 LayerCount: 2
 Fore
 SplineSet
