@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 - Added:
   - `.notdef` for all weights
+  - White and black circles, including `\cdot`, `\circ`, etc - [#34](https://github.com/firamath/firamath/issues/34)
 - Changed:
   - Update to Unicode 12.0.1 (no actual changes in the font itself)
   - Remove empty placeholder glyphs

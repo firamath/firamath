@@ -36,6 +36,9 @@ def interpolate_font(weight_dict, glyph_list):
 
 
 if __name__ == "__main__":
-    ## 2019-04-14 .notdef (II)
-    notdef_glyph = [".notdef"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], notdef_glyph)
+    ## 2019-05-08 Geometry (I)
+    circle_glyphs = [
+        "uni22C5", "uni2219", "u1F784", "uni2022", "uni2981", "uni26AB", "uni25CF", "uni2B24",
+        "uni2218", "uni25E6", "uni26AC", "uni26AA", "uni25CB", "uni25EF"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], circle_glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], circle_glyphs)
