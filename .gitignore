@@ -31,4 +31,5 @@ temp/
 .DS_Store
 *.nb
 docs/standalone/
+docs/svg/
 test/*.sh

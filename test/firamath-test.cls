@@ -68,8 +68,6 @@
         \group_end:
       }
   }
-\NewDocumentCommand \Test { m }
-  { \@@_test:n {#1} }
 
 \keys_define:nn { fira-test }
   {
@@ -104,6 +102,9 @@
       },
     weights .initial:n = all
   }
+
+\NewDocumentCommand \Test { +m }
+  { \@@_test:n {#1} }
 \NewDocumentCommand \FiraTestSetup { m }
   { \keys_set:nn { fira-test } {#1} }
 

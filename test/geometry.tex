@@ -1,0 +1,95 @@
+\documentclass{firamath-test}
+\usepackage{array,booktabs}
+\geometry{paperheight=100cm, paperwidth=36cm}
+\FiraTestSetup{font=fira, weights=master}
+
+\makeatletter\ExplSyntaxOn
+\cs_set:Npn \@@_new_test:nn #1#2
+  {
+    \cs_set:cpn { @@_geometry_test_#1:n } ##1
+      { \tl_map_inline:nn {#2} { ##1 ####1 } ##1 }
+  }
+\cs_set:Npn \Geometry #1#2 { \use:c { @@_geometry_test_#1:n } {#2} }
+
+\cs_set:Npn \GeometryTest #1
+  {
+    \@@_test:n
+      {
+        \[
+          \begin{gathered}
+            A\Geometry{#1}{}Z \\ \Geometry{#1}{H} \\ \Geometry{#1}{g} \\ \Geometry{#1}{2}
+          \end{gathered}
+        \]
+      }
+  }
+
+\@@_new_test:nn { circle-square }
+  {
+    % Circles
+    \cdotp \cdot
+    \vysmblkcircle ^^^^^1f784 \smblkcircle \mdsmblkcircle \mdblkcircle \mdlgblkcircle \lgblkcircle
+    \vysmwhtcircle            \smwhtcircle \mdsmwhtcircle \mdwhtcircle \mdlgwhtcircle \lgwhtcircle
+    % Squares
+    \vysmblksquare \smblksquare \mdsmblksquare \mdblksquare \mdlgblksquare \lgblksquare
+    \vysmwhtsquare \smwhtsquare \mdsmwhtsquare \mdwhtsquare \mdlgwhtsquare \lgwhtsquare
+  }
+\@@_new_test:nn { triangle }
+  {
+    % Black triangles
+    \blacktriangle           ^^^^2bc7 \bigblacktriangleup
+    \blacktriangledown       ^^^^2bc8 \bigblacktriangledown
+    \smallblacktriangleleft  ^^^^2bc7 \blacktriangleleft
+    \smallblacktriangleright ^^^^2bc8 \blacktriangleright
+    % White triangles
+    \vartriangle        \bigtriangleup
+    \triangledown       \bigtriangledown
+    \smalltriangleleft  \triangleleft
+    \smalltriangleright \triangleright
+    % Pointers
+    \blackpointerleft \blackpointerright \whitepointerleft \whitepointerright
+  }
+
+\ExplSyntaxOff\makeatother
+
+\begin{document}
+
+
+\section{Geometry}
+
+\subsection{Sizes of Simple Shapes (Noto Symbols 2)}
+
+\begin{center}
+  \setmathfont{NotoSansSymbols2-Regular.ttf}[Path=../temp/fonts/]
+  \def\M#1{\multicolumn{2}{c}{#1}}
+  \begin{tabular}{c *{14}{>{\centering\arraybackslash}m{3.5em}}}
+    \toprule
+    \textnormal{Shape}  & Tiny & \M{Very small} & Slightly small & \M{Small (bullet)} & \M{Medium Small} & \M{Medium (default 1)} & \M{Regular (default 2)} & \M{Large} \\
+    \midrule
+    Circle             & $^^^^22c5$   & $^^^^2219$   & $^^^^2218$ & $^^^^^1f784$ & $^^^^2022$ & $^^^^25e6$ & $^^^^2981$   & $^^^^26ac$ & $^^^^26ab$ & $^^^^26aa$ & $^^^^25cf$ & $^^^^25cb$ & $^^^^2b24$ & $^^^^25ef$ \\
+    Square             & $^^^^^1f78c$ & $^^^^2b1d$   & $^^^^2b1e$ & $^^^^^1f78d$ & $^^^^25aa$ & $^^^^25ab$ & $^^^^25fe$   & $^^^^25fd$ & $^^^^25fc$ & $^^^^25fb$ & $^^^^25a0$ & $^^^^25a1$ & $^^^^2b1b$ & $^^^^2b1c$ \\
+    Diamond            & $^^^^^1f797$ & $^^^^^1f798$ &            &              & $^^^^2b29$ & $^^^^22c4$ & $^^^^^1f799$ &            & $^^^^2b25$ & $^^^^2b26$ & $^^^^25c6$ & $^^^^25c7$ &            &            \\
+    Lozenge            & $^^^^^1f79d$ & $^^^^^1f79e$ &            &              & $^^^^2b2a$ & $^^^^2b2b$ & $^^^^^1f79f$ &            & $^^^^2b27$ & $^^^^2b28$ & $^^^^29eb$ & $^^^^25ca$ &            &            \\
+    Five pointed star  &              &              &            &              & $^^^^2b51$ & $^^^^2b52$ & $^^^^22c6$   &            &            & $^^^^2b50$ & $^^^^2605$ & $^^^^2606$ &            &            \\
+    Triangle left      &              &              &            &              & $^^^^25c2$ & $^^^^25c3$ &              &            & $^^^^2bc7$ &            & $^^^^25c0$ & $^^^^25c1$ &            &            \\
+    Triangle right     &              &              &            &              & $^^^^25b8$ & $^^^^25b9$ &              &            & $^^^^2bc8$ &            & $^^^^25b6$ & $^^^^25b7$ &            &            \\
+    Triangle up        &              &              &            &              & $^^^^25b4$ & $^^^^25b5$ &              &            & $^^^^2bc5$ &            & $^^^^25b2$ & $^^^^25b3$ &            &            \\
+    Triangle down      &              &              &            &              & $^^^^25be$ & $^^^^25bf$ &              &            & $^^^^2bc6$ &            & $^^^^25bc$ & $^^^^25bd$ &            &            \\
+    Pentagon up        & & & & & & & & & & & $^^^^2b1f$ & $^^^^2b20$ & & \\
+    Pentagon right     & & & & & & & & & & & $^^^^2b53$ & $^^^^2b54$ & & \\
+    Pentagon down      & & & & & & & & & & & $^^^^2bc2$ &            & & \\
+    Hexagon horizontal & & & & & & & & & & & $^^^^2b23$ & $^^^^2394$ & & \\
+    Hexagon vertical   & & & & & & & & & & & $^^^^2b22$ & $^^^^2b21$ & & \\
+    Octagon horizontal & & & & & & & & & & & $^^^^2bc3$ &            & & \\
+    Octagon vertical   & & & & & & & & & & & $^^^^2bc4$ &            & & \\
+    Ellipse horizontal & & & & & & & & & & & $^^^^2b2c$ & $^^^^2b2d$ & & \\
+    Ellipse vertical   & & & & & & & & & & & $^^^^2b2e$ & $^^^^2b2f$ & & \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+\subsection{Simple shapes}
+
+\GeometryTest{circle-square}
+\GeometryTest{triangle}
+
+\end{document}
