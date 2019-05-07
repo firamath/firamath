@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
   - `.notdef` for all weights
 - Changed:
   - Update to Unicode 12.0.1 (no actual changes in the font itself)
+  - Remove empty placeholder glyphs
 - Improved:
   - Now pre-built fonts of the latest development version can be download from [bintray](https://bintray.com/firamath/firamath/firamath-travis)
 
@@ -25,7 +26,7 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
 - Changed:
   - Adjust MATH constants `ScriptPercentScaleDown` and `ScriptScriptPercentScaleDown`. See [wspr/unicode-math#510](https://github.com/wspr/unicode-math/issues/510)
 - Known issues:
-  - Uncreated arrows use empty glyph as a placeholder
+  - ~~Uncreated arrows use empty glyph as a placeholder~~ - *fixed in v0.4-beta-4* TODO
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-2...v0.4-beta-3).
 

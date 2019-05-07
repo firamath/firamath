@@ -28,11 +28,11 @@ DOCS_PATH        = PWD + "/docs"
 SCRIPTS_PATH     = PWD + "/scripts"
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
-TEST_FILE_NAME   = "weights"
+TEST_FILE_NAME   = "geometry"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "firamath-technical-report"]
 WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
                     "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
-# WEIGHT_LIST      = ["Thin", "Regular", "Ultra"]
+WEIGHT_LIST      = ["Thin", "Regular", "Ultra"]
 # WEIGHT_LIST      = ["Regular"]
 
 
