@@ -13,7 +13,7 @@
 
 \makeatletter\ExplSyntaxOn
 
-\clist_const:Nn \c__xfonttable_unicode_reserved_clist
+\clist_const:Nn \c_@@_unicode_reserved_clist
   {
     % Greek and Coptic
       378,   379,   380,   381,   382,   383,   38B,   38D,  3A2,
@@ -50,7 +50,7 @@
     1D4BC, 1D4C4, 1D506, 1D50B, 1D50C, 1D515, 1D51D, 1D53A, 1D53F, 1D545,
     1D547, 1D548, 1D549, 1D551, 1D6A6, 1D6A7, 1D7CC, 1D7CD
   }
-\clist_const:Nn \c__xfonttable_unicode_control_clist
+\clist_const:Nn \c_@@_unicode_control_clist
   {
     % C0 Controls and Basic Latin
      0,  1,  2,  3,  4,  5,  6,  7,  8,  9,  A,  B,  C,  D,  E,  F,
@@ -62,9 +62,9 @@
   }
 
 % #1 = symbol index
-\cs_new_protected:Npn \xfonttable_symbol:n #1
+\cs_new_protected:Npn \@@_symbol:n #1
   { \tex_char:D \int_eval:n {#1} \scan_stop: }
-\prg_new_protected_conditional:Npnn \xfonttable_if_char_exist:n #1 { T, F, TF }
+\prg_new_protected_conditional:Npnn \@@_if_char_exist:n #1 { T, F, TF }
   {
     \etex_iffontchar:D \tex_font:D \int_eval:n {#1} \scan_stop:
       \prg_return_true:
@@ -75,13 +75,13 @@
 % #1 = glyph name
 \sys_if_engine_xetex:TF
   {
-    \cs_new_protected:Npn \xfonttable_glyph_from_name:n #1
+    \cs_new_protected:Npn \@@_glyph_from_name:n #1
       { \xetex_glyph:D \xetex_glyphindex:D "#1" \scan_stop: }
   }
   {
     \sys_if_engine_luatex:TF
       {
-        \cs_new_protected:Npn \xfonttable_glyph_from_name:n #1
+        \cs_new_protected:Npn \@@_glyph_from_name:n #1
           { \tex_char:D \luatex_glyph_index:w #1 \scan_stop: }
         \cs_new_protected:Npn \luatex_glyph_index:w
           {
@@ -105,18 +105,18 @@
 \cs_set:Npn \NumberStyle      { \ttfamily   \footnotesize }
 \cs_set:Npn \GlyphStyle       { \SymbolFont \Large        }
 \cs_set:Npn \EncodingStyle
-  { \ttfamily \fontsize {4} {5} \selectfont \cellcolor { encoding@bg } }
+  { \ttfamily \fontsize { 4 } { 5 } \selectfont \cellcolor { encoding@bg } }
 
-\cs_set:Npn \GlyphStrut               { \xfonttable_set_arstrut:nn {  20 pt } { 10 pt } }
-\cs_set:Npn \NonUnicodeGlyphStrut     { \xfonttable_set_arstrut:nn {  32 pt } { 20 pt } }
-\cs_set:Npn \NonUnicodeHighGlyphStrut { \xfonttable_set_arstrut:nn {  64 pt } { 40 pt } }
-\cs_set:Npn \EncodingStrut            { \xfonttable_set_arstrut:nn { 4.5 pt } {  1 pt } }
+\cs_set:Npn \GlyphStrut               { \@@_set_arstrut:nn {  20 pt } { 10 pt } }
+\cs_set:Npn \NonUnicodeGlyphStrut     { \@@_set_arstrut:nn {  32 pt } { 20 pt } }
+\cs_set:Npn \NonUnicodeHighGlyphStrut { \@@_set_arstrut:nn {  64 pt } { 40 pt } }
+\cs_set:Npn \EncodingStrut            { \@@_set_arstrut:nn { 4.5 pt } {  1 pt } }
 
-\dim_const:Nn \c__xfonttable_cell_wd_dim        { 30 pt }
-\dim_const:Nn \c__xfonttable_column_sep_dim     {  0 pt }
-\dim_const:Nn \c__xfonttable_row_number_ht_dim  { 20 pt }
-\dim_const:Nn \c__xfonttable_row_number_sep_dim {  6 pt }
-\dim_const:Nn \c__xfonttable_nuni_wd_dim        { 87 pt }
+\dim_const:Nn \c_@@_cell_wd_dim        { 30 pt }
+\dim_const:Nn \c_@@_column_sep_dim     {  0 pt }
+\dim_const:Nn \c_@@_row_number_ht_dim  { 20 pt }
+\dim_const:Nn \c_@@_row_number_sep_dim {  6 pt }
+\dim_const:Nn \c_@@_nuni_wd_dim        { 87 pt }
 
 % The total number of glyphs.
 \newcounter { glyph }
@@ -126,42 +126,42 @@
 \NewDocumentCommand \fonttable { s m m }
   {
     \IfBooleanTF {#1}
-      { \xfonttable_non_unicode:nn {#2} {#3} }
-      { \xfonttable_unicode:nn     {#2} {#3} }
+      { \@@_non_unicode:nn {#2} {#3} }
+      { \@@_unicode:nn     {#2} {#3} }
     \clearpage
   }
 
 % #1 = section name
 % #2 = begin/end encoding
-\cs_new_protected:Npn \xfonttable_unicode:nn #1#2
+\cs_new_protected:Npn \@@_unicode:nn #1#2
   {
-    \tl_set:Nn \l__xfonttable_glyph_count_tl
+    \tl_set:Nn \l_@@_glyph_count_tl
       { \ref* { count: glyph @ #1 } / \ref* { count: codepoint @ #1 } }
-    \section { #1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl) }
-    \cs_set_eq:NN \xfonttable_left_foot: \xfonttable_left_foot_unicode:
-    \xfonttable_parse_encoding:n {#2}
-    \int_gzero:N \g__xfonttable_glyph_int
-    \int_gzero:N \g__xfonttable_code_point_int
-    \xfonttable_make_table:
+    \section { #1 ~ (\tl_use:N \l_@@_glyph_count_tl) }
+    \cs_set_eq:NN \@@_left_foot: \@@_left_foot_unicode:
+    \@@_parse_encoding:n {#2}
+    \int_gzero:N \g_@@_glyph_int
+    \int_gzero:N \g_@@_code_point_int
+    \@@_make_table:
     \newcounter     {     glyph     @ #1 }
     \newcounter     {     codepoint @ #1 }
-    \int_set:cn     { c @ glyph     @ #1 } { \g__xfonttable_glyph_int      - 1 }
-    \int_set:cn     { c @ codepoint @ #1 } { \g__xfonttable_code_point_int - 1 }
+    \int_set:cn     { c @ glyph     @ #1 } { \g_@@_glyph_int      - 1 }
+    \int_set:cn     { c @ codepoint @ #1 } { \g_@@_code_point_int - 1 }
     \refstepcounter {     glyph     @ #1 } \label { count: glyph     @ #1 }
     \refstepcounter {     codepoint @ #1 } \label { count: codepoint @ #1 }
   }
-\tl_new:N  \l__xfonttable_glyph_count_tl
-\int_new:N \g__xfonttable_glyph_int
-\int_new:N \g__xfonttable_code_point_int
+\tl_new:N  \l_@@_glyph_count_tl
+\int_new:N \g_@@_glyph_int
+\int_new:N \g_@@_code_point_int
 
-\cs_new_protected:Npn \xfonttable_left_foot_unicode:
+\cs_new_protected:Npn \@@_left_foot_unicode:
   {
     \mode_leave_vertical:
     \footnotesize
-    \xfonttable_color_box:nn { reserved @ bg } Reserved~ Code~ Points, \quad
-    \xfonttable_color_box:nn { control  @ bg } Control~ Codes.
+    \@@_color_box:nn { reserved @ bg } Reserved~ Code~ Points, \quad
+    \@@_color_box:nn { control  @ bg } Control~ Codes.
   }
-\cs_new_protected:Npn \xfonttable_color_box:nn #1#2
+\cs_new_protected:Npn \@@_color_box:nn #1#2
   {
     \group_begin:
       \color {#1} \rule [ -2 pt ] { 10 pt } { 10 pt }
@@ -170,114 +170,112 @@
   }
 
 % #1 = `begin` - `end`
-\cs_new_protected:Npn \xfonttable_parse_encoding:n #1
+\cs_new_protected:Npn \@@_parse_encoding:n #1
   {
     \seq_set_split:Nnn \l_tmpa_seq { - } {#1}
-    \int_set:Nn \l__xfonttable_begin_int
-      { \seq_item:Nn \l_tmpa_seq { 1 } }
-    \int_set:Nn \l__xfonttable_end_int
-      { \seq_item:Nn \l_tmpa_seq { 2 } }
+    \int_set:Nn \l_@@_begin_int { \seq_item:Nn \l_tmpa_seq { 1 } }
+    \int_set:Nn \l_@@_end_int   { \seq_item:Nn \l_tmpa_seq { 2 } }
   }
-\int_new:N \l__xfonttable_begin_int
-\int_new:N \l__xfonttable_end_int
+\int_new:N \l_@@_begin_int
+\int_new:N \l_@@_end_int
 
-\cs_new_protected:Npn \xfonttable_make_table:
+\cs_new_protected:Npn \@@_make_table:
   {
-    \longtable { r | * {16} { C { \c__xfonttable_cell_wd_dim } | } }
-      \xfonttable_long_table_head:
-      \xfonttable_multi_row:nn
-        { \int_use:N \l__xfonttable_begin_int }
-        { \int_use:N \l__xfonttable_end_int   }
+    \longtable { r | * { 16 } { C { \c_@@_cell_wd_dim } | } }
+      \@@_long_table_head:
+      \@@_multi_row:nn
+        { \int_use:N \l_@@_begin_int }
+        { \int_use:N \l_@@_end_int   }
     \endlongtable
   }
-\dim_set_eq:NN \tabcolsep \c__xfonttable_column_sep_dim
+\dim_set_eq:NN \tabcolsep \c_@@_column_sep_dim
 
 % These functions must be expandable:
-%   \xfonttable_long_table_head:, \xfonttable_first_row:,
-%   \xfonttable_multi_row:nn, \xfonttable_row:n, \__xfonttable_div_sixteen:n,
-%   \xfonttable_hline:, \xfonttable_set_arstrut:nn, \xfonttable_restore_arstrut:, etc.,
+%   \@@_long_table_head:, \@@_first_row:,
+%   \@@_multi_row:nn, \@@_row:n, \@@_div_sixteen:n,
+%   \@@_hline:, \@@_set_arstrut:nn, \@@_restore_arstrut:, etc.,
 % so that `noalign` can work properly.
 % Hence we use `\cs_new:Npn` and `\int_step_function:nnnN` here.
 
-\cs_new:Npn \xfonttable_long_table_head:
+\cs_new:Npn \@@_long_table_head:
   {
     % It's very hackable here!
     % The dimension is measured by hand. Not universal at all.
-    \xfonttable_set_arstrut:nn { 0 pt } { 0 pt }
+    \@@_set_arstrut:nn { 0 pt } { 0 pt }
     \multicolumn { 17 } { c } { \rule { 0 pt } { 1.29 cm } } \\
-    \xfonttable_first_row:
+    \@@_first_row:
     \endhead
-    \xfonttable_first_row:
+    \@@_first_row:
     \endfirsthead
   }
 
-\cs_new:Npn \xfonttable_first_row:
+\cs_new:Npn \@@_first_row:
   {
-    \multicolumn {17} { r }
+    \multicolumn { 17 } { r }
       {
         \tabular
             {
               % Skip row number
               r |
-              * {15} { C { \c__xfonttable_cell_wd_dim } E }
-              C { \c__xfonttable_cell_wd_dim } |
+              * { 15 } { C { \c_@@_cell_wd_dim } E }
+              C { \c_@@_cell_wd_dim } |
             }
           % I don't know why there are so many `#`.
-          \int_step_inline:nnnn { 0 } { 1 } { 15 }
-            { & \xfonttable_first_row_cell:n {####1} }
+          \int_step_inline:nnn { 0 } { 15 }
+            { & \@@_first_row_cell:n {####1} }
         \endtabular
       }
     \\*
-    \xfonttable_hline:
+    \@@_hline:
   }
-\cs_new_protected:Npn \xfonttable_first_row_cell:n #1
+\cs_new_protected:Npn \@@_first_row_cell:n #1
   { \NumberStyle \int_to_Hex:n {#1} }
 
-\cs_new:Npn \xfonttable_multi_row:nn #1#2
+\cs_new:Npn \@@_multi_row:nn #1#2
   {
     \int_step_function:nnnN
-      { \__xfonttable_div_sixteen:n {#1} * 16 }
+      { \@@_div_sixteen:n {#1} * 16 }
       { 16 }
-      { (\__xfonttable_div_sixteen:n {#2} + 1) * 16 - 1 }
-      \xfonttable_row:n
+      { (\@@_div_sixteen:n {#2} + 1) * 16 - 1 }
+      \@@_row:n
   }
-\cs_new:Npn \__xfonttable_div_sixteen:n #1
+\cs_new:Npn \@@_div_sixteen:n #1
   { \int_div_truncate:nn {#1} { 16 } }
 
-\cs_new:Npn \xfonttable_row:n #1
+\cs_new:Npn \@@_row:n #1
   {
     % Glyph row
     \GlyphStrut
     % Row number
-    \multirow { 2 } * { \xfonttable_row_nummber:n {#1} }
-    \int_step_inline:nnnn {#1} { 1 } { #1 + 15 }
-      { & \xfonttable_glyph:n {##1} }
+    \multirow { 2 } * { \@@_row_nummber:n {#1} }
+    \int_step_inline:nnn {#1} { #1 + 15 }
+      { & \@@_glyph:n {##1} }
     \\*
-    \xfonttable_restore_arstrut:
+    \@@_restore_arstrut:
     % Encoding row
-    \xfonttable_hline:
+    \@@_hline:
     \EncodingStrut
-    \int_step_inline:nnnn {#1} { 1 } { #1 + 15 }
-      { & \xfonttable_encoding:n {##1} }
+    \int_step_inline:nnn {#1} { #1 + 15 }
+      { & \@@_encoding:n {##1} }
     \\
-    \xfonttable_hline:
+    \@@_hline:
   }
 
 % To skip the first column (i.e. row index).
 % LaTeX3 syntax makes `~` to equal space, so we need to change its catcode temporarily.
 \group_begin:
   \char_set_catcode_active:N \~
-  \cs_new:Npn \xfonttable_hline:
-    { \hhline { ~ | *{16}{-} } }
+  \cs_new:Npn \@@_hline:
+    { \hhline { ~ | * { 16 } { - } } }
 \group_end:
 
-\cs_new:Npn \xfonttable_set_arstrut:nn #1#2
+\cs_new:Npn \@@_set_arstrut:nn #1#2
   {
     \tex_noalign:D
       {
         \group_begin:
           % Store the old strutbox
-          \box_gset_eq:NN \l__xfonttable_old_arstrut_box \@arstrutbox
+          \box_gset_eq:NN \l_@@_old_arstrut_box \@arstrutbox
           % Change the dimensions of \@arstrutbox
           \hbox_set_to_wd:Nnn \l_tmpa_box { \c_zero_dim } { }
           \box_set_ht:Nn \l_tmpa_box {#1}
@@ -286,16 +284,16 @@
         \group_end:
       }
   }
-\cs_new:Npn \xfonttable_restore_arstrut:
+\cs_new:Npn \@@_restore_arstrut:
   {
     \tex_noalign:D
-      { \box_gset_eq:NN \@arstrutbox \l__xfonttable_old_arstrut_box }
+      { \box_gset_eq:NN \@arstrutbox \l_@@_old_arstrut_box }
   }
-\box_new:N \l__xfonttable_old_arstrut_box
+\box_new:N \l_@@_old_arstrut_box
 
-\cs_new_protected:Npn \xfonttable_row_nummber:n #1
+\cs_new_protected:Npn \@@_row_nummber:n #1
   {
-    \raisebox { \dim_use:N \c__xfonttable_row_number_ht_dim }
+    \raisebox { \dim_use:N \c_@@_row_number_ht_dim }
       {
         \NumberStyle
         \int_set:Nn \l_tmpa_int { #1 / 16 }
@@ -306,39 +304,39 @@
               { 0 }
           }
         \int_to_Hex:n { \l_tmpa_int }
-        \skip_horizontal:N \c__xfonttable_row_number_sep_dim
+        \skip_horizontal:N \c_@@_row_number_sep_dim
       }
   }
 
-\cs_new_protected:Npn \xfonttable_glyph:n #1
+\cs_new_protected:Npn \@@_glyph:n #1
   {
     \tl_set:Nx \l_tmpa_tl { \int_to_Hex:n {#1} }
-    \clist_if_in:NVTF \c__xfonttable_unicode_reserved_clist \l_tmpa_tl
+    \clist_if_in:NVTF \c_@@_unicode_reserved_clist \l_tmpa_tl
       { \cellcolor { reserved@bg } }
       {
-        \clist_if_in:NVTF \c__xfonttable_unicode_control_clist \l_tmpa_tl
+        \clist_if_in:NVTF \c_@@_unicode_control_clist \l_tmpa_tl
           { \cellcolor { control@bg } }
           {
-            % It must be outside `\xfonttable_if_char_exist`
+            % It must be outside `\@@_if_char_exist`
             \GlyphStyle
-            \xfonttable_if_char_exist:nTF {#1}
+            \@@_if_char_exist:nTF {#1}
               {
-                \xfonttable_symbol:n {#1}
+                \@@_symbol:n {#1}
                 \refstepcounter { glyph }
-                \int_gincr:N \g__xfonttable_glyph_int
+                \int_gincr:N \g_@@_glyph_int
               }
               {
                 \normalfont
                 \int_compare:nNnTF {#1} < { "10000 }
                   { \BMPFallbackFont } { \SMPFallbackFont }
-                \textcolor { nochar@text } { \xfonttable_symbol:n {#1} }
+                \textcolor { nochar@text } { \@@_symbol:n {#1} }
               }
-            \int_gincr:N \g__xfonttable_code_point_int
+            \int_gincr:N \g_@@_code_point_int
           }
       }
   }
 
-\cs_new_protected:Npn \xfonttable_encoding:n #1
+\cs_new_protected:Npn \@@_encoding:n #1
   {
     \group_begin:
       \EncodingStyle
@@ -358,48 +356,48 @@
 
 % #1 = section name
 % #2 = non-unicode data file
-\cs_new_protected:Npn \xfonttable_non_unicode:nn #1#2
+\cs_new_protected:Npn \@@_non_unicode:nn #1#2
   {
-    \tl_set:Nn \l__xfonttable_glyph_count_tl { \ref* { count: glyph @ nuni } }
-    \section { #1 ~ (\tl_use:N \l__xfonttable_glyph_count_tl) }
-    \cs_set_eq:NN \xfonttable_left_foot: \prg_do_nothing:
-    \int_gzero:N \g__xfonttable_nuni_glyph_int
-    \xfonttable_nuni_import:n {#2}
-    \xfonttable_nuni_parse:
-    \xfonttable_nuni_print:
+    \tl_set:Nn \l_@@_glyph_count_tl { \ref* { count: glyph @ nuni } }
+    \section { #1 ~ (\tl_use:N \l_@@_glyph_count_tl) }
+    \cs_set_eq:NN \@@_left_foot: \prg_do_nothing:
+    \int_gzero:N \g_@@_nuni_glyph_int
+    \@@_nuni_import:n {#2}
+    \@@_nuni_parse:
+    \@@_nuni_print:
     \newcounter     {     glyph @ nuni }
-    \int_set:cn     { c @ glyph @ nuni } { \g__xfonttable_nuni_glyph_int - 1 }
+    \int_set:cn     { c @ glyph @ nuni } { \g_@@_nuni_glyph_int - 1 }
     \refstepcounter {     glyph @ nuni } \label { count: glyph @ nuni }
     \refstepcounter {     glyph        } \label { count: glyph        }
   }
-\int_new:N \g__xfonttable_nuni_glyph_int
+\int_new:N \g_@@_nuni_glyph_int
 
 % #1 = file name (non-unicode.txt)
-\cs_new_protected:Npn \xfonttable_nuni_import:n #1
+\cs_new_protected:Npn \@@_nuni_import:n #1
   {
-    \ior_open:Nn \g__xfonttable_nuni_ior {#1}
-    \ior_map_inline:Nn \g__xfonttable_nuni_ior
-      { \seq_put_right:Nn \l__xfonttable_nuni_data_seq {##1} }
-    \ior_close:N \g__xfonttable_nuni_ior
+    \ior_open:Nn \g_@@_nuni_ior {#1}
+    \ior_map_inline:Nn \g_@@_nuni_ior
+      { \seq_put_right:Nn \l_@@_nuni_data_seq {##1} }
+    \ior_close:N \g_@@_nuni_ior
   }
-\ior_new:N \g__xfonttable_nuni_ior
-\seq_new:N \l__xfonttable_nuni_data_seq
+\ior_new:N \g_@@_nuni_ior
+\seq_new:N \l_@@_nuni_data_seq
 
 % `;` indicates a comment, for the glyph class.
 % Each entry (glyph name) after the comment should be put into the class.
-\cs_new_protected:Npn \xfonttable_nuni_parse:
+\cs_new_protected:Npn \@@_nuni_parse:
   {
-    \bool_until_do:nn { \seq_if_empty_p:N \l__xfonttable_nuni_data_seq }
+    \bool_until_do:nn { \seq_if_empty_p:N \l_@@_nuni_data_seq }
       {
-        \seq_pop_left:NN \l__xfonttable_nuni_data_seq \l_tmpa_tl
+        \seq_pop_left:NN \l_@@_nuni_data_seq \l_tmpa_tl
         \tl_if_in:NnTF \l_tmpa_tl { ; }
           {
             \tl_remove_once:Nn \l_tmpa_tl { ; }
             \tl_trim_spaces:N \l_tmpa_tl
-            \seq_put_right:NV \l__xfonttable_nuni_class_seq \l_tmpa_tl
+            \seq_put_right:NV \l_@@_nuni_class_seq \l_tmpa_tl
             \clist_if_empty:NF \l_tmpa_clist
               {
-                \seq_put_right:NV \l__xfonttable_nuni_name_seq \l_tmpa_clist
+                \seq_put_right:NV \l_@@_nuni_name_seq \l_tmpa_clist
                 \clist_clear:N \l_tmpa_clist
               }
           }
@@ -407,64 +405,50 @@
       }
     % The last class
     \clist_if_empty:NF \l_tmpa_clist
-      { \seq_put_right:NV \l__xfonttable_nuni_name_seq \l_tmpa_clist }
+      { \seq_put_right:NV \l_@@_nuni_name_seq \l_tmpa_clist }
   }
-\seq_new:N \l__xfonttable_nuni_class_seq
-\seq_new:N \l__xfonttable_nuni_name_seq
+\seq_new:N \l_@@_nuni_class_seq
+\seq_new:N \l_@@_nuni_name_seq
 
-\cs_new_protected:Npn \xfonttable_nuni_print:
+\cs_new_protected:Npn \@@_nuni_print:
   {
-    \bool_until_do:nn { \seq_if_empty_p:N \l__xfonttable_nuni_class_seq }
+    \bool_until_do:nn { \seq_if_empty_p:N \l_@@_nuni_class_seq }
       {
-        \seq_pop_left:NN \l__xfonttable_nuni_class_seq \l_tmpa_tl
-        \seq_pop_left:NN \l__xfonttable_nuni_name_seq  \l_tmpa_clist
-        \xfonttable_nuni_print_class:VV \l_tmpa_tl \l_tmpa_clist
+        \seq_pop_left:NN \l_@@_nuni_class_seq \l_tmpa_tl
+        \seq_pop_left:NN \l_@@_nuni_name_seq  \l_tmpa_clist
+        \@@_nuni_print_class:VV \l_tmpa_tl \l_tmpa_clist
       }
   }
 
 % #1 = class
 % #2 = clist of glyph names
-\cs_new_protected:Npn \xfonttable_nuni_print_class:nn #1#2
+\cs_new_protected:Npn \@@_nuni_print_class:nn #1#2
   {
     \subsection { #1 ~ (\clist_count:n {#2}) }
     \clist_map_inline:nn {#2}
       {
-        \xfonttable_nuni_cell:n {##1}
+        \@@_nuni_cell:n {##1}
         \refstepcounter { glyph }
-        \int_gincr:N \g__xfonttable_nuni_glyph_int
+        \int_gincr:N \g_@@_nuni_glyph_int
       }
   }
-\cs_generate_variant:Nn \xfonttable_nuni_print_class:nn { VV }
+\cs_generate_variant:Nn \@@_nuni_print_class:nn { VV }
 
-\cs_new_protected:Npn \xfonttable_nuni_cell:n #1
+\cs_new_protected:Npn \@@_nuni_cell:n #1
   {
-    \tabular { | C { \c__xfonttable_nuni_wd_dim } | }
+    \tabular { | C { \c_@@_nuni_wd_dim } | }
       % Glyph
       \hline
-
-% \hbox_set:Nn \l_tmpa_box { \GlyphStyle \xfonttable_glyph_from_name:n {#1} }
-% \box_ht:N \l_tmpa_box
-% \dim_compare:nNnTF 
-
       \NonUnicodeGlyphStrut \GlyphStyle
-
-
-% \hbox_set:Nn \l_tmpa_box { \xfonttable_glyph_from_name:n {#1} }
-% \box_show:N \l_tmpa_box
-% \dim_show:n { \box_dp:N \l_tmpa_box }
-% \dim_show:n { \box_ht:N \l_tmpa_box }
-% \dim_show:n { \box_wd:N \l_tmpa_box }
-
-
-      \xfonttable_glyph_from_name:n {#1}
+      \@@_glyph_from_name:n {#1}
       \\
-      \xfonttable_restore_arstrut:
+      \@@_restore_arstrut:
       % Encoding (glyph name)
       \hline
       \EncodingStrut \EncodingStyle
       #1
       \\
-      \xfonttable_restore_arstrut:
+      \@@_restore_arstrut:
       \hline
     \endtabular
     % A space allowing line break
@@ -478,7 +462,7 @@
   {
     \footnotesize
     \int_compare:nNnTF { \int_use:c { c@page } } = { \ztotpages }
-      { \xfonttable_left_foot_last_page: } { \xfonttable_left_foot: }
+      { \@@_left_foot_last_page: } { \@@_left_foot: }
   }
 \fancyfoot [ R ]
   {
@@ -487,7 +471,7 @@
   }
 % `\headrulewidth` is not a dim variable.
 \cs_set:Npn \headrulewidth { 0 pt }
-\cs_new_protected:Npn \xfonttable_left_foot_last_page:
+\cs_new_protected:Npn \@@_left_foot_last_page:
   {
     \itshape
     Other~ fonts~ used~ in~ this~ document:~
@@ -586,6 +570,7 @@
 \fonttable{Alphabetic Presentation Forms}{"FB00-"FB4F}
 \fonttable{Arabic Presentation Forms-B}{"FE70-"FEFF}
 \fonttable{Mathematical Alphanumeric Symbols}{"1D400-"1D7FF}
+\fonttable{Geometric Shapes Extended}{"1F780-"1F7FF}
 
 %%<DEBUG>
 \fonttable*{Non-Unicode Glyphs}{../data/firamath-non-unicode.txt}
