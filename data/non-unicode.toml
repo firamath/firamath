@@ -1,0 +1,103 @@
+[[non-unicode]]
+type = "Special"
+glyphs = [".notdef"]
+
+[[non-unicode]]
+type = "Math Script Style Alternates"
+base-glyphs = [
+    "uni2032", "uni2033", "uni2034", "uni2057",  # Primes
+    "uni2035", "uni2036", "uni2037"              # Reversed primes
+]
+suffix-base = "ssty"
+suffix-range = 2
+primary-index = "suffixes"
+
+[[non-unicode]]
+type = "Display Math Operators"
+base-glyphs = [
+    "uni2140", "uni220F", "uni2210", "uni2211",  # Product, coproduct, summation
+    "uni222B", "uni222C", "uni222D", "uni2A0C",  # Normal integrals
+    "uni222E", "uni222F", "uni2230"              # Contour integrals
+]
+suffixes = ["display"]
+
+[[non-unicode]]
+type = "Large Delimiters"
+base-glyphs = [
+    "uni221A", "uni221B", "uni221C",  # Radicals
+    "uni0028", "uni0029",             # Parenthesis
+    "uni005B", "uni005D",             # Square bracket
+    "uni007B", "uni007D",             # Curly bracket
+    "uni2308", "uni2309",             # Ceiling
+    "uni230A", "uni230B",             # Floor
+    "uni27E8", "uni27E9",             # Angle bracket
+    "uni27EA", "uni27EB",             # Double angle bracket
+    "uni27EE", "uni27EF",             # Flattened parenthesis
+    "uni007C", "uni2016", "uni2980"   # Vertical lines
+]
+suffix-base = "size"
+suffix-range = 15
+primary-index = "glyphs"
+
+[[non-unicode]]
+type = "Extensible Delimiters"
+glyphs = [
+    "uni221A.top", "uni221A.ext", "uni221A.bot",  # Square root
+    "uni221B.top", "uni221B.ext", "uni221B.bot",  # Cube root
+    "uni221C.top", "uni221C.ext", "uni221C.bot",  # Fourth root
+    "uni2308.top", "uni2308.ext",                 # Left ceiling
+    "uni2309.top", "uni2309.ext",                 # Right ceiling
+    "uni230A.ext", "uni230A.bot",                 # Left floor
+    "uni230B.ext", "uni230B.bot",                 # Right floor
+    "uni27EE.top", "uni27EE.ext", "uni27EE.bot",  # Left flattened parenthesis
+    "uni27EF.top", "uni27EF.ext", "uni27EF.bot",  # Right flattened parenthesis
+    "uni007C.ext",                                # Vertical line
+    "uni2016.ext",                                # Double vertical line
+    "uni2980.ext"                                 # Triple vertical line
+]
+
+[[non-unicode]]
+type = "Large Over/Under Symbols"
+base-glyphs = [
+    "uni23DC", "uni23DD",  # Parenthesis
+    "uni23B4", "uni23B5",  # Square bracket
+    "uni23DE", "uni23DF"   # Curly bracket
+]
+suffix-base = "size"
+suffix-range = 15
+primary-index = "glyphs"
+
+[[non-unicode]]
+type = "Extensible Over/Under Symbols"
+glyphs = [
+    "uni23DC.left", "uni23DC.ext", "uni23DC.right",                 # Top parenthesis
+    "uni23DD.left", "uni23DD.ext", "uni23DD.right",                 # Bottom parenthesis
+    "uni23B4.left", "uni23B4.ext", "uni23B4.right",                 # Top square bracket
+    "uni23B5.left", "uni23B5.ext", "uni23B5.right",                 # Bottom square bracket
+    "uni23DE.left", "uni23DE.ext", "uni23DE.mid", "uni23DE.right",  # Top curly bracket
+    "uni23DF.left", "uni23DF.ext", "uni23DF.mid", "uni23DF.right"   # Bottom curly bracket
+]
+
+[[non-unicode]]
+type = "Proportional Figures"
+base-glyphs = [
+    "uni0030", "uni0031", "uni0032", "uni0033", "uni0034", "uni0035", "uni0036", "uni0037", "uni0038", "uni0039",  # Digits
+    "u1D7CE",  "u1D7CF",  "u1D7D0",  "u1D7D1",  "u1D7D2",  "u1D7D3",  "u1D7D4",  "u1D7D5",  "u1D7D6",  "u1D7D7"    # Bold digits
+]
+suffixes = ["pnum"]
+
+[[non-unicode]]
+type = "Stylistic Set 1: Upright Integrals"
+base-glyphs = [
+    "uni222B", "uni222C", "uni222D", "uni2A0C",  # Normal integrals
+    "uni222E", "uni222F", "uni2230"              # Contour integrals
+]
+suffixes = ["up", "display.up"]
+
+[[non-unicode]]
+type = "Stylistic Set 2: Planck Constant with Bar"
+glyphs = ["uni210F.ss02"]
+
+[[non-unicode]]
+type = "Stylistic Set 3: Complement Alternates"
+glyphs = ["uni2201.ss03"]

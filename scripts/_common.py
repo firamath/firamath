@@ -31,7 +31,7 @@ WEIGHT_MAPPING_DICT = {"Thin":       "ExtraLight",
                        "Bold":       "Ultra"}
 
 # Paths.
-SFD_PATH  = os.sep.join([os.getcwd(), "src"])
+SFD_PATH = os.sep.join([os.getcwd(), "src"])
 DATA_PATH = os.sep.join([os.getcwd(), "data"])
 
 MATH_TABLE_JSON_FILE_NAME = os.sep.join([DATA_PATH, "math-table.json"])
@@ -58,6 +58,15 @@ def glyph_name_to_unicode(name):
         return int(name[1:], 16)
 
 
+def usv_to_unicode_str(usv):
+    """Convert a Unicode scalar value (int) to a str, with padding 0.
+    """
+    raw_usv = hex(usv)[2:].upper()
+    if len(raw_usv) <= 3:
+        return "0" * (4 - len(raw_usv)) + raw_usv
+    return raw_usv
+
+
 def comment_json_loads(json_string, *args):
     """Load JSON with comments.
     """
@@ -68,6 +77,6 @@ def comment_json_loads(json_string, *args):
 def _weight_analysis_data():
     """Return weight analysis data as `OrderedDict`.
     """
-    with open(WEIGHT_ANALYSIS_JSON_FILE_NAME) as f:
-        return json.loads(f.read(), object_pairs_hook=collections.OrderedDict)
+    with open(WEIGHT_ANALYSIS_JSON_FILE_NAME) as json_file:
+        return json.loads(json_file.read(), object_pairs_hook=collections.OrderedDict)
 WEIGHT_ANALYSIS_DATA = _weight_analysis_data()

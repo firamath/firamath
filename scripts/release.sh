@@ -29,7 +29,6 @@ cp $WORKING_DIR/docs/firamath-demo.tex         $TEMP_DIR
 cp $WORKING_DIR/docs/firamath-specimen.tex     $TEMP_DIR
 cp $WORKING_DIR/docs/firamath-demo.pdf         $TEMP_DIR
 cp $WORKING_DIR/docs/firamath-specimen.pdf     $TEMP_DIR
-cp $WORKING_DIR/data/firamath-non-unicode.txt  $TEMP_DIR
 
 cp $WORKING_DIR/docs/README.ctan.md            $TEMP_DIR/README.md
 
