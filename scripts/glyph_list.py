@@ -6,7 +6,7 @@ from non_unicode import get_non_unicode
 
 
 def print_glyph_unicode():
-    """Print `\\c_@@_glyph_unicode_clist`.
+    """Print `\\c_@@_glyph_unicode_seq`.
     """
     raw_glyph_list = []
     for weight in WEIGHT_LIST:
@@ -16,21 +16,21 @@ def print_glyph_unicode():
 
     glyph_list = sorted(list(set.union(*map(set, raw_glyph_list))))
 
-    print("\\clist_const:Nn \\c_@@_glyph_unicode_clist")
+    print("\\seq_const_from_clist:Nn \\c_@@_glyph_unicode_seq")
     print("  {" + ",".join(["\"" + usv_to_unicode_str(i) for i in glyph_list]) + "}")
 
 
 def print_glyph_non_unicode():
-    """Print `\\c_@@_glyph_non_unicode_clist` and `\\c_@@_glyph_non_unicode_with_type_clist`.
+    """Print `\\c_@@_glyph_non_unicode_with_type_seq`.
     """
     non_unicode = get_non_unicode()
     non_unicode_list = []
     for i in non_unicode:
         non_unicode_list += i["glyphs"]
-    print("\\clist_const:Nn \\c_@@_glyph_non_unicode_clist")
+    print("\\seq_const_from_clist:Nn \\c_@@_glyph_non_unicode_seq")
     print("  {" + ",".join(non_unicode_list) + "}")
 
-    print("\\clist_const:Nn \\c_@@_glyph_non_unicode_with_type_clist")
+    print("\\seq_const_from_clist:Nn \\c_@@_glyph_non_unicode_with_type_seq")
     print("  {")
     for i in non_unicode:
         print("    {" + i["type"].replace(" ", "~") + "} {" + ",".join(i["glyphs"]) + "},")
