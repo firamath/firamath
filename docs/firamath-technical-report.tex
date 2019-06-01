@@ -5,19 +5,17 @@
 
 \makeatletter\ExplSyntaxOn
 
-\clist_const:Nn \c_@@_weight_clist
+\seq_const_from_clist:Nn \c_@@_weight_seq
   {
     Thin, UltraLight, ExtraLight, Light, Book, Regular,
     Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra
   }
 
-\clist_map_inline:Nn \c_@@_weight_clist
-  {
-    \exp_args:Nc \newfontfamily { FiraMath #1 } { FiraMath-#1.otf } [ Path = ../release/fonts/ ]
-  }
+\seq_map_inline:Nn \c_@@_weight_seq
+  { \exp_args:Nc \newfontfamily { FiraMath #1 } { FiraMath-#1.otf } [ Path = ../release/fonts/ ] }
 
-% Require `\c_@@_glyph_unicode_clist`
-%     and `\c_@@_glyph_non_unicode_clist`
+% Require `\c_@@_glyph_unicode_seq`
+%     and `\c_@@_glyph_non_unicode_seq`
 \file_input:n { firamath-glyph-list.tex }
 
 % From `firamath-specimen.tex`
@@ -32,13 +30,13 @@
     \fi:
   }
 \cs_new_protected:Npn \@@_glyph_from_name:n #1
-  { \xetex_glyph:D \xetex_glyphindex:D "#1" \scan_stop: }
+  { \tex_XeTeXglyph:D \tex_XeTeXglyphindex:D "#1" \scan_stop: }
 \cs_new_protected:Npn \@@_set_glyph_index:Nn #1#2
-  { \int_set:Nn #1 { \xetex_glyphindex:D "#2" \scan_stop: } }
+  { \int_set:Nn #1 { \tex_XeTeXglyphindex:D "#2" \scan_stop: } }
 
 \NewDocumentCommand \printtable { }
   {
-    \longtable { c * { \clist_count:N \c_@@_weight_clist } { @{} c} }
+    \longtable { c * { \seq_count:N \c_@@_weight_seq } { @{} c} }
       \toprule
         \@@_head: \\
       \midrule
@@ -50,31 +48,31 @@
         \@@_body: \\
       \bottomrule
     \endlongtable
-  \clist_map_inline:Nn \c_@@_weight_clist
+  \seq_map_inline:Nn \c_@@_weight_seq
     { \refstepcounter { glyph @ ##1 } \label{count:glyph@##1} }
   }
 
 \cs_new:Npn \@@_head:
   {
-    \clist_map_inline:Nn \c_@@_weight_clist
+    \seq_map_inline:Nn \c_@@_weight_seq
       { & \makebox [1.4cm] [c] { \HeadFont ##1 } }
   }
 \cs_new:Npn \@@_head_first:
   {
-    \clist_map_inline:Nn \c_@@_weight_clist
+    \seq_map_inline:Nn \c_@@_weight_seq
       { & \parbox {1.4cm} { \centering \HeadFont ##1 \\[3pt] \scriptsize (\ref*{count:glyph@##1}) } }
   }
 
 \cs_new:Npn \@@_body:
   {
-    \clist_map_function:NN \c_@@_glyph_unicode_clist     \@@_row_unicode:n
-    \clist_map_function:NN \c_@@_glyph_non_unicode_clist \@@_row_non_unicode:n
+    \seq_map_function:NN \c_@@_glyph_unicode_seq     \@@_row_unicode:n
+    \seq_map_function:NN \c_@@_glyph_non_unicode_seq \@@_row_non_unicode:n
   }
 \cs_new:Npn \@@_row_unicode:n #1
   {
     \HeadFont U + \str_tail:n {#1}
     \@@_row_strut:
-    \clist_map_inline:Nn \c_@@_weight_clist
+    \seq_map_inline:Nn \c_@@_weight_seq
       {
         & \use:c { FiraMath ##1 }
         \@@_if_char_exist:nTF {#1}
@@ -90,7 +88,7 @@
   {
     \tiny \HeadFont #1
     \@@_row_strut:
-    \clist_map_inline:Nn \c_@@_weight_clist
+    \seq_map_inline:Nn \c_@@_weight_seq
       {
         & \use:c { FiraMath ##1 }
         \@@_set_glyph_index:Nn \l_tmpa_int {#1}
@@ -108,7 +106,7 @@
       }
     \\
   }
-\clist_map_inline:Nn \c_@@_weight_clist
+\seq_map_inline:Nn \c_@@_weight_seq
   {
     \newcounter { glyph @ #1 }
     \setcounter { glyph @ #1 } { -1 }

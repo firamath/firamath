@@ -13,7 +13,7 @@
 
 \makeatletter\ExplSyntaxOn
 
-\clist_const:Nn \c_@@_unicode_reserved_clist
+\seq_const_from_clist:Nn \c_@@_unicode_reserved_seq
   {
     % Greek and Coptic
       378,   379,   380,   381,   382,   383,   38B,   38D,  3A2,
@@ -50,7 +50,7 @@
     1D4BC, 1D4C4, 1D506, 1D50B, 1D50C, 1D515, 1D51D, 1D53A, 1D53F, 1D545,
     1D547, 1D548, 1D549, 1D551, 1D6A6, 1D6A7, 1D7CC, 1D7CD
   }
-\clist_const:Nn \c_@@_unicode_control_clist
+\seq_const_from_clist:Nn \c_@@_unicode_control_seq
   {
     % C0 Controls and Basic Latin
      0,  1,  2,  3,  4,  5,  6,  7,  8,  9,  A,  B,  C,  D,  E,  F,
@@ -61,7 +61,7 @@
     90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 9A, 9B, 9C, 9D, 9E, 9F
   }
 
-% Require `\c_@@_glyph_non_unicode_with_type_clist`
+% Require `\c_@@_glyph_non_unicode_with_type_seq`
 \file_input:n { firamath-glyph-list.tex }
 
 % #1 = symbol index
@@ -78,7 +78,7 @@
 % #1 = glyph name
 % See https://tex.stackexchange.com/q/420167
 \cs_new_protected:Npn \@@_glyph_from_name:n #1
-  { \xetex_glyph:D \xetex_glyphindex:D "#1" \scan_stop: }
+  { \tex_XeTeXglyph:D \tex_XeTeXglyphindex:D "#1" \scan_stop: }
 
 % Centering with fixed width
 \newcolumntype {C} [1] { > { \centering \arraybackslash } m {#1} }
@@ -299,10 +299,10 @@
 \cs_new_protected:Npn \@@_glyph:n #1
   {
     \tl_set:Nx \l_tmpa_tl { \int_to_Hex:n {#1} }
-    \clist_if_in:NVTF \c_@@_unicode_reserved_clist \l_tmpa_tl
+    \seq_if_in:NVTF \c_@@_unicode_reserved_seq \l_tmpa_tl
       { \cellcolor { reserved@bg } }
       {
-        \clist_if_in:NVTF \c_@@_unicode_control_clist \l_tmpa_tl
+        \seq_if_in:NVTF \c_@@_unicode_control_seq \l_tmpa_tl
           { \cellcolor { control@bg } }
           {
             % It must be outside `\@@_if_char_exist`
@@ -360,7 +360,7 @@
 
 \cs_new_protected:Npn \@@_non_unicode_print:
   {
-    \clist_map_inline:Nn \c_@@_glyph_non_unicode_with_type_clist
+    \seq_map_inline:Nn \c_@@_glyph_non_unicode_with_type_seq
       { \@@_non_unicode_print_class:nn ##1 }
   }
 
