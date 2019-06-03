@@ -15,6 +15,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-3...master).
 
+## v0.3.2 (2019-06-03)
+
+**Note:** This version is based on the master branch and has fixed some issues from v0.3.1. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
+
+Only the major changes of the font itself are logged here (from v0.3.1):
+
+- Added:
+  - Cyrillic letters
+  - More Greek letters
+  - More arrows
+  - Some geometric shapes
+  - Miscellaneous
+    - Back primes
+    - Double-struck summations, etc
+- Changed:
+  - Remove Latin letters outside Adobe Latin-3
+  - Adjust some MATH constants
+  - Numerous minor adjustment of glyphs
+  - Numerous miscellaneous changes for the devlopement of multiple weights
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.3.2).
+
 ## v0.4-beta-3 (2019-02-20)
 
 - Added:
