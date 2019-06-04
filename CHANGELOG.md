@@ -33,7 +33,7 @@ Only the major changes of the font itself are logged here (from v0.3.1):
   - Remove Latin letters outside Adobe Latin-3
   - Adjust some MATH constants
   - Numerous minor adjustment of glyphs
-  - Numerous miscellaneous changes for the devlopement of multiple weights
+  - Numerous miscellaneous changes for the development of multiple weights
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.3.2).
 
