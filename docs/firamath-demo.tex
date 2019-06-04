@@ -13,7 +13,6 @@
 \makeatletter
 % https://tex.stackexchange.com/q/66519
 \apptocmd{\beamer@@frametitle}{\only<1>{\bookmark[page=\the\c@page,level=3]{#1}}}{}{}
-\makeatother
 
 \unimathsetup{math-style=ISO, bold-style=ISO, mathrm=sym}
 
@@ -21,12 +20,29 @@
 %%<DEBUG>
 \setmathfont{FiraMath-Regular.otf}[Path=../release/fonts/]
 %%<RELEASE>
-%%\setmathfont{Fira Math Regular}
+%%\setmathfont{FiraMath-Regular.otf}
 %%<END>
 
 \newCJKfontfamily\fontzhhans{Source Han Sans SC}
 \newCJKfontfamily\fontzhhant{Source Han Sans TC}
 \newCJKfontfamily\fontja{Source Han Sans}
+
+\ExplSyntaxOn
+\seq_const_from_clist:Nn \c_@@_weight_seq
+  { Thin, UltraLight, ExtraLight, Light, Book, Regular, Medium, SemiBold, Bold, ExtraBold, Heavy, Ultra }
+\seq_map_inline:Nn \c_@@_weight_seq
+%%<DEBUG>
+  { \setmathfont { FiraMath-#1.otf } [ Path = ../release/fonts/, version = #1 ] }
+%%<RELEASE>
+%%  { \setmathfont { FiraMath-##1.otf } [ version = ##1 ] }
+%%<END>
+\cs_new:Npn \MultipleWeights #1
+  {
+    \seq_map_inline:Nn \c_@@_weight_seq
+      { \group_begin: \mathversion {##1} #1 \group_end: }
+  }
+\ExplSyntaxOff
+\makeatother
 
 \def\ii{\symrm{i}}
 \def\pp{\symrm{\pi}}
@@ -40,7 +56,7 @@
 
 \maketitle
 
-\begin{frame}[noframenumbering]{Basic examples (I)}
+\begin{frame}{Basic examples (I)}
 \begin{itemize}
   \item Covariant derivative:
     \[
@@ -61,7 +77,7 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[noframenumbering]{Basic examples (II)}
+\begin{frame}{Basic examples (II)}
 \begin{itemize}
   \item Case $n=1$
     \small
@@ -90,7 +106,7 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[noframenumbering]{Using with CJK fonts}
+\begin{frame}{Using with CJK fonts}
 \begin{itemize}
   \item {\fontzhhans 【留数定理】全纯函数 $f$ 在若尔当曲线 $\gamma$ 上的积分为：}
     \[
@@ -108,6 +124,19 @@
       = 2\pp\ii \sum_{k=1}^n \Res_{z=a_k} f(z).
     \]
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Multiple weights (beta)}
+\centering
+\everymath{\displaystyle}
+\begin{tabular}{p{5cm}l}
+  \mathversion{Thin}       $ \pdv{\alpha} \sin\alpha =  \cos  \alpha       $ & \mathversion{Medium}     $ \int \sin x \dd{x} = -\cos x                   + C_1 $ \\[12pt]
+  \mathversion{UltraLight} $ \pdv{\beta } \cos\beta  = -\sin  \beta        $ & \mathversion{SemiBold}   $ \int \cos y \dd{y} =  \sin y                   + C_2 $ \\[12pt]
+  \mathversion{ExtraLight} $ \pdv{\gamma} \tan\gamma =  \sec^2\gamma       $ & \mathversion{Bold}       $ \int \tan z \dd{z} = -\ln|\cos z \, |          + C_3 $ \\[12pt]
+  \mathversion{Light}      $ \pdv{\theta} \cot\theta = -\csc^2\theta       $ & \mathversion{ExtraBold}  $ \int \cot p \dd{p} =  \ln|\sin p \, |          + C_4 $ \\[12pt]
+  \mathversion{Book}       $ \pdv{\phi  } \sec\phi   =  \tan\phi \sec\phi  $ & \mathversion{Heavy}      $ \int \sec q \dd{q} =  \ln|\sec q + \tan q \, | + C_5 $ \\[12pt]
+  \mathversion{Regular}    $ \pdv{\zeta } \csc\zeta  = -\cot\zeta\csc\zeta $ & \mathversion{Ultra}      $ \int \csc r \dd{r} = -\ln|\csc r + \cot r \, | + C_6 $
+\end{tabular}
 \end{frame}
 
 \end{document}
