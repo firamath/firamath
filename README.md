@@ -12,7 +12,12 @@ Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 
 ## Showcase
 
-![Showcase](img/demo.png)
+<p align="center">
+  <img src="docs/svg/firamath-demo-2.svg" alt="firamath-demo-2" width=49%>
+  <img src="docs/svg/firamath-demo-3.svg" alt="firamath-demo-3" width=49%>
+  <img src="docs/svg/firamath-demo-4.svg" alt="firamath-demo-4" width=49%>
+  <img src="docs/svg/firamath-demo-5.svg" alt="firamath-demo-5" width=49%>
+</p>
 
 ## Installation
 
@@ -121,4 +126,4 @@ This Font Software is licensed under the [SIL Open Font License](http://scripts.
 
 -----
 
-Copyright (C) 2018, 2019 by Xiangdong Zeng.
+Copyright (C) 2018&ndash;2020 by Xiangdong Zeng.

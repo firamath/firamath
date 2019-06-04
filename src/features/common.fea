@@ -3,7 +3,7 @@ languagesystem latn dflt;
 languagesystem math dflt;
 
 table name {
-    nameid 0  "Copyright (C) 2018, 2019 Xiangdong Zeng";
+    nameid 0  "Copyright (C) 2018\20132020 Xiangdong Zeng";
     nameid 5  "Version 0.3.2";
     nameid 7  "Fira Sans is a trademark of The Mozilla Corporation.";
     nameid 8  "Xiangdong Zeng";
@@ -15,6 +15,18 @@ table name {
  permissions and limitations governing your use of this Font Software.";
     nameid 14 "http://scripts.sil.org/OFL";
 } name;
+
+table hhea {
+    Ascender   800;
+    Descender -200;
+    LineGap      0;
+} hhea;
+
+table OS/2 {
+    TypoAscender   800;
+    TypoDescender -200;
+    TypoLineGap      0;
+} OS/2;
 
 lookup liga01 {
     sub uni0066 uni0066         by uniFB00;  # f f

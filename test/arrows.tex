@@ -66,31 +66,6 @@
     { \leftbkarrow \!\! - \!\! \rightarrow   }
     { \leftarrow   \!\! - \!\! \rightbkarrow }
   }
-\@@_new_test:nn { misc }
-  {
-    \leftarrowx     \rightarrowx
-    \leftarrow      \rightarrow
-    %
-    \leftwavearrow      \rightwavearrow
-    \leftsquigarrow     \leftrightsquigarrow \rightsquigarrow
-    \longleftsquigarrow \longrightsquigarrow
-    \hookleftarrow      \hookrightarrow
-    \looparrowleft      \looparrowright
-    %
-    \Lsh \Rsh \Ldsh \Rdsh
-    %
-    \curvearrowleft     \curvearrowright
-    \acwopencirclearrow \cwopencirclearrow
-    %
-    \downzigzagarrow \circleonrightarrow
-    %
-    \leftwhitearrow \rightwhitearrow
-    \upwhitearrow \downwhitearrow \whitearrowupfrombar
-    ^^^^21eb ^^^^21ec ^^^^21ed ^^^^21ee ^^^^21ef ^^^^21f0 ^^^^21f3
-    %
-    \linefeed \carriagereturn \barleftarrowrightarrowbar \barovernorthwestarrow
-    ^^^^21f1 ^^^^21f2
-  }
 \@@_new_test:nn { half }
   {
     % Simple
@@ -109,6 +84,7 @@
     \Leftarrow     \Leftrightarrow     \Rightarrow
     { \Leftarrow  =      \Rightarrow  }
     { \Lleftarrow \equiv \Rrightarrow }
+    \LLeftarrow \RRightarrow
     \Longleftarrow \Longleftrightarrow \Longrightarrow
     \Mapsfrom \Mapsto \Longmapsfrom \Longmapsto
     \nLeftarrow  \nLeftrightarrow  \nRightarrow
@@ -144,8 +120,8 @@
     \bardownharpoonleft      \bardownharpoonright
     \upharpoonsleftright     \downharpoonsleftright
     \updownharpoonsleftright \downupharpoonsleftright
-    \twoheaddownarrow \Downarrow \Ddownarrow
-    \twoheaduparrow   \Uparrow   \Uuparrow
+    \twoheaddownarrow \Downarrow \Ddownarrow \DDownarrow
+    \twoheaduparrow   \Uparrow   \Uuparrow   \UUparrow
     \updownarrow \Updownarrow
   }
 \@@_new_test:nn { up-down-mathord }
@@ -163,6 +139,34 @@
     %
     ^^^^292b ^^^^292c ^^^^292d ^^^^292e ^^^^292f ^^^^2930 ^^^^2931 ^^^^2932
   }
+\@@_new_test:nn { white }
+  {
+    \leftwhitearrow \rightwhitearrow
+    \upwhitearrow \downwhitearrow \whitearrowupfrombar
+    ^^^^21eb ^^^^21ec ^^^^21ed ^^^^21ee ^^^^21ef ^^^^21f0 ^^^^21f3
+  }
+\@@_new_test:nn { misc }
+  {
+    \leftarrowx     \rightarrowx
+    \leftarrow      \rightarrow
+    %
+    \leftwavearrow      \rightwavearrow
+    \leftsquigarrow     \leftrightsquigarrow \rightsquigarrow
+    \longleftsquigarrow \longrightsquigarrow
+    \hookleftarrow      \hookrightarrow
+    \looparrowleft      \looparrowright
+    %
+    \Lsh \Rsh \Ldsh \Rdsh
+    %
+    \curvearrowleft     \curvearrowright
+    \acwopencirclearrow \cwopencirclearrow \acwgapcirclearrow \cwgapcirclearrow
+    %
+    \downzigzagarrow
+    \circleonleftarrow \circleonrightarrow \leftarrowonoplus \rightarrowonoplus
+    %
+    \linefeed \carriagereturn \barleftarrowrightarrowbar \barovernorthwestarrow
+    ^^^^21f1 ^^^^21f2
+  }
 \ExplSyntaxOff\makeatother
 
 \begin{document}
@@ -177,9 +181,6 @@
 
 \subsection{Dashed arrows}
 \ArrowTest{dashed}
-
-\subsection{Miscellaneous arrows}
-\ArrowTest{misc}
 
 \subsection{Half arrows}
 \ArrowTest{half}
@@ -196,5 +197,9 @@
 
 \subsection{Slant arrows}
 \ArrowTest{slant}
+
+\subsection{Miscellaneous arrows}
+\ArrowTest{misc}
+\ArrowTest{white}
 
 \end{document}

@@ -39,7 +39,7 @@ Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 AntiAlias: 1
-BeginChars: 1114138 1002
+BeginChars: 1114138 1128
 
 StartChar: uni0020
 Encoding: 32 32 0
@@ -15087,35 +15087,35 @@ LayerCount: 2
 Fore
 SplineSet
 120 280 m 1
- 374 531 l 1
- 452 451 l 1
- 334 337 l 1
- 948 337 l 1
- 948 223 l 1
- 334 223 l 1
- 452 109 l 1
- 374 29 l 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
  120 280 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2191
 Encoding: 8593 8593 592
-Width: 742
+Width: 723
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-120 440 m 1
- 371 694 l 1
- 622 440 l 1
- 542 362 l 1
- 428 480 l 1
- 428 -134 l 1
- 314 -134 l 1
- 314 480 l 1
- 200 362 l 1
- 120 440 l 1
+120 448 m 1
+ 362 694 l 1
+ 603 448 l 1
+ 527 374 l 1
+ 418 488 l 1
+ 418 -134 l 1
+ 306 -134 l 1
+ 306 488 l 1
+ 196 374 l 1
+ 120 448 l 1
 EndSplineSet
 EndChar
 
@@ -15126,175 +15126,3051 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-120 223 m 1
- 120 337 l 1
- 734 337 l 1
- 616 451 l 1
- 694 531 l 1
+120 224 m 1
+ 120 336 l 1
+ 742 336 l 1
+ 628 445 l 1
+ 702 522 l 1
  948 280 l 1
- 694 29 l 1
- 616 109 l 1
- 734 223 l 1
- 120 223 l 1
+ 702 38 l 1
+ 628 115 l 1
+ 742 224 l 1
+ 120 224 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2193
 Encoding: 8595 8595 594
-Width: 742
+Width: 723
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-120 120 m 1
- 200 198 l 1
- 314 80 l 1
- 314 694 l 1
- 428 694 l 1
- 428 80 l 1
- 542 198 l 1
- 622 120 l 1
- 371 -134 l 1
- 120 120 l 1
+120 112 m 1
+ 196 186 l 1
+ 306 72 l 1
+ 306 694 l 1
+ 418 694 l 1
+ 418 72 l 1
+ 527 186 l 1
+ 603 112 l 1
+ 362 -134 l 1
+ 120 112 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2194
 Encoding: 8596 8596 595
-Width: 1196
+Width: 1188
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 120 280 m 1
- 374 531 l 1
- 452 451 l 1
- 334 337 l 1
- 862 337 l 1
- 744 451 l 1
- 822 531 l 1
- 1076 280 l 1
- 822 29 l 1
- 744 109 l 1
- 862 223 l 1
- 334 223 l 1
- 452 109 l 1
- 374 29 l 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 862 336 l 1
+ 748 445 l 1
+ 822 522 l 1
+ 1068 280 l 1
+ 822 38 l 1
+ 748 115 l 1
+ 862 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
  120 280 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2195
 Encoding: 8597 8597 596
-Width: 742
+Width: 723
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-120 56 m 1
- 200 134 l 1
- 314 16 l 1
- 314 544 l 1
- 200 426 l 1
- 120 504 l 1
- 371 758 l 1
- 622 504 l 1
- 542 426 l 1
- 428 544 l 1
- 428 16 l 1
- 542 134 l 1
- 622 56 l 1
- 371 -198 l 1
- 120 56 l 1
+120 78 m 1
+ 196 152 l 1
+ 306 38 l 1
+ 306 522 l 1
+ 196 408 l 1
+ 120 482 l 1
+ 362 728 l 1
+ 603 482 l 1
+ 527 408 l 1
+ 418 522 l 1
+ 418 38 l 1
+ 527 152 l 1
+ 603 78 l 1
+ 362 -168 l 1
+ 120 78 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2196
 Encoding: 8598 8598 597
-Width: 871
-VWidth: 999
+Width: 869
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-125 572 m 1
- 483 570 l 1
- 481 459 l 1
- 317 461 l 1
- 751 27 l 1
- 671 -54 l 1
- 236 380 l 1
- 239 216 l 1
- 128 215 l 1
- 125 572 l 1
+124 573 m 1
+ 470 570 l 1
+ 468 464 l 1
+ 310 467 l 1
+ 750 27 l 1
+ 671 -52 l 1
+ 231 387 l 1
+ 234 230 l 1
+ 128 228 l 1
+ 124 573 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2197
 Encoding: 8599 8599 598
-Width: 871
-VWidth: 999
+Width: 869
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 120 27 m 1
- 554 461 l 1
- 390 459 l 1
- 388 570 l 1
- 746 572 l 1
- 743 215 l 1
- 632 216 l 1
- 635 380 l 1
- 200 -54 l 1
+ 560 467 l 1
+ 402 464 l 1
+ 400 570 l 1
+ 745 573 l 1
+ 742 228 l 1
+ 636 230 l 1
+ 639 387 l 1
+ 199 -52 l 1
  120 27 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2198
 Encoding: 8600 8600 599
-Width: 871
-VWidth: 999
+Width: 869
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-120 497 m 1
- 200 578 l 1
- 635 144 l 1
- 632 308 l 1
- 743 309 l 1
- 746 -48 l 1
- 388 -46 l 1
- 390 65 l 1
- 554 63 l 1
- 120 497 l 1
+120 514 m 1
+ 199 594 l 1
+ 639 154 l 1
+ 636 311 l 1
+ 742 314 l 1
+ 745 -32 l 1
+ 400 -28 l 1
+ 402 78 l 1
+ 560 75 l 1
+ 120 514 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2199
 Encoding: 8601 8601 600
-Width: 871
-VWidth: 999
+Width: 869
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-125 -48 m 1
- 128 309 l 1
- 239 308 l 1
- 236 144 l 1
- 671 578 l 1
- 751 497 l 1
- 317 63 l 1
- 481 65 l 1
- 483 -46 l 1
- 125 -48 l 1
+124 -32 m 1
+ 128 314 l 1
+ 234 311 l 1
+ 231 154 l 1
+ 671 594 l 1
+ 750 514 l 1
+ 310 75 l 1
+ 468 78 l 1
+ 470 -28 l 1
+ 124 -32 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni219A
+Encoding: 8602 8602 601
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 636 336 l 1
+ 730 518 l 1
+ 830 466 l 1
+ 762 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 704 224 l 1
+ 610 42 l 1
+ 510 94 l 1
+ 578 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni219B
+Encoding: 8603 8603 602
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 362 336 l 1
+ 457 518 l 1
+ 556 466 l 1
+ 489 336 l 1
+ 742 336 l 1
+ 628 445 l 1
+ 702 522 l 1
+ 948 280 l 1
+ 702 38 l 1
+ 628 115 l 1
+ 742 224 l 1
+ 430 224 l 1
+ 336 42 l 1
+ 236 94 l 1
+ 304 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni219C
+Encoding: 8604 8604 603
+Width: 1152
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 469 m 1
+ 463 507 l 1
+ 472 401 l 1
+ 317 383 l 1
+ 362 336 417 291 494 291 c 0
+ 603 291 646 380 776 380 c 0
+ 911 380 997 298 1032 263 c 1
+ 954 181 l 1
+ 926 210 861 269 783 269 c 0
+ 674 269 631 180 501 180 c 0
+ 382 180 304 235 245 297 c 1
+ 269 141 l 1
+ 163 129 l 1
+ 120 469 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni219D
+Encoding: 8605 8605 604
+Width: 1152
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 263 m 1
+ 155 298 241 380 376 380 c 0
+ 506 380 549 291 658 291 c 0
+ 735 291 790 336 835 383 c 1
+ 680 401 l 1
+ 689 507 l 1
+ 1032 469 l 1
+ 989 129 l 1
+ 883 141 l 1
+ 907 297 l 1
+ 848 235 770 180 651 180 c 0
+ 521 180 478 269 369 269 c 0
+ 291 269 226 210 198 181 c 1
+ 120 263 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni219E
+Encoding: 8606 8606 605
+Width: 1130
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 410 336 l 1
+ 600 522 l 1
+ 674 445 l 1
+ 560 336 l 1
+ 1010 336 l 1
+ 1010 224 l 1
+ 560 224 l 1
+ 674 115 l 1
+ 600 38 l 1
+ 410 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni219F
+Encoding: 8607 8607 606
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 245 m 1
+ 306 435 l 1
+ 306 519 l 1
+ 196 405 l 1
+ 120 479 l 1
+ 362 725 l 1
+ 603 479 l 1
+ 527 405 l 1
+ 418 519 l 1
+ 418 435 l 1
+ 603 245 l 1
+ 527 171 l 1
+ 418 285 l 1
+ 418 -165 l 1
+ 306 -165 l 1
+ 306 285 l 1
+ 196 171 l 1
+ 120 245 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A0
+Encoding: 8608 8608 607
+Width: 1130
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 570 336 l 1
+ 456 445 l 1
+ 530 522 l 1
+ 720 336 l 1
+ 804 336 l 1
+ 690 445 l 1
+ 764 522 l 1
+ 1010 280 l 1
+ 764 38 l 1
+ 690 115 l 1
+ 804 224 l 1
+ 720 224 l 1
+ 530 38 l 1
+ 456 115 l 1
+ 570 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A1
+Encoding: 8609 8609 608
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 81 m 1
+ 196 155 l 1
+ 306 41 l 1
+ 306 125 l 1
+ 120 315 l 1
+ 196 389 l 1
+ 306 275 l 1
+ 306 725 l 1
+ 418 725 l 1
+ 418 275 l 1
+ 527 389 l 1
+ 603 315 l 1
+ 418 125 l 1
+ 418 41 l 1
+ 527 155 l 1
+ 603 81 l 1
+ 362 -165 l 1
+ 120 81 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A2
+Encoding: 8610 8610 609
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 716 336 l 1
+ 906 522 l 1
+ 980 445 l 1
+ 810 280 l 1
+ 980 115 l 1
+ 906 38 l 1
+ 716 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A3
+Encoding: 8611 8611 610
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 115 m 1
+ 290 280 l 1
+ 120 445 l 1
+ 194 522 l 1
+ 384 336 l 1
+ 774 336 l 1
+ 660 445 l 1
+ 734 522 l 1
+ 980 280 l 1
+ 734 38 l 1
+ 660 115 l 1
+ 774 224 l 1
+ 384 224 l 1
+ 194 38 l 1
+ 120 115 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A4
+Encoding: 8612 8612 611
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 836 336 l 1
+ 836 503 l 1
+ 948 503 l 1
+ 948 57 l 1
+ 836 57 l 1
+ 836 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A5
+Encoding: 8613 8613 612
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 448 m 1
+ 362 694 l 1
+ 603 448 l 1
+ 527 374 l 1
+ 418 488 l 1
+ 418 -22 l 1
+ 585 -22 l 1
+ 585 -134 l 1
+ 138 -134 l 1
+ 138 -22 l 1
+ 306 -22 l 1
+ 306 488 l 1
+ 196 374 l 1
+ 120 448 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A6
+Encoding: 8614 8614 613
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 57 m 1
+ 120 503 l 1
+ 232 503 l 1
+ 232 336 l 1
+ 742 336 l 1
+ 628 445 l 1
+ 702 522 l 1
+ 948 280 l 1
+ 702 38 l 1
+ 628 115 l 1
+ 742 224 l 1
+ 232 224 l 1
+ 232 57 l 1
+ 120 57 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A7
+Encoding: 8615 8615 614
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 112 m 1
+ 196 186 l 1
+ 306 72 l 1
+ 306 582 l 1
+ 138 582 l 1
+ 138 694 l 1
+ 585 694 l 1
+ 585 582 l 1
+ 418 582 l 1
+ 418 72 l 1
+ 527 186 l 1
+ 603 112 l 1
+ 362 -134 l 1
+ 120 112 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A8
+Encoding: 8616 8616 615
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 78 m 1
+ 196 152 l 1
+ 306 38 l 1
+ 306 522 l 1
+ 196 408 l 1
+ 120 482 l 1
+ 362 728 l 1
+ 603 482 l 1
+ 527 408 l 1
+ 418 522 l 1
+ 418 38 l 1
+ 527 152 l 1
+ 603 78 l 1
+ 374 -156 l 1
+ 585 -156 l 1
+ 585 -268 l 1
+ 138 -268 l 1
+ 138 -156 l 1
+ 349 -156 l 1
+ 120 78 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21A9
+Encoding: 8617 8617 616
+Width: 1084
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 787 336 l 2
+ 823 336 852 365 852 401 c 0
+ 852 437 823 466 787 466 c 2
+ 719 466 l 1
+ 719 578 l 1
+ 787 578 l 2
+ 885 578 964 499 964 401 c 0
+ 964 303 885 224 787 224 c 2
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21AA
+Encoding: 8618 8618 617
+Width: 1084
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 401 m 0
+ 120 499 199 578 297 578 c 2
+ 365 578 l 1
+ 365 466 l 1
+ 297 466 l 2
+ 261 466 232 437 232 401 c 0
+ 232 365 261 336 297 336 c 2
+ 758 336 l 1
+ 644 445 l 1
+ 718 522 l 1
+ 964 280 l 1
+ 718 38 l 1
+ 644 115 l 1
+ 758 224 l 1
+ 297 224 l 2
+ 199 224 120 303 120 401 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni21AB
+Encoding: 8619 8619 618
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+738 336 m 1
+ 803 336 l 2
+ 839 336 868 365 868 401 c 0
+ 868 437 839 466 803 466 c 0
+ 767 466 738 437 738 401 c 2
+ 738 336 l 1
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 626 336 l 1
+ 626 401 l 2
+ 626 499 705 578 803 578 c 0
+ 901 578 980 499 980 401 c 0
+ 980 303 901 224 803 224 c 2
+ 738 224 l 1
+ 738 48 l 1
+ 626 48 l 1
+ 626 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21AC
+Encoding: 8620 8620 619
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+232 401 m 0
+ 232 365 261 336 297 336 c 2
+ 362 336 l 1
+ 362 401 l 2
+ 362 437 333 466 297 466 c 0
+ 261 466 232 437 232 401 c 0
+120 401 m 0
+ 120 499 199 578 297 578 c 0
+ 395 578 474 499 474 401 c 2
+ 474 336 l 1
+ 774 336 l 1
+ 660 445 l 1
+ 734 522 l 1
+ 980 280 l 1
+ 734 38 l 1
+ 660 115 l 1
+ 774 224 l 1
+ 474 224 l 1
+ 474 48 l 1
+ 362 48 l 1
+ 362 224 l 1
+ 297 224 l 2
+ 199 224 120 303 120 401 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni21AD
+Encoding: 8621 8621 620
+Width: 1356
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 397 336 l 2
+ 488 336 505 472 598 472 c 0
+ 729 472 720 204 766 204 c 0
+ 803 204 821 335 954 335 c 2
+ 1030 335 l 1
+ 917 445 l 1
+ 990 521 l 1
+ 1236 279 l 1
+ 990 38 l 1
+ 917 114 l 1
+ 1030 223 l 1
+ 960 223 l 2
+ 869 223 852 87 759 87 c 0
+ 628 87 637 356 591 356 c 0
+ 554 356 536 224 403 224 c 2
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21AE
+Encoding: 8622 8622 621
+Width: 1224
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 578 336 l 1
+ 672 518 l 1
+ 772 466 l 1
+ 704 336 l 1
+ 898 336 l 1
+ 784 445 l 1
+ 858 522 l 1
+ 1104 280 l 1
+ 858 38 l 1
+ 784 115 l 1
+ 898 224 l 1
+ 646 224 l 1
+ 552 42 l 1
+ 452 94 l 1
+ 520 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21AF
+Encoding: 8623 8623 622
+Width: 778
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+126 164 m 1
+ 230 179 l 1
+ 253 18 l 1
+ 451 292 l 1
+ 120 292 l 1
+ 571 743 l 1
+ 645 668 l 1
+ 374 397 l 1
+ 658 397 l 1
+ 338 -43 l 1
+ 498 -15 l 1
+ 517 -120 l 1
+ 176 -177 l 1
+ 126 164 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B0
+Encoding: 8624 8624 623
+Width: 748
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 514 m 1
+ 366 756 l 1
+ 440 680 l 1
+ 326 570 l 1
+ 628 570 l 1
+ 628 -96 l 1
+ 516 -96 l 1
+ 516 458 l 1
+ 326 458 l 1
+ 440 349 l 1
+ 366 273 l 1
+ 120 514 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B1
+Encoding: 8625 8625 624
+Width: 748
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 -96 m 1
+ 120 570 l 1
+ 422 570 l 1
+ 308 680 l 1
+ 382 756 l 1
+ 628 514 l 1
+ 382 273 l 1
+ 308 349 l 1
+ 422 458 l 1
+ 232 458 l 1
+ 232 -96 l 1
+ 120 -96 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B2
+Encoding: 8626 8626 625
+Width: 748
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 98 m 1
+ 366 339 l 1
+ 440 263 l 1
+ 326 154 l 1
+ 516 154 l 1
+ 516 708 l 1
+ 628 708 l 1
+ 628 42 l 1
+ 326 42 l 1
+ 440 -68 l 1
+ 366 -144 l 1
+ 120 98 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B3
+Encoding: 8627 8627 626
+Width: 748
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 42 m 1
+ 120 708 l 1
+ 232 708 l 1
+ 232 154 l 1
+ 422 154 l 1
+ 308 263 l 1
+ 382 339 l 1
+ 628 98 l 1
+ 382 -144 l 1
+ 308 -68 l 1
+ 422 42 l 1
+ 120 42 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B4
+Encoding: 8628 8628 627
+Width: 1092
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 570 m 1
+ 120 682 l 1
+ 786 682 l 1
+ 786 136 l 1
+ 896 250 l 1
+ 972 176 l 1
+ 730 -70 l 1
+ 489 176 l 1
+ 565 250 l 1
+ 674 136 l 1
+ 674 570 l 1
+ 120 570 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B5
+Encoding: 8629 8629 628
+Width: 992
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 122 m 1
+ 366 363 l 1
+ 440 287 l 1
+ 326 178 l 1
+ 760 178 l 1
+ 760 732 l 1
+ 872 732 l 1
+ 872 66 l 1
+ 326 66 l 1
+ 440 -44 l 1
+ 366 -120 l 1
+ 120 122 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B6
+Encoding: 8630 8630 629
+Width: 1097
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 134 m 1
+ 196 208 l 1
+ 306 94 l 1
+ 306 112 l 2
+ 306 298 456 448 642 448 c 0
+ 828 448 978 298 978 112 c 1
+ 866 112 l 1
+ 866 236 766 336 642 336 c 0
+ 518 336 418 236 418 112 c 2
+ 418 94 l 1
+ 527 208 l 1
+ 603 134 l 1
+ 362 -112 l 1
+ 120 134 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B7
+Encoding: 8631 8631 630
+Width: 1097
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 112 m 1
+ 120 298 270 448 456 448 c 0
+ 642 448 792 298 792 112 c 2
+ 792 94 l 1
+ 901 208 l 1
+ 978 134 l 1
+ 736 -112 l 1
+ 494 134 l 1
+ 571 208 l 1
+ 680 94 l 1
+ 680 112 l 2
+ 680 236 580 336 456 336 c 0
+ 332 336 232 236 232 112 c 1
+ 120 112 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B8
+Encoding: 8632 8632 631
+Width: 910
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+144 573 m 1
+ 490 570 l 1
+ 488 464 l 1
+ 330 467 l 1
+ 770 27 l 1
+ 691 -52 l 1
+ 251 387 l 1
+ 254 230 l 1
+ 148 228 l 1
+ 144 573 l 1
+120 622 m 1
+ 120 734 l 1
+ 790 734 l 1
+ 790 622 l 1
+ 120 622 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21B9
+Encoding: 8633 8633 632
+Width: 1152
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 241 m 1
+ 120 660 l 1
+ 234 660 l 1
+ 234 456 l 1
+ 455 679 l 1
+ 535 602 l 1
+ 421 493 l 1
+ 1032 493 l 1
+ 1032 381 l 1
+ 421 381 l 1
+ 529 278 l 1
+ 455 202 l 1
+ 234 418 l 1
+ 234 241 l 1
+ 120 241 l 1
+120 67 m 1
+ 120 179 l 1
+ 731 179 l 1
+ 623 282 l 1
+ 697 358 l 1
+ 918 142 l 1
+ 918 319 l 1
+ 1032 319 l 1
+ 1032 -100 l 1
+ 918 -100 l 1
+ 918 104 l 1
+ 691 -119 l 1
+ 617 -42 l 1
+ 731 67 l 1
+ 120 67 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21BA
+Encoding: 8634 8634 633
+Width: 912
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 0
+ 120 405 188 514 289 571 c 1
+ 347 475 l 1
+ 278 437 232 365 232 280 c 0
+ 232 156 332 56 456 56 c 0
+ 580 56 680 156 680 280 c 0
+ 680 361 634 433 570 472 c 1
+ 601 323 l 1
+ 507 305 l 1
+ 445 628 l 1
+ 770 685 l 1
+ 785 589 l 1
+ 635 563 l 1
+ 729 504 792 400 792 280 c 0
+ 792 94 642 -56 456 -56 c 0
+ 270 -56 120 94 120 280 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni21BB
+Encoding: 8635 8635 634
+Width: 912
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 0
+ 120 400 183 504 277 563 c 1
+ 127 589 l 1
+ 142 685 l 1
+ 467 628 l 1
+ 405 305 l 1
+ 311 323 l 1
+ 342 472 l 1
+ 278 433 232 361 232 280 c 0
+ 232 156 332 56 456 56 c 0
+ 580 56 680 156 680 280 c 0
+ 680 365 634 437 565 475 c 1
+ 623 571 l 1
+ 724 514 792 405 792 280 c 0
+ 792 94 642 -56 456 -56 c 0
+ 270 -56 120 94 120 280 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni21BC
+Encoding: 8636 8636 635
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+104 264 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 134 224 l 1
+ 104 264 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21BD
+Encoding: 8637 8637 636
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+104 296 m 1
+ 134 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 104 296 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21BE
+Encoding: 8638 8638 637
+Width: 537
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 -134 m 1
+ 120 680 l 1
+ 160 710 l 1
+ 418 448 l 1
+ 341 374 l 1
+ 232 488 l 1
+ 232 -134 l 1
+ 120 -134 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21BF
+Encoding: 8639 8639 638
+Width: 537
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 448 m 1
+ 377 710 l 1
+ 418 680 l 1
+ 418 -134 l 1
+ 306 -134 l 1
+ 306 488 l 1
+ 196 374 l 1
+ 120 448 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C0
+Encoding: 8640 8640 639
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+110 224 m 1
+ 110 336 l 1
+ 732 336 l 1
+ 618 445 l 1
+ 692 522 l 1
+ 954 264 l 1
+ 924 224 l 1
+ 110 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C1
+Encoding: 8641 8641 640
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+110 224 m 1
+ 110 336 l 1
+ 924 336 l 1
+ 954 296 l 1
+ 692 38 l 1
+ 618 115 l 1
+ 732 224 l 1
+ 110 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C2
+Encoding: 8642 8642 641
+Width: 537
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 -110 m 1
+ 120 704 l 1
+ 232 704 l 1
+ 232 82 l 1
+ 341 196 l 1
+ 418 122 l 1
+ 160 -140 l 1
+ 120 -110 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C3
+Encoding: 8643 8643 642
+Width: 537
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 122 m 1
+ 196 196 l 1
+ 306 82 l 1
+ 306 704 l 1
+ 418 704 l 1
+ 418 -110 l 1
+ 377 -140 l 1
+ 120 122 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C4
+Encoding: 8644 8644 643
+Width: 1092
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+144 381 m 1
+ 144 493 l 1
+ 766 493 l 1
+ 652 602 l 1
+ 726 679 l 1
+ 972 437 l 1
+ 732 202 l 1
+ 659 278 l 1
+ 766 381 l 1
+ 144 381 l 1
+120 123 m 1
+ 360 358 l 1
+ 433 282 l 1
+ 326 179 l 1
+ 948 179 l 1
+ 948 67 l 1
+ 326 67 l 1
+ 440 -42 l 1
+ 366 -119 l 1
+ 120 123 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C5
+Encoding: 8645 8645 644
+Width: 1037
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+440 94 m 1
+ 517 167 l 1
+ 620 60 l 1
+ 620 682 l 1
+ 732 682 l 1
+ 732 60 l 1
+ 841 174 l 1
+ 917 100 l 1
+ 676 -146 l 1
+ 440 94 l 1
+120 460 m 1
+ 362 706 l 1
+ 597 466 l 1
+ 521 393 l 1
+ 418 500 l 1
+ 418 -122 l 1
+ 306 -122 l 1
+ 306 500 l 1
+ 196 386 l 1
+ 120 460 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C6
+Encoding: 8646 8646 645
+Width: 1092
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+144 67 m 1
+ 144 179 l 1
+ 766 179 l 1
+ 659 282 l 1
+ 732 358 l 1
+ 972 123 l 1
+ 726 -119 l 1
+ 652 -42 l 1
+ 766 67 l 1
+ 144 67 l 1
+120 437 m 1
+ 366 679 l 1
+ 440 602 l 1
+ 326 493 l 1
+ 948 493 l 1
+ 948 381 l 1
+ 326 381 l 1
+ 433 278 l 1
+ 360 202 l 1
+ 120 437 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C7
+Encoding: 8647 8647 646
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 437 m 1
+ 366 679 l 1
+ 440 602 l 1
+ 326 493 l 1
+ 948 493 l 1
+ 948 381 l 1
+ 326 381 l 1
+ 432 280 l 1
+ 326 179 l 1
+ 948 179 l 1
+ 948 67 l 1
+ 326 67 l 1
+ 440 -42 l 1
+ 366 -119 l 1
+ 120 123 l 1
+ 280 280 l 1
+ 120 437 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C8
+Encoding: 8648 8648 647
+Width: 1037
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 448 m 1
+ 362 694 l 1
+ 519 534 l 1
+ 676 694 l 1
+ 917 448 l 1
+ 841 374 l 1
+ 732 488 l 1
+ 732 -134 l 1
+ 620 -134 l 1
+ 620 488 l 1
+ 519 382 l 1
+ 418 488 l 1
+ 418 -134 l 1
+ 306 -134 l 1
+ 306 488 l 1
+ 196 374 l 1
+ 120 448 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21C9
+Encoding: 8649 8649 648
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 381 m 1
+ 120 493 l 1
+ 742 493 l 1
+ 628 602 l 1
+ 702 679 l 1
+ 948 437 l 1
+ 788 280 l 1
+ 948 123 l 1
+ 702 -119 l 1
+ 628 -42 l 1
+ 742 67 l 1
+ 120 67 l 1
+ 120 179 l 1
+ 742 179 l 1
+ 636 280 l 1
+ 742 381 l 1
+ 120 381 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CA
+Encoding: 8650 8650 649
+Width: 1037
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 112 m 1
+ 196 186 l 1
+ 306 72 l 1
+ 306 694 l 1
+ 418 694 l 1
+ 418 72 l 1
+ 519 178 l 1
+ 620 72 l 1
+ 620 694 l 1
+ 732 694 l 1
+ 732 72 l 1
+ 841 186 l 1
+ 917 112 l 1
+ 676 -134 l 1
+ 519 26 l 1
+ 362 -134 l 1
+ 120 112 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CB
+Encoding: 8651 8651 650
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+126 121 m 1
+ 126 233 l 1
+ 928 233 l 1
+ 958 193 l 1
+ 696 -64 l 1
+ 622 12 l 1
+ 736 121 l 1
+ 126 121 l 1
+110 367 m 1
+ 372 624 l 1
+ 446 548 l 1
+ 332 439 l 1
+ 942 439 l 1
+ 942 327 l 1
+ 140 327 l 1
+ 110 367 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CC
+Encoding: 8652 8652 651
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+126 327 m 1
+ 126 439 l 1
+ 736 439 l 1
+ 622 548 l 1
+ 696 624 l 1
+ 958 367 l 1
+ 928 327 l 1
+ 126 327 l 1
+110 193 m 1
+ 140 233 l 1
+ 942 233 l 1
+ 942 121 l 1
+ 332 121 l 1
+ 446 12 l 1
+ 372 -64 l 1
+ 110 193 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CD
+Encoding: 8653 8653 652
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 700 439 l 1
+ 761 585 l 1
+ 862 544 l 1
+ 818 439 l 1
+ 948 439 l 1
+ 948 327 l 1
+ 771 327 l 1
+ 731 233 l 1
+ 948 233 l 1
+ 948 121 l 1
+ 684 121 l 1
+ 623 -25 l 1
+ 522 16 l 1
+ 566 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+613 233 m 1
+ 653 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+ 310 233 l 1
+ 613 233 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CE
+Encoding: 8654 8654 653
+Width: 1300
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+263 280 m 1
+ 310 233 l 1
+ 571 233 l 1
+ 611 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 658 439 l 1
+ 719 585 l 1
+ 820 544 l 1
+ 776 439 l 1
+ 886 439 l 1
+ 820 506 l 1
+ 897 578 l 1
+ 1180 280 l 1
+ 897 -18 l 1
+ 820 54 l 1
+ 886 121 l 1
+ 642 121 l 1
+ 581 -25 l 1
+ 480 16 l 1
+ 524 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+729 327 m 1
+ 689 233 l 1
+ 990 233 l 1
+ 1037 280 l 1
+ 990 327 l 1
+ 729 327 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21CF
+Encoding: 8655 8655 654
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 121 m 1
+ 120 233 l 1
+ 297 233 l 1
+ 337 327 l 1
+ 120 327 l 1
+ 120 439 l 1
+ 384 439 l 1
+ 445 585 l 1
+ 546 544 l 1
+ 502 439 l 1
+ 654 439 l 1
+ 588 506 l 1
+ 665 578 l 1
+ 948 280 l 1
+ 665 -18 l 1
+ 588 54 l 1
+ 654 121 l 1
+ 368 121 l 1
+ 307 -25 l 1
+ 206 16 l 1
+ 250 121 l 1
+ 120 121 l 1
+455 327 m 1
+ 415 233 l 1
+ 758 233 l 1
+ 805 280 l 1
+ 758 327 l 1
+ 455 327 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D0
+Encoding: 8656 8656 655
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 948 439 l 1
+ 948 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+ 310 233 l 1
+ 948 233 l 1
+ 948 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D1
+Encoding: 8657 8657 656
+Width: 909
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+156 411 m 1
+ 455 694 l 1
+ 753 411 l 1
+ 681 334 l 1
+ 614 400 l 1
+ 614 -134 l 1
+ 502 -134 l 1
+ 502 504 l 1
+ 455 551 l 1
+ 408 504 l 1
+ 408 -134 l 1
+ 296 -134 l 1
+ 296 400 l 1
+ 228 334 l 1
+ 156 411 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D2
+Encoding: 8658 8658 657
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 121 m 1
+ 120 233 l 1
+ 758 233 l 1
+ 805 280 l 1
+ 758 327 l 1
+ 120 327 l 1
+ 120 439 l 1
+ 654 439 l 1
+ 588 506 l 1
+ 665 578 l 1
+ 948 280 l 1
+ 665 -18 l 1
+ 588 54 l 1
+ 654 121 l 1
+ 120 121 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D3
+Encoding: 8659 8659 658
+Width: 909
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+156 149 m 1
+ 228 226 l 1
+ 296 160 l 1
+ 296 694 l 1
+ 408 694 l 1
+ 408 56 l 1
+ 455 9 l 1
+ 502 56 l 1
+ 502 694 l 1
+ 614 694 l 1
+ 614 160 l 1
+ 681 226 l 1
+ 753 149 l 1
+ 455 -134 l 1
+ 156 149 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D4
+Encoding: 8660 8660 659
+Width: 1188
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+263 280 m 1
+ 310 233 l 1
+ 878 233 l 1
+ 925 280 l 1
+ 878 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 774 439 l 1
+ 708 506 l 1
+ 785 578 l 1
+ 1068 280 l 1
+ 785 -18 l 1
+ 708 54 l 1
+ 774 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D5
+Encoding: 8661 8661 660
+Width: 981
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+444 -4 m 1
+ 491 -51 l 1
+ 538 -4 l 1
+ 538 564 l 1
+ 491 611 l 1
+ 444 564 l 1
+ 444 -4 l 1
+192 89 m 1
+ 264 166 l 1
+ 332 100 l 1
+ 332 460 l 1
+ 264 394 l 1
+ 192 471 l 1
+ 491 754 l 1
+ 789 471 l 1
+ 717 394 l 1
+ 650 460 l 1
+ 650 100 l 1
+ 717 166 l 1
+ 789 89 l 1
+ 491 -194 l 1
+ 192 89 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D6
+Encoding: 8662 8662 661
+Width: 984
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+171 573 m 1
+ 582 583 l 1
+ 586 478 l 1
+ 491 477 l 1
+ 869 100 l 1
+ 790 20 l 1
+ 338 472 l 1
+ 272 472 l 1
+ 272 406 l 1
+ 723 -46 l 1
+ 644 -125 l 1
+ 266 253 l 1
+ 265 158 l 1
+ 161 161 l 1
+ 171 573 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D7
+Encoding: 8663 8663 662
+Width: 984
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+155 100 m 1
+ 533 477 l 1
+ 438 478 l 1
+ 442 583 l 1
+ 853 573 l 1
+ 864 161 l 1
+ 759 158 l 1
+ 758 253 l 1
+ 380 -125 l 1
+ 301 -46 l 1
+ 752 406 l 1
+ 752 472 l 1
+ 686 472 l 1
+ 234 20 l 1
+ 155 100 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D8
+Encoding: 8664 8664 663
+Width: 984
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+155 364 m 1
+ 234 443 l 1
+ 686 -8 l 1
+ 752 -8 l 1
+ 752 58 l 1
+ 301 509 l 1
+ 380 589 l 1
+ 758 211 l 1
+ 759 305 l 1
+ 864 302 l 1
+ 853 -110 l 1
+ 442 -120 l 1
+ 438 -15 l 1
+ 533 -14 l 1
+ 155 364 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21D9
+Encoding: 8665 8665 664
+Width: 984
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+171 -110 m 1
+ 161 302 l 1
+ 265 305 l 1
+ 266 211 l 1
+ 644 589 l 1
+ 723 509 l 1
+ 272 58 l 1
+ 272 -8 l 1
+ 338 -8 l 1
+ 790 443 l 1
+ 869 364 l 1
+ 491 -14 l 1
+ 586 -15 l 1
+ 582 -120 l 1
+ 171 -110 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21DA
+Encoding: 8666 8666 665
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 420 661 l 1
+ 502 596 l 1
+ 451 532 l 1
+ 948 532 l 1
+ 948 420 l 1
+ 366 420 l 1
+ 296 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 296 224 l 1
+ 366 140 l 1
+ 948 140 l 1
+ 948 28 l 1
+ 451 28 l 1
+ 502 -36 l 1
+ 420 -101 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21DB
+Encoding: 8667 8667 666
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 28 m 1
+ 120 140 l 1
+ 702 140 l 1
+ 772 224 l 1
+ 120 224 l 1
+ 120 336 l 1
+ 772 336 l 1
+ 702 420 l 1
+ 120 420 l 1
+ 120 532 l 1
+ 617 532 l 1
+ 566 596 l 1
+ 648 661 l 1
+ 948 280 l 1
+ 648 -101 l 1
+ 566 -36 l 1
+ 617 28 l 1
+ 120 28 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21DC
+Encoding: 8668 8668 667
+Width: 1254
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 397 336 l 2
+ 484 336 493 472 586 472 c 0
+ 717 472 707 204 743 204 c 0
+ 779 204 769 472 900 472 c 0
+ 993 472 1002 336 1089 336 c 2
+ 1134 336 l 1
+ 1134 224 l 1
+ 1083 224 l 2
+ 947 224 929 356 900 356 c 0
+ 864 356 874 87 743 87 c 0
+ 612 87 622 356 586 356 c 0
+ 557 356 539 224 403 224 c 2
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21DD
+Encoding: 8669 8669 668
+Width: 1254
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 166 336 l 2
+ 253 336 261 472 354 472 c 0
+ 485 472 476 204 512 204 c 0
+ 548 204 538 472 669 472 c 0
+ 762 472 771 336 858 336 c 2
+ 928 336 l 1
+ 815 445 l 1
+ 888 522 l 1
+ 1134 280 l 1
+ 888 38 l 1
+ 815 115 l 1
+ 928 224 l 1
+ 852 224 l 2
+ 716 224 698 356 669 356 c 0
+ 633 356 643 87 512 87 c 0
+ 381 87 390 356 354 356 c 0
+ 325 356 308 224 172 224 c 2
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21DE
+Encoding: 8670 8670 669
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 464 m 1
+ 362 710 l 1
+ 603 464 l 1
+ 527 390 l 1
+ 418 504 l 1
+ 418 305 l 1
+ 585 305 l 1
+ 585 193 l 1
+ 418 193 l 1
+ 418 126 l 1
+ 585 126 l 1
+ 585 14 l 1
+ 418 14 l 1
+ 418 -150 l 1
+ 306 -150 l 1
+ 306 14 l 1
+ 138 14 l 1
+ 138 126 l 1
+ 306 126 l 1
+ 306 193 l 1
+ 138 193 l 1
+ 138 305 l 1
+ 306 305 l 1
+ 306 504 l 1
+ 196 390 l 1
+ 120 464 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21DF
+Encoding: 8671 8671 670
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 96 m 1
+ 196 170 l 1
+ 306 56 l 1
+ 306 255 l 1
+ 138 255 l 1
+ 138 367 l 1
+ 306 367 l 1
+ 306 434 l 1
+ 138 434 l 1
+ 138 546 l 1
+ 306 546 l 1
+ 306 710 l 1
+ 418 710 l 1
+ 418 546 l 1
+ 585 546 l 1
+ 585 434 l 1
+ 418 434 l 1
+ 418 367 l 1
+ 585 367 l 1
+ 585 255 l 1
+ 418 255 l 1
+ 418 56 l 1
+ 527 170 l 1
+ 603 96 l 1
+ 362 -150 l 1
+ 120 96 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E0
+Encoding: 8672 8672 671
+Width: 1084
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+838 224 m 1
+ 838 336 l 1
+ 964 336 l 1
+ 964 224 l 1
+ 838 224 l 1
+668 224 m 1
+ 668 336 l 1
+ 794 336 l 1
+ 794 224 l 1
+ 668 224 l 1
+498 224 m 1
+ 498 336 l 1
+ 625 336 l 1
+ 625 224 l 1
+ 498 224 l 1
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 455 336 l 1
+ 455 224 l 1
+ 326 224 l 1
+ 445 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E1
+Encoding: 8673 8673 672
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+306 197 m 1
+ 306 324 l 1
+ 418 324 l 1
+ 418 197 l 1
+ 306 197 l 1
+306 28 m 1
+ 306 154 l 1
+ 418 154 l 1
+ 418 28 l 1
+ 306 28 l 1
+306 -142 m 1
+ 306 -16 l 1
+ 418 -16 l 1
+ 418 -142 l 1
+ 306 -142 l 1
+120 456 m 1
+ 362 702 l 1
+ 603 456 l 1
+ 527 382 l 1
+ 418 496 l 1
+ 418 367 l 1
+ 306 367 l 1
+ 306 496 l 1
+ 196 377 l 1
+ 120 456 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E2
+Encoding: 8674 8674 673
+Width: 1084
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+629 224 m 1
+ 629 336 l 1
+ 758 336 l 1
+ 644 445 l 1
+ 718 522 l 1
+ 964 280 l 1
+ 718 38 l 1
+ 639 115 l 1
+ 758 224 l 1
+ 629 224 l 1
+459 224 m 1
+ 459 336 l 1
+ 586 336 l 1
+ 586 224 l 1
+ 459 224 l 1
+290 224 m 1
+ 290 336 l 1
+ 416 336 l 1
+ 416 224 l 1
+ 290 224 l 1
+120 224 m 1
+ 120 336 l 1
+ 246 336 l 1
+ 246 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E3
+Encoding: 8675 8675 674
+Width: 723
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+306 576 m 1
+ 306 702 l 1
+ 418 702 l 1
+ 418 576 l 1
+ 306 576 l 1
+306 406 m 1
+ 306 532 l 1
+ 418 532 l 1
+ 418 406 l 1
+ 306 406 l 1
+306 236 m 1
+ 306 363 l 1
+ 418 363 l 1
+ 418 236 l 1
+ 306 236 l 1
+120 104 m 1
+ 196 183 l 1
+ 306 64 l 1
+ 306 193 l 1
+ 418 193 l 1
+ 418 64 l 1
+ 527 178 l 1
+ 603 104 l 1
+ 362 -142 l 1
+ 120 104 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E4
+Encoding: 8676 8676 675
+Width: 1167
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 57 m 1
+ 120 503 l 1
+ 232 503 l 1
+ 232 292 l 1
+ 466 522 l 1
+ 539 445 l 1
+ 426 336 l 1
+ 1048 336 l 1
+ 1048 224 l 1
+ 426 224 l 1
+ 539 115 l 1
+ 466 38 l 1
+ 232 268 l 1
+ 232 57 l 1
+ 120 57 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E5
+Encoding: 8677 8677 676
+Width: 1167
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 742 336 l 1
+ 628 445 l 1
+ 702 522 l 1
+ 936 292 l 1
+ 936 503 l 1
+ 1048 503 l 1
+ 1048 57 l 1
+ 936 57 l 1
+ 936 268 l 1
+ 702 38 l 1
+ 628 115 l 1
+ 742 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E6
+Encoding: 8678 8678 677
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+249 280 m 1
+ 392 146 l 1
+ 392 213 l 1
+ 858 213 l 1
+ 858 347 l 1
+ 392 347 l 1
+ 392 414 l 1
+ 249 280 l 1
+120 280 m 1
+ 453 594 l 1
+ 453 437 l 1
+ 948 437 l 1
+ 948 123 l 1
+ 453 123 l 1
+ 453 -34 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E7
+Encoding: 8679 8679 678
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+300 422 m 1
+ 367 422 l 1
+ 367 -44 l 1
+ 502 -44 l 1
+ 502 422 l 1
+ 568 422 l 1
+ 434 565 l 1
+ 300 422 l 1
+120 361 m 1
+ 434 694 l 1
+ 749 361 l 1
+ 591 361 l 1
+ 591 -134 l 1
+ 278 -134 l 1
+ 278 361 l 1
+ 120 361 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E8
+Encoding: 8680 8680 679
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+210 213 m 1
+ 676 213 l 1
+ 676 146 l 1
+ 819 280 l 1
+ 676 414 l 1
+ 676 347 l 1
+ 210 347 l 1
+ 210 213 l 1
+120 123 m 1
+ 120 437 l 1
+ 615 437 l 1
+ 615 594 l 1
+ 948 280 l 1
+ 615 -34 l 1
+ 615 123 l 1
+ 120 123 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21E9
+Encoding: 8681 8681 680
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+300 138 m 1
+ 434 -5 l 1
+ 568 138 l 1
+ 502 138 l 1
+ 502 604 l 1
+ 367 604 l 1
+ 367 138 l 1
+ 300 138 l 1
+120 199 m 1
+ 278 199 l 1
+ 278 694 l 1
+ 591 694 l 1
+ 591 199 l 1
+ 749 199 l 1
+ 434 -134 l 1
+ 120 199 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21EA
+Encoding: 8682 8682 681
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+359 7 m 1
+ 359 -57 l 1
+ 510 -57 l 1
+ 510 7 l 1
+ 359 7 l 1
+278 84 m 1
+ 591 84 l 1
+ 591 -134 l 1
+ 278 -134 l 1
+ 278 84 l 1
+300 422 m 1
+ 367 422 l 1
+ 367 213 l 1
+ 502 213 l 1
+ 502 422 l 1
+ 568 422 l 1
+ 434 565 l 1
+ 300 422 l 1
+120 361 m 1
+ 434 694 l 1
+ 749 361 l 1
+ 591 361 l 1
+ 591 136 l 1
+ 278 136 l 1
+ 278 361 l 1
+ 120 361 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21EB
+Encoding: 8683 8683 682
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+218 13 m 1
+ 218 -48 l 1
+ 651 -48 l 1
+ 651 13 l 1
+ 502 13 l 1
+ 502 422 l 1
+ 568 422 l 1
+ 434 565 l 1
+ 300 422 l 1
+ 367 422 l 1
+ 367 13 l 1
+ 218 13 l 1
+120 361 m 1
+ 434 694 l 1
+ 749 361 l 1
+ 591 361 l 1
+ 591 95 l 1
+ 741 95 l 1
+ 741 -134 l 1
+ 128 -134 l 1
+ 128 95 l 1
+ 278 95 l 1
+ 278 361 l 1
+ 120 361 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21EC
+Encoding: 8684 8684 683
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+373 517 m 1
+ 496 517 l 1
+ 434 581 l 1
+ 373 517 l 1
+218 13 m 1
+ 218 -48 l 1
+ 651 -48 l 1
+ 651 13 l 1
+ 502 13 l 1
+ 502 418 l 1
+ 591 418 l 1
+ 559 452 l 1
+ 310 452 l 1
+ 278 418 l 1
+ 367 418 l 1
+ 367 13 l 1
+ 218 13 l 1
+120 361 m 1
+ 434 694 l 1
+ 749 361 l 1
+ 588 361 l 1
+ 588 95 l 1
+ 741 95 l 1
+ 741 -134 l 1
+ 128 -134 l 1
+ 128 95 l 1
+ 281 95 l 1
+ 281 361 l 1
+ 120 361 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21ED
+Encoding: 8685 8685 684
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+473 -57 m 1
+ 664 -57 l 1
+ 664 -3 l 1
+ 520 -3 l 1
+ 520 422 l 1
+ 583 422 l 1
+ 473 544 l 1
+ 473 -57 l 1
+205 -3 m 1
+ 205 -57 l 1
+ 396 -57 l 1
+ 396 544 l 1
+ 286 422 l 1
+ 349 422 l 1
+ 349 -3 l 1
+ 205 -3 l 1
+120 361 m 1
+ 434 694 l 1
+ 749 361 l 1
+ 597 361 l 1
+ 597 69 l 1
+ 741 69 l 1
+ 741 -134 l 1
+ 128 -134 l 1
+ 128 69 l 1
+ 272 69 l 1
+ 272 361 l 1
+ 120 361 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21EE
+Encoding: 8686 8686 685
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+286 426 m 1
+ 347 426 l 1
+ 434 519 l 1
+ 522 426 l 1
+ 583 426 l 1
+ 434 581 l 1
+ 286 426 l 1
+286 251 m 1
+ 364 251 l 1
+ 364 -52 l 1
+ 505 -52 l 1
+ 505 251 l 1
+ 583 251 l 1
+ 434 406 l 1
+ 286 251 l 1
+120 186 m 1
+ 285 361 l 1
+ 120 361 l 1
+ 434 694 l 1
+ 749 361 l 1
+ 583 361 l 1
+ 749 186 l 1
+ 591 186 l 1
+ 591 -134 l 1
+ 278 -134 l 1
+ 278 186 l 1
+ 120 186 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21EF
+Encoding: 8687 8687 686
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+286 426 m 1
+ 347 426 l 1
+ 434 519 l 1
+ 522 426 l 1
+ 583 426 l 1
+ 434 581 l 1
+ 286 426 l 1
+210 2 m 1
+ 210 -56 l 1
+ 659 -56 l 1
+ 659 2 l 1
+ 505 2 l 1
+ 505 251 l 1
+ 583 251 l 1
+ 434 406 l 1
+ 286 251 l 1
+ 364 251 l 1
+ 364 2 l 1
+ 210 2 l 1
+120 186 m 1
+ 285 361 l 1
+ 120 361 l 1
+ 434 694 l 1
+ 749 361 l 1
+ 583 361 l 1
+ 749 186 l 1
+ 583 186 l 1
+ 583 79 l 1
+ 741 79 l 1
+ 741 -134 l 1
+ 128 -134 l 1
+ 128 79 l 1
+ 286 79 l 1
+ 286 186 l 1
+ 120 186 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F0
+Encoding: 8688 8688 687
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+206 63 m 1
+ 267 63 l 1
+ 267 213 l 1
+ 676 213 l 1
+ 676 146 l 1
+ 819 280 l 1
+ 676 414 l 1
+ 676 347 l 1
+ 267 347 l 1
+ 267 497 l 1
+ 206 497 l 1
+ 206 63 l 1
+120 -26 m 1
+ 120 586 l 1
+ 349 586 l 1
+ 349 437 l 1
+ 615 437 l 1
+ 615 594 l 1
+ 948 280 l 1
+ 615 -34 l 1
+ 615 123 l 1
+ 349 123 l 1
+ 349 -26 l 1
+ 120 -26 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F1
+Encoding: 8689 8689 688
+Width: 1037
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+282 573 m 1
+ 627 570 l 1
+ 625 464 l 1
+ 468 467 l 1
+ 907 27 l 1
+ 828 -52 l 1
+ 388 387 l 1
+ 391 230 l 1
+ 285 228 l 1
+ 282 573 l 1
+120 -62 m 1
+ 120 734 l 1
+ 917 734 l 1
+ 917 622 l 1
+ 232 622 l 1
+ 232 -62 l 1
+ 120 -62 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F2
+Encoding: 8690 8690 689
+Width: 1037
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+130 646 m 1
+ 209 725 l 1
+ 649 285 l 1
+ 646 443 l 1
+ 752 445 l 1
+ 755 100 l 1
+ 410 103 l 1
+ 412 209 l 1
+ 570 206 l 1
+ 130 646 l 1
+120 -62 m 1
+ 120 50 l 1
+ 805 50 l 1
+ 805 734 l 1
+ 917 734 l 1
+ 917 -62 l 1
+ 120 -62 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F3
+Encoding: 8691 8691 690
+Width: 868
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+300 104 m 1
+ 434 -39 l 1
+ 568 104 l 1
+ 502 104 l 1
+ 502 456 l 1
+ 568 456 l 1
+ 434 599 l 1
+ 300 456 l 1
+ 367 456 l 1
+ 367 104 l 1
+ 300 104 l 1
+120 165 m 1
+ 278 165 l 1
+ 278 395 l 1
+ 120 395 l 1
+ 434 728 l 1
+ 749 395 l 1
+ 591 395 l 1
+ 591 165 l 1
+ 749 165 l 1
+ 434 -168 l 1
+ 120 165 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F4
+Encoding: 8692 8692 691
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 247 336 l 1
+ 271 417 347 477 436 477 c 0
+ 525 477 601 417 625 336 c 1
+ 774 336 l 1
+ 660 445 l 1
+ 734 522 l 1
+ 980 280 l 1
+ 734 38 l 1
+ 660 115 l 1
+ 774 224 l 1
+ 625 224 l 1
+ 601 143 525 83 436 83 c 0
+ 347 83 271 143 247 224 c 1
+ 120 224 l 1
+340 232 m 1
+ 358 197 394 173 436 173 c 0
+ 478 173 514 197 532 232 c 1
+ 340 232 l 1
+532 328 m 1
+ 514 363 478 387 436 387 c 0
+ 394 387 358 363 340 328 c 1
+ 532 328 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F5
+Encoding: 8693 8693 692
+Width: 1037
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+440 466 m 1
+ 676 706 l 1
+ 917 460 l 1
+ 841 386 l 1
+ 732 500 l 1
+ 732 -122 l 1
+ 620 -122 l 1
+ 620 500 l 1
+ 517 393 l 1
+ 440 466 l 1
+120 100 m 1
+ 196 174 l 1
+ 306 60 l 1
+ 306 682 l 1
+ 418 682 l 1
+ 418 60 l 1
+ 521 167 l 1
+ 597 94 l 1
+ 362 -146 l 1
+ 120 100 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F6
+Encoding: 8694 8694 693
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 538 m 1
+ 120 650 l 1
+ 742 650 l 1
+ 628 759 l 1
+ 702 836 l 1
+ 948 594 l 1
+ 788 437 l 1
+ 948 280 l 1
+ 788 123 l 1
+ 948 -34 l 1
+ 702 -276 l 1
+ 628 -199 l 1
+ 742 -90 l 1
+ 120 -90 l 1
+ 120 22 l 1
+ 742 22 l 1
+ 636 123 l 1
+ 742 224 l 1
+ 120 224 l 1
+ 120 336 l 1
+ 742 336 l 1
+ 636 437 l 1
+ 742 538 l 1
+ 120 538 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F7
+Encoding: 8695 8695 694
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 599 336 l 1
+ 599 503 l 1
+ 711 503 l 1
+ 711 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 711 224 l 1
+ 711 57 l 1
+ 599 57 l 1
+ 599 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F8
+Encoding: 8696 8696 695
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 357 336 l 1
+ 357 503 l 1
+ 469 503 l 1
+ 469 336 l 1
+ 742 336 l 1
+ 628 445 l 1
+ 702 522 l 1
+ 948 280 l 1
+ 702 38 l 1
+ 628 115 l 1
+ 742 224 l 1
+ 469 224 l 1
+ 469 57 l 1
+ 357 57 l 1
+ 357 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21F9
+Encoding: 8697 8697 696
+Width: 1208
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 548 336 l 1
+ 548 503 l 1
+ 660 503 l 1
+ 660 336 l 1
+ 882 336 l 1
+ 768 445 l 1
+ 842 522 l 1
+ 1088 280 l 1
+ 842 38 l 1
+ 768 115 l 1
+ 882 224 l 1
+ 660 224 l 1
+ 660 57 l 1
+ 548 57 l 1
+ 548 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21FA
+Encoding: 8698 8698 697
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 525 336 l 1
+ 525 503 l 1
+ 637 503 l 1
+ 637 336 l 1
+ 704 336 l 1
+ 704 503 l 1
+ 816 503 l 1
+ 816 336 l 1
+ 980 336 l 1
+ 980 224 l 1
+ 816 224 l 1
+ 816 57 l 1
+ 704 57 l 1
+ 704 224 l 1
+ 637 224 l 1
+ 637 57 l 1
+ 525 57 l 1
+ 525 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21FB
+Encoding: 8699 8699 698
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 284 336 l 1
+ 284 503 l 1
+ 396 503 l 1
+ 396 336 l 1
+ 463 336 l 1
+ 463 503 l 1
+ 575 503 l 1
+ 575 336 l 1
+ 774 336 l 1
+ 660 445 l 1
+ 734 522 l 1
+ 980 280 l 1
+ 734 38 l 1
+ 660 115 l 1
+ 774 224 l 1
+ 575 224 l 1
+ 575 57 l 1
+ 463 57 l 1
+ 463 224 l 1
+ 396 224 l 1
+ 396 57 l 1
+ 284 57 l 1
+ 284 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21FC
+Encoding: 8700 8700 699
+Width: 1268
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 488 336 l 1
+ 488 503 l 1
+ 600 503 l 1
+ 600 336 l 1
+ 668 336 l 1
+ 668 503 l 1
+ 780 503 l 1
+ 780 336 l 1
+ 942 336 l 1
+ 828 445 l 1
+ 902 522 l 1
+ 1148 280 l 1
+ 902 38 l 1
+ 828 115 l 1
+ 942 224 l 1
+ 780 224 l 1
+ 780 57 l 1
+ 668 57 l 1
+ 668 224 l 1
+ 600 224 l 1
+ 600 57 l 1
+ 488 57 l 1
+ 488 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21FD
+Encoding: 8701 8701 700
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+243 280 m 1
+ 339 189 l 1
+ 339 371 l 1
+ 243 280 l 1
+120 280 m 1
+ 422 565 l 1
+ 422 334 l 1
+ 948 334 l 1
+ 948 226 l 1
+ 422 226 l 1
+ 422 -5 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21FE
+Encoding: 8702 8702 701
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+729 189 m 1
+ 825 280 l 1
+ 729 371 l 1
+ 729 189 l 1
+120 226 m 1
+ 120 334 l 1
+ 646 334 l 1
+ 646 565 l 1
+ 948 280 l 1
+ 646 -5 l 1
+ 646 226 l 1
+ 120 226 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21FF
+Encoding: 8703 8703 702
+Width: 1212
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+873 189 m 1
+ 969 280 l 1
+ 873 371 l 1
+ 873 189 l 1
+243 280 m 1
+ 339 189 l 1
+ 339 371 l 1
+ 243 280 l 1
+120 280 m 1
+ 422 565 l 1
+ 422 334 l 1
+ 790 334 l 1
+ 790 565 l 1
+ 1092 280 l 1
+ 790 -5 l 1
+ 790 226 l 1
+ 422 226 l 1
+ 422 -5 l 1
+ 120 280 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2202
-Encoding: 8706 8706 601
+Encoding: 8706 8706 703
 Width: 534
 Flags: W
 LayerCount: 2
@@ -15317,7 +18193,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2205
-Encoding: 8709 8709 602
+Encoding: 8709 8709 704
 Width: 900
 Flags: W
 LayerCount: 2
@@ -15350,7 +18226,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2206
-Encoding: 8710 8710 603
+Encoding: 8710 8710 705
 Width: 595
 Flags: W
 LayerCount: 2
@@ -15369,7 +18245,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni220F
-Encoding: 8719 8719 604
+Encoding: 8719 8719 706
 Width: 782
 Flags: W
 LayerCount: 2
@@ -15392,7 +18268,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2210
-Encoding: 8720 8720 605
+Encoding: 8720 8720 707
 Width: 782
 Flags: W
 LayerCount: 2
@@ -15415,7 +18291,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2211
-Encoding: 8721 8721 606
+Encoding: 8721 8721 708
 Width: 700
 VWidth: 1002
 Flags: W
@@ -15440,7 +18316,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2212
-Encoding: 8722 8722 607
+Encoding: 8722 8722 709
 Width: 524
 Flags: W
 LayerCount: 2
@@ -15455,7 +18331,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2213
-Encoding: 8723 8723 608
+Encoding: 8723 8723 710
 Width: 524
 Flags: W
 LayerCount: 2
@@ -15483,7 +18359,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2214
-Encoding: 8724 8724 609
+Encoding: 8724 8724 711
 Width: 524
 Flags: W
 LayerCount: 2
@@ -15511,7 +18387,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2218
-Encoding: 8728 8728 610
+Encoding: 8728 8728 712
 Width: 340
 VWidth: 981
 Flags: W
@@ -15532,7 +18408,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2219
-Encoding: 8729 8729 611
+Encoding: 8729 8729 713
 Width: 300
 VWidth: 981
 Flags: W
@@ -15548,7 +18424,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni221E
-Encoding: 8734 8734 612
+Encoding: 8734 8734 714
 Width: 897
 Flags: W
 LayerCount: 2
@@ -15577,7 +18453,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222B
-Encoding: 8747 8747 613
+Encoding: 8747 8747 715
 Width: 766
 Flags: W
 LayerCount: 2
@@ -15600,7 +18476,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222C
-Encoding: 8748 8748 614
+Encoding: 8748 8748 716
 Width: 1066
 Flags: W
 LayerCount: 2
@@ -15636,7 +18512,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222D
-Encoding: 8749 8749 615
+Encoding: 8749 8749 717
 Width: 1366
 Flags: W
 LayerCount: 2
@@ -15685,7 +18561,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222E
-Encoding: 8750 8750 616
+Encoding: 8750 8750 718
 Width: 766
 Flags: W
 LayerCount: 2
@@ -15718,7 +18594,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222F
-Encoding: 8751 8751 617
+Encoding: 8751 8751 719
 Width: 1061
 Flags: W
 LayerCount: 2
@@ -15772,7 +18648,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2230
-Encoding: 8752 8752 618
+Encoding: 8752 8752 720
 Width: 1356
 Flags: W
 LayerCount: 2
@@ -15839,7 +18715,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni22C5
-Encoding: 8901 8901 619
+Encoding: 8901 8901 721
 Width: 300
 VWidth: 981
 Flags: W
@@ -15855,7 +18731,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni25CB
-Encoding: 9675 9675 620
+Encoding: 9675 9675 722
 Width: 872
 Flags: W
 LayerCount: 2
@@ -15875,7 +18751,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni25CF
-Encoding: 9679 9679 621
+Encoding: 9679 9679 723
 Width: 920
 Flags: W
 LayerCount: 2
@@ -15890,7 +18766,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni25E6
-Encoding: 9702 9702 622
+Encoding: 9702 9702 724
 Width: 504
 Flags: W
 LayerCount: 2
@@ -15910,7 +18786,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni25EF
-Encoding: 9711 9711 623
+Encoding: 9711 9711 725
 Width: 1160
 Flags: W
 LayerCount: 2
@@ -15930,7 +18806,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni26AA
-Encoding: 9898 9898 624
+Encoding: 9898 9898 726
 Width: 748
 Flags: W
 LayerCount: 2
@@ -15950,7 +18826,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni26AB
-Encoding: 9899 9899 625
+Encoding: 9899 9899 727
 Width: 740
 Flags: W
 LayerCount: 2
@@ -15965,7 +18841,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni26AC
-Encoding: 9900 9900 626
+Encoding: 9900 9900 728
 Width: 616
 Flags: W
 LayerCount: 2
@@ -15984,8 +18860,517 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: uni27F0
+Encoding: 10224 10224 729
+Width: 1051
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 413 m 1
+ 526 694 l 1
+ 932 413 l 1
+ 872 326 l 1
+ 835 351 l 1
+ 835 -134 l 1
+ 729 -134 l 1
+ 729 424 l 1
+ 663 471 l 1
+ 663 -134 l 1
+ 557 -134 l 1
+ 557 543 l 1
+ 526 566 l 1
+ 491 541 l 1
+ 491 -134 l 1
+ 385 -134 l 1
+ 385 469 l 1
+ 319 422 l 1
+ 319 -134 l 1
+ 213 -134 l 1
+ 213 349 l 1
+ 180 326 l 1
+ 120 413 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F1
+Encoding: 10225 10225 730
+Width: 1051
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 147 m 1
+ 180 234 l 1
+ 213 211 l 1
+ 213 694 l 1
+ 319 694 l 1
+ 319 138 l 1
+ 385 91 l 1
+ 385 694 l 1
+ 491 694 l 1
+ 491 19 l 1
+ 526 -6 l 1
+ 557 17 l 1
+ 557 694 l 1
+ 663 694 l 1
+ 663 89 l 1
+ 729 136 l 1
+ 729 694 l 1
+ 835 694 l 1
+ 835 209 l 1
+ 872 234 l 1
+ 932 147 l 1
+ 526 -134 l 1
+ 120 147 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F2
+Encoding: 10226 10226 731
+Width: 980
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 628 m 1
+ 216 644 l 1
+ 241 493 l 1
+ 300 587 404 650 524 650 c 0
+ 710 650 860 500 860 314 c 0
+ 860 128 710 -22 524 -22 c 0
+ 399 -22 291 47 234 148 c 1
+ 330 206 l 1
+ 368 137 439 90 524 90 c 0
+ 648 90 748 190 748 314 c 0
+ 748 438 648 538 524 538 c 0
+ 443 538 371 492 332 428 c 1
+ 481 460 l 1
+ 500 365 l 1
+ 176 303 l 1
+ 120 628 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F3
+Encoding: 10227 10227 732
+Width: 980
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 314 m 0
+ 120 500 270 650 456 650 c 0
+ 576 650 680 587 739 493 c 1
+ 764 644 l 1
+ 860 628 l 1
+ 804 303 l 1
+ 480 365 l 1
+ 499 460 l 1
+ 648 428 l 1
+ 609 492 537 538 456 538 c 0
+ 332 538 232 438 232 314 c 0
+ 232 190 332 90 456 90 c 0
+ 541 90 612 137 650 206 c 1
+ 746 148 l 1
+ 689 47 581 -22 456 -22 c 0
+ 270 -22 120 128 120 314 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni27F4
+Encoding: 10228 10228 733
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 211 336 l 1
+ 236 434 325 507 431 507 c 0
+ 537 507 626 434 651 336 c 1
+ 774 336 l 1
+ 660 445 l 1
+ 734 522 l 1
+ 980 280 l 1
+ 734 38 l 1
+ 660 115 l 1
+ 774 224 l 1
+ 651 224 l 1
+ 626 126 537 53 431 53 c 0
+ 325 53 236 126 211 224 c 1
+ 120 224 l 1
+387 412 m 1
+ 346 398 313 365 299 324 c 1
+ 387 324 l 1
+ 387 412 l 1
+476 412 m 1
+ 476 324 l 1
+ 563 324 l 1
+ 549 365 517 398 476 412 c 1
+476 148 m 1
+ 517 162 549 195 563 236 c 1
+ 476 236 l 1
+ 476 148 l 1
+387 148 m 1
+ 387 236 l 1
+ 299 236 l 1
+ 313 195 346 162 387 148 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F5
+Encoding: 10229 10229 734
+Width: 1724
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 1604 336 l 1
+ 1604 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F6
+Encoding: 10230 10230 735
+Width: 1724
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 224 m 1
+ 120 336 l 1
+ 1398 336 l 1
+ 1284 445 l 1
+ 1358 522 l 1
+ 1604 280 l 1
+ 1358 38 l 1
+ 1284 115 l 1
+ 1398 224 l 1
+ 120 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F7
+Encoding: 10231 10231 736
+Width: 1828
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 1502 336 l 1
+ 1388 445 l 1
+ 1462 522 l 1
+ 1708 280 l 1
+ 1462 38 l 1
+ 1388 115 l 1
+ 1502 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F8
+Encoding: 10232 10232 737
+Width: 1708
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 1588 439 l 1
+ 1588 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+ 310 233 l 1
+ 1588 233 l 1
+ 1588 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27F9
+Encoding: 10233 10233 738
+Width: 1708
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 121 m 1
+ 120 233 l 1
+ 1398 233 l 1
+ 1445 280 l 1
+ 1398 327 l 1
+ 120 327 l 1
+ 120 439 l 1
+ 1294 439 l 1
+ 1228 506 l 1
+ 1305 578 l 1
+ 1588 280 l 1
+ 1305 -18 l 1
+ 1228 54 l 1
+ 1294 121 l 1
+ 120 121 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27FA
+Encoding: 10234 10234 739
+Width: 1828
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+263 280 m 1
+ 310 233 l 1
+ 1518 233 l 1
+ 1565 280 l 1
+ 1518 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 1414 439 l 1
+ 1348 506 l 1
+ 1425 578 l 1
+ 1708 280 l 1
+ 1425 -18 l 1
+ 1348 54 l 1
+ 1414 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27FB
+Encoding: 10235 10235 740
+Width: 1708
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 1476 336 l 1
+ 1476 503 l 1
+ 1588 503 l 1
+ 1588 57 l 1
+ 1476 57 l 1
+ 1476 224 l 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27FC
+Encoding: 10236 10236 741
+Width: 1708
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 57 m 1
+ 120 503 l 1
+ 232 503 l 1
+ 232 336 l 1
+ 1382 336 l 1
+ 1268 445 l 1
+ 1342 522 l 1
+ 1588 280 l 1
+ 1342 38 l 1
+ 1268 115 l 1
+ 1382 224 l 1
+ 232 224 l 1
+ 232 57 l 1
+ 120 57 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27FD
+Encoding: 10237 10237 742
+Width: 1708
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+263 280 m 1
+ 310 233 l 1
+ 1474 233 l 1
+ 1474 327 l 1
+ 310 327 l 1
+ 263 280 l 1
+120 280 m 1
+ 403 578 l 1
+ 480 506 l 1
+ 414 439 l 1
+ 1474 439 l 1
+ 1474 557 l 1
+ 1588 557 l 1
+ 1588 3 l 1
+ 1474 3 l 1
+ 1474 121 l 1
+ 414 121 l 1
+ 480 54 l 1
+ 403 -18 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27FE
+Encoding: 10238 10238 743
+Width: 1708
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+234 233 m 1
+ 1398 233 l 1
+ 1445 280 l 1
+ 1398 327 l 1
+ 234 327 l 1
+ 234 233 l 1
+120 3 m 1
+ 120 557 l 1
+ 234 557 l 1
+ 234 439 l 1
+ 1294 439 l 1
+ 1228 506 l 1
+ 1305 578 l 1
+ 1588 280 l 1
+ 1305 -18 l 1
+ 1228 54 l 1
+ 1294 121 l 1
+ 234 121 l 1
+ 234 3 l 1
+ 120 3 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni27FF
+Encoding: 10239 10239 744
+Width: 1859
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+108 224 m 1
+ 108 336 l 1
+ 154 336 l 2
+ 241 336 249 472 342 472 c 0
+ 473 472 464 204 500 204 c 0
+ 536 204 526 472 657 472 c 0
+ 788 472 778 204 814 204 c 0
+ 850 204 840 472 971 472 c 0
+ 1102 472 1092 204 1128 204 c 0
+ 1164 204 1155 472 1286 472 c 0
+ 1379 472 1387 336 1474 336 c 2
+ 1545 336 l 1
+ 1431 445 l 1
+ 1505 522 l 1
+ 1751 280 l 1
+ 1505 38 l 1
+ 1431 115 l 1
+ 1545 224 l 1
+ 1468 224 l 2
+ 1332 224 1315 356 1286 356 c 0
+ 1250 356 1259 87 1128 87 c 0
+ 997 87 1007 356 971 356 c 0
+ 935 356 945 87 814 87 c 0
+ 683 87 693 356 657 356 c 0
+ 621 356 631 87 500 87 c 0
+ 369 87 378 356 342 356 c 0
+ 313 356 296 224 160 224 c 2
+ 108 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni290A
+Encoding: 10506 10506 745
+Width: 1002
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 394 m 1
+ 501 694 l 1
+ 882 394 l 1
+ 817 312 l 1
+ 753 363 l 1
+ 753 -134 l 1
+ 641 -134 l 1
+ 641 448 l 1
+ 557 518 l 1
+ 557 -134 l 1
+ 445 -134 l 1
+ 445 518 l 1
+ 361 448 l 1
+ 361 -134 l 1
+ 249 -134 l 1
+ 249 363 l 1
+ 185 312 l 1
+ 120 394 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni290B
+Encoding: 10507 10507 746
+Width: 1002
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 166 m 1
+ 185 248 l 1
+ 249 197 l 1
+ 249 694 l 1
+ 361 694 l 1
+ 361 112 l 1
+ 445 42 l 1
+ 445 694 l 1
+ 557 694 l 1
+ 557 42 l 1
+ 641 112 l 1
+ 641 694 l 1
+ 753 694 l 1
+ 753 197 l 1
+ 817 248 l 1
+ 882 166 l 1
+ 501 -134 l 1
+ 120 166 l 1
+EndSplineSet
+EndChar
+
 StartChar: uni2981
-Encoding: 10625 10625 627
+Encoding: 10625 10625 747
 Width: 608
 Flags: W
 LayerCount: 2
@@ -16000,7 +19385,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2A0C
-Encoding: 10764 10764 628
+Encoding: 10764 10764 748
 Width: 1666
 Flags: W
 LayerCount: 2
@@ -16062,7 +19447,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2B24
-Encoding: 11044 11044 629
+Encoding: 11044 11044 749
 Width: 1160
 Flags: W
 LayerCount: 2
@@ -16076,8 +19461,222 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: uni2B30
+Encoding: 11056 11056 750
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 475 336 l 1
+ 499 417 575 477 664 477 c 0
+ 753 477 829 417 853 336 c 1
+ 980 336 l 1
+ 980 224 l 1
+ 853 224 l 1
+ 829 143 753 83 664 83 c 0
+ 575 83 499 143 475 224 c 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+568 232 m 1
+ 586 197 622 173 664 173 c 0
+ 706 173 742 197 760 232 c 1
+ 568 232 l 1
+760 328 m 1
+ 742 363 706 387 664 387 c 0
+ 622 387 586 363 568 328 c 1
+ 760 328 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2B31
+Encoding: 11057 11057 751
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 594 m 1
+ 366 836 l 1
+ 440 759 l 1
+ 326 650 l 1
+ 948 650 l 1
+ 948 538 l 1
+ 326 538 l 1
+ 432 437 l 1
+ 326 336 l 1
+ 948 336 l 1
+ 948 224 l 1
+ 326 224 l 1
+ 432 123 l 1
+ 326 22 l 1
+ 948 22 l 1
+ 948 -90 l 1
+ 326 -90 l 1
+ 440 -199 l 1
+ 366 -276 l 1
+ 120 -34 l 1
+ 280 123 l 1
+ 120 280 l 1
+ 280 437 l 1
+ 120 594 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2B32
+Encoding: 11058 11058 752
+Width: 1100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 366 522 l 1
+ 440 445 l 1
+ 326 336 l 1
+ 449 336 l 1
+ 474 434 563 507 669 507 c 0
+ 775 507 864 434 889 336 c 1
+ 980 336 l 1
+ 980 224 l 1
+ 889 224 l 1
+ 864 126 775 53 669 53 c 0
+ 563 53 474 126 449 224 c 1
+ 326 224 l 1
+ 440 115 l 1
+ 366 38 l 1
+ 120 280 l 1
+624 412 m 1
+ 583 398 551 365 537 324 c 1
+ 624 324 l 1
+ 624 412 l 1
+713 412 m 1
+ 713 324 l 1
+ 801 324 l 1
+ 787 365 754 398 713 412 c 1
+713 148 m 1
+ 754 162 787 195 801 236 c 1
+ 713 236 l 1
+ 713 148 l 1
+624 148 m 1
+ 624 236 l 1
+ 537 236 l 1
+ 551 195 583 162 624 148 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni2B33
+Encoding: 11059 11059 753
+Width: 1859
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+108 280 m 1
+ 354 522 l 1
+ 428 445 l 1
+ 314 336 l 1
+ 385 336 l 2
+ 472 336 481 472 574 472 c 0
+ 705 472 695 204 731 204 c 0
+ 767 204 757 472 888 472 c 0
+ 1019 472 1009 204 1045 204 c 0
+ 1081 204 1071 472 1202 472 c 0
+ 1333 472 1324 204 1360 204 c 0
+ 1396 204 1386 472 1517 472 c 0
+ 1610 472 1619 336 1706 336 c 2
+ 1751 336 l 1
+ 1751 224 l 1
+ 1700 224 l 2
+ 1564 224 1546 356 1517 356 c 0
+ 1481 356 1491 87 1360 87 c 0
+ 1229 87 1238 356 1202 356 c 0
+ 1166 356 1176 87 1045 87 c 0
+ 914 87 924 356 888 356 c 0
+ 852 356 862 87 731 87 c 0
+ 600 87 610 356 574 356 c 0
+ 545 356 527 224 391 224 c 2
+ 314 224 l 1
+ 428 115 l 1
+ 354 38 l 1
+ 108 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2B45
+Encoding: 11077 11077 754
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 280 m 1
+ 401 686 l 1
+ 488 626 l 1
+ 463 590 l 1
+ 948 590 l 1
+ 948 483 l 1
+ 390 483 l 1
+ 343 418 l 1
+ 948 418 l 1
+ 948 311 l 1
+ 271 311 l 1
+ 248 280 l 1
+ 273 246 l 1
+ 948 246 l 1
+ 948 139 l 1
+ 345 139 l 1
+ 392 74 l 1
+ 948 74 l 1
+ 948 -33 l 1
+ 465 -33 l 1
+ 488 -66 l 1
+ 401 -126 l 1
+ 120 280 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2B46
+Encoding: 11078 11078 755
+Width: 1068
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 -33 m 1
+ 120 74 l 1
+ 676 74 l 1
+ 723 139 l 1
+ 120 139 l 1
+ 120 246 l 1
+ 795 246 l 1
+ 820 280 l 1
+ 797 311 l 1
+ 120 311 l 1
+ 120 418 l 1
+ 725 418 l 1
+ 678 483 l 1
+ 120 483 l 1
+ 120 590 l 1
+ 605 590 l 1
+ 580 626 l 1
+ 667 686 l 1
+ 948 280 l 1
+ 667 -126 l 1
+ 580 -66 l 1
+ 603 -33 l 1
+ 120 -33 l 1
+EndSplineSet
+EndChar
+
 StartChar: uniFB00
-Encoding: 64256 64256 630
+Encoding: 64256 64256 756
 Width: 642
 Flags: W
 LayerCount: 2
@@ -16117,7 +19716,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFB01
-Encoding: 64257 64257 631
+Encoding: 64257 64257 757
 Width: 591
 Flags: W
 LayerCount: 2
@@ -16146,7 +19745,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFB02
-Encoding: 64258 64258 632
+Encoding: 64258 64258 758
 Width: 627
 Flags: W
 LayerCount: 2
@@ -16180,7 +19779,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFB03
-Encoding: 64259 64259 633
+Encoding: 64259 64259 759
 Width: 883
 Flags: W
 LayerCount: 2
@@ -16222,7 +19821,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFB04
-Encoding: 64260 64260 634
+Encoding: 64260 64260 760
 Width: 919
 Flags: W
 LayerCount: 2
@@ -16269,7 +19868,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D400
-Encoding: 119808 119808 635
+Encoding: 119808 119808 761
 Width: 601
 Flags: W
 LayerCount: 2
@@ -16292,7 +19891,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D401
-Encoding: 119809 119809 636
+Encoding: 119809 119809 762
 Width: 622
 Flags: W
 LayerCount: 2
@@ -16322,7 +19921,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D402
-Encoding: 119810 119810 637
+Encoding: 119810 119810 763
 Width: 584
 Flags: W
 LayerCount: 2
@@ -16343,7 +19942,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D403
-Encoding: 119811 119811 638
+Encoding: 119811 119811 764
 Width: 656
 Flags: W
 LayerCount: 2
@@ -16365,7 +19964,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D404
-Encoding: 119812 119812 639
+Encoding: 119812 119812 765
 Width: 520
 Flags: W
 LayerCount: 2
@@ -16388,7 +19987,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D405
-Encoding: 119813 119813 640
+Encoding: 119813 119813 766
 Width: 485
 Flags: W
 LayerCount: 2
@@ -16409,7 +20008,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D406
-Encoding: 119814 119814 641
+Encoding: 119814 119814 767
 Width: 653
 Flags: W
 LayerCount: 2
@@ -16434,7 +20033,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D407
-Encoding: 119815 119815 642
+Encoding: 119815 119815 768
 Width: 657
 Flags: W
 LayerCount: 2
@@ -16457,7 +20056,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D408
-Encoding: 119816 119816 643
+Encoding: 119816 119816 769
 Width: 292
 Flags: W
 LayerCount: 2
@@ -16472,7 +20071,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D409
-Encoding: 119817 119817 644
+Encoding: 119817 119817 770
 Width: 325
 Flags: W
 LayerCount: 2
@@ -16489,7 +20088,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D40A
-Encoding: 119818 119818 645
+Encoding: 119818 119818 771
 Width: 659
 Flags: W
 LayerCount: 2
@@ -16511,7 +20110,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D40B
-Encoding: 119819 119819 646
+Encoding: 119819 119819 772
 Width: 522
 Flags: W
 LayerCount: 2
@@ -16528,7 +20127,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D40C
-Encoding: 119820 119820 647
+Encoding: 119820 119820 773
 Width: 791
 Flags: W
 LayerCount: 2
@@ -16554,7 +20153,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D40D
-Encoding: 119821 119821 648
+Encoding: 119821 119821 774
 Width: 651
 Flags: W
 LayerCount: 2
@@ -16577,7 +20176,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D40E
-Encoding: 119822 119822 649
+Encoding: 119822 119822 775
 Width: 690
 Flags: W
 LayerCount: 2
@@ -16597,7 +20196,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D40F
-Encoding: 119823 119823 650
+Encoding: 119823 119823 776
 Width: 611
 Flags: W
 LayerCount: 2
@@ -16621,7 +20220,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D410
-Encoding: 119824 119824 651
+Encoding: 119824 119824 777
 Width: 690
 Flags: W
 LayerCount: 2
@@ -16644,7 +20243,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D411
-Encoding: 119825 119825 652
+Encoding: 119825 119825 778
 Width: 624
 Flags: W
 LayerCount: 2
@@ -16671,7 +20270,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D412
-Encoding: 119826 119826 653
+Encoding: 119826 119826 779
 Width: 588
 Flags: W
 LayerCount: 2
@@ -16696,7 +20295,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D413
-Encoding: 119827 119827 654
+Encoding: 119827 119827 780
 Width: 554
 Flags: W
 LayerCount: 2
@@ -16715,7 +20314,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D414
-Encoding: 119828 119828 655
+Encoding: 119828 119828 781
 Width: 644
 Flags: W
 LayerCount: 2
@@ -16736,7 +20335,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D415
-Encoding: 119829 119829 656
+Encoding: 119829 119829 782
 Width: 579
 Flags: W
 LayerCount: 2
@@ -16754,7 +20353,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D416
-Encoding: 119830 119830 657
+Encoding: 119830 119830 783
 Width: 859
 Flags: W
 LayerCount: 2
@@ -16778,7 +20377,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D417
-Encoding: 119831 119831 658
+Encoding: 119831 119831 784
 Width: 606
 Flags: W
 LayerCount: 2
@@ -16801,7 +20400,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D418
-Encoding: 119832 119832 659
+Encoding: 119832 119832 785
 Width: 620
 Flags: W
 LayerCount: 2
@@ -16821,7 +20420,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D419
-Encoding: 119833 119833 660
+Encoding: 119833 119833 786
 Width: 557
 Flags: W
 LayerCount: 2
@@ -16842,7 +20441,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D41A
-Encoding: 119834 119834 661
+Encoding: 119834 119834 787
 Width: 551
 Flags: W
 LayerCount: 2
@@ -16873,7 +20472,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D41B
-Encoding: 119835 119835 662
+Encoding: 119835 119835 788
 Width: 594
 Flags: W
 LayerCount: 2
@@ -16899,7 +20498,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D41C
-Encoding: 119836 119836 663
+Encoding: 119836 119836 789
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16920,7 +20519,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D41D
-Encoding: 119837 119837 664
+Encoding: 119837 119837 790
 Width: 596
 Flags: W
 LayerCount: 2
@@ -16946,7 +20545,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D41E
-Encoding: 119838 119838 665
+Encoding: 119838 119838 791
 Width: 560
 Flags: W
 LayerCount: 2
@@ -16971,7 +20570,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D41F
-Encoding: 119839 119839 666
+Encoding: 119839 119839 792
 Width: 369
 Flags: W
 LayerCount: 2
@@ -16998,7 +20597,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D420
-Encoding: 119840 119840 667
+Encoding: 119840 119840 793
 Width: 570
 Flags: W
 LayerCount: 2
@@ -17035,7 +20634,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D421
-Encoding: 119841 119841 668
+Encoding: 119841 119841 794
 Width: 570
 Flags: W
 LayerCount: 2
@@ -17058,7 +20657,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D422
-Encoding: 119842 119842 669
+Encoding: 119842 119842 795
 Width: 282
 Flags: W
 LayerCount: 2
@@ -17078,7 +20677,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D423
-Encoding: 119843 119843 670
+Encoding: 119843 119843 796
 Width: 282
 Flags: W
 LayerCount: 2
@@ -17100,7 +20699,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D424
-Encoding: 119844 119844 671
+Encoding: 119844 119844 797
 Width: 576
 Flags: W
 LayerCount: 2
@@ -17122,7 +20721,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D425
-Encoding: 119845 119845 672
+Encoding: 119845 119845 798
 Width: 303
 Flags: W
 LayerCount: 2
@@ -17141,7 +20740,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D426
-Encoding: 119846 119846 673
+Encoding: 119846 119846 799
 Width: 835
 Flags: W
 LayerCount: 2
@@ -17171,7 +20770,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D427
-Encoding: 119847 119847 674
+Encoding: 119847 119847 800
 Width: 570
 Flags: W
 LayerCount: 2
@@ -17194,7 +20793,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D428
-Encoding: 119848 119848 675
+Encoding: 119848 119848 801
 Width: 584
 Flags: W
 LayerCount: 2
@@ -17214,7 +20813,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D429
-Encoding: 119849 119849 676
+Encoding: 119849 119849 802
 Width: 594
 Flags: W
 LayerCount: 2
@@ -17240,7 +20839,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D42A
-Encoding: 119850 119850 677
+Encoding: 119850 119850 803
 Width: 596
 Flags: W
 LayerCount: 2
@@ -17266,7 +20865,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D42B
-Encoding: 119851 119851 678
+Encoding: 119851 119851 804
 Width: 410
 Flags: W
 LayerCount: 2
@@ -17287,7 +20886,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D42C
-Encoding: 119852 119852 679
+Encoding: 119852 119852 805
 Width: 488
 Flags: W
 LayerCount: 2
@@ -17312,7 +20911,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D42D
-Encoding: 119853 119853 680
+Encoding: 119853 119853 806
 Width: 401
 Flags: W
 LayerCount: 2
@@ -17339,7 +20938,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D42E
-Encoding: 119854 119854 681
+Encoding: 119854 119854 807
 Width: 564
 Flags: W
 LayerCount: 2
@@ -17362,7 +20961,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D42F
-Encoding: 119855 119855 682
+Encoding: 119855 119855 808
 Width: 526
 Flags: W
 LayerCount: 2
@@ -17380,7 +20979,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D430
-Encoding: 119856 119856 683
+Encoding: 119856 119856 809
 Width: 768
 Flags: W
 LayerCount: 2
@@ -17404,7 +21003,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D431
-Encoding: 119857 119857 684
+Encoding: 119857 119857 810
 Width: 528
 Flags: W
 LayerCount: 2
@@ -17427,7 +21026,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D432
-Encoding: 119858 119858 685
+Encoding: 119858 119858 811
 Width: 534
 Flags: W
 LayerCount: 2
@@ -17448,7 +21047,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D433
-Encoding: 119859 119859 686
+Encoding: 119859 119859 812
 Width: 467
 Flags: W
 LayerCount: 2
@@ -17469,7 +21068,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D434
-Encoding: 119860 119860 687
+Encoding: 119860 119860 813
 Width: 577
 Flags: W
 LayerCount: 2
@@ -17492,7 +21091,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D435
-Encoding: 119861 119861 688
+Encoding: 119861 119861 814
 Width: 606
 Flags: W
 LayerCount: 2
@@ -17522,7 +21121,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D436
-Encoding: 119862 119862 689
+Encoding: 119862 119862 815
 Width: 563
 Flags: W
 LayerCount: 2
@@ -17543,7 +21142,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D437
-Encoding: 119863 119863 690
+Encoding: 119863 119863 816
 Width: 641
 Flags: W
 LayerCount: 2
@@ -17565,7 +21164,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D438
-Encoding: 119864 119864 691
+Encoding: 119864 119864 817
 Width: 520
 Flags: W
 LayerCount: 2
@@ -17588,7 +21187,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D439
-Encoding: 119865 119865 692
+Encoding: 119865 119865 818
 Width: 480
 Flags: W
 LayerCount: 2
@@ -17609,7 +21208,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D43A
-Encoding: 119866 119866 693
+Encoding: 119866 119866 819
 Width: 632
 Flags: W
 LayerCount: 2
@@ -17634,7 +21233,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D43B
-Encoding: 119867 119867 694
+Encoding: 119867 119867 820
 Width: 660
 Flags: W
 LayerCount: 2
@@ -17657,7 +21256,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D43C
-Encoding: 119868 119868 695
+Encoding: 119868 119868 821
 Width: 291
 Flags: W
 LayerCount: 2
@@ -17672,7 +21271,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D43D
-Encoding: 119869 119869 696
+Encoding: 119869 119869 822
 Width: 308
 Flags: W
 LayerCount: 2
@@ -17689,7 +21288,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D43E
-Encoding: 119870 119870 697
+Encoding: 119870 119870 823
 Width: 613
 Flags: W
 LayerCount: 2
@@ -17711,7 +21310,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D43F
-Encoding: 119871 119871 698
+Encoding: 119871 119871 824
 Width: 502
 Flags: W
 LayerCount: 2
@@ -17728,7 +21327,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D440
-Encoding: 119872 119872 699
+Encoding: 119872 119872 825
 Width: 774
 Flags: W
 LayerCount: 2
@@ -17754,7 +21353,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D441
-Encoding: 119873 119873 700
+Encoding: 119873 119873 826
 Width: 659
 Flags: W
 LayerCount: 2
@@ -17777,7 +21376,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D442
-Encoding: 119874 119874 701
+Encoding: 119874 119874 827
 Width: 682
 Flags: W
 LayerCount: 2
@@ -17797,7 +21396,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D443
-Encoding: 119875 119875 702
+Encoding: 119875 119875 828
 Width: 587
 Flags: W
 LayerCount: 2
@@ -17821,7 +21420,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D444
-Encoding: 119876 119876 703
+Encoding: 119876 119876 829
 Width: 681
 Flags: W
 LayerCount: 2
@@ -17844,7 +21443,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D445
-Encoding: 119877 119877 704
+Encoding: 119877 119877 830
 Width: 605
 Flags: W
 LayerCount: 2
@@ -17871,7 +21470,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D446
-Encoding: 119878 119878 705
+Encoding: 119878 119878 831
 Width: 557
 Flags: W
 LayerCount: 2
@@ -17896,7 +21495,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D447
-Encoding: 119879 119879 706
+Encoding: 119879 119879 832
 Width: 526
 Flags: W
 LayerCount: 2
@@ -17915,7 +21514,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D448
-Encoding: 119880 119880 707
+Encoding: 119880 119880 833
 Width: 645
 Flags: W
 LayerCount: 2
@@ -17936,7 +21535,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D449
-Encoding: 119881 119881 708
+Encoding: 119881 119881 834
 Width: 558
 Flags: W
 LayerCount: 2
@@ -17954,7 +21553,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D44A
-Encoding: 119882 119882 709
+Encoding: 119882 119882 835
 Width: 833
 Flags: W
 LayerCount: 2
@@ -17978,7 +21577,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D44B
-Encoding: 119883 119883 710
+Encoding: 119883 119883 836
 Width: 563
 Flags: W
 LayerCount: 2
@@ -18001,7 +21600,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D44C
-Encoding: 119884 119884 711
+Encoding: 119884 119884 837
 Width: 574
 Flags: W
 LayerCount: 2
@@ -18021,7 +21620,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D44D
-Encoding: 119885 119885 712
+Encoding: 119885 119885 838
 Width: 530
 Flags: W
 LayerCount: 2
@@ -18042,7 +21641,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D44E
-Encoding: 119886 119886 713
+Encoding: 119886 119886 839
 Width: 571
 Flags: W
 LayerCount: 2
@@ -18067,7 +21666,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D44F
-Encoding: 119887 119887 714
+Encoding: 119887 119887 840
 Width: 581
 Flags: W
 LayerCount: 2
@@ -18091,7 +21690,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D450
-Encoding: 119888 119888 715
+Encoding: 119888 119888 841
 Width: 471
 Flags: W
 LayerCount: 2
@@ -18112,7 +21711,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D451
-Encoding: 119889 119889 716
+Encoding: 119889 119889 842
 Width: 586
 Flags: W
 LayerCount: 2
@@ -18138,7 +21737,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D452
-Encoding: 119890 119890 717
+Encoding: 119890 119890 843
 Width: 529
 Flags: W
 LayerCount: 2
@@ -18161,7 +21760,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D453
-Encoding: 119891 119891 718
+Encoding: 119891 119891 844
 Width: 342
 Flags: W
 LayerCount: 2
@@ -18190,7 +21789,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D454
-Encoding: 119892 119892 719
+Encoding: 119892 119892 845
 Width: 578
 Flags: W
 LayerCount: 2
@@ -18218,7 +21817,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D456
-Encoding: 119894 119894 720
+Encoding: 119894 119894 846
 Width: 278
 Flags: W
 LayerCount: 2
@@ -18238,7 +21837,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D457
-Encoding: 119895 119895 721
+Encoding: 119895 119895 847
 Width: 277
 Flags: W
 LayerCount: 2
@@ -18260,7 +21859,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D458
-Encoding: 119896 119896 722
+Encoding: 119896 119896 848
 Width: 561
 Flags: W
 LayerCount: 2
@@ -18285,7 +21884,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D459
-Encoding: 119897 119897 723
+Encoding: 119897 119897 849
 Width: 288
 Flags: W
 LayerCount: 2
@@ -18304,7 +21903,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D45A
-Encoding: 119898 119898 724
+Encoding: 119898 119898 850
 Width: 835
 Flags: W
 LayerCount: 2
@@ -18334,7 +21933,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D45B
-Encoding: 119899 119899 725
+Encoding: 119899 119899 851
 Width: 570
 Flags: W
 LayerCount: 2
@@ -18357,7 +21956,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D45C
-Encoding: 119900 119900 726
+Encoding: 119900 119900 852
 Width: 575
 Flags: W
 LayerCount: 2
@@ -18377,7 +21976,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D45D
-Encoding: 119901 119901 727
+Encoding: 119901 119901 853
 Width: 581
 Flags: W
 LayerCount: 2
@@ -18403,7 +22002,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D45E
-Encoding: 119902 119902 728
+Encoding: 119902 119902 854
 Width: 575
 Flags: W
 LayerCount: 2
@@ -18427,7 +22026,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D45F
-Encoding: 119903 119903 729
+Encoding: 119903 119903 855
 Width: 390
 Flags: W
 LayerCount: 2
@@ -18448,7 +22047,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D460
-Encoding: 119904 119904 730
+Encoding: 119904 119904 856
 Width: 471
 Flags: W
 LayerCount: 2
@@ -18473,7 +22072,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D461
-Encoding: 119905 119905 731
+Encoding: 119905 119905 857
 Width: 371
 Flags: W
 LayerCount: 2
@@ -18500,7 +22099,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D462
-Encoding: 119906 119906 732
+Encoding: 119906 119906 858
 Width: 566
 Flags: W
 LayerCount: 2
@@ -18523,7 +22122,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D463
-Encoding: 119907 119907 733
+Encoding: 119907 119907 859
 Width: 499
 Flags: W
 LayerCount: 2
@@ -18541,7 +22140,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D464
-Encoding: 119908 119908 734
+Encoding: 119908 119908 860
 Width: 732
 Flags: W
 LayerCount: 2
@@ -18565,7 +22164,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D465
-Encoding: 119909 119909 735
+Encoding: 119909 119909 861
 Width: 498
 Flags: W
 LayerCount: 2
@@ -18588,7 +22187,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D466
-Encoding: 119910 119910 736
+Encoding: 119910 119910 862
 Width: 502
 Flags: W
 LayerCount: 2
@@ -18609,7 +22208,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D467
-Encoding: 119911 119911 737
+Encoding: 119911 119911 863
 Width: 445
 Flags: W
 LayerCount: 2
@@ -18630,7 +22229,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D468
-Encoding: 119912 119912 738
+Encoding: 119912 119912 864
 Width: 589
 Flags: W
 LayerCount: 2
@@ -18653,7 +22252,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D469
-Encoding: 119913 119913 739
+Encoding: 119913 119913 865
 Width: 610
 Flags: W
 LayerCount: 2
@@ -18683,7 +22282,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D46A
-Encoding: 119914 119914 740
+Encoding: 119914 119914 866
 Width: 571
 Flags: W
 LayerCount: 2
@@ -18704,7 +22303,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D46B
-Encoding: 119915 119915 741
+Encoding: 119915 119915 867
 Width: 644
 Flags: W
 LayerCount: 2
@@ -18726,7 +22325,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D46C
-Encoding: 119916 119916 742
+Encoding: 119916 119916 868
 Width: 510
 Flags: W
 LayerCount: 2
@@ -18749,7 +22348,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D46D
-Encoding: 119917 119917 743
+Encoding: 119917 119917 869
 Width: 475
 Flags: W
 LayerCount: 2
@@ -18770,7 +22369,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D46E
-Encoding: 119918 119918 744
+Encoding: 119918 119918 870
 Width: 640
 Flags: W
 LayerCount: 2
@@ -18795,7 +22394,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D46F
-Encoding: 119919 119919 745
+Encoding: 119919 119919 871
 Width: 645
 Flags: W
 LayerCount: 2
@@ -18818,7 +22417,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D470
-Encoding: 119920 119920 746
+Encoding: 119920 119920 872
 Width: 289
 Flags: W
 LayerCount: 2
@@ -18833,7 +22432,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D471
-Encoding: 119921 119921 747
+Encoding: 119921 119921 873
 Width: 317
 Flags: W
 LayerCount: 2
@@ -18850,7 +22449,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D472
-Encoding: 119922 119922 748
+Encoding: 119922 119922 874
 Width: 647
 Flags: W
 LayerCount: 2
@@ -18872,7 +22471,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D473
-Encoding: 119923 119923 749
+Encoding: 119923 119923 875
 Width: 514
 Flags: W
 LayerCount: 2
@@ -18889,7 +22488,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D474
-Encoding: 119924 119924 750
+Encoding: 119924 119924 876
 Width: 777
 Flags: W
 LayerCount: 2
@@ -18915,7 +22514,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D475
-Encoding: 119925 119925 751
+Encoding: 119925 119925 877
 Width: 640
 Flags: W
 LayerCount: 2
@@ -18938,7 +22537,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D476
-Encoding: 119926 119926 752
+Encoding: 119926 119926 878
 Width: 678
 Flags: W
 LayerCount: 2
@@ -18958,7 +22557,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D477
-Encoding: 119927 119927 753
+Encoding: 119927 119927 879
 Width: 600
 Flags: W
 LayerCount: 2
@@ -18982,7 +22581,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D478
-Encoding: 119928 119928 754
+Encoding: 119928 119928 880
 Width: 678
 Flags: W
 LayerCount: 2
@@ -19005,7 +22604,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D479
-Encoding: 119929 119929 755
+Encoding: 119929 119929 881
 Width: 612
 Flags: W
 LayerCount: 2
@@ -19032,7 +22631,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D47A
-Encoding: 119930 119930 756
+Encoding: 119930 119930 882
 Width: 576
 Flags: W
 LayerCount: 2
@@ -19057,7 +22656,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D47B
-Encoding: 119931 119931 757
+Encoding: 119931 119931 883
 Width: 542
 Flags: W
 LayerCount: 2
@@ -19076,7 +22675,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D47C
-Encoding: 119932 119932 758
+Encoding: 119932 119932 884
 Width: 632
 Flags: W
 LayerCount: 2
@@ -19097,7 +22696,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D47D
-Encoding: 119933 119933 759
+Encoding: 119933 119933 885
 Width: 567
 Flags: W
 LayerCount: 2
@@ -19115,7 +22714,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D47E
-Encoding: 119934 119934 760
+Encoding: 119934 119934 886
 Width: 847
 Flags: W
 LayerCount: 2
@@ -19139,7 +22738,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D47F
-Encoding: 119935 119935 761
+Encoding: 119935 119935 887
 Width: 594
 Flags: W
 LayerCount: 2
@@ -19162,7 +22761,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D480
-Encoding: 119936 119936 762
+Encoding: 119936 119936 888
 Width: 608
 Flags: W
 LayerCount: 2
@@ -19182,7 +22781,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D481
-Encoding: 119937 119937 763
+Encoding: 119937 119937 889
 Width: 545
 Flags: W
 LayerCount: 2
@@ -19203,7 +22802,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D482
-Encoding: 119938 119938 764
+Encoding: 119938 119938 890
 Width: 574
 Flags: W
 LayerCount: 2
@@ -19228,7 +22827,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D483
-Encoding: 119939 119939 765
+Encoding: 119939 119939 891
 Width: 583
 Flags: W
 LayerCount: 2
@@ -19252,7 +22851,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D484
-Encoding: 119940 119940 766
+Encoding: 119940 119940 892
 Width: 469
 Flags: W
 LayerCount: 2
@@ -19273,7 +22872,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D485
-Encoding: 119941 119941 767
+Encoding: 119941 119941 893
 Width: 585
 Flags: W
 LayerCount: 2
@@ -19299,7 +22898,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D486
-Encoding: 119942 119942 768
+Encoding: 119942 119942 894
 Width: 542
 Flags: W
 LayerCount: 2
@@ -19322,7 +22921,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D487
-Encoding: 119943 119943 769
+Encoding: 119943 119943 895
 Width: 357
 Flags: W
 LayerCount: 2
@@ -19351,7 +22950,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D488
-Encoding: 119944 119944 770
+Encoding: 119944 119944 896
 Width: 575
 Flags: W
 LayerCount: 2
@@ -19379,7 +22978,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D489
-Encoding: 119945 119945 771
+Encoding: 119945 119945 897
 Width: 559
 Flags: W
 LayerCount: 2
@@ -19402,7 +23001,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D48A
-Encoding: 119946 119946 772
+Encoding: 119946 119946 898
 Width: 276
 Flags: W
 LayerCount: 2
@@ -19422,7 +23021,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D48B
-Encoding: 119947 119947 773
+Encoding: 119947 119947 899
 Width: 274
 Flags: W
 LayerCount: 2
@@ -19444,7 +23043,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D48C
-Encoding: 119948 119948 774
+Encoding: 119948 119948 900
 Width: 579
 Flags: W
 LayerCount: 2
@@ -19469,7 +23068,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D48D
-Encoding: 119949 119949 775
+Encoding: 119949 119949 901
 Width: 288
 Flags: W
 LayerCount: 2
@@ -19488,7 +23087,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D48E
-Encoding: 119950 119950 776
+Encoding: 119950 119950 902
 Width: 821
 Flags: W
 LayerCount: 2
@@ -19518,7 +23117,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D48F
-Encoding: 119951 119951 777
+Encoding: 119951 119951 903
 Width: 560
 Flags: W
 LayerCount: 2
@@ -19541,7 +23140,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D490
-Encoding: 119952 119952 778
+Encoding: 119952 119952 904
 Width: 572
 Flags: W
 LayerCount: 2
@@ -19561,7 +23160,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D491
-Encoding: 119953 119953 779
+Encoding: 119953 119953 905
 Width: 583
 Flags: W
 LayerCount: 2
@@ -19587,7 +23186,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D492
-Encoding: 119954 119954 780
+Encoding: 119954 119954 906
 Width: 574
 Flags: W
 LayerCount: 2
@@ -19611,7 +23210,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D493
-Encoding: 119955 119955 781
+Encoding: 119955 119955 907
 Width: 399
 Flags: W
 LayerCount: 2
@@ -19632,7 +23231,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D494
-Encoding: 119956 119956 782
+Encoding: 119956 119956 908
 Width: 481
 Flags: W
 LayerCount: 2
@@ -19657,7 +23256,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D495
-Encoding: 119957 119957 783
+Encoding: 119957 119957 909
 Width: 389
 Flags: W
 LayerCount: 2
@@ -19684,7 +23283,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D496
-Encoding: 119958 119958 784
+Encoding: 119958 119958 910
 Width: 554
 Flags: W
 LayerCount: 2
@@ -19707,7 +23306,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D497
-Encoding: 119959 119959 785
+Encoding: 119959 119959 911
 Width: 514
 Flags: W
 LayerCount: 2
@@ -19725,7 +23324,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D498
-Encoding: 119960 119960 786
+Encoding: 119960 119960 912
 Width: 756
 Flags: W
 LayerCount: 2
@@ -19749,7 +23348,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D499
-Encoding: 119961 119961 787
+Encoding: 119961 119961 913
 Width: 518
 Flags: W
 LayerCount: 2
@@ -19772,7 +23371,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D49A
-Encoding: 119962 119962 788
+Encoding: 119962 119962 914
 Width: 520
 Flags: W
 LayerCount: 2
@@ -19793,7 +23392,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D49B
-Encoding: 119963 119963 789
+Encoding: 119963 119963 915
 Width: 460
 Flags: W
 LayerCount: 2
@@ -19814,7 +23413,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6A4
-Encoding: 120484 120484 790
+Encoding: 120484 120484 916
 Width: 278
 Flags: W
 LayerCount: 2
@@ -19829,7 +23428,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6A5
-Encoding: 120485 120485 791
+Encoding: 120485 120485 917
 Width: 277
 Flags: W
 LayerCount: 2
@@ -19846,7 +23445,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6A8
-Encoding: 120488 120488 792
+Encoding: 120488 120488 918
 Width: 601
 Flags: W
 LayerCount: 2
@@ -19869,7 +23468,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6A9
-Encoding: 120489 120489 793
+Encoding: 120489 120489 919
 Width: 622
 Flags: W
 LayerCount: 2
@@ -19899,7 +23498,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6AA
-Encoding: 120490 120490 794
+Encoding: 120490 120490 920
 Width: 511
 Flags: W
 LayerCount: 2
@@ -19916,7 +23515,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6AB
-Encoding: 120491 120491 795
+Encoding: 120491 120491 921
 Width: 609
 Flags: W
 LayerCount: 2
@@ -19935,7 +23534,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6AC
-Encoding: 120492 120492 796
+Encoding: 120492 120492 922
 Width: 520
 Flags: W
 LayerCount: 2
@@ -19958,7 +23557,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6AD
-Encoding: 120493 120493 797
+Encoding: 120493 120493 923
 Width: 557
 Flags: W
 LayerCount: 2
@@ -19979,7 +23578,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6AE
-Encoding: 120494 120494 798
+Encoding: 120494 120494 924
 Width: 657
 Flags: W
 LayerCount: 2
@@ -20002,7 +23601,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6AF
-Encoding: 120495 120495 799
+Encoding: 120495 120495 925
 Width: 690
 Flags: W
 LayerCount: 2
@@ -20027,7 +23626,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B0
-Encoding: 120496 120496 800
+Encoding: 120496 120496 926
 Width: 292
 Flags: W
 LayerCount: 2
@@ -20042,7 +23641,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B1
-Encoding: 120497 120497 801
+Encoding: 120497 120497 927
 Width: 659
 Flags: W
 LayerCount: 2
@@ -20064,7 +23663,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B2
-Encoding: 120498 120498 802
+Encoding: 120498 120498 928
 Width: 601
 Flags: W
 LayerCount: 2
@@ -20082,7 +23681,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B3
-Encoding: 120499 120499 803
+Encoding: 120499 120499 929
 Width: 791
 Flags: W
 LayerCount: 2
@@ -20108,7 +23707,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B4
-Encoding: 120500 120500 804
+Encoding: 120500 120500 930
 Width: 651
 Flags: W
 LayerCount: 2
@@ -20131,7 +23730,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B5
-Encoding: 120501 120501 805
+Encoding: 120501 120501 931
 Width: 532
 Flags: W
 LayerCount: 2
@@ -20156,7 +23755,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B6
-Encoding: 120502 120502 806
+Encoding: 120502 120502 932
 Width: 690
 Flags: W
 LayerCount: 2
@@ -20176,7 +23775,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B7
-Encoding: 120503 120503 807
+Encoding: 120503 120503 933
 Width: 657
 Flags: W
 LayerCount: 2
@@ -20195,7 +23794,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B8
-Encoding: 120504 120504 808
+Encoding: 120504 120504 934
 Width: 611
 Flags: W
 LayerCount: 2
@@ -20219,7 +23818,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6B9
-Encoding: 120505 120505 809
+Encoding: 120505 120505 935
 Width: 690
 Flags: W
 LayerCount: 2
@@ -20242,7 +23841,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6BA
-Encoding: 120506 120506 810
+Encoding: 120506 120506 936
 Width: 503
 Flags: W
 LayerCount: 2
@@ -20266,7 +23865,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6BB
-Encoding: 120507 120507 811
+Encoding: 120507 120507 937
 Width: 554
 Flags: W
 LayerCount: 2
@@ -20285,7 +23884,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6BC
-Encoding: 120508 120508 812
+Encoding: 120508 120508 938
 Width: 620
 Flags: W
 LayerCount: 2
@@ -20305,7 +23904,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6BD
-Encoding: 120509 120509 813
+Encoding: 120509 120509 939
 Width: 863
 Flags: W
 LayerCount: 2
@@ -20334,7 +23933,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6BE
-Encoding: 120510 120510 814
+Encoding: 120510 120510 940
 Width: 606
 Flags: W
 LayerCount: 2
@@ -20357,7 +23956,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6BF
-Encoding: 120511 120511 815
+Encoding: 120511 120511 941
 Width: 748
 Flags: W
 LayerCount: 2
@@ -20384,7 +23983,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C0
-Encoding: 120512 120512 816
+Encoding: 120512 120512 942
 Width: 690
 Flags: W
 LayerCount: 2
@@ -20411,7 +24010,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C2
-Encoding: 120514 120514 817
+Encoding: 120514 120514 943
 Width: 599
 Flags: W
 LayerCount: 2
@@ -20439,7 +24038,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C3
-Encoding: 120515 120515 818
+Encoding: 120515 120515 944
 Width: 610
 Flags: W
 LayerCount: 2
@@ -20470,7 +24069,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C4
-Encoding: 120516 120516 819
+Encoding: 120516 120516 945
 Width: 523
 Flags: W
 LayerCount: 2
@@ -20490,7 +24089,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C5
-Encoding: 120517 120517 820
+Encoding: 120517 120517 946
 Width: 576
 Flags: W
 LayerCount: 2
@@ -20517,7 +24116,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C6
-Encoding: 120518 120518 821
+Encoding: 120518 120518 947
 Width: 486
 Flags: W
 LayerCount: 2
@@ -20545,7 +24144,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C7
-Encoding: 120519 120519 822
+Encoding: 120519 120519 948
 Width: 438
 Flags: W
 LayerCount: 2
@@ -20570,7 +24169,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C8
-Encoding: 120520 120520 823
+Encoding: 120520 120520 949
 Width: 570
 Flags: W
 LayerCount: 2
@@ -20594,7 +24193,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6C9
-Encoding: 120521 120521 824
+Encoding: 120521 120521 950
 Width: 556
 Flags: W
 LayerCount: 2
@@ -20617,7 +24216,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6CA
-Encoding: 120522 120522 825
+Encoding: 120522 120522 951
 Width: 279
 Flags: W
 LayerCount: 2
@@ -20634,7 +24233,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6CB
-Encoding: 120523 120523 826
+Encoding: 120523 120523 952
 Width: 568
 Flags: W
 LayerCount: 2
@@ -20660,7 +24259,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6CC
-Encoding: 120524 120524 827
+Encoding: 120524 120524 953
 Width: 553
 Flags: W
 LayerCount: 2
@@ -20681,7 +24280,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6CD
-Encoding: 120525 120525 828
+Encoding: 120525 120525 954
 Width: 579
 Flags: W
 LayerCount: 2
@@ -20708,7 +24307,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6CE
-Encoding: 120526 120526 829
+Encoding: 120526 120526 955
 Width: 523
 Flags: W
 LayerCount: 2
@@ -20726,7 +24325,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6CF
-Encoding: 120527 120527 830
+Encoding: 120527 120527 956
 Width: 458
 Flags: W
 LayerCount: 2
@@ -20756,7 +24355,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D0
-Encoding: 120528 120528 831
+Encoding: 120528 120528 957
 Width: 584
 Flags: W
 LayerCount: 2
@@ -20776,7 +24375,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D1
-Encoding: 120529 120529 832
+Encoding: 120529 120529 958
 Width: 622
 Flags: W
 LayerCount: 2
@@ -20802,7 +24401,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D2
-Encoding: 120530 120530 833
+Encoding: 120530 120530 959
 Width: 587
 Flags: W
 LayerCount: 2
@@ -20826,7 +24425,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D3
-Encoding: 120531 120531 834
+Encoding: 120531 120531 960
 Width: 484
 Flags: W
 LayerCount: 2
@@ -20849,7 +24448,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D4
-Encoding: 120532 120532 835
+Encoding: 120532 120532 961
 Width: 613
 Flags: W
 LayerCount: 2
@@ -20872,7 +24471,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D5
-Encoding: 120533 120533 836
+Encoding: 120533 120533 962
 Width: 495
 Flags: W
 LayerCount: 2
@@ -20895,7 +24494,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D6
-Encoding: 120534 120534 837
+Encoding: 120534 120534 963
 Width: 559
 Flags: W
 LayerCount: 2
@@ -20916,7 +24515,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D7
-Encoding: 120535 120535 838
+Encoding: 120535 120535 964
 Width: 767
 Flags: W
 LayerCount: 2
@@ -20944,7 +24543,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D8
-Encoding: 120536 120536 839
+Encoding: 120536 120536 965
 Width: 510
 Flags: W
 LayerCount: 2
@@ -20967,7 +24566,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6D9
-Encoding: 120537 120537 840
+Encoding: 120537 120537 966
 Width: 795
 Flags: W
 LayerCount: 2
@@ -20994,7 +24593,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6DA
-Encoding: 120538 120538 841
+Encoding: 120538 120538 967
 Width: 772
 Flags: W
 LayerCount: 2
@@ -21022,7 +24621,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6DB
-Encoding: 120539 120539 842
+Encoding: 120539 120539 968
 Width: 560
 Flags: W
 LayerCount: 2
@@ -21045,7 +24644,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6DC
-Encoding: 120540 120540 843
+Encoding: 120540 120540 969
 Width: 489
 Flags: W
 LayerCount: 2
@@ -21069,7 +24668,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6DD
-Encoding: 120541 120541 844
+Encoding: 120541 120541 970
 Width: 555
 Flags: W
 LayerCount: 2
@@ -21100,7 +24699,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6DE
-Encoding: 120542 120542 845
+Encoding: 120542 120542 971
 Width: 552
 Flags: W
 LayerCount: 2
@@ -21125,7 +24724,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6DF
-Encoding: 120543 120543 846
+Encoding: 120543 120543 972
 Width: 684
 Flags: W
 LayerCount: 2
@@ -21154,7 +24753,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E0
-Encoding: 120544 120544 847
+Encoding: 120544 120544 973
 Width: 587
 Flags: W
 LayerCount: 2
@@ -21182,7 +24781,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E1
-Encoding: 120545 120545 848
+Encoding: 120545 120545 974
 Width: 768
 Flags: W
 LayerCount: 2
@@ -21216,7 +24815,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E2
-Encoding: 120546 120546 849
+Encoding: 120546 120546 975
 Width: 577
 Flags: W
 LayerCount: 2
@@ -21239,7 +24838,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E3
-Encoding: 120547 120547 850
+Encoding: 120547 120547 976
 Width: 606
 Flags: W
 LayerCount: 2
@@ -21269,7 +24868,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E4
-Encoding: 120548 120548 851
+Encoding: 120548 120548 977
 Width: 501
 Flags: W
 LayerCount: 2
@@ -21286,7 +24885,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E5
-Encoding: 120549 120549 852
+Encoding: 120549 120549 978
 Width: 587
 Flags: W
 LayerCount: 2
@@ -21305,7 +24904,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E6
-Encoding: 120550 120550 853
+Encoding: 120550 120550 979
 Width: 520
 Flags: W
 LayerCount: 2
@@ -21328,7 +24927,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E7
-Encoding: 120551 120551 854
+Encoding: 120551 120551 980
 Width: 530
 Flags: W
 LayerCount: 2
@@ -21349,7 +24948,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E8
-Encoding: 120552 120552 855
+Encoding: 120552 120552 981
 Width: 660
 Flags: W
 LayerCount: 2
@@ -21372,7 +24971,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6E9
-Encoding: 120553 120553 856
+Encoding: 120553 120553 982
 Width: 682
 Flags: W
 LayerCount: 2
@@ -21397,7 +24996,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6EA
-Encoding: 120554 120554 857
+Encoding: 120554 120554 983
 Width: 291
 Flags: W
 LayerCount: 2
@@ -21412,7 +25011,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6EB
-Encoding: 120555 120555 858
+Encoding: 120555 120555 984
 Width: 613
 Flags: W
 LayerCount: 2
@@ -21434,7 +25033,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6EC
-Encoding: 120556 120556 859
+Encoding: 120556 120556 985
 Width: 577
 Flags: W
 LayerCount: 2
@@ -21452,7 +25051,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6ED
-Encoding: 120557 120557 860
+Encoding: 120557 120557 986
 Width: 774
 Flags: W
 LayerCount: 2
@@ -21478,7 +25077,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6EE
-Encoding: 120558 120558 861
+Encoding: 120558 120558 987
 Width: 659
 Flags: W
 LayerCount: 2
@@ -21501,7 +25100,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6EF
-Encoding: 120559 120559 862
+Encoding: 120559 120559 988
 Width: 510
 Flags: W
 LayerCount: 2
@@ -21526,7 +25125,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F0
-Encoding: 120560 120560 863
+Encoding: 120560 120560 989
 Width: 682
 Flags: W
 LayerCount: 2
@@ -21546,7 +25145,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F1
-Encoding: 120561 120561 864
+Encoding: 120561 120561 990
 Width: 658
 Flags: W
 LayerCount: 2
@@ -21565,7 +25164,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F2
-Encoding: 120562 120562 865
+Encoding: 120562 120562 991
 Width: 587
 Flags: W
 LayerCount: 2
@@ -21589,7 +25188,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F3
-Encoding: 120563 120563 866
+Encoding: 120563 120563 992
 Width: 682
 Flags: W
 LayerCount: 2
@@ -21614,7 +25213,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F4
-Encoding: 120564 120564 867
+Encoding: 120564 120564 993
 Width: 496
 Flags: W
 LayerCount: 2
@@ -21638,7 +25237,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F5
-Encoding: 120565 120565 868
+Encoding: 120565 120565 994
 Width: 526
 Flags: W
 LayerCount: 2
@@ -21657,7 +25256,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F6
-Encoding: 120566 120566 869
+Encoding: 120566 120566 995
 Width: 574
 Flags: W
 LayerCount: 2
@@ -21677,7 +25276,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F7
-Encoding: 120567 120567 870
+Encoding: 120567 120567 996
 Width: 826
 Flags: W
 LayerCount: 2
@@ -21706,7 +25305,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F8
-Encoding: 120568 120568 871
+Encoding: 120568 120568 997
 Width: 563
 Flags: W
 LayerCount: 2
@@ -21729,7 +25328,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6F9
-Encoding: 120569 120569 872
+Encoding: 120569 120569 998
 Width: 711
 Flags: W
 LayerCount: 2
@@ -21756,7 +25355,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6FA
-Encoding: 120570 120570 873
+Encoding: 120570 120570 999
 Width: 682
 Flags: W
 LayerCount: 2
@@ -21783,7 +25382,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6FC
-Encoding: 120572 120572 874
+Encoding: 120572 120572 1000
 Width: 590
 Flags: W
 LayerCount: 2
@@ -21811,7 +25410,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6FD
-Encoding: 120573 120573 875
+Encoding: 120573 120573 1001
 Width: 599
 Flags: W
 LayerCount: 2
@@ -21842,7 +25441,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6FE
-Encoding: 120574 120574 876
+Encoding: 120574 120574 1002
 Width: 492
 Flags: W
 LayerCount: 2
@@ -21862,7 +25461,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D6FF
-Encoding: 120575 120575 877
+Encoding: 120575 120575 1003
 Width: 571
 Flags: W
 LayerCount: 2
@@ -21889,7 +25488,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D700
-Encoding: 120576 120576 878
+Encoding: 120576 120576 1004
 Width: 486
 Flags: W
 LayerCount: 2
@@ -21917,7 +25516,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D701
-Encoding: 120577 120577 879
+Encoding: 120577 120577 1005
 Width: 403
 Flags: W
 LayerCount: 2
@@ -21942,7 +25541,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D702
-Encoding: 120578 120578 880
+Encoding: 120578 120578 1006
 Width: 574
 Flags: W
 LayerCount: 2
@@ -21966,7 +25565,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D703
-Encoding: 120579 120579 881
+Encoding: 120579 120579 1007
 Width: 562
 Flags: W
 LayerCount: 2
@@ -21991,7 +25590,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D704
-Encoding: 120580 120580 882
+Encoding: 120580 120580 1008
 Width: 269
 Flags: W
 LayerCount: 2
@@ -22008,7 +25607,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D705
-Encoding: 120581 120581 883
+Encoding: 120581 120581 1009
 Width: 552
 Flags: W
 LayerCount: 2
@@ -22034,7 +25633,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D706
-Encoding: 120582 120582 884
+Encoding: 120582 120582 1010
 Width: 513
 Flags: W
 LayerCount: 2
@@ -22055,7 +25654,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D707
-Encoding: 120583 120583 885
+Encoding: 120583 120583 1011
 Width: 575
 Flags: W
 LayerCount: 2
@@ -22082,7 +25681,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D708
-Encoding: 120584 120584 886
+Encoding: 120584 120584 1012
 Width: 492
 Flags: W
 LayerCount: 2
@@ -22100,7 +25699,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D709
-Encoding: 120585 120585 887
+Encoding: 120585 120585 1013
 Width: 438
 Flags: W
 LayerCount: 2
@@ -22130,7 +25729,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D70A
-Encoding: 120586 120586 888
+Encoding: 120586 120586 1014
 Width: 575
 Flags: W
 LayerCount: 2
@@ -22150,7 +25749,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D70B
-Encoding: 120587 120587 889
+Encoding: 120587 120587 1015
 Width: 591
 Flags: W
 LayerCount: 2
@@ -22176,7 +25775,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D70C
-Encoding: 120588 120588 890
+Encoding: 120588 120588 1016
 Width: 578
 Flags: W
 LayerCount: 2
@@ -22200,7 +25799,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D70D
-Encoding: 120589 120589 891
+Encoding: 120589 120589 1017
 Width: 469
 Flags: W
 LayerCount: 2
@@ -22223,7 +25822,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D70E
-Encoding: 120590 120590 892
+Encoding: 120590 120590 1018
 Width: 590
 Flags: W
 LayerCount: 2
@@ -22247,7 +25846,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D70F
-Encoding: 120591 120591 893
+Encoding: 120591 120591 1019
 Width: 460
 Flags: W
 LayerCount: 2
@@ -22270,7 +25869,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D710
-Encoding: 120592 120592 894
+Encoding: 120592 120592 1020
 Width: 556
 Flags: W
 LayerCount: 2
@@ -22291,7 +25890,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D711
-Encoding: 120593 120593 895
+Encoding: 120593 120593 1021
 Width: 739
 Flags: W
 LayerCount: 2
@@ -22319,7 +25918,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D712
-Encoding: 120594 120594 896
+Encoding: 120594 120594 1022
 Width: 472
 Flags: W
 LayerCount: 2
@@ -22342,7 +25941,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D713
-Encoding: 120595 120595 897
+Encoding: 120595 120595 1023
 Width: 767
 Flags: W
 LayerCount: 2
@@ -22369,7 +25968,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D714
-Encoding: 120596 120596 898
+Encoding: 120596 120596 1024
 Width: 762
 Flags: W
 LayerCount: 2
@@ -22397,7 +25996,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D715
-Encoding: 120597 120597 899
+Encoding: 120597 120597 1025
 Width: 525
 Flags: W
 LayerCount: 2
@@ -22421,7 +26020,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D716
-Encoding: 120598 120598 900
+Encoding: 120598 120598 1026
 Width: 477
 Flags: W
 LayerCount: 2
@@ -22446,7 +26045,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D717
-Encoding: 120599 120599 901
+Encoding: 120599 120599 1027
 Width: 548
 Flags: W
 LayerCount: 2
@@ -22477,7 +26076,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D718
-Encoding: 120600 120600 902
+Encoding: 120600 120600 1028
 Width: 554
 Flags: W
 LayerCount: 2
@@ -22502,7 +26101,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D719
-Encoding: 120601 120601 903
+Encoding: 120601 120601 1029
 Width: 647
 Flags: W
 LayerCount: 2
@@ -22531,7 +26130,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D71A
-Encoding: 120602 120602 904
+Encoding: 120602 120602 1030
 Width: 577
 Flags: W
 LayerCount: 2
@@ -22559,7 +26158,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D71B
-Encoding: 120603 120603 905
+Encoding: 120603 120603 1031
 Width: 731
 Flags: W
 LayerCount: 2
@@ -22593,7 +26192,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D71C
-Encoding: 120604 120604 906
+Encoding: 120604 120604 1032
 Width: 589
 Flags: W
 LayerCount: 2
@@ -22616,7 +26215,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D71D
-Encoding: 120605 120605 907
+Encoding: 120605 120605 1033
 Width: 610
 Flags: W
 LayerCount: 2
@@ -22646,7 +26245,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D71E
-Encoding: 120606 120606 908
+Encoding: 120606 120606 1034
 Width: 499
 Flags: W
 LayerCount: 2
@@ -22663,7 +26262,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D71F
-Encoding: 120607 120607 909
+Encoding: 120607 120607 1035
 Width: 597
 Flags: W
 LayerCount: 2
@@ -22682,7 +26281,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D720
-Encoding: 120608 120608 910
+Encoding: 120608 120608 1036
 Width: 510
 Flags: W
 LayerCount: 2
@@ -22705,7 +26304,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D721
-Encoding: 120609 120609 911
+Encoding: 120609 120609 1037
 Width: 545
 Flags: W
 LayerCount: 2
@@ -22726,7 +26325,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D722
-Encoding: 120610 120610 912
+Encoding: 120610 120610 1038
 Width: 645
 Flags: W
 LayerCount: 2
@@ -22749,7 +26348,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D723
-Encoding: 120611 120611 913
+Encoding: 120611 120611 1039
 Width: 677
 Flags: W
 LayerCount: 2
@@ -22774,7 +26373,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D724
-Encoding: 120612 120612 914
+Encoding: 120612 120612 1040
 Width: 289
 Flags: W
 LayerCount: 2
@@ -22789,7 +26388,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D725
-Encoding: 120613 120613 915
+Encoding: 120613 120613 1041
 Width: 647
 Flags: W
 LayerCount: 2
@@ -22811,7 +26410,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D726
-Encoding: 120614 120614 916
+Encoding: 120614 120614 1042
 Width: 589
 Flags: W
 LayerCount: 2
@@ -22829,7 +26428,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D727
-Encoding: 120615 120615 917
+Encoding: 120615 120615 1043
 Width: 777
 Flags: W
 LayerCount: 2
@@ -22855,7 +26454,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D728
-Encoding: 120616 120616 918
+Encoding: 120616 120616 1044
 Width: 640
 Flags: W
 LayerCount: 2
@@ -22878,7 +26477,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D729
-Encoding: 120617 120617 919
+Encoding: 120617 120617 1045
 Width: 516
 Flags: W
 LayerCount: 2
@@ -22903,7 +26502,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D72A
-Encoding: 120618 120618 920
+Encoding: 120618 120618 1046
 Width: 678
 Flags: W
 LayerCount: 2
@@ -22923,7 +26522,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D72B
-Encoding: 120619 120619 921
+Encoding: 120619 120619 1047
 Width: 646
 Flags: W
 LayerCount: 2
@@ -22942,7 +26541,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D72C
-Encoding: 120620 120620 922
+Encoding: 120620 120620 1048
 Width: 600
 Flags: W
 LayerCount: 2
@@ -22966,7 +26565,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D72D
-Encoding: 120621 120621 923
+Encoding: 120621 120621 1049
 Width: 678
 Flags: W
 LayerCount: 2
@@ -22991,7 +26590,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D72E
-Encoding: 120622 120622 924
+Encoding: 120622 120622 1050
 Width: 492
 Flags: W
 LayerCount: 2
@@ -23015,7 +26614,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D72F
-Encoding: 120623 120623 925
+Encoding: 120623 120623 1051
 Width: 542
 Flags: W
 LayerCount: 2
@@ -23034,7 +26633,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D730
-Encoding: 120624 120624 926
+Encoding: 120624 120624 1052
 Width: 608
 Flags: W
 LayerCount: 2
@@ -23054,7 +26653,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D731
-Encoding: 120625 120625 927
+Encoding: 120625 120625 1053
 Width: 851
 Flags: W
 LayerCount: 2
@@ -23083,7 +26682,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D732
-Encoding: 120626 120626 928
+Encoding: 120626 120626 1054
 Width: 594
 Flags: W
 LayerCount: 2
@@ -23106,7 +26705,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D733
-Encoding: 120627 120627 929
+Encoding: 120627 120627 1055
 Width: 736
 Flags: W
 LayerCount: 2
@@ -23133,7 +26732,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D734
-Encoding: 120628 120628 930
+Encoding: 120628 120628 1056
 Width: 678
 Flags: W
 LayerCount: 2
@@ -23160,7 +26759,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D736
-Encoding: 120630 120630 931
+Encoding: 120630 120630 1057
 Width: 587
 Flags: W
 LayerCount: 2
@@ -23188,7 +26787,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D737
-Encoding: 120631 120631 932
+Encoding: 120631 120631 1058
 Width: 598
 Flags: W
 LayerCount: 2
@@ -23219,7 +26818,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D738
-Encoding: 120632 120632 933
+Encoding: 120632 120632 1059
 Width: 510
 Flags: W
 LayerCount: 2
@@ -23239,7 +26838,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D739
-Encoding: 120633 120633 934
+Encoding: 120633 120633 1060
 Width: 567
 Flags: W
 LayerCount: 2
@@ -23266,7 +26865,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D73A
-Encoding: 120634 120634 935
+Encoding: 120634 120634 1061
 Width: 489
 Flags: W
 LayerCount: 2
@@ -23294,7 +26893,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D73B
-Encoding: 120635 120635 936
+Encoding: 120635 120635 1062
 Width: 426
 Flags: W
 LayerCount: 2
@@ -23319,7 +26918,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D73C
-Encoding: 120636 120636 937
+Encoding: 120636 120636 1063
 Width: 560
 Flags: W
 LayerCount: 2
@@ -23343,7 +26942,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D73D
-Encoding: 120637 120637 938
+Encoding: 120637 120637 1064
 Width: 550
 Flags: W
 LayerCount: 2
@@ -23368,7 +26967,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D73E
-Encoding: 120638 120638 939
+Encoding: 120638 120638 1065
 Width: 267
 Flags: W
 LayerCount: 2
@@ -23385,7 +26984,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D73F
-Encoding: 120639 120639 940
+Encoding: 120639 120639 1066
 Width: 569
 Flags: W
 LayerCount: 2
@@ -23411,7 +27010,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D740
-Encoding: 120640 120640 941
+Encoding: 120640 120640 1067
 Width: 540
 Flags: W
 LayerCount: 2
@@ -23432,7 +27031,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D741
-Encoding: 120641 120641 942
+Encoding: 120641 120641 1068
 Width: 568
 Flags: W
 LayerCount: 2
@@ -23459,7 +27058,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D742
-Encoding: 120642 120642 943
+Encoding: 120642 120642 1069
 Width: 510
 Flags: W
 LayerCount: 2
@@ -23477,7 +27076,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D743
-Encoding: 120643 120643 944
+Encoding: 120643 120643 1070
 Width: 446
 Flags: W
 LayerCount: 2
@@ -23507,7 +27106,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D744
-Encoding: 120644 120644 945
+Encoding: 120644 120644 1071
 Width: 572
 Flags: W
 LayerCount: 2
@@ -23527,7 +27126,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D745
-Encoding: 120645 120645 946
+Encoding: 120645 120645 1072
 Width: 596
 Flags: W
 LayerCount: 2
@@ -23553,7 +27152,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D746
-Encoding: 120646 120646 947
+Encoding: 120646 120646 1073
 Width: 580
 Flags: W
 LayerCount: 2
@@ -23577,7 +27176,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D747
-Encoding: 120647 120647 948
+Encoding: 120647 120647 1074
 Width: 475
 Flags: W
 LayerCount: 2
@@ -23600,7 +27199,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D748
-Encoding: 120648 120648 949
+Encoding: 120648 120648 1075
 Width: 600
 Flags: W
 LayerCount: 2
@@ -23624,7 +27223,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D749
-Encoding: 120649 120649 950
+Encoding: 120649 120649 1076
 Width: 475
 Flags: W
 LayerCount: 2
@@ -23647,7 +27246,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D74A
-Encoding: 120650 120650 951
+Encoding: 120650 120650 1077
 Width: 548
 Flags: W
 LayerCount: 2
@@ -23668,7 +27267,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D74B
-Encoding: 120651 120651 952
+Encoding: 120651 120651 1078
 Width: 753
 Flags: W
 LayerCount: 2
@@ -23696,7 +27295,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D74C
-Encoding: 120652 120652 953
+Encoding: 120652 120652 1079
 Width: 495
 Flags: W
 LayerCount: 2
@@ -23719,7 +27318,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D74D
-Encoding: 120653 120653 954
+Encoding: 120653 120653 1080
 Width: 779
 Flags: W
 LayerCount: 2
@@ -23746,7 +27345,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D74E
-Encoding: 120654 120654 955
+Encoding: 120654 120654 1081
 Width: 753
 Flags: W
 LayerCount: 2
@@ -23774,7 +27373,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D74F
-Encoding: 120655 120655 956
+Encoding: 120655 120655 1082
 Width: 548
 Flags: W
 LayerCount: 2
@@ -23798,7 +27397,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D750
-Encoding: 120656 120656 957
+Encoding: 120656 120656 1083
 Width: 479
 Flags: W
 LayerCount: 2
@@ -23823,7 +27422,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D751
-Encoding: 120657 120657 958
+Encoding: 120657 120657 1084
 Width: 558
 Flags: W
 LayerCount: 2
@@ -23853,7 +27452,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D752
-Encoding: 120658 120658 959
+Encoding: 120658 120658 1085
 Width: 527
 Flags: W
 LayerCount: 2
@@ -23878,7 +27477,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D753
-Encoding: 120659 120659 960
+Encoding: 120659 120659 1086
 Width: 675
 Flags: W
 LayerCount: 2
@@ -23907,7 +27506,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D754
-Encoding: 120660 120660 961
+Encoding: 120660 120660 1087
 Width: 578
 Flags: W
 LayerCount: 2
@@ -23935,7 +27534,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D755
-Encoding: 120661 120661 962
+Encoding: 120661 120661 1088
 Width: 749
 Flags: W
 LayerCount: 2
@@ -23969,7 +27568,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7CA
-Encoding: 120778 120778 963
+Encoding: 120778 120778 1089
 Width: 516
 Flags: W
 LayerCount: 2
@@ -23992,7 +27591,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7CB
-Encoding: 120779 120779 964
+Encoding: 120779 120779 1090
 Width: 457
 Flags: W
 LayerCount: 2
@@ -24017,7 +27616,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7CE
-Encoding: 120782 120782 965
+Encoding: 120782 120782 1091
 Width: 602
 Flags: W
 LayerCount: 2
@@ -24037,7 +27636,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7CF
-Encoding: 120783 120783 966
+Encoding: 120783 120783 1092
 Width: 482
 Flags: W
 LayerCount: 2
@@ -24055,7 +27654,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D0
-Encoding: 120784 120784 967
+Encoding: 120784 120784 1093
 Width: 530
 Flags: W
 LayerCount: 2
@@ -24077,7 +27676,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D1
-Encoding: 120785 120785 968
+Encoding: 120785 120785 1094
 Width: 532
 Flags: W
 LayerCount: 2
@@ -24105,7 +27704,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D2
-Encoding: 120786 120786 969
+Encoding: 120786 120786 1095
 Width: 585
 Flags: W
 LayerCount: 2
@@ -24131,7 +27730,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D3
-Encoding: 120787 120787 970
+Encoding: 120787 120787 1096
 Width: 557
 Flags: W
 LayerCount: 2
@@ -24157,7 +27756,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D4
-Encoding: 120788 120788 971
+Encoding: 120788 120788 1097
 Width: 582
 Flags: W
 LayerCount: 2
@@ -24182,7 +27781,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D5
-Encoding: 120789 120789 972
+Encoding: 120789 120789 1098
 Width: 482
 Flags: W
 LayerCount: 2
@@ -24200,7 +27799,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D6
-Encoding: 120790 120790 973
+Encoding: 120790 120790 1099
 Width: 599
 Flags: W
 LayerCount: 2
@@ -24231,7 +27830,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1D7D7
-Encoding: 120791 120791 974
+Encoding: 120791 120791 1100
 Width: 582
 Flags: W
 LayerCount: 2
@@ -24254,7 +27853,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1F784
-Encoding: 128900 128900 975
+Encoding: 128900 128900 1101
 Width: 432
 Flags: W
 LayerCount: 2
@@ -24269,7 +27868,7 @@ EndSplineSet
 EndChar
 
 StartChar: .notdef
-Encoding: 1114112 -1 976
+Encoding: 1114112 -1 1102
 Width: 752
 Flags: W
 LayerCount: 2
@@ -24305,7 +27904,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2032.ssty1
-Encoding: 1114113 -1 977
+Encoding: 1114113 -1 1103
 Width: 441
 Flags: W
 LayerCount: 2
@@ -24320,7 +27919,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2033.ssty1
-Encoding: 1114114 -1 978
+Encoding: 1114114 -1 1104
 Width: 717
 Flags: W
 LayerCount: 2
@@ -24340,7 +27939,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2034.ssty1
-Encoding: 1114115 -1 979
+Encoding: 1114115 -1 1105
 Width: 992
 Flags: W
 LayerCount: 2
@@ -24365,7 +27964,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2057.ssty1
-Encoding: 1114116 -1 980
+Encoding: 1114116 -1 1106
 Width: 1267
 Flags: W
 LayerCount: 2
@@ -24395,7 +27994,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2035.ssty1
-Encoding: 1114117 -1 981
+Encoding: 1114117 -1 1107
 Width: 441
 Flags: W
 LayerCount: 2
@@ -24410,7 +28009,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2036.ssty1
-Encoding: 1114118 -1 982
+Encoding: 1114118 -1 1108
 Width: 717
 Flags: W
 LayerCount: 2
@@ -24430,7 +28029,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2037.ssty1
-Encoding: 1114119 -1 983
+Encoding: 1114119 -1 1109
 Width: 992
 Flags: W
 LayerCount: 2
@@ -24455,7 +28054,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2032.ssty2
-Encoding: 1114120 -1 984
+Encoding: 1114120 -1 1110
 Width: 476
 Flags: W
 LayerCount: 2
@@ -24470,7 +28069,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2033.ssty2
-Encoding: 1114121 -1 985
+Encoding: 1114121 -1 1111
 Width: 767
 Flags: W
 LayerCount: 2
@@ -24490,7 +28089,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2034.ssty2
-Encoding: 1114122 -1 986
+Encoding: 1114122 -1 1112
 Width: 1059
 Flags: W
 LayerCount: 2
@@ -24515,7 +28114,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2057.ssty2
-Encoding: 1114123 -1 987
+Encoding: 1114123 -1 1113
 Width: 1350
 Flags: W
 LayerCount: 2
@@ -24545,7 +28144,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2035.ssty2
-Encoding: 1114124 -1 988
+Encoding: 1114124 -1 1114
 Width: 476
 Flags: W
 LayerCount: 2
@@ -24560,7 +28159,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2036.ssty2
-Encoding: 1114125 -1 989
+Encoding: 1114125 -1 1115
 Width: 767
 Flags: W
 LayerCount: 2
@@ -24580,7 +28179,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2037.ssty2
-Encoding: 1114126 -1 990
+Encoding: 1114126 -1 1116
 Width: 1059
 Flags: W
 LayerCount: 2
@@ -24605,7 +28204,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2140.display
-Encoding: 1114127 -1 991
+Encoding: 1114127 -1 1117
 Width: 1366
 VWidth: 1001
 Flags: W
@@ -24638,7 +28237,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni220F.display
-Encoding: 1114128 -1 992
+Encoding: 1114128 -1 1118
 Width: 1417
 Flags: W
 LayerCount: 2
@@ -24661,7 +28260,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2210.display
-Encoding: 1114129 -1 993
+Encoding: 1114129 -1 1119
 Width: 1417
 Flags: W
 LayerCount: 2
@@ -24684,7 +28283,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2211.display
-Encoding: 1114130 -1 994
+Encoding: 1114130 -1 1120
 Width: 1294
 Flags: W
 LayerCount: 2
@@ -24708,7 +28307,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222B.display
-Encoding: 1114131 -1 995
+Encoding: 1114131 -1 1121
 Width: 1275
 Flags: W
 LayerCount: 2
@@ -24731,7 +28330,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222C.display
-Encoding: 1114132 -1 996
+Encoding: 1114132 -1 1122
 Width: 1778
 Flags: W
 LayerCount: 2
@@ -24767,7 +28366,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222D.display
-Encoding: 1114133 -1 997
+Encoding: 1114133 -1 1123
 Width: 2281
 Flags: W
 LayerCount: 2
@@ -24816,7 +28415,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2A0C.display
-Encoding: 1114134 -1 998
+Encoding: 1114134 -1 1124
 Width: 2784
 Flags: W
 LayerCount: 2
@@ -24878,7 +28477,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222E.display
-Encoding: 1114135 -1 999
+Encoding: 1114135 -1 1125
 Width: 1275
 Flags: W
 LayerCount: 2
@@ -24915,7 +28514,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni222F.display
-Encoding: 1114136 -1 1000
+Encoding: 1114136 -1 1126
 Width: 1778
 Flags: W
 LayerCount: 2
@@ -24977,7 +28576,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2230.display
-Encoding: 1114137 -1 1001
+Encoding: 1114137 -1 1127
 Width: 2281
 Flags: W
 LayerCount: 2

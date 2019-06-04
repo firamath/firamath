@@ -1,8 +1,6 @@
 """Interpolate intermediate weights from several basic styles.
 """
 
-from __future__ import print_function
-
 import collections
 import json
 import os
@@ -13,18 +11,18 @@ with open(os.sep.join([os.getcwd(), "data", "weight-analysis.json"])) as f:
     WEIGHT_ANALYSIS_DATA = json.loads(f.read(), object_pairs_hook=collections.OrderedDict)
 
 
-def _open_font(weight):
+def _open_font(weight: str):
     file_name = os.sep.join([os.getcwd(), "src", "FiraMath-" + weight + ".sfd"])
     return ff.open(file_name)
 
 
-def interpolate_font(weight_dict, glyph_list):
-    font_list = [_open_font(weight) for weight in weight_dict.keys()]
+def interpolate_font(weights: dict, glyph: list):
+    font_list = [_open_font(weight) for weight in weights.keys()]
     font_a, font_b = font_list[0], font_list[-1]
-    t_list = weight_dict.values()
+    t_list = list(weights.values())
 
     for font, t in zip(font_list[1:-1], t_list[1:-1]):
-        for glyph_name in glyph_list:
+        for glyph_name in glyph:
             if glyph_name in font:
                 print("Glyph <" + glyph_name + "> is already in " + font.fontname +
                       ". Will be removed.")
@@ -35,10 +33,17 @@ def interpolate_font(weight_dict, glyph_list):
         font.save()
 
 
+def interpolate_font_all(glyphs: list):
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], glyphs)
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], glyphs)
+
+
 if __name__ == "__main__":
-    ## 2019-05-08 Geometry (I)
-    circle_glyphs = [
-        "uni22C5", "uni2219", "u1F784", "uni2022", "uni2981", "uni26AB", "uni25CF", "uni2B24",
-        "uni2218", "uni25E6", "uni26AC", "uni26AA", "uni25CB", "uni25EF"]
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Thin-Regular"], circle_glyphs)
-    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], circle_glyphs)
+    ## 2019-06-22 Arrows (III)
+    arrow_glyphs_1 = ["uni21DC", "uni21DD", "uni21F4"]
+    interpolate_font(WEIGHT_ANALYSIS_DATA["Regular-Ultra"], arrow_glyphs_1)
+    arrow_glyphs_2 = (
+        ["uni" + hex(0x27F0 + i)[2:].upper() for i in range(16)]  # Supplemental Arrows-A
+      + ["uni290A", "uni290B"]                                    # Supplemental Arrows-B
+      + ["uni2B30", "uni2B32", "uni2B33", "uni2B45", "uni2B46"])  # Miscellaneous Symbols and Arrows
+    interpolate_font_all(arrow_glyphs_2)
