@@ -6,7 +6,7 @@
         {
             "label": "build & test",
             "type": "shell",
-            "command": "python",
+            "command": "python3",
             "args": [
                 "./scripts/build.py",
                 "--run"
@@ -27,7 +27,7 @@
         {
             "label": "build fonts",
             "type": "shell",
-            "command": "python",
+            "command": "python3",
             "args": [
                 "./scripts/build.py",
                 "--fonts"
@@ -45,7 +45,7 @@
         {
             "label": "build docs",
             "type": "shell",
-            "command": "python",
+            "command": "python3",
             "args": [
                 "./scripts/build.py",
                 "--docs"
@@ -76,7 +76,7 @@
         {
             "label": "test only",
             "type": "shell",
-            "command": "python",
+            "command": "python3",
             "args": [
                 "./scripts/build.py",
                 "--test"
@@ -94,7 +94,7 @@
         {
             "label": "clean",
             "type": "shell",
-            "command": "python",
+            "command": "python3",
             "args": [
                 "./scripts/build.py",
                 "--clean"

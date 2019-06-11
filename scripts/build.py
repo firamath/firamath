@@ -5,8 +5,6 @@
 - Generate documentations.
 """
 
-from __future__ import print_function
-
 import argparse
 import datetime
 import os
@@ -15,7 +13,6 @@ import sys
 
 import fontforge as ff
 
-sys.path.append(os.path.sep.join([os.getcwd(), os.path.dirname(__file__)]))
 import math_table
 
 # Even on Windows, we should use `/` for paths, otherwise font generation will raise an error.
@@ -28,7 +25,7 @@ DOCS_PATH        = PWD + "/docs"
 SCRIPTS_PATH     = PWD + "/scripts"
 FAMILY_NAME      = "FiraMath"
 TEST_FILE_NAME   = "basic"
-TEST_FILE_NAME   = "geometry"
+TEST_FILE_NAME   = "arrows"
 DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "firamath-technical-report"]
 WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
                     "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
@@ -40,7 +37,7 @@ if not os.path.exists(OTF_PATH):
     os.mkdir(OTF_PATH)
 
 
-def generate_fonts(hint_flag):
+def generate_fonts(hint_flag, font_ext=".otf"):
     print("FontForge version: " + ff.version())
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
@@ -48,7 +45,7 @@ def generate_fonts(hint_flag):
         font_name      = FAMILY_NAME + "-" + weight
         sfd_file       = SFD_PATH + "/" + font_name + ".sfd"
         feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
-        otf_file       = OTF_PATH + "/" + font_name + ".otf"
+        otf_file       = OTF_PATH + "/" + font_name + font_ext
         _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag)
 
 
@@ -175,6 +172,7 @@ def rmdir(dir_name):
 parser = argparse.ArgumentParser()
 group = parser.add_mutually_exclusive_group()
 group.add_argument("-f", "--fonts", action="store_true", help="generate fonts")
+group.add_argument("-w", "--woff",  action="store_true", help="generate fonts (woff)")
 group.add_argument("-k", "--check", action="store_true", help="check font features")
 group.add_argument("-t", "--test",  action="store_true", help="run xelatex test")
 group.add_argument("-d", "--docs",  action="store_true", help="generate documentations")
@@ -186,6 +184,8 @@ args = parser.parse_args()
 
 if args.fonts:
     generate_fonts(args.hint)
+if args.woff:
+    generate_fonts(args.hint, font_ext=".woff")
 if args.check:
     check_fonts()
 if args.test:
