@@ -9,28 +9,27 @@ import argparse
 import datetime
 import os
 import platform
-import sys
 
 import fontforge as ff
 
 import math_table
 
 # Even on Windows, we should use `/` for paths, otherwise font generation will raise an error.
-PWD              = os.getcwd()
-SFD_PATH         = PWD + "/src"
-FEATURE_PATH     = PWD + "/src/features"
-OTF_PATH         = PWD + "/release/fonts"
-TEST_PATH        = PWD + "/test"
-DOCS_PATH        = PWD + "/docs"
-SCRIPTS_PATH     = PWD + "/scripts"
-FAMILY_NAME      = "FiraMath"
-TEST_FILE_NAME   = "basic"
-TEST_FILE_NAME   = "arrows"
-DOCS_FILE_NAMES  = ["firamath-demo", "firamath-specimen", "firamath-technical-report"]
-WEIGHT_LIST      = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
-                    "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
-# WEIGHT_LIST      = ["Thin", "Regular", "Ultra"]
-# WEIGHT_LIST      = ["Regular"]
+PWD             = os.getcwd()
+SFD_PATH        = PWD + "/src"
+FEATURE_PATH    = PWD + "/src/features"
+OTF_PATH        = PWD + "/release/fonts"
+TEST_PATH       = PWD + "/test"
+DOCS_PATH       = PWD + "/docs"
+SCRIPTS_PATH    = PWD + "/scripts"
+FAMILY_NAME     = "FiraMath"
+TEST_FILE_NAME  = "basic"
+TEST_FILE_NAME  = "arrows"
+DOCS_FILE_NAMES = ["firamath-demo", "firamath-specimen", "firamath-technical-report"]
+WEIGHT_LIST     = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular",
+                   "Medium", "SemiBold", "Bold", "ExtraBold", "Heavy", "Ultra"]
+# WEIGHT_LIST     = ["Thin", "Regular", "Ultra"]
+# WEIGHT_LIST     = ["Ultra"]
 
 
 if not os.path.exists(OTF_PATH):
@@ -169,34 +168,39 @@ def rmdir(dir_name):
         os.system("rm -rf " + dir_name)
 
 
-parser = argparse.ArgumentParser()
-group = parser.add_mutually_exclusive_group()
-group.add_argument("-f", "--fonts", action="store_true", help="generate fonts")
-group.add_argument("-w", "--woff",  action="store_true", help="generate fonts (woff)")
-group.add_argument("-k", "--check", action="store_true", help="check font features")
-group.add_argument("-t", "--test",  action="store_true", help="run xelatex test")
-group.add_argument("-d", "--docs",  action="store_true", help="generate documentations")
-group.add_argument("-r", "--run",   action="store_true", help="generate fonts and run test")
-group.add_argument("-a", "--all",   action="store_true", help="generate fonts and documentations")
-group.add_argument("-c", "--clean", action="store_true", help="clean working directory")
-parser.add_argument("--hint", action="store_true", help="auto hint, remove overlap and round")
-args = parser.parse_args()
+def main():
+    parser = argparse.ArgumentParser()
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("-f", "--fonts", action="store_true", help="generate fonts")
+    group.add_argument("-w", "--woff",  action="store_true", help="generate fonts (woff)")
+    group.add_argument("-k", "--check", action="store_true", help="check font features")
+    group.add_argument("-t", "--test",  action="store_true", help="run xelatex test")
+    group.add_argument("-d", "--docs",  action="store_true", help="generate documentations")
+    group.add_argument("-r", "--run",   action="store_true", help="generate fonts and run test")
+    group.add_argument("-a", "--all",   action="store_true", help="generate fonts and documentations")
+    group.add_argument("-c", "--clean", action="store_true", help="clean working directory")
+    parser.add_argument("--hint", action="store_true", help="auto hint, remove overlap and round")
+    args = parser.parse_args()
 
-if args.fonts:
-    generate_fonts(args.hint)
-if args.woff:
-    generate_fonts(args.hint, font_ext=".woff")
-if args.check:
-    check_fonts()
-if args.test:
-    xelatex_test()
-if args.docs:
-    make_docs()
-if args.run:
-    generate_fonts(args.hint)
-    xelatex_test()
-if args.all:
-    generate_fonts(hint_flag=True)
-    make_docs()
-if args.clean:
-    clean()
+    if args.fonts:
+        generate_fonts(args.hint)
+    if args.woff:
+        generate_fonts(args.hint, font_ext=".woff")
+    if args.check:
+        check_fonts()
+    if args.test:
+        xelatex_test()
+    if args.docs:
+        make_docs()
+    if args.run:
+        generate_fonts(args.hint)
+        xelatex_test()
+    if args.all:
+        generate_fonts(hint_flag=True)
+        make_docs()
+    if args.clean:
+        clean()
+
+
+if __name__ == "__main__":
+    main()
