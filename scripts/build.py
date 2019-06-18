@@ -41,10 +41,10 @@ def generate_fonts(hint_flag, font_ext=".otf"):
     print("Python version: "+ platform.python_version())
     print("Platform: " + platform.platform() + "\n")
     for weight in WEIGHT_LIST:
-        font_name      = FAMILY_NAME + "-" + weight
-        sfd_file       = SFD_PATH + "/" + font_name + ".sfd"
-        feature_file   = FEATURE_PATH + "/" + font_name + ".fea"
-        otf_file       = OTF_PATH + "/" + font_name + font_ext
+        font_name    = FAMILY_NAME + "-" + weight
+        sfd_file     = SFD_PATH + "/" + font_name + ".sfd"
+        feature_file = FEATURE_PATH + "/" + font_name + ".fea"
+        otf_file     = OTF_PATH + "/" + font_name + font_ext
         _generate_font(font_name, sfd_file, feature_file, otf_file, hint_flag)
 
 
@@ -86,8 +86,7 @@ def _check_name(font, font_name):
     sfnt_font_name = font.sfnt_names[6][2]  # PostScript name
     if sfnt_font_name != font_name:
         raise ValueError(str(font) + " has an incorrect name '" + sfnt_font_name + "'!")
-    else:
-        print("  Name check passed.")
+    print("  Name check passed.")
 
 
 def _check_gsub_lookups(font):
@@ -103,8 +102,7 @@ def _check_gsub_lookups(font):
 def _check_math_table(font):
     if not font.math.exists():
         raise ValueError(str(font) + " has empty MATH table!")
-    else:
-        print("  MATH table check passed.")
+    print("  MATH table check passed.")
 
 
 def _validate(font):
