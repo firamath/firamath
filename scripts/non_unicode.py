@@ -17,18 +17,18 @@ def get_non_unicode():
             for i in parsed_toml["non-unicode"]]
 
 
-def _parse_glyph_list(item):
+def _parse_glyph_list(item: dict):
     """Return a list of non-unicode glyphs.
     """
-    if item.has_key("glyphs"):
+    if "glyphs" in item:
         return item["glyphs"]
-    if item.has_key("base-glyphs"):
-        if item.has_key("suffixes"):
+    if "base-glyphs" in item:
+        if "suffixes" in item:
             result = []
             for suffix in item["suffixes"]:
                 result += [glyph + "." + suffix for glyph in item["base-glyphs"]]
             return result
-        if item.has_key("suffix-base") and item.has_key("suffix-range"):
+        if "suffix-base" in item and "suffix-range" in item:
             result = []
             if item["primary-index"] == "glyphs":
                 for glyph in item["base-glyphs"]:
