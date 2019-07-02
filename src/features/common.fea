@@ -16,6 +16,18 @@ table name {
     nameid 14 "http://scripts.sil.org/OFL";
 } name;
 
+table hhea {
+    Ascender   800;
+    Descender -200;
+    LineGap      0;
+} hhea;
+
+table OS/2 {
+    TypoAscender   800;
+    TypoDescender -200;
+    TypoLineGap      0;
+} OS/2;
+
 lookup liga01 {
     sub uni0066 uni0066         by uniFB00;  # f f
     sub uni0066 uni0069         by uniFB01;  # f i
