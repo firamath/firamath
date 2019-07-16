@@ -7,11 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 - Added:
   - `.notdef` for all weights
   - White and black circles, including `\cdot`, `\circ`, etc - [#34](https://github.com/firamath/firamath/issues/34)
+  - Arrows:
+    - Block Arrows: `U+2190`..`U+21FF`
+    - Block Supplemental Arrows-A: `U+27F0`..`U+27FF`
+- Fixed:
+  - Add `hhea` and `OS/2` tables, so the ascent, descent and line gap can be correct
 - Changed:
   - Update to Unicode 12.0.1 (no actual changes in the font itself)
+  - Update to FontForge version 20190616 and change the scripts into Python3
   - Remove empty placeholder glyphs
+  - Remove `uniFEFF` (zero width no-break space, or BOM) - [#40](https://github.com/firamath/firamath/issues/40)
 - Improved:
   - Now pre-built fonts of the latest development version can be download from [bintray](https://bintray.com/firamath/firamath/firamath-travis)
+  - Demo images now become SVG format
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-3...master).
 
