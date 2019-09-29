@@ -69,7 +69,7 @@
   { \tex_char:D \int_eval:n {#1} \scan_stop: }
 \prg_new_protected_conditional:Npnn \@@_if_char_exist:n #1 { T, F, TF }
   {
-    \etex_iffontchar:D \tex_font:D \int_eval:n {#1} \scan_stop:
+    \tex_iffontchar:D \tex_font:D \int_eval:n {#1} \scan_stop:
       \prg_return_true:
     \else:
       \prg_return_false:
