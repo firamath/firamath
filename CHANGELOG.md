@@ -2,26 +2,21 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com).
 
-## [Unreleased]
+## v0.3.3 (2020-01-13)
+
+**Note:** This version is based on the master branch and has fixed some issues from v0.3.2. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
+
+Only the major changes of the font itself are logged here (from v0.3.2):
 
 - Added:
-  - `.notdef` for all weights
-  - White and black circles, including `\cdot`, `\circ`, etc - [#34](https://github.com/firamath/firamath/issues/34)
-  - Arrows:
-    - Block Arrows: `U+2190`..`U+21FF`
-    - Block Supplemental Arrows-A: `U+27F0`..`U+27FF`
+  - More supplemental arrows
+- Changed:
+  - Remove `uniFEFF` (zero width no-break space, or BOM) - [#40](https://github.com/firamath/firamath/issues/40)
 - Fixed:
   - Add `hhea` and `OS/2` tables, so the ascent, descent and line gap can be correct
-- Changed:
-  - Update to Unicode 12.0.1 (no actual changes in the font itself)
-  - Update to FontForge version 20190616 and change the scripts into Python3
-  - Remove empty placeholder glyphs
-  - Remove `uniFEFF` (zero width no-break space, or BOM) - [#40](https://github.com/firamath/firamath/issues/40)
-- Improved:
-  - Now pre-built fonts of the latest development version can be download from [bintray](https://bintray.com/firamath/firamath/firamath-travis)
-  - Demo images now become SVG format
+  - Fix display upright integrals - [#49](https://github.com/firamath/firamath/issues/49)
 
-More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-3...master).
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.2...v0.3.3).
 
 ## v0.3.2 (2019-06-03)
 
