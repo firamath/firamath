@@ -158,7 +158,15 @@
             // SQUARE/CUBE/FOURTH ROOT
             "uni221A": ["uni221A", "uni221A.size1", "uni221A.size2", "uni221A.size3", "uni221A.size4", "uni221A.size5", "uni221A.size6", "uni221A.size7", "uni221A.size8", "uni221A.size9", "uni221A.size10", "uni221A.size11", "uni221A.size12", "uni221A.size13", "uni221A.size14", "uni221A.size15"],
             "uni221B": ["uni221B", "uni221B.size1", "uni221B.size2", "uni221B.size3", "uni221B.size4", "uni221B.size5", "uni221B.size6", "uni221B.size7", "uni221B.size8", "uni221B.size9", "uni221B.size10", "uni221B.size11", "uni221B.size12", "uni221B.size13", "uni221B.size14", "uni221B.size15"],
-            "uni221C": ["uni221C", "uni221C.size1", "uni221C.size2", "uni221C.size3", "uni221C.size4", "uni221C.size5", "uni221C.size6", "uni221C.size7", "uni221C.size8", "uni221C.size9", "uni221C.size10", "uni221C.size11", "uni221C.size12", "uni221C.size13", "uni221C.size14", "uni221C.size15"]
+            "uni221C": ["uni221C", "uni221C.size1", "uni221C.size2", "uni221C.size3", "uni221C.size4", "uni221C.size5", "uni221C.size6", "uni221C.size7", "uni221C.size8", "uni221C.size9", "uni221C.size10", "uni221C.size11", "uni221C.size12", "uni221C.size13", "uni221C.size14", "uni221C.size15"],
+            // Upright integrals
+            "uni222B.up": ["uni222B.up", "uni222B.display.up"],
+            "uni222C.up": ["uni222C.up", "uni222C.display.up"],
+            "uni222D.up": ["uni222D.up", "uni222D.display.up"],
+            "uni2A0C.up": ["uni2A0C.up", "uni2A0C.display.up"],
+            "uni222E.up": ["uni222E.up", "uni222E.display.up"],
+            "uni222F.up": ["uni222F.up", "uni222F.display.up"],
+            "uni2230.up": ["uni2230.up", "uni2230.display.up"]
         },
         "horizontalComponents": {
             "uni23B4": [{
