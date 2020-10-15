@@ -4,7 +4,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com).
 
 ## v0.3.4 (2020-10-15)
 
-**Note:** This version is based on the master branch and has fixed some issues from v0.3.2. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
+**Note:** This version is based on the master branch and has fixed some issues from v0.3.3. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
 
 - Fixed:
   - Remove `CounterMasks` - [#53](https://github.com/firamath/firamath/issues/53)
