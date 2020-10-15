@@ -2224,7 +2224,6 @@ StartChar: uni007B
 Encoding: 123 123 91
 Width: 322
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -4759,7 +4758,6 @@ StartChar: uni00F7
 Encoding: 247 247 182
 Width: 500
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -14597,7 +14595,6 @@ Encoding: 8411 8411 576
 Width: 0
 Flags: W
 TopAccentHorizontal: -287
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -14699,7 +14696,6 @@ Encoding: 8424 8424 580
 Width: 0
 Flags: W
 TopAccentHorizontal: -288
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -19390,7 +19386,6 @@ StartChar: uni2208
 Encoding: 8712 8712 743
 Width: 656
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -19415,7 +19410,6 @@ StartChar: uni2209
 Encoding: 8713 8713 744
 Width: 656
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -19458,7 +19452,6 @@ StartChar: uni220A
 Encoding: 8714 8714 745
 Width: 496
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -19483,7 +19476,6 @@ StartChar: uni220B
 Encoding: 8715 8715 746
 Width: 656
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -19508,7 +19500,6 @@ StartChar: uni220C
 Encoding: 8716 8716 747
 Width: 656
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -19551,7 +19542,6 @@ StartChar: uni220D
 Encoding: 8717 8717 748
 Width: 496
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -20494,7 +20484,6 @@ StartChar: uni2234
 Encoding: 8756 8756 783
 Width: 730
 Flags: W
-CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -20520,7 +20509,6 @@ StartChar: uni2235
 Encoding: 8757 8757 784
 Width: 730
 Flags: W
-CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -20616,7 +20604,6 @@ StartChar: uni2239
 Encoding: 8761 8761 788
 Width: 684
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -20642,7 +20629,6 @@ StartChar: uni223A
 Encoding: 8762 8762 789
 Width: 528
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -21353,7 +21339,6 @@ StartChar: uni2261
 Encoding: 8801 8801 813
 Width: 500
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -21379,7 +21364,6 @@ StartChar: uni2262
 Encoding: 8802 8802 814
 Width: 500
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -22680,7 +22664,6 @@ StartChar: uni228E
 Encoding: 8846 8846 856
 Width: 576
 Flags: W
-CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -22874,7 +22857,6 @@ StartChar: uni2296
 Encoding: 8854 8854 864
 Width: 600
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -23694,7 +23676,6 @@ Encoding: 8943 8943 892
 Width: 738
 VWidth: 1222
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -24214,7 +24195,6 @@ StartChar: uni23DE
 Encoding: 9182 9182 922
 Width: 802
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -24241,7 +24221,6 @@ StartChar: uni23DF
 Encoding: 9183 9183 923
 Width: 802
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -24783,7 +24762,6 @@ StartChar: uni25A3
 Encoding: 9635 9635 956
 Width: 740
 Flags: W
-CounterMasks: 1 fc
 LayerCount: 2
 Fore
 SplineSet
@@ -28067,7 +28045,6 @@ StartChar: uni2980
 Encoding: 10624 10624 1091
 Width: 751
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -28452,7 +28429,6 @@ StartChar: uni2B31
 Encoding: 11057 11057 1106
 Width: 1040
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -43879,7 +43855,6 @@ StartChar: uni007B.size2
 Encoding: 1114244 -1 1698
 Width: 368
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -43906,7 +43881,6 @@ StartChar: uni007B.size3
 Encoding: 1114245 -1 1699
 Width: 391
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -43933,7 +43907,6 @@ StartChar: uni007B.size4
 Encoding: 1114246 -1 1700
 Width: 414
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -43960,7 +43933,6 @@ StartChar: uni007B.size5
 Encoding: 1114247 -1 1701
 Width: 438
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -43987,7 +43959,6 @@ StartChar: uni007B.size6
 Encoding: 1114248 -1 1702
 Width: 461
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44014,7 +43985,6 @@ StartChar: uni007B.size7
 Encoding: 1114249 -1 1703
 Width: 484
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44041,7 +44011,6 @@ StartChar: uni007B.size8
 Encoding: 1114250 -1 1704
 Width: 507
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44068,7 +44037,6 @@ StartChar: uni007B.size9
 Encoding: 1114251 -1 1705
 Width: 530
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44121,7 +44089,6 @@ StartChar: uni007B.size11
 Encoding: 1114253 -1 1707
 Width: 577
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44148,7 +44115,6 @@ StartChar: uni007B.size12
 Encoding: 1114254 -1 1708
 Width: 600
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44175,7 +44141,6 @@ StartChar: uni007B.size13
 Encoding: 1114255 -1 1709
 Width: 623
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44228,7 +44193,6 @@ StartChar: uni007B.size15
 Encoding: 1114257 -1 1711
 Width: 670
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44662,7 +44626,6 @@ StartChar: uni007D.size8
 Encoding: 1114280 -1 1734
 Width: 507
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44689,7 +44652,6 @@ StartChar: uni007D.size9
 Encoding: 1114281 -1 1735
 Width: 530
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44742,7 +44704,6 @@ StartChar: uni007D.size11
 Encoding: 1114283 -1 1737
 Width: 577
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44769,7 +44730,6 @@ StartChar: uni007D.size12
 Encoding: 1114284 -1 1738
 Width: 600
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44796,7 +44756,6 @@ StartChar: uni007D.size13
 Encoding: 1114285 -1 1739
 Width: 623
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -44849,7 +44808,6 @@ StartChar: uni007D.size15
 Encoding: 1114287 -1 1741
 Width: 670
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -48021,7 +47979,6 @@ StartChar: uni2980.size2
 Encoding: 1114454 -1 1908
 Width: 787
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -48197,7 +48154,6 @@ StartChar: uni2980.size9
 Encoding: 1114461 -1 1915
 Width: 916
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -48273,7 +48229,6 @@ StartChar: uni2980.size12
 Encoding: 1114464 -1 1918
 Width: 971
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -48349,7 +48304,6 @@ StartChar: uni2980.size15
 Encoding: 1114467 -1 1921
 Width: 1027
 Flags: W
-CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
@@ -48600,7 +48554,6 @@ StartChar: uni2980.ext
 Encoding: 1114479 -1 1933
 Width: 1027
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -49932,7 +49885,6 @@ StartChar: uni23DE.size1
 Encoding: 1114554 -1 2008
 Width: 1146
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -49959,7 +49911,6 @@ StartChar: uni23DE.size2
 Encoding: 1114555 -1 2009
 Width: 1491
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -49986,7 +49937,6 @@ StartChar: uni23DE.size3
 Encoding: 1114556 -1 2010
 Width: 1836
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50013,7 +49963,6 @@ StartChar: uni23DE.size4
 Encoding: 1114557 -1 2011
 Width: 2181
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50040,7 +49989,6 @@ StartChar: uni23DE.size5
 Encoding: 1114558 -1 2012
 Width: 2526
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50067,7 +50015,6 @@ StartChar: uni23DE.size6
 Encoding: 1114559 -1 2013
 Width: 2871
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50120,7 +50067,6 @@ StartChar: uni23DE.size8
 Encoding: 1114561 -1 2015
 Width: 3561
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50147,7 +50093,6 @@ StartChar: uni23DE.size9
 Encoding: 1114562 -1 2016
 Width: 3906
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50226,7 +50171,6 @@ StartChar: uni23DE.size12
 Encoding: 1114565 -1 2019
 Width: 4941
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50305,7 +50249,6 @@ StartChar: uni23DE.size15
 Encoding: 1114568 -1 2022
 Width: 5976
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50332,7 +50275,6 @@ StartChar: uni23DF.size1
 Encoding: 1114569 -1 2023
 Width: 1146
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50359,7 +50301,6 @@ StartChar: uni23DF.size2
 Encoding: 1114570 -1 2024
 Width: 1491
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50386,7 +50327,6 @@ StartChar: uni23DF.size3
 Encoding: 1114571 -1 2025
 Width: 1836
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50413,7 +50353,6 @@ StartChar: uni23DF.size4
 Encoding: 1114572 -1 2026
 Width: 2181
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50440,7 +50379,6 @@ StartChar: uni23DF.size5
 Encoding: 1114573 -1 2027
 Width: 2526
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50467,7 +50405,6 @@ StartChar: uni23DF.size6
 Encoding: 1114574 -1 2028
 Width: 2871
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50520,7 +50457,6 @@ StartChar: uni23DF.size8
 Encoding: 1114576 -1 2030
 Width: 3561
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50547,7 +50483,6 @@ StartChar: uni23DF.size9
 Encoding: 1114577 -1 2031
 Width: 3906
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50626,7 +50561,6 @@ StartChar: uni23DF.size12
 Encoding: 1114580 -1 2034
 Width: 4941
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -50705,7 +50639,6 @@ StartChar: uni23DF.size15
 Encoding: 1114583 -1 2037
 Width: 5976
 Flags: W
-CounterMasks: 1 70
 LayerCount: 2
 Fore
 SplineSet
@@ -51608,7 +51541,6 @@ Encoding: 1114626 -1 2080
 Width: 1091
 Flags: W
 ItalicCorrection: 180
-CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -51964,7 +51896,6 @@ Encoding: 1114633 -1 2087
 Width: 1882
 Flags: W
 ItalicCorrection: 280
-CounterMasks: 1 38
 LayerCount: 2
 Fore
 SplineSet
@@ -52078,7 +52009,6 @@ Encoding: 1114635 -1 2089
 Width: 882
 Flags: W
 ItalicCorrection: 280
-CounterMasks: 1 0e
 LayerCount: 2
 Fore
 SplineSet
