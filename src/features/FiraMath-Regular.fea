@@ -3,7 +3,7 @@ include(common.fea);
 table name {
     nameid 1  "Fira Math";
     nameid 2  "Regular";
-    nameid 3  "0.3.3;Fira Math Regular";
+    nameid 3  "0.3.4;Fira Math Regular";
     nameid 4  "Fira Math Regular";
     nameid 6  "FiraMath-Regular";
     nameid 16 "Fira Math";
