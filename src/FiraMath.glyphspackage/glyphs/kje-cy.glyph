@@ -1,0 +1,59 @@
+{
+color = 4;
+glyphname = "kje-cy";
+layers = (
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = "ka-cy";
+},
+{
+pos = (91,0);
+ref = acutecomb;
+}
+);
+width = 566;
+},
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = "ka-cy";
+},
+{
+pos = (146,0);
+ref = acutecomb;
+}
+);
+width = 468;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = "ka-cy";
+},
+{
+pos = (140,0);
+ref = acutecomb;
+}
+);
+width = 482;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = "ka-cy";
+},
+{
+pos = (130,0);
+ref = acutecomb;
+}
+);
+width = 519;
+}
+);
+unicode = 1116;
+}

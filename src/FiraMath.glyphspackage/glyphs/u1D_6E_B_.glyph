@@ -1,0 +1,64 @@
+{
+color = 1;
+glyphname = u1D6EB;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+};
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+width = 684;
+},
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+width = 540;
+},
+{
+background = {
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+};
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+width = 550;
+},
+{
+background = {
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+};
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = "Kitalic-math";
+}
+);
+width = 621;
+}
+);
+unicode = 120555;
+}

@@ -1,0 +1,90 @@
+{
+color = 4;
+glyphname = cedillacomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (160,0);
+},
+{
+name = bottom;
+pos = (177,-275);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = cedillacomb;
+}
+);
+width = 349;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (75,0);
+},
+{
+name = bottom;
+pos = (97,-202);
+}
+);
+background = {
+anchors = (
+{
+name = _bottom;
+pos = (175,0);
+}
+);
+};
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = cedillacomb;
+}
+);
+width = 189;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (96,0);
+},
+{
+name = bottom;
+pos = (113,-216);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = cedillacomb;
+}
+);
+width = 221;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (122,0);
+},
+{
+name = bottom;
+pos = (140,-241);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = cedillacomb;
+}
+);
+width = 275;
+}
+);
+}

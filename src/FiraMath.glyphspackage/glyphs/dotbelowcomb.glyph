@@ -1,0 +1,187 @@
+{
+color = 4;
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (95,0);
+},
+{
+name = bottom;
+pos = (97,-202);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(61,-77,o),
+(35,-101,o),
+(35,-133,cs),
+(35,-152,o),
+(45,-168,o),
+(59,-180,c),
+(30,-296,l),
+(83,-296,l),
+(124,-210,ls),
+(145,-166,o),
+(150,-150,o),
+(150,-133,cs),
+(150,-101,o),
+(125,-77,o),
+(93,-77,cs)
+);
+}
+);
+};
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+angle = 180;
+pos = (189,581);
+ref = dotaccentcomb;
+}
+);
+width = 189;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (36,0);
+},
+{
+name = bottom;
+pos = (36,-188);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(43,-107,o),
+(41,-109,o),
+(41,-112,cs),
+(41,-115,o),
+(43,-117,o),
+(47,-117,c),
+(24,-239,l),
+(25,-239,l),
+(50,-120,ls),
+(51,-115,o),
+(51,-114,o),
+(51,-112,c),
+(51,-109,o),
+(49,-107,o),
+(46,-107,cs)
+);
+}
+);
+};
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+angle = 180;
+pos = (72,587);
+ref = dotaccentcomb;
+}
+);
+width = 72;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (56,0);
+},
+{
+name = bottom;
+pos = (56,-193);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(49,-91,o),
+(37,-105,o),
+(37,-122,cs),
+(37,-138,o),
+(41,-147,o),
+(57,-152,c),
+(23,-265,l),
+(44,-265,l),
+(83,-179,ls),
+(97,-148,o),
+(102,-138,o),
+(102,-122,cs),
+(102,-105,o),
+(91,-91,o),
+(69,-91,cs)
+);
+}
+);
+};
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+angle = 180;
+pos = (112,585);
+ref = dotaccentcomb;
+}
+);
+width = 112;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (141,0);
+},
+{
+name = bottom;
+pos = (143,-215);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(69,-62,o),
+(30,-104,o),
+(30,-153,cs),
+(30,-187,o),
+(46,-211,o),
+(68,-228,c),
+(43,-342,l),
+(137,-342,l),
+(187,-241,ls),
+(204,-206,o),
+(214,-184,o),
+(214,-153,cs),
+(214,-101,o),
+(175,-62,o),
+(122,-62,cs)
+);
+}
+);
+};
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+angle = 180;
+pos = (282,565);
+ref = dotaccentcomb;
+}
+);
+width = 282;
+}
+);
+unicode = 803;
+}

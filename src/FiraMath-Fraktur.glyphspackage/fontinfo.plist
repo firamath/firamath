@@ -1,0 +1,133 @@
+{
+.appVersion = "3027";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+date = "2019-10-03 13:26:49 +0000";
+familyName = "Fira Math Fraktur";
+fontMaster = (
+{
+axesValues = (
+92,
+100
+);
+customParameters = (
+{
+name = "Alignment Zones";
+value = (
+{
+pos = 564;
+size = 14;
+}
+);
+}
+);
+id = "F8404493-F0CE-490E-B124-BB28D79C5E92";
+metricValues = (
+{
+over = 14;
+pos = 739;
+},
+{
+over = 14;
+pos = 689;
+},
+{
+over = 24;
+pos = 527;
+},
+{
+over = -24;
+},
+{
+over = -15;
+pos = -202;
+}
+);
+name = Regular;
+stemValues = (
+74,
+92
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright (C) 2019 Xiangdong Zeng";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Sans-serif font with Unicode math support";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1.";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+}
+);
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

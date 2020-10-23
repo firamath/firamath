@@ -1,0 +1,41 @@
+{
+color = 4;
+glyphname = upHarpoonWithBarbLeftFromBar;
+layers = (
+{
+layerId = "C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA";
+shapes = (
+{
+pos = (553,0);
+ref = upHarpoonWithBarbRightFromBar;
+scale = (-1,1);
+}
+);
+width = 553;
+},
+{
+layerId = "D83BBA30-9F2C-4CD6-96B7-4A74A7087E78";
+shapes = (
+{
+pos = (643,0);
+ref = upHarpoonWithBarbRightFromBar;
+scale = (-1,1);
+}
+);
+width = 643;
+},
+{
+layerId = "C41EA034-4E7F-46DC-9CBA-05541AA6484D";
+shapes = (
+{
+pos = (796,0);
+ref = upHarpoonWithBarbRightFromBar;
+scale = (-1,1);
+}
+);
+width = 796;
+}
+);
+note = uni2960;
+unicode = 10592;
+}

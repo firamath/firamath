@@ -1,0 +1,91 @@
+{
+color = 4;
+glyphname = lowlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (235,0);
+},
+{
+name = bottom;
+pos = (237,-173);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (-15,-840);
+ref = macroncomb;
+scale = (1.5,1);
+}
+);
+width = 470;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (173,0);
+},
+{
+name = bottom;
+pos = (175,-119);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (-15,-808);
+ref = macroncomb;
+scale = (1.5,1);
+}
+);
+width = 345;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (191,0);
+},
+{
+name = bottom;
+pos = (193,-147);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (-15,-830);
+ref = macroncomb;
+scale = (1.5,1);
+}
+);
+width = 381;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (274,0);
+},
+{
+name = bottom;
+pos = (276,-202);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (-15,-850);
+ref = macroncomb;
+scale = (1.5,1);
+}
+);
+width = 548;
+}
+);
+unicode = 818;
+}

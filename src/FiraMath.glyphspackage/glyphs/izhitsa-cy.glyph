@@ -1,0 +1,84 @@
+{
+color = 4;
+glyphname = "izhitsa-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (273.5,0);
+},
+{
+name = top;
+pos = (267,534);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = vrighthook;
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (225,0);
+},
+{
+name = top;
+pos = (223,517);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = vrighthook;
+}
+);
+width = 450;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (235.5,0);
+},
+{
+name = top;
+pos = (230,520);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = vrighthook;
+}
+);
+width = 473;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (253.5,0);
+},
+{
+name = top;
+pos = (248,527);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = vrighthook;
+}
+);
+width = 507;
+}
+);
+metricLeft = v;
+unicode = 1141;
+}

@@ -1,0 +1,83 @@
+{
+color = 4;
+glyphname = Epsilon;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (272,696);
+},
+{
+name = topleft;
+pos = (43,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = E;
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = top;
+pos = (284,680);
+},
+{
+name = topleft;
+pos = (80,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = E;
+}
+);
+width = 495;
+},
+{
+anchors = (
+{
+name = top;
+pos = (288,682);
+},
+{
+name = topleft;
+pos = (90,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = E;
+}
+);
+width = 493;
+},
+{
+anchors = (
+{
+name = top;
+pos = (290,689);
+},
+{
+name = topleft;
+pos = (90,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = E;
+}
+);
+width = 535;
+}
+);
+unicode = 917;
+}

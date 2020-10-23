@@ -1,0 +1,43 @@
+{
+export = 0;
+glyphname = downHarpoonWithBarbLeftToBar;
+layers = (
+{
+layerId = "C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,-81,l),
+(454,-81,l),
+(454,-59,l),
+(102,-59,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(282,-68,l),
+(289,-63,l),
+(289,639,l),
+(267,639,l),
+(267,-18,l),
+(117,145,l),
+(100,130,l)
+);
+}
+);
+width = 556;
+},
+{
+layerId = "D83BBA30-9F2C-4CD6-96B7-4A74A7087E78";
+width = 600;
+},
+{
+layerId = "C41EA034-4E7F-46DC-9CBA-05541AA6484D";
+width = 600;
+}
+);
+note = uni2959;
+unicode = 10585;
+}

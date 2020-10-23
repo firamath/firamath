@@ -1,0 +1,416 @@
+{
+.appVersion = "3027";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+date = "2019-08-26 07:59:07 +0000";
+familyName = "Fira Math";
+fontMaster = (
+{
+axesValues = (
+2
+);
+customParameters = (
+{
+name = "Alignment Zones";
+value = (
+{
+pos = 557;
+size = 12;
+}
+);
+}
+);
+iconName = Light;
+id = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+metricValues = (
+{
+over = 12;
+pos = 727;
+},
+{
+over = 12;
+pos = 680;
+},
+{
+over = 12;
+pos = 517;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -188;
+}
+);
+name = Light;
+stemValues = (
+2,
+2
+);
+},
+{
+axesValues = (
+30
+);
+customParameters = (
+{
+name = "Alignment Zones";
+value = (
+{
+pos = 560;
+size = 12;
+}
+);
+}
+);
+iconName = SemiLight;
+id = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+metricValues = (
+{
+over = 12;
+pos = 734;
+},
+{
+over = 12;
+pos = 682;
+},
+{
+over = 12;
+pos = 520;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -193;
+}
+);
+name = SemiLight;
+stemValues = (
+28,
+30
+);
+},
+{
+axesValues = (
+92
+);
+customParameters = (
+{
+name = "Alignment Zones";
+value = (
+{
+pos = 564;
+size = 14;
+}
+);
+}
+);
+id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+metricValues = (
+{
+over = 14;
+pos = 739;
+},
+{
+over = 14;
+pos = 689;
+},
+{
+over = 14;
+pos = 527;
+},
+{
+over = -14;
+},
+{
+over = -15;
+pos = -202;
+}
+);
+name = Regular;
+stemValues = (
+74,
+92
+);
+},
+{
+axesValues = (
+198
+);
+customParameters = (
+{
+name = "Alignment Zones";
+value = (
+{
+pos = 571;
+size = 20;
+}
+);
+}
+);
+iconName = Bold;
+id = "B26C53A4-97D1-457B-8232-65310EC64496";
+metricValues = (
+{
+over = 20;
+pos = 744;
+},
+{
+over = 20;
+pos = 696;
+},
+{
+over = 20;
+pos = 534;
+},
+{
+over = -20;
+},
+{
+over = -20;
+pos = -215;
+}
+);
+name = Bold;
+stemValues = (
+142,
+198
+);
+}
+);
+instances = (
+{
+axesValues = (
+2
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+},
+{
+name = panose;
+value = (
+2,
+11,
+2,
+3,
+5,
+0,
+0,
+2,
+0,
+4
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 1;
+};
+name = Two;
+weightClass = 100;
+},
+{
+axesValues = (
+58
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+3,
+5,
+0,
+0,
+2,
+0,
+4
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.54839;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.45161;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+92
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+3,
+5,
+0,
+0,
+2,
+0,
+4
+);
+}
+);
+instanceInterpolations = {
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+198
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+3,
+5,
+0,
+0,
+2,
+0,
+4
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 1;
+};
+name = Heavy;
+weightClass = 900;
+},
+{
+axesValues = (
+222
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+3,
+5,
+0,
+0,
+2,
+0,
+4
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 1.18464;
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = -0.07143;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = -0.11321;
+};
+name = Ultra;
+weightClass = 950;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2018–2020 by Xiangdong Zeng. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Sans-serif font with Unicode math support";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1.";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+}
+);
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 0;
+versionMinor = 500;
+}

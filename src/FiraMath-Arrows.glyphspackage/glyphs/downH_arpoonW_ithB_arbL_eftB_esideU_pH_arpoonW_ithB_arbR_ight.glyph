@@ -1,0 +1,72 @@
+{
+export = 0;
+glyphname = downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight;
+layers = (
+{
+layerId = "C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(282,-85,l),
+(289,-80,l),
+(289,640,l),
+(267,640,l),
+(267,-35,l),
+(117,128,l),
+(100,113,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(432,645,l),
+(425,640,l),
+(425,-80,l),
+(447,-80,l),
+(447,595,l),
+(597,432,l),
+(614,447,l)
+);
+}
+);
+width = 714;
+},
+{
+layerId = "D83BBA30-9F2C-4CD6-96B7-4A74A7087E78";
+shapes = (
+{
+closed = 1;
+nodes = (
+(532,666,l),
+(563,690,l),
+(784,450,l),
+(724,396,l),
+(612,520,l),
+(612,-120,l),
+(532,-120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(372,-106,l),
+(341,-130,l),
+(120,110,l),
+(180,164,l),
+(292,40,l),
+(292,680,l),
+(372,680,l)
+);
+}
+);
+width = 904;
+},
+{
+layerId = "C41EA034-4E7F-46DC-9CBA-05541AA6484D";
+width = 600;
+}
+);
+note = uni296F;
+unicode = 10607;
+}
