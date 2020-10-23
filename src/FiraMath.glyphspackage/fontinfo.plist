@@ -14,17 +14,6 @@ fontMaster = (
 axesValues = (
 2
 );
-customParameters = (
-{
-name = "Alignment Zones";
-value = (
-{
-pos = 557;
-size = 12;
-}
-);
-}
-);
 iconName = Light;
 id = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 metricValues = (
@@ -49,25 +38,10 @@ pos = -188;
 }
 );
 name = Light;
-stemValues = (
-2,
-2
-);
 },
 {
 axesValues = (
 30
-);
-customParameters = (
-{
-name = "Alignment Zones";
-value = (
-{
-pos = 560;
-size = 12;
-}
-);
-}
 );
 iconName = SemiLight;
 id = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -93,25 +67,10 @@ pos = -193;
 }
 );
 name = SemiLight;
-stemValues = (
-28,
-30
-);
 },
 {
 axesValues = (
 92
-);
-customParameters = (
-{
-name = "Alignment Zones";
-value = (
-{
-pos = 564;
-size = 14;
-}
-);
-}
 );
 id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 metricValues = (
@@ -136,25 +95,10 @@ pos = -202;
 }
 );
 name = Regular;
-stemValues = (
-74,
-92
-);
 },
 {
 axesValues = (
 198
-);
-customParameters = (
-{
-name = "Alignment Zones";
-value = (
-{
-pos = 571;
-size = 20;
-}
-);
-}
 );
 iconName = Bold;
 id = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -180,10 +124,6 @@ pos = -215;
 }
 );
 name = Bold;
-stemValues = (
-142,
-198
-);
 }
 );
 instances = (
@@ -195,21 +135,6 @@ customParameters = (
 {
 name = "Grid Spacing";
 value = 0;
-},
-{
-name = panose;
-value = (
-2,
-11,
-2,
-3,
-5,
-0,
-0,
-2,
-0,
-4
-);
 }
 );
 exports = 0;
@@ -223,23 +148,6 @@ weightClass = 100;
 axesValues = (
 58
 );
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-4,
-3,
-5,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
 exports = 0;
 instanceInterpolations = {
 "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.54839;
@@ -252,23 +160,6 @@ weightClass = 300;
 axesValues = (
 92
 );
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-5,
-3,
-5,
-0,
-0,
-2,
-0,
-4
-);
-}
-);
 instanceInterpolations = {
 "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 1;
 };
@@ -277,23 +168,6 @@ name = Regular;
 {
 axesValues = (
 198
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-10,
-3,
-5,
-0,
-0,
-2,
-0,
-4
-);
-}
 );
 exports = 0;
 instanceInterpolations = {
@@ -305,23 +179,6 @@ weightClass = 900;
 {
 axesValues = (
 222
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-10,
-3,
-5,
-0,
-0,
-2,
-0,
-4
-);
-}
 );
 exports = 0;
 instanceInterpolations = {
@@ -399,15 +256,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "http://scripts.sil.org/OFL";
-}
-);
-stems = (
-{
-horizontal = 1;
-name = hStem0;
-},
-{
-name = vStem0;
 }
 );
 unitsPerEm = 1000;
