@@ -20,6 +20,10 @@
 *.pyc
 __pycache__/
 
+# Glyphs caches
+*(Autosaved).*
+*.ufo
+
 # Folders
 .vscode/
 assets/
