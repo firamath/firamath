@@ -9,6 +9,16 @@ tag = wght;
 );
 date = "2019-08-26 07:59:07 +0000";
 familyName = "Fira Math";
+features = (
+{
+code = "script math;
+
+# Placeholder to make TeX work
+sub parenleft from [parenleft parenleft];
+";
+tag = ssty;
+}
+);
 fontMaster = (
 {
 axesValues = (
@@ -207,6 +217,12 @@ type = baseline;
 type = descender;
 }
 );
+note = "# Colors
+
+- No color: new glyphs
+- Light green: copy from FiraSans/FiraGO
+- Orange: copy from FiraSans/FiraGO, with remapping/trivial modification
+";
 properties = (
 {
 key = copyrights;
@@ -258,6 +274,9 @@ key = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
+settings = {
+keepAlternatesTogether = 1;
+};
 unitsPerEm = 1000;
 versionMajor = 0;
 versionMinor = 500;
