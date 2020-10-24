@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = dotmath;
 layers = (
 {
@@ -33,13 +32,27 @@ width = 180;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-ref = periodcentered;
+closed = 1;
+nodes = (
+(149,210,o),
+(180,241,o),
+(180,280,cs),
+(180,319,o),
+(149,350,o),
+(110,350,cs),
+(71,350,o),
+(40,319,o),
+(40,280,cs),
+(40,241,o),
+(71,210,o),
+(110,210,cs)
+);
 }
 );
-width = 240;
+width = 220;
 }
 );
-metricLeft = period;
-metricRight = period;
+metricLeft = minus;
+metricRight = minus;
 unicode = 8901;
 }

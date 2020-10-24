@@ -90,6 +90,6 @@ ref = contourintegral;
 width = 600;
 }
 );
-metricLeft = "=integral.size1";
-metricRight = "=integral.size1";
+metricLeft = integral.size1;
+metricRight = integral.size1;
 }

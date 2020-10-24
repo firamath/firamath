@@ -64,7 +64,7 @@ ref = integral;
 width = 408;
 }
 );
-metricLeft = "=integral";
-metricRight = "=integral";
+metricLeft = integral;
+metricRight = integral;
 unicode = 8749;
 }

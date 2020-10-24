@@ -64,6 +64,6 @@ ref = integral.size1;
 width = 408;
 }
 );
-metricLeft = "=integral.size1";
-metricRight = "=integral.size1";
+metricLeft = integral.size1;
+metricRight = integral.size1;
 }
