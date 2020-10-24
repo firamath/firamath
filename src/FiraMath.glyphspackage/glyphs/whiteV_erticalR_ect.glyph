@@ -3,12 +3,6 @@ color = 4;
 glyphname = whiteVerticalRect;
 layers = (
 {
-annotations = (
-{
-pos = (-2147483648,381);
-type = Text;
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

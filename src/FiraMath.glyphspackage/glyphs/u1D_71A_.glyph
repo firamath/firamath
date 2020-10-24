@@ -9,12 +9,6 @@ name = top;
 pos = (350,517);
 }
 );
-annotations = (
-{
-pos = (245.812,436.398);
-type = Text;
-}
-);
 background = {
 shapes = (
 {

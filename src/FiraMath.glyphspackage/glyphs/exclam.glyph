@@ -88,13 +88,6 @@ nodes = (
 width = 234;
 },
 {
-annotations = (
-{
-pos = (187.781,740.234);
-text = "Formwechsel ab Light";
-type = Text;
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
