@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = bracketleft;
 layers = (
 {
@@ -63,17 +62,7 @@ width = 313;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(65,816,l),
-(65,-116,l),
-(272,-116,l),
-(272,-40,l),
-(152,-40,l),
-(152,739,l),
-(272,739,l),
-(272,816,l)
-);
+ref = _smart.bracketleft;
 }
 );
 width = 322;

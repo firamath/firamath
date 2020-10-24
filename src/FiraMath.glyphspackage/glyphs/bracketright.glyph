@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = bracketright;
 layers = (
 {
@@ -63,17 +62,10 @@ width = 313;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(50,816,l),
-(50,739,l),
-(170,739,l),
-(170,-40,l),
-(50,-40,l),
-(50,-116,l),
-(257,-116,l),
-(257,816,l)
-);
+alignment = 1;
+pos = (322,0);
+ref = bracketleft;
+scale = (-1,1);
 }
 );
 width = 322;

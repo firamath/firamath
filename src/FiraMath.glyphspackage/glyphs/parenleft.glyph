@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = parenleft;
 layers = (
 {
@@ -81,23 +80,10 @@ width = 324;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(128,706,o),
-(40,587,o),
-(40,350,cs),
-(40,113,o),
-(128,-6,o),
-(226,-145,c),
-(284,-105,l),
-(194,28,o),
-(136,136,o),
-(136,350,cs),
-(136,565,o),
-(194,672,o),
-(284,805,c),
-(226,845,l)
-);
+piece = {
+size = 0;
+};
+ref = _smart.parenleft;
 }
 );
 width = 324;
