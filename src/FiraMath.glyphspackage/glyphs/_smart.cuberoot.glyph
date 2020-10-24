@@ -1,0 +1,70 @@
+{
+export = 0;
+glyphname = _smart.cuberoot;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (10,508);
+ref = three.dnom;
+}
+);
+width = 649;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+width = 600;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "DC80B129-95F8-4503-86AC-30FA0B8A618E";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (58,1550);
+ref = three.dnom;
+}
+);
+width = 929;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}
