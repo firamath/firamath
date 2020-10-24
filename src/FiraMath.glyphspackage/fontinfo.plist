@@ -162,6 +162,18 @@ weightClass = 100;
 },
 {
 axesValues = (
+22
+);
+exports = 0;
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.71429;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.28571;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
 58
 );
 exports = 0;
@@ -180,6 +192,18 @@ instanceInterpolations = {
 "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 1;
 };
 name = Regular;
+},
+{
+axesValues = (
+158
+);
+exports = 0;
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.62264;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.37736;
+};
+name = Bold;
+weightClass = 700;
 },
 {
 axesValues = (
@@ -225,9 +249,10 @@ type = descender;
 );
 note = "# Colors
 
-- No color: new glyphs
+- No color:    new glyphs
 - Light green: copy from FiraSans/FiraGO
-- Orange: copy from FiraSans/FiraGO, with remapping/trivial modification
+- Orange:      copy from FiraSans/FiraGO, with remapping
+- Red:         copy from FiraSans/FiraGO, with small modification (flip/rotate/reconnect)
 ";
 properties = (
 {
