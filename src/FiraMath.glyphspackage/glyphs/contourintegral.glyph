@@ -1,0 +1,63 @@
+{
+glyphname = contourintegral;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(474,87,o),
+(573,186,o),
+(573,309,cs),
+(573,432,o),
+(474,531,o),
+(351,531,cs),
+(228,531,o),
+(129,432,o),
+(129,309,cs),
+(129,186,o),
+(228,87,o),
+(351,87,cs)
+);
+},
+{
+ref = integral;
+},
+{
+closed = 1;
+nodes = (
+(268,159,o),
+(201,226,o),
+(201,309,cs),
+(201,392,o),
+(268,459,o),
+(351,459,cs),
+(434,459,o),
+(501,392,o),
+(501,309,cs),
+(501,226,o),
+(434,159,o),
+(351,159,cs)
+);
+}
+);
+width = 701;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+width = 600;
+}
+);
+metricLeft = "=integral";
+metricRight = "=integral";
+unicode = 8750;
+}

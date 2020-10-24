@@ -1,0 +1,86 @@
+{
+glyphname = surfaceintegral.size1;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = contourintegral;
+},
+{
+ref = contourintegral;
+}
+);
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = contourintegral;
+},
+{
+ref = contourintegral;
+}
+);
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1134,67,o),
+(1366,202,o),
+(1366,387,cs),
+(1366,572,o),
+(1134,707,o),
+(792,707,cs),
+(450,707,o),
+(218,572,o),
+(218,387,cs),
+(218,202,o),
+(450,67,o),
+(792,67,cs)
+);
+},
+{
+ref = dblintegral.size1;
+},
+{
+closed = 1;
+nodes = (
+(482,155,o),
+(310,280,o),
+(310,387,cs),
+(310,494,o),
+(482,619,o),
+(792,619,cs),
+(1102,619,o),
+(1274,494,o),
+(1274,387,cs),
+(1274,280,o),
+(1102,155,o),
+(792,155,cs)
+);
+}
+);
+width = 1620;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = contourintegral;
+},
+{
+ref = contourintegral;
+}
+);
+width = 600;
+}
+);
+metricLeft = "=integral.size1";
+metricRight = "=integral.size1";
+}
