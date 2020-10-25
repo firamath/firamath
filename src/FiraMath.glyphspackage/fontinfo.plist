@@ -17,10 +17,16 @@ date = "2019-08-26 07:59:07 +0000";
 familyName = "Fira Math";
 features = (
 {
-code = "script math;
+code = "# To make TeX work, `ssty` must exist, and `script math` is necessary.
+script math;
 
-# Placeholder to make TeX work
-sub parenleft from [parenleft parenleft];
+sub doubleprimeReversed from [doubleprimeReversed.ssty1 doubleprimeReversed.ssty2];
+sub primeReversed from [primeReversed.ssty1 primeReversed.ssty2];
+sub quadrupleprime from [quadrupleprime.ssty1 quadrupleprime.ssty2];
+sub tripleprime from [tripleprime.ssty1 tripleprime.ssty2];
+sub tripleprimeReversed from [tripleprimeReversed.ssty1 tripleprimeReversed.ssty2];
+sub minute from [minute.ssty1 minute.ssty2];
+sub second from [second.ssty1 second.ssty2];
 ";
 tag = ssty;
 }
