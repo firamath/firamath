@@ -1,0 +1,67 @@
+{
+export = 0;
+glyphname = _smart.leftCeiling;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,-186,l),
+(152,669,l),
+(272,669,l),
+(272,746,l),
+(65,746,l),
+(65,-186,l)
+);
+}
+);
+width = 322;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+width = 600;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "997BB342-74AE-44EF-A542-86A024144EAF";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,-2676,l),
+(215,3147,l),
+(457,3147,l),
+(457,3236,l),
+(105,3236,l),
+(105,-2676,l)
+);
+}
+);
+width = 521;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}

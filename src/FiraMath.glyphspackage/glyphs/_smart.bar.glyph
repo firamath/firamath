@@ -1,5 +1,6 @@
 {
-glyphname = bar;
+export = 0;
+glyphname = _smart.bar;
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -48,13 +49,48 @@ width = 410;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
 shapes = (
 {
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(242,-186,l),
+(242,746,l),
+(160,746,l),
+(160,-186,l)
+);
 }
 );
 width = 402;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "7C4DF91D-7D4C-408E-91BE-04480B20B2C9";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(308,-2676,l),
+(308,3236,l),
+(200,3236,l),
+(200,-2676,l)
+);
 }
 );
-unicode = 124;
+width = 508;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
 }

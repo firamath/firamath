@@ -1,0 +1,67 @@
+{
+export = 0;
+glyphname = "_smart.leftanglebracket-math";
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(296,-172,l),
+(126,280,l),
+(296,732,l),
+(226,760,l),
+(40,280,l),
+(226,-200,l)
+);
+}
+);
+width = 336;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+width = 600;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "4D22A1C0-0F44-4589-8FCB-7F4323421B13";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(632,-2660,l),
+(198,280,l),
+(632,3220,l),
+(528,3236,l),
+(72,280,l),
+(528,-2676,l)
+);
+}
+);
+width = 696;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}

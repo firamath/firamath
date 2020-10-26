@@ -1,0 +1,82 @@
+{
+export = 0;
+glyphname = _smart.tripleVerticalBarDelimiter;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (174,0);
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (348,0);
+ref = _smart.bar;
+}
+);
+width = 750;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+width = 600;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "FF424023-3F64-4CF5-9628-69A42F616E58";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (260,0);
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (520,0);
+ref = _smart.bar;
+}
+);
+width = 1028;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}
