@@ -1,0 +1,48 @@
+{
+glyphname = squarecap;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(514,14,l),
+(442,14,l),
+(442,474,l),
+(134,474,ls),
+(134,14,l),
+(62,14,l),
+(62,546,ls),
+(514,546,ls)
+);
+}
+);
+width = 576;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(134,14,l),
+(134,474,ls),
+(442,474,l),
+(442,14,l),
+(514,14,l),
+(514,546,ls),
+(62,546,ls),
+(62,14,l)
+);
+}
+);
+width = 576;
+}
+);
+unicode = 8851;
+}

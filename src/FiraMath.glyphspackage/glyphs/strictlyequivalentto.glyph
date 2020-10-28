@@ -21,11 +21,11 @@ pos = (0,-80);
 ref = minus;
 },
 {
-pos = (0,240);
+pos = (0,80);
 ref = minus;
 },
 {
-pos = (0,80);
+pos = (0,240);
 ref = minus;
 }
 );
