@@ -3,20 +3,6 @@ glyphname = logicaland;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(241,546,l),
-(351,546,l),
-(556,6,l),
-(471,6,l),
-(296,466,l),
-(121,6,l),
-(36,6,l)
-);
-}
-);
 width = 592;
 },
 {

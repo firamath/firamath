@@ -3,20 +3,6 @@ glyphname = logicalor;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(121,546,l),
-(296,86,l),
-(471,546,l),
-(556,546,l),
-(351,6,l),
-(241,6,l),
-(36,546,l)
-);
-}
-);
 width = 592;
 },
 {

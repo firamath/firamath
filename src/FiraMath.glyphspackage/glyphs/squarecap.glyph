@@ -3,21 +3,6 @@ glyphname = squarecap;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-shapes = (
-{
-closed = 1;
-nodes = (
-(514,14,l),
-(442,14,l),
-(442,474,l),
-(134,474,ls),
-(134,14,l),
-(62,14,l),
-(62,546,ls),
-(514,546,ls)
-);
-}
-);
 width = 576;
 },
 {
@@ -42,6 +27,10 @@ nodes = (
 }
 );
 width = 576;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+width = 600;
 }
 );
 unicode = 8851;
