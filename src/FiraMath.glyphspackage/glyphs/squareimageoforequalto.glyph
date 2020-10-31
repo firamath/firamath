@@ -15,32 +15,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(592,106,l),
-(592,178,l),
-(132,178,ls),
-(132,546,l),
-(592,546,l),
-(592,618,l),
-(60,618,ls),
-(60,106,ls)
+(526,-43,l),
+(526,33,l),
+(40,33,l),
+(40,-43,l)
 );
 },
 {
-closed = 1;
-nodes = (
-(592,-58,l),
-(592,14,l),
-(60,14,l),
-(60,-58,l)
-);
+pos = (0,83);
+ref = squareimageof;
 }
 );
-width = 652;
+width = 566;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 width = 600;
 }
 );
+metricLeft = squareimageof;
+metricRight = squareimageof;
 unicode = 8849;
 }

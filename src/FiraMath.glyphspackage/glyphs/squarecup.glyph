@@ -13,25 +13,19 @@ width = 600;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(514,14,ls),
-(514,546,l),
-(442,546,l),
-(442,86,l),
-(134,86,ls),
-(134,546,l),
-(62,546,l),
-(62,14,ls)
-);
+pos = (0,560);
+ref = squarecap;
+scale = (1,-1);
 }
 );
-width = 576;
+width = 544;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 width = 600;
 }
 );
+metricLeft = squarecap;
+metricRight = squarecap;
 unicode = 8852;
 }
