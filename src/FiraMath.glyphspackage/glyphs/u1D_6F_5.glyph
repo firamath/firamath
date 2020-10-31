@@ -1,4 +1,5 @@
 {
+category = Letter;
 color = 1;
 glyphname = u1D6F5;
 layers = (
@@ -60,5 +61,6 @@ ref = "Titalic-math";
 width = 511;
 }
 );
+script = math;
 unicode = 120565;
 }

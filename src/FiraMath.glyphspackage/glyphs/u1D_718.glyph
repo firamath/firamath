@@ -1,4 +1,5 @@
 {
+category = Letter;
 color = 1;
 glyphname = u1D718;
 layers = (
@@ -469,5 +470,6 @@ width = 532;
 );
 metricLeft = "=|iota";
 metricRight = iota;
+script = math;
 unicode = 120600;
 }

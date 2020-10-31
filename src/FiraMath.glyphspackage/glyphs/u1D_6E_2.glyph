@@ -1,4 +1,5 @@
 {
+category = Letter;
 color = 1;
 glyphname = u1D6E2;
 layers = (
@@ -60,5 +61,6 @@ ref = "Aitalic-math";
 width = 567;
 }
 );
+script = math;
 unicode = 120546;
 }

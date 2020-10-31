@@ -1,4 +1,5 @@
 {
+category = Letter;
 color = 1;
 glyphname = u1D70B;
 layers = (
@@ -340,5 +341,6 @@ nodes = (
 width = 589;
 }
 );
+script = math;
 unicode = 120587;
 }

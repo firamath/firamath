@@ -1,4 +1,5 @@
 {
+category = Letter;
 color = 1;
 glyphname = u1D6F1;
 layers = (
@@ -188,5 +189,6 @@ width = 768;
 );
 metricLeft = H;
 metricRight = H;
+script = math;
 unicode = 120561;
 }

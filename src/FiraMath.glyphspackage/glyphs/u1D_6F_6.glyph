@@ -1,4 +1,5 @@
 {
+category = Letter;
 color = 1;
 glyphname = u1D6F6;
 layers = (
@@ -60,5 +61,6 @@ ref = "Yitalic-math";
 width = 544;
 }
 );
+script = math;
 unicode = 120566;
 }
