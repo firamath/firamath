@@ -65,5 +65,4 @@ name = size;
 topValue = 15;
 }
 );
-script = "";
 }
