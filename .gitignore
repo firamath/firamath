@@ -23,6 +23,7 @@ __pycache__/
 # Glyphs caches
 *(Autosaved).*
 *.ufo
+UIState.plist
 
 # Folders
 .vscode/

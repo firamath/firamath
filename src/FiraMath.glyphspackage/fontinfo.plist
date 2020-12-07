@@ -1,5 +1,5 @@
 {
-.appVersion = "3028";
+.appVersion = "3042";
 .formatVersion = 3;
 axes = (
 {
@@ -306,6 +306,7 @@ note = "# Colors
 - Light green: copy from FiraSans/FiraGO
 - Orange:      copy from FiraSans/FiraGO, with remapping
 - Red:         copy from FiraSans/FiraGO, with small modification (flip/rotate/reconnect)
+- Purple:      unfinished/TODO
 ";
 properties = (
 {
