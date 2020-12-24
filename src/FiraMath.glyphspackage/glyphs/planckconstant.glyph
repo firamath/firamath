@@ -3,20 +3,6 @@ color = 1;
 glyphname = planckconstant;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (284,0);
-},
-{
-name = center;
-pos = (318,267);
-},
-{
-name = top;
-pos = (385,744);
-}
-);
 background = {
 shapes = (
 {
@@ -77,20 +63,6 @@ nodes = (
 width = 619;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (293,0);
-},
-{
-name = center;
-pos = (317,259);
-},
-{
-name = top;
-pos = (357,727);
-}
-);
 background = {
 shapes = (
 {
@@ -135,20 +107,6 @@ nodes = (
 width = 635;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (294,0);
-},
-{
-name = center;
-pos = (333,260);
-},
-{
-name = top;
-pos = (400,734);
-}
-);
 background = {
 shapes = (
 {
@@ -214,20 +172,6 @@ nodes = (
 width = 637;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (294,0);
-},
-{
-name = center;
-pos = (327,264);
-},
-{
-name = top;
-pos = (394,739);
-}
-);
 background = {
 shapes = (
 {

@@ -3,16 +3,6 @@ color = 8;
 glyphname = qdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (289,-188);
-},
-{
-name = top;
-pos = (289,517);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -61,16 +51,6 @@ nodes = (
 width = 572;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (290,-193);
-},
-{
-name = top;
-pos = (290,520);
-}
-);
 background = {
 shapes = (
 {
@@ -163,16 +143,6 @@ nodes = (
 width = 575;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (302,-202);
-},
-{
-name = top;
-pos = (302,527);
-}
-);
 background = {
 shapes = (
 {
@@ -265,16 +235,6 @@ nodes = (
 width = 598;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (303,-215);
-},
-{
-name = top;
-pos = (303,534);
-}
-);
 background = {
 shapes = (
 {

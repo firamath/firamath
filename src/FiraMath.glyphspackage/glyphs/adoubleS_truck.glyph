@@ -3,20 +3,6 @@ color = 8;
 glyphname = adoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (250,0);
-},
-{
-name = ogonek;
-pos = (457,-9);
-},
-{
-name = top;
-pos = (250,517);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -78,20 +64,6 @@ nodes = (
 width = 523;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (256,0);
-},
-{
-name = ogonek;
-pos = (463,-10);
-},
-{
-name = top;
-pos = (256,520);
-}
-);
 background = {
 shapes = (
 {
@@ -185,20 +157,6 @@ nodes = (
 width = 530;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (261,0);
-},
-{
-name = ogonek;
-pos = (483,-12);
-},
-{
-name = top;
-pos = (261,527);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -260,20 +218,6 @@ nodes = (
 width = 544;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (277,0);
-},
-{
-name = ogonek;
-pos = (506,-16);
-},
-{
-name = top;
-pos = (277,534);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

@@ -3,24 +3,6 @@ color = 8;
 glyphname = ditalicDoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (253,0);
-},
-{
-name = center;
-pos = (289,259);
-},
-{
-name = top;
-pos = (345,727);
-},
-{
-name = topright;
-pos = (562,727);
-}
-);
 background = {
 shapes = (
 {
@@ -113,24 +95,6 @@ nodes = (
 width = 638;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (259,0);
-},
-{
-name = center;
-pos = (293,260);
-},
-{
-name = top;
-pos = (344,734);
-},
-{
-name = topright;
-pos = (557,734);
-}
-);
 background = {
 shapes = (
 {
@@ -263,24 +227,6 @@ nodes = (
 width = 642;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (258,0);
-},
-{
-name = center;
-pos = (301,264);
-},
-{
-name = top;
-pos = (347,739);
-},
-{
-name = topright;
-pos = (576,739);
-}
-);
 background = {
 shapes = (
 {
@@ -371,24 +317,6 @@ nodes = (
 width = 661;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (259,0);
-},
-{
-name = center;
-pos = (297,267);
-},
-{
-name = top;
-pos = (343,744);
-},
-{
-name = topright;
-pos = (631,744);
-}
-);
 background = {
 shapes = (
 {

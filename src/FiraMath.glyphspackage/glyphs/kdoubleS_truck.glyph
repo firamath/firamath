@@ -3,16 +3,6 @@ color = 8;
 glyphname = kdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (269,0);
-},
-{
-name = top;
-pos = (260,727);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -39,16 +29,6 @@ nodes = (
 width = 448;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (268,0);
-},
-{
-name = top;
-pos = (260,734);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -75,16 +55,6 @@ nodes = (
 width = 469;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (255,0);
-},
-{
-name = top;
-pos = (280,739);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -111,16 +81,6 @@ nodes = (
 width = 512;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (288,0);
-},
-{
-name = top;
-pos = (307,744);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

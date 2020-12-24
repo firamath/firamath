@@ -3,16 +3,6 @@ color = 8;
 glyphname = gdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (252,-188);
-},
-{
-name = top;
-pos = (244,517);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -96,16 +86,6 @@ nodes = (
 width = 487;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (252,-193);
-},
-{
-name = top;
-pos = (245,520);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -189,16 +169,6 @@ nodes = (
 width = 489;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (252,-202);
-},
-{
-name = top;
-pos = (260,527);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -282,16 +252,6 @@ nodes = (
 width = 520;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (252,-215);
-},
-{
-name = top;
-pos = (285,534);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -375,16 +335,6 @@ nodes = (
 width = 570;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (246,0);
-},
-{
-name = top;
-pos = (246,517);
-}
-);
 associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 layerId = "C8FFB09A-5D32-4327-BA4D-688EC8FD7749";
 name = "Light Mar 18 14, 13:45";
@@ -484,12 +434,6 @@ nodes = (
 width = 487;
 },
 {
-anchors = (
-{
-name = top;
-pos = (248,520);
-}
-);
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 layerId = "BD31A8E7-F2D8-4FE7-8862-33B3DA3BD28F";
 name = "Regular Mar 18 14, 13:45";
@@ -589,12 +533,6 @@ nodes = (
 width = 489;
 },
 {
-anchors = (
-{
-name = top;
-pos = (257,527);
-}
-);
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 layerId = "828DD08E-7B1A-4EEE-80A0-A07692626AE5";
 name = "Regular Mar 18 14, 13:45";
@@ -694,12 +632,6 @@ nodes = (
 width = 520;
 },
 {
-anchors = (
-{
-name = top;
-pos = (286,534);
-}
-);
 associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
 layerId = "CA433F45-E3AF-4A80-B8DD-ED7374114ECF";
 name = "Bold Mar 18 14, 13:45";

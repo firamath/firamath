@@ -1,24 +1,57 @@
 {
-color = 8;
 glyphname = GammadoubleStruck;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-ref = Gamma;
+closed = 1;
+nodes = (
+(170,0,l),
+(170,678,l),
+(539,678,l),
+(539,680,l),
+(130,680,l),
+(130,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(132,678,l),
+(168,678,l),
+(168,2,l),
+(132,2,l)
+);
 }
 );
-width = 521;
+width = 559;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-ref = Gamma;
+closed = 1;
+nodes = (
+(242,0,l),
+(242,652,l),
+(564,652,l),
+(569,682,l),
+(120,682,l),
+(120,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(151,652,l),
+(211,652,l),
+(211,29,l),
+(151,29,l)
+);
 }
 );
-width = 508;
+width = 579;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -39,5 +72,7 @@ ref = Gamma;
 width = 511;
 }
 );
+metricLeft = Gamma;
+metricRight = Gamma;
 unicode = 8510;
 }

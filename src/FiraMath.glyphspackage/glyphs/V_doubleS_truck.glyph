@@ -1,18 +1,7 @@
 {
-color = 8;
 glyphname = VdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (261.5,0);
-},
-{
-name = top;
-pos = (261.5,680);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -31,44 +20,28 @@ nodes = (
 width = 523;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (269,0);
-},
-{
-name = top;
-pos = (269,682);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 closed = 1;
 nodes = (
-(480,682,l),
-(269,29,l),
-(58,682,l),
+(500,682,l),
+(279,29,l),
+(67,653,l),
+(136,653,l),
+(320,111,l),
+(336,157,l),
+(157,682,l),
 (25,682,l),
-(249,0,l),
-(288,0,l),
-(513,682,l)
+(259,0,l),
+(298,0,l),
+(533,682,l)
 );
 }
 );
-width = 538;
+width = 558;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (278,0);
-},
-{
-name = top;
-pos = (278,689);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -87,16 +60,6 @@ nodes = (
 width = 556;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (289.5,0);
-},
-{
-name = top;
-pos = (289.5,696);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -115,7 +78,7 @@ nodes = (
 width = 579;
 }
 );
-metricLeft = A;
-metricRight = A;
+metricLeft = V;
+metricRight = V;
 unicode = 120141;
 }

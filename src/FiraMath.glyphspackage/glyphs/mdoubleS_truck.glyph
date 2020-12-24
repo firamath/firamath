@@ -3,16 +3,6 @@ color = 8;
 glyphname = mdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (423,0);
-},
-{
-name = top;
-pos = (423,517);
-}
-);
 background = {
 shapes = (
 {
@@ -116,16 +106,6 @@ nodes = (
 width = 845;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (425,0);
-},
-{
-name = top;
-pos = (425,520);
-}
-);
 background = {
 shapes = (
 {
@@ -229,16 +209,6 @@ nodes = (
 width = 849;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (429,0);
-},
-{
-name = top;
-pos = (429,527);
-}
-);
 background = {
 shapes = (
 {
@@ -342,16 +312,6 @@ nodes = (
 width = 857;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (419,0);
-},
-{
-name = top;
-pos = (419,534);
-}
-);
 background = {
 shapes = (
 {

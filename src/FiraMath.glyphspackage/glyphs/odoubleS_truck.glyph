@@ -3,24 +3,6 @@ color = 8;
 glyphname = odoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (280,0);
-},
-{
-name = ogonek;
-pos = (348,0);
-},
-{
-name = top;
-pos = (280,517);
-},
-{
-name = topright;
-pos = (431,517);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -61,24 +43,6 @@ nodes = (
 width = 559;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (281,0);
-},
-{
-name = ogonek;
-pos = (355,0);
-},
-{
-name = top;
-pos = (281,520);
-},
-{
-name = topright;
-pos = (453,520);
-}
-);
 background = {
 shapes = (
 {
@@ -157,24 +121,6 @@ nodes = (
 width = 561;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (292,0);
-},
-{
-name = ogonek;
-pos = (380,0);
-},
-{
-name = top;
-pos = (292,527);
-},
-{
-name = topright;
-pos = (476,527);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -215,24 +161,6 @@ nodes = (
 width = 584;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (292,0);
-},
-{
-name = ogonek;
-pos = (415,0);
-},
-{
-name = top;
-pos = (292,534);
-},
-{
-name = topright;
-pos = (509,534);
-}
-);
 background = {
 shapes = (
 {

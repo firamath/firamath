@@ -3,20 +3,6 @@ color = 8;
 glyphname = eitalicDoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (239,0);
-},
-{
-name = ogonek;
-pos = (349,10);
-},
-{
-name = top;
-pos = (313,517);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -60,20 +46,6 @@ nodes = (
 width = 534;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (246,0);
-},
-{
-name = ogonek;
-pos = (346,5);
-},
-{
-name = top;
-pos = (316,520);
-}
-);
 background = {
 shapes = (
 {
@@ -162,20 +134,6 @@ nodes = (
 width = 535;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (259,0);
-},
-{
-name = ogonek;
-pos = (365,6);
-},
-{
-name = top;
-pos = (319,527);
-}
-);
 background = {
 shapes = (
 {
@@ -264,20 +222,6 @@ nodes = (
 width = 541;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (256,0);
-},
-{
-name = ogonek;
-pos = (417,11);
-},
-{
-name = top;
-pos = (321,534);
-}
-);
 background = {
 shapes = (
 {
@@ -366,20 +310,6 @@ nodes = (
 width = 564;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (240,0);
-},
-{
-name = ogonek;
-pos = (328,4);
-},
-{
-name = top;
-pos = (312,517);
-}
-);
 associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 layerId = "6714E0F5-5741-4442-83AE-D65D856F8C3C";
 metricLeft = "=o";

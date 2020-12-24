@@ -1,30 +1,7 @@
 {
-color = 8;
 glyphname = OdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (344,0);
-},
-{
-name = ogonek;
-pos = (422,0);
-},
-{
-name = top;
-pos = (344,680);
-},
-{
-name = topleft;
-pos = (102,680);
-},
-{
-name = topright;
-pos = (517,680);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -65,90 +42,64 @@ nodes = (
 width = 687;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (345,0);
-},
-{
-name = ogonek;
-pos = (430,0);
-},
-{
-name = top;
-pos = (345,682);
-},
-{
-name = topleft;
-pos = (103,682);
-},
-{
-name = topright;
-pos = (536,682);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 closed = 1;
 nodes = (
+(541,-10,o),
+(645,118,o),
+(645,340,cs),
+(645,571,o),
+(536,692,o),
+(360,692,cs),
 (186,692,o),
 (75,565,o),
 (75,339,cs),
 (75,114,o),
 (185,-10,o),
-(345,-10,cs),
-(511,-10,o),
-(615,118,o),
-(615,340,cs),
-(615,571,o),
-(506,692,o),
-(345,692,cs)
+(360,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(488,663,o),
-(583,556,o),
-(583,340,cs),
-(583,129,o),
-(493,19,o),
-(345,19,cs),
+(208,633,l),
+(177,609,l),
+(177,86,l),
+(208,54,l)
+);
+},
+{
+closed = 1;
+nodes = (
 (205,19,o),
 (107,129,o),
 (107,339,cs),
 (107,554,o),
 (204,663,o),
-(345,663,c)
+(360,663,c),
+(518,663,o),
+(613,556,o),
+(613,340,cs),
+(613,129,o),
+(523,19,o),
+(360,19,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(543,86,l),
+(543,609,l),
+(512,633,l),
+(512,54,l)
 );
 }
 );
-width = 690;
+width = 720;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (346,0);
-},
-{
-name = ogonek;
-pos = (445,0);
-},
-{
-name = top;
-pos = (346,689);
-},
-{
-name = topleft;
-pos = (113,689);
-},
-{
-name = topright;
-pos = (549,689);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -189,28 +140,6 @@ nodes = (
 width = 692;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (345,0);
-},
-{
-name = ogonek;
-pos = (482,0);
-},
-{
-name = top;
-pos = (345,696);
-},
-{
-name = topleft;
-pos = (103,696);
-},
-{
-name = topright;
-pos = (589,696);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -251,5 +180,7 @@ nodes = (
 width = 690;
 }
 );
+metricLeft = O;
+metricRight = O;
 unicode = 120134;
 }

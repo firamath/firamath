@@ -1,22 +1,7 @@
 {
-color = 8;
 glyphname = DdoubleStruck;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (310,0);
-},
-{
-name = center;
-pos = (309,340);
-},
-{
-name = top;
-pos = (289,680);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -51,68 +36,58 @@ nodes = (
 width = 613;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = center;
-pos = (317,341);
-},
-{
-name = top;
-pos = (297,682);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 closed = 1;
 nodes = (
+(343,0,ls),
+(477,0,o),
+(638,61,o),
+(638,348,cs),
+(638,627,o),
+(486,682,o),
+(340,682,cs),
 (120,682,l),
-(120,0,l),
-(252,0,ls),
-(386,0,o),
-(547,61,o),
-(547,348,cs),
-(547,627,o),
-(395,682,o),
-(249,682,cs)
+(120,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(375,653,o),
-(515,614,o),
-(515,348,cs),
-(515,87,o),
-(380,29,o),
-(253,29,cs),
-(151,29,l),
 (151,653,l),
-(246,653,ls)
+(211,653,l),
+(211,29,l),
+(151,29,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(242,653,l),
+(337,653,ls),
+(466,653,o),
+(606,614,o),
+(606,348,cs),
+(606,87,o),
+(471,29,o),
+(344,29,cs),
+(242,29,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(536,86,l),
+(536,609,l),
+(505,633,l),
+(505,54,l)
 );
 }
 );
-width = 622;
+width = 713;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (300,0);
-},
-{
-name = center;
-pos = (323,345);
-},
-{
-name = top;
-pos = (303,689);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -147,20 +122,6 @@ nodes = (
 width = 644;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (310,0);
-},
-{
-name = center;
-pos = (328,348);
-},
-{
-name = top;
-pos = (291,696);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -195,7 +156,7 @@ nodes = (
 width = 656;
 }
 );
-metricLeft = H;
-metricRight = O;
+metricLeft = D;
+metricRight = D;
 unicode = 120123;
 }
