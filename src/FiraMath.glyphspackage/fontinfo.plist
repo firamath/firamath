@@ -336,7 +336,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2018–2020 by Xiangdong Zeng. All rights reserved.";
+value = "Copyright © 2018–2021 by Xiangdong Zeng. All rights reserved.";
 }
 );
 },
