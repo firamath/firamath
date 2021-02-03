@@ -1,5 +1,5 @@
 {
-.appVersion = "3047";
+.appVersion = "3059";
 .formatVersion = 3;
 axes = (
 {
@@ -85,6 +85,16 @@ name = "Preview Descender";
 value = 700;
 }
 );
+guides = (
+{
+locked = 1;
+pos = (0,653);
+},
+{
+locked = 1;
+pos = (0,29);
+}
+);
 iconName = SemiLight;
 id = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 metricValues = (
@@ -129,6 +139,18 @@ guides = (
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+},
+{
+locked = 1;
+pos = (0,50);
+},
+{
+locked = 1;
+pos = (0,685);
+},
+{
+locked = 1;
+pos = (0,635);
 }
 );
 id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
