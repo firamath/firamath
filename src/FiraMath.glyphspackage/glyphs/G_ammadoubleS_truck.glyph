@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = GammadoubleStruck;
 layers = (
 {
@@ -84,10 +83,27 @@ width = 591;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-ref = Gamma;
+closed = 1;
+nodes = (
+(411,0,l),
+(411,538,l),
+(598,538,l),
+(618,696,l),
+(43,696,l),
+(43,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(209,538,l),
+(245,538,l),
+(245,158,l),
+(209,158,l)
+);
 }
 );
-width = 511;
+width = 613;
 }
 );
 metricLeft = Gamma;

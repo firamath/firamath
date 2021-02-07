@@ -1,5 +1,5 @@
 {
-.appVersion = "3059";
+.appVersion = "3061";
 .formatVersion = 3;
 axes = (
 {
@@ -189,6 +189,12 @@ value = 1100;
 {
 name = "Preview Descender";
 value = 700;
+}
+);
+guides = (
+{
+locked = 1;
+pos = (0,158);
 }
 );
 iconName = Bold;

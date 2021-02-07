@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = IdoubleStruck;
 layers = (
 {
@@ -80,14 +79,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(411,0,l),
+(411,696,l),
 (43,696,l),
-(43,0,l),
-(249,0,l),
-(249,696,l)
+(43,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(209,548,l),
+(245,548,l),
+(245,158,l),
+(209,158,l)
 );
 }
 );
-width = 292;
+width = 454;
 }
 );
 metricLeft = I;
