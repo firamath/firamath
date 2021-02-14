@@ -5,11 +5,47 @@ glyphname = _smart.bracketleft;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-165,l),
+(220,-163,l),
+(112,-163,l),
+(112,723,l),
+(220,723,l),
+(220,725,l),
+(110,725,l),
+(110,-165,l)
+);
+}
+);
+width = 310;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,-174,l),
+(233,-151,l),
+(127,-151,l),
+(127,711,l),
+(233,711,l),
+(233,734,l),
+(100,734,l),
+(100,-174,l)
+);
+}
+);
+width = 313;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -35,7 +71,25 @@ width = 322;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,-197,l),
+(315,-55,l),
+(203,-55,l),
+(203,614,l),
+(315,614,l),
+(315,757,l),
+(15,757,l),
+(15,-197,l)
+);
+}
+);
+width = 325;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -60,6 +114,78 @@ nodes = (
 }
 );
 width = 521;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "41FF8012-81EC-470D-847D-175C8883F40E";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-165,l),
+(220,-163,l),
+(112,-163,l),
+(112,723,l),
+(220,723,l),
+(220,725,l),
+(110,725,l),
+(110,-165,l)
+);
+}
+);
+width = 310;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "7B4CB479-E58D-432F-AC7B-A54A836EF2EF";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,-197,l),
+(315,-55,l),
+(203,-55,l),
+(203,614,l),
+(315,614,l),
+(315,757,l),
+(15,757,l),
+(15,-197,l)
+);
+}
+);
+width = 325;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "5A2DBC99-29FC-4126-8235-32158B61FB4C";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,-174,l),
+(233,-151,l),
+(127,-151,l),
+(127,711,l),
+(233,711,l),
+(233,734,l),
+(100,734,l),
+(100,-174,l)
+);
+}
+);
+width = 313;
 }
 );
 partsSettings = (

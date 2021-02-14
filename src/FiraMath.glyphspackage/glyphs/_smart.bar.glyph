@@ -5,14 +5,17 @@ glyphname = _smart.bar;
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
 shapes = (
 {
 closed = 1;
 nodes = (
-(87,812,l),
-(87,-107,l),
-(273,-107,l),
-(273,812,l)
+(273,-180,l),
+(273,740,l),
+(87,740,l),
+(87,-180,l)
 );
 }
 );
@@ -20,14 +23,17 @@ width = 360;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
 shapes = (
 {
 closed = 1;
 nodes = (
-(209,800,l),
-(209,-97,l),
-(211,-97,l),
-(211,800,l)
+(211,-168,l),
+(211,728,l),
+(209,728,l),
+(209,-168,l)
 );
 }
 );
@@ -35,14 +41,17 @@ width = 420;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
 shapes = (
 {
 closed = 1;
 nodes = (
-(190,802,l),
-(190,-99,l),
-(220,-99,l),
-(220,802,l)
+(220,-170,l),
+(220,730,l),
+(190,730,l),
+(190,-170,l)
 );
 }
 );
@@ -85,6 +94,66 @@ nodes = (
 }
 );
 width = 508;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "CA7323A0-1A64-4C60-A844-D5E8CA1C9A5D";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,-2658,l),
+(211,3218,l),
+(209,3218,l),
+(209,-2658,l)
+);
+}
+);
+width = 420;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "804BCAC7-567D-4B03-AA2B-95F02B0EDFFB";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-2660,l),
+(220,3220,l),
+(190,3220,l),
+(190,-2660,l)
+);
+}
+);
+width = 410;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "C17A2EC4-B384-40EA-B1B6-7EC541672B8F";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(273,-2670,l),
+(273,3230,l),
+(87,3230,l),
+(87,-2670,l)
+);
+}
+);
+width = 360;
 }
 );
 partsSettings = (

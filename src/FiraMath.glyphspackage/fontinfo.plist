@@ -1,5 +1,5 @@
 {
-.appVersion = "3061";
+.appVersion = "3063";
 .formatVersion = 3;
 axes = (
 {
@@ -44,6 +44,13 @@ value = 1100;
 {
 name = "Preview Descender";
 value = 700;
+}
+);
+guides = (
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
 }
 );
 iconName = Light;
@@ -93,6 +100,11 @@ pos = (0,653);
 {
 locked = 1;
 pos = (0,29);
+},
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
 }
 );
 iconName = SemiLight;
@@ -195,6 +207,11 @@ guides = (
 {
 locked = 1;
 pos = (0,158);
+},
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
 }
 );
 iconName = Bold;

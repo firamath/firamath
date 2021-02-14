@@ -5,11 +5,38 @@ glyphname = _smart.dblverticalbar;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+pos = (74,0);
+ref = _smart.bar;
+}
+);
+width = 494;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (112,0);
+ref = _smart.bar;
+}
+);
+width = 522;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -31,7 +58,21 @@ width = 576;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (242,0);
+ref = _smart.bar;
+}
+);
+width = 602;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -58,6 +99,83 @@ ref = _smart.bar;
 }
 );
 width = 768;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "2ED257CC-A360-4974-AF5F-ADED1EDBC167";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+piece = {
+size = 15;
+};
+pos = (74,0);
+ref = _smart.bar;
+}
+);
+width = 494;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "3A0970E7-93F2-4950-94D3-6824DC012F35";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (112,0);
+ref = _smart.bar;
+}
+);
+width = 522;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "726A39B2-4DB9-409F-8E23-CA780F7393FE";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (242,0);
+ref = _smart.bar;
+}
+);
+width = 602;
 }
 );
 partsSettings = (
