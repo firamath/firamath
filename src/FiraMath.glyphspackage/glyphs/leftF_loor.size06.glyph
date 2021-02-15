@@ -10,7 +10,7 @@ ref = leftCeiling.size06;
 scale = (1,-1);
 }
 );
-width = 310;
+width = 354;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -21,7 +21,7 @@ ref = leftCeiling.size06;
 scale = (1,-1);
 }
 );
-width = 313;
+width = 365;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -43,7 +43,7 @@ ref = leftCeiling.size06;
 scale = (1,-1);
 }
 );
-width = 325;
+width = 394;
 }
 );
 }

@@ -22,7 +22,7 @@ pos = (148,0);
 ref = _smart.bar;
 }
 );
-width = 570;
+width = 550;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -237,6 +237,7 @@ ref = _smart.bar;
 width = 926;
 }
 );
+metricRight = "=|";
 partsSettings = (
 {
 bottomValue = 0;

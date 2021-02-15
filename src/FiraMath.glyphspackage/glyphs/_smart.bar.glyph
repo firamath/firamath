@@ -30,14 +30,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(212,-168,l),
-(212,728,l),
-(210,728,l),
-(210,-168,l)
+(202,-168,l),
+(202,728,l),
+(200,728,l),
+(200,-168,l)
 );
 }
 );
-width = 422;
+width = 402;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -106,14 +106,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(232,-2658,l),
-(232,3218,l),
-(230,3218,l),
-(230,-2658,l)
+(222,-2658,l),
+(222,3218,l),
+(220,3218,l),
+(220,-2658,l)
 );
 }
 );
-width = 462;
+width = 442;
 },
 {
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -156,6 +156,7 @@ nodes = (
 width = 442;
 }
 );
+metricRight = "=|";
 partsSettings = (
 {
 bottomValue = 0;
