@@ -11,7 +11,7 @@ size = 13;
 ref = _smart.tripleVerticalBarDelimiter;
 }
 );
-width = 602;
+width = 585;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";

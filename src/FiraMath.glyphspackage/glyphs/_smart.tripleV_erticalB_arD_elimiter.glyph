@@ -166,7 +166,7 @@ pos = (148,0);
 ref = _smart.bar;
 }
 );
-width = 610;
+width = 590;
 },
 {
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
