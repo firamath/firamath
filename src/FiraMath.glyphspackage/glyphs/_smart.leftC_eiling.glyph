@@ -5,11 +5,43 @@ glyphname = _smart.leftCeiling;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,-168,l),
+(112,726,l),
+(220,726,l),
+(220,728,l),
+(110,728,l),
+(110,-168,l)
+);
+}
+);
+width = 310;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,-174,l),
+(127,711,l),
+(233,711,l),
+(233,734,l),
+(100,734,l),
+(100,-174,l)
+);
+}
+);
+width = 313;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -33,7 +65,23 @@ width = 322;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,-188,l),
+(203,605,l),
+(315,605,l),
+(315,748,l),
+(15,748,l),
+(15,-188,l)
+);
+}
+);
+width = 325;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -56,6 +104,72 @@ nodes = (
 }
 );
 width = 521;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "59E5A04A-EC5F-419D-8CDE-366A37160BA8";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(112,-2658,l),
+(112,3216,l),
+(220,3216,l),
+(220,3218,l),
+(110,3218,l),
+(110,-2658,l)
+);
+}
+);
+width = 310;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "2FFAE4B8-EACA-4688-B813-507A85C9C020";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,-2664,l),
+(127,3201,l),
+(233,3201,l),
+(233,3224,l),
+(100,3224,l),
+(100,-2664,l)
+);
+}
+);
+width = 313;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "D15FBEB7-D4F4-4C23-9887-C88348A0A2E2";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,-2678,l),
+(203,3095,l),
+(315,3095,l),
+(315,3238,l),
+(15,3238,l),
+(15,-2678,l)
+);
+}
+);
+width = 325;
 }
 );
 partsSettings = (
