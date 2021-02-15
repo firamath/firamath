@@ -22,7 +22,7 @@ pos = (148,0);
 ref = _smart.bar;
 }
 );
-width = 568;
+width = 570;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -166,7 +166,7 @@ pos = (148,0);
 ref = _smart.bar;
 }
 );
-width = 568;
+width = 610;
 },
 {
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -200,7 +200,7 @@ pos = (224,0);
 ref = _smart.bar;
 }
 );
-width = 634;
+width = 714;
 },
 {
 associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -234,7 +234,7 @@ pos = (484,0);
 ref = _smart.bar;
 }
 );
-width = 844;
+width = 926;
 }
 );
 partsSettings = (
