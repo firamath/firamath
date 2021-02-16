@@ -1,6 +1,5 @@
 {
 category = "Smart Glyph";
-color = 8;
 export = 0;
 glyphname = _smart.cuberoot;
 layers = (
@@ -9,14 +8,40 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 partSelection = {
 size = 1;
 };
-width = 600;
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (-6,508);
+ref = three.dnom;
+}
+);
+width = 553;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 partSelection = {
 size = 1;
 };
-width = 600;
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (5,508);
+ref = three.dnom;
+}
+);
+width = 580;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -43,7 +68,20 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 partSelection = {
 size = 1;
 };
-width = 600;
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (32,508);
+ref = three.dnom;
+}
+);
+width = 801;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -77,7 +115,23 @@ name = "Light-15";
 partSelection = {
 size = 2;
 };
-width = 600;
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (50,1550);
+ref = three.dnom;
+}
+);
+width = 789;
 },
 {
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -86,7 +140,23 @@ name = "SemiLight-15";
 partSelection = {
 size = 2;
 };
-width = 600;
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (50,1550);
+ref = three.dnom;
+}
+);
+width = 830;
 },
 {
 associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -95,7 +165,23 @@ name = "Bold-15";
 partSelection = {
 size = 2;
 };
-width = 600;
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+alignment = -1;
+piece = {
+Group = 1;
+};
+pos = (80,1550);
+ref = three.dnom;
+}
+);
+width = 1024;
 }
 );
 partsSettings = (
