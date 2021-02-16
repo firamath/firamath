@@ -5,11 +5,43 @@ glyphname = "_smart.leftanglebracket-math";
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(242,-195,l),
+(58,280,l),
+(242,755,l),
+(240,755,l),
+(56,280,l),
+(240,-195,l)
+);
+}
+);
+width = 282;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,-192,l),
+(80,280,l),
+(264,752,l),
+(236,762,l),
+(48,280,l),
+(236,-202,l)
+);
+}
+);
+width = 302;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -20,12 +52,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(296,-172,l),
+(300,-171,l),
 (126,280,l),
-(296,732,l),
-(226,760,l),
+(300,731,l),
+(226,759,l),
 (40,280,l),
-(226,-200,l)
+(226,-199,l)
 );
 }
 );
@@ -33,7 +65,23 @@ width = 336;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(433,-165,l),
+(260,280,l),
+(433,725,l),
+(263,791,l),
+(64,280,l),
+(263,-231,l)
+);
+}
+);
+width = 457;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -56,6 +104,72 @@ nodes = (
 }
 );
 width = 696;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "8BB59593-298E-4F30-B9A4-7282953F528A";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(544,-2671,l),
+(86,280,l),
+(544,3231,l),
+(542,3231,l),
+(84,280,l),
+(542,-2671,l)
+);
+}
+);
+width = 612;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "1E499F68-C753-4054-8CE5-9F8E2644985D";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(564,-2671,l),
+(106,280,l),
+(564,3231,l),
+(534,3235,l),
+(76,280,l),
+(534,-2675,l)
+);
+}
+);
+width = 630;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "ADC3FB40-E503-4022-9316-F9FA01D45372";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(722,-2654,l),
+(266,280,l),
+(722,3214,l),
+(538,3242,l),
+(78,280,l),
+(538,-2682,l)
+);
+}
+);
+width = 758;
 }
 );
 partsSettings = (

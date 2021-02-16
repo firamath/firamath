@@ -1,14 +1,21 @@
 {
 category = "Smart Glyph";
+color = 8;
 export = 0;
 glyphname = _smart.radical;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
 width = 600;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
 width = 600;
 },
 {
@@ -38,6 +45,9 @@ width = 649;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
 width = 600;
 },
 {
@@ -66,6 +76,33 @@ nodes = (
 }
 );
 width = 929;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "5644E0BB-B2CD-4585-8D2E-EE28E5368967";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+width = 600;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "30988D40-3092-42AA-9634-713F1E2120BA";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+width = 600;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "82956E2F-14DD-40DD-96A8-372C981AE741";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+width = 600;
 }
 );
 partsSettings = (

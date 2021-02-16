@@ -1,14 +1,21 @@
 {
 category = "Smart Glyph";
+color = 8;
 export = 0;
 glyphname = "_smart.leftflattenedparenthesis-math";
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
 width = 600;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
 width = 600;
 },
 {
@@ -43,6 +50,9 @@ width = 287;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
 width = 600;
 },
 {
@@ -76,6 +86,33 @@ nodes = (
 }
 );
 width = 563;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "E5F0A5C0-4EAB-4A57-8C93-9A774BBBD869";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+width = 600;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "114EF552-3E2C-473E-BEEA-9A5C72846761";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+width = 600;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "64649B05-D885-42BB-83FD-EC2A1FDE92D7";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+width = 600;
 }
 );
 partsSettings = (
