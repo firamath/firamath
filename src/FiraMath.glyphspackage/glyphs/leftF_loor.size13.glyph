@@ -43,7 +43,9 @@ ref = leftCeiling.size13;
 scale = (1,-1);
 }
 );
-width = 475;
+width = 478;
 }
 );
+metricLeft = "=leftCeiling.size13";
+metricRight = "=leftCeiling.size13";
 }

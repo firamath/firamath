@@ -46,5 +46,7 @@ scale = (1,-1);
 width = 325;
 }
 );
+metricLeft = "=leftCeiling";
+metricRight = "=leftCeiling";
 unicode = 8970;
 }

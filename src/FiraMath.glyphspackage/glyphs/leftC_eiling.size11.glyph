@@ -47,7 +47,7 @@ size = 11;
 ref = _smart.leftCeiling;
 }
 );
-width = 452;
+width = 455;
 }
 );
 }

@@ -46,4 +46,6 @@ scale = (1,-1);
 width = 360;
 }
 );
+metricLeft = "=leftCeiling.size03";
+metricRight = "=leftCeiling.size03";
 }
