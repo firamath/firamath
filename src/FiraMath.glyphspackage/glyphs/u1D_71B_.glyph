@@ -7,11 +7,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (324.67,0);
+pos = (325,0);
 },
 {
 name = top;
-pos = (397.33,517);
+pos = (397,517);
 }
 );
 background = {
@@ -151,11 +151,11 @@ width = 722;
 anchors = (
 {
 name = bottom;
-pos = (328.959,0);
+pos = (329,0);
 },
 {
 name = top;
-pos = (402.041,520);
+pos = (402,520);
 }
 );
 background = {
@@ -295,11 +295,11 @@ width = 731;
 anchors = (
 {
 name = bottom;
-pos = (324.967,0);
+pos = (325,0);
 },
 {
 name = top;
-pos = (399.033,527);
+pos = (399,527);
 }
 );
 background = {
@@ -439,11 +439,11 @@ width = 724;
 anchors = (
 {
 name = bottom;
-pos = (339.476,0);
+pos = (339,0);
 },
 {
 name = top;
-pos = (414.524,534);
+pos = (415,534);
 }
 );
 background = {

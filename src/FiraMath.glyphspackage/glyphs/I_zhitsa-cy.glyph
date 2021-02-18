@@ -62,7 +62,7 @@ width = 660;
 anchors = (
 {
 name = bottom;
-pos = (271.5,0);
+pos = (272,0);
 },
 {
 name = top;
@@ -118,7 +118,7 @@ width = 543;
 anchors = (
 {
 name = bottom;
-pos = (283.5,0);
+pos = (284,0);
 },
 {
 name = top;

@@ -652,7 +652,7 @@ width = 660;
 anchors = (
 {
 name = top;
-pos = (350.843,727);
+pos = (351,727);
 }
 );
 associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
