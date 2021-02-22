@@ -21,6 +21,11 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = -221;
+};
+};
 width = 442;
 },
 {

@@ -140,6 +140,11 @@ pos = (180,506);
 ref = commaaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = -90;
+};
+};
 width = 180;
 }
 );

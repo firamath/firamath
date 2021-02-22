@@ -58,6 +58,11 @@ shapes = (
 ref = "Eitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 343;
+};
+};
 width = 567;
 }
 );

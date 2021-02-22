@@ -37,6 +37,11 @@ alignment = -1;
 ref = M;
 }
 );
+userData = {
+math = {
+topAccent = 389;
+};
+};
 width = 796;
 }
 );

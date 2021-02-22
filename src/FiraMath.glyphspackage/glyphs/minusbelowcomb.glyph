@@ -21,6 +21,11 @@ pos = (-44,-200);
 ref = minusinferior;
 }
 );
+userData = {
+math = {
+topAccent = -157;
+};
+};
 width = 313;
 },
 {

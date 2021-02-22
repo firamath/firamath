@@ -20,6 +20,11 @@ pos = (0,-960);
 ref = gravecomb.case;
 }
 );
+userData = {
+math = {
+topAccent = -150;
+};
+};
 width = 300;
 },
 {

@@ -34,6 +34,11 @@ pos = (578,739);
 ref = u1D6E5;
 }
 );
+userData = {
+math = {
+topAccent = 320;
+};
+};
 width = 578;
 },
 {

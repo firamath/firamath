@@ -58,6 +58,11 @@ shapes = (
 ref = "Titalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 333;
+};
+};
 width = 511;
 }
 );

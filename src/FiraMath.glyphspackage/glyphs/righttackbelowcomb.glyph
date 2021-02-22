@@ -22,6 +22,11 @@ ref = lefttackbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = -133;
+};
+};
 width = 264;
 },
 {

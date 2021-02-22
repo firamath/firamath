@@ -11,6 +11,11 @@ ref = undertie;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = -1;
+};
+};
 width = 366;
 },
 {

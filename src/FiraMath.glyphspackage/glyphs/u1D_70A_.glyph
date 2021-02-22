@@ -151,6 +151,11 @@ shapes = (
 ref = "oitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 325;
+};
+};
 width = 578;
 }
 );

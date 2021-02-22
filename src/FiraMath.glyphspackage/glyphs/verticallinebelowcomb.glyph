@@ -20,6 +20,11 @@ pos = (0,-930);
 ref = verticallineabovecomb;
 }
 );
+userData = {
+math = {
+topAccent = -86;
+};
+};
 width = 159;
 },
 {

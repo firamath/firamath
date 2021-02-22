@@ -27,6 +27,11 @@ shapes = (
 ref = g.alt1;
 }
 );
+userData = {
+math = {
+topAccent = 282;
+};
+};
 width = 598;
 },
 {

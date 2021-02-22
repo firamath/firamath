@@ -58,6 +58,11 @@ shapes = (
 ref = "Kitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 384;
+};
+};
 width = 621;
 }
 );

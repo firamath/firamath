@@ -20,6 +20,11 @@ pos = (0,-810);
 ref = breveinvertedcomb;
 }
 );
+userData = {
+math = {
+topAccent = -182;
+};
+};
 width = 363;
 },
 {

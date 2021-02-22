@@ -27,6 +27,11 @@ shapes = (
 ref = emdash;
 }
 );
+userData = {
+math = {
+topAccent = -393;
+};
+};
 width = 780;
 },
 {

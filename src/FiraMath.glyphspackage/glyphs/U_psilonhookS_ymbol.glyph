@@ -27,6 +27,11 @@ shapes = (
 ref = Yhook;
 }
 );
+userData = {
+math = {
+topAccent = 303;
+};
+};
 width = 586;
 },
 {

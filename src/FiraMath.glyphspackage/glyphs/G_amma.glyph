@@ -36,6 +36,11 @@ shapes = (
 ref = "Ge-cy";
 }
 );
+userData = {
+math = {
+topAccent = 279;
+};
+};
 width = 508;
 }
 );

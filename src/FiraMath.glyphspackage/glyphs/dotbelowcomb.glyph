@@ -45,6 +45,11 @@ pos = (189,581);
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = -94;
+};
+};
 width = 189;
 },
 {

@@ -21,6 +21,11 @@ ref = bridgebelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = -170;
+};
+};
 width = 340;
 },
 {

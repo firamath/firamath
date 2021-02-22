@@ -21,6 +21,11 @@ pos = (0,-900);
 ref = ringhalfleft;
 }
 );
+userData = {
+math = {
+topAccent = -87;
+};
+};
 width = 174;
 },
 {

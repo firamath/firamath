@@ -463,6 +463,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 324;
+};
+};
 width = 606;
 }
 );

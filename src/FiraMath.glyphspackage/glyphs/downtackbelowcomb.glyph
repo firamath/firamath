@@ -21,6 +21,11 @@ ref = uptackmod;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = -180;
+};
+};
 width = 360;
 },
 {

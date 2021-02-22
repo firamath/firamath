@@ -58,6 +58,11 @@ shapes = (
 ref = "Bitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 329;
+};
+};
 width = 640;
 }
 );

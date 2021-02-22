@@ -22,6 +22,11 @@ ref = xsuperior;
 scale = (1,0.9);
 }
 );
+userData = {
+math = {
+topAccent = -174;
+};
+};
 width = 348;
 },
 {

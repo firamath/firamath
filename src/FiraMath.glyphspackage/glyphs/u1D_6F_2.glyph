@@ -58,6 +58,11 @@ shapes = (
 ref = "Pitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 356;
+};
+};
 width = 613;
 }
 );

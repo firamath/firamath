@@ -21,6 +21,11 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = -183;
+};
+};
 width = 366;
 },
 {

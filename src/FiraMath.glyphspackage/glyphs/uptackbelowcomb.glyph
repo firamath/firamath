@@ -20,6 +20,11 @@ pos = (-32,-500);
 ref = uptackmod;
 }
 );
+userData = {
+math = {
+topAccent = -180;
+};
+};
 width = 360;
 },
 {

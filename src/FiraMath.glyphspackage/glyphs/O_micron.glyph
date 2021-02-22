@@ -36,6 +36,11 @@ shapes = (
 ref = O;
 }
 );
+userData = {
+math = {
+topAccent = 346;
+};
+};
 width = 692;
 }
 );

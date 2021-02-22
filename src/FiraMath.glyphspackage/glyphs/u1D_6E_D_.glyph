@@ -59,6 +59,11 @@ alignment = -1;
 ref = "Mitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 439;
+};
+};
 width = 790;
 }
 );

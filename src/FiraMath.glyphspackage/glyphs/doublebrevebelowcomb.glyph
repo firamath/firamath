@@ -10,6 +10,11 @@ pos = (30,0);
 ref = undertie;
 }
 );
+userData = {
+math = {
+topAccent = 0;
+};
+};
 width = 365;
 },
 {

@@ -22,6 +22,11 @@ ref = ringhalfleftbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = -86;
+};
+};
 width = 174;
 },
 {

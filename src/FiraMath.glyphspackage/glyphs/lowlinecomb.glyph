@@ -21,6 +21,11 @@ ref = macroncomb;
 scale = (1.5,1);
 }
 );
+userData = {
+math = {
+topAccent = -235;
+};
+};
 width = 470;
 },
 {

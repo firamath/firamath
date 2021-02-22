@@ -20,6 +20,11 @@ pos = (0,-846);
 ref = dieresiscomb;
 }
 );
+userData = {
+math = {
+topAccent = -192;
+};
+};
 width = 385;
 },
 {

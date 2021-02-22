@@ -27,6 +27,11 @@ shapes = (
 ref = beta.ss10;
 }
 );
+userData = {
+math = {
+topAccent = 289;
+};
+};
 width = 568;
 },
 {

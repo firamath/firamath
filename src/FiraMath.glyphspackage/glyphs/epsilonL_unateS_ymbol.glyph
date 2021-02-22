@@ -27,6 +27,11 @@ shapes = (
 ref = "e-cy";
 }
 );
+userData = {
+math = {
+topAccent = 269;
+};
+};
 width = 482;
 },
 {

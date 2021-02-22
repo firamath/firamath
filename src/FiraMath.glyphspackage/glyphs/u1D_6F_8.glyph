@@ -58,6 +58,11 @@ shapes = (
 ref = "Xitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 325;
+};
+};
 width = 534;
 }
 );

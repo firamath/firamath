@@ -27,6 +27,11 @@ shapes = (
 ref = hyphen;
 }
 );
+userData = {
+math = {
+topAccent = -202;
+};
+};
 width = 403;
 },
 {

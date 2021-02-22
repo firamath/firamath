@@ -27,6 +27,11 @@ shapes = (
 ref = Delta;
 }
 );
+userData = {
+math = {
+topAccent = 292;
+};
+};
 width = 583;
 },
 {

@@ -9,6 +9,11 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
+userData = {
+math = {
+topAccent = 231;
+};
+};
 width = 484;
 },
 {
