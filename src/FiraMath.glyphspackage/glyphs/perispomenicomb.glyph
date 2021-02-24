@@ -19,6 +19,11 @@ shapes = (
 ref = tildecomb;
 }
 );
+userData = {
+math = {
+topAccent = 149;
+};
+};
 width = 303;
 },
 {
@@ -38,6 +43,11 @@ shapes = (
 ref = tildecomb;
 }
 );
+userData = {
+math = {
+topAccent = 167;
+};
+};
 width = 333;
 },
 {
@@ -59,7 +69,7 @@ ref = tildecomb;
 );
 userData = {
 math = {
-topAccent = -197;
+topAccent = 197;
 };
 };
 width = 394;
@@ -81,6 +91,11 @@ shapes = (
 ref = tildecomb;
 }
 );
+userData = {
+math = {
+topAccent = 231;
+};
+};
 width = 462;
 }
 );

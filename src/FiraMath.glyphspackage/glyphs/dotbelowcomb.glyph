@@ -47,7 +47,7 @@ ref = dotaccentcomb;
 );
 userData = {
 math = {
-topAccent = -94;
+topAccent = 95;
 };
 };
 width = 189;
@@ -95,6 +95,11 @@ pos = (72,587);
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 36;
+};
+};
 width = 72;
 },
 {
@@ -140,6 +145,11 @@ pos = (112,585);
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 56;
+};
+};
 width = 112;
 },
 {
@@ -185,6 +195,11 @@ pos = (282,565);
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 141;
+};
+};
 width = 282;
 }
 );

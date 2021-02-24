@@ -24,7 +24,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-topAccent = -133;
+topAccent = 132;
 };
 };
 width = 264;
@@ -48,6 +48,11 @@ ref = lefttackbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 101;
+};
+};
 width = 202;
 },
 {
@@ -69,6 +74,11 @@ ref = lefttackbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 142;
+};
+};
 width = 284;
 },
 {
@@ -90,6 +100,11 @@ ref = lefttackbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 110;
+};
+};
 width = 220;
 }
 );

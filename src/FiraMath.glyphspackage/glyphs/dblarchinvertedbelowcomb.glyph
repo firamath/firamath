@@ -23,7 +23,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = -221;
+topAccent = 221;
 };
 };
 width = 442;
@@ -47,6 +47,11 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 158;
+};
+};
 width = 315;
 },
 {
@@ -68,6 +73,11 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 176;
+};
+};
 width = 352;
 },
 {
@@ -89,6 +99,11 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 253;
+};
+};
 width = 506;
 }
 );

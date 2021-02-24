@@ -23,7 +23,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = -170;
+topAccent = 170;
 };
 };
 width = 340;
@@ -47,6 +47,11 @@ ref = bridgebelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 145;
+};
+};
 width = 289;
 },
 {
@@ -68,6 +73,11 @@ ref = bridgebelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 190;
+};
+};
 width = 380;
 },
 {
@@ -89,6 +99,11 @@ ref = bridgebelowcomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 156;
+};
+};
 width = 312;
 }
 );

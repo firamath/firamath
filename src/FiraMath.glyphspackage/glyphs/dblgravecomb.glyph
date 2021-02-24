@@ -23,7 +23,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-topAccent = -183;
+topAccent = 223;
 };
 };
 width = 366;
@@ -47,6 +47,11 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 145;
+};
+};
 width = 229;
 },
 {
@@ -68,6 +73,11 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 164;
+};
+};
 width = 268;
 },
 {
@@ -89,6 +99,11 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 275;
+};
+};
 width = 469;
 }
 );

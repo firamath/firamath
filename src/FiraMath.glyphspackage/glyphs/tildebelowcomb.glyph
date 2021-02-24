@@ -22,7 +22,7 @@ ref = tildecomb;
 );
 userData = {
 math = {
-topAccent = -197;
+topAccent = 197;
 };
 };
 width = 394;
@@ -45,6 +45,11 @@ pos = (1,-808);
 ref = tildecomb;
 }
 );
+userData = {
+math = {
+topAccent = 153;
+};
+};
 width = 303;
 },
 {
@@ -65,6 +70,11 @@ pos = (0,-830);
 ref = tildecomb;
 }
 );
+userData = {
+math = {
+topAccent = 167;
+};
+};
 width = 333;
 },
 {
@@ -85,6 +95,11 @@ pos = (0,-850);
 ref = tildecomb;
 }
 );
+userData = {
+math = {
+topAccent = 231;
+};
+};
 width = 462;
 }
 );

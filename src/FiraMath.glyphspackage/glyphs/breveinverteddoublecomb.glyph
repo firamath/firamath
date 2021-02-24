@@ -13,10 +13,10 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = -1;
+topAccent = 365;
 };
 };
-width = 366;
+width = 730;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -27,7 +27,12 @@ ref = undertie;
 scale = (1,-1);
 }
 );
-width = 350;
+userData = {
+math = {
+topAccent = 350;
+};
+};
+width = 700;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -38,7 +43,12 @@ ref = undertie;
 scale = (1,-1);
 }
 );
-width = 353;
+userData = {
+math = {
+topAccent = 354;
+};
+};
+width = 708;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -49,7 +59,12 @@ ref = undertie;
 scale = (1,-1);
 }
 );
-width = 376;
+userData = {
+math = {
+topAccent = 375;
+};
+};
+width = 750;
 }
 );
 unicode = 865;

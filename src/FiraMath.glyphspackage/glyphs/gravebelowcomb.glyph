@@ -22,7 +22,7 @@ ref = gravecomb.case;
 );
 userData = {
 math = {
-topAccent = -150;
+topAccent = 150;
 };
 };
 width = 300;
@@ -45,6 +45,11 @@ pos = (0,-910);
 ref = gravecomb.case;
 }
 );
+userData = {
+math = {
+topAccent = 114;
+};
+};
 width = 227;
 },
 {
@@ -65,6 +70,11 @@ pos = (0,-1020);
 ref = gravecomb.case;
 }
 );
+userData = {
+math = {
+topAccent = 182;
+};
+};
 width = 364;
 },
 {
@@ -85,6 +95,11 @@ pos = (0,-930);
 ref = gravecomb.case;
 }
 );
+userData = {
+math = {
+topAccent = 127;
+};
+};
 width = 253;
 }
 );

@@ -23,7 +23,7 @@ scale = (1.5,1);
 );
 userData = {
 math = {
-topAccent = -235;
+topAccent = 235;
 };
 };
 width = 470;
@@ -47,6 +47,11 @@ ref = macroncomb;
 scale = (1.5,1);
 }
 );
+userData = {
+math = {
+topAccent = 173;
+};
+};
 width = 345;
 },
 {
@@ -68,6 +73,11 @@ ref = macroncomb;
 scale = (1.5,1);
 }
 );
+userData = {
+math = {
+topAccent = 191;
+};
+};
 width = 381;
 },
 {
@@ -89,6 +99,11 @@ ref = macroncomb;
 scale = (1.5,1);
 }
 );
+userData = {
+math = {
+topAccent = 274;
+};
+};
 width = 548;
 }
 );

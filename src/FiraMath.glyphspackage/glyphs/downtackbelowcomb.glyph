@@ -23,7 +23,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = -180;
+topAccent = 180;
 };
 };
 width = 360;
@@ -47,6 +47,11 @@ ref = uptackmod;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 150;
+};
+};
 width = 299;
 },
 {
@@ -68,6 +73,11 @@ ref = uptackmod;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 200;
+};
+};
 width = 400;
 },
 {
@@ -89,6 +99,11 @@ ref = uptackmod;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 164;
+};
+};
 width = 327;
 }
 );

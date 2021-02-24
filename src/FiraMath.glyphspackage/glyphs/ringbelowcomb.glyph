@@ -22,7 +22,7 @@ ref = ringcomb;
 );
 userData = {
 math = {
-topAccent = -144;
+topAccent = 144;
 };
 };
 width = 288;
@@ -45,6 +45,11 @@ pos = (0,-860);
 ref = ringcomb;
 }
 );
+userData = {
+math = {
+topAccent = 93;
+};
+};
 width = 186;
 },
 {
@@ -65,6 +70,11 @@ pos = (0,-930);
 ref = ringcomb;
 }
 );
+userData = {
+math = {
+topAccent = 184;
+};
+};
 width = 368;
 },
 {
@@ -85,6 +95,11 @@ pos = (0,-875);
 ref = ringcomb;
 }
 );
+userData = {
+math = {
+topAccent = 116;
+};
+};
 width = 232;
 }
 );

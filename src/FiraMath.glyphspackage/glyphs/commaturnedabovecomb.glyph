@@ -41,6 +41,11 @@ pos = (244,511);
 ref = commaaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 128;
+};
+};
 width = 244;
 },
 {
@@ -58,6 +63,11 @@ pos = (87,490);
 ref = commaaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 43;
+};
+};
 width = 87;
 },
 {
@@ -99,6 +109,11 @@ pos = (139,502);
 ref = commaaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 69;
+};
+};
 width = 139;
 },
 {
@@ -142,7 +157,7 @@ ref = commaaccentcomb;
 );
 userData = {
 math = {
-topAccent = -90;
+topAccent = 86;
 };
 };
 width = 180;

@@ -23,7 +23,7 @@ ref = plusinferior;
 );
 userData = {
 math = {
-topAccent = -156;
+topAccent = 157;
 };
 };
 width = 313;
@@ -47,6 +47,11 @@ pos = (-65,-190);
 ref = plusinferior;
 }
 );
+userData = {
+math = {
+topAccent = 135;
+};
+};
 width = 270;
 },
 {
@@ -68,6 +73,11 @@ pos = (-18,-210);
 ref = plusinferior;
 }
 );
+userData = {
+math = {
+topAccent = 182;
+};
+};
 width = 364;
 },
 {
@@ -89,6 +99,11 @@ pos = (-57,-190);
 ref = plusinferior;
 }
 );
+userData = {
+math = {
+topAccent = 143;
+};
+};
 width = 286;
 }
 );

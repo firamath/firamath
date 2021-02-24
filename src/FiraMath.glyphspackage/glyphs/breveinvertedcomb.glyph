@@ -23,7 +23,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = -182;
+topAccent = 182;
 };
 };
 width = 363;
@@ -47,6 +47,11 @@ ref = brevecomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 126;
+};
+};
 width = 252;
 },
 {
@@ -68,6 +73,11 @@ ref = brevecomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 143;
+};
+};
 width = 286;
 },
 {
@@ -89,6 +99,11 @@ ref = brevecomb;
 scale = (1,-1);
 }
 );
+userData = {
+math = {
+topAccent = 215;
+};
+};
 width = 430;
 }
 );

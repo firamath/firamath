@@ -18,7 +18,7 @@ ref = asciitilde;
 );
 userData = {
 math = {
-topAccent = -239;
+topAccent = 239;
 };
 };
 width = 478;
@@ -37,6 +37,11 @@ pos = (-55,0);
 ref = asciitilde;
 }
 );
+userData = {
+math = {
+topAccent = 172;
+};
+};
 width = 344;
 },
 {
@@ -53,6 +58,11 @@ pos = (25,0);
 ref = asciitilde;
 }
 );
+userData = {
+math = {
+topAccent = 290;
+};
+};
 width = 580;
 },
 {
@@ -69,6 +79,11 @@ pos = (-35,0);
 ref = asciitilde;
 }
 );
+userData = {
+math = {
+topAccent = 194;
+};
+};
 width = 388;
 }
 );

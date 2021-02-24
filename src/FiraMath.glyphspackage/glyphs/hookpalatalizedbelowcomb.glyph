@@ -21,7 +21,7 @@ ref = hookHELPER;
 );
 userData = {
 math = {
-topAccent = -163;
+topAccent = 252;
 };
 };
 width = 326;
@@ -45,6 +45,11 @@ pos = (-13,0);
 ref = hookHELPER;
 }
 );
+userData = {
+math = {
+topAccent = 192;
+};
+};
 width = 223;
 },
 {
@@ -64,6 +69,11 @@ shapes = (
 ref = hookHELPER;
 }
 );
+userData = {
+math = {
+topAccent = 315;
+};
+};
 width = 432;
 },
 {
@@ -83,6 +93,11 @@ shapes = (
 ref = hookHELPER;
 }
 );
+userData = {
+math = {
+topAccent = 210;
+};
+};
 width = 264;
 }
 );

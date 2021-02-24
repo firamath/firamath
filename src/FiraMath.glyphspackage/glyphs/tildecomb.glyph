@@ -41,6 +41,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 231;
+};
+};
 width = 462;
 },
 {
@@ -82,6 +87,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 149;
+};
+};
 width = 303;
 },
 {
@@ -123,6 +133,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 167;
+};
+};
 width = 333;
 },
 {
@@ -166,7 +181,7 @@ nodes = (
 );
 userData = {
 math = {
-topAccent = -197;
+topAccent = 197;
 };
 };
 width = 394;
