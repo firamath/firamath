@@ -6,6 +6,8 @@ import re
 import sys
 from typing import OrderedDict, List
 
+from fontTools.ttLib import TTFont
+
 # We use https://github.com/googlefonts/glyphsLib/pull/652 to support Glyphs3
 sys.path.insert(0, 'lib')
 
@@ -15,6 +17,8 @@ from glyphsLib.writer import Writer
 from glyphsLib.builder import to_ufos
 
 from fontmake.font_project import FontProject
+
+from math_table import math_table
 
 def read_glyphs_package(path: str):
     with open(os.path.join(path, 'fontinfo.plist'), 'r') as fontinfo_plist:
@@ -48,8 +52,16 @@ def build(input: str, output_dir: str):
     eprint('\nExporting...')
     FontProject(verbose='WARNING').save_otfs(ufos, output_dir=output_dir)
 
+def add_math_table(path: str):
+    eprint('\nAdding MATH table...')
+    font = TTFont(path)
+    font['MATH'] = math_table(font)
+    font.save(path)
+    font.close()
+
 def eprint(values):
     print(values, file=sys.stderr)
 
 if __name__ == '__main__':
     build('src/FiraMath.glyphspackage', output_dir='build/')
+    add_math_table('build/FiraMath-Regular.otf')

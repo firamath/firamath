@@ -28,6 +28,8 @@ UIState.plist
 # Folders
 .vscode/
 assets/
+build/
+lib/
 references/
 release/
 temp/
@@ -37,3 +39,4 @@ temp/
 *.nb
 docs/standalone/
 test/*.sh
+pyrightconfig.json
