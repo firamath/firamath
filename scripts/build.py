@@ -9,7 +9,7 @@ from typing import OrderedDict, List
 
 from fontmake.font_project import FontProject
 from fontTools.ttLib import TTFont
-from glyphsLib import GSFont, GSGlyph, GSLayer, GSNode, GSPath
+from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath
 from glyphsLib.builder import to_ufos
 from glyphsLib.parser import Parser
 from glyphsLib.writer import Writer
@@ -32,31 +32,86 @@ def read_glyph(path: str, name: str):
 def glyph_name_to_file_name(name: str):
     return ('_notdef' if name == '.notdef' else re.sub(r'([A-Z])', r'\1_', name)) + '.glyph'
 
-def decompose_smart_componets(font: GSFont):
-    for glyph in font.glyphs:
-        if '_smart.' not in glyph.name: # TODO:
-            for layer in glyph.layers:
-                master_id: str = layer.associatedMasterId
-                to_be_removed = []
-                for comp in layer.components:
-                    if value_dict := comp.smartComponentValues:
-                        eprint('Decomposing smart componets in {}'.format(glyph))
-                        ref_glyph: GSGlyph = comp.component
-                        to_be_removed.append(comp)
-                        paths = get_smart_component_paths(master_id, ref_glyph, value_dict)
-                        layer.paths.extend(paths)
-                layer._shapes = [s for s in layer._shapes if s not in to_be_removed]
+def fix_export(font: GSFont):
+    '''Change `glyph.export = 0` into `glyph.export = False`.'''
+    for glyph in (g for g in font.glyphs if g.export == 0):
+        glyph.export = False
 
-def get_smart_component_paths(master_id: str, glyph: GSGlyph, value_dict: dict) -> List[GSPath]:
-    if len(value_dict) != 1:
-        raise ValueError('We only support single smart component axis!')
-    key, value = next(iter(value_dict.items()))
-    interpolation_value = next(
-        rescale(value, axis.bottomValue, axis.topValue)
-        for axis in glyph.smartComponentAxes if axis.name == key
+def decompose_smart_comp(font: GSFont):
+    for glyph in (g for g in font.glyphs if g.category == 'Smart Glyph'):
+        decompose_smart_comp_helper_a(glyph)
+    for glyph in (g for g in font.glyphs if g.category != 'Smart Glyph'):
+        decompose_smart_comp_helper_b(glyph)
+
+def decompose_smart_comp_helper_a(glyph: GSGlyph):
+    '''Decompose smart components in `glyph`, where `glyph` is a smart component itself.
+    The result layer should contain NO componets.
+    '''
+    for layer in glyph.layers:
+        master_id: str = layer.associatedMasterId
+        to_be_removed = []
+        for comp in layer.components:
+            value_dict = comp.smartComponentValues
+            ref_glyph: GSGlyph = comp.component
+            to_be_removed.append(comp)
+            if 'Group' in value_dict:
+                # Normal components
+                paths = decompose(comp)
+            else:
+                # Smart components
+                paths = get_smart_comp_path(master_id, ref_glyph, value_dict)
+            layer.paths.extend(paths)
+        layer._shapes = [s for s in layer._shapes if s not in to_be_removed]
+
+def decompose_smart_comp_helper_b(glyph: GSGlyph):
+    '''Decompose smart components in a normal `glyph`.'''
+    for layer in glyph.layers:
+        master_id: str = layer.associatedMasterId
+        to_be_removed = []
+        for comp in layer.components:
+            if value_dict := comp.smartComponentValues:
+                ref_glyph: GSGlyph = comp.component
+                to_be_removed.append(comp)
+                paths = get_smart_comp_path(master_id, ref_glyph, value_dict)
+                layer.paths.extend(paths)
+        layer._shapes = [s for s in layer._shapes if s not in to_be_removed]
+
+def decompose(comp: GSComponent) -> List[GSPath]:
+    '''Decompose a normal component `comp`.'''
+    ref_glyph: GSGlyph = comp.component
+    paths = next(
+        layer.paths for layer in ref_glyph.layers
+        if layer.layerId == comp.parent.associatedMasterId
     )
-    is_part_n = lambda layer, n: \
-        layer.associatedMasterId == master_id and layer.partSelection[key] == n
+    result = []
+    for path in paths:
+        # Manually deepcopy (`copy.deepcopy()`` is very slow here).
+        new_path = copy.copy(path)
+        new_path.nodes = [GSNode(n.position, type=n.type, smooth=n.smooth) for n in path.nodes]
+        new_path.applyTransform(comp.transform)
+        result.append(new_path)
+    return result
+
+def get_smart_comp_path(master_id: str, glyph: GSGlyph, value_dict: dict) -> List[GSPath]:
+    '''Get the path from smart component `glyph` in the master with `master_id`,
+    by interpolating between two layers. The axis value is determined via `value_dict`.
+    Note that we only support single smart component axis at here.
+    '''
+    if len(value_dict) == 0:
+        interpolation_value = 0
+        is_part_n = lambda layer, n: \
+            layer.associatedMasterId == master_id and \
+            layer.partSelection[next(iter(layer.partSelection.keys()))] == n
+    elif len(value_dict) == 1:
+        key, value = next(iter(value_dict.items()))
+        interpolation_value = next(
+            rescale(value, axis.bottomValue, axis.topValue)
+            for axis in glyph.smartComponentAxes if axis.name == key
+        )
+        is_part_n = lambda layer, n: \
+            layer.associatedMasterId == master_id and layer.partSelection[key] == n
+    else:
+        raise ValueError('We only support single smart component axis!')
     layer_0: GSLayer = next(layer for layer in glyph.layers if is_part_n(layer, 1))
     layer_1: GSLayer = next(layer for layer in glyph.layers if is_part_n(layer, 2))
     return [
@@ -82,30 +137,37 @@ def interpolate_node(node_0: GSNode, node_1: GSNode, value) -> GSNode:
     )
     return GSNode(position, type=node_0.type, smooth=node_0.smooth)
 
-
 def build(input: str, output_dir: str):
+    '''Build fonts from Glyphs source.
+
+    - Phase 1
+        - Read the `.glyphspackage` directory as an `OrderedDict`.
+    - Phase 2
+        - Write into a temporary `.glyphs` file, and read it again as a `GSFont`.
+        - Decompose all the smart components since UFO does not support them.
+        - Turn the `GSFont` object into a UFO object.
+    - Phase 3
+        - Generate `.otf` font files.
+        - TODO: Add the OpenType MATH tables.
+    '''
+
     # Phase 1
-    # Read the .glyphspackage file as an OrderedDict.
     eprint('Parsing input file \'{}\'...'.format(input))
     input_font = read_glyphs_package(input)
 
     # Phase 2
-    # Write to a temp .glyphs files, then read it again as a GSFont object.
-    # At this stage, the smart components will also be decomposed.
-    # Finally, the GSFont object will be turned into a UFO object.
     eprint('\nParsing to UFO...')
     temp_glyphs = os.path.join(output_dir, os.path.splitext(os.path.basename(input))[0] + '.glyphs')
     with open(temp_glyphs, 'w') as f:
         Writer(f).write(input_font)
     with open(temp_glyphs, 'r') as f:
         font: GSFont = Parser(current_type=GSFont).parse(f.read())
-    decompose_smart_componets(font)
+    fix_export(font)
+    decompose_smart_comp(font)
     os.remove(temp_glyphs)
     ufos = to_ufos(font)
 
     # Phase 3
-    # Generate .otf font files.
-    # TODO: The MATH table will be added.
     eprint('\nGenerating OTF...')
     FontProject(verbose='WARNING').save_otfs(ufos, output_dir=output_dir)
 

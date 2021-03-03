@@ -54,6 +54,9 @@ ref = _smart.radical;
 },
 {
 alignment = -1;
+piece = {
+Group = 1;
+};
 pos = (22,508);
 ref = four.dnom;
 }
