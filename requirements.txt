@@ -1,0 +1,3 @@
+git+git://github.com/simoncozens/glyphsLib@glyphs3-try3#egg=glyphsLib
+fontmake
+fontTools
