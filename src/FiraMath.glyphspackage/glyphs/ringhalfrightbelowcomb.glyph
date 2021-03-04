@@ -1,5 +1,5 @@
 {
-color = 8;
+color = 4;
 glyphname = ringhalfrightbelowcomb;
 layers = (
 {
@@ -24,7 +24,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-topAccent = -86;
+topAccent = 87;
 };
 };
 width = 174;
@@ -48,6 +48,11 @@ ref = ringhalfleftbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 62;
+};
+};
 width = 123;
 },
 {
@@ -70,6 +75,11 @@ ref = ringhalfleftbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 107;
+};
+};
 width = 214;
 },
 {
@@ -91,6 +101,11 @@ ref = ringhalfleftbelowcomb;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+topAccent = 73;
+};
+};
 width = 146;
 }
 );
