@@ -10,15 +10,26 @@ from fontTools.pens.boundsPen import BoundsPen
 from fontTools.ttLib.ttFont import newTable
 from fontTools.ttLib.tables import otTables
 
-def math_table(font):
+def math_table(font, glyph_info):
     table = otTables.MATH()
     table.Version = 0x00010000
     table.MathConstants = math_constants()
-    table.MathGlyphInfo = math_glyph_info()
+    table.MathGlyphInfo = math_glyph_info(glyph_info)
     table.MathVariants = math_variants(font)
     wrapper = newTable('MATH')
     wrapper.table = table
     return wrapper
+
+def _math_value(value):
+    t = otTables.MathValueRecord()
+    t.DeviceTable = None
+    t.Value = value
+    return t
+
+def _coverage(glyphs):
+    coverage = otTables.Coverage()
+    coverage.glyphs = glyphs
+    return coverage
 
 def math_constants():
     constants = otTables.MathConstants()
@@ -99,14 +110,28 @@ def math_constants():
 
     return constants
 
-def _math_value(value):
-    t = otTables.MathValueRecord()
-    t.DeviceTable = None
-    t.Value = value
-    return t
+def math_glyph_info(glyph_info_dict):
+    glyph_info = otTables.MathGlyphInfo()
 
-def math_glyph_info():
-    return None
+    # TODO:
+    glyph_info.MathItalicsCorrectionInfo = None
+
+    # Top accents
+    top_accent_dict = glyph_info_dict['MathTopAccentAttachment']
+    glyph_info.MathTopAccentAttachment = otTables.MathTopAccentAttachment()
+    glyph_info.MathTopAccentAttachment.TopAccentAttachment = [
+        _math_value(value) for value in top_accent_dict.values()
+    ]
+    glyph_info.MathTopAccentAttachment.TopAccentCoverage = _coverage(top_accent_dict.keys())
+    glyph_info.MathTopAccentAttachment.TopAccentAttachmentCount = len(top_accent_dict)
+
+    # TODO:
+    glyph_info.ExtendedShapeCoverage = None
+
+    # TODO:
+    glyph_info.MathKernInfo = None
+
+    return glyph_info
 
 def math_variants(font):
     variants = otTables.MathVariants()
@@ -168,8 +193,7 @@ def math_variants(font):
     variants.VertGlyphConstruction = [
         _glyph_construction(font, g, vars, 'vert') for g, vars in vert_variants.items()
     ]
-    variants.VertGlyphCoverage = otTables.Coverage()
-    variants.VertGlyphCoverage.glyphs = vert_variants.keys()
+    variants.VertGlyphCoverage = _coverage(vert_variants.keys())
     variants.VertGlyphCount = len(vert_variants)
 
     return variants

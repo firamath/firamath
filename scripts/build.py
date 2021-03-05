@@ -137,6 +137,32 @@ def interpolate_node(node_0: GSNode, node_1: GSNode, value) -> GSNode:
     )
     return GSNode(position, type=node_0.type, smooth=node_0.smooth)
 
+def add_math_table(gs_font: GSFont, input: str, output: str=None):
+    if not output:
+        output = input
+    math_glyph_info = get_math_glyph_info(gs_font)
+    font = TTFont(input)
+    font['MATH'] = math_table(font, math_glyph_info['Regular'])
+    font.save(output)
+    font.close()
+
+def get_math_glyph_info(font: GSFont) -> dict:
+    math_glyph_info = {master.name: {
+        'MathItalicsCorrectionInfo': {},
+        'MathTopAccentAttachment': {},
+        'ExtendedShapeCoverage': {},
+        'MathKernInfo': {},
+    } for master in font.masters}
+    for glyph in font.glyphs:
+        for layer in glyph.layers:
+            if layer.name in math_glyph_info:
+                try:
+                    math_glyph_info[layer.name]['MathTopAccentAttachment'][glyph.name] = next(
+                        data['topAccent'] for data in layer.userData if 'topAccent' in data)
+                except StopIteration:
+                    pass
+    return math_glyph_info
+
 def build(input: str, output_dir: str):
     '''Build fonts from Glyphs source.
 
@@ -148,7 +174,7 @@ def build(input: str, output_dir: str):
         - Turn the `GSFont` object into a UFO object.
     - Phase 3
         - Generate `.otf` font files.
-        - TODO: Add the OpenType MATH tables.
+        - Add the OpenType MATH tables.
     '''
 
     # Phase 1
@@ -170,17 +196,12 @@ def build(input: str, output_dir: str):
     # Phase 3
     eprint('\nGenerating OTF...')
     FontProject(verbose='WARNING').save_otfs(ufos, output_dir=output_dir)
-
-def add_math_table(path: str):
+    # TODO: We only do it for the regular weight now.
     eprint('\nAdding MATH table...')
-    font = TTFont(path)
-    font['MATH'] = math_table(font)
-    font.save(path)
-    font.close()
+    add_math_table(font, input='build/FiraMath-Regular.otf')
 
 def eprint(values):
     print(values, file=sys.stderr)
 
 if __name__ == '__main__':
     build('src/FiraMath.glyphspackage', output_dir='build/')
-    add_math_table('build/FiraMath-Regular.otf')
