@@ -21,6 +21,11 @@ pos = (230,0);
 ref = summation;
 }
 );
+userData = {
+math = {
+italicCorrection = 500;
+};
+};
 width = 1180;
 },
 {

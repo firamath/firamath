@@ -29,6 +29,11 @@ pos = (560,0);
 ref = integral;
 }
 );
+userData = {
+math = {
+italicCorrection = 240;
+};
+};
 width = 1541;
 },
 {

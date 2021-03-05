@@ -62,6 +62,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+italicCorrection = 580;
+};
+};
 width = 2060;
 },
 {

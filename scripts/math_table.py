@@ -113,8 +113,14 @@ def math_constants():
 def math_glyph_info(glyph_info_dict):
     glyph_info = otTables.MathGlyphInfo()
 
-    # TODO:
-    glyph_info.MathItalicsCorrectionInfo = None
+    # Italic corrections
+    italic_corr_dict = glyph_info_dict['MathItalicsCorrectionInfo']
+    glyph_info.MathItalicsCorrectionInfo = otTables.MathItalicsCorrectionInfo()
+    glyph_info.MathItalicsCorrectionInfo.ItalicsCorrection = [
+        _math_value(value) for value in italic_corr_dict.values()
+    ]
+    glyph_info.MathItalicsCorrectionInfo.Coverage = _coverage(italic_corr_dict.keys())
+    glyph_info.MathItalicsCorrectionInfo.ItalicsCorrectionCount = len(italic_corr_dict)
 
     # Top accents
     top_accent_dict = glyph_info_dict['MathTopAccentAttachment']

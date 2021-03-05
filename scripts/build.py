@@ -154,13 +154,15 @@ def get_math_glyph_info(font: GSFont) -> dict:
         'MathKernInfo': {},
     } for master in font.masters}
     for glyph in font.glyphs:
-        for layer in glyph.layers:
-            if layer.name in math_glyph_info:
-                try:
-                    math_glyph_info[layer.name]['MathTopAccentAttachment'][glyph.name] = next(
-                        data['topAccent'] for data in layer.userData if 'topAccent' in data)
-                except StopIteration:
-                    pass
+        for layer in (l for l in glyph.layers if l.name in math_glyph_info):
+            def _set_info(plist_key, key):
+                math_glyph_info[layer.name][key][glyph.name] = next(
+                    data[plist_key] for data in layer.userData if plist_key in data)
+            try:
+                _set_info('italicCorrection', 'MathItalicsCorrectionInfo')
+                _set_info('topAccent', 'MathTopAccentAttachment')
+            except StopIteration:
+                pass
     return math_glyph_info
 
 def build(input: str, output_dir: str):

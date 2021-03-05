@@ -38,6 +38,11 @@ nodes = (
 ref = integral;
 }
 );
+userData = {
+math = {
+italicCorrection = 200;
+};
+};
 width = 701;
 },
 {
