@@ -1,14 +1,35 @@
 {
-color = 8;
 glyphname = minute.ssty2;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,158,l),
+(211,470,l),
+(207,470,l),
+(106,158,l)
+);
+}
+);
+width = 317;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(132,157,l),
+(243,471,l),
+(200,471,l),
+(98,157,l)
+);
+}
+);
+width = 341;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -16,18 +37,29 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(186,153,l),
-(316,472,l),
-(190,472,l),
-(88,153,l)
+(176,155,l),
+(304,473,l),
+(188,473,l),
+(88,155,l)
 );
 }
 );
-width = 404;
+width = 392;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,149,l),
+(404,479,l),
+(130,479,l),
+(38,149,l)
+);
+}
+);
+width = 442;
 }
 );
 }
