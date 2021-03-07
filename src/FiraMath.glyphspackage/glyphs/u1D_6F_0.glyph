@@ -4,13 +4,6 @@ color = 1;
 glyphname = u1D6F0;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "Oitalic-math";
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -29,13 +22,6 @@ ref = "Oitalic-math";
 width = 687;
 },
 {
-background = {
-shapes = (
-{
-ref = "Oitalic-math";
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -45,13 +31,6 @@ ref = "Oitalic-math";
 width = 690;
 },
 {
-background = {
-shapes = (
-{
-ref = "Oitalic-math";
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

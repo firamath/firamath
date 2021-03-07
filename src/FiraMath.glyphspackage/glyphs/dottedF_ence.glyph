@@ -3,13 +3,6 @@ color = 8;
 glyphname = dottedFence;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = periodcentered;
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {

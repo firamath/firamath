@@ -32,13 +32,6 @@ nodes = (
 width = 634;
 },
 {
-background = {
-shapes = (
-{
-ref = U;
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
