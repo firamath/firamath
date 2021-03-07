@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = summationWithIntegral.size01;
 layers = (
 {
@@ -9,7 +8,7 @@ shapes = (
 ref = integral.size01;
 },
 {
-pos = (230,0);
+pos = (234,0);
 ref = summation;
 }
 );
@@ -27,7 +26,7 @@ shapes = (
 ref = integral.size01;
 },
 {
-pos = (230,0);
+pos = (231,0);
 ref = summation;
 }
 );
@@ -63,7 +62,7 @@ shapes = (
 ref = integral.size01;
 },
 {
-pos = (230,0);
+pos = (203,0);
 ref = summation;
 }
 );
