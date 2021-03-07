@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Accents</string>
+			<key>list</key>
+			<array>
+				<string>&#x0300;</string><!-- grave accent -->
+				<string>&#x0301;</string><!-- acute accent -->
+				<string>&#x0302;</string><!-- circumflex accent -->
+				<string>&#x0303;</string><!-- tilde -->
+				<string>&#x0304;</string><!-- macron -->
+				<string>&#x0305;</string><!-- overbar embellishment -->
+				<string>&#x0306;</string><!-- breve -->
+				<string>&#x0307;</string><!-- dot above -->
+				<string>&#x0308;</string><!-- dieresis -->
+				<string>&#x20DB;</string><!-- combining three dots above -->
+				<string>&#x20DC;</string><!-- combining four dots above -->
+				<string>&#x0309;</string><!-- combining hook above -->
+				<string>&#x030A;</string><!-- ring -->
+				<string>&#x030C;</string><!-- caron -->
+				<string>&#x0310;</string><!-- candrabindu -->
+				<string>&#x0312;</string><!-- combining turned comma above -->
+				<string>&#x0315;</string><!-- combining comma above right -->
+				<string>&#x031A;</string><!-- left angle above -->
+				<string>&#x20D0;</string><!-- combining left harpoon above -->
+				<string>&#x20D1;</string><!-- combining right harpoon above -->
+				<string>&#x20D6;</string><!-- combining left arrow above -->
+				<string>&#x20D7;</string><!-- combining right arrow above -->
+				<string>&#x20E1;</string><!-- combining left right arrow above -->
+				<string>&#x20D2;</string><!-- combining long vertical line overlay -->
+				<string>&#x20E7;</string><!-- combining annuity symbol -->
+				<string>&#x20E9;</string><!-- combining wide bridge above -->
+				<string>&#x20F0;</string><!-- combining asterisk above -->
+				<string>&#x0338;</string><!-- combining long solidus overlay -->
+				<string>&#x0330;</string><!-- under tilde accent -->
+				<string>&#x0332;</string><!-- combining low line -->
+				<string>&#x034D;</string><!-- underleftrightarrow accent -->
+				<string>&#x20EC;</string><!-- combining rightwards harpoon with barb downwards -->
+				<string>&#x20ED;</string><!-- combining leftwards harpoon with barb downwards -->
+				<string>&#x20EE;</string><!-- combining left arrow below -->
+				<string>&#x20EF;</string><!-- combining right arrow below -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Big operators</string>
+			<key>list</key>
+			<array>
+				<string>&#x222B;</string><!-- integral operator -->
+				<string>&#x222C;</string><!-- double integral operator -->
+				<string>&#x222D;</string><!-- triple integral operator -->
+				<string>&#x2A0C;</string><!-- quadruple integral operator -->
+				<string>&#x222E;</string><!-- contour integral operator -->
+				<string>&#x222F;</string><!-- double contour integral operator -->
+				<string>&#x2230;</string><!-- triple contour integral operator -->
+				<string>&#x2231;</string><!-- clockwise integral -->
+				<string>&#x2A11;</string><!-- anticlockwise integration -->
+				<string>&#x2232;</string><!-- contour integral, clockwise -->
+				<string>&#x2233;</string><!-- contour integral, anticlockwise -->
+				<string>&#x2A0B;</string><!-- summation with integral -->
+				<string>&#x2211;</string><!-- summation operator -->
+				<string>&#x2140;</string><!-- double-struck n-ary summation -->
+				<string>&#x220F;</string><!-- product operator -->
+				<string>&#x2210;</string><!-- coproduct operator -->
+				<string>&#x22C0;</string><!-- logical and operator -->
+				<string>&#x22C1;</string><!-- logical or operator -->
+				<string>&#x2A07;</string><!-- two logical and operator -->
+				<string>&#x2A08;</string><!-- two logical or operator -->
+				<string>&#x22C2;</string><!-- intersection operator -->
+				<string>&#x22C3;</string><!-- union operator -->
+				<string>&#x2A03;</string><!-- n-ary union operator with dot -->
+				<string>&#x2A04;</string><!-- n-ary union operator with plus -->
+				<string>&#x2A05;</string><!-- n-ary square intersection operator -->
+				<string>&#x2A06;</string><!-- n-ary square union operator -->
+				<string>&#x2A00;</string><!-- n-ary circled dot operator -->
+				<string>&#x2A01;</string><!-- n-ary circled plus operator -->
+				<string>&#x2A02;</string><!-- n-ary circled times operator -->
+				<string>&#x2A09;</string><!-- n-ary times operator -->
+				<string>&#x27D8;</string><!-- large up tack -->
+				<string>&#x27D9;</string><!-- large down tack -->
+				<string>&#x29F8;</string><!-- big solidus -->
+				<string>&#x29F9;</string><!-- big reverse solidus -->
+				<string>integral.size01</string>
+				<string>dblintegral.size01</string>
+				<string>tripleintegral.size01</string>
+				<string>quadrupleIntegralOperator.size01</string>
+				<string>contourintegral.size01</string>
+				<string>surfaceintegral.size01</string>
+				<string>volumeintegral.size01</string>
+				<string>summationWithIntegral.size01</string>
+				<string>summation.size01</string>
+				<string>summationdoubleStruck.size01</string>
+				<string>product.size01</string>
+				<string>coproduct.size01</string>
+				<string>nAryCircledDotOperator.size01</string>
+				<string>nAryCircledPlusOperator.size01</string>
+				<string>nAryCircledTimesOperator.size01</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Horizontal variants</string>
+			<key>list</key>
+			<array>
+				<string>bottomparenthesis</string>
+				<string>bottomparenthesis.size01</string>
+				<string>bottomparenthesis.size02</string>
+				<string>bottomparenthesis.size03</string>
+				<string>bottomparenthesis.size04</string>
+				<string>bottomparenthesis.size05</string>
+				<string>bottomparenthesis.size06</string>
+				<string>bottomparenthesis.size07</string>
+				<string>bottomparenthesis.size08</string>
+				<string>bottomparenthesis.size09</string>
+				<string>bottomparenthesis.size10</string>
+				<string>bottomparenthesis.size11</string>
+				<string>bottomparenthesis.size12</string>
+				<string>bottomparenthesis.size13</string>
+				<string>bottomparenthesis.size14</string>
+				<string>bottomparenthesis.size15</string>
+				<string>bottomsquarebracket</string>
+				<string>bottomsquarebracket.size01</string>
+				<string>bottomsquarebracket.size02</string>
+				<string>bottomsquarebracket.size03</string>
+				<string>bottomsquarebracket.size04</string>
+				<string>bottomsquarebracket.size05</string>
+				<string>bottomsquarebracket.size06</string>
+				<string>bottomsquarebracket.size07</string>
+				<string>bottomsquarebracket.size08</string>
+				<string>bottomsquarebracket.size09</string>
+				<string>bottomsquarebracket.size10</string>
+				<string>bottomsquarebracket.size11</string>
+				<string>bottomsquarebracket.size12</string>
+				<string>bottomsquarebracket.size13</string>
+				<string>bottomsquarebracket.size14</string>
+				<string>bottomsquarebracket.size15</string>
+				<string>bottomcurlybracket</string>
+				<string>bottomcurlybracket.size01</string>
+				<string>bottomcurlybracket.size02</string>
+				<string>bottomcurlybracket.size03</string>
+				<string>bottomcurlybracket.size04</string>
+				<string>bottomcurlybracket.size05</string>
+				<string>bottomcurlybracket.size06</string>
+				<string>bottomcurlybracket.size07</string>
+				<string>bottomcurlybracket.size08</string>
+				<string>bottomcurlybracket.size09</string>
+				<string>bottomcurlybracket.size10</string>
+				<string>bottomcurlybracket.size11</string>
+				<string>bottomcurlybracket.size12</string>
+				<string>bottomcurlybracket.size13</string>
+				<string>bottomcurlybracket.size14</string>
+				<string>bottomcurlybracket.size15</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vertical variants</string>
+			<key>list</key>
+			<array>
+				<string>parenleft</string>
+				<string>parenleft.size01</string>
+				<string>parenleft.size02</string>
+				<string>parenleft.size03</string>
+				<string>parenleft.size04</string>
+				<string>parenleft.size05</string>
+				<string>parenleft.size06</string>
+				<string>parenleft.size07</string>
+				<string>parenleft.size08</string>
+				<string>parenleft.size09</string>
+				<string>parenleft.size10</string>
+				<string>parenleft.size11</string>
+				<string>parenleft.size12</string>
+				<string>parenleft.size13</string>
+				<string>parenleft.size14</string>
+				<string>parenleft.size15</string>
+				<string>parenright</string>
+				<string>parenright.size01</string>
+				<string>parenright.size02</string>
+				<string>parenright.size03</string>
+				<string>parenright.size04</string>
+				<string>parenright.size05</string>
+				<string>parenright.size06</string>
+				<string>parenright.size07</string>
+				<string>parenright.size08</string>
+				<string>parenright.size09</string>
+				<string>parenright.size10</string>
+				<string>parenright.size11</string>
+				<string>parenright.size12</string>
+				<string>parenright.size13</string>
+				<string>parenright.size14</string>
+				<string>parenright.size15</string>
+				<string>leftflattenedparenthesis-math</string>
+				<string>leftflattenedparenthesis-math.size01</string>
+				<string>leftflattenedparenthesis-math.size02</string>
+				<string>leftflattenedparenthesis-math.size03</string>
+				<string>leftflattenedparenthesis-math.size04</string>
+				<string>leftflattenedparenthesis-math.size05</string>
+				<string>leftflattenedparenthesis-math.size06</string>
+				<string>leftflattenedparenthesis-math.size07</string>
+				<string>leftflattenedparenthesis-math.size08</string>
+				<string>leftflattenedparenthesis-math.size09</string>
+				<string>leftflattenedparenthesis-math.size10</string>
+				<string>leftflattenedparenthesis-math.size11</string>
+				<string>leftflattenedparenthesis-math.size12</string>
+				<string>leftflattenedparenthesis-math.size13</string>
+				<string>leftflattenedparenthesis-math.size14</string>
+				<string>leftflattenedparenthesis-math.size15</string>
+				<string>rightflattenedparenthesis-math</string>
+				<string>rightflattenedparenthesis-math.size01</string>
+				<string>rightflattenedparenthesis-math.size02</string>
+				<string>rightflattenedparenthesis-math.size03</string>
+				<string>rightflattenedparenthesis-math.size04</string>
+				<string>rightflattenedparenthesis-math.size05</string>
+				<string>rightflattenedparenthesis-math.size06</string>
+				<string>rightflattenedparenthesis-math.size07</string>
+				<string>rightflattenedparenthesis-math.size08</string>
+				<string>rightflattenedparenthesis-math.size09</string>
+				<string>rightflattenedparenthesis-math.size10</string>
+				<string>rightflattenedparenthesis-math.size11</string>
+				<string>rightflattenedparenthesis-math.size12</string>
+				<string>rightflattenedparenthesis-math.size13</string>
+				<string>rightflattenedparenthesis-math.size14</string>
+				<string>rightflattenedparenthesis-math.size15</string>
+				<string>bracketleft</string>
+				<string>bracketleft.size01</string>
+				<string>bracketleft.size02</string>
+				<string>bracketleft.size03</string>
+				<string>bracketleft.size04</string>
+				<string>bracketleft.size05</string>
+				<string>bracketleft.size06</string>
+				<string>bracketleft.size07</string>
+				<string>bracketleft.size08</string>
+				<string>bracketleft.size09</string>
+				<string>bracketleft.size10</string>
+				<string>bracketleft.size11</string>
+				<string>bracketleft.size12</string>
+				<string>bracketleft.size13</string>
+				<string>bracketleft.size14</string>
+				<string>bracketleft.size15</string>
+				<string>bracketright</string>
+				<string>bracketright.size01</string>
+				<string>bracketright.size02</string>
+				<string>bracketright.size03</string>
+				<string>bracketright.size04</string>
+				<string>bracketright.size05</string>
+				<string>bracketright.size06</string>
+				<string>bracketright.size07</string>
+				<string>bracketright.size08</string>
+				<string>bracketright.size09</string>
+				<string>bracketright.size10</string>
+				<string>bracketright.size11</string>
+				<string>bracketright.size12</string>
+				<string>bracketright.size13</string>
+				<string>bracketright.size14</string>
+				<string>bracketright.size15</string>
+				<string>braceleft</string>
+				<string>braceleft.size01</string>
+				<string>braceleft.size02</string>
+				<string>braceleft.size03</string>
+				<string>braceleft.size04</string>
+				<string>braceleft.size05</string>
+				<string>braceleft.size06</string>
+				<string>braceleft.size07</string>
+				<string>braceleft.size08</string>
+				<string>braceleft.size09</string>
+				<string>braceleft.size10</string>
+				<string>braceleft.size11</string>
+				<string>braceleft.size12</string>
+				<string>braceleft.size13</string>
+				<string>braceleft.size14</string>
+				<string>braceleft.size15</string>
+				<string>braceright</string>
+				<string>braceright.size01</string>
+				<string>braceright.size02</string>
+				<string>braceright.size03</string>
+				<string>braceright.size04</string>
+				<string>braceright.size05</string>
+				<string>braceright.size06</string>
+				<string>braceright.size07</string>
+				<string>braceright.size08</string>
+				<string>braceright.size09</string>
+				<string>braceright.size10</string>
+				<string>braceright.size11</string>
+				<string>braceright.size12</string>
+				<string>braceright.size13</string>
+				<string>braceright.size14</string>
+				<string>braceright.size15</string>
+				<string>leftCeiling</string>
+				<string>leftCeiling.size01</string>
+				<string>leftCeiling.size02</string>
+				<string>leftCeiling.size03</string>
+				<string>leftCeiling.size04</string>
+				<string>leftCeiling.size05</string>
+				<string>leftCeiling.size06</string>
+				<string>leftCeiling.size07</string>
+				<string>leftCeiling.size08</string>
+				<string>leftCeiling.size09</string>
+				<string>leftCeiling.size10</string>
+				<string>leftCeiling.size11</string>
+				<string>leftCeiling.size12</string>
+				<string>leftCeiling.size13</string>
+				<string>leftCeiling.size14</string>
+				<string>leftCeiling.size15</string>
+				<string>rightCeiling</string>
+				<string>rightCeiling.size01</string>
+				<string>rightCeiling.size02</string>
+				<string>rightCeiling.size03</string>
+				<string>rightCeiling.size04</string>
+				<string>rightCeiling.size05</string>
+				<string>rightCeiling.size06</string>
+				<string>rightCeiling.size07</string>
+				<string>rightCeiling.size08</string>
+				<string>rightCeiling.size09</string>
+				<string>rightCeiling.size10</string>
+				<string>rightCeiling.size11</string>
+				<string>rightCeiling.size12</string>
+				<string>rightCeiling.size13</string>
+				<string>rightCeiling.size14</string>
+				<string>rightCeiling.size15</string>
+				<string>leftFloor</string>
+				<string>leftFloor.size01</string>
+				<string>leftFloor.size02</string>
+				<string>leftFloor.size03</string>
+				<string>leftFloor.size04</string>
+				<string>leftFloor.size05</string>
+				<string>leftFloor.size06</string>
+				<string>leftFloor.size07</string>
+				<string>leftFloor.size08</string>
+				<string>leftFloor.size09</string>
+				<string>leftFloor.size10</string>
+				<string>leftFloor.size11</string>
+				<string>leftFloor.size12</string>
+				<string>leftFloor.size13</string>
+				<string>leftFloor.size14</string>
+				<string>leftFloor.size15</string>
+				<string>rightFloor</string>
+				<string>rightFloor.size01</string>
+				<string>rightFloor.size02</string>
+				<string>rightFloor.size03</string>
+				<string>rightFloor.size04</string>
+				<string>rightFloor.size05</string>
+				<string>rightFloor.size06</string>
+				<string>rightFloor.size07</string>
+				<string>rightFloor.size08</string>
+				<string>rightFloor.size09</string>
+				<string>rightFloor.size10</string>
+				<string>rightFloor.size11</string>
+				<string>rightFloor.size12</string>
+				<string>rightFloor.size13</string>
+				<string>rightFloor.size14</string>
+				<string>rightFloor.size15</string>
+				<string>leftanglebracket-math</string>
+				<string>leftanglebracket-math.size01</string>
+				<string>leftanglebracket-math.size02</string>
+				<string>leftanglebracket-math.size03</string>
+				<string>leftanglebracket-math.size04</string>
+				<string>leftanglebracket-math.size05</string>
+				<string>leftanglebracket-math.size06</string>
+				<string>leftanglebracket-math.size07</string>
+				<string>leftanglebracket-math.size08</string>
+				<string>leftanglebracket-math.size09</string>
+				<string>leftanglebracket-math.size10</string>
+				<string>leftanglebracket-math.size11</string>
+				<string>leftanglebracket-math.size12</string>
+				<string>leftanglebracket-math.size13</string>
+				<string>leftanglebracket-math.size14</string>
+				<string>leftanglebracket-math.size15</string>
+				<string>leftdoubleanglebracket-math</string>
+				<string>leftdoubleanglebracket-math.size01</string>
+				<string>leftdoubleanglebracket-math.size02</string>
+				<string>leftdoubleanglebracket-math.size03</string>
+				<string>leftdoubleanglebracket-math.size04</string>
+				<string>leftdoubleanglebracket-math.size05</string>
+				<string>leftdoubleanglebracket-math.size06</string>
+				<string>leftdoubleanglebracket-math.size07</string>
+				<string>leftdoubleanglebracket-math.size08</string>
+				<string>leftdoubleanglebracket-math.size09</string>
+				<string>leftdoubleanglebracket-math.size10</string>
+				<string>leftdoubleanglebracket-math.size11</string>
+				<string>leftdoubleanglebracket-math.size12</string>
+				<string>leftdoubleanglebracket-math.size13</string>
+				<string>leftdoubleanglebracket-math.size14</string>
+				<string>leftdoubleanglebracket-math.size15</string>
+				<string>rightanglebracket-math</string>
+				<string>rightanglebracket-math.size01</string>
+				<string>rightanglebracket-math.size02</string>
+				<string>rightanglebracket-math.size03</string>
+				<string>rightanglebracket-math.size04</string>
+				<string>rightanglebracket-math.size05</string>
+				<string>rightanglebracket-math.size06</string>
+				<string>rightanglebracket-math.size07</string>
+				<string>rightanglebracket-math.size08</string>
+				<string>rightanglebracket-math.size09</string>
+				<string>rightanglebracket-math.size10</string>
+				<string>rightanglebracket-math.size11</string>
+				<string>rightanglebracket-math.size12</string>
+				<string>rightanglebracket-math.size13</string>
+				<string>rightanglebracket-math.size14</string>
+				<string>rightanglebracket-math.size15</string>
+				<string>rightdoubleanglebracket-math</string>
+				<string>rightdoubleanglebracket-math.size01</string>
+				<string>rightdoubleanglebracket-math.size02</string>
+				<string>rightdoubleanglebracket-math.size03</string>
+				<string>rightdoubleanglebracket-math.size04</string>
+				<string>rightdoubleanglebracket-math.size05</string>
+				<string>rightdoubleanglebracket-math.size06</string>
+				<string>rightdoubleanglebracket-math.size07</string>
+				<string>rightdoubleanglebracket-math.size08</string>
+				<string>rightdoubleanglebracket-math.size09</string>
+				<string>rightdoubleanglebracket-math.size10</string>
+				<string>rightdoubleanglebracket-math.size11</string>
+				<string>rightdoubleanglebracket-math.size12</string>
+				<string>rightdoubleanglebracket-math.size13</string>
+				<string>rightdoubleanglebracket-math.size14</string>
+				<string>rightdoubleanglebracket-math.size15</string>
+				<string>bar</string>
+				<string>bar.size01</string>
+				<string>bar.size02</string>
+				<string>bar.size03</string>
+				<string>bar.size04</string>
+				<string>bar.size05</string>
+				<string>bar.size06</string>
+				<string>bar.size07</string>
+				<string>bar.size08</string>
+				<string>bar.size09</string>
+				<string>bar.size10</string>
+				<string>bar.size11</string>
+				<string>bar.size12</string>
+				<string>bar.size13</string>
+				<string>bar.size14</string>
+				<string>bar.size15</string>
+				<string>dblverticalbar</string>
+				<string>dblverticalbar.size01</string>
+				<string>dblverticalbar.size02</string>
+				<string>dblverticalbar.size03</string>
+				<string>dblverticalbar.size04</string>
+				<string>dblverticalbar.size05</string>
+				<string>dblverticalbar.size06</string>
+				<string>dblverticalbar.size07</string>
+				<string>dblverticalbar.size08</string>
+				<string>dblverticalbar.size09</string>
+				<string>dblverticalbar.size10</string>
+				<string>dblverticalbar.size11</string>
+				<string>dblverticalbar.size12</string>
+				<string>dblverticalbar.size13</string>
+				<string>dblverticalbar.size14</string>
+				<string>dblverticalbar.size15</string>
+				<string>tripleVerticalBarDelimiter</string>
+				<string>tripleVerticalBarDelimiter.size01</string>
+				<string>tripleVerticalBarDelimiter.size02</string>
+				<string>tripleVerticalBarDelimiter.size03</string>
+				<string>tripleVerticalBarDelimiter.size04</string>
+				<string>tripleVerticalBarDelimiter.size05</string>
+				<string>tripleVerticalBarDelimiter.size06</string>
+				<string>tripleVerticalBarDelimiter.size07</string>
+				<string>tripleVerticalBarDelimiter.size08</string>
+				<string>tripleVerticalBarDelimiter.size09</string>
+				<string>tripleVerticalBarDelimiter.size10</string>
+				<string>tripleVerticalBarDelimiter.size11</string>
+				<string>tripleVerticalBarDelimiter.size12</string>
+				<string>tripleVerticalBarDelimiter.size13</string>
+				<string>tripleVerticalBarDelimiter.size14</string>
+				<string>tripleVerticalBarDelimiter.size15</string>
+				<string>radical</string>
+				<string>radical.size01</string>
+				<string>radical.size02</string>
+				<string>radical.size03</string>
+				<string>radical.size04</string>
+				<string>radical.size05</string>
+				<string>radical.size06</string>
+				<string>radical.size07</string>
+				<string>radical.size08</string>
+				<string>radical.size09</string>
+				<string>radical.size10</string>
+				<string>radical.size11</string>
+				<string>radical.size12</string>
+				<string>radical.size13</string>
+				<string>radical.size14</string>
+				<string>radical.size15</string>
+				<string>cuberoot</string>
+				<string>cuberoot.size01</string>
+				<string>cuberoot.size02</string>
+				<string>cuberoot.size03</string>
+				<string>cuberoot.size04</string>
+				<string>cuberoot.size05</string>
+				<string>cuberoot.size06</string>
+				<string>cuberoot.size07</string>
+				<string>cuberoot.size08</string>
+				<string>cuberoot.size09</string>
+				<string>cuberoot.size10</string>
+				<string>cuberoot.size11</string>
+				<string>cuberoot.size12</string>
+				<string>cuberoot.size13</string>
+				<string>cuberoot.size14</string>
+				<string>cuberoot.size15</string>
+				<string>fourthroot</string>
+				<string>fourthroot.size01</string>
+				<string>fourthroot.size02</string>
+				<string>fourthroot.size03</string>
+				<string>fourthroot.size04</string>
+				<string>fourthroot.size05</string>
+				<string>fourthroot.size06</string>
+				<string>fourthroot.size07</string>
+				<string>fourthroot.size08</string>
+				<string>fourthroot.size09</string>
+				<string>fourthroot.size10</string>
+				<string>fourthroot.size11</string>
+				<string>fourthroot.size12</string>
+				<string>fourthroot.size13</string>
+				<string>fourthroot.size14</string>
+				<string>fourthroot.size15</string>
+			</array>
+		</dict>
+	</array>
+</plist>
