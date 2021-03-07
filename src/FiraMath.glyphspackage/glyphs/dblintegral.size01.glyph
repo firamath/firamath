@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = dblintegral.size01;
 layers = (
 {
@@ -9,10 +8,16 @@ shapes = (
 ref = integral.size01;
 },
 {
+pos = (340,0);
 ref = integral.size01;
 }
 );
-width = 373;
+userData = {
+math = {
+italicCorrection = 580;
+};
+};
+width = 1519;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -21,10 +26,16 @@ shapes = (
 ref = integral.size01;
 },
 {
+pos = (360,0);
 ref = integral.size01;
 }
 );
-width = 351;
+userData = {
+math = {
+italicCorrection = 580;
+};
+};
+width = 1539;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -42,7 +53,7 @@ math = {
 italicCorrection = 580;
 };
 };
-width = 1620;
+width = 1610;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -51,10 +62,16 @@ shapes = (
 ref = integral.size01;
 },
 {
+pos = (390,0);
 ref = integral.size01;
 }
 );
-width = 408;
+userData = {
+math = {
+italicCorrection = 580;
+};
+};
+width = 1486;
 }
 );
 metricLeft = integral.size01;

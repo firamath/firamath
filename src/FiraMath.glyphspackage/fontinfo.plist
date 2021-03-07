@@ -39,11 +39,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1100;
+value = 1200;
 },
 {
 name = "Preview Descender";
-value = 700;
+value = 800;
 }
 );
 guides = (
@@ -51,6 +51,11 @@ guides = (
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
 }
 );
 iconName = Light;
@@ -85,11 +90,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1100;
+value = 1200;
 },
 {
 name = "Preview Descender";
-value = 700;
+value = 800;
 }
 );
 guides = (
@@ -105,6 +110,11 @@ pos = (0,29);
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
 }
 );
 iconName = SemiLight;
@@ -139,11 +149,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1100;
+value = 1200;
 },
 {
 name = "Preview Descender";
-value = 700;
+value = 800;
 }
 );
 guides = (
@@ -163,6 +173,11 @@ pos = (0,685);
 {
 locked = 1;
 pos = (0,635);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
 }
 );
 id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -196,11 +211,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1100;
+value = 1200;
 },
 {
 name = "Preview Descender";
-value = 700;
+value = 800;
 }
 );
 guides = (
@@ -212,6 +227,11 @@ pos = (0,158);
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
 }
 );
 iconName = Bold;
