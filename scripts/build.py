@@ -2,11 +2,9 @@
 '''
 
 import copy
-import io
 import os
 import sys
 import time
-from collections import OrderedDict
 
 from fontmake.font_project import FontProject
 from fontmake.instantiator import Instantiator
@@ -18,22 +16,23 @@ from fontTools.designspaceLib import DesignSpaceDocument
 import glyphsLib
 from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath
 from glyphsLib.parser import Parser
-from glyphsLib.writer import Writer
 
 from math_table import math_table
 
-def read_glyphs_package(path: str):
+def read_glyphs_package(path: str) -> GSFont:
     with open(os.path.join(path, 'fontinfo.plist'), 'r') as fontinfo_plist:
-        font: OrderedDict = Parser().parse(fontinfo_plist.read())
+        fontinfo = fontinfo_plist.read()
     with open(os.path.join(path, 'order.plist'), 'r') as order_plist:
         order: list[str] = Parser().parse(order_plist.read())
-    font['glyphs'] = [read_glyph(path, name) for name in order]
-    return font
+    insert_pos = fontinfo.find('instances = (')
+    glyphs = 'glyphs = (\n' + ',\n'.join(read_glyph(path, name) for name in order) + '\n);\n'
+    return Parser(current_type=GSFont).parse(
+        fontinfo[:insert_pos] + glyphs + fontinfo[insert_pos:-1])
 
 def read_glyph(path: str, name: str):
     file_name = glyph_name_to_file_name(name)
     with open(os.path.join(path, 'glyphs', file_name), 'r') as f:
-        return Parser().parse(f.read())
+        return f.read()[:-1]
 
 def glyph_name_to_file_name(name: str):
     if name == '.notdef':
@@ -145,34 +144,10 @@ def interpolate_node(node_0: GSNode, node_1: GSNode, value) -> GSNode:
     )
     return GSNode(position, type=node_0.type, smooth=node_0.smooth)
 
-# def build_masters(font: GSFont, output_dir: str):
-#     master_dir = os.path.join(output_dir, 'masters')
-#     instance_dir = os.path.join(output_dir, 'instances')
-#     if not os.path.isdir(master_dir):
-#         os.mkdir(master_dir)
-#     if not os.path.isdir(instance_dir):
-#         os.mkdir(instance_dir)
-#
-#     designspace: DesignSpaceDocument = glyphsLib.to_designspace(font, instance_dir=instance_dir)
-#
-#     for axis in designspace.axes:
-#         print(axis.tag, axis.name, axis.maximum, axis.minimum, axis.default, axis.map)
-#     sys.exit()
-#
-#     designspace.write(os.path.join(master_dir, designspace.filename))
-#
-#     master_ufos = []
-#     for source in designspace.sources:
-#         ufo_path = os.path.join(master_dir, source.filename)
-#         glyphsLib.clean_ufo(ufo_path)
-#         ufo = source.font
-#         ufo.save(ufo_path)
-#         master_ufos.append(ufo)
-#
-#     return master_ufos, designspace
-
-def to_ufos(font: GSFont, default_index: int = 0) -> list:
+def to_ufos(font: GSFont, interpolate: bool = False, default_index: int = 0) -> list:
     ufos, instance_data = glyphsLib.to_ufos(font, include_instances=True)
+    if not interpolate:
+        return ufos
     designspace: DesignSpaceDocument = instance_data['designspace']
     designspace.default = designspace.sources[default_index]
     for axis_index in range(len(designspace.axes)):
@@ -233,11 +208,10 @@ class Timer(object):
 def build(input: str, output_dir: str):
     '''Build fonts from Glyphs source.
 
-    1. Read the `.glyphspackage` directory into an `OrderedDict`
-    2. Convert the `OrderedDict` into a `GSFont` object, then decompose all the smart components
-    3. Convert the `GSFont` into a list of UFO objects and perform interpolation
-    4. Generate `.otf` font files
-    5. Add the OpenType MATH tables
+    1. Read the `.glyphspackage` directory into a `GSFont` object with preprocessing
+    2. Convert the `GSFont` into a list of UFO objects and perform interpolation
+    3. Generate `.otf` font files
+    4. Add the OpenType MATH tables
     '''
     eprint('Python {}\nfonttools {}\nglyphsLib {}\n'.format(
         sys.version.split()[0],
@@ -247,25 +221,19 @@ def build(input: str, output_dir: str):
 
     # Phase 1
     with Timer('Parsing input file \'{}\'...'.format(input)):
-        input_font = read_glyphs_package(input)
-
-    # Phase 2
-    with Timer('Preprocessing...'):
-        buffer = io.StringIO()
-        Writer(buffer).write(input_font)
-        font: GSFont = Parser(current_type=GSFont).parse(buffer.getvalue())
+        font = read_glyphs_package(input)
         fix_export(font)
         decompose_smart_comp(font)
 
-    # Phase 3
+    # Phase 2
     with Timer('Generating UFO...'):
         ufos = to_ufos(font)
 
-    # Phase 4
+    # Phase 3
     with Timer('Generating OTF...'):
         FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
 
-    # Phase 5
+    # Phase 4
     with Timer('Adding MATH table...'):
         # TODO: We only do it for the regular weight now.
         add_math_table(font, input='build/FiraMath-Regular.otf')
