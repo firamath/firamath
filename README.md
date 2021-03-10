@@ -1,9 +1,8 @@
 # Fira Math
 
-[![Build Status](https://travis-ci.org/firamath/firamath.svg?branch=master)](https://travis-ci.org/firamath/firamath)
+[![Build Status](https://github.com/firamath/firamath/workflows/CI/badge.svg)](https://github.com/firamath/firamath/actions/workflows/main.yml)
 [![CTAN](https://img.shields.io/ctan/v/firamath.svg)](https://www.ctan.org/pkg/firamath)
 [![GitHub release](https://img.shields.io/github/release/firamath/firamath/all.svg)](https://github.com/firamath/firamath/releases/latest)
-[![Bintray](https://img.shields.io/bintray/v/firamath/firamath/firamath-travis.svg)](https://bintray.com/firamath/firamath/firamath-travis#files)
 
 Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 
