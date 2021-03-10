@@ -167,6 +167,8 @@ def to_ufos(font: GSFont, interpolate: bool = False, default_index: int = 0) -> 
 def add_math_table(font: GSFont, toml_path: str, input_dir: str, output_dir: str=None):
     if not output_dir:
         output_dir = input_dir
+    if not os.path.isdir(output_dir):
+        os.mkdir(output_dir)
 
     # TODO: For masters only
     masters = sorted(font.masters, key=lambda m: m.weightValue)
@@ -204,15 +206,15 @@ def math_constants(style_index: int, data: dict):
 def math_glyph_info(font: GSFont, style_index: int):
     italic_corr_glyphs, italic_corr_values = get_user_data(font, style_index, 'italicCorrection')
     italic_corr = otTables.MathItalicsCorrectionInfo()
-    italic_corr.ItalicsCorrection = list(map(math_value, italic_corr_values))
     italic_corr.Coverage = coverage(italic_corr_glyphs)
     italic_corr.ItalicsCorrectionCount = len(italic_corr_glyphs)
+    italic_corr.ItalicsCorrection = list(map(math_value, italic_corr_values))
 
     top_accent_glyphs, top_accent_values = get_user_data(font, style_index, 'topAccent')
     top_accent = otTables.MathTopAccentAttachment()
-    top_accent.TopAccentAttachment = list(map(math_value, top_accent_values))
     top_accent.TopAccentCoverage = coverage(top_accent_glyphs)
     top_accent.TopAccentAttachmentCount = len(top_accent_glyphs)
+    top_accent.TopAccentAttachment = list(map(math_value, top_accent_values))
 
     glyph_info = otTables.MathGlyphInfo()
     glyph_info.MathItalicsCorrectionInfo = italic_corr
@@ -282,7 +284,7 @@ def math_value(value):
 def coverage(glyphs):
     c = otTables.Coverage()
     c.glyphs = glyphs
-    return credits
+    return c
 
 class Timer(object):
     def __init__(self, name=None):
