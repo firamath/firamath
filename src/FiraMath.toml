@@ -1,0 +1,105 @@
+[MathConstants]
+
+ScriptPercentScaleDown                   = { value = [   72,   72,   72,   72], isMathValue = false }
+ScriptScriptPercentScaleDown             = { value = [   58,   58,   58,   58], isMathValue = false }
+DelimitedSubFormulaMinHeight             = { value = [ 1500, 1500, 1500, 1500], isMathValue = false }
+DisplayOperatorMinHeight                 = { value = [ 1500, 1500, 1500, 1500], isMathValue = false }
+MathLeading                              = { value = [  150,  150,  150,  150], isMathValue = true  }
+AxisHeight                               = { value = [  280,  280,  280,  280], isMathValue = true  }
+AccentBaseHeight                         = { value = [  527,  527,  527,  527], isMathValue = true  }
+FlattenedAccentBaseHeight                = { value = [  689,  689,  689,  689], isMathValue = true  }
+SubscriptShiftDown                       = { value = [  350,  350,  350,  350], isMathValue = true  }
+SubscriptTopMax                          = { value = [  527,  527,  527,  527], isMathValue = true  }
+SubscriptBaselineDropMin                 = { value = [  250,  250,  250,  250], isMathValue = true  }
+SuperscriptShiftUp                       = { value = [  400,  400,  400,  400], isMathValue = true  }
+SuperscriptShiftUpCramped                = { value = [  270,  270,  270,  270], isMathValue = true  }
+SuperscriptBottomMin                     = { value = [  130,  130,  130,  130], isMathValue = true  }
+SuperscriptBaselineDropMax               = { value = [  360,  360,  360,  360], isMathValue = true  }
+SubSuperscriptGapMin                     = { value = [  200,  200,  200,  200], isMathValue = true  }
+SuperscriptBottomMaxWithSubscript        = { value = [  527,  527,  527,  527], isMathValue = true  }
+SpaceAfterScript                         = { value = [   41,   41,   41,   41], isMathValue = true  }
+UpperLimitGapMin                         = { value = [  150,  150,  150,  150], isMathValue = true  }
+UpperLimitBaselineRiseMin                = { value = [  150,  150,  150,  150], isMathValue = true  }
+LowerLimitGapMin                         = { value = [  150,  150,  150,  150], isMathValue = true  }
+LowerLimitBaselineDropMin                = { value = [  600,  600,  600,  600], isMathValue = true  }
+StackTopShiftUp                          = { value = [  450,  450,  450,  450], isMathValue = true  }
+StackTopDisplayStyleShiftUp              = { value = [  580,  580,  580,  580], isMathValue = true  }
+StackBottomShiftDown                     = { value = [  480,  480,  480,  480], isMathValue = true  }
+StackBottomDisplayStyleShiftDown         = { value = [  700,  700,  700,  700], isMathValue = true  }
+StackGapMin                              = { value = [  200,  200,  200,  200], isMathValue = true  }
+StackDisplayStyleGapMin                  = { value = [  500,  500,  500,  500], isMathValue = true  }
+StretchStackTopShiftUp                   = { value = [  300,  300,  300,  300], isMathValue = true  }
+StretchStackBottomShiftDown              = { value = [  600,  600,  600,  600], isMathValue = true  }
+StretchStackGapAboveMin                  = { value = [  150,  150,  150,  150], isMathValue = true  }
+StretchStackGapBelowMin                  = { value = [  150,  150,  150,  150], isMathValue = true  }
+FractionNumeratorShiftUp                 = { value = [  450,  450,  450,  450], isMathValue = true  }
+FractionNumeratorDisplayStyleShiftUp     = { value = [  580,  580,  580,  580], isMathValue = true  }
+FractionDenominatorShiftDown             = { value = [  480,  480,  480,  480], isMathValue = true  }
+FractionDenominatorDisplayStyleShiftDown = { value = [  700,  700,  700,  700], isMathValue = true  }
+FractionNumeratorGapMin                  = { value = [   80,   80,   80,   80], isMathValue = true  }
+FractionNumDisplayStyleGapMin            = { value = [  200,  200,  200,  200], isMathValue = true  }
+FractionRuleThickness                    = { value = [    2,   30,   76,  160], isMathValue = true  }
+FractionDenominatorGapMin                = { value = [   80,   80,   80,   80], isMathValue = true  }
+FractionDenomDisplayStyleGapMin          = { value = [  200,  200,  200,  200], isMathValue = true  }
+SkewedFractionHorizontalGap              = { value = [    0,    0,    0,    0], isMathValue = true  }
+SkewedFractionVerticalGap                = { value = [    0,    0,    0,    0], isMathValue = true  }
+OverbarVerticalGap                       = { value = [  150,  150,  150,  150], isMathValue = true  }
+OverbarRuleThickness                     = { value = [   66,   66,   66,   66], isMathValue = true  }
+OverbarExtraAscender                     = { value = [   50,   50,   50,   50], isMathValue = true  }
+UnderbarVerticalGap                      = { value = [  150,  150,  150,  150], isMathValue = true  }
+UnderbarRuleThickness                    = { value = [   66,   66,   66,   66], isMathValue = true  }
+UnderbarExtraDescender                   = { value = [   50,   50,   50,   50], isMathValue = true  }
+RadicalVerticalGap                       = { value = [   96,   96,   96,   96], isMathValue = true  }
+RadicalDisplayStyleVerticalGap           = { value = [  142,  142,  142,  142], isMathValue = true  }
+RadicalRuleThickness                     = { value = [    2,   30,   76,  160], isMathValue = true  }
+RadicalExtraAscender                     = { value = [    2,   30,   76,  160], isMathValue = true  }
+RadicalKernBeforeDegree                  = { value = [  276,  276,  276,  276], isMathValue = true  }
+RadicalKernAfterDegree                   = { value = [ -400, -400, -400, -400], isMathValue = true  }
+RadicalDegreeBottomRaisePercent          = { value = [   64,   64,   64,   64], isMathValue = false }
+
+[MathVariants]
+
+MinConnectorOverlap = [20, 20, 20, 20]
+
+[MathVariants.HorizontalVariants]
+
+# EMPTY
+
+[MathVariants.VerticalVariants]
+
+"integral"                       = { suffixes = ["", ".size01"] }
+"dblintegral"                    = { suffixes = ["", ".size01"] }
+"tripleintegral"                 = { suffixes = ["", ".size01"] }
+"quadrupleIntegralOperator"      = { suffixes = ["", ".size01"] }
+"contourintegral"                = { suffixes = ["", ".size01"] }
+"surfaceintegral"                = { suffixes = ["", ".size01"] }
+"volumeintegral"                 = { suffixes = ["", ".size01"] }
+"product"                        = { suffixes = ["", ".size01"] }
+"coproduct"                      = { suffixes = ["", ".size01"] }
+"summation"                      = { suffixes = ["", ".size01"] }
+"summationWithIntegral"          = { suffixes = ["", ".size01"] }
+"nAryCircledDotOperator"         = { suffixes = ["", ".size01"] }
+"nAryCircledPlusOperator"        = { suffixes = ["", ".size01"] }
+"nAryCircledTimesOperator"       = { suffixes = ["", ".size01"] }
+"parenleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"parenright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bracketleft"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bracketright"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"braceleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"braceright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftanglebracket-math"          = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftdoubleanglebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightanglebracket-math"         = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightdoubleanglebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftflattenedparenthesis-math"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightflattenedparenthesis-math" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftCeiling"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftFloor"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightCeiling"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightFloor"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bar"                            = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"dblverticalbar"                 = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"tripleVerticalBarDelimiter"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"radical"                        = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"cuberoot"                       = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"fourthroot"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }

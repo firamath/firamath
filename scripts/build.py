@@ -10,14 +10,16 @@ from fontmake.font_project import FontProject
 from fontmake.instantiator import Instantiator
 
 import fontTools
-from fontTools.ttLib import TTFont
 from fontTools.designspaceLib import DesignSpaceDocument
+from fontTools.ttLib import TTFont
+from fontTools.ttLib.tables import otTables
+from fontTools.ttLib.ttFont import newTable
 
 import glyphsLib
 from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath
 from glyphsLib.parser import Parser
 
-from math_table import math_table
+import toml
 
 def read_glyphs_package(path: str) -> GSFont:
     with open(os.path.join(path, 'fontinfo.plist'), 'r') as fontinfo_plist:
@@ -162,36 +164,125 @@ def to_ufos(font: GSFont, interpolate: bool = False, default_index: int = 0) -> 
     ufos.extend(instantiator.generate_instance(i) for i in designspace.instances)
     return ufos
 
-def add_math_table(font: GSFont, input: str, output: str=None):
-    if not output:
-        output = input
-    math_glyph_info = get_math_glyph_info(font)
-    tt_font = TTFont(input)
-    tt_font['MATH'] = math_table(tt_font, math_glyph_info['Regular'])
-    tt_font.save(output)
-    tt_font.close()
+def add_math_table(font: GSFont, toml_path: str, input_dir: str, output_dir: str=None):
+    if not output_dir:
+        output_dir = input_dir
 
-def get_math_glyph_info(font: GSFont) -> dict:
-    math_glyph_info = {master.name: {
-        'MathItalicsCorrectionInfo': {},
-        'MathTopAccentAttachment': {},
-        'ExtendedShapeCoverage': {},
-        'MathKernInfo': {},
-    } for master in font.masters}
+    # TODO: For masters only
+    masters = sorted(font.masters, key=lambda m: m.weightValue)
+    font_name = font.familyName.replace(' ', '')
+    style_names = [master.name for master in masters]
+
+    data = toml.load(toml_path)
+
+    for style_index, style_name in enumerate(style_names):
+        math_table = otTables.MATH()
+        math_table.Version = 0x00010000
+        math_table.MathConstants = math_constants(style_index, data['MathConstants'])
+        math_table.MathGlyphInfo = math_glyph_info(font, style_index)
+        math_table.MathVariants = math_variants(font, style_index, data['MathVariants'])
+
+        font_file_name = '{}-{}.otf'.format(font_name, style_name)
+        input = os.path.join(input_dir, font_file_name)
+        output = os.path.join(output_dir, font_file_name)
+        tt_font = TTFont(input)
+        tt_font['MATH'] = newTable('MATH')
+        tt_font['MATH'].table = math_table
+        tt_font.save(output)
+        tt_font.close()
+
+def math_constants(style_index: int, data: dict):
+    constants = otTables.MathConstants()
+    for name, value_dict in data.items():
+        value = value_dict['value'][style_index]
+        if value_dict['isMathValue']:
+            constants.__setattr__(name, math_value(value))
+        else:
+            constants.__setattr__(name, value)
+    return constants
+
+def math_glyph_info(font: GSFont, style_index: int):
+    italic_corr_glyphs, italic_corr_values = get_user_data(font, style_index, 'italicCorrection')
+    italic_corr = otTables.MathItalicsCorrectionInfo()
+    italic_corr.ItalicsCorrection = list(map(math_value, italic_corr_values))
+    italic_corr.Coverage = coverage(italic_corr_glyphs)
+    italic_corr.ItalicsCorrectionCount = len(italic_corr_glyphs)
+
+    top_accent_glyphs, top_accent_values = get_user_data(font, style_index, 'topAccent')
+    top_accent = otTables.MathTopAccentAttachment()
+    top_accent.TopAccentAttachment = list(map(math_value, top_accent_values))
+    top_accent.TopAccentCoverage = coverage(top_accent_glyphs)
+    top_accent.TopAccentAttachmentCount = len(top_accent_glyphs)
+
+    glyph_info = otTables.MathGlyphInfo()
+    glyph_info.MathItalicsCorrectionInfo = italic_corr
+    glyph_info.MathTopAccentAttachment = top_accent
+    glyph_info.ExtendedShapeCoverage = None
+    glyph_info.MathKernInfo = None
+
+    return glyph_info
+
+def get_user_data(font: GSFont, style_index: int, key: str):
+    glyphs = []
+    values = []
     for glyph in font.glyphs:
-        for layer in (l for l in glyph.layers if l.name in math_glyph_info):
-            def _set_info(plist_key, key):
-                math_glyph_info[layer.name][key][glyph.name] = next(
-                    data[plist_key] for data in layer.userData if plist_key in data)
-            try:
-                _set_info('italicCorrection', 'MathItalicsCorrectionInfo')
-                _set_info('topAccent', 'MathTopAccentAttachment')
-            except StopIteration:
-                pass
-    return math_glyph_info
+        for data in (d for d in glyph.layers[style_index].userData if key in d):
+            glyphs.append(glyph.name)
+            values.append(data[key])
+    return glyphs, values
 
-def eprint(*values):
-    print(*values, file=sys.stderr)
+def math_variants(font: GSFont, style_index: int, data: dict):
+    variants = otTables.MathVariants()
+    variants.MinConnectorOverlap = data['MinConnectorOverlap'][style_index]
+
+    horizontal_variants: dict = data['HorizontalVariants']
+    variants.HorizGlyphConstruction = [
+        glyph_construction(font, style_index, *item, direction='horizontal')
+        for item in horizontal_variants.items()
+    ]
+    variants.HorizGlyphCoverage = coverage(horizontal_variants.keys())
+    variants.HorizGlyphCount = len(horizontal_variants)
+
+    vertical_variants: dict = data['VerticalVariants']
+    variants.VertGlyphConstruction = [
+        glyph_construction(font, style_index, *item, direction='vertical')
+        for item in vertical_variants.items()
+    ]
+    variants.VertGlyphCoverage = coverage(vertical_variants.keys())
+    variants.VertGlyphCount = len(vertical_variants)
+
+    return variants
+
+def glyph_construction(font: GSFont, style_index: int, glyph: str, value: dict, direction: str):
+    variants = [glyph + suffix for suffix in value['suffixes']]
+    t = otTables.MathGlyphConstruction()
+    t.GlyphAssembly = None  # TODO:
+    t.VariantCount = len(variants)
+    t.MathGlyphVariantRecord = []
+    for glyph in variants:
+        r = otTables.MathGlyphVariantRecord()
+        r.AdvanceMeasurement = advance_measurement(font, style_index, glyph, direction)
+        r.VariantGlyph = glyph
+        t.MathGlyphVariantRecord.append(r)
+    return t
+
+def advance_measurement(font: GSFont, style_index: int, glyph: str, direction: str):
+    bounds = font.glyphs[glyph].layers[style_index].bounds
+    if direction == 'horizontal':
+        return abs(int(bounds.size.width)) + 1
+    if direction == 'vertical':
+        return abs(int(bounds.size.height)) + 1
+
+def math_value(value):
+    t = otTables.MathValueRecord()
+    t.DeviceTable = None
+    t.Value = value
+    return t
+
+def coverage(glyphs):
+    c = otTables.Coverage()
+    c.glyphs = glyphs
+    return credits
 
 class Timer(object):
     def __init__(self, name=None):
@@ -199,13 +290,13 @@ class Timer(object):
 
     def __enter__(self):
         if self.name:
-            eprint(self.name)
+            print(self.name)
         self.start_time = time.time()
 
     def __exit__(self, type, value, traceback):
-        eprint('Elapsed: {:.3}s\n'.format(time.time() - self.start_time))
+        print('Elapsed: {:.3}s\n'.format(time.time() - self.start_time))
 
-def build(input: str, output_dir: str):
+def build(input_path: str, toml_path: str, output_dir: str):
     '''Build fonts from Glyphs source.
 
     1. Read the `.glyphspackage` directory into a `GSFont` object with preprocessing
@@ -213,35 +304,21 @@ def build(input: str, output_dir: str):
     3. Generate `.otf` font files
     4. Add the OpenType MATH tables
     '''
-    eprint('Python {}\nfonttools {}\nglyphsLib {}\n'.format(
+    print('Python {}\nfonttools {}\nglyphsLib {}\n'.format(
         sys.version.split()[0],
         fontTools.version,
         glyphsLib.__version__,
     ))
-
-    # Phase 1
-    with Timer('Parsing input file \'{}\'...'.format(input)):
-        font = read_glyphs_package(input)
+    with Timer('Parsing input file \'{}\'...'.format(input_path)):
+        font = read_glyphs_package(input_path)
         fix_export(font)
         decompose_smart_comp(font)
-
-    # Phase 2
     with Timer('Generating UFO...'):
         ufos = to_ufos(font)
-
-    # Phase 3
     with Timer('Generating OTF...'):
         FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
-
-    # Phase 4
     with Timer('Adding MATH table...'):
-        # TODO: We only do it for the regular weight now.
-        add_math_table(font, input='build/FiraMath-Regular.otf')
-        # add_math_table(
-        #     font,
-        #     input='build/FiraMath-Regular.otf',
-        #     output='build/FiraMath-math-Regular.otf',
-        # )
+        add_math_table(font, toml_path, input_dir=output_dir)
 
 if __name__ == '__main__':
-    build('src/FiraMath.glyphspackage', output_dir='build/')
+    build('src/FiraMath.glyphspackage', toml_path='src/FiraMath.toml', output_dir='build/')
