@@ -1,10 +1,16 @@
 {
-color = 8;
 glyphname = downFrombarArrow;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 554;
+shapes = (
+{
+pos = (0,560);
+ref = upFrombarArrow;
+scale = (1,-1);
+}
+);
+width = 562;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -15,7 +21,7 @@ ref = upFrombarArrow;
 scale = (1,-1);
 }
 );
-width = 554;
+width = 570;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -26,7 +32,7 @@ ref = upFrombarArrow;
 scale = (1,-1);
 }
 );
-width = 582;
+width = 602;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -37,9 +43,11 @@ ref = upFrombarArrow;
 scale = (1,-1);
 }
 );
-width = 812;
+width = 668;
 }
 );
+metricLeft = upFrombarArrow;
+metricRight = upFrombarArrow;
 note = uni21A7;
 subCategory = Arrow;
 unicode = 8615;

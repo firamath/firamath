@@ -1,0 +1,75 @@
+{
+category = Component;
+export = 0;
+glyphname = doubleArrowHead;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,107,l),
+(23,280,l),
+(208,453,l),
+(206,454,l),
+(20,280,l),
+(206,106,l)
+);
+}
+);
+width = 228;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,96,l),
+(53,280,l),
+(253,464,l),
+(238,481,l),
+(20,280,l),
+(238,79,l)
+);
+}
+);
+width = 273;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(352,68,l),
+(128,280,l),
+(352,492,l),
+(300,548,l),
+(20,280,l),
+(300,12,l)
+);
+}
+);
+width = 372;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(422,32,l),
+(215,280,l),
+(422,528,l),
+(308,624,l),
+(20,280,l),
+(308,-64,l)
+);
+}
+);
+width = 442;
+}
+);
+}

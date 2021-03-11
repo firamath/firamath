@@ -28,22 +28,22 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = -45;
-pos = (-169,450);
+pos = (-169,457);
 ref = leftRightArrow;
 }
 );
-width = 794;
+width = 808;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 angle = -45;
-pos = (-186,535);
+pos = (-186,513);
 ref = leftRightArrow;
 }
 );
-width = 929;
+width = 887;
 }
 );
 metricRight = "=|";
