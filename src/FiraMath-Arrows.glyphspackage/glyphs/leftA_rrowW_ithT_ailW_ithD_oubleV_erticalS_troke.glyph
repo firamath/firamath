@@ -1,9 +1,14 @@
 {
-color = 4;
+color = 8;
+export = 0;
 glyphname = leftArrowWithTailWithDoubleVerticalStroke;
 layers = (
 {
-layerId = "C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA";
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 940;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 closed = 1;
@@ -44,48 +49,48 @@ ref = arrowTail;
 width = 940;
 },
 {
-layerId = "D83BBA30-9F2C-4CD6-96B7-4A74A7087E78";
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 closed = 1;
 nodes = (
-(760,242,l),
-(760,318,l),
-(240,318,l),
-(240,242,l)
+(720,242,l),
+(720,318,l),
+(200,318,l),
+(200,242,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(528,88,l),
-(528,472,l),
-(452,472,l),
-(452,88,l)
+(488,88,l),
+(488,472,l),
+(412,472,l),
+(412,88,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(664,88,l),
-(664,472,l),
-(588,472,l),
-(588,88,l)
+(624,88,l),
+(624,472,l),
+(548,472,l),
+(548,88,l)
 );
 },
 {
-pos = (120,0);
+pos = (80,0);
 ref = arrowHead;
 },
 {
-pos = (680,0);
+pos = (640,0);
 ref = arrowTail;
 }
 );
-width = 1080;
+width = 1000;
 },
 {
-layerId = "C41EA034-4E7F-46DC-9CBA-05541AA6484D";
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 closed = 1;
@@ -127,5 +132,6 @@ width = 1310;
 }
 );
 note = uni2B3A;
+subCategory = Arrow;
 unicode = 11066;
 }

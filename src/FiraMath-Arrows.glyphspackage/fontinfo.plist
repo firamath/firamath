@@ -1,5 +1,5 @@
 {
-.appVersion = "3065";
+.appVersion = "3068";
 .formatVersion = 3;
 axes = (
 {
@@ -7,52 +7,112 @@ name = Weight;
 tag = wght;
 }
 );
-date = "2020-01-14 06:01:58 +0000";
+date = "2021-03-11 18:12:31 +0000";
 familyName = "Fira Math Arrows";
 fontMaster = (
 {
 axesValues = (
-22
+2
 );
-iconName = Light;
-id = "C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA";
-metricValues = (
+guides = (
 {
-pos = 800;
-},
-{
-pos = 700;
-},
-{
-pos = 500;
-},
-{
-},
-{
-pos = -200;
+locked = 1;
+name = "Axis height";
+pos = (0,280);
 }
 );
-name = Thin;
+iconName = Light;
+id = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+metricValues = (
+{
+over = 12;
+pos = 727;
+},
+{
+over = 12;
+pos = 680;
+},
+{
+over = 12;
+pos = 517;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -188;
+}
+);
+name = Light;
+},
+{
+axesValues = (
+30
+);
+guides = (
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
+}
+);
+iconName = SemiLight;
+id = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+metricValues = (
+{
+over = 12;
+pos = 734;
+},
+{
+over = 12;
+pos = 682;
+},
+{
+over = 12;
+pos = 520;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -193;
+}
+);
+name = SemiLight;
 },
 {
 axesValues = (
 92
 );
-id = "D83BBA30-9F2C-4CD6-96B7-4A74A7087E78";
+guides = (
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
+}
+);
+id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 metricValues = (
 {
-pos = 800;
+over = 14;
+pos = 739;
 },
 {
-pos = 700;
+over = 14;
+pos = 689;
 },
 {
-pos = 500;
+over = 14;
+pos = 527;
 },
 {
+over = -14;
 },
 {
-pos = -200;
+over = -15;
+pos = -202;
 }
 );
 name = Regular;
@@ -61,34 +121,63 @@ name = Regular;
 axesValues = (
 198
 );
-iconName = Bold;
-id = "C41EA034-4E7F-46DC-9CBA-05541AA6484D";
-metricValues = (
+guides = (
 {
-pos = 800;
-},
-{
-pos = 700;
-},
-{
-pos = 500;
-},
-{
-},
-{
-pos = -200;
+locked = 1;
+name = "Axis height";
+pos = (0,280);
 }
 );
-name = Heavy;
+iconName = Bold;
+id = "B26C53A4-97D1-457B-8232-65310EC64496";
+metricValues = (
+{
+over = 20;
+pos = 744;
+},
+{
+over = 20;
+pos = 696;
+},
+{
+over = 20;
+pos = 534;
+},
+{
+over = -20;
+},
+{
+over = -20;
+pos = -215;
+}
+);
+name = Bold;
 }
 );
 instances = (
 {
 axesValues = (
+2
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+}
+);
+instanceInterpolations = {
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 1;
+};
+name = Two;
+weightClass = 100;
+},
+{
+axesValues = (
 22
 );
 instanceInterpolations = {
-"C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA" = 1;
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.71429;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.28571;
 };
 name = Thin;
 weightClass = 100;
@@ -98,18 +187,18 @@ axesValues = (
 58
 );
 instanceInterpolations = {
-"C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA" = 0.48571;
-"D83BBA30-9F2C-4CD6-96B7-4A74A7087E78" = 0.51429;
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.54839;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.45161;
 };
 name = Light;
-weightClass = 100;
+weightClass = 300;
 },
 {
 axesValues = (
 92
 );
 instanceInterpolations = {
-"D83BBA30-9F2C-4CD6-96B7-4A74A7087E78" = 1;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 1;
 };
 name = Regular;
 },
@@ -118,10 +207,9 @@ axesValues = (
 158
 );
 instanceInterpolations = {
-"C41EA034-4E7F-46DC-9CBA-05541AA6484D" = 0.62264;
-"D83BBA30-9F2C-4CD6-96B7-4A74A7087E78" = 0.37736;
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.62264;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.37736;
 };
-isBold = 1;
 name = Bold;
 weightClass = 700;
 },
@@ -130,7 +218,7 @@ axesValues = (
 198
 );
 instanceInterpolations = {
-"C41EA034-4E7F-46DC-9CBA-05541AA6484D" = 1;
+"B26C53A4-97D1-457B-8232-65310EC64496" = 1;
 };
 name = Heavy;
 weightClass = 900;
@@ -140,12 +228,12 @@ axesValues = (
 222
 );
 instanceInterpolations = {
-"C41EA034-4E7F-46DC-9CBA-05541AA6484D" = 1.18139;
-"C73C0C47-E6C6-445A-8A34-E4CE4D1E91FA" = -0.06818;
-"D83BBA30-9F2C-4CD6-96B7-4A74A7087E78" = -0.11321;
+"B26C53A4-97D1-457B-8232-65310EC64496" = 1.18464;
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = -0.07143;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = -0.11321;
 };
 name = Ultra;
-weightClass = 900;
+weightClass = 950;
 }
 );
 metrics = (
@@ -165,26 +253,9 @@ type = baseline;
 type = descender;
 }
 );
-properties = (
-{
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright (C) 2019–2020 Xiangdong Zeng";
-}
-);
-},
-{
-key = designers;
-values = (
-{
-language = dflt;
-value = "Xiangdong Zeng";
-}
-);
-}
-);
+settings = {
+keepAlternatesTogether = 1;
+};
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 0;
