@@ -1,6 +1,7 @@
 {
 category = Number;
 color = 8;
+export = 0;
 glyphname = u1D7DB;
 layers = (
 {
