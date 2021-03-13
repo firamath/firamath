@@ -13,7 +13,7 @@ jobs:
           pip install -r requirements.txt
       - name: Patch glyphsLib
         run: |
-          patch venv/lib/python3.9/site-packages/glyphsLib/builder/axes.py scripts/axes.py.diff
+          patch $(python -c "import os, glyphsLib; print(os.path.join(glyphsLib.__path__[0], 'builder', 'axes.py'))") scripts/axes.py.diff
       - name: Build fonts
         run: |
           python scripts/build.py
