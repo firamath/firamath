@@ -416,13 +416,6 @@ min = 128;
 }
 );
 };
-background = {
-shapes = (
-{
-ref = O;
-}
-);
-};
 layerId = "F2908E32-87BB-41A7-A09C-0B0AB2F4A4F6";
 name = "Bold [128]";
 shapes = (

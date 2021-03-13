@@ -2,14 +2,6 @@
 glyphname = RdoubleStruck;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (36,0);
-ref = R;
-}
-);
-};
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -72,28 +64,6 @@ nodes = (
 width = 630;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(618,0,l),
-(424,332,l),
-(390,327,l),
-(579,0,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(397,320,l),
-(507,336,o),
-(583,385,o),
-(583,503,cs)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -156,35 +126,6 @@ nodes = (
 width = 666;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(316,0,l),
-(316,615,l),
-(421,615,ls),
-(534,615,o),
-(583,580,o),
-(583,494,cs),
-(583,401,o),
-(528,365,o),
-(432,365,cs),
-(300,365,l),
-(300,292,l),
-(450,292,l),
-(605,312,o),
-(684,372,o),
-(684,494,cs),
-(684,623,o),
-(594,689,o),
-(422,689,cs),
-(100,689,l),
-(100,0,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -247,19 +188,6 @@ nodes = (
 width = 735;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(722,0,l),
-(544,300,l),
-(358,262,l),
-(494,0,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -330,14 +258,6 @@ min = 128;
 }
 );
 };
-background = {
-shapes = (
-{
-pos = (-218,0);
-ref = R;
-}
-);
-};
 layerId = "D9860546-BA2B-4DEB-B51C-BC63ACDC0468";
 name = "Light [128]";
 shapes = (
@@ -393,14 +313,6 @@ attr = {
 axisRules = (
 {
 min = 128;
-}
-);
-};
-background = {
-shapes = (
-{
-pos = (160,0);
-ref = R;
 }
 );
 };
