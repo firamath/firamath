@@ -164,15 +164,11 @@ pos = (0,280);
 },
 {
 locked = 1;
-pos = (0,50);
+pos = (0,72);
 },
 {
 locked = 1;
-pos = (0,685);
-},
-{
-locked = 1;
-pos = (0,635);
+pos = (0,617);
 },
 {
 locked = 1;
@@ -221,10 +217,6 @@ value = 800;
 guides = (
 {
 locked = 1;
-pos = (0,158);
-},
-{
-locked = 1;
 name = "Axis height";
 pos = (0,280);
 },
@@ -232,6 +224,14 @@ pos = (0,280);
 locked = 1;
 name = "Integral contour";
 pos = (0,300);
+},
+{
+locked = 1;
+pos = (0,580);
+},
+{
+locked = 1;
+pos = (0,116);
 }
 );
 iconName = Bold;
