@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = "Gheupturn-cy";
+glyphname = "geupturn-cy";
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -8,17 +8,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(516,696,l),
-(516,854,l),
-(328,854,l),
-(328,686,l)
+(446,534,l),
+(446,696,l),
+(271,696,l),
+(271,524,l)
 );
 },
 {
-ref = "Ge-cy";
+ref = "ge-cy";
 }
 );
-width = 511;
+width = 436;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -26,17 +26,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(501,680,l),
-(501,779,l),
-(499,779,l),
-(499,679,l)
+(400,517,l),
+(400,610,l),
+(398,610,l),
+(398,516,l)
 );
 },
 {
-ref = "Ge-cy";
+ref = "ge-cy";
 }
 );
-width = 521;
+width = 415;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -44,17 +44,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(498,682,l),
-(498,790,l),
-(468,790,l),
-(468,671,l)
+(408,520,l),
+(408,629,l),
+(379,629,l),
+(379,510,l)
 );
 },
 {
-ref = "Ge-cy";
+ref = "ge-cy";
 }
 );
-width = 508;
+width = 418;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -62,20 +62,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(498,689,l),
-(498,816,l),
-(406,816,l),
-(406,679,l)
+(424,527,l),
+(424,662,l),
+(332,662,l),
+(332,517,l)
 );
 },
 {
-ref = "Ge-cy";
+ref = "ge-cy";
 }
 );
-width = 508;
+width = 429;
 }
 );
-metricLeft = H;
-metricRight = T;
-unicode = 1168;
+metricLeft = n;
+metricRight = "ge-cy";
+unicode = 1169;
 }

@@ -1,16 +1,12 @@
 {
 color = 4;
-glyphname = dotlessi;
+glyphname = jdotless;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (141,0);
-},
-{
-name = ogonek;
-pos = (210,0);
+pos = (141,-215);
 },
 {
 name = top;
@@ -23,8 +19,14 @@ shapes = (
 closed = 1;
 nodes = (
 (42,534,l),
-(42,0,l),
-(240,0,l),
+(42,65,ls),
+(42,-22,o),
+(-3,-52,o),
+(-70,-83,c),
+(-2,-227,l),
+(130,-184,o),
+(240,-111,o),
+(240,77,cs),
 (240,534,l)
 );
 }
@@ -40,11 +42,7 @@ width = 282;
 anchors = (
 {
 name = bottom;
-pos = (126,0);
-},
-{
-name = ogonek;
-pos = (137,0);
+pos = (126,-188);
 },
 {
 name = top;
@@ -57,8 +55,14 @@ shapes = (
 closed = 1;
 nodes = (
 (125,517,l),
-(125,0,l),
-(127,0,l),
+(125,1,ls),
+(125,-117,o),
+(96,-153,o),
+(28,-189,c),
+(29,-191,l),
+(98,-154,o),
+(127,-118,o),
+(127,1,cs),
 (127,517,l)
 );
 }
@@ -74,11 +78,7 @@ width = 252;
 anchors = (
 {
 name = bottom;
-pos = (130,0);
-},
-{
-name = ogonek;
-pos = (155,0);
+pos = (131,-193);
 },
 {
 name = top;
@@ -90,10 +90,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(115,520,l),
-(115,0,l),
-(145,0,l),
-(145,520,l)
+(116,520,l),
+(116,9,ls),
+(116,-108,o),
+(88,-138,o),
+(19,-174,c),
+(28,-196,l),
+(108,-156,o),
+(146,-124,o),
+(146,8,cs),
+(146,520,l)
 );
 }
 );
@@ -102,21 +108,17 @@ math = {
 topAccent = 130;
 };
 };
-width = 260;
+width = 261;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (141,0);
-},
-{
-name = ogonek;
-pos = (197,0);
+pos = (139,-202);
 },
 {
 name = top;
-pos = (141,527);
+pos = (140,527);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -124,22 +126,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(95,527,l),
-(95,0,l),
-(187,0,l),
-(187,527,l)
+(93,527,l),
+(93,26,ls),
+(93,-87,o),
+(60,-113,o),
+(-9,-145,c),
+(18,-212,l),
+(130,-162,o),
+(185,-117,o),
+(185,32,cs),
+(185,527,l)
 );
 }
 );
 userData = {
 math = {
-topAccent = 141;
+topAccent = 140;
 };
 };
-width = 282;
+width = 280;
 }
 );
-metricLeft = n;
 metricRight = "=|n";
-unicode = 305;
+unicode = 567;
 }
