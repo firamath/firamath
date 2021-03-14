@@ -63,7 +63,12 @@ MinConnectorOverlap = [20, 20, 20, 20]
 
 [MathVariants.HorizontalVariants]
 
-# EMPTY
+"topparenthesis"      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bottomparenthesis"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"topsquarebracket"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bottomsquarebracket" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"topcurlybracket"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bottomcurlybracket"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 
 [MathVariants.VerticalVariants]
 
