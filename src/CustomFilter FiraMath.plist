@@ -105,6 +105,22 @@
 			<string>Horizontal variants</string>
 			<key>list</key>
 			<array>
+				<string>topparenthesis</string>
+				<string>topparenthesis.size01</string>
+				<string>topparenthesis.size02</string>
+				<string>topparenthesis.size03</string>
+				<string>topparenthesis.size04</string>
+				<string>topparenthesis.size05</string>
+				<string>topparenthesis.size06</string>
+				<string>topparenthesis.size07</string>
+				<string>topparenthesis.size08</string>
+				<string>topparenthesis.size09</string>
+				<string>topparenthesis.size10</string>
+				<string>topparenthesis.size11</string>
+				<string>topparenthesis.size12</string>
+				<string>topparenthesis.size13</string>
+				<string>topparenthesis.size14</string>
+				<string>topparenthesis.size15</string>
 				<string>bottomparenthesis</string>
 				<string>bottomparenthesis.size01</string>
 				<string>bottomparenthesis.size02</string>
@@ -121,6 +137,22 @@
 				<string>bottomparenthesis.size13</string>
 				<string>bottomparenthesis.size14</string>
 				<string>bottomparenthesis.size15</string>
+				<string>topsquarebracket</string>
+				<string>topsquarebracket.size01</string>
+				<string>topsquarebracket.size02</string>
+				<string>topsquarebracket.size03</string>
+				<string>topsquarebracket.size04</string>
+				<string>topsquarebracket.size05</string>
+				<string>topsquarebracket.size06</string>
+				<string>topsquarebracket.size07</string>
+				<string>topsquarebracket.size08</string>
+				<string>topsquarebracket.size09</string>
+				<string>topsquarebracket.size10</string>
+				<string>topsquarebracket.size11</string>
+				<string>topsquarebracket.size12</string>
+				<string>topsquarebracket.size13</string>
+				<string>topsquarebracket.size14</string>
+				<string>topsquarebracket.size15</string>
 				<string>bottomsquarebracket</string>
 				<string>bottomsquarebracket.size01</string>
 				<string>bottomsquarebracket.size02</string>
@@ -137,6 +169,22 @@
 				<string>bottomsquarebracket.size13</string>
 				<string>bottomsquarebracket.size14</string>
 				<string>bottomsquarebracket.size15</string>
+				<string>topcurlybracket</string>
+				<string>topcurlybracket.size01</string>
+				<string>topcurlybracket.size02</string>
+				<string>topcurlybracket.size03</string>
+				<string>topcurlybracket.size04</string>
+				<string>topcurlybracket.size05</string>
+				<string>topcurlybracket.size06</string>
+				<string>topcurlybracket.size07</string>
+				<string>topcurlybracket.size08</string>
+				<string>topcurlybracket.size09</string>
+				<string>topcurlybracket.size10</string>
+				<string>topcurlybracket.size11</string>
+				<string>topcurlybracket.size12</string>
+				<string>topcurlybracket.size13</string>
+				<string>topcurlybracket.size14</string>
+				<string>topcurlybracket.size15</string>
 				<string>bottomcurlybracket</string>
 				<string>bottomcurlybracket.size01</string>
 				<string>bottomcurlybracket.size02</string>
