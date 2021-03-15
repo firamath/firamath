@@ -1,4 +1,5 @@
 {
+color = 7;
 glyphname = "Ybolditalic-math";
 layers = (
 {
@@ -63,6 +64,33 @@ width = 579;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(461,698,l),
+(335,427,l),
+(284,698,l),
+(40,698,l),
+(197,254,l),
+(161,0,l),
+(387,0,l),
+(423,255,l),
+(703,698,l)
+);
+}
+);
+width = 623;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "DD98224C-23B8-422D-8FC3-541BECA34F77";
+name = "{158}";
 shapes = (
 {
 closed = 1;

@@ -1,4 +1,5 @@
 {
+color = 7;
 glyphname = "Ebold-math";
 layers = (
 {
@@ -72,6 +73,36 @@ width = 527;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(31,698,l),
+(31,0,l),
+(500,0,l),
+(500,160,l),
+(262,160,l),
+(262,276,l),
+(457,276,l),
+(457,431,l),
+(262,431,l),
+(262,539,l),
+(483,539,l),
+(507,698,l)
+);
+}
+);
+width = 520;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "180D1DA6-DE51-45B7-9BEF-22189BD20E84";
+name = "{158}";
 shapes = (
 {
 closed = 1;

@@ -1,4 +1,5 @@
 {
+color = 7;
 glyphname = "Fbold-math";
 layers = (
 {
@@ -66,6 +67,34 @@ width = 488;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,0,l),
+(262,248,l),
+(443,248,l),
+(443,407,l),
+(262,407,l),
+(262,539,l),
+(467,539,l),
+(490,698,l),
+(31,698,l),
+(31,0,l)
+);
+}
+);
+width = 485;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "9C34AAD5-8D66-486B-AA8A-3C0CF55D228A";
+name = "{158}";
 shapes = (
 {
 closed = 1;

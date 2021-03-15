@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 7;
 glyphname = u1D72E;
 layers = (
 {
@@ -76,6 +77,37 @@ width = 494;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(63,698,l),
+(40,537,l),
+(173,344,l),
+(-12,161,l),
+(-34,0,l),
+(451.003,0,l),
+(474,164,l),
+(235,164,l),
+(384,302,l),
+(394,375,l),
+(280,537,l),
+(526,537,l),
+(548,698,l)
+);
+}
+);
+width = 491;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "D783F14F-46F6-4ABA-BF9F-5335D2511D32";
+name = "{158}";
 shapes = (
 {
 closed = 1;

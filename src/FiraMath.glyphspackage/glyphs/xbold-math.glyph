@@ -1,4 +1,5 @@
 {
+color = 7;
 glyphname = "xbold-math";
 layers = (
 {
@@ -99,6 +100,45 @@ width = 509;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-13,536,l),
+(134,280,l),
+(262,174,l),
+(318,0,l),
+(565,0,l),
+(403,287,l),
+(271,388,l),
+(232,536,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(304,536,l),
+(271,388,l),
+(134,280,l),
+(-25,0,l),
+(213,0,l),
+(262,174,l),
+(403,287,l),
+(535,536,l)
+);
+}
+);
+width = 539;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "FEC6A271-0F28-42F3-ACC0-1EB2532A9277";
+name = "{158}";
 shapes = (
 {
 closed = 1;

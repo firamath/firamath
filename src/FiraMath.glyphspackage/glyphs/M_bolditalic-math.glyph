@@ -1,4 +1,5 @@
 {
+color = 7;
 glyphname = "Mbolditalic-math";
 layers = (
 {
@@ -93,6 +94,43 @@ width = 775;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(501,698,l),
+(382,238,l),
+(383,698,l),
+(111,698,l),
+(-33,0,l),
+(191,0,l),
+(224,234,l),
+(238,326,o),
+(240,391,o),
+(241,538,c),
+(250,68,l),
+(468,68,l),
+(596,540,l),
+(569,405,o),
+(554,320,o),
+(543,234,cs),
+(512,0,l),
+(735,0,l),
+(786,698,l)
+);
+}
+);
+width = 778;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "9508DFE1-C1C8-472E-B96B-59C5FFCCBB5C";
+name = "{158}";
 shapes = (
 {
 closed = 1;
