@@ -562,5 +562,1185 @@
 				<string>fourthroot.size15</string>
 			</array>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Upright</string>
+			<key>list</key>
+			<array>
+				<string>&#x0041;</string><!-- A -->
+				<string>&#x0042;</string><!-- B -->
+				<string>&#x0043;</string><!-- C -->
+				<string>&#x0044;</string><!-- D -->
+				<string>&#x0045;</string><!-- E -->
+				<string>&#x0046;</string><!-- F -->
+				<string>&#x0047;</string><!-- G -->
+				<string>&#x0048;</string><!-- H -->
+				<string>&#x0049;</string><!-- I -->
+				<string>&#x004A;</string><!-- J -->
+				<string>&#x004B;</string><!-- K -->
+				<string>&#x004C;</string><!-- L -->
+				<string>&#x004D;</string><!-- M -->
+				<string>&#x004E;</string><!-- N -->
+				<string>&#x004F;</string><!-- O -->
+				<string>&#x0050;</string><!-- P -->
+				<string>&#x0051;</string><!-- Q -->
+				<string>&#x0052;</string><!-- R -->
+				<string>&#x0053;</string><!-- S -->
+				<string>&#x0054;</string><!-- T -->
+				<string>&#x0055;</string><!-- U -->
+				<string>&#x0056;</string><!-- V -->
+				<string>&#x0057;</string><!-- W -->
+				<string>&#x0058;</string><!-- X -->
+				<string>&#x0059;</string><!-- Y -->
+				<string>&#x005A;</string><!-- Z -->
+				<string>&#x0061;</string><!-- a -->
+				<string>&#x0062;</string><!-- b -->
+				<string>&#x0063;</string><!-- c -->
+				<string>&#x0064;</string><!-- d -->
+				<string>&#x0065;</string><!-- e -->
+				<string>&#x0066;</string><!-- f -->
+				<string>&#x0067;</string><!-- g -->
+				<string>&#x0068;</string><!-- h -->
+				<string>&#x0069;</string><!-- i -->
+				<string>&#x006A;</string><!-- j -->
+				<string>&#x006B;</string><!-- k -->
+				<string>&#x006C;</string><!-- l -->
+				<string>&#x006D;</string><!-- m -->
+				<string>&#x006E;</string><!-- n -->
+				<string>&#x006F;</string><!-- o -->
+				<string>&#x0070;</string><!-- p -->
+				<string>&#x0071;</string><!-- q -->
+				<string>&#x0072;</string><!-- r -->
+				<string>&#x0073;</string><!-- s -->
+				<string>&#x0074;</string><!-- t -->
+				<string>&#x0075;</string><!-- u -->
+				<string>&#x0076;</string><!-- v -->
+				<string>&#x0077;</string><!-- w -->
+				<string>&#x0078;</string><!-- x -->
+				<string>&#x0079;</string><!-- y -->
+				<string>&#x007A;</string><!-- z -->
+				<string>&#x0391;</string><!-- capital alpha, greek -->
+				<string>&#x0392;</string><!-- capital beta, greek -->
+				<string>&#x0393;</string><!-- capital gamma, greek -->
+				<string>&#x0394;</string><!-- capital delta, greek -->
+				<string>&#x0395;</string><!-- capital epsilon, greek -->
+				<string>&#x0396;</string><!-- capital zeta, greek -->
+				<string>&#x0397;</string><!-- capital eta, greek -->
+				<string>&#x0398;</string><!-- capital theta, greek -->
+				<string>&#x0399;</string><!-- capital iota, greek -->
+				<string>&#x039A;</string><!-- capital kappa, greek -->
+				<string>&#x039B;</string><!-- capital lambda, greek -->
+				<string>&#x039C;</string><!-- capital mu, greek -->
+				<string>&#x039D;</string><!-- capital nu, greek -->
+				<string>&#x039E;</string><!-- capital xi, greek -->
+				<string>&#x039F;</string><!-- capital omicron, greek -->
+				<string>&#x03A0;</string><!-- capital pi, greek -->
+				<string>&#x03A1;</string><!-- capital rho, greek -->
+				<string>&#x03A3;</string><!-- capital sigma, greek -->
+				<string>&#x03A4;</string><!-- capital tau, greek -->
+				<string>&#x03A5;</string><!-- capital upsilon, greek -->
+				<string>&#x03A6;</string><!-- capital phi, greek -->
+				<string>&#x03A7;</string><!-- capital chi, greek -->
+				<string>&#x03A8;</string><!-- capital psi, greek -->
+				<string>&#x03A9;</string><!-- capital omega, greek -->
+				<string>&#x03DC;</string><!-- capital digamma -->
+				<string>&#x03F4;</string><!-- greek capital theta symbol -->
+				<string>&#x03B1;</string><!-- small alpha, greek -->
+				<string>&#x03B2;</string><!-- small beta, greek -->
+				<string>&#x03B3;</string><!-- small gamma, greek -->
+				<string>&#x03B4;</string><!-- small delta, greek -->
+				<string>&#x03B5;</string><!-- rounded small varepsilon, greek -->
+				<string>&#x03B6;</string><!-- small zeta, greek -->
+				<string>&#x03B7;</string><!-- small eta, greek -->
+				<string>&#x03B8;</string><!-- straight theta, small theta, greek -->
+				<string>&#x03B9;</string><!-- small iota, greek -->
+				<string>&#x03BA;</string><!-- small kappa, greek -->
+				<string>&#x03BB;</string><!-- small lambda, greek -->
+				<string>&#x03BC;</string><!-- small mu, greek -->
+				<string>&#x03BD;</string><!-- small nu, greek -->
+				<string>&#x03BE;</string><!-- small xi, greek -->
+				<string>&#x03BF;</string><!-- small omicron, greek -->
+				<string>&#x03C0;</string><!-- small pi, greek -->
+				<string>&#x03C1;</string><!-- small rho, greek -->
+				<string>&#x03C2;</string><!-- terminal sigma, greek -->
+				<string>&#x03C3;</string><!-- small sigma, greek -->
+				<string>&#x03C4;</string><!-- small tau, greek -->
+				<string>&#x03C5;</string><!-- small upsilon, greek -->
+				<string>&#x03C6;</string><!-- curly or open small phi, greek -->
+				<string>&#x03C7;</string><!-- small chi, greek -->
+				<string>&#x03C8;</string><!-- small psi, greek -->
+				<string>&#x03C9;</string><!-- small omega, greek -->
+				<string>&#x03D0;</string><!-- beta symbol -->
+				<string>&#x03D1;</string><!-- vartheta - curly or open theta -->
+				<string>&#x03D5;</string><!-- straightphi - small phi, greek -->
+				<string>&#x03D6;</string><!-- rounded small pi (pomega), greek -->
+				<string>&#x03D7;</string><!-- kai symbol -->
+				<string>&#x03DD;</string><!-- old greek small letter digamma -->
+				<string>&#x03F0;</string><!-- rounded small kappa, greek -->
+				<string>&#x03F1;</string><!-- rounded small rho, greek -->
+				<string>&#x03F2;</string><!-- lunate sigma symbol -->
+				<string>&#x03F5;</string><!-- greek lunate varepsilon symbol -->
+				<string>&#x03F6;</string><!-- greek reversed lunate epsilon symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D400;</string><!-- mathematical bold capital a -->
+				<string>&#x1D401;</string><!-- mathematical bold capital b -->
+				<string>&#x1D402;</string><!-- mathematical bold capital c -->
+				<string>&#x1D403;</string><!-- mathematical bold capital d -->
+				<string>&#x1D404;</string><!-- mathematical bold capital e -->
+				<string>&#x1D405;</string><!-- mathematical bold capital f -->
+				<string>&#x1D406;</string><!-- mathematical bold capital g -->
+				<string>&#x1D407;</string><!-- mathematical bold capital h -->
+				<string>&#x1D408;</string><!-- mathematical bold capital i -->
+				<string>&#x1D409;</string><!-- mathematical bold capital j -->
+				<string>&#x1D40A;</string><!-- mathematical bold capital k -->
+				<string>&#x1D40B;</string><!-- mathematical bold capital l -->
+				<string>&#x1D40C;</string><!-- mathematical bold capital m -->
+				<string>&#x1D40D;</string><!-- mathematical bold capital n -->
+				<string>&#x1D40E;</string><!-- mathematical bold capital o -->
+				<string>&#x1D40F;</string><!-- mathematical bold capital p -->
+				<string>&#x1D410;</string><!-- mathematical bold capital q -->
+				<string>&#x1D411;</string><!-- mathematical bold capital r -->
+				<string>&#x1D412;</string><!-- mathematical bold capital s -->
+				<string>&#x1D413;</string><!-- mathematical bold capital t -->
+				<string>&#x1D414;</string><!-- mathematical bold capital u -->
+				<string>&#x1D415;</string><!-- mathematical bold capital v -->
+				<string>&#x1D416;</string><!-- mathematical bold capital w -->
+				<string>&#x1D417;</string><!-- mathematical bold capital x -->
+				<string>&#x1D418;</string><!-- mathematical bold capital y -->
+				<string>&#x1D419;</string><!-- mathematical bold capital z -->
+				<string>&#x1D41A;</string><!-- mathematical bold small a -->
+				<string>&#x1D41B;</string><!-- mathematical bold small b -->
+				<string>&#x1D41C;</string><!-- mathematical bold small c -->
+				<string>&#x1D41D;</string><!-- mathematical bold small d -->
+				<string>&#x1D41E;</string><!-- mathematical bold small e -->
+				<string>&#x1D41F;</string><!-- mathematical bold small f -->
+				<string>&#x1D420;</string><!-- mathematical bold small g -->
+				<string>&#x1D421;</string><!-- mathematical bold small h -->
+				<string>&#x1D422;</string><!-- mathematical bold small i -->
+				<string>&#x1D423;</string><!-- mathematical bold small j -->
+				<string>&#x1D424;</string><!-- mathematical bold small k -->
+				<string>&#x1D425;</string><!-- mathematical bold small l -->
+				<string>&#x1D426;</string><!-- mathematical bold small m -->
+				<string>&#x1D427;</string><!-- mathematical bold small n -->
+				<string>&#x1D428;</string><!-- mathematical bold small o -->
+				<string>&#x1D429;</string><!-- mathematical bold small p -->
+				<string>&#x1D42A;</string><!-- mathematical bold small q -->
+				<string>&#x1D42B;</string><!-- mathematical bold small r -->
+				<string>&#x1D42C;</string><!-- mathematical bold small s -->
+				<string>&#x1D42D;</string><!-- mathematical bold small t -->
+				<string>&#x1D42E;</string><!-- mathematical bold small u -->
+				<string>&#x1D42F;</string><!-- mathematical bold small v -->
+				<string>&#x1D430;</string><!-- mathematical bold small w -->
+				<string>&#x1D431;</string><!-- mathematical bold small x -->
+				<string>&#x1D432;</string><!-- mathematical bold small y -->
+				<string>&#x1D433;</string><!-- mathematical bold small z -->
+				<string>&#x1D6A8;</string><!-- mathematical bold capital alpha -->
+				<string>&#x1D6A9;</string><!-- mathematical bold capital beta -->
+				<string>&#x1D6AA;</string><!-- mathematical bold capital gamma -->
+				<string>&#x1D6AB;</string><!-- mathematical bold capital delta -->
+				<string>&#x1D6AC;</string><!-- mathematical bold capital epsilon -->
+				<string>&#x1D6AD;</string><!-- mathematical bold capital zeta -->
+				<string>&#x1D6AE;</string><!-- mathematical bold capital eta -->
+				<string>&#x1D6AF;</string><!-- mathematical bold capital theta -->
+				<string>&#x1D6B0;</string><!-- mathematical bold capital iota -->
+				<string>&#x1D6B1;</string><!-- mathematical bold capital kappa -->
+				<string>&#x1D6B2;</string><!-- mathematical bold capital lambda -->
+				<string>&#x1D6B3;</string><!-- mathematical bold capital mu -->
+				<string>&#x1D6B4;</string><!-- mathematical bold capital nu -->
+				<string>&#x1D6B5;</string><!-- mathematical bold capital xi -->
+				<string>&#x1D6B6;</string><!-- mathematical bold capital omicron -->
+				<string>&#x1D6B7;</string><!-- mathematical bold capital pi -->
+				<string>&#x1D6B8;</string><!-- mathematical bold capital rho -->
+				<string>&#x1D6B9;</string><!-- mathematical bold capital theta symbol -->
+				<string>&#x1D6BA;</string><!-- mathematical bold capital sigma -->
+				<string>&#x1D6BB;</string><!-- mathematical bold capital tau -->
+				<string>&#x1D6BC;</string><!-- mathematical bold capital upsilon -->
+				<string>&#x1D6BD;</string><!-- mathematical bold capital phi -->
+				<string>&#x1D6BE;</string><!-- mathematical bold capital chi -->
+				<string>&#x1D6BF;</string><!-- mathematical bold capital psi -->
+				<string>&#x1D6C0;</string><!-- mathematical bold capital omega -->
+				<string>&#x1D6C1;</string><!-- mathematical bold nabla -->
+				<string>&#x1D6C2;</string><!-- mathematical bold small alpha -->
+				<string>&#x1D6C3;</string><!-- mathematical bold small beta -->
+				<string>&#x1D6C4;</string><!-- mathematical bold small gamma -->
+				<string>&#x1D6C5;</string><!-- mathematical bold small delta -->
+				<string>&#x1D6C6;</string><!-- mathematical bold small varepsilon -->
+				<string>&#x1D6C7;</string><!-- mathematical bold small zeta -->
+				<string>&#x1D6C8;</string><!-- mathematical bold small eta -->
+				<string>&#x1D6C9;</string><!-- mathematical bold small theta -->
+				<string>&#x1D6CA;</string><!-- mathematical bold small iota -->
+				<string>&#x1D6CB;</string><!-- mathematical bold small kappa -->
+				<string>&#x1D6CC;</string><!-- mathematical bold small lambda -->
+				<string>&#x1D6CD;</string><!-- mathematical bold small mu -->
+				<string>&#x1D6CE;</string><!-- mathematical bold small nu -->
+				<string>&#x1D6CF;</string><!-- mathematical bold small xi -->
+				<string>&#x1D6D0;</string><!-- mathematical bold small omicron -->
+				<string>&#x1D6D1;</string><!-- mathematical bold small pi -->
+				<string>&#x1D6D2;</string><!-- mathematical bold small rho -->
+				<string>&#x1D6D3;</string><!-- mathematical bold small final sigma -->
+				<string>&#x1D6D4;</string><!-- mathematical bold small sigma -->
+				<string>&#x1D6D5;</string><!-- mathematical bold small tau -->
+				<string>&#x1D6D6;</string><!-- mathematical bold small upsilon -->
+				<string>&#x1D6D7;</string><!-- mathematical bold small phi -->
+				<string>&#x1D6D8;</string><!-- mathematical bold small chi -->
+				<string>&#x1D6D9;</string><!-- mathematical bold small psi -->
+				<string>&#x1D6DA;</string><!-- mathematical bold small omega -->
+				<string>&#x1D6DB;</string><!-- mathematical bold partial differential -->
+				<string>&#x1D6DC;</string><!-- mathematical bold varepsilon symbol -->
+				<string>&#x1D6DD;</string><!-- mathematical bold theta symbol -->
+				<string>&#x1D6DE;</string><!-- mathematical bold kappa symbol -->
+				<string>&#x1D6DF;</string><!-- mathematical bold phi symbol -->
+				<string>&#x1D6E0;</string><!-- mathematical bold rho symbol -->
+				<string>&#x1D6E1;</string><!-- mathematical bold pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D434;</string><!-- mathematical italic capital a -->
+				<string>&#x1D435;</string><!-- mathematical italic capital b -->
+				<string>&#x1D436;</string><!-- mathematical italic capital c -->
+				<string>&#x1D437;</string><!-- mathematical italic capital d -->
+				<string>&#x1D438;</string><!-- mathematical italic capital e -->
+				<string>&#x1D439;</string><!-- mathematical italic capital f -->
+				<string>&#x1D43A;</string><!-- mathematical italic capital g -->
+				<string>&#x1D43B;</string><!-- mathematical italic capital h -->
+				<string>&#x1D43C;</string><!-- mathematical italic capital i -->
+				<string>&#x1D43D;</string><!-- mathematical italic capital j -->
+				<string>&#x1D43E;</string><!-- mathematical italic capital k -->
+				<string>&#x1D43F;</string><!-- mathematical italic capital l -->
+				<string>&#x1D440;</string><!-- mathematical italic capital m -->
+				<string>&#x1D441;</string><!-- mathematical italic capital n -->
+				<string>&#x1D442;</string><!-- mathematical italic capital o -->
+				<string>&#x1D443;</string><!-- mathematical italic capital p -->
+				<string>&#x1D444;</string><!-- mathematical italic capital q -->
+				<string>&#x1D445;</string><!-- mathematical italic capital r -->
+				<string>&#x1D446;</string><!-- mathematical italic capital s -->
+				<string>&#x1D447;</string><!-- mathematical italic capital t -->
+				<string>&#x1D448;</string><!-- mathematical italic capital u -->
+				<string>&#x1D449;</string><!-- mathematical italic capital v -->
+				<string>&#x1D44A;</string><!-- mathematical italic capital w -->
+				<string>&#x1D44B;</string><!-- mathematical italic capital x -->
+				<string>&#x1D44C;</string><!-- mathematical italic capital y -->
+				<string>&#x1D44D;</string><!-- mathematical italic capital z -->
+				<string>&#x1D44E;</string><!-- mathematical italic small a -->
+				<string>&#x1D44F;</string><!-- mathematical italic small b -->
+				<string>&#x1D450;</string><!-- mathematical italic small c -->
+				<string>&#x1D451;</string><!-- mathematical italic small d -->
+				<string>&#x1D452;</string><!-- mathematical italic small e -->
+				<string>&#x1D453;</string><!-- mathematical italic small f -->
+				<string>&#x1D454;</string><!-- mathematical italic small g -->
+				<string>&#x1D456;</string><!-- mathematical italic small i -->
+				<string>&#x1D457;</string><!-- mathematical italic small j -->
+				<string>&#x1D458;</string><!-- mathematical italic small k -->
+				<string>&#x1D459;</string><!-- mathematical italic small l -->
+				<string>&#x1D45A;</string><!-- mathematical italic small m -->
+				<string>&#x1D45B;</string><!-- mathematical italic small n -->
+				<string>&#x1D45C;</string><!-- mathematical italic small o -->
+				<string>&#x1D45D;</string><!-- mathematical italic small p -->
+				<string>&#x1D45E;</string><!-- mathematical italic small q -->
+				<string>&#x1D45F;</string><!-- mathematical italic small r -->
+				<string>&#x1D460;</string><!-- mathematical italic small s -->
+				<string>&#x1D461;</string><!-- mathematical italic small t -->
+				<string>&#x1D462;</string><!-- mathematical italic small u -->
+				<string>&#x1D463;</string><!-- mathematical italic small v -->
+				<string>&#x1D464;</string><!-- mathematical italic small w -->
+				<string>&#x1D465;</string><!-- mathematical italic small x -->
+				<string>&#x1D466;</string><!-- mathematical italic small y -->
+				<string>&#x1D467;</string><!-- mathematical italic small z -->
+				<string>&#x1D6A4;</string><!-- mathematical italic small dotless i -->
+				<string>&#x1D6A5;</string><!-- mathematical italic small dotless j -->
+				<string>&#x1D6E2;</string><!-- mathematical italic capital alpha -->
+				<string>&#x1D6E3;</string><!-- mathematical italic capital beta -->
+				<string>&#x1D6E4;</string><!-- mathematical italic capital gamma -->
+				<string>&#x1D6E5;</string><!-- mathematical italic capital delta -->
+				<string>&#x1D6E6;</string><!-- mathematical italic capital epsilon -->
+				<string>&#x1D6E7;</string><!-- mathematical italic capital zeta -->
+				<string>&#x1D6E8;</string><!-- mathematical italic capital eta -->
+				<string>&#x1D6E9;</string><!-- mathematical italic capital theta -->
+				<string>&#x1D6EA;</string><!-- mathematical italic capital iota -->
+				<string>&#x1D6EB;</string><!-- mathematical italic capital kappa -->
+				<string>&#x1D6EC;</string><!-- mathematical italic capital lambda -->
+				<string>&#x1D6ED;</string><!-- mathematical italic capital mu -->
+				<string>&#x1D6EE;</string><!-- mathematical italic capital nu -->
+				<string>&#x1D6EF;</string><!-- mathematical italic capital xi -->
+				<string>&#x1D6F0;</string><!-- mathematical italic capital omicron -->
+				<string>&#x1D6F1;</string><!-- mathematical italic capital pi -->
+				<string>&#x1D6F2;</string><!-- mathematical italic capital rho -->
+				<string>&#x1D6F3;</string><!-- mathematical italic capital theta symbol -->
+				<string>&#x1D6F4;</string><!-- mathematical italic capital sigma -->
+				<string>&#x1D6F5;</string><!-- mathematical italic capital tau -->
+				<string>&#x1D6F6;</string><!-- mathematical italic capital upsilon -->
+				<string>&#x1D6F7;</string><!-- mathematical italic capital phi -->
+				<string>&#x1D6F8;</string><!-- mathematical italic capital chi -->
+				<string>&#x1D6F9;</string><!-- mathematical italic capital psi -->
+				<string>&#x1D6FA;</string><!-- mathematical italic capital omega -->
+				<string>&#x1D6FB;</string><!-- mathematical italic nabla -->
+				<string>&#x1D6FC;</string><!-- mathematical italic small alpha -->
+				<string>&#x1D6FD;</string><!-- mathematical italic small beta -->
+				<string>&#x1D6FE;</string><!-- mathematical italic small gamma -->
+				<string>&#x1D6FF;</string><!-- mathematical italic small delta -->
+				<string>&#x1D700;</string><!-- mathematical italic small varepsilon -->
+				<string>&#x1D701;</string><!-- mathematical italic small zeta -->
+				<string>&#x1D702;</string><!-- mathematical italic small eta -->
+				<string>&#x1D703;</string><!-- mathematical italic small theta -->
+				<string>&#x1D704;</string><!-- mathematical italic small iota -->
+				<string>&#x1D705;</string><!-- mathematical italic small kappa -->
+				<string>&#x1D706;</string><!-- mathematical italic small lambda -->
+				<string>&#x1D707;</string><!-- mathematical italic small mu -->
+				<string>&#x1D708;</string><!-- mathematical italic small nu -->
+				<string>&#x1D709;</string><!-- mathematical italic small xi -->
+				<string>&#x1D70A;</string><!-- mathematical italic small omicron -->
+				<string>&#x1D70B;</string><!-- mathematical italic small pi -->
+				<string>&#x1D70C;</string><!-- mathematical italic small rho -->
+				<string>&#x1D70D;</string><!-- mathematical italic small final sigma -->
+				<string>&#x1D70E;</string><!-- mathematical italic small sigma -->
+				<string>&#x1D70F;</string><!-- mathematical italic small tau -->
+				<string>&#x1D710;</string><!-- mathematical italic small upsilon -->
+				<string>&#x1D711;</string><!-- mathematical italic small phi -->
+				<string>&#x1D712;</string><!-- mathematical italic small chi -->
+				<string>&#x1D713;</string><!-- mathematical italic small psi -->
+				<string>&#x1D714;</string><!-- mathematical italic small omega -->
+				<string>&#x1D715;</string><!-- mathematical italic partial differential -->
+				<string>&#x1D716;</string><!-- mathematical italic varepsilon symbol -->
+				<string>&#x1D717;</string><!-- mathematical italic theta symbol -->
+				<string>&#x1D718;</string><!-- mathematical italic kappa symbol -->
+				<string>&#x1D719;</string><!-- mathematical italic phi symbol -->
+				<string>&#x1D71A;</string><!-- mathematical italic rho symbol -->
+				<string>&#x1D71B;</string><!-- mathematical italic pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Italic</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D468;</string><!-- mathematical bold italic capital a -->
+				<string>&#x1D469;</string><!-- mathematical bold italic capital b -->
+				<string>&#x1D46A;</string><!-- mathematical bold italic capital c -->
+				<string>&#x1D46B;</string><!-- mathematical bold italic capital d -->
+				<string>&#x1D46C;</string><!-- mathematical bold italic capital e -->
+				<string>&#x1D46D;</string><!-- mathematical bold italic capital f -->
+				<string>&#x1D46E;</string><!-- mathematical bold italic capital g -->
+				<string>&#x1D46F;</string><!-- mathematical bold italic capital h -->
+				<string>&#x1D470;</string><!-- mathematical bold italic capital i -->
+				<string>&#x1D471;</string><!-- mathematical bold italic capital j -->
+				<string>&#x1D472;</string><!-- mathematical bold italic capital k -->
+				<string>&#x1D473;</string><!-- mathematical bold italic capital l -->
+				<string>&#x1D474;</string><!-- mathematical bold italic capital m -->
+				<string>&#x1D475;</string><!-- mathematical bold italic capital n -->
+				<string>&#x1D476;</string><!-- mathematical bold italic capital o -->
+				<string>&#x1D477;</string><!-- mathematical bold italic capital p -->
+				<string>&#x1D478;</string><!-- mathematical bold italic capital q -->
+				<string>&#x1D479;</string><!-- mathematical bold italic capital r -->
+				<string>&#x1D47A;</string><!-- mathematical bold italic capital s -->
+				<string>&#x1D47B;</string><!-- mathematical bold italic capital t -->
+				<string>&#x1D47C;</string><!-- mathematical bold italic capital u -->
+				<string>&#x1D47D;</string><!-- mathematical bold italic capital v -->
+				<string>&#x1D47E;</string><!-- mathematical bold italic capital w -->
+				<string>&#x1D47F;</string><!-- mathematical bold italic capital x -->
+				<string>&#x1D480;</string><!-- mathematical bold italic capital y -->
+				<string>&#x1D481;</string><!-- mathematical bold italic capital z -->
+				<string>&#x1D482;</string><!-- mathematical bold italic small a -->
+				<string>&#x1D483;</string><!-- mathematical bold italic small b -->
+				<string>&#x1D484;</string><!-- mathematical bold italic small c -->
+				<string>&#x1D485;</string><!-- mathematical bold italic small d -->
+				<string>&#x1D486;</string><!-- mathematical bold italic small e -->
+				<string>&#x1D487;</string><!-- mathematical bold italic small f -->
+				<string>&#x1D488;</string><!-- mathematical bold italic small g -->
+				<string>&#x1D489;</string><!-- mathematical bold italic small h -->
+				<string>&#x1D48A;</string><!-- mathematical bold italic small i -->
+				<string>&#x1D48B;</string><!-- mathematical bold italic small j -->
+				<string>&#x1D48C;</string><!-- mathematical bold italic small k -->
+				<string>&#x1D48D;</string><!-- mathematical bold italic small l -->
+				<string>&#x1D48E;</string><!-- mathematical bold italic small m -->
+				<string>&#x1D48F;</string><!-- mathematical bold italic small n -->
+				<string>&#x1D490;</string><!-- mathematical bold italic small o -->
+				<string>&#x1D491;</string><!-- mathematical bold italic small p -->
+				<string>&#x1D492;</string><!-- mathematical bold italic small q -->
+				<string>&#x1D493;</string><!-- mathematical bold italic small r -->
+				<string>&#x1D494;</string><!-- mathematical bold italic small s -->
+				<string>&#x1D495;</string><!-- mathematical bold italic small t -->
+				<string>&#x1D496;</string><!-- mathematical bold italic small u -->
+				<string>&#x1D497;</string><!-- mathematical bold italic small v -->
+				<string>&#x1D498;</string><!-- mathematical bold italic small w -->
+				<string>&#x1D499;</string><!-- mathematical bold italic small x -->
+				<string>&#x1D49A;</string><!-- mathematical bold italic small y -->
+				<string>&#x1D49B;</string><!-- mathematical bold italic small z -->
+				<string>&#x1D71C;</string><!-- mathematical bold italic capital alpha -->
+				<string>&#x1D71D;</string><!-- mathematical bold italic capital beta -->
+				<string>&#x1D71E;</string><!-- mathematical bold italic capital gamma -->
+				<string>&#x1D71F;</string><!-- mathematical bold italic capital delta -->
+				<string>&#x1D720;</string><!-- mathematical bold italic capital epsilon -->
+				<string>&#x1D721;</string><!-- mathematical bold italic capital zeta -->
+				<string>&#x1D722;</string><!-- mathematical bold italic capital eta -->
+				<string>&#x1D723;</string><!-- mathematical bold italic capital theta -->
+				<string>&#x1D724;</string><!-- mathematical bold italic capital iota -->
+				<string>&#x1D725;</string><!-- mathematical bold italic capital kappa -->
+				<string>&#x1D726;</string><!-- mathematical bold italic capital lambda -->
+				<string>&#x1D727;</string><!-- mathematical bold italic capital mu -->
+				<string>&#x1D728;</string><!-- mathematical bold italic capital nu -->
+				<string>&#x1D729;</string><!-- mathematical bold italic capital xi -->
+				<string>&#x1D72A;</string><!-- mathematical bold italic capital omicron -->
+				<string>&#x1D72B;</string><!-- mathematical bold italic capital pi -->
+				<string>&#x1D72C;</string><!-- mathematical bold italic capital rho -->
+				<string>&#x1D72D;</string><!-- mathematical bold italic capital theta symbol -->
+				<string>&#x1D72E;</string><!-- mathematical bold italic capital sigma -->
+				<string>&#x1D72F;</string><!-- mathematical bold italic capital tau -->
+				<string>&#x1D730;</string><!-- mathematical bold italic capital upsilon -->
+				<string>&#x1D731;</string><!-- mathematical bold italic capital phi -->
+				<string>&#x1D732;</string><!-- mathematical bold italic capital chi -->
+				<string>&#x1D733;</string><!-- mathematical bold italic capital psi -->
+				<string>&#x1D734;</string><!-- mathematical bold italic capital omega -->
+				<string>&#x1D735;</string><!-- mathematical bold italic nabla -->
+				<string>&#x1D736;</string><!-- mathematical bold italic small alpha -->
+				<string>&#x1D737;</string><!-- mathematical bold italic small beta -->
+				<string>&#x1D738;</string><!-- mathematical bold italic small gamma -->
+				<string>&#x1D739;</string><!-- mathematical bold italic small delta -->
+				<string>&#x1D73A;</string><!-- mathematical bold italic small varepsilon -->
+				<string>&#x1D73B;</string><!-- mathematical bold italic small zeta -->
+				<string>&#x1D73C;</string><!-- mathematical bold italic small eta -->
+				<string>&#x1D73D;</string><!-- mathematical bold italic small theta -->
+				<string>&#x1D73E;</string><!-- mathematical bold italic small iota -->
+				<string>&#x1D73F;</string><!-- mathematical bold italic small kappa -->
+				<string>&#x1D740;</string><!-- mathematical bold italic small lambda -->
+				<string>&#x1D741;</string><!-- mathematical bold italic small mu -->
+				<string>&#x1D742;</string><!-- mathematical bold italic small nu -->
+				<string>&#x1D743;</string><!-- mathematical bold italic small xi -->
+				<string>&#x1D744;</string><!-- mathematical bold italic small omicron -->
+				<string>&#x1D745;</string><!-- mathematical bold italic small pi -->
+				<string>&#x1D746;</string><!-- mathematical bold italic small rho -->
+				<string>&#x1D747;</string><!-- mathematical bold italic small final sigma -->
+				<string>&#x1D748;</string><!-- mathematical bold italic small sigma -->
+				<string>&#x1D749;</string><!-- mathematical bold italic small tau -->
+				<string>&#x1D74A;</string><!-- mathematical bold italic small upsilon -->
+				<string>&#x1D74B;</string><!-- mathematical bold italic small phi -->
+				<string>&#x1D74C;</string><!-- mathematical bold italic small chi -->
+				<string>&#x1D74D;</string><!-- mathematical bold italic small psi -->
+				<string>&#x1D74E;</string><!-- mathematical bold italic small omega -->
+				<string>&#x1D74F;</string><!-- mathematical bold italic partial differential -->
+				<string>&#x1D750;</string><!-- mathematical bold italic varepsilon symbol -->
+				<string>&#x1D751;</string><!-- mathematical bold italic theta symbol -->
+				<string>&#x1D752;</string><!-- mathematical bold italic kappa symbol -->
+				<string>&#x1D753;</string><!-- mathematical bold italic phi symbol -->
+				<string>&#x1D754;</string><!-- mathematical bold italic rho symbol -->
+				<string>&#x1D755;</string><!-- mathematical bold italic pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D5A0;</string><!-- mathematical sans-serif capital a -->
+				<string>&#x1D5A1;</string><!-- mathematical sans-serif capital b -->
+				<string>&#x1D5A2;</string><!-- mathematical sans-serif capital c -->
+				<string>&#x1D5A3;</string><!-- mathematical sans-serif capital d -->
+				<string>&#x1D5A4;</string><!-- mathematical sans-serif capital e -->
+				<string>&#x1D5A5;</string><!-- mathematical sans-serif capital f -->
+				<string>&#x1D5A6;</string><!-- mathematical sans-serif capital g -->
+				<string>&#x1D5A7;</string><!-- mathematical sans-serif capital h -->
+				<string>&#x1D5A8;</string><!-- mathematical sans-serif capital i -->
+				<string>&#x1D5A9;</string><!-- mathematical sans-serif capital j -->
+				<string>&#x1D5AA;</string><!-- mathematical sans-serif capital k -->
+				<string>&#x1D5AB;</string><!-- mathematical sans-serif capital l -->
+				<string>&#x1D5AC;</string><!-- mathematical sans-serif capital m -->
+				<string>&#x1D5AD;</string><!-- mathematical sans-serif capital n -->
+				<string>&#x1D5AE;</string><!-- mathematical sans-serif capital o -->
+				<string>&#x1D5AF;</string><!-- mathematical sans-serif capital p -->
+				<string>&#x1D5B0;</string><!-- mathematical sans-serif capital q -->
+				<string>&#x1D5B1;</string><!-- mathematical sans-serif capital r -->
+				<string>&#x1D5B2;</string><!-- mathematical sans-serif capital s -->
+				<string>&#x1D5B3;</string><!-- mathematical sans-serif capital t -->
+				<string>&#x1D5B4;</string><!-- mathematical sans-serif capital u -->
+				<string>&#x1D5B5;</string><!-- mathematical sans-serif capital v -->
+				<string>&#x1D5B6;</string><!-- mathematical sans-serif capital w -->
+				<string>&#x1D5B7;</string><!-- mathematical sans-serif capital x -->
+				<string>&#x1D5B8;</string><!-- mathematical sans-serif capital y -->
+				<string>&#x1D5B9;</string><!-- mathematical sans-serif capital z -->
+				<string>&#x1D5BA;</string><!-- mathematical sans-serif small a -->
+				<string>&#x1D5BB;</string><!-- mathematical sans-serif small b -->
+				<string>&#x1D5BC;</string><!-- mathematical sans-serif small c -->
+				<string>&#x1D5BD;</string><!-- mathematical sans-serif small d -->
+				<string>&#x1D5BE;</string><!-- mathematical sans-serif small e -->
+				<string>&#x1D5BF;</string><!-- mathematical sans-serif small f -->
+				<string>&#x1D5C0;</string><!-- mathematical sans-serif small g -->
+				<string>&#x1D5C1;</string><!-- mathematical sans-serif small h -->
+				<string>&#x1D5C2;</string><!-- mathematical sans-serif small i -->
+				<string>&#x1D5C3;</string><!-- mathematical sans-serif small j -->
+				<string>&#x1D5C4;</string><!-- mathematical sans-serif small k -->
+				<string>&#x1D5C5;</string><!-- mathematical sans-serif small l -->
+				<string>&#x1D5C6;</string><!-- mathematical sans-serif small m -->
+				<string>&#x1D5C7;</string><!-- mathematical sans-serif small n -->
+				<string>&#x1D5C8;</string><!-- mathematical sans-serif small o -->
+				<string>&#x1D5C9;</string><!-- mathematical sans-serif small p -->
+				<string>&#x1D5CA;</string><!-- mathematical sans-serif small q -->
+				<string>&#x1D5CB;</string><!-- mathematical sans-serif small r -->
+				<string>&#x1D5CC;</string><!-- mathematical sans-serif small s -->
+				<string>&#x1D5CD;</string><!-- mathematical sans-serif small t -->
+				<string>&#x1D5CE;</string><!-- mathematical sans-serif small u -->
+				<string>&#x1D5CF;</string><!-- mathematical sans-serif small v -->
+				<string>&#x1D5D0;</string><!-- mathematical sans-serif small w -->
+				<string>&#x1D5D1;</string><!-- mathematical sans-serif small x -->
+				<string>&#x1D5D2;</string><!-- mathematical sans-serif small y -->
+				<string>&#x1D5D3;</string><!-- mathematical sans-serif small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D5D4;</string><!-- mathematical sans-serif bold capital a -->
+				<string>&#x1D5D5;</string><!-- mathematical sans-serif bold capital b -->
+				<string>&#x1D5D6;</string><!-- mathematical sans-serif bold capital c -->
+				<string>&#x1D5D7;</string><!-- mathematical sans-serif bold capital d -->
+				<string>&#x1D5D8;</string><!-- mathematical sans-serif bold capital e -->
+				<string>&#x1D5D9;</string><!-- mathematical sans-serif bold capital f -->
+				<string>&#x1D5DA;</string><!-- mathematical sans-serif bold capital g -->
+				<string>&#x1D5DB;</string><!-- mathematical sans-serif bold capital h -->
+				<string>&#x1D5DC;</string><!-- mathematical sans-serif bold capital i -->
+				<string>&#x1D5DD;</string><!-- mathematical sans-serif bold capital j -->
+				<string>&#x1D5DE;</string><!-- mathematical sans-serif bold capital k -->
+				<string>&#x1D5DF;</string><!-- mathematical sans-serif bold capital l -->
+				<string>&#x1D5E0;</string><!-- mathematical sans-serif bold capital m -->
+				<string>&#x1D5E1;</string><!-- mathematical sans-serif bold capital n -->
+				<string>&#x1D5E2;</string><!-- mathematical sans-serif bold capital o -->
+				<string>&#x1D5E3;</string><!-- mathematical sans-serif bold capital p -->
+				<string>&#x1D5E4;</string><!-- mathematical sans-serif bold capital q -->
+				<string>&#x1D5E5;</string><!-- mathematical sans-serif bold capital r -->
+				<string>&#x1D5E6;</string><!-- mathematical sans-serif bold capital s -->
+				<string>&#x1D5E7;</string><!-- mathematical sans-serif bold capital t -->
+				<string>&#x1D5E8;</string><!-- mathematical sans-serif bold capital u -->
+				<string>&#x1D5E9;</string><!-- mathematical sans-serif bold capital v -->
+				<string>&#x1D5EA;</string><!-- mathematical sans-serif bold capital w -->
+				<string>&#x1D5EB;</string><!-- mathematical sans-serif bold capital x -->
+				<string>&#x1D5EC;</string><!-- mathematical sans-serif bold capital y -->
+				<string>&#x1D5ED;</string><!-- mathematical sans-serif bold capital z -->
+				<string>&#x1D5EE;</string><!-- mathematical sans-serif bold small a -->
+				<string>&#x1D5EF;</string><!-- mathematical sans-serif bold small b -->
+				<string>&#x1D5F0;</string><!-- mathematical sans-serif bold small c -->
+				<string>&#x1D5F1;</string><!-- mathematical sans-serif bold small d -->
+				<string>&#x1D5F2;</string><!-- mathematical sans-serif bold small e -->
+				<string>&#x1D5F3;</string><!-- mathematical sans-serif bold small f -->
+				<string>&#x1D5F4;</string><!-- mathematical sans-serif bold small g -->
+				<string>&#x1D5F5;</string><!-- mathematical sans-serif bold small h -->
+				<string>&#x1D5F6;</string><!-- mathematical sans-serif bold small i -->
+				<string>&#x1D5F7;</string><!-- mathematical sans-serif bold small j -->
+				<string>&#x1D5F8;</string><!-- mathematical sans-serif bold small k -->
+				<string>&#x1D5F9;</string><!-- mathematical sans-serif bold small l -->
+				<string>&#x1D5FA;</string><!-- mathematical sans-serif bold small m -->
+				<string>&#x1D5FB;</string><!-- mathematical sans-serif bold small n -->
+				<string>&#x1D5FC;</string><!-- mathematical sans-serif bold small o -->
+				<string>&#x1D5FD;</string><!-- mathematical sans-serif bold small p -->
+				<string>&#x1D5FE;</string><!-- mathematical sans-serif bold small q -->
+				<string>&#x1D5FF;</string><!-- mathematical sans-serif bold small r -->
+				<string>&#x1D600;</string><!-- mathematical sans-serif bold small s -->
+				<string>&#x1D601;</string><!-- mathematical sans-serif bold small t -->
+				<string>&#x1D602;</string><!-- mathematical sans-serif bold small u -->
+				<string>&#x1D603;</string><!-- mathematical sans-serif bold small v -->
+				<string>&#x1D604;</string><!-- mathematical sans-serif bold small w -->
+				<string>&#x1D605;</string><!-- mathematical sans-serif bold small x -->
+				<string>&#x1D606;</string><!-- mathematical sans-serif bold small y -->
+				<string>&#x1D607;</string><!-- mathematical sans-serif bold small z -->
+				<string>&#x1D756;</string><!-- mathematical sans-serif bold capital alpha -->
+				<string>&#x1D757;</string><!-- mathematical sans-serif bold capital beta -->
+				<string>&#x1D758;</string><!-- mathematical sans-serif bold capital gamma -->
+				<string>&#x1D759;</string><!-- mathematical sans-serif bold capital delta -->
+				<string>&#x1D75A;</string><!-- mathematical sans-serif bold capital epsilon -->
+				<string>&#x1D75B;</string><!-- mathematical sans-serif bold capital zeta -->
+				<string>&#x1D75C;</string><!-- mathematical sans-serif bold capital eta -->
+				<string>&#x1D75D;</string><!-- mathematical sans-serif bold capital theta -->
+				<string>&#x1D75E;</string><!-- mathematical sans-serif bold capital iota -->
+				<string>&#x1D75F;</string><!-- mathematical sans-serif bold capital kappa -->
+				<string>&#x1D760;</string><!-- mathematical sans-serif bold capital lambda -->
+				<string>&#x1D761;</string><!-- mathematical sans-serif bold capital mu -->
+				<string>&#x1D762;</string><!-- mathematical sans-serif bold capital nu -->
+				<string>&#x1D763;</string><!-- mathematical sans-serif bold capital xi -->
+				<string>&#x1D764;</string><!-- mathematical sans-serif bold capital omicron -->
+				<string>&#x1D765;</string><!-- mathematical sans-serif bold capital pi -->
+				<string>&#x1D766;</string><!-- mathematical sans-serif bold capital rho -->
+				<string>&#x1D767;</string><!-- mathematical sans-serif bold capital theta symbol -->
+				<string>&#x1D768;</string><!-- mathematical sans-serif bold capital sigma -->
+				<string>&#x1D769;</string><!-- mathematical sans-serif bold capital tau -->
+				<string>&#x1D76A;</string><!-- mathematical sans-serif bold capital upsilon -->
+				<string>&#x1D76B;</string><!-- mathematical sans-serif bold capital phi -->
+				<string>&#x1D76C;</string><!-- mathematical sans-serif bold capital chi -->
+				<string>&#x1D76D;</string><!-- mathematical sans-serif bold capital psi -->
+				<string>&#x1D76E;</string><!-- mathematical sans-serif bold capital omega -->
+				<string>&#x1D76F;</string><!-- mathematical sans-serif bold nabla -->
+				<string>&#x1D770;</string><!-- mathematical sans-serif bold small alpha -->
+				<string>&#x1D771;</string><!-- mathematical sans-serif bold small beta -->
+				<string>&#x1D772;</string><!-- mathematical sans-serif bold small gamma -->
+				<string>&#x1D773;</string><!-- mathematical sans-serif bold small delta -->
+				<string>&#x1D774;</string><!-- mathematical sans-serif bold small varepsilon -->
+				<string>&#x1D775;</string><!-- mathematical sans-serif bold small zeta -->
+				<string>&#x1D776;</string><!-- mathematical sans-serif bold small eta -->
+				<string>&#x1D777;</string><!-- mathematical sans-serif bold small theta -->
+				<string>&#x1D778;</string><!-- mathematical sans-serif bold small iota -->
+				<string>&#x1D779;</string><!-- mathematical sans-serif bold small kappa -->
+				<string>&#x1D77A;</string><!-- mathematical sans-serif bold small lambda -->
+				<string>&#x1D77B;</string><!-- mathematical sans-serif bold small mu -->
+				<string>&#x1D77C;</string><!-- mathematical sans-serif bold small nu -->
+				<string>&#x1D77D;</string><!-- mathematical sans-serif bold small xi -->
+				<string>&#x1D77E;</string><!-- mathematical sans-serif bold small omicron -->
+				<string>&#x1D77F;</string><!-- mathematical sans-serif bold small pi -->
+				<string>&#x1D780;</string><!-- mathematical sans-serif bold small rho -->
+				<string>&#x1D781;</string><!-- mathematical sans-serif bold small final sigma -->
+				<string>&#x1D782;</string><!-- mathematical sans-serif bold small sigma -->
+				<string>&#x1D783;</string><!-- mathematical sans-serif bold small tau -->
+				<string>&#x1D784;</string><!-- mathematical sans-serif bold small upsilon -->
+				<string>&#x1D785;</string><!-- mathematical sans-serif bold small phi -->
+				<string>&#x1D786;</string><!-- mathematical sans-serif bold small chi -->
+				<string>&#x1D787;</string><!-- mathematical sans-serif bold small psi -->
+				<string>&#x1D788;</string><!-- mathematical sans-serif bold small omega -->
+				<string>&#x1D789;</string><!-- mathematical sans-serif bold partial differential -->
+				<string>&#x1D78A;</string><!-- mathematical sans-serif bold varepsilon symbol -->
+				<string>&#x1D78B;</string><!-- mathematical sans-serif bold theta symbol -->
+				<string>&#x1D78C;</string><!-- mathematical sans-serif bold kappa symbol -->
+				<string>&#x1D78D;</string><!-- mathematical sans-serif bold phi symbol -->
+				<string>&#x1D78E;</string><!-- mathematical sans-serif bold rho symbol -->
+				<string>&#x1D78F;</string><!-- mathematical sans-serif bold pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D608;</string><!-- mathematical sans-serif italic capital a -->
+				<string>&#x1D609;</string><!-- mathematical sans-serif italic capital b -->
+				<string>&#x1D60A;</string><!-- mathematical sans-serif italic capital c -->
+				<string>&#x1D60B;</string><!-- mathematical sans-serif italic capital d -->
+				<string>&#x1D60C;</string><!-- mathematical sans-serif italic capital e -->
+				<string>&#x1D60D;</string><!-- mathematical sans-serif italic capital f -->
+				<string>&#x1D60E;</string><!-- mathematical sans-serif italic capital g -->
+				<string>&#x1D60F;</string><!-- mathematical sans-serif italic capital h -->
+				<string>&#x1D610;</string><!-- mathematical sans-serif italic capital i -->
+				<string>&#x1D611;</string><!-- mathematical sans-serif italic capital j -->
+				<string>&#x1D612;</string><!-- mathematical sans-serif italic capital k -->
+				<string>&#x1D613;</string><!-- mathematical sans-serif italic capital l -->
+				<string>&#x1D614;</string><!-- mathematical sans-serif italic capital m -->
+				<string>&#x1D615;</string><!-- mathematical sans-serif italic capital n -->
+				<string>&#x1D616;</string><!-- mathematical sans-serif italic capital o -->
+				<string>&#x1D617;</string><!-- mathematical sans-serif italic capital p -->
+				<string>&#x1D618;</string><!-- mathematical sans-serif italic capital q -->
+				<string>&#x1D619;</string><!-- mathematical sans-serif italic capital r -->
+				<string>&#x1D61A;</string><!-- mathematical sans-serif italic capital s -->
+				<string>&#x1D61B;</string><!-- mathematical sans-serif italic capital t -->
+				<string>&#x1D61C;</string><!-- mathematical sans-serif italic capital u -->
+				<string>&#x1D61D;</string><!-- mathematical sans-serif italic capital v -->
+				<string>&#x1D61E;</string><!-- mathematical sans-serif italic capital w -->
+				<string>&#x1D61F;</string><!-- mathematical sans-serif italic capital x -->
+				<string>&#x1D620;</string><!-- mathematical sans-serif italic capital y -->
+				<string>&#x1D621;</string><!-- mathematical sans-serif italic capital z -->
+				<string>&#x1D622;</string><!-- mathematical sans-serif italic small a -->
+				<string>&#x1D623;</string><!-- mathematical sans-serif italic small b -->
+				<string>&#x1D624;</string><!-- mathematical sans-serif italic small c -->
+				<string>&#x1D625;</string><!-- mathematical sans-serif italic small d -->
+				<string>&#x1D626;</string><!-- mathematical sans-serif italic small e -->
+				<string>&#x1D627;</string><!-- mathematical sans-serif italic small f -->
+				<string>&#x1D628;</string><!-- mathematical sans-serif italic small g -->
+				<string>&#x1D629;</string><!-- mathematical sans-serif italic small h -->
+				<string>&#x1D62A;</string><!-- mathematical sans-serif italic small i -->
+				<string>&#x1D62B;</string><!-- mathematical sans-serif italic small j -->
+				<string>&#x1D62C;</string><!-- mathematical sans-serif italic small k -->
+				<string>&#x1D62D;</string><!-- mathematical sans-serif italic small l -->
+				<string>&#x1D62E;</string><!-- mathematical sans-serif italic small m -->
+				<string>&#x1D62F;</string><!-- mathematical sans-serif italic small n -->
+				<string>&#x1D630;</string><!-- mathematical sans-serif italic small o -->
+				<string>&#x1D631;</string><!-- mathematical sans-serif italic small p -->
+				<string>&#x1D632;</string><!-- mathematical sans-serif italic small q -->
+				<string>&#x1D633;</string><!-- mathematical sans-serif italic small r -->
+				<string>&#x1D634;</string><!-- mathematical sans-serif italic small s -->
+				<string>&#x1D635;</string><!-- mathematical sans-serif italic small t -->
+				<string>&#x1D636;</string><!-- mathematical sans-serif italic small u -->
+				<string>&#x1D637;</string><!-- mathematical sans-serif italic small v -->
+				<string>&#x1D638;</string><!-- mathematical sans-serif italic small w -->
+				<string>&#x1D639;</string><!-- mathematical sans-serif italic small x -->
+				<string>&#x1D63A;</string><!-- mathematical sans-serif italic small y -->
+				<string>&#x1D63B;</string><!-- mathematical sans-serif italic small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Italic Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D63C;</string><!-- mathematical sans-serif bold italic capital a -->
+				<string>&#x1D63D;</string><!-- mathematical sans-serif bold italic capital b -->
+				<string>&#x1D63E;</string><!-- mathematical sans-serif bold italic capital c -->
+				<string>&#x1D63F;</string><!-- mathematical sans-serif bold italic capital d -->
+				<string>&#x1D640;</string><!-- mathematical sans-serif bold italic capital e -->
+				<string>&#x1D641;</string><!-- mathematical sans-serif bold italic capital f -->
+				<string>&#x1D642;</string><!-- mathematical sans-serif bold italic capital g -->
+				<string>&#x1D643;</string><!-- mathematical sans-serif bold italic capital h -->
+				<string>&#x1D644;</string><!-- mathematical sans-serif bold italic capital i -->
+				<string>&#x1D645;</string><!-- mathematical sans-serif bold italic capital j -->
+				<string>&#x1D646;</string><!-- mathematical sans-serif bold italic capital k -->
+				<string>&#x1D647;</string><!-- mathematical sans-serif bold italic capital l -->
+				<string>&#x1D648;</string><!-- mathematical sans-serif bold italic capital m -->
+				<string>&#x1D649;</string><!-- mathematical sans-serif bold italic capital n -->
+				<string>&#x1D64A;</string><!-- mathematical sans-serif bold italic capital o -->
+				<string>&#x1D64B;</string><!-- mathematical sans-serif bold italic capital p -->
+				<string>&#x1D64C;</string><!-- mathematical sans-serif bold italic capital q -->
+				<string>&#x1D64D;</string><!-- mathematical sans-serif bold italic capital r -->
+				<string>&#x1D64E;</string><!-- mathematical sans-serif bold italic capital s -->
+				<string>&#x1D64F;</string><!-- mathematical sans-serif bold italic capital t -->
+				<string>&#x1D650;</string><!-- mathematical sans-serif bold italic capital u -->
+				<string>&#x1D651;</string><!-- mathematical sans-serif bold italic capital v -->
+				<string>&#x1D652;</string><!-- mathematical sans-serif bold italic capital w -->
+				<string>&#x1D653;</string><!-- mathematical sans-serif bold italic capital x -->
+				<string>&#x1D654;</string><!-- mathematical sans-serif bold italic capital y -->
+				<string>&#x1D655;</string><!-- mathematical sans-serif bold italic capital z -->
+				<string>&#x1D656;</string><!-- mathematical sans-serif bold italic small a -->
+				<string>&#x1D657;</string><!-- mathematical sans-serif bold italic small b -->
+				<string>&#x1D658;</string><!-- mathematical sans-serif bold italic small c -->
+				<string>&#x1D659;</string><!-- mathematical sans-serif bold italic small d -->
+				<string>&#x1D65A;</string><!-- mathematical sans-serif bold italic small e -->
+				<string>&#x1D65B;</string><!-- mathematical sans-serif bold italic small f -->
+				<string>&#x1D65C;</string><!-- mathematical sans-serif bold italic small g -->
+				<string>&#x1D65D;</string><!-- mathematical sans-serif bold italic small h -->
+				<string>&#x1D65E;</string><!-- mathematical sans-serif bold italic small i -->
+				<string>&#x1D65F;</string><!-- mathematical sans-serif bold italic small j -->
+				<string>&#x1D660;</string><!-- mathematical sans-serif bold italic small k -->
+				<string>&#x1D661;</string><!-- mathematical sans-serif bold italic small l -->
+				<string>&#x1D662;</string><!-- mathematical sans-serif bold italic small m -->
+				<string>&#x1D663;</string><!-- mathematical sans-serif bold italic small n -->
+				<string>&#x1D664;</string><!-- mathematical sans-serif bold italic small o -->
+				<string>&#x1D665;</string><!-- mathematical sans-serif bold italic small p -->
+				<string>&#x1D666;</string><!-- mathematical sans-serif bold italic small q -->
+				<string>&#x1D667;</string><!-- mathematical sans-serif bold italic small r -->
+				<string>&#x1D668;</string><!-- mathematical sans-serif bold italic small s -->
+				<string>&#x1D669;</string><!-- mathematical sans-serif bold italic small t -->
+				<string>&#x1D66A;</string><!-- mathematical sans-serif bold italic small u -->
+				<string>&#x1D66B;</string><!-- mathematical sans-serif bold italic small v -->
+				<string>&#x1D66C;</string><!-- mathematical sans-serif bold italic small w -->
+				<string>&#x1D66D;</string><!-- mathematical sans-serif bold italic small x -->
+				<string>&#x1D66E;</string><!-- mathematical sans-serif bold italic small y -->
+				<string>&#x1D66F;</string><!-- mathematical sans-serif bold italic small z -->
+				<string>&#x1D790;</string><!-- mathematical sans-serif bold italic capital alpha -->
+				<string>&#x1D791;</string><!-- mathematical sans-serif bold italic capital beta -->
+				<string>&#x1D792;</string><!-- mathematical sans-serif bold italic capital gamma -->
+				<string>&#x1D793;</string><!-- mathematical sans-serif bold italic capital delta -->
+				<string>&#x1D794;</string><!-- mathematical sans-serif bold italic capital epsilon -->
+				<string>&#x1D795;</string><!-- mathematical sans-serif bold italic capital zeta -->
+				<string>&#x1D796;</string><!-- mathematical sans-serif bold italic capital eta -->
+				<string>&#x1D797;</string><!-- mathematical sans-serif bold italic capital theta -->
+				<string>&#x1D798;</string><!-- mathematical sans-serif bold italic capital iota -->
+				<string>&#x1D799;</string><!-- mathematical sans-serif bold italic capital kappa -->
+				<string>&#x1D79A;</string><!-- mathematical sans-serif bold italic capital lambda -->
+				<string>&#x1D79B;</string><!-- mathematical sans-serif bold italic capital mu -->
+				<string>&#x1D79C;</string><!-- mathematical sans-serif bold italic capital nu -->
+				<string>&#x1D79D;</string><!-- mathematical sans-serif bold italic capital xi -->
+				<string>&#x1D79E;</string><!-- mathematical sans-serif bold italic capital omicron -->
+				<string>&#x1D79F;</string><!-- mathematical sans-serif bold italic capital pi -->
+				<string>&#x1D7A0;</string><!-- mathematical sans-serif bold italic capital rho -->
+				<string>&#x1D7A1;</string><!-- mathematical sans-serif bold italic capital theta symbol -->
+				<string>&#x1D7A2;</string><!-- mathematical sans-serif bold italic capital sigma -->
+				<string>&#x1D7A3;</string><!-- mathematical sans-serif bold italic capital tau -->
+				<string>&#x1D7A4;</string><!-- mathematical sans-serif bold italic capital upsilon -->
+				<string>&#x1D7A5;</string><!-- mathematical sans-serif bold italic capital phi -->
+				<string>&#x1D7A6;</string><!-- mathematical sans-serif bold italic capital chi -->
+				<string>&#x1D7A7;</string><!-- mathematical sans-serif bold italic capital psi -->
+				<string>&#x1D7A8;</string><!-- mathematical sans-serif bold italic capital omega -->
+				<string>&#x1D7A9;</string><!-- mathematical sans-serif bold italic nabla -->
+				<string>&#x1D7AA;</string><!-- mathematical sans-serif bold italic small alpha -->
+				<string>&#x1D7AB;</string><!-- mathematical sans-serif bold italic small beta -->
+				<string>&#x1D7AC;</string><!-- mathematical sans-serif bold italic small gamma -->
+				<string>&#x1D7AD;</string><!-- mathematical sans-serif bold italic small delta -->
+				<string>&#x1D7AE;</string><!-- mathematical sans-serif bold italic small varepsilon -->
+				<string>&#x1D7AF;</string><!-- mathematical sans-serif bold italic small zeta -->
+				<string>&#x1D7B0;</string><!-- mathematical sans-serif bold italic small eta -->
+				<string>&#x1D7B1;</string><!-- mathematical sans-serif bold italic small theta -->
+				<string>&#x1D7B2;</string><!-- mathematical sans-serif bold italic small iota -->
+				<string>&#x1D7B3;</string><!-- mathematical sans-serif bold italic small kappa -->
+				<string>&#x1D7B4;</string><!-- mathematical sans-serif bold italic small lambda -->
+				<string>&#x1D7B5;</string><!-- mathematical sans-serif bold italic small mu -->
+				<string>&#x1D7B6;</string><!-- mathematical sans-serif bold italic small nu -->
+				<string>&#x1D7B7;</string><!-- mathematical sans-serif bold italic small xi -->
+				<string>&#x1D7B8;</string><!-- mathematical sans-serif bold italic small omicron -->
+				<string>&#x1D7B9;</string><!-- mathematical sans-serif bold italic small pi -->
+				<string>&#x1D7BA;</string><!-- mathematical sans-serif bold italic small rho -->
+				<string>&#x1D7BB;</string><!-- mathematical sans-serif bold italic small final sigma -->
+				<string>&#x1D7BC;</string><!-- mathematical sans-serif bold italic small sigma -->
+				<string>&#x1D7BD;</string><!-- mathematical sans-serif bold italic small tau -->
+				<string>&#x1D7BE;</string><!-- mathematical sans-serif bold italic small upsilon -->
+				<string>&#x1D7BF;</string><!-- mathematical sans-serif bold italic small phi -->
+				<string>&#x1D7C0;</string><!-- mathematical sans-serif bold italic small chi -->
+				<string>&#x1D7C1;</string><!-- mathematical sans-serif bold italic small psi -->
+				<string>&#x1D7C2;</string><!-- mathematical sans-serif bold italic small omega -->
+				<string>&#x1D7C3;</string><!-- mathematical sans-serif bold italic partial differential -->
+				<string>&#x1D7C4;</string><!-- mathematical sans-serif bold italic varepsilon symbol -->
+				<string>&#x1D7C5;</string><!-- mathematical sans-serif bold italic theta symbol -->
+				<string>&#x1D7C6;</string><!-- mathematical sans-serif bold italic kappa symbol -->
+				<string>&#x1D7C7;</string><!-- mathematical sans-serif bold italic phi symbol -->
+				<string>&#x1D7C8;</string><!-- mathematical sans-serif bold italic rho symbol -->
+				<string>&#x1D7C9;</string><!-- mathematical sans-serif bold italic pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Monospace</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D670;</string><!-- mathematical monospace capital a -->
+				<string>&#x1D671;</string><!-- mathematical monospace capital b -->
+				<string>&#x1D672;</string><!-- mathematical monospace capital c -->
+				<string>&#x1D673;</string><!-- mathematical monospace capital d -->
+				<string>&#x1D674;</string><!-- mathematical monospace capital e -->
+				<string>&#x1D675;</string><!-- mathematical monospace capital f -->
+				<string>&#x1D676;</string><!-- mathematical monospace capital g -->
+				<string>&#x1D677;</string><!-- mathematical monospace capital h -->
+				<string>&#x1D678;</string><!-- mathematical monospace capital i -->
+				<string>&#x1D679;</string><!-- mathematical monospace capital j -->
+				<string>&#x1D67A;</string><!-- mathematical monospace capital k -->
+				<string>&#x1D67B;</string><!-- mathematical monospace capital l -->
+				<string>&#x1D67C;</string><!-- mathematical monospace capital m -->
+				<string>&#x1D67D;</string><!-- mathematical monospace capital n -->
+				<string>&#x1D67E;</string><!-- mathematical monospace capital o -->
+				<string>&#x1D67F;</string><!-- mathematical monospace capital p -->
+				<string>&#x1D680;</string><!-- mathematical monospace capital q -->
+				<string>&#x1D681;</string><!-- mathematical monospace capital r -->
+				<string>&#x1D682;</string><!-- mathematical monospace capital s -->
+				<string>&#x1D683;</string><!-- mathematical monospace capital t -->
+				<string>&#x1D684;</string><!-- mathematical monospace capital u -->
+				<string>&#x1D685;</string><!-- mathematical monospace capital v -->
+				<string>&#x1D686;</string><!-- mathematical monospace capital w -->
+				<string>&#x1D687;</string><!-- mathematical monospace capital x -->
+				<string>&#x1D688;</string><!-- mathematical monospace capital y -->
+				<string>&#x1D689;</string><!-- mathematical monospace capital z -->
+				<string>&#x1D68A;</string><!-- mathematical monospace small a -->
+				<string>&#x1D68B;</string><!-- mathematical monospace small b -->
+				<string>&#x1D68C;</string><!-- mathematical monospace small c -->
+				<string>&#x1D68D;</string><!-- mathematical monospace small d -->
+				<string>&#x1D68E;</string><!-- mathematical monospace small e -->
+				<string>&#x1D68F;</string><!-- mathematical monospace small f -->
+				<string>&#x1D690;</string><!-- mathematical monospace small g -->
+				<string>&#x1D691;</string><!-- mathematical monospace small h -->
+				<string>&#x1D692;</string><!-- mathematical monospace small i -->
+				<string>&#x1D693;</string><!-- mathematical monospace small j -->
+				<string>&#x1D694;</string><!-- mathematical monospace small k -->
+				<string>&#x1D695;</string><!-- mathematical monospace small l -->
+				<string>&#x1D696;</string><!-- mathematical monospace small m -->
+				<string>&#x1D697;</string><!-- mathematical monospace small n -->
+				<string>&#x1D698;</string><!-- mathematical monospace small o -->
+				<string>&#x1D699;</string><!-- mathematical monospace small p -->
+				<string>&#x1D69A;</string><!-- mathematical monospace small q -->
+				<string>&#x1D69B;</string><!-- mathematical monospace small r -->
+				<string>&#x1D69C;</string><!-- mathematical monospace small s -->
+				<string>&#x1D69D;</string><!-- mathematical monospace small t -->
+				<string>&#x1D69E;</string><!-- mathematical monospace small u -->
+				<string>&#x1D69F;</string><!-- mathematical monospace small v -->
+				<string>&#x1D6A0;</string><!-- mathematical monospace small w -->
+				<string>&#x1D6A1;</string><!-- mathematical monospace small x -->
+				<string>&#x1D6A2;</string><!-- mathematical monospace small y -->
+				<string>&#x1D6A3;</string><!-- mathematical monospace small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Double Struck</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D538;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D539;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02102;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53B;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53C;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53E;</string><!-- mathematical double-struck capital  -->
+				<string>&#x0210D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D540;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D541;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D542;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D543;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D544;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02115;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D546;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02119;</string><!-- mathematical double-struck capital  -->
+				<string>&#x0211A;</string><!-- mathematical double-struck capital  -->
+				<string>&#x0211D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54A;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54B;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54C;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54E;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54F;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D550;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02124;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D552;</string><!-- mathematical double-struck small a -->
+				<string>&#x1D553;</string><!-- mathematical double-struck small b -->
+				<string>&#x1D554;</string><!-- mathematical double-struck small c -->
+				<string>&#x1D555;</string><!-- mathematical double-struck small d -->
+				<string>&#x1D556;</string><!-- mathematical double-struck small e -->
+				<string>&#x1D557;</string><!-- mathematical double-struck small f -->
+				<string>&#x1D558;</string><!-- mathematical double-struck small g -->
+				<string>&#x1D559;</string><!-- mathematical double-struck small h -->
+				<string>&#x1D55A;</string><!-- mathematical double-struck small i -->
+				<string>&#x1D55B;</string><!-- mathematical double-struck small j -->
+				<string>&#x1D55C;</string><!-- mathematical double-struck small k -->
+				<string>&#x1D55D;</string><!-- mathematical double-struck small l -->
+				<string>&#x1D55E;</string><!-- mathematical double-struck small m -->
+				<string>&#x1D55F;</string><!-- mathematical double-struck small n -->
+				<string>&#x1D560;</string><!-- mathematical double-struck small o -->
+				<string>&#x1D561;</string><!-- mathematical double-struck small p -->
+				<string>&#x1D562;</string><!-- mathematical double-struck small q -->
+				<string>&#x1D563;</string><!-- mathematical double-struck small r -->
+				<string>&#x1D564;</string><!-- mathematical double-struck small s -->
+				<string>&#x1D565;</string><!-- mathematical double-struck small t -->
+				<string>&#x1D566;</string><!-- mathematical double-struck small u -->
+				<string>&#x1D567;</string><!-- mathematical double-struck small v -->
+				<string>&#x1D568;</string><!-- mathematical double-struck small w -->
+				<string>&#x1D569;</string><!-- mathematical double-struck small x -->
+				<string>&#x1D56A;</string><!-- mathematical double-struck small y -->
+				<string>&#x1D56B;</string><!-- mathematical double-struck small z -->
+				<string>&#x0213E;</string><!-- mathematical double-struck capital gamma -->
+				<string>&#x0213F;</string><!-- mathematical double-struck capital pi -->
+				<string>&#x0213D;</string><!-- mathematical double-struck small gamma -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Script</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D49C;</string><!-- mathematical script capital a -->
+				<string>&#x0212C;</string><!-- mathematical script capital b -->
+				<string>&#x1D49E;</string><!-- mathematical script capital c -->
+				<string>&#x1D49F;</string><!-- mathematical script capital d -->
+				<string>&#x02130;</string><!-- mathematical script capital e -->
+				<string>&#x02131;</string><!-- mathematical script capital f -->
+				<string>&#x1D4A2;</string><!-- mathematical script capital g -->
+				<string>&#x0210B;</string><!-- mathematical script capital h -->
+				<string>&#x02110;</string><!-- mathematical script capital i -->
+				<string>&#x1D4A5;</string><!-- mathematical script capital j -->
+				<string>&#x1D4A6;</string><!-- mathematical script capital k -->
+				<string>&#x02112;</string><!-- mathematical script capital l -->
+				<string>&#x02133;</string><!-- mathematical script capital m -->
+				<string>&#x1D4A9;</string><!-- mathematical script capital n -->
+				<string>&#x1D4AA;</string><!-- mathematical script capital o -->
+				<string>&#x1D4AB;</string><!-- mathematical script capital p -->
+				<string>&#x1D4AC;</string><!-- mathematical script capital q -->
+				<string>&#x0211B;</string><!-- mathematical script capital r -->
+				<string>&#x1D4AE;</string><!-- mathematical script capital s -->
+				<string>&#x1D4AF;</string><!-- mathematical script capital t -->
+				<string>&#x1D4B0;</string><!-- mathematical script capital u -->
+				<string>&#x1D4B1;</string><!-- mathematical script capital v -->
+				<string>&#x1D4B2;</string><!-- mathematical script capital w -->
+				<string>&#x1D4B3;</string><!-- mathematical script capital x -->
+				<string>&#x1D4B4;</string><!-- mathematical script capital y -->
+				<string>&#x1D4B5;</string><!-- mathematical script capital z -->
+				<string>&#x1D4B6;</string><!-- mathematical script small a -->
+				<string>&#x1D4B7;</string><!-- mathematical script small b -->
+				<string>&#x1D4B8;</string><!-- mathematical script small c -->
+				<string>&#x1D4B9;</string><!-- mathematical script small d -->
+				<string>&#x0212F;</string><!-- mathematical script small e -->
+				<string>&#x1D4BB;</string><!-- mathematical script small f -->
+				<string>&#x1D4BD;</string><!-- mathematical script small h -->
+				<string>&#x0210A;</string><!-- mathematical script small g -->
+				<string>&#x1D4BE;</string><!-- mathematical script small i -->
+				<string>&#x1D4BF;</string><!-- mathematical script small j -->
+				<string>&#x1D4C0;</string><!-- mathematical script small k -->
+				<string>&#x1D4C1;</string><!-- mathematical script small l -->
+				<string>&#x1D4C2;</string><!-- mathematical script small m -->
+				<string>&#x1D4C3;</string><!-- mathematical script small n -->
+				<string>&#x02134;</string><!-- mathematical script small o -->
+				<string>&#x1D4C5;</string><!-- mathematical script small p -->
+				<string>&#x1D4C6;</string><!-- mathematical script small q -->
+				<string>&#x1D4C7;</string><!-- mathematical script small r -->
+				<string>&#x1D4C8;</string><!-- mathematical script small s -->
+				<string>&#x1D4C9;</string><!-- mathematical script small t -->
+				<string>&#x1D4CA;</string><!-- mathematical script small u -->
+				<string>&#x1D4CB;</string><!-- mathematical script small v -->
+				<string>&#x1D4CC;</string><!-- mathematical script small w -->
+				<string>&#x1D4CD;</string><!-- mathematical script small x -->
+				<string>&#x1D4CE;</string><!-- mathematical script small y -->
+				<string>&#x1D4CF;</string><!-- mathematical script small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Script</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D4D0;</string><!-- mathematical bold script capital a -->
+				<string>&#x1D4D1;</string><!-- mathematical bold script capital b -->
+				<string>&#x1D4D2;</string><!-- mathematical bold script capital c -->
+				<string>&#x1D4D3;</string><!-- mathematical bold script capital d -->
+				<string>&#x1D4D4;</string><!-- mathematical bold script capital e -->
+				<string>&#x1D4D5;</string><!-- mathematical bold script capital f -->
+				<string>&#x1D4D6;</string><!-- mathematical bold script capital g -->
+				<string>&#x1D4D7;</string><!-- mathematical bold script capital h -->
+				<string>&#x1D4D8;</string><!-- mathematical bold script capital i -->
+				<string>&#x1D4D9;</string><!-- mathematical bold script capital j -->
+				<string>&#x1D4DA;</string><!-- mathematical bold script capital k -->
+				<string>&#x1D4DB;</string><!-- mathematical bold script capital l -->
+				<string>&#x1D4DC;</string><!-- mathematical bold script capital m -->
+				<string>&#x1D4DD;</string><!-- mathematical bold script capital n -->
+				<string>&#x1D4DE;</string><!-- mathematical bold script capital o -->
+				<string>&#x1D4DF;</string><!-- mathematical bold script capital p -->
+				<string>&#x1D4E0;</string><!-- mathematical bold script capital q -->
+				<string>&#x1D4E1;</string><!-- mathematical bold script capital r -->
+				<string>&#x1D4E2;</string><!-- mathematical bold script capital s -->
+				<string>&#x1D4E3;</string><!-- mathematical bold script capital t -->
+				<string>&#x1D4E4;</string><!-- mathematical bold script capital u -->
+				<string>&#x1D4E5;</string><!-- mathematical bold script capital v -->
+				<string>&#x1D4E6;</string><!-- mathematical bold script capital w -->
+				<string>&#x1D4E7;</string><!-- mathematical bold script capital x -->
+				<string>&#x1D4E8;</string><!-- mathematical bold script capital y -->
+				<string>&#x1D4E9;</string><!-- mathematical bold script capital z -->
+				<string>&#x1D4EA;</string><!-- mathematical bold script small a -->
+				<string>&#x1D4EB;</string><!-- mathematical bold script small b -->
+				<string>&#x1D4EC;</string><!-- mathematical bold script small c -->
+				<string>&#x1D4ED;</string><!-- mathematical bold script small d -->
+				<string>&#x1D4EE;</string><!-- mathematical bold script small e -->
+				<string>&#x1D4EF;</string><!-- mathematical bold script small f -->
+				<string>&#x1D4F0;</string><!-- mathematical bold script small g -->
+				<string>&#x1D4F1;</string><!-- mathematical bold script small h -->
+				<string>&#x1D4F2;</string><!-- mathematical bold script small i -->
+				<string>&#x1D4F3;</string><!-- mathematical bold script small j -->
+				<string>&#x1D4F4;</string><!-- mathematical bold script small k -->
+				<string>&#x1D4F5;</string><!-- mathematical bold script small l -->
+				<string>&#x1D4F6;</string><!-- mathematical bold script small m -->
+				<string>&#x1D4F7;</string><!-- mathematical bold script small n -->
+				<string>&#x1D4F8;</string><!-- mathematical bold script small o -->
+				<string>&#x1D4F9;</string><!-- mathematical bold script small p -->
+				<string>&#x1D4FA;</string><!-- mathematical bold script small q -->
+				<string>&#x1D4FB;</string><!-- mathematical bold script small r -->
+				<string>&#x1D4FC;</string><!-- mathematical bold script small s -->
+				<string>&#x1D4FD;</string><!-- mathematical bold script small t -->
+				<string>&#x1D4FE;</string><!-- mathematical bold script small u -->
+				<string>&#x1D4FF;</string><!-- mathematical bold script small v -->
+				<string>&#x1D500;</string><!-- mathematical bold script small w -->
+				<string>&#x1D501;</string><!-- mathematical bold script small x -->
+				<string>&#x1D502;</string><!-- mathematical bold script small y -->
+				<string>&#x1D503;</string><!-- mathematical bold script small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fraktur</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D504;</string><!-- mathematical fraktur capital a -->
+				<string>&#x1D505;</string><!-- mathematical fraktur capital b -->
+				<string>&#x0212D;</string><!-- mathematical fraktur capital c -->
+				<string>&#x1D507;</string><!-- mathematical fraktur capital d -->
+				<string>&#x1D508;</string><!-- mathematical fraktur capital e -->
+				<string>&#x1D509;</string><!-- mathematical fraktur capital f -->
+				<string>&#x1D50A;</string><!-- mathematical fraktur capital g -->
+				<string>&#x0210C;</string><!-- mathematical fraktur capital h -->
+				<string>&#x1D50D;</string><!-- mathematical fraktur capital j -->
+				<string>&#x1D50E;</string><!-- mathematical fraktur capital k -->
+				<string>&#x1D50F;</string><!-- mathematical fraktur capital l -->
+				<string>&#x1D510;</string><!-- mathematical fraktur capital m -->
+				<string>&#x1D511;</string><!-- mathematical fraktur capital n -->
+				<string>&#x1D512;</string><!-- mathematical fraktur capital o -->
+				<string>&#x1D513;</string><!-- mathematical fraktur capital p -->
+				<string>&#x1D514;</string><!-- mathematical fraktur capital q -->
+				<string>&#x1D516;</string><!-- mathematical fraktur capital s -->
+				<string>&#x1D517;</string><!-- mathematical fraktur capital t -->
+				<string>&#x1D518;</string><!-- mathematical fraktur capital u -->
+				<string>&#x1D519;</string><!-- mathematical fraktur capital v -->
+				<string>&#x1D51A;</string><!-- mathematical fraktur capital w -->
+				<string>&#x1D51B;</string><!-- mathematical fraktur capital x -->
+				<string>&#x1D51C;</string><!-- mathematical fraktur capital y -->
+				<string>&#x02128;</string><!-- mathematical fraktur capital z -->
+				<string>&#x1D51E;</string><!-- mathematical fraktur small a -->
+				<string>&#x1D51F;</string><!-- mathematical fraktur small b -->
+				<string>&#x1D520;</string><!-- mathematical fraktur small c -->
+				<string>&#x1D521;</string><!-- mathematical fraktur small d -->
+				<string>&#x1D522;</string><!-- mathematical fraktur small e -->
+				<string>&#x1D523;</string><!-- mathematical fraktur small f -->
+				<string>&#x1D524;</string><!-- mathematical fraktur small g -->
+				<string>&#x1D525;</string><!-- mathematical fraktur small h -->
+				<string>&#x1D526;</string><!-- mathematical fraktur small i -->
+				<string>&#x1D527;</string><!-- mathematical fraktur small j -->
+				<string>&#x1D528;</string><!-- mathematical fraktur small k -->
+				<string>&#x1D529;</string><!-- mathematical fraktur small l -->
+				<string>&#x1D52A;</string><!-- mathematical fraktur small m -->
+				<string>&#x1D52B;</string><!-- mathematical fraktur small n -->
+				<string>&#x1D52C;</string><!-- mathematical fraktur small o -->
+				<string>&#x1D52D;</string><!-- mathematical fraktur small p -->
+				<string>&#x1D52E;</string><!-- mathematical fraktur small q -->
+				<string>&#x1D52F;</string><!-- mathematical fraktur small r -->
+				<string>&#x1D530;</string><!-- mathematical fraktur small s -->
+				<string>&#x1D531;</string><!-- mathematical fraktur small t -->
+				<string>&#x1D532;</string><!-- mathematical fraktur small u -->
+				<string>&#x1D533;</string><!-- mathematical fraktur small v -->
+				<string>&#x1D534;</string><!-- mathematical fraktur small w -->
+				<string>&#x1D535;</string><!-- mathematical fraktur small x -->
+				<string>&#x1D536;</string><!-- mathematical fraktur small y -->
+				<string>&#x1D537;</string><!-- mathematical fraktur small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Fraktur</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D56C;</string><!-- mathematical bold fraktur capital a -->
+				<string>&#x1D56D;</string><!-- mathematical bold fraktur capital b -->
+				<string>&#x1D56E;</string><!-- mathematical bold fraktur capital c -->
+				<string>&#x1D56F;</string><!-- mathematical bold fraktur capital d -->
+				<string>&#x1D570;</string><!-- mathematical bold fraktur capital e -->
+				<string>&#x1D571;</string><!-- mathematical bold fraktur capital f -->
+				<string>&#x1D572;</string><!-- mathematical bold fraktur capital g -->
+				<string>&#x1D573;</string><!-- mathematical bold fraktur capital h -->
+				<string>&#x1D574;</string><!-- mathematical bold fraktur capital i -->
+				<string>&#x1D575;</string><!-- mathematical bold fraktur capital j -->
+				<string>&#x1D576;</string><!-- mathematical bold fraktur capital k -->
+				<string>&#x1D577;</string><!-- mathematical bold fraktur capital l -->
+				<string>&#x1D578;</string><!-- mathematical bold fraktur capital m -->
+				<string>&#x1D579;</string><!-- mathematical bold fraktur capital n -->
+				<string>&#x1D57A;</string><!-- mathematical bold fraktur capital o -->
+				<string>&#x1D57B;</string><!-- mathematical bold fraktur capital p -->
+				<string>&#x1D57C;</string><!-- mathematical bold fraktur capital q -->
+				<string>&#x1D57D;</string><!-- mathematical bold fraktur capital r -->
+				<string>&#x1D57E;</string><!-- mathematical bold fraktur capital s -->
+				<string>&#x1D57F;</string><!-- mathematical bold fraktur capital t -->
+				<string>&#x1D580;</string><!-- mathematical bold fraktur capital u -->
+				<string>&#x1D581;</string><!-- mathematical bold fraktur capital v -->
+				<string>&#x1D582;</string><!-- mathematical bold fraktur capital w -->
+				<string>&#x1D583;</string><!-- mathematical bold fraktur capital x -->
+				<string>&#x1D584;</string><!-- mathematical bold fraktur capital y -->
+				<string>&#x1D585;</string><!-- mathematical bold fraktur capital z -->
+				<string>&#x1D586;</string><!-- mathematical bold fraktur small a -->
+				<string>&#x1D587;</string><!-- mathematical bold fraktur small b -->
+				<string>&#x1D588;</string><!-- mathematical bold fraktur small c -->
+				<string>&#x1D589;</string><!-- mathematical bold fraktur small d -->
+				<string>&#x1D58A;</string><!-- mathematical bold fraktur small e -->
+				<string>&#x1D58B;</string><!-- mathematical bold fraktur small f -->
+				<string>&#x1D58C;</string><!-- mathematical bold fraktur small g -->
+				<string>&#x1D58D;</string><!-- mathematical bold fraktur small h -->
+				<string>&#x1D58E;</string><!-- mathematical bold fraktur small i -->
+				<string>&#x1D58F;</string><!-- mathematical bold fraktur small j -->
+				<string>&#x1D590;</string><!-- mathematical bold fraktur small k -->
+				<string>&#x1D591;</string><!-- mathematical bold fraktur small l -->
+				<string>&#x1D592;</string><!-- mathematical bold fraktur small m -->
+				<string>&#x1D593;</string><!-- mathematical bold fraktur small n -->
+				<string>&#x1D594;</string><!-- mathematical bold fraktur small o -->
+				<string>&#x1D595;</string><!-- mathematical bold fraktur small p -->
+				<string>&#x1D596;</string><!-- mathematical bold fraktur small q -->
+				<string>&#x1D597;</string><!-- mathematical bold fraktur small r -->
+				<string>&#x1D598;</string><!-- mathematical bold fraktur small s -->
+				<string>&#x1D599;</string><!-- mathematical bold fraktur small t -->
+				<string>&#x1D59A;</string><!-- mathematical bold fraktur small u -->
+				<string>&#x1D59B;</string><!-- mathematical bold fraktur small v -->
+				<string>&#x1D59C;</string><!-- mathematical bold fraktur small w -->
+				<string>&#x1D59D;</string><!-- mathematical bold fraktur small x -->
+				<string>&#x1D59E;</string><!-- mathematical bold fraktur small y -->
+				<string>&#x1D59F;</string><!-- mathematical bold fraktur small z -->
+			</array>
+		</dict>
 	</array>
 </plist>
