@@ -3,19 +3,71 @@ glyphname = "Lbold-math";
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,680,l),
+(128,0,l),
+(423,0,l),
+(424,8,l),
+(136,8,l),
+(136,680,l)
+);
+}
+);
+width = 448;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,687,l),
+(106,0,l),
+(456,0,l),
+(466,66,l),
+(181,66,l),
+(181,687,l)
+);
+}
+);
+width = 486;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(69,693,l),
+(69,0,l),
+(480,0,l),
+(497,124,l),
+(225,124,l),
+(225,693,l)
+);
+}
+);
+width = 511;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(31,698,l),
+(31,0,l),
+(498,0,l),
+(521,176,l),
+(262,176,l),
+(262,698,l)
+);
+}
+);
+width = 529;
 }
 );
 unicode = 119819;

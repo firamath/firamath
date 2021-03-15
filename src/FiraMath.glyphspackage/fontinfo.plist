@@ -444,6 +444,17 @@ weightClass = 600;
 },
 {
 axesValues = (
+150
+);
+exports = 0;
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.54717;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.45283;
+};
+name = "Regular*";
+},
+{
+axesValues = (
 158
 );
 instanceInterpolations = {
