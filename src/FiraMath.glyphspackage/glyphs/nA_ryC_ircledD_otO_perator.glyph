@@ -5,7 +5,7 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (402,0);
+pos = (224,0);
 ref = dotmath;
 },
 {
@@ -18,7 +18,7 @@ width = 988;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (381,0);
+pos = (211,0);
 ref = dotmath;
 },
 {
@@ -31,7 +31,7 @@ width = 972;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (352,0);
+pos = (182,0);
 ref = dotmath;
 },
 {
@@ -44,7 +44,7 @@ width = 924;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (331,0);
+pos = (194,0);
 ref = dotmath;
 },
 {

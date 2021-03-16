@@ -1,14 +1,31 @@
 {
-color = 8;
 glyphname = dotplus;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+ref = plus;
+},
+{
+pos = (0,273);
+ref = dotmath;
+}
+);
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+ref = plus;
+},
+{
+pos = (0,305);
+ref = dotmath;
+}
+);
+width = 550;
 },
 {
 background = {
@@ -45,31 +62,27 @@ nodes = (
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(316,576,o),
-(346,606,o),
-(346,642,cs),
-(346,678,o),
-(316,708,o),
-(280,708,cs),
-(244,708,o),
-(214,678,o),
-(214,642,cs),
-(214,606,o),
-(244,576,o),
-(280,576,cs)
-);
+ref = plus;
 },
 {
-ref = plus;
+pos = (0,360);
+ref = dotmath;
 }
 );
 width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+ref = plus;
+},
+{
+pos = (0,369);
+ref = dotmath;
+}
+);
+width = 560;
 }
 );
 metricLeft = minus;
