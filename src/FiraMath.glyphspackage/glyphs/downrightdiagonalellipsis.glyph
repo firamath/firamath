@@ -1,39 +1,54 @@
 {
-color = 8;
 glyphname = downrightdiagonalellipsis;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+alignment = 1;
+pos = (800,0);
+ref = uprightdiagonalellipsis;
+scale = (-1,1);
+}
+);
+width = 800;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+alignment = 1;
+pos = (870,0);
+ref = uprightdiagonalellipsis;
+scale = (-1,1);
+}
+);
+width = 870;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,260);
-ref = dotmath;
-},
-{
-pos = (260,0);
-ref = dotmath;
-},
-{
-pos = (520,-260);
-ref = dotmath;
+alignment = 1;
+pos = (960,0);
+ref = uprightdiagonalellipsis;
+scale = (-1,1);
 }
 );
-width = 740;
+width = 960;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+alignment = 1;
+pos = (940,0);
+ref = uprightdiagonalellipsis;
+scale = (-1,1);
 }
 );
-metricLeft = dotmath;
-metricRight = dotmath;
+width = 940;
+}
+);
 unicode = 8945;
 }

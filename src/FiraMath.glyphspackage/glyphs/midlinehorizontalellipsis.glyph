@@ -1,35 +1,73 @@
 {
-color = 8;
 glyphname = midlinehorizontalellipsis;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+ref = dotmath;
+},
+{
+pos = (150,0);
+ref = dotmath;
+},
+{
+pos = (300,0);
+ref = dotmath;
+}
+);
+width = 840;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+ref = dotmath;
+},
+{
+pos = (200,0);
+ref = dotmath;
+},
+{
+pos = (400,0);
+ref = dotmath;
+}
+);
+width = 950;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
-{
-pos = (520,0);
-ref = dotmath;
-},
 {
 ref = dotmath;
 },
 {
 pos = (260,0);
 ref = dotmath;
+},
+{
+pos = (520,0);
+ref = dotmath;
 }
 );
-width = 740;
+width = 1080;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+ref = dotmath;
+},
+{
+pos = (250,0);
+ref = dotmath;
+},
+{
+pos = (500,0);
+ref = dotmath;
+}
+);
+width = 1060;
 }
 );
 metricLeft = dotmath;
