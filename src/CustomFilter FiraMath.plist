@@ -342,8 +342,6 @@
 				<string>&#x2242;</string><!-- equals, similar -->
 				<string>&#x2243;</string><!-- similar, equals -->
 				<string>&#x2244;</string><!-- not similar, equals -->
-				<string>&#x2243;</string><!-- similar, equals (alias) -->
-				<string>&#x2244;</string><!-- not similar, equals (alias) -->
 				<string>&#x2245;</string><!-- congruent with -->
 				<string>&#x2246;</string><!-- similar, not equals [vert only for 9573 entity] -->
 				<string>&#x2247;</string><!-- not congruent with -->

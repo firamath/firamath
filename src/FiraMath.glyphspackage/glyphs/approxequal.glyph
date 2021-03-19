@@ -1,23 +1,22 @@
 {
-color = 4;
 glyphname = approxequal;
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,-110);
-ref = asciitilde;
+pos = (0,-108);
+ref = similar;
 },
 {
-pos = (0,110);
-ref = asciitilde;
+pos = (0,108);
+ref = similar;
 }
 );
-width = 530;
+width = 560;
 },
 {
-layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+background = {
 shapes = (
 {
 pos = (0,-67);
@@ -28,38 +27,50 @@ pos = (0,73);
 ref = asciitilde;
 }
 );
-width = 454;
+};
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,-71);
+ref = similar;
+},
+{
+pos = (0,71);
+ref = similar;
+}
+);
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,-72);
-ref = asciitilde;
+pos = (0,-78);
+ref = similar;
 },
 {
-pos = (0,81);
-ref = asciitilde;
+pos = (0,78);
+ref = similar;
 }
 );
-width = 458;
+width = 550;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,-89);
-ref = asciitilde;
+pos = (0,-96);
+ref = similar;
 },
 {
-pos = (0,100);
-ref = asciitilde;
+pos = (0,96);
+ref = similar;
 }
 );
-width = 488;
+width = 560;
 }
 );
-metricLeft = asciitilde;
-metricRight = asciitilde;
+metricLeft = similar;
+metricRight = similar;
 unicode = 8776;
 }

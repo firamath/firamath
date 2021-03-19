@@ -1,16 +1,19 @@
 {
-glyphname = greaterorequivalent;
+glyphname = almostequalorequalto;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,-181);
+pos = (0,-150);
+ref = minus;
+},
+{
+pos = (0,150);
 ref = similar;
 },
 {
-pos = (0,59);
-ref = greater;
+ref = similar;
 }
 );
 width = 540;
@@ -19,12 +22,15 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,-200);
+pos = (0,-156);
+ref = minus;
+},
+{
+pos = (0,156);
 ref = similar;
 },
 {
-pos = (0,63);
-ref = greater;
+ref = similar;
 }
 );
 width = 550;
@@ -33,12 +39,15 @@ width = 550;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,-245);
+pos = (0,-180);
+ref = minus;
+},
+{
+pos = (0,180);
 ref = similar;
 },
 {
-pos = (0,93);
-ref = greater;
+ref = similar;
 }
 );
 width = 560;
@@ -47,12 +56,16 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,-245);
+pos = (0,-198);
+ref = minus;
+},
+{
+pos = (0,218);
 ref = similar;
 },
 {
-pos = (0,105);
-ref = greater;
+pos = (0,10);
+ref = similar;
 }
 );
 width = 560;
@@ -60,5 +73,5 @@ width = 560;
 );
 metricLeft = similar;
 metricRight = similar;
-unicode = 8819;
+unicode = 8778;
 }
