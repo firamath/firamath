@@ -832,40 +832,40 @@
 			<string>Big operators</string>
 			<key>list</key>
 			<array>
-				<string>&#x222B;</string><!-- integral operator -->
-				<string>&#x222C;</string><!-- double integral operator -->
-				<string>&#x222D;</string><!-- triple integral operator -->
-				<string>&#x2A0C;</string><!-- quadruple integral operator -->
-				<string>&#x222E;</string><!-- contour integral operator -->
-				<string>&#x222F;</string><!-- double contour integral operator -->
-				<string>&#x2230;</string><!-- triple contour integral operator -->
-				<string>&#x2231;</string><!-- clockwise integral -->
-				<string>&#x2A11;</string><!-- anticlockwise integration -->
-				<string>&#x2232;</string><!-- contour integral, clockwise -->
-				<string>&#x2233;</string><!-- contour integral, anticlockwise -->
-				<string>&#x2A0B;</string><!-- summation with integral -->
-				<string>&#x2211;</string><!-- summation operator -->
-				<string>&#x2140;</string><!-- double-struck n-ary summation -->
-				<string>&#x220F;</string><!-- product operator -->
-				<string>&#x2210;</string><!-- coproduct operator -->
-				<string>&#x22C0;</string><!-- logical and operator -->
-				<string>&#x22C1;</string><!-- logical or operator -->
-				<string>&#x2A07;</string><!-- two logical and operator -->
-				<string>&#x2A08;</string><!-- two logical or operator -->
-				<string>&#x22C2;</string><!-- intersection operator -->
-				<string>&#x22C3;</string><!-- union operator -->
-				<string>&#x2A03;</string><!-- n-ary union operator with dot -->
-				<string>&#x2A04;</string><!-- n-ary union operator with plus -->
-				<string>&#x2A05;</string><!-- n-ary square intersection operator -->
-				<string>&#x2A06;</string><!-- n-ary square union operator -->
-				<string>&#x2A00;</string><!-- n-ary circled dot operator -->
-				<string>&#x2A01;</string><!-- n-ary circled plus operator -->
-				<string>&#x2A02;</string><!-- n-ary circled times operator -->
-				<string>&#x2A09;</string><!-- n-ary times operator -->
-				<string>&#x27D8;</string><!-- large up tack -->
-				<string>&#x27D9;</string><!-- large down tack -->
-				<string>&#x29F8;</string><!-- big solidus -->
-				<string>&#x29F9;</string><!-- big reverse solidus -->
+				<string>integral</string>
+				<string>dblintegral</string>
+				<string>tripleintegral</string>
+				<string>quadrupleIntegralOperator</string>
+				<string>contourintegral</string>
+				<string>surfaceintegral</string>
+				<string>volumeintegral</string>
+				<string>clockwiseintegral</string>
+				<string>anticlockwiseIntegration</string>
+				<string>clockwisecontourintegral</string>
+				<string>anticlockwisecontourintegral</string>
+				<string>summationWithIntegral</string>
+				<string>summation</string>
+				<string>summationdoubleStruck</string>
+				<string>product</string>
+				<string>coproduct</string>
+				<string>narylogicaland</string>
+				<string>narylogicalor</string>
+				<string>twoLogicalAndOperator</string>
+				<string>twoLogicalOrOperator</string>
+				<string>naryintersection</string>
+				<string>naryunion</string>
+				<string>nAryUnionOperatorWithDot</string>
+				<string>nAryUnionOperatorWithPlus</string>
+				<string>nArySquareIntersectionOperator</string>
+				<string>nArySquareUnionOperator</string>
+				<string>nAryCircledDotOperator</string>
+				<string>nAryCircledPlusOperator</string>
+				<string>nAryCircledTimesOperator</string>
+				<string>nAryTimesOperator</string>
+				<string>largeUpTack</string>
+				<string>largeDownTack</string>
+				<string>bigSolidus</string>
+				<string>bigReverseSolidus</string>
 				<string>integral.size01</string>
 				<string>dblintegral.size01</string>
 				<string>tripleintegral.size01</string>
@@ -873,14 +873,33 @@
 				<string>contourintegral.size01</string>
 				<string>surfaceintegral.size01</string>
 				<string>volumeintegral.size01</string>
+				<string>clockwiseintegral.size01</string>
+				<string>anticlockwiseIntegration.size01</string>
+				<string>clockwisecontourintegral.size01</string>
+				<string>anticlockwisecontourintegral.size01</string>
 				<string>summationWithIntegral.size01</string>
 				<string>summation.size01</string>
 				<string>summationdoubleStruck.size01</string>
 				<string>product.size01</string>
 				<string>coproduct.size01</string>
+				<string>narylogicaland.size01</string>
+				<string>narylogicalor.size01</string>
+				<string>twoLogicalAndOperator.size01</string>
+				<string>twoLogicalOrOperator.size01</string>
+				<string>naryintersection.size01</string>
+				<string>naryunion.size01</string>
+				<string>nAryUnionOperatorWithDot.size01</string>
+				<string>nAryUnionOperatorWithPlus.size01</string>
+				<string>nArySquareIntersectionOperator.size01</string>
+				<string>nArySquareUnionOperator.size01</string>
 				<string>nAryCircledDotOperator.size01</string>
 				<string>nAryCircledPlusOperator.size01</string>
 				<string>nAryCircledTimesOperator.size01</string>
+				<string>nAryTimesOperator.size01</string>
+				<string>largeUpTack.size01</string>
+				<string>largeDownTack.size01</string>
+				<string>bigSolidus.size01</string>
+				<string>bigReverseSolidus.size01</string>
 			</array>
 		</dict>
 		<dict>
