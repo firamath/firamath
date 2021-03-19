@@ -62,18 +62,6 @@ nodes = (
 width = 550;
 },
 {
-background = {
-shapes = (
-{
-pos = (0,-180);
-ref = greater;
-},
-{
-pos = (0,180);
-ref = less;
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -104,18 +92,6 @@ nodes = (
 width = 560;
 },
 {
-background = {
-shapes = (
-{
-pos = (0,-200);
-ref = greater;
-},
-{
-pos = (0,200);
-ref = less;
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

@@ -16,18 +16,6 @@ ref = similar;
 width = 560;
 },
 {
-background = {
-shapes = (
-{
-pos = (0,-67);
-ref = asciitilde;
-},
-{
-pos = (0,73);
-ref = asciitilde;
-}
-);
-};
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
