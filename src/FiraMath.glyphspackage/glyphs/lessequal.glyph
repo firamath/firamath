@@ -1,68 +1,68 @@
 {
-color = 4;
 glyphname = lessequal;
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-alignment = -1;
-pos = (0,105);
-ref = less;
+pos = (0,-261);
+ref = minus;
 },
 {
-pos = (0,-257);
-ref = minus;
+alignment = -1;
+pos = (0,84);
+ref = less;
 }
 );
-width = 530;
+width = 560;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-alignment = -1;
-pos = (5,0);
-ref = less;
+pos = (0,-197);
+ref = minus;
 },
 {
-pos = (5,-330);
-ref = minus;
+alignment = -1;
+pos = (0,42);
+ref = less;
 }
 );
-width = 501;
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-alignment = -1;
-ref = less;
+pos = (0,-214);
+ref = minus;
 },
 {
-pos = (0,-316);
-ref = minus;
+alignment = -1;
+pos = (0,49);
+ref = less;
 }
 );
-width = 494;
+width = 550;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-alignment = -1;
-pos = (0,30);
-ref = less;
+pos = (0,-262);
+ref = minus;
 },
 {
-pos = (0,-294);
-ref = minus;
+alignment = -1;
+pos = (0,75);
+ref = less;
 }
 );
-width = 500;
+width = 560;
 }
 );
-metricLeft = less;
-metricRight = less;
+metricLeft = minus;
+metricRight = minus;
 unicode = 8804;
 }

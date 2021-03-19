@@ -1,0 +1,86 @@
+{
+glyphname = lessoverequal;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,-266);
+ref = minus;
+},
+{
+pos = (0,-132);
+ref = minus;
+},
+{
+alignment = -1;
+pos = (0,111);
+ref = less;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,-278);
+ref = minus;
+},
+{
+pos = (0,-146);
+ref = minus;
+},
+{
+alignment = -1;
+pos = (0,113);
+ref = less;
+}
+);
+width = 550;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,-320);
+ref = minus;
+},
+{
+pos = (0,-172);
+ref = minus;
+},
+{
+alignment = -1;
+pos = (0,133);
+ref = less;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,-308);
+ref = minus;
+scale = (1,0.84);
+},
+{
+pos = (0,-134);
+ref = minus;
+scale = (1,0.84);
+},
+{
+alignment = -1;
+pos = (0,163);
+ref = less;
+}
+);
+width = 560;
+}
+);
+metricLeft = lessequal;
+metricRight = lessequal;
+unicode = 8806;
+}
