@@ -1,5 +1,5 @@
 {
-glyphname = reflexsuperset;
+glyphname = suchthat;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = 1;
 pos = (540,0);
-ref = reflexsubset;
+ref = element;
 scale = (-1,1);
 }
 );
@@ -19,7 +19,7 @@ shapes = (
 {
 alignment = 1;
 pos = (550,0);
-ref = reflexsubset;
+ref = element;
 scale = (-1,1);
 }
 );
@@ -31,7 +31,7 @@ shapes = (
 {
 alignment = 1;
 pos = (560,0);
-ref = reflexsubset;
+ref = element;
 scale = (-1,1);
 }
 );
@@ -43,12 +43,12 @@ shapes = (
 {
 alignment = 1;
 pos = (560,0);
-ref = reflexsubset;
+ref = element;
 scale = (-1,1);
 }
 );
 width = 560;
 }
 );
-unicode = 8839;
+unicode = 8715;
 }
