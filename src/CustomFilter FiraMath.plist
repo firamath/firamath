@@ -827,6 +827,416 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ordinary symbols</string>
+			<key>list</key>
+			<array>
+				<string>&#x0023;</string><!-- number sign -->
+				<string>&#x0024;</string><!-- dollar sign -->
+				<string>&#x0025;</string><!-- percent sign -->
+				<string>&#x0026;</string><!-- ampersand -->
+				<string>&#x002E;</string><!-- full stop, period -->
+				<string>&#x002F;</string><!-- solidus -->
+				<string>&#x003F;</string><!-- question mark -->
+				<string>&#x0040;</string><!-- commercial at -->
+				<string>&#x005C;</string><!-- reverse solidus -->
+				<string>&#x00A3;</string><!-- pound sign -->
+				<string>&#x00A5;</string><!-- yen sign -->
+				<string>&#x00A7;</string><!-- section symbol -->
+				<string>&#x00AC;</string><!-- neg not sign -->
+				<string>&#x00B6;</string><!-- paragraph symbol -->
+				<string>&#x01B5;</string><!-- impedance (latin capital letter z with stroke) -->
+				<string>&#x03F6;</string><!-- greek reversed lunate epsilon symbol -->
+				<string>&#x2015;</string><!-- horizontal bar -->
+				<string>&#x2017;</string><!-- double low line (spacing) -->
+				<string>&#x2025;</string><!-- double baseline dot (en leader) -->
+				<string>&#x2026;</string><!-- ellipsis (horizontal) -->
+				<string>&#x2032;</string><!-- prime or minute, not superscripted -->
+				<string>&#x2033;</string><!-- double prime or second, not superscripted -->
+				<string>&#x2034;</string><!-- triple prime (not superscripted) -->
+				<string>&#x2035;</string><!-- reverse prime, not superscripted -->
+				<string>&#x2036;</string><!-- double reverse prime, not superscripted -->
+				<string>&#x2037;</string><!-- triple reverse prime, not superscripted -->
+				<string>&#x2038;</string><!-- caret (insertion mark) -->
+				<string>&#x203C;</string><!-- double exclamation mark -->
+				<string>&#x2043;</string><!-- rectangle, filled (hyphen bullet) -->
+				<string>&#x2047;</string><!-- double question mark -->
+				<string>&#x2057;</string><!-- quadruple prime, not superscripted -->
+				<string>&#x20AC;</string><!-- euro sign -->
+				<string>&#x20DD;</string><!-- combining enclosing circle -->
+				<string>&#x20DE;</string><!-- combining enclosing square -->
+				<string>&#x20DF;</string><!-- combining enclosing diamond -->
+				<string>&#x20E4;</string><!-- combining enclosing upward pointing triangle -->
+				<string>&#x2107;</string><!-- euler constant -->
+				<string>&#x210E;</string><!-- planck constant -->
+				<string>&#x2127;</string><!-- conductance -->
+				<string>&#x2132;</string><!-- turned capital f -->
+				<string>&#x213C;</string><!-- double-struck small pi -->
+				<string>&#x2141;</string><!-- turned sans-serif capital g -->
+				<string>&#x2142;</string><!-- turned sans-serif capital l -->
+				<string>&#x2143;</string><!-- reversed sans-serif capital l -->
+				<string>&#x2144;</string><!-- turned sans-serif capital y -->
+				<string>&#x2145;</string><!-- double-struck italic capital d -->
+				<string>&#x2146;</string><!-- double-struck italic small d -->
+				<string>&#x2147;</string><!-- double-struck italic small e -->
+				<string>&#x2148;</string><!-- double-struck italic small i -->
+				<string>&#x2149;</string><!-- double-struck italic small j -->
+				<string>&#x214A;</string><!-- property line -->
+				<string>&#x21A8;</string><!-- up down arrow with base (perpendicular) -->
+				<string>&#x21B4;</string><!-- rightwards arrow with corner downwards -->
+				<string>&#x21B5;</string><!-- downwards arrow with corner leftward = carriage return -->
+				<string>&#x21B8;</string><!-- north west arrow to long bar -->
+				<string>&#x21B9;</string><!-- leftwards arrow to bar over rightwards arrow to bar -->
+				<string>&#x21BA;</string><!-- anticlockwise open circle arrow -->
+				<string>&#x21BB;</string><!-- clockwise open circle arrow -->
+				<string>&#x21DE;</string><!-- upwards arrow with double stroke -->
+				<string>&#x21DF;</string><!-- downwards arrow with double stroke -->
+				<string>&#x21E0;</string><!-- leftwards dashed arrow -->
+				<string>&#x21E1;</string><!-- upwards dashed arrow -->
+				<string>&#x21E2;</string><!-- rightwards dashed arrow -->
+				<string>&#x21E3;</string><!-- downwards dashed arrow -->
+				<string>&#x21E6;</string><!-- leftwards white arrow -->
+				<string>&#x21E7;</string><!-- upwards white arrow -->
+				<string>&#x21E8;</string><!-- rightwards white arrow -->
+				<string>&#x21E9;</string><!-- downwards white arrow -->
+				<string>&#x21EA;</string><!-- upwards white arrow from bar -->
+				<string>&#x2200;</string><!-- for all -->
+				<string>&#x2201;</string><!-- complement sign -->
+				<string>&#x2203;</string><!-- at least one exists -->
+				<string>&#x2204;</string><!-- negated exists -->
+				<string>&#x2205;</string><!-- circle, slash -->
+				<string>&#x2206;</string><!-- laplacian (delta; nabla\string^2) -->
+				<string>&#x220E;</string><!-- end of proof -->
+				<string>&#x221A;</string><!-- radical -->
+				<string>&#x221E;</string><!-- infinity -->
+				<string>&#x221F;</string><!-- right (90 degree) angle -->
+				<string>&#x2220;</string><!-- angle -->
+				<string>&#x2221;</string><!-- angle-measured -->
+				<string>&#x2222;</string><!-- angle-spherical -->
+				<string>&#x2234;</string><!-- therefore -->
+				<string>&#x2235;</string><!-- because -->
+				<string>&#x223F;</string><!-- sine wave -->
+				<string>&#x22A4;</string><!-- top -->
+				<string>&#x22A5;</string><!-- bottom -->
+				<string>&#x22B9;</string><!-- hermitian conjugate matrix -->
+				<string>&#x22BE;</string><!-- right angle-measured [with arc] -->
+				<string>&#x22BF;</string><!-- right triangle -->
+				<string>&#x22EF;</string><!-- three dots, centered -->
+				<string>&#x2300;</string><!-- diameter sign -->
+				<string>&#x2302;</string><!-- house -->
+				<string>&#x2310;</string><!-- reverse not -->
+				<string>&#x2311;</string><!-- square lozenge -->
+				<string>&#x2312;</string><!-- profile of a line -->
+				<string>&#x2313;</string><!-- profile of a surface -->
+				<string>&#x2317;</string><!-- viewdata square -->
+				<string>&#x2319;</string><!-- turned not sign -->
+				<string>&#x2320;</string><!-- top half integral -->
+				<string>&#x2321;</string><!-- bottom half integral -->
+				<string>&#x232C;</string><!-- six carbon ring, corner down, double bonds lower right etc -->
+				<string>&#x2332;</string><!-- conical taper  -->
+				<string>&#x2336;</string><!-- top and bottom -->
+				<string>&#x2340;</string><!-- apl functional symbol backslash bar -->
+				<string>&#x2353;</string><!-- boxed up caret -->
+				<string>&#x2370;</string><!-- boxed question mark -->
+				<string>&#x237C;</string><!-- right angle with downwards zigzag arrow -->
+				<string>&#x2394;</string><!-- horizontal benzene ring [hexagon flat open] -->
+				<string>&#x239B;</string><!-- left parenthesis upper hook -->
+				<string>&#x239C;</string><!-- left parenthesis extension -->
+				<string>&#x239D;</string><!-- left parenthesis lower hook -->
+				<string>&#x239E;</string><!-- right parenthesis upper hook -->
+				<string>&#x239F;</string><!-- right parenthesis extension -->
+				<string>&#x23A0;</string><!-- right parenthesis lower hook -->
+				<string>&#x23A1;</string><!-- left square bracket upper corner -->
+				<string>&#x23A2;</string><!-- left square bracket extension -->
+				<string>&#x23A3;</string><!-- left square bracket lower corner -->
+				<string>&#x23A4;</string><!-- right square bracket upper corner -->
+				<string>&#x23A5;</string><!-- right square bracket extension -->
+				<string>&#x23A6;</string><!-- right square bracket lower corner -->
+				<string>&#x23A7;</string><!-- left curly bracket upper hook -->
+				<string>&#x23A8;</string><!-- left curly bracket middle piece -->
+				<string>&#x23A9;</string><!-- left curly bracket lower hook -->
+				<string>&#x23AA;</string><!-- curly bracket extension -->
+				<string>&#x23AB;</string><!-- right curly bracket upper hook -->
+				<string>&#x23AC;</string><!-- right curly bracket middle piece -->
+				<string>&#x23AD;</string><!-- right curly bracket lower hook -->
+				<string>&#x23AE;</string><!-- integral extension -->
+				<string>&#x23AF;</string><!-- horizontal line extension (used to extend arrows) -->
+				<string>&#x23B2;</string><!-- summation top -->
+				<string>&#x23B3;</string><!-- summation bottom -->
+				<string>&#x23B6;</string><!-- bottom square bracket over top square bracket -->
+				<string>&#x23B7;</string><!-- radical symbol bottom -->
+				<string>&#x23B8;</string><!-- left vertical box line -->
+				<string>&#x23B9;</string><!-- right vertical box line -->
+				<string>&#x23CE;</string><!-- return symbol -->
+				<string>&#x23E0;</string><!-- top tortoise shell bracket (mathematical use) -->
+				<string>&#x23E1;</string><!-- bottom tortoise shell bracket (mathematical use) -->
+				<string>&#x23E2;</string><!-- white trapezium -->
+				<string>&#x23E3;</string><!-- benzene ring with circle -->
+				<string>&#x23E4;</string><!-- straightness -->
+				<string>&#x23E5;</string><!-- flatness -->
+				<string>&#x23E6;</string><!-- ac current -->
+				<string>&#x23E7;</string><!-- electrical intersection -->
+				<string>&#x2422;</string><!-- blank symbol -->
+				<string>&#x2423;</string><!-- open box -->
+				<string>&#x2506;</string><!-- doubly broken vert -->
+				<string>&#x2580;</string><!-- upper half block -->
+				<string>&#x2584;</string><!-- lower half block -->
+				<string>&#x2588;</string><!-- full block -->
+				<string>&#x258C;</string><!-- left half block -->
+				<string>&#x2590;</string><!-- right half block -->
+				<string>&#x2591;</string><!-- 25\% shaded block -->
+				<string>&#x2592;</string><!-- 50\% shaded block -->
+				<string>&#x2593;</string><!-- 75\% shaded block -->
+				<string>&#x25A0;</string><!-- square, filled -->
+				<string>&#x25A1;</string><!-- square, open -->
+				<string>&#x25A2;</string><!-- white square with rounded corners -->
+				<string>&#x25A3;</string><!-- white square containing black small square -->
+				<string>&#x25A4;</string><!-- square, horizontal rule filled -->
+				<string>&#x25A5;</string><!-- square, vertical rule filled -->
+				<string>&#x25A6;</string><!-- square with orthogonal crosshatch fill -->
+				<string>&#x25A7;</string><!-- square, nw-to-se rule filled -->
+				<string>&#x25A8;</string><!-- square, ne-to-sw rule filled -->
+				<string>&#x25A9;</string><!-- square with diagonal crosshatch fill -->
+				<string>&#x25AA;</string><!-- blacksquare - sq bullet, filled -->
+				<string>&#x25AB;</string><!-- white small square -->
+				<string>&#x25AC;</string><!-- black rectangle -->
+				<string>&#x25AD;</string><!-- horizontal rectangle, open -->
+				<string>&#x25AE;</string><!-- black vertical rectangle -->
+				<string>&#x25AF;</string><!-- rectangle, white (vertical) -->
+				<string>&#x25B0;</string><!-- black parallelogram -->
+				<string>&#x25B1;</string><!-- parallelogram, open -->
+				<string>&#x25B2;</string><!-- black up-pointing triangle -->
+				<string>&#x25B4;</string><!-- up triangle, filled -->
+				<string>&#x25B6;</string><!-- large) right triangle, filled -->
+				<string>&#x25B8;</string><!-- right triangle, filled -->
+				<string>&#x25B9;</string><!-- right triangle, open -->
+				<string>&#x25BA;</string><!-- black right-pointing pointer -->
+				<string>&#x25BB;</string><!-- white right-pointing pointer -->
+				<string>&#x25BC;</string><!-- big down triangle, filled -->
+				<string>&#x25BD;</string><!-- big down triangle, open -->
+				<string>&#x25BE;</string><!-- down triangle, filled -->
+				<string>&#x25BF;</string><!-- down triangle, open -->
+				<string>&#x25C0;</string><!-- large) left triangle, filled -->
+				<string>&#x25C2;</string><!-- left triangle, filled -->
+				<string>&#x25C3;</string><!-- left triangle, open -->
+				<string>&#x25C4;</string><!-- black left-pointing pointer -->
+				<string>&#x25C5;</string><!-- white left-pointing pointer -->
+				<string>&#x25C6;</string><!-- black diamond -->
+				<string>&#x25C7;</string><!-- white diamond; diamond, open -->
+				<string>&#x25C8;</string><!-- white diamond containing black small diamond -->
+				<string>&#x25C9;</string><!-- fisheye -->
+				<string>&#x25CA;</string><!-- lozenge or total mark -->
+				<string>&#x25CC;</string><!-- dotted circle -->
+				<string>&#x25CD;</string><!-- circle with vertical fill -->
+				<string>&#x25CE;</string><!-- bullseye -->
+				<string>&#x25CF;</string><!-- circle, filled -->
+				<string>&#x25D0;</string><!-- circle, filled left half [harvey ball] -->
+				<string>&#x25D1;</string><!-- circle, filled right half -->
+				<string>&#x25D2;</string><!-- circle, filled bottom half -->
+				<string>&#x25D3;</string><!-- circle, filled top half -->
+				<string>&#x25D4;</string><!-- circle with upper right quadrant black -->
+				<string>&#x25D5;</string><!-- circle with all but upper left quadrant black -->
+				<string>&#x25D6;</string><!-- left half black circle -->
+				<string>&#x25D7;</string><!-- right half black circle -->
+				<string>&#x25D8;</string><!-- inverse bullet  -->
+				<string>&#x25D9;</string><!-- inverse white circle -->
+				<string>&#x25DA;</string><!-- upper half inverse white circle -->
+				<string>&#x25DB;</string><!-- lower half inverse white circle -->
+				<string>&#x25DC;</string><!-- upper left quadrant circular arc -->
+				<string>&#x25DD;</string><!-- upper right quadrant circular arc -->
+				<string>&#x25DE;</string><!-- lower right quadrant circular arc -->
+				<string>&#x25DF;</string><!-- lower left quadrant circular arc -->
+				<string>&#x25E0;</string><!-- upper half circle -->
+				<string>&#x25E1;</string><!-- lower half circle -->
+				<string>&#x25E2;</string><!-- lower right triangle, filled -->
+				<string>&#x25E3;</string><!-- lower left triangle, filled -->
+				<string>&#x25E4;</string><!-- upper left triangle, filled -->
+				<string>&#x25E5;</string><!-- upper right triangle, filled -->
+				<string>&#x25E6;</string><!-- white bullet -->
+				<string>&#x25E7;</string><!-- square, filled left half -->
+				<string>&#x25E8;</string><!-- square, filled right half -->
+				<string>&#x25E9;</string><!-- square, filled top left corner -->
+				<string>&#x25EA;</string><!-- square, filled bottom right corner -->
+				<string>&#x25EC;</string><!-- triangle with centered dot -->
+				<string>&#x25ED;</string><!-- up-pointing triangle with left half black -->
+				<string>&#x25EE;</string><!-- up-pointing triangle with right half black -->
+				<string>&#x25EF;</string><!-- large circle -->
+				<string>&#x25F0;</string><!-- white square with upper left quadrant -->
+				<string>&#x25F1;</string><!-- white square with lower left quadrant -->
+				<string>&#x25F2;</string><!-- white square with lower right quadrant -->
+				<string>&#x25F3;</string><!-- white square with upper right quadrant -->
+				<string>&#x25F4;</string><!-- white circle with upper left quadrant -->
+				<string>&#x25F5;</string><!-- white circle with lower left quadrant -->
+				<string>&#x25F6;</string><!-- white circle with lower right quadrant -->
+				<string>&#x25F7;</string><!-- white circle with upper right quadrant -->
+				<string>&#x25F8;</string><!-- upper left triangle -->
+				<string>&#x25F9;</string><!-- upper right triangle -->
+				<string>&#x25FA;</string><!-- lower left triangle -->
+				<string>&#x25FB;</string><!-- white medium square -->
+				<string>&#x25FC;</string><!-- black medium square -->
+				<string>&#x25FD;</string><!-- white medium small square -->
+				<string>&#x25FE;</string><!-- black medium small square -->
+				<string>&#x25FF;</string><!-- lower right triangle -->
+				<string>&#x2605;</string><!-- star, filled -->
+				<string>&#x2606;</string><!-- star, open -->
+				<string>&#x2609;</string><!-- sun -->
+				<string>&#x2621;</string><!-- dangerous bend (caution sign) -->
+				<string>&#x263B;</string><!-- black smiling face -->
+				<string>&#x263C;</string><!-- white sun with rays -->
+				<string>&#x263D;</string><!-- first quarter moon -->
+				<string>&#x263E;</string><!-- last quarter moon -->
+				<string>&#x2640;</string><!-- venus, female -->
+				<string>&#x2642;</string><!-- mars, male -->
+				<string>&#x2660;</string><!-- spades suit symbol -->
+				<string>&#x2661;</string><!-- heart suit symbol -->
+				<string>&#x2662;</string><!-- diamond suit symbol -->
+				<string>&#x2663;</string><!-- club suit symbol -->
+				<string>&#x2664;</string><!-- spade, white (card suit) -->
+				<string>&#x2665;</string><!-- filled heart (card suit) -->
+				<string>&#x2666;</string><!-- filled diamond (card suit) -->
+				<string>&#x2667;</string><!-- club, white (card suit) -->
+				<string>&#x2669;</string><!-- music note (sung text sign) -->
+				<string>&#x266A;</string><!-- eighth note -->
+				<string>&#x266B;</string><!-- beamed eighth notes -->
+				<string>&#x266D;</string><!-- musical flat -->
+				<string>&#x266E;</string><!-- music natural -->
+				<string>&#x266F;</string><!-- musical sharp -->
+				<string>&#x267E;</string><!-- permanent paper sign -->
+				<string>&#x2680;</string><!-- die face-1 -->
+				<string>&#x2681;</string><!-- die face-2 -->
+				<string>&#x2682;</string><!-- die face-3 -->
+				<string>&#x2683;</string><!-- die face-4 -->
+				<string>&#x2684;</string><!-- die face-5 -->
+				<string>&#x2685;</string><!-- die face-6 -->
+				<string>&#x2686;</string><!-- white circle with dot right -->
+				<string>&#x2687;</string><!-- white circle with two dots -->
+				<string>&#x2688;</string><!-- black circle with white dot right -->
+				<string>&#x2689;</string><!-- black circle with two white dots -->
+				<string>&#x26A5;</string><!-- male and female sign -->
+				<string>&#x26AA;</string><!-- medium white circle -->
+				<string>&#x26AB;</string><!-- medium black circle -->
+				<string>&#x26AC;</string><!-- medium small white circle -->
+				<string>&#x26B2;</string><!-- neuter -->
+				<string>&#x2713;</string><!-- tick, check mark -->
+				<string>&#x2720;</string><!-- maltese cross -->
+				<string>&#x272A;</string><!-- circled white star -->
+				<string>&#x2736;</string><!-- six pointed black star -->
+				<string>&#x273D;</string><!-- heavy teardrop-spoked asterisk -->
+				<string>&#x279B;</string><!-- right arrow with bold head (drafting) -->
+				<string>&#x27C0;</string><!-- three dimensional angle -->
+				<string>&#x27C1;</string><!-- white triangle containing small white triangle -->
+				<string>&#x27C3;</string><!-- open subset -->
+				<string>&#x27C4;</string><!-- open superset -->
+				<string>&#x27D0;</string><!-- white diamond with centred dot -->
+				<string>&#x292B;</string><!-- rising diagonal crossing falling diagonal -->
+				<string>&#x292C;</string><!-- falling diagonal crossing rising diagonal -->
+				<string>&#x292D;</string><!-- south east arrow crossing north east arrow -->
+				<string>&#x292E;</string><!-- north east arrow crossing south east arrow -->
+				<string>&#x292F;</string><!-- falling diagonal crossing north east arrow -->
+				<string>&#x2930;</string><!-- rising diagonal crossing south east arrow -->
+				<string>&#x2931;</string><!-- north east arrow crossing north west arrow -->
+				<string>&#x2932;</string><!-- north west arrow crossing north east arrow -->
+				<string>&#x2934;</string><!-- arrow pointing rightwards then curving upwards -->
+				<string>&#x2935;</string><!-- arrow pointing rightwards then curving downwards -->
+				<string>&#x2981;</string><!-- z notation spot -->
+				<string>&#x2999;</string><!-- dotted fence -->
+				<string>&#x299A;</string><!-- vertical zigzag line -->
+				<string>&#x299B;</string><!-- measured angle opening left -->
+				<string>&#x299C;</string><!-- right angle variant with square -->
+				<string>&#x299D;</string><!-- measured right angle with dot -->
+				<string>&#x299E;</string><!-- angle with s inside -->
+				<string>&#x299F;</string><!-- acute angle -->
+				<string>&#x29A0;</string><!-- spherical angle opening left -->
+				<string>&#x29A1;</string><!-- spherical angle opening up -->
+				<string>&#x29A2;</string><!-- turned angle -->
+				<string>&#x29A3;</string><!-- reversed angle -->
+				<string>&#x29A4;</string><!-- angle with underbar -->
+				<string>&#x29A5;</string><!-- reversed angle with underbar -->
+				<string>&#x29A6;</string><!-- oblique angle opening up -->
+				<string>&#x29A7;</string><!-- oblique angle opening down -->
+				<string>&#x29A8;</string><!-- measured angle with open arm ending in arrow pointing up and right -->
+				<string>&#x29A9;</string><!-- measured angle with open arm ending in arrow pointing up and left -->
+				<string>&#x29AA;</string><!-- measured angle with open arm ending in arrow pointing down and right -->
+				<string>&#x29AB;</string><!-- measured angle with open arm ending in arrow pointing down and left -->
+				<string>&#x29AC;</string><!-- measured angle with open arm ending in arrow pointing right and up -->
+				<string>&#x29AD;</string><!-- measured angle with open arm ending in arrow pointing left and up -->
+				<string>&#x29AE;</string><!-- measured angle with open arm ending in arrow pointing right and down -->
+				<string>&#x29AF;</string><!-- measured angle with open arm ending in arrow pointing left and down -->
+				<string>&#x29B0;</string><!-- reversed empty set -->
+				<string>&#x29B1;</string><!-- empty set with overbar -->
+				<string>&#x29B2;</string><!-- empty set with small circle above -->
+				<string>&#x29B3;</string><!-- empty set with right arrow above -->
+				<string>&#x29B4;</string><!-- empty set with left arrow above -->
+				<string>&#x29BA;</string><!-- circle divided by horizontal bar and top half divided by vertical bar -->
+				<string>&#x29BB;</string><!-- circle with superimposed x -->
+				<string>&#x29BC;</string><!-- circled anticlockwise-rotated division sign -->
+				<string>&#x29BD;</string><!-- up arrow through circle -->
+				<string>&#x29BE;</string><!-- circled white bullet -->
+				<string>&#x29BF;</string><!-- circled bullet -->
+				<string>&#x29C2;</string><!-- circle with small circle to the right -->
+				<string>&#x29C3;</string><!-- circle with two horizontal strokes to the right -->
+				<string>&#x29C9;</string><!-- two joined squares -->
+				<string>&#x29CA;</string><!-- triangle with dot above -->
+				<string>&#x29CB;</string><!-- triangle with underbar -->
+				<string>&#x29CC;</string><!-- s in triangle -->
+				<string>&#x29DC;</string><!-- incomplete infinity -->
+				<string>&#x29DD;</string><!-- tie over infinity -->
+				<string>&#x29DE;</string><!-- infinity negated with vertical bar -->
+				<string>&#x29E0;</string><!-- square with contoured outline -->
+				<string>&#x29E7;</string><!-- thermodynamic -->
+				<string>&#x29E8;</string><!-- down-pointing triangle with left half black -->
+				<string>&#x29E9;</string><!-- down-pointing triangle with right half black -->
+				<string>&#x29EA;</string><!-- black diamond with down arrow -->
+				<string>&#x29EC;</string><!-- white circle with down arrow -->
+				<string>&#x29ED;</string><!-- black circle with down arrow -->
+				<string>&#x29EE;</string><!-- error-barred white square -->
+				<string>&#x29EF;</string><!-- error-barred black square -->
+				<string>&#x29F0;</string><!-- error-barred white diamond -->
+				<string>&#x29F1;</string><!-- error-barred black diamond -->
+				<string>&#x29F2;</string><!-- error-barred white circle -->
+				<string>&#x29F3;</string><!-- error-barred black circle -->
+				<string>&#x2AE1;</string><!-- perpendicular with s -->
+				<string>&#x2AF1;</string><!-- down tack with circle below -->
+				<string>&#x2B12;</string><!-- square with top half black -->
+				<string>&#x2B13;</string><!-- square with bottom half black -->
+				<string>&#x2B14;</string><!-- square with upper right diagonal half black -->
+				<string>&#x2B15;</string><!-- square with lower left diagonal half black -->
+				<string>&#x2B16;</string><!-- diamond with left half black -->
+				<string>&#x2B17;</string><!-- diamond with right half black -->
+				<string>&#x2B18;</string><!-- diamond with top half black -->
+				<string>&#x2B19;</string><!-- diamond with bottom half black -->
+				<string>&#x2B1A;</string><!-- dotted square -->
+				<string>&#x2B1B;</string><!-- black large square -->
+				<string>&#x2B1C;</string><!-- white large square -->
+				<string>&#x2B1D;</string><!-- black very small square -->
+				<string>&#x2B1E;</string><!-- white very small square -->
+				<string>&#x2B1F;</string><!-- black pentagon -->
+				<string>&#x2B20;</string><!-- white pentagon -->
+				<string>&#x2B21;</string><!-- white hexagon -->
+				<string>&#x2B22;</string><!-- black hexagon -->
+				<string>&#x2B23;</string><!-- horizontal black hexagon -->
+				<string>&#x2B24;</string><!-- black large circle -->
+				<string>&#x2B25;</string><!-- black medium diamond -->
+				<string>&#x2B26;</string><!-- white medium diamond -->
+				<string>&#x2B27;</string><!-- black medium lozenge -->
+				<string>&#x2B28;</string><!-- white medium lozenge -->
+				<string>&#x2B29;</string><!-- black small diamond -->
+				<string>&#x2B2A;</string><!-- black small lozenge -->
+				<string>&#x2B2B;</string><!-- white small lozenge -->
+				<string>&#x2B2C;</string><!-- black horizontal ellipse -->
+				<string>&#x2B2D;</string><!-- white horizontal ellipse -->
+				<string>&#x2B2E;</string><!-- black vertical ellipse -->
+				<string>&#x2B2F;</string><!-- white vertical ellipse -->
+				<string>&#x2B50;</string><!-- white medium star -->
+				<string>&#x2B51;</string><!-- black medium star -->
+				<string>&#x2B52;</string><!-- white small star -->
+				<string>&#x2B53;</string><!-- black right-pointing pentagon -->
+				<string>&#x2B54;</string><!-- white right-pointing pentagon -->
+				<string>&#x3012;</string><!-- postal mark -->
+				<string>&#x3030;</string><!-- zigzag -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Big operators</string>
 			<key>list</key>
 			<array>
