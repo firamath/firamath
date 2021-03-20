@@ -125,7 +125,7 @@ nodes = (
 );
 }
 );
-width = 240;
+width = 239;
 }
 );
 metricRight = period;

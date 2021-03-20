@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = fraction;
 layers = (
 {
@@ -10,12 +10,12 @@ closed = 1;
 nodes = (
 (-167,-35,l),
 (-56,-90,l),
-(358,709,l),
-(247,764,l)
+(359,709,l),
+(248,764,l)
 );
 }
 );
-width = 191;
+width = 192;
 },
 {
 background = {
