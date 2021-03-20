@@ -43,7 +43,7 @@ ref = period;
 width = 240;
 }
 );
-metricLeft = periodcentered;
-metricRight = periodcentered;
+metricLeft = period;
+metricRight = period;
 unicode = 903;
 }

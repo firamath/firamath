@@ -2,6 +2,12 @@
 glyphname = element;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (275,280);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -40,6 +46,12 @@ nodes = (
 width = 540;
 },
 {
+anchors = (
+{
+name = center;
+pos = (285,280);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -78,6 +90,12 @@ nodes = (
 width = 550;
 },
 {
+anchors = (
+{
+name = center;
+pos = (300,280);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -116,6 +134,12 @@ nodes = (
 width = 560;
 },
 {
+anchors = (
+{
+name = center;
+pos = (310,280);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -124,11 +148,11 @@ nodes = (
 (510,10,l),
 (510,156,l),
 (341,156,ls),
-(281,156,o),
-(184,156,o),
-(184,280,cs),
-(184,404,o),
-(281,404,o),
+(275,156,o),
+(172,156,o),
+(172,280,cs),
+(172,404,o),
+(275,404,o),
 (341,404,cs),
 (510,404,l),
 (510,550,l),

@@ -2,6 +2,12 @@
 glyphname = greaterequal;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (240,280);
+}
+);
 background = {
 shapes = (
 {
@@ -30,6 +36,12 @@ scale = (-1,1);
 width = 560;
 },
 {
+anchors = (
+{
+name = center;
+pos = (270,280);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -42,6 +54,12 @@ scale = (-1,1);
 width = 540;
 },
 {
+anchors = (
+{
+name = center;
+pos = (265,280);
+}
+);
 background = {
 shapes = (
 {
@@ -79,6 +97,12 @@ scale = (-1,1);
 width = 550;
 },
 {
+anchors = (
+{
+name = center;
+pos = (260,280);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

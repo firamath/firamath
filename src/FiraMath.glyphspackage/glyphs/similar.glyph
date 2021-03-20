@@ -2,6 +2,12 @@
 glyphname = similar;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (270,280);
+}
+);
 background = {
 shapes = (
 {
@@ -62,6 +68,12 @@ nodes = (
 width = 540;
 },
 {
+anchors = (
+{
+name = center;
+pos = (275,280);
+}
+);
 background = {
 shapes = (
 {
@@ -122,6 +134,12 @@ nodes = (
 width = 550;
 },
 {
+anchors = (
+{
+name = center;
+pos = (280,280);
+}
+);
 background = {
 shapes = (
 {
@@ -207,6 +225,12 @@ nodes = (
 width = 560;
 },
 {
+anchors = (
+{
+name = center;
+pos = (280,280);
+}
+);
 background = {
 shapes = (
 {
