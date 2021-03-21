@@ -141,12 +141,18 @@ def interpolate_node(node_0: GSNode, node_1: GSNode, value) -> GSNode:
     )
     return GSNode(position, type=node_0.type, smooth=node_0.smooth)
 
-def to_ufos(font: GSFont, interpolate: bool = False, default_index: int = 0) -> list:
+def to_ufos(font: GSFont, interpolate: bool = False, default_index: int = None) -> list:
     ufos, instance_data = glyphsLib.to_ufos(font, include_instances=True)
     if not interpolate:
         return ufos
     designspace: DesignSpaceDocument = instance_data['designspace']
-    designspace.default = designspace.sources[default_index]
+    if default_index:
+        designspace.default = designspace.sources[default_index]
+    else:
+        designspace.default = next(
+            (s for s in designspace.sources if s.styleName == 'Regular'),
+            designspace.sources[0]
+        )
     for axis_index in range(len(designspace.axes)):
         positions = [i.axes[axis_index] for i in font.instances]
         designspace.axes[axis_index].map = None
@@ -311,7 +317,7 @@ def build(input_path: str, toml_path: str, output_dir: str):
         fix_export(font)
         decompose_smart_comp(font)
     with Timer('Generating UFO...'):
-        ufos = to_ufos(font)
+        ufos = to_ufos(font, interpolate=True)
     with Timer('Generating OTF...'):
         FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
     with Timer('Adding MATH table...'):

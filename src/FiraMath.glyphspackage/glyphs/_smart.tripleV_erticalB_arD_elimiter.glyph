@@ -32,24 +32,15 @@ size = 1;
 shapes = (
 {
 alignment = -1;
-piece = {
-size = 0;
-};
 ref = _smart.bar;
 },
 {
 alignment = -1;
-piece = {
-size = 0;
-};
 pos = (112,0);
 ref = _smart.bar;
 },
 {
 alignment = -1;
-piece = {
-size = 0;
-};
 pos = (224,0);
 ref = _smart.bar;
 }
