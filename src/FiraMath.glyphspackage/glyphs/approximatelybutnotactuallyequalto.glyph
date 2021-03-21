@@ -68,15 +68,6 @@ ref = slashlongcomb.size03;
 width = 560;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (40,-99);
-ref = slashlongcomb.size02;
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
