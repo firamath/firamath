@@ -54,11 +54,11 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = -1;
-pos = (0,93);
+pos = (0,85);
 ref = less;
 },
 {
-pos = (0,-245);
+pos = (0,-237);
 ref = similar;
 }
 );
