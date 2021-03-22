@@ -57,6 +57,11 @@ RadicalKernBeforeDegree                  = { value = [  276,  276,  276,  276], 
 RadicalKernAfterDegree                   = { value = [ -400, -400, -400, -400], isMathValue = true  }
 RadicalDegreeBottomRaisePercent          = { value = [   64,   64,   64,   64], isMathValue = false }
 
+[MathGlyphInfo]
+
+italicCorrection = {}
+topAccent = {}
+
 [MathVariants]
 
 MinConnectorOverlap = [20, 20, 20, 20]
