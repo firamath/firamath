@@ -1,23 +1,68 @@
 {
-color = 8;
 glyphname = bigSolidus;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,695,l),
+(518,696,l),
+(76,-135,l),
+(78,-136,l)
+);
+}
+);
+width = 596;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(540,691,l),
+(511,706,l),
+(66,-131,l),
+(95,-146,l)
+);
+}
+);
+width = 606;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(578,681,l),
+(504,721,l),
+(56,-121,l),
+(130,-161,l)
+);
+}
+);
+width = 634;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(638,662,l),
+(479,746,l),
+(28,-102,l),
+(187,-186,l)
+);
 }
 );
+width = 666;
+}
+);
+metricLeft = summation;
+metricRight = summation;
 unicode = 10744;
 }
