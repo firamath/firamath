@@ -11,7 +11,7 @@ ref = "ereversed-cy";
 );
 userData = {
 math = {
-topAccent = 231;
+topAccent = 218;
 };
 };
 width = 484;
@@ -23,6 +23,11 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
+userData = {
+math = {
+topAccent = 211;
+};
+};
 width = 465;
 },
 {
@@ -32,6 +37,11 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
+userData = {
+math = {
+topAccent = 216;
+};
+};
 width = 468;
 },
 {
@@ -41,6 +51,11 @@ shapes = (
 ref = "ereversed-cy";
 }
 );
+userData = {
+math = {
+topAccent = 227;
+};
+};
 width = 487;
 }
 );

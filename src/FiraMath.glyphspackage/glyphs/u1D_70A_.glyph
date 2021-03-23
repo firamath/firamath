@@ -48,6 +48,11 @@ shapes = (
 ref = "oitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 314;
+};
+};
 width = 572;
 },
 {
@@ -57,6 +62,11 @@ shapes = (
 ref = "oitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 316;
+};
+};
 width = 559;
 },
 {
@@ -104,6 +114,11 @@ shapes = (
 ref = "oitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 319;
+};
+};
 width = 562;
 },
 {
@@ -153,7 +168,7 @@ ref = "oitalic-math";
 );
 userData = {
 math = {
-topAccent = 325;
+topAccent = 326;
 };
 };
 width = 578;

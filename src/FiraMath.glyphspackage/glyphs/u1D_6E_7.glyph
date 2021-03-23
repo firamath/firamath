@@ -10,6 +10,11 @@ shapes = (
 ref = "Zitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 333;
+};
+};
 width = 545;
 },
 {
@@ -19,6 +24,11 @@ shapes = (
 ref = "Zitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 313;
+};
+};
 width = 504;
 },
 {
@@ -28,6 +38,11 @@ shapes = (
 ref = "Zitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 315;
+};
+};
 width = 511;
 },
 {

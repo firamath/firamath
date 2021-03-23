@@ -10,6 +10,11 @@ shapes = (
 ref = "Hitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 382;
+};
+};
 width = 645;
 },
 {
@@ -19,6 +24,11 @@ shapes = (
 ref = "Hitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 385;
+};
+};
 width = 654;
 },
 {
@@ -28,6 +38,11 @@ shapes = (
 ref = "Hitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 388;
+};
+};
 width = 662;
 },
 {
@@ -39,7 +54,7 @@ ref = "Hitalic-math";
 );
 userData = {
 math = {
-topAccent = 417;
+topAccent = 397;
 };
 };
 width = 674;

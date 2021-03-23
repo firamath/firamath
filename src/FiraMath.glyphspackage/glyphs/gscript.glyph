@@ -9,6 +9,11 @@ shapes = (
 ref = g.alt1;
 }
 );
+userData = {
+math = {
+topAccent = 280;
+};
+};
 width = 572;
 },
 {
@@ -18,6 +23,11 @@ shapes = (
 ref = g.alt1;
 }
 );
+userData = {
+math = {
+topAccent = 285;
+};
+};
 width = 575;
 },
 {
@@ -29,7 +39,7 @@ ref = g.alt1;
 );
 userData = {
 math = {
-topAccent = 282;
+topAccent = 285;
 };
 };
 width = 598;
@@ -41,6 +51,11 @@ shapes = (
 ref = g.alt1;
 }
 );
+userData = {
+math = {
+topAccent = 285;
+};
+};
 width = 601;
 }
 );

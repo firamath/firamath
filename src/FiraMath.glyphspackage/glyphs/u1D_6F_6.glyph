@@ -10,6 +10,11 @@ shapes = (
 ref = "Yitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 364;
+};
+};
 width = 608;
 },
 {
@@ -19,6 +24,11 @@ shapes = (
 ref = "Yitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 299;
+};
+};
 width = 479;
 },
 {
@@ -28,6 +38,11 @@ shapes = (
 ref = "Yitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 305;
+};
+};
 width = 500;
 },
 {
@@ -39,7 +54,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
-topAccent = 331;
+topAccent = 335;
 };
 };
 width = 544;

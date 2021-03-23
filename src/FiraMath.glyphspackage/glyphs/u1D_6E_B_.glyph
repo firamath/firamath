@@ -10,6 +10,11 @@ shapes = (
 ref = "Kitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 422;
+};
+};
 width = 684;
 },
 {
@@ -19,6 +24,11 @@ shapes = (
 ref = "Kitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 379;
+};
+};
 width = 540;
 },
 {
@@ -28,6 +38,11 @@ shapes = (
 ref = "Kitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 386;
+};
+};
 width = 550;
 },
 {
@@ -39,7 +54,7 @@ ref = "Kitalic-math";
 );
 userData = {
 math = {
-topAccent = 384;
+topAccent = 423;
 };
 };
 width = 621;

@@ -10,6 +10,11 @@ shapes = (
 ref = "Mitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 442;
+};
+};
 width = 777;
 },
 {
@@ -19,6 +24,11 @@ shapes = (
 ref = "Mitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 438;
+};
+};
 width = 757;
 },
 {
@@ -28,6 +38,11 @@ shapes = (
 ref = "Mitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 439;
+};
+};
 width = 764;
 },
 {

@@ -48,6 +48,11 @@ ref = jdotless;
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 141;
+};
+};
 width = 282;
 },
 {
@@ -97,6 +102,11 @@ pos = (90,0);
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 126;
+};
+};
 width = 252;
 },
 {
@@ -110,6 +120,11 @@ pos = (74,0);
 ref = dotaccentcomb;
 }
 );
+userData = {
+math = {
+topAccent = 130;
+};
+};
 width = 261;
 },
 {

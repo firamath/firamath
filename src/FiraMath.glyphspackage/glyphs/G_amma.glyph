@@ -9,6 +9,11 @@ shapes = (
 ref = "Ge-cy";
 }
 );
+userData = {
+math = {
+topAccent = 286;
+};
+};
 width = 511;
 },
 {
@@ -18,6 +23,11 @@ shapes = (
 ref = "Ge-cy";
 }
 );
+userData = {
+math = {
+topAccent = 330;
+};
+};
 width = 521;
 },
 {
@@ -27,6 +37,11 @@ shapes = (
 ref = "Ge-cy";
 }
 );
+userData = {
+math = {
+topAccent = 329;
+};
+};
 width = 508;
 },
 {
@@ -38,7 +53,7 @@ ref = "Ge-cy";
 );
 userData = {
 math = {
-topAccent = 279;
+topAccent = 316;
 };
 };
 width = 508;

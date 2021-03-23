@@ -9,6 +9,11 @@ shapes = (
 ref = T;
 }
 );
+userData = {
+math = {
+topAccent = 277;
+};
+};
 width = 554;
 },
 {
@@ -18,6 +23,11 @@ shapes = (
 ref = T;
 }
 );
+userData = {
+math = {
+topAccent = 236;
+};
+};
 width = 472;
 },
 {
@@ -27,6 +37,11 @@ shapes = (
 ref = T;
 }
 );
+userData = {
+math = {
+topAccent = 239;
+};
+};
 width = 477;
 },
 {
@@ -38,7 +53,7 @@ ref = T;
 );
 userData = {
 math = {
-topAccent = 261;
+topAccent = 259;
 };
 };
 width = 517;

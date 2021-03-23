@@ -9,6 +9,11 @@ shapes = (
 ref = acutecomb;
 }
 );
+userData = {
+math = {
+topAccent = 182;
+};
+};
 width = 364;
 },
 {
@@ -18,6 +23,11 @@ shapes = (
 ref = acutecomb;
 }
 );
+userData = {
+math = {
+topAccent = 114;
+};
+};
 width = 228;
 },
 {
@@ -27,6 +37,11 @@ shapes = (
 ref = acutecomb;
 }
 );
+userData = {
+math = {
+topAccent = 126;
+};
+};
 width = 253;
 },
 {

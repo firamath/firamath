@@ -10,6 +10,11 @@ shapes = (
 ref = "Bitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 375;
+};
+};
 width = 647;
 },
 {
@@ -19,6 +24,11 @@ shapes = (
 ref = "Bitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 374;
+};
+};
 width = 617;
 },
 {
@@ -28,6 +38,11 @@ shapes = (
 ref = "Bitalic-math";
 }
 );
+userData = {
+math = {
+topAccent = 375;
+};
+};
 width = 626;
 },
 {
@@ -39,7 +54,7 @@ ref = "Bitalic-math";
 );
 userData = {
 math = {
-topAccent = 329;
+topAccent = 376;
 };
 };
 width = 640;
