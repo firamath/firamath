@@ -84,13 +84,24 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "contourintegral"                = { suffixes = ["", ".size01"] }
 "surfaceintegral"                = { suffixes = ["", ".size01"] }
 "volumeintegral"                 = { suffixes = ["", ".size01"] }
+"summationWithIntegral"          = { suffixes = ["", ".size01"] }
+"summation"                      = { suffixes = ["", ".size01"] }
 "product"                        = { suffixes = ["", ".size01"] }
 "coproduct"                      = { suffixes = ["", ".size01"] }
-"summation"                      = { suffixes = ["", ".size01"] }
-"summationWithIntegral"          = { suffixes = ["", ".size01"] }
+"narylogicaland"                 = { suffixes = ["", ".size01"] }
+"narylogicalor"                  = { suffixes = ["", ".size01"] }
+"naryintersection"               = { suffixes = ["", ".size01"] }
+"naryunion"                      = { suffixes = ["", ".size01"] }
+"nArySquareIntersectionOperator" = { suffixes = ["", ".size01"] }
+"nArySquareUnionOperator"        = { suffixes = ["", ".size01"] }
 "nAryCircledDotOperator"         = { suffixes = ["", ".size01"] }
 "nAryCircledPlusOperator"        = { suffixes = ["", ".size01"] }
 "nAryCircledTimesOperator"       = { suffixes = ["", ".size01"] }
+"nAryTimesOperator"              = { suffixes = ["", ".size01"] }
+"largeUpTack"                    = { suffixes = ["", ".size01"] }
+"largeDownTack"                  = { suffixes = ["", ".size01"] }
+"bigSolidus"                     = { suffixes = ["", ".size01"] }
+"bigReverseSolidus"              = { suffixes = ["", ".size01"] }
 "parenleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "parenright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "bracketleft"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
