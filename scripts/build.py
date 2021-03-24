@@ -174,7 +174,6 @@ class Font:
                 i.axes[axis_index] for i in self.font.instances if isinstance(i.weight, str)
             )
         instantiator = Instantiator.from_designspace(designspace)
-        # ufos.extend(instantiator.generate_instance(i) for i in designspace.instances)
         ufos.extend(map(instantiator.generate_instance, designspace.instances))
         return ufos
 
@@ -208,23 +207,15 @@ class Font:
                     'isMathValue': d['isMathValue'],
                 }
             for name, d in master_data['MathGlyphInfo'].items():
-                math_table.glyph_info[name] = {
-                    glyph: _generate(values) for glyph, values in d.items()
-                }
+                math_table.glyph_info[name] = {g: _generate(values) for g, values in d.items()}
             math_table.variants['MinConnectorOverlap'] = \
                 _generate(master_data['MathVariants']['MinConnectorOverlap'])
             math_table.variants['HorizontalVariants'] = {
-                glyph: {
-                    variant_glyph: _generate(values)
-                    for variant_glyph, values in variants.items()
-                }
+                glyph: {g: _generate(values) for g, values in variants.items()}
                 for glyph, variants in master_data['MathVariants']['HorizontalVariants'].items()
             }
             math_table.variants['VerticalVariants'] = {
-                glyph: {
-                    variant_glyph: _generate(values)
-                    for variant_glyph, values in variants.items()
-                }
+                glyph: {g: _generate(values) for g, values in variants.items()}
                 for glyph, variants in master_data['MathVariants']['VerticalVariants'].items()
             }
             self.math_tables[style] = math_table

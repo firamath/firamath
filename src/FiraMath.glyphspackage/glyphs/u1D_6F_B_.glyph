@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 0;
 glyphname = u1D6FB;
 layers = (
 {
