@@ -1,16 +1,16 @@
 {
-color = 4;
+color = 0;
 glyphname = macroncomb;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (193,534);
+pos = (192,534);
 },
 {
 name = top;
-pos = (193,750);
+pos = (192,750);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -18,8 +18,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(355,648,l),
-(355,782,l),
+(354,648,l),
+(354,782,l),
 (30,782,l),
 (30,648,l)
 );
@@ -27,10 +27,10 @@ nodes = (
 );
 userData = {
 math = {
-topAccent = 193;
+topAccent = 192;
 };
 };
-width = 385;
+width = 384;
 },
 {
 anchors = (
@@ -40,7 +40,7 @@ pos = (125,517);
 },
 {
 name = top;
-pos = (127,691);
+pos = (125,691);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -70,7 +70,7 @@ pos = (137,520);
 },
 {
 name = top;
-pos = (139,712);
+pos = (137,712);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -100,7 +100,7 @@ pos = (167,527);
 },
 {
 name = top;
-pos = (169,736);
+pos = (167,736);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -108,8 +108,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(303,667,l),
-(303,736,l),
+(304,667,l),
+(304,736,l),
 (30,736,l),
 (30,667,l)
 );
@@ -120,7 +120,7 @@ math = {
 topAccent = 167;
 };
 };
-width = 333;
+width = 334;
 }
 );
 unicode = 772;
