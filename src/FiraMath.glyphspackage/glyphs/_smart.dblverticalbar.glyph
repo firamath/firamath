@@ -14,11 +14,11 @@ alignment = -1;
 ref = _smart.bar;
 },
 {
-pos = (74,0);
+pos = (122,0);
 ref = _smart.bar;
 }
 );
-width = 476;
+width = 524;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -32,11 +32,11 @@ ref = _smart.bar;
 },
 {
 alignment = -1;
-pos = (112,0);
+pos = (130,0);
 ref = _smart.bar;
 }
 );
-width = 522;
+width = 540;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -68,11 +68,11 @@ ref = _smart.bar;
 },
 {
 alignment = -1;
-pos = (242,0);
+pos = (238,0);
 ref = _smart.bar;
 }
 );
-width = 602;
+width = 598;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
