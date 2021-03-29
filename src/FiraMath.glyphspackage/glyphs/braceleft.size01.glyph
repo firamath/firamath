@@ -12,7 +12,7 @@ size = 1;
 ref = _smart.braceleft;
 }
 );
-width = 334;
+width = 350;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -25,7 +25,7 @@ size = 1;
 ref = _smart.braceleft;
 }
 );
-width = 337;
+width = 355;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -38,7 +38,7 @@ size = 1;
 ref = _smart.braceleft;
 }
 );
-width = 341;
+width = 352;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -51,7 +51,7 @@ size = 1;
 ref = _smart.braceleft;
 }
 );
-width = 340;
+width = 376;
 }
 );
 }

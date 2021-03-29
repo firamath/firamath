@@ -1774,6 +1774,43 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Horizontal components</string>
+			<key>list</key>
+			<array>
+				<string>horizontallineextension</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vertical components</string>
+			<key>list</key>
+			<array>
+				<string>parenleftlowerhook</string>
+				<string>parenleftupperhook</string>
+				<string>parenleftextension</string>
+				<string>parenrightlowerhook</string>
+				<string>parenrightupperhook</string>
+				<string>parenrightextension</string>
+				<string>leftsquarebracketlowercorner</string>
+				<string>leftsquarebracketuppercorner</string>
+				<string>leftsquarebracketextension</string>
+				<string>rightsquarebracketlowercorner</string>
+				<string>rightsquarebracketuppercorner</string>
+				<string>rightsquarebracketextension</string>
+				<string>leftcurlybracketlowerhook</string>
+				<string>leftcurlybracketmiddlepiece</string>
+				<string>leftcurlybracketupperhook</string>
+				<string>rightcurlybracketlowerhook</string>
+				<string>rightcurlybracketmiddlepiece</string>
+				<string>rightcurlybracketupperhook</string>
+				<string>curlybracketextension</string>
+				<string>leftverticalboxline</string>
+				<string>rightverticalboxline</string>
+				<string>radicalsymbolbottom</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Upright</string>
 			<key>list</key>
 			<array>
