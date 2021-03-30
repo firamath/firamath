@@ -32,7 +32,7 @@ ref = leftBarbUpHarpoon;
 scale = (1,-1);
 }
 );
-width = 970;
+width = 960;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -43,7 +43,7 @@ ref = leftBarbUpHarpoon;
 scale = (1,-1);
 }
 );
-width = 1110;
+width = 1060;
 }
 );
 metricLeft = leftBarbUpHarpoon;
