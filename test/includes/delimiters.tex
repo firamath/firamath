@@ -1,0 +1,98 @@
+\section{Delimiters}
+
+\seq_const_from_clist:Nn \c_@@_delimiters_seq
+  {
+    (       )       ,
+    \lgroup \rgroup ,
+    [       ]       ,
+    \{      \}      ,
+    \vert   \vert   ,
+    \Vert   \Vert   ,
+    \Vvert  \Vvert  ,
+    \langle \rangle ,
+    \lAngle \rAngle ,
+    \lceil  \rceil  ,
+    \lfloor \rfloor ,
+  }
+
+\subsection{Basic}
+
+\cs_set:Npn \@@_delimiter_test_basic:NN #1#2
+  {
+    \tl_map_inline:nn
+      { AOQTY afqy \alpha\beta\xi\phi 129 }
+      { #1 ##1 #2 }
+  }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_delimiters_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_delimiter_test_basic:NN #1 }
+  }
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }
+
+\subsection{Extensible}
+
+\seq_const_from_clist:Nn \c_@@_bigs_seq
+  { \prg_do_nothing:, \big, \Big, \bigg, \Bigg }
+\cs_set:Npn \@@_delimiter_test_extensible_a:N #1
+  {
+    \seq_map_inline:Nn \c_@@_delimiters_seq
+      {
+        \@@_delimiter_test_extensible_a_aux:NNN #1 ##1
+        \quad
+      }
+  }
+\cs_set:Npn \@@_delimiter_test_extensible_a_aux:NNN #1#2#3
+  { #1 #2 x #1 #3 }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_bigs_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_delimiter_test_extensible_a:N #1 }
+  }
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }
+
+\seq_const_from_clist:Nn \c_@@_big_contents_seq
+  {
+    x                                            ,
+    \symrm{e}^{\symrm{i}\pi}                     ,
+    T\sb{ij}                                     ,
+    \symrm{e}^{x^2}                              ,
+    \frac12                                      ,
+    \frac{a^b}{7}                                ,
+    \begin{matrix} \alpha \\ \beta \end{matrix}  ,
+    \begin{matrix} x \\ y \\ z \end{matrix}      ,
+    \sum\sb{i=0}^N                               ,
+    \begin{matrix} a \\ b \\ c \\ d \end{matrix} ,
+    \cfrac{1}{1+\cfrac{2}{1+\cfrac{3}{1+x}}}     ,
+  }
+\cs_set:Npn \@@_delimiter_test_extensible_b:NN #1#2
+  {
+    \seq_map_inline:Nn \c_@@_big_contents_seq
+      { \left #1 ##1 \right #2 }
+  }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_delimiters_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_delimiter_test_extensible_b:NN #1 }
+  }
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }
+
+\subsection{Spacing}

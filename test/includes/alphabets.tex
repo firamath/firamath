@@ -1,0 +1,36 @@
+\section{Alphabets}
+
+\tl_const:Nn \c_@@_Latin_tl { ABCDEFGHIJKLMNOPQRSTUVWXYZ }
+\tl_const:Nn \c_@@_latin_tl { abcdefghijklmnopqrstuvwxyz }
+% ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
+\tl_const:Nn \c_@@_Greek_tl
+  {
+    \Alpha      \Beta       \Gamma      \Delta      \Epsilon
+    \Zeta       \Eta        \Theta      \varTheta   \Iota
+    \Kappa      \Lambda     \Mu         \Nu         \Xi
+    \Omicron    \Pi         \Rho        \Sigma      \Tau
+    \Upsilon    \Phi        \Chi        \Psi        \Omega
+  }
+% αβγδεζηθικλμνξοπρστυφχψω
+\tl_const:Nn \c_@@_greek_tl
+  {
+    \alpha      \beta       \gamma      \delta      \epsilon
+    \varepsilon \zeta       \eta        \theta      \vartheta 
+    \iota       \kappa      \varkappa   \lambda     \mu
+    \nu         \xi         \omicron    \pi         \rho
+    \varrho     \sigma      \varsigma   \tau        \upsilon
+    \phi        \varphi     \chi        \psi        \omega
+  }
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \symit   { \c_@@_Latin_tl \qquad \c_@@_latin_tl } \\
+      \symit   { \c_@@_Greek_tl \qquad \c_@@_greek_tl } \\
+      \symup   { \c_@@_Latin_tl \qquad \c_@@_latin_tl } \\
+      \symup   { \c_@@_Greek_tl \qquad \c_@@_greek_tl } \\
+      \symbf   { \c_@@_Latin_tl \qquad \c_@@_latin_tl } \\
+      \symbf   { \c_@@_Greek_tl \qquad \c_@@_greek_tl } \\
+      \symbfup { \c_@@_Latin_tl \qquad \c_@@_latin_tl } \\
+      \symbfup { \c_@@_Greek_tl \qquad \c_@@_greek_tl }
+    \end{gather*}
+  }

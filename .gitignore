@@ -10,6 +10,8 @@
 *.nav
 *.out
 *.snm
+*.synctex.gz
+*.synctex(busy)
 *.toc
 
 # Generated files
