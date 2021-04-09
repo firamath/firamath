@@ -7,15 +7,15 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (139,0);
+pos = (126,0);
 },
 {
 name = ogonek;
-pos = (207,0);
+pos = (194,0);
 },
 {
 name = top;
-pos = (213,534);
+pos = (200,534);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -23,10 +23,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(116,534,l),
-(42,0,l),
-(236,0,l),
-(310,534,l)
+(103,534,l),
+(29,0,l),
+(223,0,l),
+(297,534,l)
 );
 }
 );
@@ -35,21 +35,21 @@ math = {
 topAccent = 213;
 };
 };
-width = 352;
+width = 319;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (126,0);
+pos = (108,0);
 },
 {
 name = ogonek;
-pos = (137,0);
+pos = (119,0);
 },
 {
 name = top;
-pos = (198,517);
+pos = (180,517);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -57,10 +57,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(197,517,l),
-(125,0,l),
-(127,0,l),
-(199,517,l)
+(179,517,l),
+(107,0,l),
+(109,0,l),
+(181,517,l)
 );
 }
 );
@@ -69,21 +69,21 @@ math = {
 topAccent = 198;
 };
 };
-width = 324;
+width = 288;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (130,0);
+pos = (109,0);
 },
 {
 name = ogonek;
-pos = (145,0);
+pos = (124,0);
 },
 {
 name = top;
-pos = (204,520);
+pos = (183,520);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -91,10 +91,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(189,520,l),
-(115,0,l),
-(145,0,l),
-(219,520,l)
+(168,520,l),
+(94,0,l),
+(124,0,l),
+(198,520,l)
 );
 }
 );
@@ -103,21 +103,21 @@ math = {
 topAccent = 204;
 };
 };
-width = 334;
+width = 292;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (140,0);
+pos = (113,0);
 },
 {
 name = ogonek;
-pos = (165,0);
+pos = (138,0);
 },
 {
 name = top;
-pos = (214,527);
+pos = (187,527);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -125,10 +125,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(169,527,l),
-(95,0,l),
-(186,0,l),
-(260,527,l)
+(142,527,l),
+(68,0,l),
+(159,0,l),
+(233,527,l)
 );
 }
 );
@@ -137,11 +137,11 @@ math = {
 topAccent = 214;
 };
 };
-width = 355;
+width = 301;
 }
 );
-metricLeft = n;
-metricRight = "=|n";
+metricLeft = "=nitalic-math*1.2";
+metricRight = "=uitalic-math*1.2";
 script = math;
 unicode = 120484;
 }

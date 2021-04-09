@@ -45,7 +45,7 @@ shapes = (
 ref = u1D6A5;
 },
 {
-pos = (-2,0);
+pos = (101,0);
 ref = dotaccentcomb.italic;
 }
 );
@@ -54,7 +54,7 @@ math = {
 topAccent = 233;
 };
 };
-width = 313;
+width = 392;
 },
 {
 background = {
@@ -108,7 +108,7 @@ math = {
 topAccent = 188;
 };
 };
-width = 288;
+width = 252;
 },
 {
 background = {
@@ -162,7 +162,7 @@ math = {
 topAccent = 197;
 };
 };
-width = 298;
+width = 261;
 },
 {
 background = {
@@ -216,7 +216,7 @@ math = {
 topAccent = 216;
 };
 };
-width = 317;
+width = 279;
 }
 );
 unicode = 119895;

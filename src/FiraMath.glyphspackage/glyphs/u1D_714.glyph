@@ -622,8 +622,8 @@ topAccent = 430;
 width = 782;
 }
 );
-metricLeft = phi;
-metricRight = "=|phi";
+metricLeft = u1D711;
+metricRight = "=|u1D711";
 script = math;
 unicode = 120596;
 }

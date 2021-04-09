@@ -43,7 +43,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (578,689);
+pos = (577,689);
 ref = u1D6E5;
 }
 );
@@ -52,7 +52,7 @@ math = {
 topAccent = 302;
 };
 };
-width = 578;
+width = 577;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";

@@ -62,7 +62,7 @@ math = {
 topAccent = 293;
 };
 };
-width = 545;
+width = 506;
 },
 {
 anchors = (
@@ -120,7 +120,7 @@ math = {
 topAccent = 251;
 };
 };
-width = 465;
+width = 429;
 },
 {
 anchors = (
@@ -178,7 +178,7 @@ math = {
 topAccent = 259;
 };
 };
-width = 481;
+width = 444;
 },
 {
 anchors = (
@@ -236,10 +236,10 @@ math = {
 topAccent = 275;
 };
 };
-width = 513;
+width = 475;
 }
 );
-metricRight = v;
+metricRight = "vitalic-math";
 script = math;
 unicode = 120584;
 }
