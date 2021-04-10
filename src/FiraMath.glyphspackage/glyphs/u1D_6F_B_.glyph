@@ -9,7 +9,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (566,680);
+pos = (586,680);
 ref = u1D6E5;
 }
 );
@@ -18,7 +18,7 @@ math = {
 topAccent = 286;
 };
 };
-width = 566;
+width = 586;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -26,7 +26,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (568,682);
+pos = (592,682);
 ref = u1D6E5;
 }
 );
@@ -35,7 +35,7 @@ math = {
 topAccent = 294;
 };
 };
-width = 568;
+width = 592;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -43,7 +43,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (577,689);
+pos = (609,689);
 ref = u1D6E5;
 }
 );
@@ -52,7 +52,7 @@ math = {
 topAccent = 302;
 };
 };
-width = 577;
+width = 609;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -60,7 +60,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (597,696);
+pos = (637,696);
 ref = u1D6E5;
 }
 );
@@ -69,7 +69,7 @@ math = {
 topAccent = 320;
 };
 };
-width = 597;
+width = 637;
 }
 );
 metricLeft = "=|u1D6E5";
