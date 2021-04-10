@@ -223,7 +223,7 @@ math = {
 topAccent = 331;
 };
 };
-width = 529;
+width = 548;
 },
 {
 anchors = (
@@ -334,7 +334,7 @@ math = {
 topAccent = 336;
 };
 };
-width = 538;
+width = 561;
 },
 {
 anchors = (
@@ -445,7 +445,7 @@ math = {
 topAccent = 346;
 };
 };
-width = 558;
+width = 588;
 }
 );
 script = math;

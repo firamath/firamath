@@ -133,7 +133,7 @@ math = {
 topAccent = 262;
 };
 };
-width = 452;
+width = 459;
 },
 {
 anchors = (
@@ -183,7 +183,7 @@ math = {
 topAccent = 280;
 };
 };
-width = 486;
+width = 498;
 }
 );
 unicode = 119907;

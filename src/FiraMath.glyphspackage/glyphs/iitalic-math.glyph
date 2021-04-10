@@ -39,7 +39,7 @@ shapes = (
 ref = u1D6A4;
 },
 {
-pos = (24,0);
+pos = (38,0);
 ref = dotaccentcomb.italic;
 }
 );
@@ -48,7 +48,7 @@ math = {
 topAccent = 272;
 };
 };
-width = 319;
+width = 367;
 },
 {
 background = {

@@ -149,7 +149,7 @@ math = {
 topAccent = 427;
 };
 };
-width = 791;
+width = 798;
 },
 {
 anchors = (
@@ -295,7 +295,7 @@ math = {
 topAccent = 399;
 };
 };
-width = 736;
+width = 716;
 },
 {
 anchors = (
@@ -443,7 +443,7 @@ math = {
 topAccent = 407;
 };
 };
-width = 750;
+width = 730;
 },
 {
 anchors = (
@@ -591,10 +591,10 @@ math = {
 topAccent = 411;
 };
 };
-width = 760;
+width = 747;
 }
 );
-metricRight = upsilon;
+metricRight = u1D711;
 script = math;
 unicode = 120595;
 }

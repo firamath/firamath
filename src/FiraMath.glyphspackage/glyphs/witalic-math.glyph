@@ -167,7 +167,7 @@ math = {
 topAccent = 380;
 };
 };
-width = 677;
+width = 683;
 },
 {
 anchors = (
@@ -231,7 +231,7 @@ math = {
 topAccent = 393;
 };
 };
-width = 704;
+width = 713;
 }
 );
 metricLeft = "=vitalic-math*1.2";

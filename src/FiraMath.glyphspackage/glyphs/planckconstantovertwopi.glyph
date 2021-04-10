@@ -71,7 +71,7 @@ nodes = (
 ref = planckconstant;
 }
 );
-width = 594;
+width = 624;
 }
 );
 metricLeft = planckconstant;

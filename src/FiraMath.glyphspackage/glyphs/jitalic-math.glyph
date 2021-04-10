@@ -54,7 +54,7 @@ math = {
 topAccent = 233;
 };
 };
-width = 392;
+width = 430;
 },
 {
 background = {
@@ -99,7 +99,7 @@ shapes = (
 ref = u1D6A5;
 },
 {
-pos = (90,0);
+pos = (117,0);
 ref = dotaccentcomb.italic;
 }
 );
@@ -108,7 +108,7 @@ math = {
 topAccent = 188;
 };
 };
-width = 252;
+width = 279;
 },
 {
 background = {
@@ -153,7 +153,7 @@ shapes = (
 ref = u1D6A5;
 },
 {
-pos = (75,0);
+pos = (110,0);
 ref = dotaccentcomb.italic;
 }
 );
@@ -162,7 +162,7 @@ math = {
 topAccent = 197;
 };
 };
-width = 261;
+width = 296;
 },
 {
 background = {
@@ -207,7 +207,7 @@ shapes = (
 ref = u1D6A5;
 },
 {
-pos = (46,0);
+pos = (105,0);
 ref = dotaccentcomb.italic;
 }
 );
@@ -216,7 +216,7 @@ math = {
 topAccent = 216;
 };
 };
-width = 279;
+width = 338;
 }
 );
 unicode = 119895;
