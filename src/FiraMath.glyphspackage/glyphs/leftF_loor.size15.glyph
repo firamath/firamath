@@ -5,45 +5,45 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,560);
+pos = (-70,560);
 ref = leftCeiling.size15;
 scale = (1,-1);
 }
 );
-width = 420;
+width = 562;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,560);
+pos = (-60,560);
 ref = leftCeiling.size15;
 scale = (1,-1);
 }
 );
-width = 443;
+width = 597;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,560);
+pos = (-87,560);
 ref = leftCeiling.size15;
 scale = (1,-1);
 }
 );
-width = 521;
+width = 672;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,560);
+pos = (-112,560);
 ref = leftCeiling.size15;
 scale = (1,-1);
 }
 );
-width = 502;
+width = 812;
 }
 );
 metricLeft = "=leftCeiling.size15";

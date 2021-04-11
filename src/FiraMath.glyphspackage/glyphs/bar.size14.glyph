@@ -24,7 +24,7 @@ size = 14;
 ref = _smart.bar;
 }
 );
-width = 485;
+width = 447;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -36,7 +36,7 @@ size = 14;
 ref = _smart.bar;
 }
 );
-width = 501;
+width = 504;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -48,7 +48,7 @@ size = 14;
 ref = _smart.bar;
 }
 );
-width = 437;
+width = 506;
 }
 );
 }

@@ -9,7 +9,7 @@ alignment = 1;
 ref = _smart.parenleft;
 }
 );
-width = 325;
+width = 485;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -19,7 +19,7 @@ alignment = 1;
 ref = _smart.parenleft;
 }
 );
-width = 329;
+width = 399;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -29,7 +29,7 @@ alignment = 1;
 ref = _smart.parenleft;
 }
 );
-width = 324;
+width = 424;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -39,7 +39,7 @@ alignment = 1;
 ref = _smart.parenleft;
 }
 );
-width = 324;
+width = 454;
 }
 );
 unicode = 40;

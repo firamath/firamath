@@ -8,7 +8,7 @@ shapes = (
 ref = _smart.bar;
 }
 );
-width = 360;
+width = 450;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -36,7 +36,7 @@ shapes = (
 ref = _smart.bar;
 }
 );
-width = 402;
+width = 442;
 }
 );
 unicode = 124;
