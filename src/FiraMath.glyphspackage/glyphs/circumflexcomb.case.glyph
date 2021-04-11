@@ -93,22 +93,6 @@ name = topright;
 pos = (247,730);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(155,869,l),
-(30,781,l),
-(47,763,l),
-(159,833,l),
-(270,763,l),
-(286,781,l),
-(161,869,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {

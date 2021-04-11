@@ -25,28 +25,6 @@ ref = equal.dnom;
 width = 400;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(48,600,l),
-(48,503,l),
-(352,503,l),
-(352,600,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(48,459,l),
-(48,362,l),
-(352,362,l),
-(352,459,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {

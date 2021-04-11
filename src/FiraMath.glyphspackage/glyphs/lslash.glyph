@@ -3,19 +3,6 @@ color = 4;
 glyphname = lslash;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(-18,343,l),
-(37,227,l),
-(376,435,l),
-(324,554,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -79,20 +66,6 @@ ref = l;
 width = 289;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(289,425,l),
-(258,491,l),
-(96,392,l),
-(13,341,l),
-(44,275,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

@@ -3,19 +3,6 @@ color = 4;
 glyphname = plus.dnom;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(352,154,l),
-(352,255,l),
-(48,255,l),
-(48,154,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -62,19 +49,6 @@ nodes = (
 width = 400;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(313,190,l),
-(313,215,l),
-(87,215,l),
-(87,190,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -98,19 +72,6 @@ nodes = (
 width = 400;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(326,171,l),
-(326,236,l),
-(74,236,l),
-(74,171,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

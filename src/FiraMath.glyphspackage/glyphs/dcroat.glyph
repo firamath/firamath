@@ -3,20 +3,6 @@ color = 4;
 glyphname = dcroat;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(230,696,l),
-(245,590,l),
-(559,590,l),
-(611,590,l),
-(611,696,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -57,20 +43,6 @@ ref = d;
 width = 577;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(259,652,l),
-(263,625,l),
-(460,625,l),
-(535,625,l),
-(535,652,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -91,20 +63,6 @@ ref = d;
 width = 580;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(248,676,l),
-(258,606,l),
-(503,606,l),
-(582,606,l),
-(582,676,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

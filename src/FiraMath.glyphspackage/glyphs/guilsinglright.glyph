@@ -39,22 +39,6 @@ nodes = (
 width = 346;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(82,491,l),
-(219,291,l),
-(82,93,l),
-(102,78,l),
-(259,281,l),
-(259,304,l),
-(102,507,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {

@@ -3,20 +3,6 @@ color = 4;
 glyphname = hbar;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(0,696,l),
-(0,590,l),
-(52,590,l),
-(365,590,l),
-(380,696,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -59,20 +45,6 @@ ref = h;
 width = 585;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(45,652,l),
-(45,625,l),
-(120,625,l),
-(326,625,l),
-(332,652,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -94,20 +66,6 @@ ref = h;
 width = 587;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(25,676,l),
-(25,606,l),
-(104,606,l),
-(339,606,l),
-(349,676,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

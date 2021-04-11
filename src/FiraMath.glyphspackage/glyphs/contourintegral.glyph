@@ -146,34 +146,6 @@ italicCorrection = 240;
 width = 701;
 },
 {
-background = {
-shapes = (
-{
-attr = {
-mask = "1";
-};
-closed = 1;
-nodes = (
-(178,496,l),
-(310,496,l),
-(266,104,l),
-(178,104,l)
-);
-},
-{
-attr = {
-mask = "1";
-};
-closed = 1;
-nodes = (
-(570,104,l),
-(570,496,l),
-(481,496,l),
-(440,104,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

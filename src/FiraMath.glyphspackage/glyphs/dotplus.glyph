@@ -28,37 +28,6 @@ ref = periodcentered;
 width = 550;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(40,508,l),
-(512,508,l),
-(512,584,l),
-(40,584,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(234,-14,l),
-(318,-14,l),
-(318,446,l),
-(234,446,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(40,178,l),
-(512,178,l),
-(512,254,l),
-(40,254,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

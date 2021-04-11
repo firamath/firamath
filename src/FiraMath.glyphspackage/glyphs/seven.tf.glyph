@@ -3,22 +3,6 @@ color = 4;
 glyphname = seven.tf;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(526,566,l),
-(526,696,l),
-(31,696,l),
-(31,550,l),
-(325,550,l),
-(73,40,l),
-(262,-20,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
