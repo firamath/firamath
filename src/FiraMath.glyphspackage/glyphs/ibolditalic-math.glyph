@@ -32,6 +32,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 210;
+};
+};
 width = 296;
 },
 {
@@ -64,6 +69,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 234;
+};
+};
 width = 339;
 },
 {
@@ -96,6 +106,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 249;
+};
+};
 width = 355;
 },
 {
@@ -128,6 +143,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 263;
+};
+};
 width = 390;
 },
 {
@@ -167,6 +187,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 272;
+};
+};
 width = 401;
 }
 );

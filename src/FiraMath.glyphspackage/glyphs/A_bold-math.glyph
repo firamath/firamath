@@ -8,7 +8,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(273,680,l),
+(272,680,l),
 (33,0,l),
 (41,0,l),
 (277,674,l),
@@ -27,6 +27,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 277;
+};
+};
 width = 556;
 },
 {
@@ -54,6 +59,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 284;
+};
+};
 width = 568;
 },
 {
@@ -81,6 +91,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 294;
+};
+};
 width = 588;
 },
 {
@@ -108,6 +123,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 303;
+};
+};
 width = 607;
 },
 {
@@ -142,6 +162,11 @@ nodes = (
 );
 }
 );
+userData = {
+math = {
+topAccent = 698;
+};
+};
 width = 607;
 }
 );
