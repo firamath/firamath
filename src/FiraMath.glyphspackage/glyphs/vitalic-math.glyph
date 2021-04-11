@@ -47,7 +47,7 @@ nodes = (
 );
 userData = {
 math = {
-topAccent = 298;
+topAccent = 308;
 };
 };
 width = 558;
