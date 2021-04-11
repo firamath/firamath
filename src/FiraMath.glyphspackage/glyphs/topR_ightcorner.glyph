@@ -6,24 +6,24 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (480,0);
+pos = (470,0);
 ref = topLeftCorner;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 470;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (521,0);
+pos = (510,0);
 ref = topLeftCorner;
 scale = (-1,1);
 }
 );
-width = 521;
+width = 510;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
