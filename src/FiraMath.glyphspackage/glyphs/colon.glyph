@@ -22,7 +22,7 @@ shapes = (
 ref = period;
 },
 {
-pos = (0,429);
+pos = (0,428);
 ref = period;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = period;
 },
 {
-pos = (0,409);
+pos = (0,408);
 ref = period;
 }
 );
