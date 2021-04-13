@@ -29,16 +29,10 @@ UIState.plist
 
 # Folders
 .vscode/
-assets/
 build/
-lib/
-references/
 release/
 temp/
 
 # Other
 .DS_Store
-*.nb
-docs/standalone/
-test/*.sh
 pyrightconfig.json
