@@ -56,11 +56,11 @@ width = 223;
 anchors = (
 {
 name = _bottom;
-pos = (315,0);
+pos = (325,0);
 },
 {
 name = bottom;
-pos = (223,-227);
+pos = (233,-227);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -98,7 +98,7 @@ math = {
 topAccent = 210;
 };
 };
-width = 264;
+width = 255;
 }
 );
 unicode = 801;

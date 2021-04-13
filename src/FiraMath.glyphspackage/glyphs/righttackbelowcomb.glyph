@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = righttackbelowcomb;
 layers = (
 {
@@ -10,14 +10,14 @@ pos = (132,0);
 },
 {
 name = bottom;
-pos = (130,-353);
+pos = (132,-353);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = -1;
-pos = (263,0);
+pos = (264,0);
 ref = lefttackbelowcomb;
 scale = (-1,1);
 }
@@ -37,7 +37,7 @@ pos = (101,0);
 },
 {
 name = bottom;
-pos = (103,-316);
+pos = (101,-316);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -63,7 +63,7 @@ pos = (142,0);
 },
 {
 name = bottom;
-pos = (144,-356);
+pos = (142,-355);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -89,7 +89,7 @@ pos = (110,0);
 },
 {
 name = bottom;
-pos = (112,-331);
+pos = (110,-331);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";

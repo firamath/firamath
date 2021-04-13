@@ -1,16 +1,16 @@
 {
-color = 4;
+color = 0;
 glyphname = dieresisbelowcomb;
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (193,0);
+pos = (192,0);
 },
 {
 name = bottom;
-pos = (195,-192);
+pos = (192,-192);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -25,17 +25,17 @@ math = {
 topAccent = 193;
 };
 };
-width = 385;
+width = 384;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (111,0);
+pos = (110,0);
 },
 {
 name = bottom;
-pos = (113,-119);
+pos = (110,-119);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -50,17 +50,17 @@ math = {
 topAccent = 111;
 };
 };
-width = 221;
+width = 220;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (142,0);
+pos = (140,0);
 },
 {
 name = bottom;
-pos = (144,-146);
+pos = (140,-146);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -75,17 +75,17 @@ math = {
 topAccent = 142;
 };
 };
-width = 283;
+width = 280;
 },
 {
 anchors = (
 {
 name = _bottom;
-pos = (250,0);
+pos = (248,0);
 },
 {
 name = bottom;
-pos = (252,-249);
+pos = (248,-249);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -100,7 +100,7 @@ math = {
 topAccent = 250;
 };
 };
-width = 499;
+width = 496;
 }
 );
 unicode = 804;

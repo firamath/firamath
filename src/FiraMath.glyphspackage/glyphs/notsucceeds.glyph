@@ -11,7 +11,7 @@ ref = succeeds;
 {
 angle = 6;
 pos = (61,-34);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 540;
@@ -26,7 +26,7 @@ ref = succeeds;
 {
 angle = 8;
 pos = (74,-41);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 550;
@@ -41,7 +41,7 @@ ref = succeeds;
 {
 angle = 10;
 pos = (84,-47);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 560;
@@ -56,7 +56,7 @@ ref = succeeds;
 {
 angle = 12;
 pos = (92,-54);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 560;

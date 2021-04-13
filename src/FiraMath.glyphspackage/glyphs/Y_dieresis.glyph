@@ -9,7 +9,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (60,0);
+pos = (62,0);
 ref = dieresiscomb.case;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (129,0);
+pos = (130,0);
 ref = dieresiscomb.case;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (108,0);
+pos = (110,0);
 ref = dieresiscomb.case;
 }
 );
@@ -48,7 +48,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (82,0);
+pos = (83,0);
 ref = dieresiscomb.case;
 }
 );

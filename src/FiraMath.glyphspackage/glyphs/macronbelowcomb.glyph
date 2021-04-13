@@ -10,7 +10,7 @@ pos = (125,0);
 },
 {
 name = bottom;
-pos = (127,-151);
+pos = (125,-151);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -35,7 +35,7 @@ pos = (167,0);
 },
 {
 name = bottom;
-pos = (169,-173);
+pos = (167,-173);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -50,7 +50,7 @@ math = {
 topAccent = 167;
 };
 };
-width = 333;
+width = 334;
 },
 {
 anchors = (
@@ -60,7 +60,7 @@ pos = (137,0);
 },
 {
 name = bottom;
-pos = (139,-157);
+pos = (137,-157);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -81,11 +81,11 @@ width = 274;
 anchors = (
 {
 name = _bottom;
-pos = (193,0);
+pos = (192,0);
 },
 {
 name = bottom;
-pos = (195,-192);
+pos = (192,-192);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -97,10 +97,10 @@ ref = macroncomb;
 );
 userData = {
 math = {
-topAccent = 193;
+topAccent = 192;
 };
 };
-width = 385;
+width = 384;
 }
 );
 unicode = 817;

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = emdash;
 layers = (
 {
@@ -23,14 +23,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(715,311,l),
-(715,313,l),
+(716,311,l),
+(716,313,l),
 (56,313,l),
 (56,311,l)
 );
 }
 );
-width = 771;
+width = 772;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -38,14 +38,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(731,300,l),
-(731,327,l),
+(732,300,l),
+(732,327,l),
 (46,327,l),
 (46,300,l)
 );
 }
 );
-width = 777;
+width = 778;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";

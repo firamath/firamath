@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = leftangleabovecomb;
 layers = (
 {
@@ -10,7 +10,7 @@ pos = (122,527);
 },
 {
 name = top;
-pos = (124,779);
+pos = (122,779);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -32,7 +32,7 @@ math = {
 topAccent = 122;
 };
 };
-width = 213;
+width = 243;
 },
 {
 anchors = (
@@ -42,7 +42,7 @@ pos = (100,517);
 },
 {
 name = top;
-pos = (102,738);
+pos = (100,738);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -74,7 +74,7 @@ pos = (144,534);
 },
 {
 name = top;
-pos = (146,815);
+pos = (144,815);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -106,7 +106,7 @@ pos = (106,520);
 },
 {
 name = top;
-pos = (108,750);
+pos = (106,750);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";

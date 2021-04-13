@@ -1,16 +1,16 @@
 {
-color = 4;
+color = 0;
 glyphname = dieresiscomb.case;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (250,696);
+pos = (248,696);
 },
 {
 name = top;
-pos = (252,944);
+pos = (248,944);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -20,17 +20,17 @@ pos = (0,126);
 ref = dieresiscomb;
 }
 );
-width = 495;
+width = 496;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (111,680);
+pos = (110,680);
 },
 {
 name = top;
-pos = (113,817);
+pos = (110,817);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -40,17 +40,17 @@ pos = (0,126);
 ref = dieresiscomb;
 }
 );
-width = 221;
+width = 220;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (142,682);
+pos = (140,682);
 },
 {
 name = top;
-pos = (144,846);
+pos = (140,846);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -60,17 +60,17 @@ pos = (0,126);
 ref = dieresiscomb;
 }
 );
-width = 283;
+width = 280;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (193,689);
+pos = (192,689);
 },
 {
 name = top;
-pos = (195,894);
+pos = (192,894);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -80,7 +80,7 @@ pos = (0,126);
 ref = dieresiscomb;
 }
 );
-width = 385;
+width = 384;
 }
 );
 }

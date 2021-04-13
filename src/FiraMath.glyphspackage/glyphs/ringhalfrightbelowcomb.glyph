@@ -17,7 +17,7 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = -1;
-pos = (175,1);
+pos = (174,1);
 ref = ringhalfleftbelowcomb;
 scale = (-1,1);
 }

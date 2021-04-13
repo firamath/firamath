@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = macron;
 layers = (
 {
@@ -9,7 +9,7 @@ shapes = (
 ref = macroncomb;
 }
 );
-width = 385;
+width = 384;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -36,7 +36,7 @@ shapes = (
 ref = macroncomb;
 }
 );
-width = 333;
+width = 334;
 }
 );
 unicode = 175;

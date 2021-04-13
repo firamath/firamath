@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = minusbelowcomb;
 layers = (
 {
@@ -10,7 +10,7 @@ pos = (156,0);
 },
 {
 name = bottom;
-pos = (158,-236);
+pos = (156,-236);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -26,7 +26,7 @@ math = {
 topAccent = 156;
 };
 };
-width = 313;
+width = 312;
 },
 {
 anchors = (
@@ -36,7 +36,7 @@ pos = (135,0);
 },
 {
 name = bottom;
-pos = (137,-195);
+pos = (135,-195);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -62,7 +62,7 @@ pos = (182,0);
 },
 {
 name = bottom;
-pos = (184,-263);
+pos = (182,-263);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -88,7 +88,7 @@ pos = (143,0);
 },
 {
 name = bottom;
-pos = (145,-207);
+pos = (143,-207);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";

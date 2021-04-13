@@ -10,7 +10,7 @@ ref = forces;
 },
 {
 pos = (88,0);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 540;
@@ -24,7 +24,7 @@ ref = forces;
 },
 {
 pos = (98,0);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 550;
@@ -39,7 +39,7 @@ ref = forces;
 {
 angle = 6;
 pos = (175,-24);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 580;
@@ -54,7 +54,7 @@ ref = forces;
 {
 angle = 10;
 pos = (291,-37);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 660;

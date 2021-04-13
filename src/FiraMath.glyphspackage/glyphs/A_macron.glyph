@@ -9,7 +9,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (108,0);
+pos = (109,0);
 ref = macroncomb.case;
 }
 );

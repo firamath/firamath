@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = tildebelowcomb;
 layers = (
 {
@@ -10,7 +10,7 @@ pos = (197,0);
 },
 {
 name = bottom;
-pos = (199,-184);
+pos = (197,-184);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -31,23 +31,23 @@ width = 394;
 anchors = (
 {
 name = _bottom;
-pos = (153,0);
+pos = (152,0);
 },
 {
 name = bottom;
-pos = (155,-122);
+pos = (152,-122);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (1,-808);
+pos = (0,-808);
 ref = tildecomb;
 }
 );
 userData = {
 math = {
-topAccent = 153;
+topAccent = 152;
 };
 };
 width = 303;
@@ -60,7 +60,7 @@ pos = (167,0);
 },
 {
 name = bottom;
-pos = (169,-155);
+pos = (167,-155);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -85,7 +85,7 @@ pos = (231,0);
 },
 {
 name = bottom;
-pos = (233,-228);
+pos = (231,-228);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";

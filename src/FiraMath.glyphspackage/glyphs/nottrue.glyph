@@ -10,7 +10,7 @@ ref = true;
 },
 {
 pos = (31,0);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 540;
@@ -24,7 +24,7 @@ ref = true;
 },
 {
 pos = (40,0);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 550;
@@ -39,7 +39,7 @@ ref = true;
 {
 angle = 6;
 pos = (91,-24);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 560;
@@ -54,7 +54,7 @@ ref = true;
 {
 angle = 10;
 pos = (151,-37);
-ref = slashlongcomb;
+ref = slashlongcomb.size04;
 }
 );
 width = 560;
