@@ -33,8 +33,7 @@ WEIGHT_LIST     = ["Thin", "UltraLight", "ExtraLight", "Light", "Book", "Regular
 
 
 if not os.path.exists(OTF_PATH):
-    os.mkdir(OTF_PATH)
-
+    os.makedirs(OTF_PATH)
 
 def generate_fonts(hint_flag, font_ext=".otf"):
     print("FontForge version: " + ff.version())

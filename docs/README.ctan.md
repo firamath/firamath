@@ -6,8 +6,6 @@ Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 - [FiraSans](https://github.com/bBoxType/FiraSans)
 - [FiraGO](https://github.com/bBoxType/FiraGO)
 
-<!-- Fira Math is a sans-serif font with Unicode math support. The design of this font is based on [Fira Sans](https://github.com/bBoxType/FiraSans) and [FiraGO](https://github.com/bBoxType/FiraGO). Fira Math is distributed in OpenType format and can be used with the [unicode-math](https://ctan.org/pkg/unicode-math) package under XeLaTeX or LuaLaTeX. More support is offered by the [firamath-otf](https://ctan.org/pkg/firamath-otf) package. -->
-
 Usage
 -----
 
@@ -41,4 +39,4 @@ This Font Software is licensed under the [SIL Open Font License](http://scripts.
 
 -----
 
-Copyright (C) 2018, 2019 by Xiangdong Zeng <xdzeng96@gmail.com>.
+Copyright (C) 2018&ndash;2020 by Xiangdong Zeng <xdzeng96@gmail.com>.

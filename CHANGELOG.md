@@ -72,6 +72,53 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.4-beta-1).
 
+## v0.3.4 (2020-10-15)
+
+**Note:** This version is based on the master branch and has fixed some issues from v0.3.3. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
+
+- Fixed:
+  - Remove `CounterMasks` - [#53](https://github.com/firamath/firamath/issues/53)
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.3...v0.3.4).
+
+## v0.3.3 (2020-01-13)
+
+**Note:** This version is based on the master branch and has fixed some issues from v0.3.2. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
+
+Only the major changes of the font itself are logged here (from v0.3.2):
+
+- Added:
+  - More supplemental arrows
+- Changed:
+  - Remove `uniFEFF` (zero width no-break space, or BOM) - [#40](https://github.com/firamath/firamath/issues/40)
+- Fixed:
+  - Add `hhea` and `OS/2` tables, so the ascent, descent and line gap can be correct
+  - Fix display upright integrals - [#49](https://github.com/firamath/firamath/issues/49)
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.2...v0.3.3).
+
+## v0.3.2 (2019-06-03)
+
+**Note:** This version is based on the master branch and has fixed some issues from v0.3.1. Only Regular weight is included in this release, so I keep it to be v0.3.x. This version will be pushed to CTAN.
+
+Only the major changes of the font itself are logged here (from v0.3.1):
+
+- Added:
+  - Cyrillic letters
+  - More Greek letters
+  - More arrows
+  - Some geometric shapes
+  - Miscellaneous
+    - Back primes
+    - Double-struck summations, etc
+- Changed:
+  - Remove Latin letters outside Adobe Latin-3
+  - Adjust some MATH constants
+  - Numerous minor adjustment of glyphs
+  - Numerous miscellaneous changes for the development of multiple weights
+
+More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.3.1...v0.3.2).
+
 ## v0.3.1 (2018-10-26)
 
 - Changed:

@@ -109,8 +109,8 @@ The source files `FiraMath-*.sfd` are not designed for generating fonts directly
 
 ### Linux
 
-1. Install Python 2.7 and `python-fontforge`, or the full [FontForge](https://fontforge.github.io).
-1. Run `python ./scripts/build.py --fonts`.
+1. Install Python 3 and `python-fontforge`, or the full [FontForge](https://fontforge.github.io).
+1. Run `python3 ./scripts/build.py --fonts`.
 
 ### Development builds
 
