@@ -15,7 +15,7 @@ ref = u1D6E5;
 );
 userData = {
 math = {
-topAccent = 286;
+topAccent = 352;
 };
 };
 width = 586;
@@ -32,7 +32,7 @@ ref = u1D6E5;
 );
 userData = {
 math = {
-topAccent = 294;
+topAccent = 355;
 };
 };
 width = 592;
@@ -49,7 +49,7 @@ ref = u1D6E5;
 );
 userData = {
 math = {
-topAccent = 302;
+topAccent = 364;
 };
 };
 width = 609;
@@ -66,7 +66,7 @@ ref = u1D6E5;
 );
 userData = {
 math = {
-topAccent = 320;
+topAccent = 378;
 };
 };
 width = 637;

@@ -12,7 +12,7 @@ ref = "Bitalic-math";
 );
 userData = {
 math = {
-topAccent = 375;
+topAccent = 357;
 };
 };
 width = 649;
@@ -26,7 +26,7 @@ ref = "Bitalic-math";
 );
 userData = {
 math = {
-topAccent = 374;
+topAccent = 348;
 };
 };
 width = 601;
@@ -40,7 +40,7 @@ ref = "Bitalic-math";
 );
 userData = {
 math = {
-topAccent = 375;
+topAccent = 350;
 };
 };
 width = 613;
@@ -54,7 +54,7 @@ ref = "Bitalic-math";
 );
 userData = {
 math = {
-topAccent = 376;
+topAccent = 354;
 };
 };
 width = 634;

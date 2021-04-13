@@ -12,7 +12,7 @@ ref = "Iitalic-math";
 );
 userData = {
 math = {
-topAccent = 241;
+topAccent = 223;
 };
 };
 width = 328;
@@ -26,7 +26,7 @@ ref = "Iitalic-math";
 );
 userData = {
 math = {
-topAccent = 226;
+topAccent = 200;
 };
 };
 width = 282;
@@ -40,7 +40,7 @@ ref = "Iitalic-math";
 );
 userData = {
 math = {
-topAccent = 232;
+topAccent = 207;
 };
 };
 width = 295;
@@ -54,7 +54,7 @@ ref = "Iitalic-math";
 );
 userData = {
 math = {
-topAccent = 244;
+topAccent = 222;
 };
 };
 width = 324;

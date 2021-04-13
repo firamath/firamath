@@ -12,7 +12,7 @@ ref = "Xitalic-math";
 );
 userData = {
 math = {
-topAccent = 356;
+topAccent = 376;
 };
 };
 width = 634;
@@ -26,7 +26,7 @@ ref = "Xitalic-math";
 );
 userData = {
 math = {
-topAccent = 293;
+topAccent = 303;
 };
 };
 width = 487;
@@ -40,7 +40,7 @@ ref = "Xitalic-math";
 );
 userData = {
 math = {
-topAccent = 304;
+topAccent = 316;
 };
 };
 width = 517;
@@ -54,7 +54,7 @@ ref = "Xitalic-math";
 );
 userData = {
 math = {
-topAccent = 327;
+topAccent = 343;
 };
 };
 width = 566;

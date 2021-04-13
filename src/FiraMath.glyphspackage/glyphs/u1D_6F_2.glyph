@@ -12,7 +12,7 @@ ref = "Pitalic-math";
 );
 userData = {
 math = {
-topAccent = 397;
+topAccent = 379;
 };
 };
 width = 639;
@@ -26,7 +26,7 @@ ref = "Pitalic-math";
 );
 userData = {
 math = {
-topAccent = 371;
+topAccent = 345;
 };
 };
 width = 572;
@@ -40,7 +40,7 @@ ref = "Pitalic-math";
 );
 userData = {
 math = {
-topAccent = 377;
+topAccent = 352;
 };
 };
 width = 585;
@@ -54,7 +54,7 @@ ref = "Pitalic-math";
 );
 userData = {
 math = {
-topAccent = 386;
+topAccent = 364;
 };
 };
 width = 607;

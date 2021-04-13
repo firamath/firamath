@@ -12,7 +12,7 @@ ref = "Mitalic-math";
 );
 userData = {
 math = {
-topAccent = 442;
+topAccent = 462;
 };
 };
 width = 817;
@@ -26,7 +26,7 @@ ref = "Mitalic-math";
 );
 userData = {
 math = {
-topAccent = 438;
+topAccent = 448;
 };
 };
 width = 777;
@@ -40,7 +40,7 @@ ref = "Mitalic-math";
 );
 userData = {
 math = {
-topAccent = 439;
+topAccent = 451;
 };
 };
 width = 788;
@@ -55,7 +55,7 @@ ref = "Mitalic-math";
 );
 userData = {
 math = {
-topAccent = 439;
+topAccent = 455;
 };
 };
 width = 806;

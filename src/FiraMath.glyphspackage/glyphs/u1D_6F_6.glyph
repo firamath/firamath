@@ -12,7 +12,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
-topAccent = 364;
+topAccent = 384;
 };
 };
 width = 648;
@@ -26,7 +26,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
-topAccent = 299;
+topAccent = 309;
 };
 };
 width = 499;
@@ -40,7 +40,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
-topAccent = 305;
+topAccent = 317;
 };
 };
 width = 524;
@@ -54,7 +54,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
-topAccent = 335;
+topAccent = 351;
 };
 };
 width = 576;

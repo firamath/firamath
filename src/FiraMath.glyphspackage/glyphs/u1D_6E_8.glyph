@@ -12,7 +12,7 @@ ref = "Hitalic-math";
 );
 userData = {
 math = {
-topAccent = 382;
+topAccent = 402;
 };
 };
 width = 685;
@@ -26,7 +26,7 @@ ref = "Hitalic-math";
 );
 userData = {
 math = {
-topAccent = 385;
+topAccent = 395;
 };
 };
 width = 674;
@@ -40,7 +40,7 @@ ref = "Hitalic-math";
 );
 userData = {
 math = {
-topAccent = 388;
+topAccent = 400;
 };
 };
 width = 686;
@@ -54,7 +54,7 @@ ref = "Hitalic-math";
 );
 userData = {
 math = {
-topAccent = 397;
+topAccent = 413;
 };
 };
 width = 706;
