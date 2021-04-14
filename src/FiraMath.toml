@@ -59,8 +59,8 @@ RadicalDegreeBottomRaisePercent          = { value = [   64,   64,   64,   64], 
 
 [MathGlyphInfo]
 
-italicCorrection = {}
-topAccent = {}
+ItalicCorrection = {}
+TopAccent = {}
 
 [MathVariants]
 

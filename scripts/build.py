@@ -36,6 +36,7 @@ class Font:
         self.font: GSFont = Parser(current_type=GSFont).parse(
             fontinfo[:insert_pos] + glyphs_str + fontinfo[insert_pos:-1]
         )
+        self.math_tables: dict[str, MathTable] = {}
         masters = sorted(self.font.masters, key=lambda m: m.weightValue)
         self._masters_num = len(masters)
         self._master_id_indices = {m.id: i for i, m in enumerate(masters)}
@@ -197,7 +198,6 @@ class Font:
 
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
-        self.math_tables: dict[str, MathTable] = {}
         for style, interpolation in self.interpolations.items():
             math_table = MathTable()
             _generate = lambda values: round(sum(values[i] * v for i, v in interpolation))
@@ -249,6 +249,8 @@ class Font:
         return data
 
     def _get_user_data(self, name: str):
+        # Uncapitalize: 'TopAccent' -> 'topAccent', etc.
+        name = name[0].lower() + name[1:]
         mappings = {}
         for glyph in self.font.glyphs:
             values = []
@@ -283,9 +285,9 @@ class MathTable:
     def __init__(self):
         self.constants = {}
         self.glyph_info = {
-            'italicCorrection': {},
-            'topAccent': {},
-            # 'extendedShapes': [],
+            'ItalicCorrection': {},
+            'TopAccent': {},
+            # 'ExtendedShapes': [],
         }
         self.variants = {}
 
@@ -307,10 +309,10 @@ class MathTable:
     def _encode_glyph_info(self):
         italic_corr = otTables.MathItalicsCorrectionInfo()
         italic_corr.ItalicsCorrection, italic_corr.Coverage, italic_corr.ItalicsCorrectionCount = \
-            self._glyph_info('italicCorrection')
+            self._glyph_info('ItalicCorrection')
         top_accent = otTables.MathTopAccentAttachment()
         top_accent.TopAccentAttachment, top_accent.TopAccentCoverage, top_accent.TopAccentAttachmentCount = \
-            self._glyph_info('topAccent')
+            self._glyph_info('TopAccent')
         glyph_info = otTables.MathGlyphInfo()
         glyph_info.MathItalicsCorrectionInfo = italic_corr
         glyph_info.MathTopAccentAttachment = top_accent
