@@ -2,6 +2,8 @@
 '''
 
 import copy
+import functools
+import multiprocessing
 import os
 import sys
 import time
@@ -20,6 +22,9 @@ from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath
 from glyphsLib.parser import Parser
 
 import toml
+
+
+CPU_COUNT = multiprocessing.cpu_count()
 
 
 class Font:
@@ -175,8 +180,8 @@ class Font:
                 i.axes[axis_index] for i in self.font.instances if isinstance(i.weight, str)
             )
         instantiator = Instantiator.from_designspace(designspace)
-        ufos.extend(map(instantiator.generate_instance, designspace.instances))
-        return ufos
+        with multiprocessing.Pool(CPU_COUNT) as p:
+            return list(p.map(instantiator.generate_instance, designspace.instances))
 
     def add_math_table(self, toml_path: str, input_dir: str, output_dir: str = None):
         if not output_dir:
@@ -389,19 +394,26 @@ def build(input_path: str, toml_path: str, output_dir: str):
     3. Generate `.otf` font files
     4. Add the OpenType MATH tables
     '''
-    print('Python {}\nfonttools {}\nglyphsLib {}\n'.format(
+    print('Python: {}\nfonttools: {}\nglyphsLib: {}\nCPU count: {}\n'.format(
         sys.version.split()[0],
         fontTools.version,
         glyphsLib.__version__,
+        CPU_COUNT,
     ), file=sys.stderr)
     with Timer('Parsing input file \'{}\'...'.format(input_path)):
         font = Font(input_path)
     with Timer('Generating UFO...'):
         ufos = font.to_ufos()
     with Timer('Generating OTF...'):
-        FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
+        _build = functools.partial(_build_otf, output_dir=output_dir)
+        with multiprocessing.Pool(CPU_COUNT) as p:
+            p.map(_build, ufos)
     with Timer('Adding MATH table...'):
         font.add_math_table(toml_path, input_dir=output_dir)
+
+
+def _build_otf(ufo, output_dir):
+    FontProject(verbose='WARNING').build_otfs([ufo], output_dir=output_dir)
 
 
 if __name__ == '__main__':
