@@ -35,6 +35,7 @@ nodes = (
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 223;
 };
 };
@@ -73,6 +74,7 @@ nodes = (
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 200;
 };
 };
@@ -111,6 +113,7 @@ nodes = (
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 207;
 };
 };
@@ -149,6 +152,7 @@ nodes = (
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 222;
 };
 };

@@ -12,6 +12,7 @@ ref = "Zitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 353;
 };
 };
@@ -26,6 +27,7 @@ ref = "Zitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 323;
 };
 };
@@ -40,6 +42,7 @@ ref = "Zitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 327;
 };
 };
@@ -54,6 +57,7 @@ ref = "Zitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 345;
 };
 };

@@ -15,6 +15,7 @@ ref = dotaccentcomb.italic;
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 254;
 };
 };
@@ -33,6 +34,7 @@ ref = dotaccentcomb.italic;
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 205;
 };
 };
@@ -51,6 +53,7 @@ ref = dotaccentcomb.italic;
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 213;
 };
 };
@@ -69,6 +72,7 @@ ref = dotaccentcomb.italic;
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 222;
 };
 };

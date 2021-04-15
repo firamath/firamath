@@ -12,6 +12,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 384;
 };
 };
@@ -26,6 +27,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 309;
 };
 };
@@ -40,6 +42,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 317;
 };
 };
@@ -54,6 +57,7 @@ ref = "Yitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 351;
 };
 };

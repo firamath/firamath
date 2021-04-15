@@ -12,6 +12,7 @@ ref = "oitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 314;
 };
 };
@@ -26,6 +27,7 @@ ref = "oitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 316;
 };
 };
@@ -40,6 +42,7 @@ ref = "oitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 319;
 };
 };
@@ -54,6 +57,7 @@ ref = "oitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 40;
 topAccent = 326;
 };
 };

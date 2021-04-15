@@ -12,6 +12,7 @@ ref = "Kitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 404;
 };
 };
@@ -26,6 +27,7 @@ ref = "Kitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 353;
 };
 };
@@ -40,6 +42,7 @@ ref = "Kitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 361;
 };
 };
@@ -54,6 +57,7 @@ ref = "Kitalic-math";
 );
 userData = {
 math = {
+italicCorrection = 60;
 topAccent = 401;
 };
 };

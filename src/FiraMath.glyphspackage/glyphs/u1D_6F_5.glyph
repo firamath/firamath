@@ -12,6 +12,7 @@ ref = "Titalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 352;
 };
 };
@@ -26,6 +27,7 @@ ref = "Titalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 305;
 };
 };
@@ -40,6 +42,7 @@ ref = "Titalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 310;
 };
 };
@@ -54,6 +57,7 @@ ref = "Titalic-math";
 );
 userData = {
 math = {
+italicCorrection = 100;
 topAccent = 330;
 };
 };
