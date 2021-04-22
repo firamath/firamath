@@ -24,9 +24,6 @@ from glyphsLib.parser import Parser
 import toml
 
 
-CPU_COUNT = multiprocessing.cpu_count()
-
-
 class Font:
 
     def __init__(self, path: str):
@@ -180,7 +177,7 @@ class Font:
                 i.axes[axis_index] for i in self.font.instances if isinstance(i.weight, str)
             )
         instantiator = Instantiator.from_designspace(designspace)
-        with multiprocessing.Pool(CPU_COUNT) as p:
+        with multiprocessing.Pool() as p:
             return list(p.map(instantiator.generate_instance, designspace.instances))
 
     def add_math_table(self, toml_path: str, input_dir: str, output_dir: str = None):
@@ -230,7 +227,7 @@ class Font:
         glyph_info = data['MathGlyphInfo']
         variants = data['MathVariants']
         for name in glyph_info:
-            for glyph, values in self._get_user_data(name).items():
+            for glyph, values in self._get_all_user_data(name).items():
                 if len(values) != self._masters_num:
                     # TODO:
                     print(
@@ -243,46 +240,69 @@ class Font:
                 glyph_info[name][glyph] = values
         for glyph, value in variants['HorizontalVariants'].items():
             variants['HorizontalVariants'][glyph] = {
-                var: self._advances(var, 'horizontal')
+                var: self._advances(var, 'H', plus_1=True)
                 for var in (glyph + suffix for suffix in value['suffixes'])
             }
         for glyph, value in variants['VerticalVariants'].items():
             variants['VerticalVariants'][glyph] = {
-                var: self._advances(var, 'vertical')
+                var: self._advances(var, 'V', plus_1=True)
                 for var in (glyph + suffix for suffix in value['suffixes'])
             }
+        for glyph, value in variants['HorizontalComponents'].items():
+            variants['HorizontalComponents'][glyph]['parts'] = [
+                part | self._variant_part(part['name'], 'H') for part in value['parts']
+            ]
+        for glyph, value in variants['VerticalComponents'].items():
+            variants['VerticalComponents'][glyph]['parts'] = [
+                part | self._variant_part(part['name'], 'V') for part in value['parts']
+            ]
         return data
 
-    def _get_user_data(self, name: str):
+    def _get_all_user_data(self, name: str):
         # Uncapitalize: 'TopAccent' -> 'topAccent', etc.
         name = name[0].lower() + name[1:]
         mappings = {}
         for glyph in self.font.glyphs:
-            values = []
-            for layer in self._master_layers(glyph.layers):
-                # Assume there is only one `name` in layer.userData
-                try:
-                    data = next(d for d in layer.userData if name in d)
-                    values.append(data[name])
-                except StopIteration:
-                    pass
+            values = self._get_user_data(glyph, name)
             if values:
                 mappings[glyph.name] = values
         return mappings
 
-    def _advances(self, glyph: str, direction: str):
-        result = []
-        for layer in self._master_layers(self.font.glyphs[glyph].layers):
-            size = layer.bounds.size
-            advance = size.width if direction == 'horizontal' else size.height
-            result.append(abs(round(advance)) + 1)
-        return result
+    def _get_user_data(self, glyph: GSGlyph, name: str):
+        values = []
+        for layer in self._master_layers(glyph.layers):
+            # Assume there is only one `name` in layer.userData
+            try:
+                data = next(d for d in layer.userData if name in d)
+                values.append(data[name])
+            except StopIteration:
+                pass
+        return values
 
     def _master_layers(self, layers):
         return sorted(
             (l for l in layers if l.associatedMasterId == l.layerId),
             key=lambda l: self._master_id_indices[l.associatedMasterId]
         )
+
+    def _advances(self, glyph: str, direction: str, plus_1: bool = False):
+        result = []
+        for layer in self._master_layers(self.font.glyphs[glyph].layers):
+            size = layer.bounds.size
+            advance = size.width if direction == 'H' else size.height
+            result.append(abs(round(advance)))
+        if plus_1:
+            return [i + 1 for i in result]
+        else:
+            return result
+
+    def _variant_part(self, glyph: str, direction: str):
+        result = {
+            name: self._get_user_data(self.font.glyphs[glyph], name)
+            for name in ['startConnector', 'endConnector']
+        }
+        result['fullAdvance'] = self._advances(glyph, direction)
+        return result
 
 
 class MathTable:
@@ -398,7 +418,7 @@ def build(input_path: str, toml_path: str, output_dir: str):
         sys.version.split()[0],
         fontTools.version,
         glyphsLib.__version__,
-        CPU_COUNT,
+        multiprocessing.cpu_count(),
     ), file=sys.stderr)
     with Timer('Parsing input file \'{}\'...'.format(input_path)):
         font = Font(input_path)

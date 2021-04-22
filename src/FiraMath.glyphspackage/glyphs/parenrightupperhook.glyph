@@ -11,6 +11,12 @@ ref = parenleftupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 200;
+};
+};
 width = 878;
 },
 {
@@ -23,6 +29,12 @@ ref = parenleftupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 200;
+};
+};
 width = 912;
 },
 {
@@ -35,6 +47,12 @@ ref = parenleftupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 200;
+};
+};
 width = 928;
 },
 {
@@ -47,6 +65,12 @@ ref = parenleftupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 200;
+};
+};
 width = 1034;
 }
 );

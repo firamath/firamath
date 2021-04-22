@@ -124,3 +124,21 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "radical"                        = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "cuberoot"                       = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "fourthroot"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+
+[MathVariants.HorizontalComponents]
+
+[MathVariants.VerticalComponents]
+
+"parenleft".italicsCorrection = 0
+"parenleft".parts = [
+    { name = "parenleftlowerhook", isExtender = false },
+    { name = "parenleftextension", isExtender = true  },
+    { name = "parenleftupperhook", isExtender = false },
+]
+
+"parenright".italicsCorrection = 0
+"parenright".parts = [
+    { name = "parenrightlowerhook", isExtender = false },
+    { name = "parenrightextension", isExtender = true  },
+    { name = "parenrightupperhook", isExtender = false },
+]
