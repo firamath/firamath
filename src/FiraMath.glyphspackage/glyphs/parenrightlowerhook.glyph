@@ -13,7 +13,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
+endConnector = 60;
 startConnector = 0;
 };
 };
@@ -31,7 +31,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
+endConnector = 60;
 startConnector = 0;
 };
 };
@@ -49,7 +49,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
+endConnector = 60;
 startConnector = 0;
 };
 };
@@ -67,7 +67,7 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
+endConnector = 60;
 startConnector = 0;
 };
 };

@@ -1,13 +1,19 @@
 {
-glyphname = leftcurlybracketupperhook;
+glyphname = leftCeiling.top;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+closed = 1;
+nodes = (
+(202,0,l),
+(202,798,l),
+(400,798,l),
+(400,800,l),
+(200,800,l),
+(200,0,l)
+);
 }
 );
 userData = {
@@ -16,15 +22,21 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 806;
+width = 544;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+closed = 1;
+nodes = (
+(235,0,l),
+(235,772,l),
+(430,772,l),
+(430,800,l),
+(200,800,l),
+(200,0,l)
+);
 }
 );
 userData = {
@@ -33,15 +45,21 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 848;
+width = 574;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+closed = 1;
+nodes = (
+(302,0,l),
+(302,711,l),
+(544,711,l),
+(544,800,l),
+(192,800,l),
+(192,0,l)
+);
 }
 );
 userData = {
@@ -50,15 +68,21 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 932;
+width = 672;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+closed = 1;
+nodes = (
+(364,0,l),
+(364,640,l),
+(636,640,l),
+(636,800,l),
+(172,800,l),
+(172,0,l)
+);
 }
 );
 userData = {
@@ -67,10 +91,9 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 1038;
+width = 736;
 }
 );
-metricLeft = leftcurlybracketlowerhook;
-metricRight = leftcurlybracketlowerhook;
-unicode = 9127;
+metricLeft = leftCeiling.size15;
+metricRight = leftCeiling.size15;
 }

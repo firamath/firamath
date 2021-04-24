@@ -1791,6 +1791,12 @@
 				<string>parenrightlowerhook</string>
 				<string>parenrightupperhook</string>
 				<string>parenrightextension</string>
+				<string>leftflattenedparenthesis-math.bot</string>
+				<string>leftflattenedparenthesis-math.top</string>
+				<string>leftflattenedparenthesis-math.ext</string>
+				<string>rightflattenedparenthesis-math.bot</string>
+				<string>rightflattenedparenthesis-math.top</string>
+				<string>rightflattenedparenthesis-math.ext</string>
 				<string>leftsquarebracketlowercorner</string>
 				<string>leftsquarebracketuppercorner</string>
 				<string>leftsquarebracketextension</string>
@@ -1800,13 +1806,33 @@
 				<string>leftcurlybracketlowerhook</string>
 				<string>leftcurlybracketmiddlepiece</string>
 				<string>leftcurlybracketupperhook</string>
+				<string>braceleft.ext</string>
 				<string>rightcurlybracketlowerhook</string>
 				<string>rightcurlybracketmiddlepiece</string>
 				<string>rightcurlybracketupperhook</string>
+				<string>braceright.ext</string>
 				<string>curlybracketextension</string>
+				<string>leftCeiling.top</string>
+				<string>leftCeiling.ext</string>
+				<string>rightCeiling.top</string>
+				<string>rightCeiling.ext</string>
+				<string>leftFloor.bot</string>
+				<string>leftFloor.ext</string>
+				<string>rightFloor.bot</string>
+				<string>rightFloor.ext</string>
 				<string>leftverticalboxline</string>
 				<string>rightverticalboxline</string>
+				<string>dblverticalbar.ext</string>
+				<string>tripleVerticalBarDelimiter.ext</string>
 				<string>radicalsymbolbottom</string>
+				<string>radical.top</string>
+				<string>radical.ext</string>
+				<string>cuberoot.bot</string>
+				<!-- <string>cuberoot.top</string> -->
+				<!-- <string>cuberoot.ext</string> -->
+				<string>fourthroot.bot</string>
+				<!-- <string>fourthroot.top</string> -->
+				<!-- <string>fourthroot.ext</string> -->
 			</array>
 		</dict>
 		<dict>

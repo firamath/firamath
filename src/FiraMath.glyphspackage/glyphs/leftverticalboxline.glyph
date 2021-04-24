@@ -8,12 +8,18 @@ shapes = (
 closed = 1;
 nodes = (
 (222,0,l),
-(222,600,l),
-(220,600,l),
+(222,800,l),
+(220,800,l),
 (220,0,l)
 );
 }
 );
+userData = {
+math = {
+endConnector = 60;
+startConnector = 60;
+};
+};
 width = 442;
 },
 {
@@ -23,12 +29,18 @@ shapes = (
 closed = 1;
 nodes = (
 (240,0,l),
-(240,600,l),
-(210,600,l),
+(240,800,l),
+(210,800,l),
 (210,0,l)
 );
 }
 );
+userData = {
+math = {
+endConnector = 60;
+startConnector = 60;
+};
+};
 width = 450;
 },
 {
@@ -38,12 +50,18 @@ shapes = (
 closed = 1;
 nodes = (
 (308,0,l),
-(308,600,l),
-(200,600,l),
+(308,800,l),
+(200,800,l),
 (200,0,l)
 );
 }
 );
+userData = {
+math = {
+endConnector = 60;
+startConnector = 60;
+};
+};
 width = 508;
 },
 {
@@ -53,12 +71,18 @@ shapes = (
 closed = 1;
 nodes = (
 (348,0,l),
-(348,600,l),
-(162,600,l),
+(348,800,l),
+(162,800,l),
 (162,0,l)
 );
 }
 );
+userData = {
+math = {
+endConnector = 60;
+startConnector = 60;
+};
+};
 width = 510;
 }
 );

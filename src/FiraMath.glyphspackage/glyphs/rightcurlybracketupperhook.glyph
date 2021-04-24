@@ -11,6 +11,12 @@ ref = leftcurlybracketupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
 width = 806;
 },
 {
@@ -23,6 +29,12 @@ ref = leftcurlybracketupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
 width = 848;
 },
 {
@@ -35,6 +47,12 @@ ref = leftcurlybracketupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
 width = 932;
 },
 {
@@ -47,6 +65,12 @@ ref = leftcurlybracketupperhook;
 scale = (-1,1);
 }
 );
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
 width = 1038;
 }
 );

@@ -1,18 +1,19 @@
 {
-glyphname = leftcurlybracketupperhook;
+glyphname = braceright.ext;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (806,0);
+ref = braceleft.ext;
+scale = (-1,1);
 }
 );
 userData = {
 math = {
-endConnector = 0;
+endConnector = 60;
 startConnector = 60;
 };
 };
@@ -22,14 +23,15 @@ width = 806;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (848,0);
+ref = braceleft.ext;
+scale = (-1,1);
 }
 );
 userData = {
 math = {
-endConnector = 0;
+endConnector = 60;
 startConnector = 60;
 };
 };
@@ -39,14 +41,15 @@ width = 848;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (932,0);
+ref = braceleft.ext;
+scale = (-1,1);
 }
 );
 userData = {
 math = {
-endConnector = 0;
+endConnector = 60;
 startConnector = 60;
 };
 };
@@ -56,21 +59,19 @@ width = 932;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (1038,0);
+ref = braceleft.ext;
+scale = (-1,1);
 }
 );
 userData = {
 math = {
-endConnector = 0;
+endConnector = 60;
 startConnector = 60;
 };
 };
 width = 1038;
 }
 );
-metricLeft = leftcurlybracketlowerhook;
-metricRight = leftcurlybracketlowerhook;
-unicode = 9127;
 }

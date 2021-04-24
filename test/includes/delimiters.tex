@@ -38,6 +38,8 @@
 
 \subsection{Extensible}
 
+\subsubsection{Part~A}
+
 \seq_const_from_clist:Nn \c_@@_bigs_seq
   { \prg_do_nothing:, \big, \Big, \bigg, \Bigg }
 \cs_set:Npn \@@_delimiter_test_extensible_a:N #1
@@ -63,21 +65,67 @@
     \end{gather*}
   }
 
+\subsubsection{Part~B}
+
+% \cs_set:Npn \@@_delimiter_test_extensible_b:NN #1#2
+%   { \left #1 \begin{matrix} a \\ b \\ c \\ x \\ y \\ z \end{matrix} \right #2 }
+% \seq_clear:N \l_@@_tmpa_seq
+% \seq_map_inline:Nn \c_@@_delimiters_seq
+%   {
+%     \seq_put_right:Nn \l_@@_tmpa_seq
+%       { \@@_delimiter_test_extensible_b:NN #1 }
+%   }
+% \@@_weight_test:n
+%   { \[ \seq_use:Nn \l_@@_tmpa_seq { \quad } \] }
+\seq_const_from_clist:Nn \c_@@_matrices_seq
+  {
+    { a \\ b \\ c \\ d \\ e \\ f                                          } ,
+    { x \\ y \\ z \\ u \\ v \\ s \\ t                                     } ,
+    { \alpha \\ \beta \\ \gamma \\ \delta \\ \mu \\ \nu \\ \rho \\ \sigma } ,
+  }
+\cs_set:Npn \@@_delimiter_test_extensible_b:n #1
+  {
+    \seq_map_inline:Nn \c_@@_delimiters_seq
+      {
+        \@@_delimiter_test_extensible_b_aux:nNN {#1} ##1
+        \quad
+      }
+  }
+\cs_set:Npn \@@_delimiter_test_extensible_b_aux:nNN #1#2#3
+  { \left #2 \begin{matrix} #1 \end{matrix} \right #3 }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_matrices_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_delimiter_test_extensible_b:n {#1} }
+  }
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }
+
+\subsubsection{Part~C}
+
 \seq_const_from_clist:Nn \c_@@_big_contents_seq
   {
-    x                                            ,
-    \symrm{e}^{\symrm{i}\pi}                     ,
-    T\sb{ij}                                     ,
-    \symrm{e}^{x^2}                              ,
-    \frac12                                      ,
-    \frac{a^b}{7}                                ,
-    \begin{matrix} \alpha \\ \beta \end{matrix}  ,
-    \begin{matrix} x \\ y \\ z \end{matrix}      ,
-    \sum\sb{i=0}^N                               ,
-    \begin{matrix} a \\ b \\ c \\ d \end{matrix} ,
-    \cfrac{1}{1+\cfrac{2}{1+\cfrac{3}{1+x}}}     ,
+    x                                                     ,
+    \symrm{e}^{\symrm{i}\pi}                              ,
+    T\sb{ij}                                              ,
+    \symrm{e}^{x^2}                                       ,
+    \frac12                                               ,
+    \frac{a^b}{7}                                         ,
+    \begin{matrix} \alpha \\ \beta \end{matrix}           ,
+    \begin{matrix} x \\ y \\ z \end{matrix}               ,
+    \sum\sb{i=0}^N                                        ,
+    \begin{matrix} a \\ b \\ c \\ d \end{matrix}          ,
+    \begin{matrix} i \\ j \\ k \\ l \\ m \end{matrix}     ,
+    \begin{matrix} 1 \\ 2 \\ 3 \\ 4 \\ 5 \\6 \end{matrix} ,
+    \cfrac{1+\cfrac{1}{2+\cfrac{3}{1+x}}}
+          {1+\cfrac{1}{4+\cfrac{9}{1+y}}}
   }
-\cs_set:Npn \@@_delimiter_test_extensible_b:NN #1#2
+\cs_set:Npn \@@_delimiter_test_extensible_c:NN #1#2
   {
     \seq_map_inline:Nn \c_@@_big_contents_seq
       { \left #1 ##1 \right #2 }
@@ -86,7 +134,7 @@
 \seq_map_inline:Nn \c_@@_delimiters_seq
   {
     \seq_put_right:Nn \l_@@_tmpa_seq
-      { \@@_delimiter_test_extensible_b:NN #1 }
+      { \@@_delimiter_test_extensible_c:NN #1 }
   }
 \@@_weight_test:n
   {

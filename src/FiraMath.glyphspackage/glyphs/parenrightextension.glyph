@@ -13,8 +13,8 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
-startConnector = 200;
+endConnector = 60;
+startConnector = 60;
 };
 };
 width = 878;
@@ -31,8 +31,8 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
-startConnector = 200;
+endConnector = 60;
+startConnector = 60;
 };
 };
 width = 912;
@@ -49,8 +49,8 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
-startConnector = 200;
+endConnector = 60;
+startConnector = 60;
 };
 };
 width = 928;
@@ -67,8 +67,8 @@ scale = (-1,1);
 );
 userData = {
 math = {
-endConnector = 200;
-startConnector = 200;
+endConnector = 60;
+startConnector = 60;
 };
 };
 width = 1034;

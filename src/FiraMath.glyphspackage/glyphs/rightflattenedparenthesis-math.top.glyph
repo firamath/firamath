@@ -1,13 +1,14 @@
 {
-glyphname = leftcurlybracketupperhook;
+glyphname = "rightflattenedparenthesis-math.top";
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (624,0);
+ref = "leftflattenedparenthesis-math.top";
+scale = (-1,1);
 }
 );
 userData = {
@@ -16,15 +17,16 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 806;
+width = 624;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (679,0);
+ref = "leftflattenedparenthesis-math.top";
+scale = (-1,1);
 }
 );
 userData = {
@@ -33,15 +35,16 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 848;
+width = 679;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (720,0);
+ref = "leftflattenedparenthesis-math.top";
+scale = (-1,1);
 }
 );
 userData = {
@@ -50,15 +53,16 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 932;
+width = 720;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,2000);
-ref = leftcurlybracketlowerhook;
-scale = (1,-1);
+alignment = 1;
+pos = (764,0);
+ref = "leftflattenedparenthesis-math.top";
+scale = (-1,1);
 }
 );
 userData = {
@@ -67,10 +71,7 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 1038;
+width = 764;
 }
 );
-metricLeft = leftcurlybracketlowerhook;
-metricRight = leftcurlybracketlowerhook;
-unicode = 9127;
 }

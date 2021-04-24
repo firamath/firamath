@@ -142,3 +142,100 @@ MinConnectorOverlap = [20, 20, 20, 20]
     { name = "parenrightextension", isExtender = true  },
     { name = "parenrightupperhook", isExtender = false },
 ]
+
+"leftflattenedparenthesis-math".italicsCorrection = 0
+"leftflattenedparenthesis-math".parts = [
+    { name = "leftflattenedparenthesis-math.bot", isExtender = false },
+    { name = "leftflattenedparenthesis-math.ext", isExtender = true  },
+    { name = "leftflattenedparenthesis-math.top", isExtender = false },
+]
+
+"rightflattenedparenthesis-math".italicsCorrection = 0
+"rightflattenedparenthesis-math".parts = [
+    { name = "rightflattenedparenthesis-math.bot", isExtender = false },
+    { name = "rightflattenedparenthesis-math.ext", isExtender = true  },
+    { name = "rightflattenedparenthesis-math.top", isExtender = false },
+]
+
+"bracketleft".italicsCorrection = 0
+"bracketleft".parts = [
+    { name = "leftsquarebracketlowercorner", isExtender = false },
+    { name = "leftsquarebracketextension",   isExtender = true  },
+    { name = "leftsquarebracketuppercorner", isExtender = false },
+]
+
+"bracketright".italicsCorrection = 0
+"bracketright".parts = [
+    { name = "rightsquarebracketlowercorner", isExtender = false },
+    { name = "rightsquarebracketextension",   isExtender = true  },
+    { name = "rightsquarebracketuppercorner", isExtender = false },
+]
+
+"braceleft".italicsCorrection = 0
+"braceleft".parts = [
+    { name = "leftcurlybracketlowerhook",   isExtender = false },
+    { name = "braceleft.ext",               isExtender = true  },
+    { name = "leftcurlybracketmiddlepiece", isExtender = false },
+    { name = "braceleft.ext",               isExtender = true  },
+    { name = "leftcurlybracketupperhook",   isExtender = false },
+]
+
+"braceright".italicsCorrection = 0
+"braceright".parts = [
+    { name = "rightcurlybracketlowerhook",   isExtender = false },
+    { name = "braceright.ext",               isExtender = true  },
+    { name = "rightcurlybracketmiddlepiece", isExtender = false },
+    { name = "braceright.ext",               isExtender = true  },
+    { name = "rightcurlybracketupperhook",   isExtender = false },
+]
+
+"leftCeiling".italicsCorrection = 0
+"leftCeiling".parts = [
+    { name = "leftCeiling.ext", isExtender = true  },
+    { name = "leftCeiling.top", isExtender = false },
+]
+
+"rightCeiling".italicsCorrection = 0
+"rightCeiling".parts = [
+    { name = "rightCeiling.ext", isExtender = true  },
+    { name = "rightCeiling.top", isExtender = false },
+]
+
+"leftFloor".italicsCorrection = 0
+"leftFloor".parts = [
+    { name = "leftFloor.bot", isExtender = false },
+    { name = "leftFloor.ext", isExtender = true  },
+]
+
+"rightFloor".italicsCorrection = 0
+"rightFloor".parts = [
+    { name = "rightFloor.bot", isExtender = false },
+    { name = "rightFloor.ext", isExtender = true  },
+]
+
+"bar".italicsCorrection = 0
+"bar".parts = [
+    { name = "leftverticalboxline", isExtender = false },
+    { name = "leftverticalboxline", isExtender = true  },
+]
+
+"dblverticalbar".italicsCorrection = 0
+"dblverticalbar".parts = [
+    { name = "dblverticalbar.ext", isExtender = false },
+    { name = "dblverticalbar.ext", isExtender = true  },
+]
+
+"tripleVerticalBarDelimiter".italicsCorrection = 0
+"tripleVerticalBarDelimiter".parts = [
+    { name = "tripleVerticalBarDelimiter.ext", isExtender = false },
+    { name = "tripleVerticalBarDelimiter.ext", isExtender = true  },
+]
+
+# "radical".italicsCorrection = 0
+# "radical".parts = []
+
+# "cuberoot".italicsCorrection = 0
+# "cuberoot".parts = []
+
+# "fourthroot".italicsCorrection = 0
+# "fourthroot".parts = []
