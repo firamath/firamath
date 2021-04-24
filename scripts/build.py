@@ -52,7 +52,7 @@ class Font:
         self._fix_export()
         self._decompose_smart_comp()
 
-    def _read_glyph(self, path: str, name: str):
+    def _read_glyph(self, path: str, name: str) -> str:
         if name == '.notdef':
             file_name = '_notdef.glyph'
         else:
@@ -116,21 +116,23 @@ class Font:
         ref_glyph: GSGlyph = comp.component
         if len(values) == 0:
             interpolation_value = 0
-            is_part_n = lambda layer, n: \
-                layer.associatedMasterId == master_id and \
-                layer.partSelection[next(iter(layer.partSelection.keys()))] == n
+            def _is_part_n(layer, n):
+                return (
+                    layer.associatedMasterId == master_id and
+                    layer.partSelection[next(iter(layer.partSelection.keys()))] == n
+                )
         elif len(values) == 1:
             key, value = next(iter(values.items()))
             interpolation_value = next(
                 self._rescale(value, axis.bottomValue, axis.topValue)
                 for axis in ref_glyph.smartComponentAxes if axis.name == key
             )
-            is_part_n = lambda layer, n: \
-                layer.associatedMasterId == master_id and layer.partSelection[key] == n
+            def _is_part_n(layer, n):
+                return layer.associatedMasterId == master_id and layer.partSelection[key] == n
         else:
             raise ValueError('We only support single smart component axis!')
-        layer_0: GSLayer = next(layer for layer in ref_glyph.layers if is_part_n(layer, 1))
-        layer_1: GSLayer = next(layer for layer in ref_glyph.layers if is_part_n(layer, 2))
+        layer_0: GSLayer = next(layer for layer in ref_glyph.layers if _is_part_n(layer, 1))
+        layer_1: GSLayer = next(layer for layer in ref_glyph.layers if _is_part_n(layer, 2))
         paths = []
         for path_0, path_1 in zip(layer_0.paths, layer_1.paths):
             path = self._interpolate_path(path_0, path_1, interpolation_value)
@@ -201,8 +203,32 @@ class Font:
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
         for style, interpolation in self.interpolations.items():
+            def _generate(values):
+                return round(sum(values[i] * v for i, v in interpolation))
+            def _variant(name):
+                return {
+                    glyph: {g: _generate(values) for g, values in variants.items()}
+                    for glyph, variants in master_data['MathVariants'][name].items()
+                }
+            def _componet(name):
+                return {
+                    glyph: {
+                        # TODO: need to be interpolated
+                        'italicsCorrection': componet['italicsCorrection'],
+                        'parts': [
+                            {
+                                'name': part['name'],
+                                'isExtender': part['isExtender'],
+                                'startConnector': _generate(part['startConnector']),
+                                'endConnector': _generate(part['endConnector']),
+                                'fullAdvance': _generate(part['fullAdvance']),
+                            }
+                            for part in componet['parts']
+                        ]
+                    }
+                    for glyph, componet in master_data['MathVariants'][name].items()
+                }
             math_table = MathTable()
-            _generate = lambda values: round(sum(values[i] * v for i, v in interpolation))
             for name, d in master_data['MathConstants'].items():
                 math_table.constants[name] = {
                     'value': _generate(d['value']),
@@ -212,17 +238,13 @@ class Font:
                 math_table.glyph_info[name] = {g: _generate(values) for g, values in d.items()}
             math_table.variants['MinConnectorOverlap'] = \
                 _generate(master_data['MathVariants']['MinConnectorOverlap'])
-            math_table.variants['HorizontalVariants'] = {
-                glyph: {g: _generate(values) for g, values in variants.items()}
-                for glyph, variants in master_data['MathVariants']['HorizontalVariants'].items()
-            }
-            math_table.variants['VerticalVariants'] = {
-                glyph: {g: _generate(values) for g, values in variants.items()}
-                for glyph, variants in master_data['MathVariants']['VerticalVariants'].items()
-            }
+            math_table.variants['HorizontalVariants'] = _variant('HorizontalVariants')
+            math_table.variants['VerticalVariants'] = _variant('VerticalVariants')
+            math_table.variants['HorizontalComponents'] = _componet('HorizontalComponents')
+            math_table.variants['VerticalComponents'] = _componet('VerticalComponents')
             self.math_tables[style] = math_table
 
-    def _parse_master_math_table(self, toml_path: str):
+    def _parse_master_math_table(self, toml_path: str) -> dict:
         data = toml.load(toml_path)
         glyph_info = data['MathGlyphInfo']
         variants = data['MathVariants']
@@ -258,7 +280,7 @@ class Font:
             ]
         return data
 
-    def _get_all_user_data(self, name: str):
+    def _get_all_user_data(self, name: str) -> dict[str, list]:
         # Uncapitalize: 'TopAccent' -> 'topAccent', etc.
         name = name[0].lower() + name[1:]
         mappings = {}
@@ -268,7 +290,7 @@ class Font:
                 mappings[glyph.name] = values
         return mappings
 
-    def _get_user_data(self, glyph: GSGlyph, name: str):
+    def _get_user_data(self, glyph: GSGlyph, name: str) -> list:
         values = []
         for layer in self._master_layers(glyph.layers):
             # Assume there is only one `name` in layer.userData
@@ -279,13 +301,13 @@ class Font:
                 pass
         return values
 
-    def _master_layers(self, layers):
+    def _master_layers(self, layers) -> list[GSLayer]:
         return sorted(
             (l for l in layers if l.associatedMasterId == l.layerId),
             key=lambda l: self._master_id_indices[l.associatedMasterId]
         )
 
-    def _advances(self, glyph: str, direction: str, plus_1: bool = False):
+    def _advances(self, glyph: str, direction: str, plus_1: bool = False) -> list:
         result = []
         for layer in self._master_layers(self.font.glyphs[glyph].layers):
             size = layer.bounds.size
@@ -296,7 +318,7 @@ class Font:
         else:
             return result
 
-    def _variant_part(self, glyph: str, direction: str):
+    def _variant_part(self, glyph: str, direction: str) -> dict[str, list]:
         result = {
             name: self._get_user_data(self.font.glyphs[glyph], name)
             for name in ['startConnector', 'endConnector']
@@ -356,29 +378,47 @@ class MathTable:
         variants = otTables.MathVariants()
         variants.MinConnectorOverlap = self.variants['MinConnectorOverlap']
         variants.HorizGlyphConstruction, variants.HorizGlyphCoverage, variants.HorizGlyphCount = \
-            self._variants('HorizontalVariants')
+            self._variants('Horizontal')
         variants.VertGlyphConstruction, variants.VertGlyphCoverage, variants.VertGlyphCount = \
-            self._variants('VerticalVariants')
+            self._variants('Vertical')
         return variants
 
     def _variants(self, name: str):
-        return (
-            list(map(self._glyph_construction, self.variants[name].values())),
-            self._coverage(self.variants[name].keys()),
-            len(self.variants[name])
-        )
+        constructions = {}
+        for glyph, variants in self.variants[name + 'Variants'].items():
+            constructions[glyph] = self._glyph_construction(variants)
+        for glyph, component in self.variants[name + 'Components'].items():
+            if glyph not in constructions:
+                constructions[glyph] = self._glyph_construction()
+            constructions[glyph].GlyphAssembly = self._glyph_assembly(component)
+        return constructions.values(), self._coverage(constructions.keys()), len(constructions)
 
-    def _glyph_construction(self, variants: dict):
+    def _glyph_construction(self, variants: dict = {}):
         construction = otTables.MathGlyphConstruction()
-        construction.GlyphAssembly = None  # TODO:
+        construction.GlyphAssembly = None
         construction.VariantCount = len(variants)
         construction.MathGlyphVariantRecord = []
         for glyph, advance in variants.items():
             r = otTables.MathGlyphVariantRecord()
-            r.AdvanceMeasurement = advance
             r.VariantGlyph = glyph
+            r.AdvanceMeasurement = advance
             construction.MathGlyphVariantRecord.append(r)
         return construction
+
+    def _glyph_assembly(self, component: dict):
+        t = otTables.GlyphAssembly()
+        t.ItalicsCorrection = self._math_value(component['italicsCorrection'])
+        t.PartCount = len(component['parts'])
+        t.PartRecords = []
+        for part in component['parts']:
+            r = otTables.GlyphPartRecord()
+            r.glyph = part['name']
+            r.StartConnectorLength = part['startConnector']
+            r.EndConnectorLength = part['endConnector']
+            r.FullAdvance = part['fullAdvance']
+            r.PartFlags = 0x0001 if part['isExtender'] else 0xFFFE
+            t.PartRecords.append(r)
+        return t
 
     def _math_value(self, value):
         t = otTables.MathValueRecord()
@@ -426,7 +466,7 @@ def build(input_path: str, toml_path: str, output_dir: str):
         ufos = font.to_ufos()
     with Timer('Generating OTF...'):
         _build = functools.partial(_build_otf, output_dir=output_dir)
-        with multiprocessing.Pool(CPU_COUNT) as p:
+        with multiprocessing.Pool() as p:
             p.map(_build, ufos)
     with Timer('Adding MATH table...'):
         font.add_math_table(toml_path, input_dir=output_dir)
