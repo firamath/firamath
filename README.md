@@ -99,21 +99,22 @@ See <https://superuser.com/q/1114697>.
 
 ## Building from source
 
-The source files `FiraMath-*.sfd` are not designed for generating fonts directly. You need run the Python scripts to build Fira Math.
+To build Fira Math, you may
 
-### Windows
+```sh
+python -m pip install -U pip
+pip install -r requirements.txt
+patch $(python -c "import os, glyphsLib; print(os.path.join(glyphsLib.__path__[0], 'builder', 'axes.py'))") scripts/axes.py.diff
+python scripts/build.py
+```
 
-1. Install [FontForge](https://fontforge.github.io).
-1. Run `ffpython.exe .\scripts\build.py --fonts`.
+Note that Python 3.9+ is required. Since we are using [the dev version of glyphsLib](https://github.com/googlefonts/glyphsLib/pull/652), it's better to use a Python virtual environment.
 
-### Linux
-
-1. Install Python 3 and `python-fontforge`, or the full [FontForge](https://fontforge.github.io).
-1. Run `python3 ./scripts/build.py --fonts`.
+To edit the source files, [Glyphs 3](https://glyphsapp.com/) is required.
 
 ### Development builds
 
-If you just want to download the latest development version, please try the [ci builds](https://bintray.com/firamath/firamath/firamath-travis#files).
+If you just want to download the latest development version, please try the artifacts in [GitHub Actions](https://github.com/firamath/firamath/actions).
 
 ## Contributing
 
