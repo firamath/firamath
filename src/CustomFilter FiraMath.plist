@@ -1,0 +1,3014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Accents</string>
+			<key>list</key>
+			<array>
+				<string>&#x0300;</string><!-- grave accent -->
+				<string>&#x0301;</string><!-- acute accent -->
+				<string>&#x0302;</string><!-- circumflex accent -->
+				<string>&#x0303;</string><!-- tilde -->
+				<string>&#x0304;</string><!-- macron -->
+				<string>&#x0305;</string><!-- overbar embellishment -->
+				<string>&#x0306;</string><!-- breve -->
+				<string>&#x0307;</string><!-- dot above -->
+				<string>&#x0308;</string><!-- dieresis -->
+				<string>&#x20DB;</string><!-- combining three dots above -->
+				<string>&#x20DC;</string><!-- combining four dots above -->
+				<string>&#x0309;</string><!-- combining hook above -->
+				<string>&#x030A;</string><!-- ring -->
+				<string>&#x030C;</string><!-- caron -->
+				<string>&#x0310;</string><!-- candrabindu -->
+				<string>&#x0312;</string><!-- combining turned comma above -->
+				<string>&#x0315;</string><!-- combining comma above right -->
+				<string>&#x031A;</string><!-- left angle above -->
+				<string>&#x20D0;</string><!-- combining left harpoon above -->
+				<string>&#x20D1;</string><!-- combining right harpoon above -->
+				<string>&#x20D6;</string><!-- combining left arrow above -->
+				<string>&#x20D7;</string><!-- combining right arrow above -->
+				<string>&#x20E1;</string><!-- combining left right arrow above -->
+				<string>&#x20D2;</string><!-- combining long vertical line overlay -->
+				<string>&#x20E7;</string><!-- combining annuity symbol -->
+				<string>&#x20E9;</string><!-- combining wide bridge above -->
+				<string>&#x20F0;</string><!-- combining asterisk above -->
+				<string>&#x0338;</string><!-- combining long solidus overlay -->
+				<string>&#x0330;</string><!-- under tilde accent -->
+				<string>&#x0332;</string><!-- combining low line -->
+				<string>&#x034D;</string><!-- underleftrightarrow accent -->
+				<string>&#x20EC;</string><!-- combining rightwards harpoon with barb downwards -->
+				<string>&#x20ED;</string><!-- combining leftwards harpoon with barb downwards -->
+				<string>&#x20EE;</string><!-- combining left arrow below -->
+				<string>&#x20EF;</string><!-- combining right arrow below -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Binary operators</string>
+			<key>list</key>
+			<array>
+				<string>&#x002B;</string><!-- plus sign b: -->
+				<string>&#x00B1;</string><!-- plus-or-minus sign -->
+				<string>&#x00B7;</string><!-- centerdot b: middle dot -->
+				<string>&#x00D7;</string><!-- multiply sign -->
+				<string>&#x00F7;</string><!-- divide sign -->
+				<string>&#x2020;</string><!-- dagger relation -->
+				<string>&#x2021;</string><!-- double dagger relation -->
+				<string>&#x2022;</string><!-- bullet b: round bullet, filled -->
+				<string>&#x2040;</string><!-- character tie, z notation sequence concatenation -->
+				<string>&#x2044;</string><!-- fraction slash -->
+				<string>&#x214B;</string><!-- turned ampersand -->
+				<string>&#x2212;</string><!-- minus sign -->
+				<string>&#x2213;</string><!-- minus-or-plus sign -->
+				<string>&#x2214;</string><!-- plus sign, dot above -->
+				<string>&#x2215;</string><!-- division slash -->
+				<string>&#x2216;</string><!-- small set minus (cf. reverse solidus) -->
+				<string>&#x2217;</string><!-- centered asterisk -->
+				<string>&#x2218;</string><!-- composite function (small circle) -->
+				<string>&#x2219;</string><!-- bullet operator -->
+				<string>&#x2227;</string><!-- wedge land b: logical and -->
+				<string>&#x2228;</string><!-- vee lor b: logical or -->
+				<string>&#x2229;</string><!-- intersection -->
+				<string>&#x222A;</string><!-- union or logical sum -->
+				<string>&#x2238;</string><!-- minus sign, dot above -->
+				<string>&#x223E;</string><!-- most positive [inverted lazy s] -->
+				<string>&#x2240;</string><!-- wreath product -->
+				<string>&#x228C;</string><!-- multiset -->
+				<string>&#x228D;</string><!-- union, with dot -->
+				<string>&#x228E;</string><!-- plus sign in union -->
+				<string>&#x2293;</string><!-- square intersection -->
+				<string>&#x2294;</string><!-- square union -->
+				<string>&#x2295;</string><!-- plus sign in circle -->
+				<string>&#x2296;</string><!-- minus sign in circle -->
+				<string>&#x2297;</string><!-- multiply sign in circle -->
+				<string>&#x2298;</string><!-- solidus in circle -->
+				<string>&#x2299;</string><!-- middle dot in circle -->
+				<string>&#x229A;</string><!-- small circle in circle -->
+				<string>&#x229B;</string><!-- asterisk in circle -->
+				<string>&#x229C;</string><!-- equal in circle -->
+				<string>&#x229D;</string><!-- hyphen in circle -->
+				<string>&#x229E;</string><!-- plus sign in box -->
+				<string>&#x229F;</string><!-- minus sign in box -->
+				<string>&#x22A0;</string><!-- multiply sign in box -->
+				<string>&#x22A1;</string><!-- dotsquare boxdot b: small dot in box -->
+				<string>&#x22BA;</string><!-- intercal -->
+				<string>&#x22BB;</string><!-- logical or, bar below (large vee); exclusive disjunction -->
+				<string>&#x22BC;</string><!-- bar, wedge (large wedge) -->
+				<string>&#x22BD;</string><!-- bar, vee (large vee) -->
+				<string>&#x22C4;</string><!-- white diamond -->
+				<string>&#x22C5;</string><!-- small middle dot -->
+				<string>&#x22C6;</string><!-- small star, filled, low -->
+				<string>&#x22C7;</string><!-- division on times -->
+				<string>&#x22C9;</string><!-- times sign, left closed -->
+				<string>&#x22CA;</string><!-- times sign, right closed -->
+				<string>&#x22CB;</string><!-- left semidirect product -->
+				<string>&#x22CC;</string><!-- right semidirect product -->
+				<string>&#x22CE;</string><!-- curly logical or -->
+				<string>&#x22CF;</string><!-- curly logical and -->
+				<string>&#x22D2;</string><!-- cap doublecap b: double intersection -->
+				<string>&#x22D3;</string><!-- cup doublecup b: double union -->
+				<string>&#x2305;</string><!-- barwedge b: logical and, bar above [projective (bar over small wedge)] -->
+				<string>&#x2306;</string><!-- doublebarwedge b: logical and, double bar above [perspective (double bar over small wedge)] -->
+				<string>&#x233D;</string><!-- circle with vertical bar -->
+				<string>&#x25B3;</string><!-- big up triangle, open -->
+				<string>&#x25B7;</string><!-- (large) right triangle, open; z notation range restriction -->
+				<string>&#x25C1;</string><!-- (large) left triangle, open; z notation domain restriction -->
+				<string>&#x25CB;</string><!-- medium large circle -->
+				<string>&#x25EB;</string><!-- vertical bar in box -->
+				<string>&#x27C7;</string><!-- or with dot inside -->
+				<string>&#x27D1;</string><!-- and with dot -->
+				<string>&#x27E0;</string><!-- lozenge divided by horizontal rule -->
+				<string>&#x27E1;</string><!-- white concave-sided diamond -->
+				<string>&#x27E2;</string><!-- white concave-sided diamond with leftwards tick -->
+				<string>&#x27E3;</string><!-- white concave-sided diamond with rightwards tick -->
+				<string>&#x27E4;</string><!-- white square with leftwards tick -->
+				<string>&#x27E5;</string><!-- white square with rightwards tick -->
+				<string>&#x29B5;</string><!-- circle with horizontal bar -->
+				<string>&#x29B6;</string><!-- circled vertical bar -->
+				<string>&#x29B7;</string><!-- circled parallel -->
+				<string>&#x29B8;</string><!-- circled reverse solidus -->
+				<string>&#x29B9;</string><!-- circled perpendicular -->
+				<string>&#x29C0;</string><!-- circled less-than -->
+				<string>&#x29C1;</string><!-- circled greater-than -->
+				<string>&#x29C4;</string><!-- squared rising diagonal slash -->
+				<string>&#x29C5;</string><!-- squared falling diagonal slash -->
+				<string>&#x29C6;</string><!-- squared asterisk -->
+				<string>&#x29C7;</string><!-- squared small circle -->
+				<string>&#x29C8;</string><!-- squared square -->
+				<string>&#x29CD;</string><!-- triangle with serifs at bottom -->
+				<string>&#x29D6;</string><!-- white hourglass -->
+				<string>&#x29D7;</string><!-- black hourglass -->
+				<string>&#x29E2;</string><!-- shuffle product -->
+				<string>&#x29EB;</string><!-- black lozenge -->
+				<string>&#x29F5;</string><!-- reverse solidus operator -->
+				<string>&#x29F6;</string><!-- solidus with overbar -->
+				<string>&#x29F7;</string><!-- reverse solidus with horizontal stroke -->
+				<string>&#x29FA;</string><!-- double plus -->
+				<string>&#x29FB;</string><!-- triple plus -->
+				<string>&#x29FE;</string><!-- tiny -->
+				<string>&#x29FF;</string><!-- miny -->
+				<string>&#x2A22;</string><!-- plus sign with small circle above -->
+				<string>&#x2A23;</string><!-- plus sign with circumflex accent above -->
+				<string>&#x2A24;</string><!-- plus sign with tilde above -->
+				<string>&#x2A25;</string><!-- plus sign with dot below -->
+				<string>&#x2A26;</string><!-- plus sign with tilde below -->
+				<string>&#x2A27;</string><!-- plus sign with subscript two -->
+				<string>&#x2A28;</string><!-- plus sign with black triangle -->
+				<string>&#x2A29;</string><!-- minus sign with comma above -->
+				<string>&#x2A2A;</string><!-- minus sign with dot below -->
+				<string>&#x2A2B;</string><!-- minus sign with falling dots -->
+				<string>&#x2A2C;</string><!-- minus sign with rising dots -->
+				<string>&#x2A2D;</string><!-- plus sign in left half circle -->
+				<string>&#x2A2E;</string><!-- plus sign in right half circle -->
+				<string>&#x2A2F;</string><!-- vector or cross product -->
+				<string>&#x2A30;</string><!-- multiplication sign with dot above -->
+				<string>&#x2A31;</string><!-- multiplication sign with underbar -->
+				<string>&#x2A32;</string><!-- semidirect product with bottom closed -->
+				<string>&#x2A33;</string><!-- smash product -->
+				<string>&#x2A34;</string><!-- multiplication sign in left half circle -->
+				<string>&#x2A35;</string><!-- multiplication sign in right half circle -->
+				<string>&#x2A36;</string><!-- circled multiplication sign with circumflex accent -->
+				<string>&#x2A37;</string><!-- multiplication sign in double circle -->
+				<string>&#x2A38;</string><!-- circled division sign -->
+				<string>&#x2A39;</string><!-- plus sign in triangle -->
+				<string>&#x2A3A;</string><!-- minus sign in triangle -->
+				<string>&#x2A3B;</string><!-- multiplication sign in triangle -->
+				<string>&#x2A3C;</string><!-- interior product -->
+				<string>&#x2A3D;</string><!-- righthand interior product -->
+				<string>&#x2A3E;</string><!-- z notation relational composition -->
+				<string>&#x2A3F;</string><!-- amalgamation or coproduct -->
+				<string>&#x2A40;</string><!-- intersection with dot -->
+				<string>&#x2A41;</string><!-- union with minus sign -->
+				<string>&#x2A42;</string><!-- union with overbar -->
+				<string>&#x2A43;</string><!-- intersection with overbar -->
+				<string>&#x2A44;</string><!-- intersection with logical and -->
+				<string>&#x2A45;</string><!-- union with logical or -->
+				<string>&#x2A46;</string><!-- union above intersection -->
+				<string>&#x2A47;</string><!-- intersection above union -->
+				<string>&#x2A48;</string><!-- union above bar above intersection -->
+				<string>&#x2A49;</string><!-- intersection above bar above union -->
+				<string>&#x2A4A;</string><!-- union beside and joined with union -->
+				<string>&#x2A4B;</string><!-- intersection beside and joined with intersection -->
+				<string>&#x2A4C;</string><!-- closed union with serifs -->
+				<string>&#x2A4D;</string><!-- closed intersection with serifs -->
+				<string>&#x2A4E;</string><!-- double square intersection -->
+				<string>&#x2A4F;</string><!-- double square union -->
+				<string>&#x2A50;</string><!-- closed union with serifs and smash product -->
+				<string>&#x2A51;</string><!-- logical and with dot above -->
+				<string>&#x2A52;</string><!-- logical or with dot above -->
+				<string>&#x2A53;</string><!-- double logical and -->
+				<string>&#x2A54;</string><!-- double logical or -->
+				<string>&#x2A55;</string><!-- two intersecting logical and -->
+				<string>&#x2A56;</string><!-- two intersecting logical or -->
+				<string>&#x2A57;</string><!-- sloping large or -->
+				<string>&#x2A58;</string><!-- sloping large and -->
+				<string>&#x2A5A;</string><!-- logical and with middle stem -->
+				<string>&#x2A5B;</string><!-- logical or with middle stem -->
+				<string>&#x2A5C;</string><!-- ogical and with horizontal dash -->
+				<string>&#x2A5D;</string><!-- logical or with horizontal dash -->
+				<string>&#x2A5E;</string><!-- logical and with double overbar -->
+				<string>&#x2A5F;</string><!-- logical and with underbar -->
+				<string>&#x2A60;</string><!-- logical and with double underbar -->
+				<string>&#x2A61;</string><!-- small vee with underbar -->
+				<string>&#x2A62;</string><!-- logical or with double overbar -->
+				<string>&#x2A63;</string><!-- logical or with double underbar -->
+				<string>&#x2A64;</string><!-- z notation domain antirestriction -->
+				<string>&#x2A65;</string><!-- z notation range antirestriction -->
+				<string>&#x2A71;</string><!-- equals sign above plus sign -->
+				<string>&#x2A72;</string><!-- plus sign above equals sign -->
+				<string>&#x2AF4;</string><!-- triple vertical bar binary relation -->
+				<string>&#x2AF5;</string><!-- triple vertical bar with horizontal stroke -->
+				<string>&#x2AF6;</string><!-- triple colon operator -->
+				<string>&#x2AFB;</string><!-- triple solidus binary relation -->
+				<string>&#x2AFD;</string><!-- double solidus operator -->
+				<string>&#x2AFE;</string><!-- white vertical bar -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Relation symbols</string>
+			<key>list</key>
+			<array>
+				<string>&#x003C;</string><!-- less-than sign -->
+				<string>&#x003D;</string><!-- equals sign -->
+				<string>&#x003E;</string><!-- greater-than sign -->
+				<string>&#x2050;</string><!-- close up -->
+				<string>&#x2190;</string><!-- leftarrow gets a: leftward arrow -->
+				<string>&#x2191;</string><!-- upward arrow -->
+				<string>&#x2192;</string><!-- rightarrow to a: rightward arrow -->
+				<string>&#x2193;</string><!-- downward arrow -->
+				<string>&#x2194;</string><!-- left and right arrow -->
+				<string>&#x2195;</string><!-- up and down arrow -->
+				<string>&#x2196;</string><!-- nw pointing arrow -->
+				<string>&#x2197;</string><!-- ne pointing arrow -->
+				<string>&#x2198;</string><!-- se pointing arrow -->
+				<string>&#x2199;</string><!-- sw pointing arrow -->
+				<string>&#x219A;</string><!-- not left arrow -->
+				<string>&#x219B;</string><!-- not right arrow -->
+				<string>&#x219C;</string><!-- left arrow-wavy -->
+				<string>&#x219D;</string><!-- right arrow-wavy -->
+				<string>&#x219E;</string><!-- left two-headed arrow -->
+				<string>&#x219F;</string><!-- up two-headed arrow -->
+				<string>&#x21A0;</string><!-- right two-headed arrow -->
+				<string>&#x21A1;</string><!-- down two-headed arrow -->
+				<string>&#x21A2;</string><!-- left arrow-tailed -->
+				<string>&#x21A3;</string><!-- right arrow-tailed -->
+				<string>&#x21A4;</string><!-- maps to, leftward -->
+				<string>&#x21A5;</string><!-- maps to, upward -->
+				<string>&#x21A6;</string><!-- maps to, rightward -->
+				<string>&#x21A7;</string><!-- maps to, downward -->
+				<string>&#x21A9;</string><!-- left arrow-hooked -->
+				<string>&#x21AA;</string><!-- right arrow-hooked -->
+				<string>&#x21AB;</string><!-- left arrow-looped -->
+				<string>&#x21AC;</string><!-- right arrow-looped -->
+				<string>&#x21AD;</string><!-- left and right arr-wavy -->
+				<string>&#x21AE;</string><!-- not left and right arrow -->
+				<string>&#x21AF;</string><!-- downwards zigzag arrow -->
+				<string>&#x21B0;</string><!-- lsh -->
+				<string>&#x21B1;</string><!-- rsh -->
+				<string>&#x21B2;</string><!-- left down angled arrow -->
+				<string>&#x21B3;</string><!-- right down angled arrow -->
+				<string>&#x21B6;</string><!-- left curved arrow -->
+				<string>&#x21B7;</string><!-- right curved arrow -->
+				<string>&#x21BC;</string><!-- left harpoon-up -->
+				<string>&#x21BD;</string><!-- left harpoon-down -->
+				<string>&#x21BE;</string><!-- upharpoonright restriction a: up harpoon-right -->
+				<string>&#x21BF;</string><!-- up harpoon-left -->
+				<string>&#x21C0;</string><!-- right harpoon-up -->
+				<string>&#x21C1;</string><!-- right harpoon-down -->
+				<string>&#x21C2;</string><!-- down harpoon-right -->
+				<string>&#x21C3;</string><!-- down harpoon-left -->
+				<string>&#x21C4;</string><!-- right arrow over left arrow -->
+				<string>&#x21C5;</string><!-- up arrow, down arrow -->
+				<string>&#x21C6;</string><!-- left arrow over right arrow -->
+				<string>&#x21C7;</string><!-- two left arrows -->
+				<string>&#x21C8;</string><!-- two up arrows -->
+				<string>&#x21C9;</string><!-- two right arrows -->
+				<string>&#x21CA;</string><!-- two down arrows -->
+				<string>&#x21CB;</string><!-- left harpoon over right -->
+				<string>&#x21CC;</string><!-- right harpoon over left -->
+				<string>&#x21CD;</string><!-- not implied by -->
+				<string>&#x21CE;</string><!-- not left and right double arrows -->
+				<string>&#x21CF;</string><!-- not implies -->
+				<string>&#x21D0;</string><!-- is implied by -->
+				<string>&#x21D1;</string><!-- up double arrow -->
+				<string>&#x21D2;</string><!-- implies -->
+				<string>&#x21D3;</string><!-- down double arrow -->
+				<string>&#x21D4;</string><!-- left and right double arrow -->
+				<string>&#x21D5;</string><!-- up and down double arrow -->
+				<string>&#x21D6;</string><!-- nw pointing double arrow -->
+				<string>&#x21D7;</string><!-- ne pointing double arrow -->
+				<string>&#x21D8;</string><!-- se pointing double arrow -->
+				<string>&#x21D9;</string><!-- sw pointing double arrow -->
+				<string>&#x21DA;</string><!-- left triple arrow -->
+				<string>&#x21DB;</string><!-- right triple arrow -->
+				<string>&#x21DC;</string><!-- leftwards squiggle arrow -->
+				<string>&#x21DD;</string><!-- rightwards squiggle arrow -->
+				<string>&#x21E4;</string><!-- leftwards arrow to bar -->
+				<string>&#x21E5;</string><!-- rightwards arrow to bar -->
+				<string>&#x21F4;</string><!-- right arrow with small circle -->
+				<string>&#x21F5;</string><!-- downwards arrow leftwards of upwards arrow -->
+				<string>&#x21F6;</string><!-- three rightwards arrows -->
+				<string>&#x21F7;</string><!-- leftwards arrow with vertical stroke -->
+				<string>&#x21F8;</string><!-- rightwards arrow with vertical stroke -->
+				<string>&#x21F9;</string><!-- left right arrow with vertical stroke -->
+				<string>&#x21FA;</string><!-- leftwards arrow with double vertical stroke -->
+				<string>&#x21FB;</string><!-- rightwards arrow with double vertical stroke -->
+				<string>&#x21FC;</string><!-- left right arrow with double vertical stroke -->
+				<string>&#x21FD;</string><!-- leftwards open-headed arrow -->
+				<string>&#x21FE;</string><!-- rightwards open-headed arrow -->
+				<string>&#x21FF;</string><!-- left right open-headed arrow -->
+				<string>&#x2208;</string><!-- set membership, variant -->
+				<string>&#x2209;</string><!-- negated set membership -->
+				<string>&#x220A;</string><!-- set membership (small set membership) -->
+				<string>&#x220B;</string><!-- contains, variant -->
+				<string>&#x220C;</string><!-- negated contains, variant -->
+				<string>&#x220D;</string><!-- ni owns r: contains (small contains as member) -->
+				<string>&#x221D;</string><!-- is proportional to -->
+				<string>&#x2223;</string><!-- mid -->
+				<string>&#x2224;</string><!-- negated mid -->
+				<string>&#x2225;</string><!-- parallel -->
+				<string>&#x2226;</string><!-- not parallel -->
+				<string>&#x2236;</string><!-- ratio -->
+				<string>&#x2237;</string><!-- two colons -->
+				<string>&#x2239;</string><!-- excess (-:) -->
+				<string>&#x223A;</string><!-- minus with four dots, geometric properties -->
+				<string>&#x223B;</string><!-- homothetic -->
+				<string>&#x223C;</string><!-- similar -->
+				<string>&#x223D;</string><!-- reverse similar -->
+				<string>&#x2241;</string><!-- not similar -->
+				<string>&#x2242;</string><!-- equals, similar -->
+				<string>&#x2243;</string><!-- similar, equals -->
+				<string>&#x2244;</string><!-- not similar, equals -->
+				<string>&#x2245;</string><!-- congruent with -->
+				<string>&#x2246;</string><!-- similar, not equals [vert only for 9573 entity] -->
+				<string>&#x2247;</string><!-- not congruent with -->
+				<string>&#x2248;</string><!-- approximate -->
+				<string>&#x2249;</string><!-- not approximate -->
+				<string>&#x224A;</string><!-- approximate, equals -->
+				<string>&#x224B;</string><!-- approximately identical to -->
+				<string>&#x224C;</string><!-- all equal to -->
+				<string>&#x224D;</string><!-- asymptotically equal to -->
+				<string>&#x224E;</string><!-- bumpy equals -->
+				<string>&#x224F;</string><!-- bumpy equals, equals -->
+				<string>&#x2250;</string><!-- equals, single dot above -->
+				<string>&#x2251;</string><!-- doteqdot doteq r: equals, even dots -->
+				<string>&#x2252;</string><!-- equals, falling dots -->
+				<string>&#x2253;</string><!-- equals, rising dots -->
+				<string>&#x2254;</string><!-- colon, equals -->
+				<string>&#x2255;</string><!-- equals, colon -->
+				<string>&#x2256;</string><!-- circle on equals sign -->
+				<string>&#x2257;</string><!-- circle, equals -->
+				<string>&#x2258;</string><!-- arc, equals; corresponds to -->
+				<string>&#x2259;</string><!-- corresponds to (wedge, equals) -->
+				<string>&#x225A;</string><!-- logical or, equals -->
+				<string>&#x225B;</string><!-- star equals -->
+				<string>&#x225C;</string><!-- triangle, equals -->
+				<string>&#x225D;</string><!-- equals by definition -->
+				<string>&#x225E;</string><!-- measured by (m over equals) -->
+				<string>&#x225F;</string><!-- equal with questionmark -->
+				<string>&#x2260;</string><!-- ne neq r: not equal -->
+				<string>&#x2261;</string><!-- identical with -->
+				<string>&#x2262;</string><!-- not identical with -->
+				<string>&#x2263;</string><!-- strict equivalence (4 lines) -->
+				<string>&#x2264;</string><!-- leq le r: less-than-or-equal -->
+				<string>&#x2265;</string><!-- geq ge r: greater-than-or-equal -->
+				<string>&#x2266;</string><!-- less, double equals -->
+				<string>&#x2267;</string><!-- greater, double equals -->
+				<string>&#x2268;</string><!-- less, not double equals -->
+				<string>&#x2269;</string><!-- greater, not double equals -->
+				<string>&#x226A;</string><!-- much less than, type 2 -->
+				<string>&#x226B;</string><!-- much greater than, type 2 -->
+				<string>&#x226C;</string><!-- between -->
+				<string>&#x226D;</string><!-- not asymptotically equal to -->
+				<string>&#x226E;</string><!-- not less-than -->
+				<string>&#x226F;</string><!-- not greater-than -->
+				<string>&#x2270;</string><!-- not less-than-or-equal -->
+				<string>&#x2271;</string><!-- not greater-than-or-equal -->
+				<string>&#x2272;</string><!-- less, similar -->
+				<string>&#x2273;</string><!-- greater, similar -->
+				<string>&#x2274;</string><!-- not less, similar -->
+				<string>&#x2275;</string><!-- not greater, similar -->
+				<string>&#x2276;</string><!-- less, greater -->
+				<string>&#x2277;</string><!-- greater, less -->
+				<string>&#x2278;</string><!-- not less, greater -->
+				<string>&#x2279;</string><!-- not greater, less -->
+				<string>&#x227A;</string><!-- precedes -->
+				<string>&#x227B;</string><!-- succeeds -->
+				<string>&#x227C;</string><!-- precedes, curly equals -->
+				<string>&#x227D;</string><!-- succeeds, curly equals -->
+				<string>&#x227E;</string><!-- precedes, similar -->
+				<string>&#x227F;</string><!-- succeeds, similar -->
+				<string>&#x2280;</string><!-- not precedes -->
+				<string>&#x2281;</string><!-- not succeeds -->
+				<string>&#x2282;</string><!-- subset or is implied by -->
+				<string>&#x2283;</string><!-- superset or implies -->
+				<string>&#x2284;</string><!-- not subset, variant [slash negation] -->
+				<string>&#x2285;</string><!-- not superset, variant [slash negation] -->
+				<string>&#x2286;</string><!-- subset, equals -->
+				<string>&#x2287;</string><!-- superset, equals -->
+				<string>&#x2288;</string><!-- not subset, equals -->
+				<string>&#x2289;</string><!-- not superset, equals -->
+				<string>&#x228A;</string><!-- subset, not equals -->
+				<string>&#x228B;</string><!-- superset, not equals -->
+				<string>&#x228F;</string><!-- square subset -->
+				<string>&#x2290;</string><!-- square superset -->
+				<string>&#x2291;</string><!-- square subset, equals -->
+				<string>&#x2292;</string><!-- square superset, equals -->
+				<string>&#x22A2;</string><!-- vertical, dash -->
+				<string>&#x22A3;</string><!-- dash, vertical -->
+				<string>&#x22A6;</string><!-- assertion (vertical, short dash) -->
+				<string>&#x22A7;</string><!-- models (vertical, short double dash) -->
+				<string>&#x22A8;</string><!-- vertical, double dash -->
+				<string>&#x22A9;</string><!-- double vertical, dash -->
+				<string>&#x22AA;</string><!-- triple vertical, dash -->
+				<string>&#x22AB;</string><!-- double vert, double dash -->
+				<string>&#x22AC;</string><!-- not vertical, dash -->
+				<string>&#x22AD;</string><!-- not vertical, double dash -->
+				<string>&#x22AE;</string><!-- not double vertical, dash -->
+				<string>&#x22AF;</string><!-- not double vert, double dash -->
+				<string>&#x22B0;</string><!-- element precedes under relation -->
+				<string>&#x22B1;</string><!-- succeeds under relation -->
+				<string>&#x22B2;</string><!-- left triangle, open, variant -->
+				<string>&#x22B3;</string><!-- right triangle, open, variant -->
+				<string>&#x22B4;</string><!-- left triangle, equals -->
+				<string>&#x22B5;</string><!-- right triangle, equals -->
+				<string>&#x22B6;</string><!-- original of -->
+				<string>&#x22B7;</string><!-- image of -->
+				<string>&#x22B8;</string><!-- multimap -->
+				<string>&#x22C8;</string><!-- bowtie -->
+				<string>&#x22CD;</string><!-- reverse similar, equals -->
+				<string>&#x22D0;</string><!-- double subset -->
+				<string>&#x22D1;</string><!-- double superset -->
+				<string>&#x22D4;</string><!-- pitchfork -->
+				<string>&#x22D5;</string><!-- parallel, equal; equal or parallel -->
+				<string>&#x22D6;</string><!-- less than, with dot -->
+				<string>&#x22D7;</string><!-- greater than, with dot -->
+				<string>&#x22D8;</string><!-- ll lll llless r: triple less-than -->
+				<string>&#x22D9;</string><!-- ggg gg gggtr r: triple greater-than -->
+				<string>&#x22DA;</string><!-- less, equals, greater -->
+				<string>&#x22DB;</string><!-- greater, equals, less -->
+				<string>&#x22DC;</string><!-- equal-or-less -->
+				<string>&#x22DD;</string><!-- equal-or-greater -->
+				<string>&#x22DE;</string><!-- curly equals, precedes -->
+				<string>&#x22DF;</string><!-- curly equals, succeeds -->
+				<string>&#x22E0;</string><!-- not precedes, curly equals -->
+				<string>&#x22E1;</string><!-- not succeeds, curly equals -->
+				<string>&#x22E2;</string><!-- not, square subset, equals -->
+				<string>&#x22E3;</string><!-- not, square superset, equals -->
+				<string>&#x22E4;</string><!-- square subset, not equals -->
+				<string>&#x22E5;</string><!-- square superset, not equals -->
+				<string>&#x22E6;</string><!-- less, not similar -->
+				<string>&#x22E7;</string><!-- greater, not similar -->
+				<string>&#x22E8;</string><!-- precedes, not similar -->
+				<string>&#x22E9;</string><!-- succeeds, not similar -->
+				<string>&#x22EA;</string><!-- not left triangle -->
+				<string>&#x22EB;</string><!-- not right triangle -->
+				<string>&#x22EC;</string><!-- not left triangle, equals -->
+				<string>&#x22ED;</string><!-- not right triangle, equals -->
+				<string>&#x22EE;</string><!-- vertical ellipsis -->
+				<string>&#x22F0;</string><!-- three dots, ascending -->
+				<string>&#x22F1;</string><!-- three dots, descending -->
+				<string>&#x22F2;</string><!-- element of with long horizontal stroke -->
+				<string>&#x22F3;</string><!-- element of with vertical bar at end of horizontal stroke -->
+				<string>&#x22F4;</string><!-- small element of with vertical bar at end of horizontal stroke -->
+				<string>&#x22F5;</string><!-- element of with dot above -->
+				<string>&#x22F6;</string><!-- element of with overbar -->
+				<string>&#x22F7;</string><!-- small element of with overbar -->
+				<string>&#x22F8;</string><!-- element of with underbar -->
+				<string>&#x22F9;</string><!-- element of with two horizontal strokes -->
+				<string>&#x22FA;</string><!-- contains with long horizontal stroke -->
+				<string>&#x22FB;</string><!-- contains with vertical bar at end of horizontal stroke -->
+				<string>&#x22FC;</string><!-- small contains with vertical bar at end of horizontal stroke -->
+				<string>&#x22FD;</string><!-- contains with overbar -->
+				<string>&#x22FE;</string><!-- small contains with overbar -->
+				<string>&#x22FF;</string><!-- z notation bag membership -->
+				<string>&#x2322;</string><!-- down curve -->
+				<string>&#x2323;</string><!-- up curve -->
+				<string>&#x233F;</string><!-- solidus, bar through (apl functional symbol slash bar) -->
+				<string>&#x25B5;</string><!-- triangle - up triangle, open -->
+				<string>&#x27C2;</string><!-- perpendicular -->
+				<string>&#x27C8;</string><!-- reverse solidus preceding subset -->
+				<string>&#x27C9;</string><!-- superset preceding solidus -->
+				<string>&#x27D2;</string><!-- element of opening upwards -->
+				<string>&#x27D3;</string><!-- lower right corner with dot -->
+				<string>&#x27D4;</string><!-- upper left corner with dot -->
+				<string>&#x27DA;</string><!-- left and right double turnstile -->
+				<string>&#x27DB;</string><!-- left and right tack -->
+				<string>&#x27DC;</string><!-- left multimap -->
+				<string>&#x27DD;</string><!-- long left tack -->
+				<string>&#x27DE;</string><!-- long right tack -->
+				<string>&#x27DF;</string><!-- up tack with circle above -->
+				<string>&#x27F0;</string><!-- upwards quadruple arrow -->
+				<string>&#x27F1;</string><!-- downwards quadruple arrow -->
+				<string>&#x27F2;</string><!-- anticlockwise gapped circle arrow -->
+				<string>&#x27F3;</string><!-- clockwise gapped circle arrow -->
+				<string>&#x27F4;</string><!-- right arrow with circled plus -->
+				<string>&#x27F5;</string><!-- long leftwards arrow -->
+				<string>&#x27F6;</string><!-- long rightwards arrow -->
+				<string>&#x27F7;</string><!-- long left right arrow -->
+				<string>&#x27F8;</string><!-- long leftwards double arrow -->
+				<string>&#x27F9;</string><!-- long rightwards double arrow -->
+				<string>&#x27FA;</string><!-- long left right double arrow -->
+				<string>&#x27FB;</string><!-- long leftwards arrow from bar -->
+				<string>&#x27FC;</string><!-- long rightwards arrow from bar -->
+				<string>&#x27FD;</string><!-- long leftwards double arrow from bar -->
+				<string>&#x27FE;</string><!-- long rightwards double arrow from bar -->
+				<string>&#x27FF;</string><!-- long rightwards squiggle arrow -->
+				<string>&#x2900;</string><!-- rightwards two-headed arrow with vertical stroke -->
+				<string>&#x2901;</string><!-- rightwards two-headed arrow with double vertical stroke -->
+				<string>&#x2902;</string><!-- leftwards double arrow with vertical stroke -->
+				<string>&#x2903;</string><!-- rightwards double arrow with vertical stroke -->
+				<string>&#x2904;</string><!-- left right double arrow with vertical stroke -->
+				<string>&#x2905;</string><!-- rightwards two-headed arrow from bar -->
+				<string>&#x2906;</string><!-- leftwards double arrow from bar -->
+				<string>&#x2907;</string><!-- rightwards double arrow from bar -->
+				<string>&#x2908;</string><!-- downwards arrow with horizontal stroke -->
+				<string>&#x2909;</string><!-- upwards arrow with horizontal stroke -->
+				<string>&#x290A;</string><!-- upwards triple arrow -->
+				<string>&#x290B;</string><!-- downwards triple arrow -->
+				<string>&#x290C;</string><!-- leftwards double dash arrow -->
+				<string>&#x290D;</string><!-- rightwards double dash arrow -->
+				<string>&#x290E;</string><!-- leftwards triple dash arrow -->
+				<string>&#x290F;</string><!-- rightwards triple dash arrow -->
+				<string>&#x2910;</string><!-- rightwards two-headed triple dash arrow -->
+				<string>&#x2911;</string><!-- rightwards arrow with dotted stem -->
+				<string>&#x2912;</string><!-- upwards arrow to bar -->
+				<string>&#x2913;</string><!-- downwards arrow to bar -->
+				<string>&#x2914;</string><!-- rightwards arrow with tail with vertical stroke -->
+				<string>&#x2915;</string><!-- rightwards arrow with tail with double vertical stroke -->
+				<string>&#x2916;</string><!-- rightwards two-headed arrow with tail -->
+				<string>&#x2917;</string><!-- rightwards two-headed arrow with tail with vertical stroke -->
+				<string>&#x2918;</string><!-- rightwards two-headed arrow with tail with double vertical stroke -->
+				<string>&#x2919;</string><!-- leftwards arrow-tail -->
+				<string>&#x291A;</string><!-- rightwards arrow-tail -->
+				<string>&#x291B;</string><!-- leftwards double arrow-tail -->
+				<string>&#x291C;</string><!-- rightwards double arrow-tail -->
+				<string>&#x291D;</string><!-- leftwards arrow to black diamond -->
+				<string>&#x291E;</string><!-- rightwards arrow to black diamond -->
+				<string>&#x291F;</string><!-- leftwards arrow from bar to black diamond -->
+				<string>&#x2920;</string><!-- rightwards arrow from bar to black diamond -->
+				<string>&#x2921;</string><!-- north west and south east arrow -->
+				<string>&#x2922;</string><!-- north east and south west arrow -->
+				<string>&#x2923;</string><!-- north west arrow with hook -->
+				<string>&#x2924;</string><!-- north east arrow with hook -->
+				<string>&#x2925;</string><!-- south east arrow with hook -->
+				<string>&#x2926;</string><!-- south west arrow with hook -->
+				<string>&#x2927;</string><!-- north west arrow and north east arrow -->
+				<string>&#x2928;</string><!-- north east arrow and south east arrow -->
+				<string>&#x2929;</string><!-- south east arrow and south west arrow -->
+				<string>&#x292A;</string><!-- south west arrow and north west arrow -->
+				<string>&#x2933;</string><!-- wave arrow pointing directly right -->
+				<string>&#x2936;</string><!-- arrow pointing downwards then curving leftwards -->
+				<string>&#x2937;</string><!-- arrow pointing downwards then curving rightwards -->
+				<string>&#x2938;</string><!-- right-side arc clockwise arrow -->
+				<string>&#x2939;</string><!-- left-side arc anticlockwise arrow -->
+				<string>&#x293A;</string><!-- top arc anticlockwise arrow -->
+				<string>&#x293B;</string><!-- bottom arc anticlockwise arrow -->
+				<string>&#x293C;</string><!-- top arc clockwise arrow with minus -->
+				<string>&#x293D;</string><!-- top arc anticlockwise arrow with plus -->
+				<string>&#x293E;</string><!-- lower right semicircular clockwise arrow -->
+				<string>&#x293F;</string><!-- lower left semicircular anticlockwise arrow -->
+				<string>&#x2940;</string><!-- anticlockwise closed circle arrow -->
+				<string>&#x2941;</string><!-- clockwise closed circle arrow -->
+				<string>&#x2942;</string><!-- rightwards arrow above short leftwards arrow -->
+				<string>&#x2943;</string><!-- leftwards arrow above short rightwards arrow -->
+				<string>&#x2944;</string><!-- short rightwards arrow above leftwards arrow -->
+				<string>&#x2945;</string><!-- rightwards arrow with plus below -->
+				<string>&#x2946;</string><!-- leftwards arrow with plus below -->
+				<string>&#x2947;</string><!-- rightwards arrow through x -->
+				<string>&#x2948;</string><!-- left right arrow through small circle -->
+				<string>&#x2949;</string><!-- upwards two-headed arrow from small circle -->
+				<string>&#x294A;</string><!-- left barb up right barb down harpoon -->
+				<string>&#x294B;</string><!-- left barb down right barb up harpoon -->
+				<string>&#x294C;</string><!-- up barb right down barb left harpoon -->
+				<string>&#x294D;</string><!-- up barb left down barb right harpoon -->
+				<string>&#x294E;</string><!-- left barb up right barb up harpoon -->
+				<string>&#x294F;</string><!-- up barb right down barb right harpoon -->
+				<string>&#x2950;</string><!-- left barb down right barb down harpoon -->
+				<string>&#x2951;</string><!-- up barb left down barb left harpoon -->
+				<string>&#x2952;</string><!-- leftwards harpoon with barb up to bar -->
+				<string>&#x2953;</string><!-- rightwards harpoon with barb up to bar -->
+				<string>&#x2954;</string><!-- upwards harpoon with barb right to bar -->
+				<string>&#x2955;</string><!-- downwards harpoon with barb right to bar -->
+				<string>&#x2956;</string><!-- leftwards harpoon with barb down to bar -->
+				<string>&#x2957;</string><!-- rightwards harpoon with barb down to bar -->
+				<string>&#x2958;</string><!-- upwards harpoon with barb left to bar -->
+				<string>&#x2959;</string><!-- downwards harpoon with barb left to bar -->
+				<string>&#x295A;</string><!-- leftwards harpoon with barb up from bar -->
+				<string>&#x295B;</string><!-- rightwards harpoon with barb up from bar -->
+				<string>&#x295C;</string><!-- upwards harpoon with barb right from bar -->
+				<string>&#x295D;</string><!-- downwards harpoon with barb right from bar -->
+				<string>&#x295E;</string><!-- leftwards harpoon with barb down from bar -->
+				<string>&#x295F;</string><!-- rightwards harpoon with barb down from bar -->
+				<string>&#x2960;</string><!-- upwards harpoon with barb left from bar -->
+				<string>&#x2961;</string><!-- downwards harpoon with barb left from bar -->
+				<string>&#x2962;</string><!-- leftwards harpoon with barb up above leftwards harpoon with barb down -->
+				<string>&#x2963;</string><!-- upwards harpoon with barb left beside upwards harpoon with barb right -->
+				<string>&#x2964;</string><!-- rightwards harpoon with barb up above rightwards harpoon with barb down -->
+				<string>&#x2965;</string><!-- downwards harpoon with barb left beside downwards harpoon with barb right -->
+				<string>&#x2966;</string><!-- leftwards harpoon with barb up above rightwards harpoon with barb up -->
+				<string>&#x2967;</string><!-- leftwards harpoon with barb down above rightwards harpoon with barb down -->
+				<string>&#x2968;</string><!-- rightwards harpoon with barb up above leftwards harpoon with barb up -->
+				<string>&#x2969;</string><!-- rightwards harpoon with barb down above leftwards harpoon with barb down -->
+				<string>&#x296A;</string><!-- leftwards harpoon with barb up above long dash -->
+				<string>&#x296B;</string><!-- leftwards harpoon with barb down below long dash -->
+				<string>&#x296C;</string><!-- rightwards harpoon with barb up above long dash -->
+				<string>&#x296D;</string><!-- rightwards harpoon with barb down below long dash -->
+				<string>&#x296E;</string><!-- upwards harpoon with barb left beside downwards harpoon with barb right -->
+				<string>&#x296F;</string><!-- downwards harpoon with barb left beside upwards harpoon with barb right -->
+				<string>&#x2970;</string><!-- right double arrow with rounded head -->
+				<string>&#x2971;</string><!-- equals sign above rightwards arrow -->
+				<string>&#x2972;</string><!-- tilde operator above rightwards arrow -->
+				<string>&#x2973;</string><!-- leftwards arrow above tilde operator -->
+				<string>&#x2974;</string><!-- rightwards arrow above tilde operator -->
+				<string>&#x2975;</string><!-- rightwards arrow above almost equal to -->
+				<string>&#x2976;</string><!-- less-than above leftwards arrow -->
+				<string>&#x2977;</string><!-- leftwards arrow through less-than -->
+				<string>&#x2978;</string><!-- greater-than above rightwards arrow -->
+				<string>&#x2979;</string><!-- subset above rightwards arrow -->
+				<string>&#x297A;</string><!-- leftwards arrow through subset -->
+				<string>&#x297B;</string><!-- superset above leftwards arrow -->
+				<string>&#x297C;</string><!-- left fish tail -->
+				<string>&#x297D;</string><!-- right fish tail -->
+				<string>&#x297E;</string><!-- up fish tail -->
+				<string>&#x297F;</string><!-- down fish tail -->
+				<string>&#x2982;</string><!-- z notation type colon -->
+				<string>&#x29CE;</string><!-- right triangle above left triangle -->
+				<string>&#x29CF;</string><!-- left triangle beside vertical bar -->
+				<string>&#x29D0;</string><!-- vertical bar beside right triangle -->
+				<string>&#x29D1;</string><!-- left black bowtie -->
+				<string>&#x29D2;</string><!-- right black bowtie -->
+				<string>&#x29D3;</string><!-- black bowtie -->
+				<string>&#x29D4;</string><!-- left black times -->
+				<string>&#x29D5;</string><!-- right black times -->
+				<string>&#x29DF;</string><!-- double-ended multimap -->
+				<string>&#x29E1;</string><!-- increases as -->
+				<string>&#x29E3;</string><!-- equals sign and slanted parallel -->
+				<string>&#x29E4;</string><!-- equals sign and slanted parallel with tilde above -->
+				<string>&#x29E5;</string><!-- identical to and slanted parallel -->
+				<string>&#x29E6;</string><!-- gleich stark -->
+				<string>&#x29F4;</string><!-- rule-delayed -->
+				<string>&#x2A59;</string><!-- logical or overlapping logical and -->
+				<string>&#x2A66;</string><!-- equals sign with dot below -->
+				<string>&#x2A67;</string><!-- identical with dot above -->
+				<string>&#x2A68;</string><!-- triple horizontal bar with double vertical stroke -->
+				<string>&#x2A69;</string><!-- triple horizontal bar with triple vertical stroke -->
+				<string>&#x2A6A;</string><!-- tilde operator with dot above -->
+				<string>&#x2A6B;</string><!-- tilde operator with rising dots -->
+				<string>&#x2A6C;</string><!-- similar minus similar -->
+				<string>&#x2A6D;</string><!-- congruent with dot above -->
+				<string>&#x2A6E;</string><!-- equals with asterisk -->
+				<string>&#x2A6F;</string><!-- almost equal to with circumflex accent -->
+				<string>&#x2A70;</string><!-- approximately equal or equal to -->
+				<string>&#x2A73;</string><!-- equals sign above tilde operator -->
+				<string>&#x2A74;</string><!-- double colon equal -->
+				<string>&#x2A75;</string><!-- two consecutive equals signs -->
+				<string>&#x2A76;</string><!-- three consecutive equals signs -->
+				<string>&#x2A77;</string><!-- equals sign with two dots above and two dots below -->
+				<string>&#x2A78;</string><!-- equivalent with four dots above -->
+				<string>&#x2A79;</string><!-- less-than with circle inside -->
+				<string>&#x2A7A;</string><!-- greater-than with circle inside -->
+				<string>&#x2A7B;</string><!-- less-than with question mark above -->
+				<string>&#x2A7C;</string><!-- greater-than with question mark above -->
+				<string>&#x2A7D;</string><!-- less-than or slanted equal to -->
+				<string>&#x2A7E;</string><!-- greater-than or slanted equal to -->
+				<string>&#x2A7F;</string><!-- less-than or slanted equal to with dot inside -->
+				<string>&#x2A80;</string><!-- greater-than or slanted equal to with dot inside -->
+				<string>&#x2A81;</string><!-- less-than or slanted equal to with dot above -->
+				<string>&#x2A82;</string><!-- greater-than or slanted equal to with dot above -->
+				<string>&#x2A83;</string><!-- less-than or slanted equal to with dot above right -->
+				<string>&#x2A84;</string><!-- greater-than or slanted equal to with dot above left -->
+				<string>&#x2A85;</string><!-- less-than or approximate -->
+				<string>&#x2A86;</string><!-- greater-than or approximate -->
+				<string>&#x2A87;</string><!-- less-than and single-line not equal to -->
+				<string>&#x2A88;</string><!-- greater-than and single-line not equal to -->
+				<string>&#x2A89;</string><!-- less-than and not approximate -->
+				<string>&#x2A8A;</string><!-- greater-than and not approximate -->
+				<string>&#x2A8B;</string><!-- less-than above double-line equal above greater-than -->
+				<string>&#x2A8C;</string><!-- greater-than above double-line equal above less-than -->
+				<string>&#x2A8D;</string><!-- less-than above similar or equal -->
+				<string>&#x2A8E;</string><!-- greater-than above similar or equal -->
+				<string>&#x2A8F;</string><!-- less-than above similar above greater-than -->
+				<string>&#x2A90;</string><!-- greater-than above similar above less-than -->
+				<string>&#x2A91;</string><!-- less-than above greater-than above double-line equal -->
+				<string>&#x2A92;</string><!-- greater-than above less-than above double-line equal -->
+				<string>&#x2A93;</string><!-- less-than above slanted equal above greater-than above slanted equal -->
+				<string>&#x2A94;</string><!-- greater-than above slanted equal above less-than above slanted equal -->
+				<string>&#x2A95;</string><!-- slanted equal to or less-than -->
+				<string>&#x2A96;</string><!-- slanted equal to or greater-than -->
+				<string>&#x2A97;</string><!-- slanted equal to or less-than with dot inside -->
+				<string>&#x2A98;</string><!-- slanted equal to or greater-than with dot inside -->
+				<string>&#x2A99;</string><!-- double-line equal to or less-than -->
+				<string>&#x2A9A;</string><!-- double-line equal to or greater-than -->
+				<string>&#x2A9B;</string><!-- double-line slanted equal to or less-than -->
+				<string>&#x2A9C;</string><!-- double-line slanted equal to or greater-than -->
+				<string>&#x2A9D;</string><!-- similar or less-than -->
+				<string>&#x2A9E;</string><!-- similar or greater-than -->
+				<string>&#x2A9F;</string><!-- similar above less-than above equals sign -->
+				<string>&#x2AA0;</string><!-- similar above greater-than above equals sign -->
+				<string>&#x2AA1;</string><!-- double nested less-than -->
+				<string>&#x2AA2;</string><!-- double nested greater-than -->
+				<string>&#x2AA3;</string><!-- double less-than with underbar -->
+				<string>&#x2AA4;</string><!-- greater-than overlapping less-than -->
+				<string>&#x2AA5;</string><!-- greater-than beside less-than -->
+				<string>&#x2AA6;</string><!-- less-than closed by curve -->
+				<string>&#x2AA7;</string><!-- greater-than closed by curve -->
+				<string>&#x2AA8;</string><!-- less-than closed by curve above slanted equal -->
+				<string>&#x2AA9;</string><!-- greater-than closed by curve above slanted equal -->
+				<string>&#x2AAA;</string><!-- smaller than -->
+				<string>&#x2AAB;</string><!-- larger than -->
+				<string>&#x2AAC;</string><!-- smaller than or equal to -->
+				<string>&#x2AAD;</string><!-- larger than or equal to -->
+				<string>&#x2AAE;</string><!-- equals sign with bumpy above -->
+				<string>&#x2AAF;</string><!-- precedes above single-line equals sign -->
+				<string>&#x2AB0;</string><!-- succeeds above single-line equals sign -->
+				<string>&#x2AB1;</string><!-- precedes above single-line not equal to -->
+				<string>&#x2AB2;</string><!-- succeeds above single-line not equal to -->
+				<string>&#x2AB3;</string><!-- precedes above equals sign -->
+				<string>&#x2AB4;</string><!-- succeeds above equals sign -->
+				<string>&#x2AB5;</string><!-- precedes above not equal to -->
+				<string>&#x2AB6;</string><!-- succeeds above not equal to -->
+				<string>&#x2AB7;</string><!-- precedes above almost equal to -->
+				<string>&#x2AB8;</string><!-- succeeds above almost equal to -->
+				<string>&#x2AB9;</string><!-- precedes above not almost equal to -->
+				<string>&#x2ABA;</string><!-- succeeds above not almost equal to -->
+				<string>&#x2ABB;</string><!-- double precedes -->
+				<string>&#x2ABC;</string><!-- double succeeds -->
+				<string>&#x2ABD;</string><!-- subset with dot -->
+				<string>&#x2ABE;</string><!-- superset with dot -->
+				<string>&#x2ABF;</string><!-- subset with plus sign below -->
+				<string>&#x2AC0;</string><!-- superset with plus sign below -->
+				<string>&#x2AC1;</string><!-- subset with multiplication sign below -->
+				<string>&#x2AC2;</string><!-- superset with multiplication sign below -->
+				<string>&#x2AC3;</string><!-- subset of or equal to with dot above -->
+				<string>&#x2AC4;</string><!-- superset of or equal to with dot above -->
+				<string>&#x2AC5;</string><!-- subset of above equals sign -->
+				<string>&#x2AC6;</string><!-- superset of above equals sign -->
+				<string>&#x2AC7;</string><!-- subset of above tilde operator -->
+				<string>&#x2AC8;</string><!-- superset of above tilde operator -->
+				<string>&#x2AC9;</string><!-- subset of above almost equal to -->
+				<string>&#x2ACA;</string><!-- superset of above almost equal to -->
+				<string>&#x2ACB;</string><!-- subset of above not equal to -->
+				<string>&#x2ACC;</string><!-- superset of above not equal to -->
+				<string>&#x2ACD;</string><!-- square left open box operator -->
+				<string>&#x2ACE;</string><!-- square right open box operator -->
+				<string>&#x2ACF;</string><!-- closed subset -->
+				<string>&#x2AD0;</string><!-- closed superset -->
+				<string>&#x2AD1;</string><!-- closed subset or equal to -->
+				<string>&#x2AD2;</string><!-- closed superset or equal to -->
+				<string>&#x2AD3;</string><!-- subset above superset -->
+				<string>&#x2AD4;</string><!-- superset above subset -->
+				<string>&#x2AD5;</string><!-- subset above subset -->
+				<string>&#x2AD6;</string><!-- superset above superset -->
+				<string>&#x2AD7;</string><!-- superset beside subset -->
+				<string>&#x2AD8;</string><!-- superset beside and joined by dash with subset -->
+				<string>&#x2AD9;</string><!-- element of opening downwards -->
+				<string>&#x2ADA;</string><!-- pitchfork with tee top -->
+				<string>&#x2ADB;</string><!-- transversal intersection -->
+				<string>&#x2ADC;</string><!-- forking -->
+				<string>&#x2ADD;</string><!-- nonforking -->
+				<string>&#x2ADE;</string><!-- short left tack -->
+				<string>&#x2ADF;</string><!-- short down tack -->
+				<string>&#x2AE0;</string><!-- short up tack -->
+				<string>&#x2AE2;</string><!-- vertical bar triple right turnstile -->
+				<string>&#x2AE3;</string><!-- double vertical bar left turnstile -->
+				<string>&#x2AE4;</string><!-- vertical bar double left turnstile -->
+				<string>&#x2AE5;</string><!-- double vertical bar double left turnstile -->
+				<string>&#x2AE6;</string><!-- long dash from left member of double vertical -->
+				<string>&#x2AE7;</string><!-- short down tack with overbar -->
+				<string>&#x2AE8;</string><!-- short up tack with underbar -->
+				<string>&#x2AE9;</string><!-- short up tack above short down tack -->
+				<string>&#x2AEA;</string><!-- double down tack -->
+				<string>&#x2AEB;</string><!-- double up tack -->
+				<string>&#x2AEC;</string><!-- double stroke not sign -->
+				<string>&#x2AED;</string><!-- reversed double stroke not sign -->
+				<string>&#x2AEE;</string><!-- does not divide with reversed negation slash -->
+				<string>&#x2AEF;</string><!-- vertical line with circle above -->
+				<string>&#x2AF0;</string><!-- vertical line with circle below -->
+				<string>&#x2AF2;</string><!-- parallel with horizontal stroke -->
+				<string>&#x2AF3;</string><!-- parallel with tilde operator -->
+				<string>&#x2AF7;</string><!-- stacked very much less-than -->
+				<string>&#x2AF8;</string><!-- stacked very much greater-than -->
+				<string>&#x2AF9;</string><!-- double-line slanted less-than or equal to -->
+				<string>&#x2AFA;</string><!-- double-line slanted greater-than or equal to -->
+				<string>&#x2B30;</string><!-- left arrow with small circle -->
+				<string>&#x2B31;</string><!-- three leftwards arrows -->
+				<string>&#x2B32;</string><!-- left arrow with circled plus -->
+				<string>&#x2B33;</string><!-- long leftwards squiggle arrow -->
+				<string>&#x2B34;</string><!-- leftwards two-headed arrow with vertical stroke -->
+				<string>&#x2B35;</string><!-- leftwards two-headed arrow with double vertical stroke -->
+				<string>&#x2B36;</string><!-- leftwards two-headed arrow from bar -->
+				<string>&#x2B37;</string><!-- leftwards two-headed triple-dash arrow -->
+				<string>&#x2B38;</string><!-- leftwards arrow with dotted stem -->
+				<string>&#x2B39;</string><!-- leftwards arrow with tail with vertical stroke -->
+				<string>&#x2B3A;</string><!-- leftwards arrow with tail with double vertical stroke -->
+				<string>&#x2B3B;</string><!-- leftwards two-headed arrow with tail -->
+				<string>&#x2B3C;</string><!-- leftwards two-headed arrow with tail with vertical stroke -->
+				<string>&#x2B3D;</string><!-- leftwards two-headed arrow with tail with double vertical stroke -->
+				<string>&#x2B3E;</string><!-- leftwards arrow through x -->
+				<string>&#x2B3F;</string><!-- wave arrow pointing directly left -->
+				<string>&#x2B40;</string><!-- equals sign above leftwards arrow -->
+				<string>&#x2B41;</string><!-- reverse tilde operator above leftwards arrow -->
+				<string>&#x2B42;</string><!-- leftwards arrow above reverse almost equal to -->
+				<string>&#x2B43;</string><!-- rightwards arrow through greater-than -->
+				<string>&#x2B44;</string><!-- rightwards arrow through subset -->
+				<string>&#x2B45;</string><!-- leftwards quadruple arrow -->
+				<string>&#x2B46;</string><!-- rightwards quadruple arrow -->
+				<string>&#x2B47;</string><!-- reverse tilde operator above rightwards arrow -->
+				<string>&#x2B48;</string><!-- rightwards arrow above reverse almost equal to -->
+				<string>&#x2B49;</string><!-- tilde operator above leftwards arrow -->
+				<string>&#x2B4A;</string><!-- leftwards arrow above almost equal to -->
+				<string>&#x2B4B;</string><!-- leftwards arrow above reverse tilde operator -->
+				<string>&#x2B4C;</string><!-- righttwards arrow above reverse tilde operator -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ordinary symbols</string>
+			<key>list</key>
+			<array>
+				<string>&#x0023;</string><!-- number sign -->
+				<string>&#x0024;</string><!-- dollar sign -->
+				<string>&#x0025;</string><!-- percent sign -->
+				<string>&#x0026;</string><!-- ampersand -->
+				<string>&#x002E;</string><!-- full stop, period -->
+				<string>&#x002F;</string><!-- solidus -->
+				<string>&#x003F;</string><!-- question mark -->
+				<string>&#x0040;</string><!-- commercial at -->
+				<string>&#x005C;</string><!-- reverse solidus -->
+				<string>&#x00A3;</string><!-- pound sign -->
+				<string>&#x00A5;</string><!-- yen sign -->
+				<string>&#x00A7;</string><!-- section symbol -->
+				<string>&#x00AC;</string><!-- neg not sign -->
+				<string>&#x00B6;</string><!-- paragraph symbol -->
+				<string>&#x01B5;</string><!-- impedance (latin capital letter z with stroke) -->
+				<string>&#x03F6;</string><!-- greek reversed lunate epsilon symbol -->
+				<string>&#x2015;</string><!-- horizontal bar -->
+				<string>&#x2017;</string><!-- double low line (spacing) -->
+				<string>&#x2025;</string><!-- double baseline dot (en leader) -->
+				<string>&#x2026;</string><!-- ellipsis (horizontal) -->
+				<string>&#x2032;</string><!-- prime or minute, not superscripted -->
+				<string>&#x2033;</string><!-- double prime or second, not superscripted -->
+				<string>&#x2034;</string><!-- triple prime (not superscripted) -->
+				<string>&#x2035;</string><!-- reverse prime, not superscripted -->
+				<string>&#x2036;</string><!-- double reverse prime, not superscripted -->
+				<string>&#x2037;</string><!-- triple reverse prime, not superscripted -->
+				<string>&#x2038;</string><!-- caret (insertion mark) -->
+				<string>&#x203C;</string><!-- double exclamation mark -->
+				<string>&#x2043;</string><!-- rectangle, filled (hyphen bullet) -->
+				<string>&#x2047;</string><!-- double question mark -->
+				<string>&#x2057;</string><!-- quadruple prime, not superscripted -->
+				<string>&#x20AC;</string><!-- euro sign -->
+				<string>&#x20DD;</string><!-- combining enclosing circle -->
+				<string>&#x20DE;</string><!-- combining enclosing square -->
+				<string>&#x20DF;</string><!-- combining enclosing diamond -->
+				<string>&#x20E4;</string><!-- combining enclosing upward pointing triangle -->
+				<string>&#x2107;</string><!-- euler constant -->
+				<string>&#x210E;</string><!-- planck constant -->
+				<string>&#x2127;</string><!-- conductance -->
+				<string>&#x2132;</string><!-- turned capital f -->
+				<string>&#x213C;</string><!-- double-struck small pi -->
+				<string>&#x2141;</string><!-- turned sans-serif capital g -->
+				<string>&#x2142;</string><!-- turned sans-serif capital l -->
+				<string>&#x2143;</string><!-- reversed sans-serif capital l -->
+				<string>&#x2144;</string><!-- turned sans-serif capital y -->
+				<string>&#x2145;</string><!-- double-struck italic capital d -->
+				<string>&#x2146;</string><!-- double-struck italic small d -->
+				<string>&#x2147;</string><!-- double-struck italic small e -->
+				<string>&#x2148;</string><!-- double-struck italic small i -->
+				<string>&#x2149;</string><!-- double-struck italic small j -->
+				<string>&#x214A;</string><!-- property line -->
+				<string>&#x21A8;</string><!-- up down arrow with base (perpendicular) -->
+				<string>&#x21B4;</string><!-- rightwards arrow with corner downwards -->
+				<string>&#x21B5;</string><!-- downwards arrow with corner leftward = carriage return -->
+				<string>&#x21B8;</string><!-- north west arrow to long bar -->
+				<string>&#x21B9;</string><!-- leftwards arrow to bar over rightwards arrow to bar -->
+				<string>&#x21BA;</string><!-- anticlockwise open circle arrow -->
+				<string>&#x21BB;</string><!-- clockwise open circle arrow -->
+				<string>&#x21DE;</string><!-- upwards arrow with double stroke -->
+				<string>&#x21DF;</string><!-- downwards arrow with double stroke -->
+				<string>&#x21E0;</string><!-- leftwards dashed arrow -->
+				<string>&#x21E1;</string><!-- upwards dashed arrow -->
+				<string>&#x21E2;</string><!-- rightwards dashed arrow -->
+				<string>&#x21E3;</string><!-- downwards dashed arrow -->
+				<string>&#x21E6;</string><!-- leftwards white arrow -->
+				<string>&#x21E7;</string><!-- upwards white arrow -->
+				<string>&#x21E8;</string><!-- rightwards white arrow -->
+				<string>&#x21E9;</string><!-- downwards white arrow -->
+				<string>&#x21EA;</string><!-- upwards white arrow from bar -->
+				<string>&#x2200;</string><!-- for all -->
+				<string>&#x2201;</string><!-- complement sign -->
+				<string>&#x2203;</string><!-- at least one exists -->
+				<string>&#x2204;</string><!-- negated exists -->
+				<string>&#x2205;</string><!-- circle, slash -->
+				<string>&#x2206;</string><!-- laplacian (delta; nabla\string^2) -->
+				<string>&#x220E;</string><!-- end of proof -->
+				<string>&#x221A;</string><!-- radical -->
+				<string>&#x221E;</string><!-- infinity -->
+				<string>&#x221F;</string><!-- right (90 degree) angle -->
+				<string>&#x2220;</string><!-- angle -->
+				<string>&#x2221;</string><!-- angle-measured -->
+				<string>&#x2222;</string><!-- angle-spherical -->
+				<string>&#x2234;</string><!-- therefore -->
+				<string>&#x2235;</string><!-- because -->
+				<string>&#x223F;</string><!-- sine wave -->
+				<string>&#x22A4;</string><!-- top -->
+				<string>&#x22A5;</string><!-- bottom -->
+				<string>&#x22B9;</string><!-- hermitian conjugate matrix -->
+				<string>&#x22BE;</string><!-- right angle-measured [with arc] -->
+				<string>&#x22BF;</string><!-- right triangle -->
+				<string>&#x22EF;</string><!-- three dots, centered -->
+				<string>&#x2300;</string><!-- diameter sign -->
+				<string>&#x2302;</string><!-- house -->
+				<string>&#x2310;</string><!-- reverse not -->
+				<string>&#x2311;</string><!-- square lozenge -->
+				<string>&#x2312;</string><!-- profile of a line -->
+				<string>&#x2313;</string><!-- profile of a surface -->
+				<string>&#x2317;</string><!-- viewdata square -->
+				<string>&#x2319;</string><!-- turned not sign -->
+				<string>&#x2320;</string><!-- top half integral -->
+				<string>&#x2321;</string><!-- bottom half integral -->
+				<string>&#x232C;</string><!-- six carbon ring, corner down, double bonds lower right etc -->
+				<string>&#x2332;</string><!-- conical taper  -->
+				<string>&#x2336;</string><!-- top and bottom -->
+				<string>&#x2340;</string><!-- apl functional symbol backslash bar -->
+				<string>&#x2353;</string><!-- boxed up caret -->
+				<string>&#x2370;</string><!-- boxed question mark -->
+				<string>&#x237C;</string><!-- right angle with downwards zigzag arrow -->
+				<string>&#x2394;</string><!-- horizontal benzene ring [hexagon flat open] -->
+				<string>&#x239B;</string><!-- left parenthesis upper hook -->
+				<string>&#x239C;</string><!-- left parenthesis extension -->
+				<string>&#x239D;</string><!-- left parenthesis lower hook -->
+				<string>&#x239E;</string><!-- right parenthesis upper hook -->
+				<string>&#x239F;</string><!-- right parenthesis extension -->
+				<string>&#x23A0;</string><!-- right parenthesis lower hook -->
+				<string>&#x23A1;</string><!-- left square bracket upper corner -->
+				<string>&#x23A2;</string><!-- left square bracket extension -->
+				<string>&#x23A3;</string><!-- left square bracket lower corner -->
+				<string>&#x23A4;</string><!-- right square bracket upper corner -->
+				<string>&#x23A5;</string><!-- right square bracket extension -->
+				<string>&#x23A6;</string><!-- right square bracket lower corner -->
+				<string>&#x23A7;</string><!-- left curly bracket upper hook -->
+				<string>&#x23A8;</string><!-- left curly bracket middle piece -->
+				<string>&#x23A9;</string><!-- left curly bracket lower hook -->
+				<string>&#x23AA;</string><!-- curly bracket extension -->
+				<string>&#x23AB;</string><!-- right curly bracket upper hook -->
+				<string>&#x23AC;</string><!-- right curly bracket middle piece -->
+				<string>&#x23AD;</string><!-- right curly bracket lower hook -->
+				<string>&#x23AE;</string><!-- integral extension -->
+				<string>&#x23AF;</string><!-- horizontal line extension (used to extend arrows) -->
+				<string>&#x23B2;</string><!-- summation top -->
+				<string>&#x23B3;</string><!-- summation bottom -->
+				<string>&#x23B6;</string><!-- bottom square bracket over top square bracket -->
+				<string>&#x23B7;</string><!-- radical symbol bottom -->
+				<string>&#x23B8;</string><!-- left vertical box line -->
+				<string>&#x23B9;</string><!-- right vertical box line -->
+				<string>&#x23CE;</string><!-- return symbol -->
+				<string>&#x23E0;</string><!-- top tortoise shell bracket (mathematical use) -->
+				<string>&#x23E1;</string><!-- bottom tortoise shell bracket (mathematical use) -->
+				<string>&#x23E2;</string><!-- white trapezium -->
+				<string>&#x23E3;</string><!-- benzene ring with circle -->
+				<string>&#x23E4;</string><!-- straightness -->
+				<string>&#x23E5;</string><!-- flatness -->
+				<string>&#x23E6;</string><!-- ac current -->
+				<string>&#x23E7;</string><!-- electrical intersection -->
+				<string>&#x2422;</string><!-- blank symbol -->
+				<string>&#x2423;</string><!-- open box -->
+				<string>&#x2506;</string><!-- doubly broken vert -->
+				<string>&#x2580;</string><!-- upper half block -->
+				<string>&#x2584;</string><!-- lower half block -->
+				<string>&#x2588;</string><!-- full block -->
+				<string>&#x258C;</string><!-- left half block -->
+				<string>&#x2590;</string><!-- right half block -->
+				<string>&#x2591;</string><!-- 25\% shaded block -->
+				<string>&#x2592;</string><!-- 50\% shaded block -->
+				<string>&#x2593;</string><!-- 75\% shaded block -->
+				<string>&#x25A0;</string><!-- square, filled -->
+				<string>&#x25A1;</string><!-- square, open -->
+				<string>&#x25A2;</string><!-- white square with rounded corners -->
+				<string>&#x25A3;</string><!-- white square containing black small square -->
+				<string>&#x25A4;</string><!-- square, horizontal rule filled -->
+				<string>&#x25A5;</string><!-- square, vertical rule filled -->
+				<string>&#x25A6;</string><!-- square with orthogonal crosshatch fill -->
+				<string>&#x25A7;</string><!-- square, nw-to-se rule filled -->
+				<string>&#x25A8;</string><!-- square, ne-to-sw rule filled -->
+				<string>&#x25A9;</string><!-- square with diagonal crosshatch fill -->
+				<string>&#x25AA;</string><!-- blacksquare - sq bullet, filled -->
+				<string>&#x25AB;</string><!-- white small square -->
+				<string>&#x25AC;</string><!-- black rectangle -->
+				<string>&#x25AD;</string><!-- horizontal rectangle, open -->
+				<string>&#x25AE;</string><!-- black vertical rectangle -->
+				<string>&#x25AF;</string><!-- rectangle, white (vertical) -->
+				<string>&#x25B0;</string><!-- black parallelogram -->
+				<string>&#x25B1;</string><!-- parallelogram, open -->
+				<string>&#x25B2;</string><!-- black up-pointing triangle -->
+				<string>&#x25B4;</string><!-- up triangle, filled -->
+				<string>&#x25B6;</string><!-- large) right triangle, filled -->
+				<string>&#x25B8;</string><!-- right triangle, filled -->
+				<string>&#x25B9;</string><!-- right triangle, open -->
+				<string>&#x25BA;</string><!-- black right-pointing pointer -->
+				<string>&#x25BB;</string><!-- white right-pointing pointer -->
+				<string>&#x25BC;</string><!-- big down triangle, filled -->
+				<string>&#x25BD;</string><!-- big down triangle, open -->
+				<string>&#x25BE;</string><!-- down triangle, filled -->
+				<string>&#x25BF;</string><!-- down triangle, open -->
+				<string>&#x25C0;</string><!-- large) left triangle, filled -->
+				<string>&#x25C2;</string><!-- left triangle, filled -->
+				<string>&#x25C3;</string><!-- left triangle, open -->
+				<string>&#x25C4;</string><!-- black left-pointing pointer -->
+				<string>&#x25C5;</string><!-- white left-pointing pointer -->
+				<string>&#x25C6;</string><!-- black diamond -->
+				<string>&#x25C7;</string><!-- white diamond; diamond, open -->
+				<string>&#x25C8;</string><!-- white diamond containing black small diamond -->
+				<string>&#x25C9;</string><!-- fisheye -->
+				<string>&#x25CA;</string><!-- lozenge or total mark -->
+				<string>&#x25CC;</string><!-- dotted circle -->
+				<string>&#x25CD;</string><!-- circle with vertical fill -->
+				<string>&#x25CE;</string><!-- bullseye -->
+				<string>&#x25CF;</string><!-- circle, filled -->
+				<string>&#x25D0;</string><!-- circle, filled left half [harvey ball] -->
+				<string>&#x25D1;</string><!-- circle, filled right half -->
+				<string>&#x25D2;</string><!-- circle, filled bottom half -->
+				<string>&#x25D3;</string><!-- circle, filled top half -->
+				<string>&#x25D4;</string><!-- circle with upper right quadrant black -->
+				<string>&#x25D5;</string><!-- circle with all but upper left quadrant black -->
+				<string>&#x25D6;</string><!-- left half black circle -->
+				<string>&#x25D7;</string><!-- right half black circle -->
+				<string>&#x25D8;</string><!-- inverse bullet  -->
+				<string>&#x25D9;</string><!-- inverse white circle -->
+				<string>&#x25DA;</string><!-- upper half inverse white circle -->
+				<string>&#x25DB;</string><!-- lower half inverse white circle -->
+				<string>&#x25DC;</string><!-- upper left quadrant circular arc -->
+				<string>&#x25DD;</string><!-- upper right quadrant circular arc -->
+				<string>&#x25DE;</string><!-- lower right quadrant circular arc -->
+				<string>&#x25DF;</string><!-- lower left quadrant circular arc -->
+				<string>&#x25E0;</string><!-- upper half circle -->
+				<string>&#x25E1;</string><!-- lower half circle -->
+				<string>&#x25E2;</string><!-- lower right triangle, filled -->
+				<string>&#x25E3;</string><!-- lower left triangle, filled -->
+				<string>&#x25E4;</string><!-- upper left triangle, filled -->
+				<string>&#x25E5;</string><!-- upper right triangle, filled -->
+				<string>&#x25E6;</string><!-- white bullet -->
+				<string>&#x25E7;</string><!-- square, filled left half -->
+				<string>&#x25E8;</string><!-- square, filled right half -->
+				<string>&#x25E9;</string><!-- square, filled top left corner -->
+				<string>&#x25EA;</string><!-- square, filled bottom right corner -->
+				<string>&#x25EC;</string><!-- triangle with centered dot -->
+				<string>&#x25ED;</string><!-- up-pointing triangle with left half black -->
+				<string>&#x25EE;</string><!-- up-pointing triangle with right half black -->
+				<string>&#x25EF;</string><!-- large circle -->
+				<string>&#x25F0;</string><!-- white square with upper left quadrant -->
+				<string>&#x25F1;</string><!-- white square with lower left quadrant -->
+				<string>&#x25F2;</string><!-- white square with lower right quadrant -->
+				<string>&#x25F3;</string><!-- white square with upper right quadrant -->
+				<string>&#x25F4;</string><!-- white circle with upper left quadrant -->
+				<string>&#x25F5;</string><!-- white circle with lower left quadrant -->
+				<string>&#x25F6;</string><!-- white circle with lower right quadrant -->
+				<string>&#x25F7;</string><!-- white circle with upper right quadrant -->
+				<string>&#x25F8;</string><!-- upper left triangle -->
+				<string>&#x25F9;</string><!-- upper right triangle -->
+				<string>&#x25FA;</string><!-- lower left triangle -->
+				<string>&#x25FB;</string><!-- white medium square -->
+				<string>&#x25FC;</string><!-- black medium square -->
+				<string>&#x25FD;</string><!-- white medium small square -->
+				<string>&#x25FE;</string><!-- black medium small square -->
+				<string>&#x25FF;</string><!-- lower right triangle -->
+				<string>&#x2605;</string><!-- star, filled -->
+				<string>&#x2606;</string><!-- star, open -->
+				<string>&#x2609;</string><!-- sun -->
+				<string>&#x2621;</string><!-- dangerous bend (caution sign) -->
+				<string>&#x263B;</string><!-- black smiling face -->
+				<string>&#x263C;</string><!-- white sun with rays -->
+				<string>&#x263D;</string><!-- first quarter moon -->
+				<string>&#x263E;</string><!-- last quarter moon -->
+				<string>&#x2640;</string><!-- venus, female -->
+				<string>&#x2642;</string><!-- mars, male -->
+				<string>&#x2660;</string><!-- spades suit symbol -->
+				<string>&#x2661;</string><!-- heart suit symbol -->
+				<string>&#x2662;</string><!-- diamond suit symbol -->
+				<string>&#x2663;</string><!-- club suit symbol -->
+				<string>&#x2664;</string><!-- spade, white (card suit) -->
+				<string>&#x2665;</string><!-- filled heart (card suit) -->
+				<string>&#x2666;</string><!-- filled diamond (card suit) -->
+				<string>&#x2667;</string><!-- club, white (card suit) -->
+				<string>&#x2669;</string><!-- music note (sung text sign) -->
+				<string>&#x266A;</string><!-- eighth note -->
+				<string>&#x266B;</string><!-- beamed eighth notes -->
+				<string>&#x266D;</string><!-- musical flat -->
+				<string>&#x266E;</string><!-- music natural -->
+				<string>&#x266F;</string><!-- musical sharp -->
+				<string>&#x267E;</string><!-- permanent paper sign -->
+				<string>&#x2680;</string><!-- die face-1 -->
+				<string>&#x2681;</string><!-- die face-2 -->
+				<string>&#x2682;</string><!-- die face-3 -->
+				<string>&#x2683;</string><!-- die face-4 -->
+				<string>&#x2684;</string><!-- die face-5 -->
+				<string>&#x2685;</string><!-- die face-6 -->
+				<string>&#x2686;</string><!-- white circle with dot right -->
+				<string>&#x2687;</string><!-- white circle with two dots -->
+				<string>&#x2688;</string><!-- black circle with white dot right -->
+				<string>&#x2689;</string><!-- black circle with two white dots -->
+				<string>&#x26A5;</string><!-- male and female sign -->
+				<string>&#x26AA;</string><!-- medium white circle -->
+				<string>&#x26AB;</string><!-- medium black circle -->
+				<string>&#x26AC;</string><!-- medium small white circle -->
+				<string>&#x26B2;</string><!-- neuter -->
+				<string>&#x2713;</string><!-- tick, check mark -->
+				<string>&#x2720;</string><!-- maltese cross -->
+				<string>&#x272A;</string><!-- circled white star -->
+				<string>&#x2736;</string><!-- six pointed black star -->
+				<string>&#x273D;</string><!-- heavy teardrop-spoked asterisk -->
+				<string>&#x279B;</string><!-- right arrow with bold head (drafting) -->
+				<string>&#x27C0;</string><!-- three dimensional angle -->
+				<string>&#x27C1;</string><!-- white triangle containing small white triangle -->
+				<string>&#x27C3;</string><!-- open subset -->
+				<string>&#x27C4;</string><!-- open superset -->
+				<string>&#x27D0;</string><!-- white diamond with centred dot -->
+				<string>&#x292B;</string><!-- rising diagonal crossing falling diagonal -->
+				<string>&#x292C;</string><!-- falling diagonal crossing rising diagonal -->
+				<string>&#x292D;</string><!-- south east arrow crossing north east arrow -->
+				<string>&#x292E;</string><!-- north east arrow crossing south east arrow -->
+				<string>&#x292F;</string><!-- falling diagonal crossing north east arrow -->
+				<string>&#x2930;</string><!-- rising diagonal crossing south east arrow -->
+				<string>&#x2931;</string><!-- north east arrow crossing north west arrow -->
+				<string>&#x2932;</string><!-- north west arrow crossing north east arrow -->
+				<string>&#x2934;</string><!-- arrow pointing rightwards then curving upwards -->
+				<string>&#x2935;</string><!-- arrow pointing rightwards then curving downwards -->
+				<string>&#x2981;</string><!-- z notation spot -->
+				<string>&#x2999;</string><!-- dotted fence -->
+				<string>&#x299A;</string><!-- vertical zigzag line -->
+				<string>&#x299B;</string><!-- measured angle opening left -->
+				<string>&#x299C;</string><!-- right angle variant with square -->
+				<string>&#x299D;</string><!-- measured right angle with dot -->
+				<string>&#x299E;</string><!-- angle with s inside -->
+				<string>&#x299F;</string><!-- acute angle -->
+				<string>&#x29A0;</string><!-- spherical angle opening left -->
+				<string>&#x29A1;</string><!-- spherical angle opening up -->
+				<string>&#x29A2;</string><!-- turned angle -->
+				<string>&#x29A3;</string><!-- reversed angle -->
+				<string>&#x29A4;</string><!-- angle with underbar -->
+				<string>&#x29A5;</string><!-- reversed angle with underbar -->
+				<string>&#x29A6;</string><!-- oblique angle opening up -->
+				<string>&#x29A7;</string><!-- oblique angle opening down -->
+				<string>&#x29A8;</string><!-- measured angle with open arm ending in arrow pointing up and right -->
+				<string>&#x29A9;</string><!-- measured angle with open arm ending in arrow pointing up and left -->
+				<string>&#x29AA;</string><!-- measured angle with open arm ending in arrow pointing down and right -->
+				<string>&#x29AB;</string><!-- measured angle with open arm ending in arrow pointing down and left -->
+				<string>&#x29AC;</string><!-- measured angle with open arm ending in arrow pointing right and up -->
+				<string>&#x29AD;</string><!-- measured angle with open arm ending in arrow pointing left and up -->
+				<string>&#x29AE;</string><!-- measured angle with open arm ending in arrow pointing right and down -->
+				<string>&#x29AF;</string><!-- measured angle with open arm ending in arrow pointing left and down -->
+				<string>&#x29B0;</string><!-- reversed empty set -->
+				<string>&#x29B1;</string><!-- empty set with overbar -->
+				<string>&#x29B2;</string><!-- empty set with small circle above -->
+				<string>&#x29B3;</string><!-- empty set with right arrow above -->
+				<string>&#x29B4;</string><!-- empty set with left arrow above -->
+				<string>&#x29BA;</string><!-- circle divided by horizontal bar and top half divided by vertical bar -->
+				<string>&#x29BB;</string><!-- circle with superimposed x -->
+				<string>&#x29BC;</string><!-- circled anticlockwise-rotated division sign -->
+				<string>&#x29BD;</string><!-- up arrow through circle -->
+				<string>&#x29BE;</string><!-- circled white bullet -->
+				<string>&#x29BF;</string><!-- circled bullet -->
+				<string>&#x29C2;</string><!-- circle with small circle to the right -->
+				<string>&#x29C3;</string><!-- circle with two horizontal strokes to the right -->
+				<string>&#x29C9;</string><!-- two joined squares -->
+				<string>&#x29CA;</string><!-- triangle with dot above -->
+				<string>&#x29CB;</string><!-- triangle with underbar -->
+				<string>&#x29CC;</string><!-- s in triangle -->
+				<string>&#x29DC;</string><!-- incomplete infinity -->
+				<string>&#x29DD;</string><!-- tie over infinity -->
+				<string>&#x29DE;</string><!-- infinity negated with vertical bar -->
+				<string>&#x29E0;</string><!-- square with contoured outline -->
+				<string>&#x29E7;</string><!-- thermodynamic -->
+				<string>&#x29E8;</string><!-- down-pointing triangle with left half black -->
+				<string>&#x29E9;</string><!-- down-pointing triangle with right half black -->
+				<string>&#x29EA;</string><!-- black diamond with down arrow -->
+				<string>&#x29EC;</string><!-- white circle with down arrow -->
+				<string>&#x29ED;</string><!-- black circle with down arrow -->
+				<string>&#x29EE;</string><!-- error-barred white square -->
+				<string>&#x29EF;</string><!-- error-barred black square -->
+				<string>&#x29F0;</string><!-- error-barred white diamond -->
+				<string>&#x29F1;</string><!-- error-barred black diamond -->
+				<string>&#x29F2;</string><!-- error-barred white circle -->
+				<string>&#x29F3;</string><!-- error-barred black circle -->
+				<string>&#x2AE1;</string><!-- perpendicular with s -->
+				<string>&#x2AF1;</string><!-- down tack with circle below -->
+				<string>&#x2B12;</string><!-- square with top half black -->
+				<string>&#x2B13;</string><!-- square with bottom half black -->
+				<string>&#x2B14;</string><!-- square with upper right diagonal half black -->
+				<string>&#x2B15;</string><!-- square with lower left diagonal half black -->
+				<string>&#x2B16;</string><!-- diamond with left half black -->
+				<string>&#x2B17;</string><!-- diamond with right half black -->
+				<string>&#x2B18;</string><!-- diamond with top half black -->
+				<string>&#x2B19;</string><!-- diamond with bottom half black -->
+				<string>&#x2B1A;</string><!-- dotted square -->
+				<string>&#x2B1B;</string><!-- black large square -->
+				<string>&#x2B1C;</string><!-- white large square -->
+				<string>&#x2B1D;</string><!-- black very small square -->
+				<string>&#x2B1E;</string><!-- white very small square -->
+				<string>&#x2B1F;</string><!-- black pentagon -->
+				<string>&#x2B20;</string><!-- white pentagon -->
+				<string>&#x2B21;</string><!-- white hexagon -->
+				<string>&#x2B22;</string><!-- black hexagon -->
+				<string>&#x2B23;</string><!-- horizontal black hexagon -->
+				<string>&#x2B24;</string><!-- black large circle -->
+				<string>&#x2B25;</string><!-- black medium diamond -->
+				<string>&#x2B26;</string><!-- white medium diamond -->
+				<string>&#x2B27;</string><!-- black medium lozenge -->
+				<string>&#x2B28;</string><!-- white medium lozenge -->
+				<string>&#x2B29;</string><!-- black small diamond -->
+				<string>&#x2B2A;</string><!-- black small lozenge -->
+				<string>&#x2B2B;</string><!-- white small lozenge -->
+				<string>&#x2B2C;</string><!-- black horizontal ellipse -->
+				<string>&#x2B2D;</string><!-- white horizontal ellipse -->
+				<string>&#x2B2E;</string><!-- black vertical ellipse -->
+				<string>&#x2B2F;</string><!-- white vertical ellipse -->
+				<string>&#x2B50;</string><!-- white medium star -->
+				<string>&#x2B51;</string><!-- black medium star -->
+				<string>&#x2B52;</string><!-- white small star -->
+				<string>&#x2B53;</string><!-- black right-pointing pentagon -->
+				<string>&#x2B54;</string><!-- white right-pointing pentagon -->
+				<string>&#x3012;</string><!-- postal mark -->
+				<string>&#x3030;</string><!-- zigzag -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Big operators</string>
+			<key>list</key>
+			<array>
+				<string>integral</string>
+				<string>dblintegral</string>
+				<string>tripleintegral</string>
+				<string>quadrupleIntegralOperator</string>
+				<string>contourintegral</string>
+				<string>surfaceintegral</string>
+				<string>volumeintegral</string>
+				<string>clockwiseintegral</string>
+				<string>anticlockwiseIntegration</string>
+				<string>clockwisecontourintegral</string>
+				<string>anticlockwisecontourintegral</string>
+				<string>summationWithIntegral</string>
+				<string>summation</string>
+				<string>summationdoubleStruck</string>
+				<string>product</string>
+				<string>coproduct</string>
+				<string>narylogicaland</string>
+				<string>narylogicalor</string>
+				<string>twoLogicalAndOperator</string>
+				<string>twoLogicalOrOperator</string>
+				<string>naryintersection</string>
+				<string>naryunion</string>
+				<string>nAryUnionOperatorWithDot</string>
+				<string>nAryUnionOperatorWithPlus</string>
+				<string>nArySquareIntersectionOperator</string>
+				<string>nArySquareUnionOperator</string>
+				<string>nAryCircledDotOperator</string>
+				<string>nAryCircledPlusOperator</string>
+				<string>nAryCircledTimesOperator</string>
+				<string>nAryTimesOperator</string>
+				<string>largeUpTack</string>
+				<string>largeDownTack</string>
+				<string>bigSolidus</string>
+				<string>bigReverseSolidus</string>
+				<string>integral.size01</string>
+				<string>dblintegral.size01</string>
+				<string>tripleintegral.size01</string>
+				<string>quadrupleIntegralOperator.size01</string>
+				<string>contourintegral.size01</string>
+				<string>surfaceintegral.size01</string>
+				<string>volumeintegral.size01</string>
+				<string>clockwiseintegral.size01</string>
+				<string>anticlockwiseIntegration.size01</string>
+				<string>clockwisecontourintegral.size01</string>
+				<string>anticlockwisecontourintegral.size01</string>
+				<string>summationWithIntegral.size01</string>
+				<string>summation.size01</string>
+				<string>summationdoubleStruck.size01</string>
+				<string>product.size01</string>
+				<string>coproduct.size01</string>
+				<string>narylogicaland.size01</string>
+				<string>narylogicalor.size01</string>
+				<string>twoLogicalAndOperator.size01</string>
+				<string>twoLogicalOrOperator.size01</string>
+				<string>naryintersection.size01</string>
+				<string>naryunion.size01</string>
+				<string>nAryUnionOperatorWithDot.size01</string>
+				<string>nAryUnionOperatorWithPlus.size01</string>
+				<string>nArySquareIntersectionOperator.size01</string>
+				<string>nArySquareUnionOperator.size01</string>
+				<string>nAryCircledDotOperator.size01</string>
+				<string>nAryCircledPlusOperator.size01</string>
+				<string>nAryCircledTimesOperator.size01</string>
+				<string>nAryTimesOperator.size01</string>
+				<string>largeUpTack.size01</string>
+				<string>largeDownTack.size01</string>
+				<string>bigSolidus.size01</string>
+				<string>bigReverseSolidus.size01</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Horizontal variants</string>
+			<key>list</key>
+			<array>
+				<string>topparenthesis</string>
+				<string>topparenthesis.size01</string>
+				<string>topparenthesis.size02</string>
+				<string>topparenthesis.size03</string>
+				<string>topparenthesis.size04</string>
+				<string>topparenthesis.size05</string>
+				<string>topparenthesis.size06</string>
+				<string>topparenthesis.size07</string>
+				<string>topparenthesis.size08</string>
+				<string>topparenthesis.size09</string>
+				<string>topparenthesis.size10</string>
+				<string>topparenthesis.size11</string>
+				<string>topparenthesis.size12</string>
+				<string>topparenthesis.size13</string>
+				<string>topparenthesis.size14</string>
+				<string>topparenthesis.size15</string>
+				<string>bottomparenthesis</string>
+				<string>bottomparenthesis.size01</string>
+				<string>bottomparenthesis.size02</string>
+				<string>bottomparenthesis.size03</string>
+				<string>bottomparenthesis.size04</string>
+				<string>bottomparenthesis.size05</string>
+				<string>bottomparenthesis.size06</string>
+				<string>bottomparenthesis.size07</string>
+				<string>bottomparenthesis.size08</string>
+				<string>bottomparenthesis.size09</string>
+				<string>bottomparenthesis.size10</string>
+				<string>bottomparenthesis.size11</string>
+				<string>bottomparenthesis.size12</string>
+				<string>bottomparenthesis.size13</string>
+				<string>bottomparenthesis.size14</string>
+				<string>bottomparenthesis.size15</string>
+				<string>topsquarebracket</string>
+				<string>topsquarebracket.size01</string>
+				<string>topsquarebracket.size02</string>
+				<string>topsquarebracket.size03</string>
+				<string>topsquarebracket.size04</string>
+				<string>topsquarebracket.size05</string>
+				<string>topsquarebracket.size06</string>
+				<string>topsquarebracket.size07</string>
+				<string>topsquarebracket.size08</string>
+				<string>topsquarebracket.size09</string>
+				<string>topsquarebracket.size10</string>
+				<string>topsquarebracket.size11</string>
+				<string>topsquarebracket.size12</string>
+				<string>topsquarebracket.size13</string>
+				<string>topsquarebracket.size14</string>
+				<string>topsquarebracket.size15</string>
+				<string>bottomsquarebracket</string>
+				<string>bottomsquarebracket.size01</string>
+				<string>bottomsquarebracket.size02</string>
+				<string>bottomsquarebracket.size03</string>
+				<string>bottomsquarebracket.size04</string>
+				<string>bottomsquarebracket.size05</string>
+				<string>bottomsquarebracket.size06</string>
+				<string>bottomsquarebracket.size07</string>
+				<string>bottomsquarebracket.size08</string>
+				<string>bottomsquarebracket.size09</string>
+				<string>bottomsquarebracket.size10</string>
+				<string>bottomsquarebracket.size11</string>
+				<string>bottomsquarebracket.size12</string>
+				<string>bottomsquarebracket.size13</string>
+				<string>bottomsquarebracket.size14</string>
+				<string>bottomsquarebracket.size15</string>
+				<string>topcurlybracket</string>
+				<string>topcurlybracket.size01</string>
+				<string>topcurlybracket.size02</string>
+				<string>topcurlybracket.size03</string>
+				<string>topcurlybracket.size04</string>
+				<string>topcurlybracket.size05</string>
+				<string>topcurlybracket.size06</string>
+				<string>topcurlybracket.size07</string>
+				<string>topcurlybracket.size08</string>
+				<string>topcurlybracket.size09</string>
+				<string>topcurlybracket.size10</string>
+				<string>topcurlybracket.size11</string>
+				<string>topcurlybracket.size12</string>
+				<string>topcurlybracket.size13</string>
+				<string>topcurlybracket.size14</string>
+				<string>topcurlybracket.size15</string>
+				<string>bottomcurlybracket</string>
+				<string>bottomcurlybracket.size01</string>
+				<string>bottomcurlybracket.size02</string>
+				<string>bottomcurlybracket.size03</string>
+				<string>bottomcurlybracket.size04</string>
+				<string>bottomcurlybracket.size05</string>
+				<string>bottomcurlybracket.size06</string>
+				<string>bottomcurlybracket.size07</string>
+				<string>bottomcurlybracket.size08</string>
+				<string>bottomcurlybracket.size09</string>
+				<string>bottomcurlybracket.size10</string>
+				<string>bottomcurlybracket.size11</string>
+				<string>bottomcurlybracket.size12</string>
+				<string>bottomcurlybracket.size13</string>
+				<string>bottomcurlybracket.size14</string>
+				<string>bottomcurlybracket.size15</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vertical variants</string>
+			<key>list</key>
+			<array>
+				<string>parenleft</string>
+				<string>parenleft.size01</string>
+				<string>parenleft.size02</string>
+				<string>parenleft.size03</string>
+				<string>parenleft.size04</string>
+				<string>parenleft.size05</string>
+				<string>parenleft.size06</string>
+				<string>parenleft.size07</string>
+				<string>parenleft.size08</string>
+				<string>parenleft.size09</string>
+				<string>parenleft.size10</string>
+				<string>parenleft.size11</string>
+				<string>parenleft.size12</string>
+				<string>parenleft.size13</string>
+				<string>parenleft.size14</string>
+				<string>parenleft.size15</string>
+				<string>parenright</string>
+				<string>parenright.size01</string>
+				<string>parenright.size02</string>
+				<string>parenright.size03</string>
+				<string>parenright.size04</string>
+				<string>parenright.size05</string>
+				<string>parenright.size06</string>
+				<string>parenright.size07</string>
+				<string>parenright.size08</string>
+				<string>parenright.size09</string>
+				<string>parenright.size10</string>
+				<string>parenright.size11</string>
+				<string>parenright.size12</string>
+				<string>parenright.size13</string>
+				<string>parenright.size14</string>
+				<string>parenright.size15</string>
+				<string>leftflattenedparenthesis-math</string>
+				<string>leftflattenedparenthesis-math.size01</string>
+				<string>leftflattenedparenthesis-math.size02</string>
+				<string>leftflattenedparenthesis-math.size03</string>
+				<string>leftflattenedparenthesis-math.size04</string>
+				<string>leftflattenedparenthesis-math.size05</string>
+				<string>leftflattenedparenthesis-math.size06</string>
+				<string>leftflattenedparenthesis-math.size07</string>
+				<string>leftflattenedparenthesis-math.size08</string>
+				<string>leftflattenedparenthesis-math.size09</string>
+				<string>leftflattenedparenthesis-math.size10</string>
+				<string>leftflattenedparenthesis-math.size11</string>
+				<string>leftflattenedparenthesis-math.size12</string>
+				<string>leftflattenedparenthesis-math.size13</string>
+				<string>leftflattenedparenthesis-math.size14</string>
+				<string>leftflattenedparenthesis-math.size15</string>
+				<string>rightflattenedparenthesis-math</string>
+				<string>rightflattenedparenthesis-math.size01</string>
+				<string>rightflattenedparenthesis-math.size02</string>
+				<string>rightflattenedparenthesis-math.size03</string>
+				<string>rightflattenedparenthesis-math.size04</string>
+				<string>rightflattenedparenthesis-math.size05</string>
+				<string>rightflattenedparenthesis-math.size06</string>
+				<string>rightflattenedparenthesis-math.size07</string>
+				<string>rightflattenedparenthesis-math.size08</string>
+				<string>rightflattenedparenthesis-math.size09</string>
+				<string>rightflattenedparenthesis-math.size10</string>
+				<string>rightflattenedparenthesis-math.size11</string>
+				<string>rightflattenedparenthesis-math.size12</string>
+				<string>rightflattenedparenthesis-math.size13</string>
+				<string>rightflattenedparenthesis-math.size14</string>
+				<string>rightflattenedparenthesis-math.size15</string>
+				<string>bracketleft</string>
+				<string>bracketleft.size01</string>
+				<string>bracketleft.size02</string>
+				<string>bracketleft.size03</string>
+				<string>bracketleft.size04</string>
+				<string>bracketleft.size05</string>
+				<string>bracketleft.size06</string>
+				<string>bracketleft.size07</string>
+				<string>bracketleft.size08</string>
+				<string>bracketleft.size09</string>
+				<string>bracketleft.size10</string>
+				<string>bracketleft.size11</string>
+				<string>bracketleft.size12</string>
+				<string>bracketleft.size13</string>
+				<string>bracketleft.size14</string>
+				<string>bracketleft.size15</string>
+				<string>bracketright</string>
+				<string>bracketright.size01</string>
+				<string>bracketright.size02</string>
+				<string>bracketright.size03</string>
+				<string>bracketright.size04</string>
+				<string>bracketright.size05</string>
+				<string>bracketright.size06</string>
+				<string>bracketright.size07</string>
+				<string>bracketright.size08</string>
+				<string>bracketright.size09</string>
+				<string>bracketright.size10</string>
+				<string>bracketright.size11</string>
+				<string>bracketright.size12</string>
+				<string>bracketright.size13</string>
+				<string>bracketright.size14</string>
+				<string>bracketright.size15</string>
+				<string>braceleft</string>
+				<string>braceleft.size01</string>
+				<string>braceleft.size02</string>
+				<string>braceleft.size03</string>
+				<string>braceleft.size04</string>
+				<string>braceleft.size05</string>
+				<string>braceleft.size06</string>
+				<string>braceleft.size07</string>
+				<string>braceleft.size08</string>
+				<string>braceleft.size09</string>
+				<string>braceleft.size10</string>
+				<string>braceleft.size11</string>
+				<string>braceleft.size12</string>
+				<string>braceleft.size13</string>
+				<string>braceleft.size14</string>
+				<string>braceleft.size15</string>
+				<string>braceright</string>
+				<string>braceright.size01</string>
+				<string>braceright.size02</string>
+				<string>braceright.size03</string>
+				<string>braceright.size04</string>
+				<string>braceright.size05</string>
+				<string>braceright.size06</string>
+				<string>braceright.size07</string>
+				<string>braceright.size08</string>
+				<string>braceright.size09</string>
+				<string>braceright.size10</string>
+				<string>braceright.size11</string>
+				<string>braceright.size12</string>
+				<string>braceright.size13</string>
+				<string>braceright.size14</string>
+				<string>braceright.size15</string>
+				<string>leftCeiling</string>
+				<string>leftCeiling.size01</string>
+				<string>leftCeiling.size02</string>
+				<string>leftCeiling.size03</string>
+				<string>leftCeiling.size04</string>
+				<string>leftCeiling.size05</string>
+				<string>leftCeiling.size06</string>
+				<string>leftCeiling.size07</string>
+				<string>leftCeiling.size08</string>
+				<string>leftCeiling.size09</string>
+				<string>leftCeiling.size10</string>
+				<string>leftCeiling.size11</string>
+				<string>leftCeiling.size12</string>
+				<string>leftCeiling.size13</string>
+				<string>leftCeiling.size14</string>
+				<string>leftCeiling.size15</string>
+				<string>rightCeiling</string>
+				<string>rightCeiling.size01</string>
+				<string>rightCeiling.size02</string>
+				<string>rightCeiling.size03</string>
+				<string>rightCeiling.size04</string>
+				<string>rightCeiling.size05</string>
+				<string>rightCeiling.size06</string>
+				<string>rightCeiling.size07</string>
+				<string>rightCeiling.size08</string>
+				<string>rightCeiling.size09</string>
+				<string>rightCeiling.size10</string>
+				<string>rightCeiling.size11</string>
+				<string>rightCeiling.size12</string>
+				<string>rightCeiling.size13</string>
+				<string>rightCeiling.size14</string>
+				<string>rightCeiling.size15</string>
+				<string>leftFloor</string>
+				<string>leftFloor.size01</string>
+				<string>leftFloor.size02</string>
+				<string>leftFloor.size03</string>
+				<string>leftFloor.size04</string>
+				<string>leftFloor.size05</string>
+				<string>leftFloor.size06</string>
+				<string>leftFloor.size07</string>
+				<string>leftFloor.size08</string>
+				<string>leftFloor.size09</string>
+				<string>leftFloor.size10</string>
+				<string>leftFloor.size11</string>
+				<string>leftFloor.size12</string>
+				<string>leftFloor.size13</string>
+				<string>leftFloor.size14</string>
+				<string>leftFloor.size15</string>
+				<string>rightFloor</string>
+				<string>rightFloor.size01</string>
+				<string>rightFloor.size02</string>
+				<string>rightFloor.size03</string>
+				<string>rightFloor.size04</string>
+				<string>rightFloor.size05</string>
+				<string>rightFloor.size06</string>
+				<string>rightFloor.size07</string>
+				<string>rightFloor.size08</string>
+				<string>rightFloor.size09</string>
+				<string>rightFloor.size10</string>
+				<string>rightFloor.size11</string>
+				<string>rightFloor.size12</string>
+				<string>rightFloor.size13</string>
+				<string>rightFloor.size14</string>
+				<string>rightFloor.size15</string>
+				<string>leftanglebracket-math</string>
+				<string>leftanglebracket-math.size01</string>
+				<string>leftanglebracket-math.size02</string>
+				<string>leftanglebracket-math.size03</string>
+				<string>leftanglebracket-math.size04</string>
+				<string>leftanglebracket-math.size05</string>
+				<string>leftanglebracket-math.size06</string>
+				<string>leftanglebracket-math.size07</string>
+				<string>leftanglebracket-math.size08</string>
+				<string>leftanglebracket-math.size09</string>
+				<string>leftanglebracket-math.size10</string>
+				<string>leftanglebracket-math.size11</string>
+				<string>leftanglebracket-math.size12</string>
+				<string>leftanglebracket-math.size13</string>
+				<string>leftanglebracket-math.size14</string>
+				<string>leftanglebracket-math.size15</string>
+				<string>leftdoubleanglebracket-math</string>
+				<string>leftdoubleanglebracket-math.size01</string>
+				<string>leftdoubleanglebracket-math.size02</string>
+				<string>leftdoubleanglebracket-math.size03</string>
+				<string>leftdoubleanglebracket-math.size04</string>
+				<string>leftdoubleanglebracket-math.size05</string>
+				<string>leftdoubleanglebracket-math.size06</string>
+				<string>leftdoubleanglebracket-math.size07</string>
+				<string>leftdoubleanglebracket-math.size08</string>
+				<string>leftdoubleanglebracket-math.size09</string>
+				<string>leftdoubleanglebracket-math.size10</string>
+				<string>leftdoubleanglebracket-math.size11</string>
+				<string>leftdoubleanglebracket-math.size12</string>
+				<string>leftdoubleanglebracket-math.size13</string>
+				<string>leftdoubleanglebracket-math.size14</string>
+				<string>leftdoubleanglebracket-math.size15</string>
+				<string>rightanglebracket-math</string>
+				<string>rightanglebracket-math.size01</string>
+				<string>rightanglebracket-math.size02</string>
+				<string>rightanglebracket-math.size03</string>
+				<string>rightanglebracket-math.size04</string>
+				<string>rightanglebracket-math.size05</string>
+				<string>rightanglebracket-math.size06</string>
+				<string>rightanglebracket-math.size07</string>
+				<string>rightanglebracket-math.size08</string>
+				<string>rightanglebracket-math.size09</string>
+				<string>rightanglebracket-math.size10</string>
+				<string>rightanglebracket-math.size11</string>
+				<string>rightanglebracket-math.size12</string>
+				<string>rightanglebracket-math.size13</string>
+				<string>rightanglebracket-math.size14</string>
+				<string>rightanglebracket-math.size15</string>
+				<string>rightdoubleanglebracket-math</string>
+				<string>rightdoubleanglebracket-math.size01</string>
+				<string>rightdoubleanglebracket-math.size02</string>
+				<string>rightdoubleanglebracket-math.size03</string>
+				<string>rightdoubleanglebracket-math.size04</string>
+				<string>rightdoubleanglebracket-math.size05</string>
+				<string>rightdoubleanglebracket-math.size06</string>
+				<string>rightdoubleanglebracket-math.size07</string>
+				<string>rightdoubleanglebracket-math.size08</string>
+				<string>rightdoubleanglebracket-math.size09</string>
+				<string>rightdoubleanglebracket-math.size10</string>
+				<string>rightdoubleanglebracket-math.size11</string>
+				<string>rightdoubleanglebracket-math.size12</string>
+				<string>rightdoubleanglebracket-math.size13</string>
+				<string>rightdoubleanglebracket-math.size14</string>
+				<string>rightdoubleanglebracket-math.size15</string>
+				<string>bar</string>
+				<string>bar.size01</string>
+				<string>bar.size02</string>
+				<string>bar.size03</string>
+				<string>bar.size04</string>
+				<string>bar.size05</string>
+				<string>bar.size06</string>
+				<string>bar.size07</string>
+				<string>bar.size08</string>
+				<string>bar.size09</string>
+				<string>bar.size10</string>
+				<string>bar.size11</string>
+				<string>bar.size12</string>
+				<string>bar.size13</string>
+				<string>bar.size14</string>
+				<string>bar.size15</string>
+				<string>dblverticalbar</string>
+				<string>dblverticalbar.size01</string>
+				<string>dblverticalbar.size02</string>
+				<string>dblverticalbar.size03</string>
+				<string>dblverticalbar.size04</string>
+				<string>dblverticalbar.size05</string>
+				<string>dblverticalbar.size06</string>
+				<string>dblverticalbar.size07</string>
+				<string>dblverticalbar.size08</string>
+				<string>dblverticalbar.size09</string>
+				<string>dblverticalbar.size10</string>
+				<string>dblverticalbar.size11</string>
+				<string>dblverticalbar.size12</string>
+				<string>dblverticalbar.size13</string>
+				<string>dblverticalbar.size14</string>
+				<string>dblverticalbar.size15</string>
+				<string>tripleVerticalBarDelimiter</string>
+				<string>tripleVerticalBarDelimiter.size01</string>
+				<string>tripleVerticalBarDelimiter.size02</string>
+				<string>tripleVerticalBarDelimiter.size03</string>
+				<string>tripleVerticalBarDelimiter.size04</string>
+				<string>tripleVerticalBarDelimiter.size05</string>
+				<string>tripleVerticalBarDelimiter.size06</string>
+				<string>tripleVerticalBarDelimiter.size07</string>
+				<string>tripleVerticalBarDelimiter.size08</string>
+				<string>tripleVerticalBarDelimiter.size09</string>
+				<string>tripleVerticalBarDelimiter.size10</string>
+				<string>tripleVerticalBarDelimiter.size11</string>
+				<string>tripleVerticalBarDelimiter.size12</string>
+				<string>tripleVerticalBarDelimiter.size13</string>
+				<string>tripleVerticalBarDelimiter.size14</string>
+				<string>tripleVerticalBarDelimiter.size15</string>
+				<string>radical</string>
+				<string>radical.size01</string>
+				<string>radical.size02</string>
+				<string>radical.size03</string>
+				<string>radical.size04</string>
+				<string>radical.size05</string>
+				<string>radical.size06</string>
+				<string>radical.size07</string>
+				<string>radical.size08</string>
+				<string>radical.size09</string>
+				<string>radical.size10</string>
+				<string>radical.size11</string>
+				<string>radical.size12</string>
+				<string>radical.size13</string>
+				<string>radical.size14</string>
+				<string>radical.size15</string>
+				<string>cuberoot</string>
+				<string>cuberoot.size01</string>
+				<string>cuberoot.size02</string>
+				<string>cuberoot.size03</string>
+				<string>cuberoot.size04</string>
+				<string>cuberoot.size05</string>
+				<string>cuberoot.size06</string>
+				<string>cuberoot.size07</string>
+				<string>cuberoot.size08</string>
+				<string>cuberoot.size09</string>
+				<string>cuberoot.size10</string>
+				<string>cuberoot.size11</string>
+				<string>cuberoot.size12</string>
+				<string>cuberoot.size13</string>
+				<string>cuberoot.size14</string>
+				<string>cuberoot.size15</string>
+				<string>fourthroot</string>
+				<string>fourthroot.size01</string>
+				<string>fourthroot.size02</string>
+				<string>fourthroot.size03</string>
+				<string>fourthroot.size04</string>
+				<string>fourthroot.size05</string>
+				<string>fourthroot.size06</string>
+				<string>fourthroot.size07</string>
+				<string>fourthroot.size08</string>
+				<string>fourthroot.size09</string>
+				<string>fourthroot.size10</string>
+				<string>fourthroot.size11</string>
+				<string>fourthroot.size12</string>
+				<string>fourthroot.size13</string>
+				<string>fourthroot.size14</string>
+				<string>fourthroot.size15</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Horizontal components</string>
+			<key>list</key>
+			<array>
+				<string>horizontallineextension</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vertical components</string>
+			<key>list</key>
+			<array>
+				<string>parenleftlowerhook</string>
+				<string>parenleftupperhook</string>
+				<string>parenleftextension</string>
+				<string>parenrightlowerhook</string>
+				<string>parenrightupperhook</string>
+				<string>parenrightextension</string>
+				<string>leftflattenedparenthesis-math.bot</string>
+				<string>leftflattenedparenthesis-math.top</string>
+				<string>leftflattenedparenthesis-math.ext</string>
+				<string>rightflattenedparenthesis-math.bot</string>
+				<string>rightflattenedparenthesis-math.top</string>
+				<string>rightflattenedparenthesis-math.ext</string>
+				<string>leftsquarebracketlowercorner</string>
+				<string>leftsquarebracketuppercorner</string>
+				<string>leftsquarebracketextension</string>
+				<string>rightsquarebracketlowercorner</string>
+				<string>rightsquarebracketuppercorner</string>
+				<string>rightsquarebracketextension</string>
+				<string>leftcurlybracketlowerhook</string>
+				<string>leftcurlybracketmiddlepiece</string>
+				<string>leftcurlybracketupperhook</string>
+				<string>braceleft.ext</string>
+				<string>rightcurlybracketlowerhook</string>
+				<string>rightcurlybracketmiddlepiece</string>
+				<string>rightcurlybracketupperhook</string>
+				<string>braceright.ext</string>
+				<string>leftCeiling.top</string>
+				<string>leftCeiling.ext</string>
+				<string>rightCeiling.top</string>
+				<string>rightCeiling.ext</string>
+				<string>leftFloor.bot</string>
+				<string>leftFloor.ext</string>
+				<string>rightFloor.bot</string>
+				<string>rightFloor.ext</string>
+				<string>leftverticalboxline</string>
+				<string>dblverticalbar.ext</string>
+				<string>tripleVerticalBarDelimiter.ext</string>
+				<string>radicalsymbolbottom</string>
+				<string>radical.top</string>
+				<string>radical.ext</string>
+				<string>cuberoot.bot</string>
+				<string>fourthroot.bot</string>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Upright</string>
+			<key>list</key>
+			<array>
+				<string>&#x0041;</string><!-- A -->
+				<string>&#x0042;</string><!-- B -->
+				<string>&#x0043;</string><!-- C -->
+				<string>&#x0044;</string><!-- D -->
+				<string>&#x0045;</string><!-- E -->
+				<string>&#x0046;</string><!-- F -->
+				<string>&#x0047;</string><!-- G -->
+				<string>&#x0048;</string><!-- H -->
+				<string>&#x0049;</string><!-- I -->
+				<string>&#x004A;</string><!-- J -->
+				<string>&#x004B;</string><!-- K -->
+				<string>&#x004C;</string><!-- L -->
+				<string>&#x004D;</string><!-- M -->
+				<string>&#x004E;</string><!-- N -->
+				<string>&#x004F;</string><!-- O -->
+				<string>&#x0050;</string><!-- P -->
+				<string>&#x0051;</string><!-- Q -->
+				<string>&#x0052;</string><!-- R -->
+				<string>&#x0053;</string><!-- S -->
+				<string>&#x0054;</string><!-- T -->
+				<string>&#x0055;</string><!-- U -->
+				<string>&#x0056;</string><!-- V -->
+				<string>&#x0057;</string><!-- W -->
+				<string>&#x0058;</string><!-- X -->
+				<string>&#x0059;</string><!-- Y -->
+				<string>&#x005A;</string><!-- Z -->
+				<string>&#x0061;</string><!-- a -->
+				<string>&#x0062;</string><!-- b -->
+				<string>&#x0063;</string><!-- c -->
+				<string>&#x0064;</string><!-- d -->
+				<string>&#x0065;</string><!-- e -->
+				<string>&#x0066;</string><!-- f -->
+				<string>&#x0067;</string><!-- g -->
+				<string>&#x0068;</string><!-- h -->
+				<string>&#x0069;</string><!-- i -->
+				<string>&#x006A;</string><!-- j -->
+				<string>&#x006B;</string><!-- k -->
+				<string>&#x006C;</string><!-- l -->
+				<string>&#x006D;</string><!-- m -->
+				<string>&#x006E;</string><!-- n -->
+				<string>&#x006F;</string><!-- o -->
+				<string>&#x0070;</string><!-- p -->
+				<string>&#x0071;</string><!-- q -->
+				<string>&#x0072;</string><!-- r -->
+				<string>&#x0073;</string><!-- s -->
+				<string>&#x0074;</string><!-- t -->
+				<string>&#x0075;</string><!-- u -->
+				<string>&#x0076;</string><!-- v -->
+				<string>&#x0077;</string><!-- w -->
+				<string>&#x0078;</string><!-- x -->
+				<string>&#x0079;</string><!-- y -->
+				<string>&#x007A;</string><!-- z -->
+				<string>&#x0391;</string><!-- capital alpha, greek -->
+				<string>&#x0392;</string><!-- capital beta, greek -->
+				<string>&#x0393;</string><!-- capital gamma, greek -->
+				<string>&#x0394;</string><!-- capital delta, greek -->
+				<string>&#x0395;</string><!-- capital epsilon, greek -->
+				<string>&#x0396;</string><!-- capital zeta, greek -->
+				<string>&#x0397;</string><!-- capital eta, greek -->
+				<string>&#x0398;</string><!-- capital theta, greek -->
+				<string>&#x0399;</string><!-- capital iota, greek -->
+				<string>&#x039A;</string><!-- capital kappa, greek -->
+				<string>&#x039B;</string><!-- capital lambda, greek -->
+				<string>&#x039C;</string><!-- capital mu, greek -->
+				<string>&#x039D;</string><!-- capital nu, greek -->
+				<string>&#x039E;</string><!-- capital xi, greek -->
+				<string>&#x039F;</string><!-- capital omicron, greek -->
+				<string>&#x03A0;</string><!-- capital pi, greek -->
+				<string>&#x03A1;</string><!-- capital rho, greek -->
+				<string>&#x03A3;</string><!-- capital sigma, greek -->
+				<string>&#x03A4;</string><!-- capital tau, greek -->
+				<string>&#x03A5;</string><!-- capital upsilon, greek -->
+				<string>&#x03A6;</string><!-- capital phi, greek -->
+				<string>&#x03A7;</string><!-- capital chi, greek -->
+				<string>&#x03A8;</string><!-- capital psi, greek -->
+				<string>&#x03A9;</string><!-- capital omega, greek -->
+				<string>&#x03DC;</string><!-- capital digamma -->
+				<string>&#x03F4;</string><!-- greek capital theta symbol -->
+				<string>&#x03B1;</string><!-- small alpha, greek -->
+				<string>&#x03B2;</string><!-- small beta, greek -->
+				<string>&#x03B3;</string><!-- small gamma, greek -->
+				<string>&#x03B4;</string><!-- small delta, greek -->
+				<string>&#x03B5;</string><!-- rounded small varepsilon, greek -->
+				<string>&#x03B6;</string><!-- small zeta, greek -->
+				<string>&#x03B7;</string><!-- small eta, greek -->
+				<string>&#x03B8;</string><!-- straight theta, small theta, greek -->
+				<string>&#x03B9;</string><!-- small iota, greek -->
+				<string>&#x03BA;</string><!-- small kappa, greek -->
+				<string>&#x03BB;</string><!-- small lambda, greek -->
+				<string>&#x03BC;</string><!-- small mu, greek -->
+				<string>&#x03BD;</string><!-- small nu, greek -->
+				<string>&#x03BE;</string><!-- small xi, greek -->
+				<string>&#x03BF;</string><!-- small omicron, greek -->
+				<string>&#x03C0;</string><!-- small pi, greek -->
+				<string>&#x03C1;</string><!-- small rho, greek -->
+				<string>&#x03C2;</string><!-- terminal sigma, greek -->
+				<string>&#x03C3;</string><!-- small sigma, greek -->
+				<string>&#x03C4;</string><!-- small tau, greek -->
+				<string>&#x03C5;</string><!-- small upsilon, greek -->
+				<string>&#x03C6;</string><!-- curly or open small phi, greek -->
+				<string>&#x03C7;</string><!-- small chi, greek -->
+				<string>&#x03C8;</string><!-- small psi, greek -->
+				<string>&#x03C9;</string><!-- small omega, greek -->
+				<string>&#x03D0;</string><!-- beta symbol -->
+				<string>&#x03D1;</string><!-- vartheta - curly or open theta -->
+				<string>&#x03D5;</string><!-- straightphi - small phi, greek -->
+				<string>&#x03D6;</string><!-- rounded small pi (pomega), greek -->
+				<string>&#x03D7;</string><!-- kai symbol -->
+				<string>&#x03DD;</string><!-- old greek small letter digamma -->
+				<string>&#x03F0;</string><!-- rounded small kappa, greek -->
+				<string>&#x03F1;</string><!-- rounded small rho, greek -->
+				<string>&#x03F2;</string><!-- lunate sigma symbol -->
+				<string>&#x03F5;</string><!-- greek lunate varepsilon symbol -->
+				<string>&#x03F6;</string><!-- greek reversed lunate epsilon symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D400;</string><!-- mathematical bold capital a -->
+				<string>&#x1D401;</string><!-- mathematical bold capital b -->
+				<string>&#x1D402;</string><!-- mathematical bold capital c -->
+				<string>&#x1D403;</string><!-- mathematical bold capital d -->
+				<string>&#x1D404;</string><!-- mathematical bold capital e -->
+				<string>&#x1D405;</string><!-- mathematical bold capital f -->
+				<string>&#x1D406;</string><!-- mathematical bold capital g -->
+				<string>&#x1D407;</string><!-- mathematical bold capital h -->
+				<string>&#x1D408;</string><!-- mathematical bold capital i -->
+				<string>&#x1D409;</string><!-- mathematical bold capital j -->
+				<string>&#x1D40A;</string><!-- mathematical bold capital k -->
+				<string>&#x1D40B;</string><!-- mathematical bold capital l -->
+				<string>&#x1D40C;</string><!-- mathematical bold capital m -->
+				<string>&#x1D40D;</string><!-- mathematical bold capital n -->
+				<string>&#x1D40E;</string><!-- mathematical bold capital o -->
+				<string>&#x1D40F;</string><!-- mathematical bold capital p -->
+				<string>&#x1D410;</string><!-- mathematical bold capital q -->
+				<string>&#x1D411;</string><!-- mathematical bold capital r -->
+				<string>&#x1D412;</string><!-- mathematical bold capital s -->
+				<string>&#x1D413;</string><!-- mathematical bold capital t -->
+				<string>&#x1D414;</string><!-- mathematical bold capital u -->
+				<string>&#x1D415;</string><!-- mathematical bold capital v -->
+				<string>&#x1D416;</string><!-- mathematical bold capital w -->
+				<string>&#x1D417;</string><!-- mathematical bold capital x -->
+				<string>&#x1D418;</string><!-- mathematical bold capital y -->
+				<string>&#x1D419;</string><!-- mathematical bold capital z -->
+				<string>&#x1D41A;</string><!-- mathematical bold small a -->
+				<string>&#x1D41B;</string><!-- mathematical bold small b -->
+				<string>&#x1D41C;</string><!-- mathematical bold small c -->
+				<string>&#x1D41D;</string><!-- mathematical bold small d -->
+				<string>&#x1D41E;</string><!-- mathematical bold small e -->
+				<string>&#x1D41F;</string><!-- mathematical bold small f -->
+				<string>&#x1D420;</string><!-- mathematical bold small g -->
+				<string>&#x1D421;</string><!-- mathematical bold small h -->
+				<string>&#x1D422;</string><!-- mathematical bold small i -->
+				<string>&#x1D423;</string><!-- mathematical bold small j -->
+				<string>&#x1D424;</string><!-- mathematical bold small k -->
+				<string>&#x1D425;</string><!-- mathematical bold small l -->
+				<string>&#x1D426;</string><!-- mathematical bold small m -->
+				<string>&#x1D427;</string><!-- mathematical bold small n -->
+				<string>&#x1D428;</string><!-- mathematical bold small o -->
+				<string>&#x1D429;</string><!-- mathematical bold small p -->
+				<string>&#x1D42A;</string><!-- mathematical bold small q -->
+				<string>&#x1D42B;</string><!-- mathematical bold small r -->
+				<string>&#x1D42C;</string><!-- mathematical bold small s -->
+				<string>&#x1D42D;</string><!-- mathematical bold small t -->
+				<string>&#x1D42E;</string><!-- mathematical bold small u -->
+				<string>&#x1D42F;</string><!-- mathematical bold small v -->
+				<string>&#x1D430;</string><!-- mathematical bold small w -->
+				<string>&#x1D431;</string><!-- mathematical bold small x -->
+				<string>&#x1D432;</string><!-- mathematical bold small y -->
+				<string>&#x1D433;</string><!-- mathematical bold small z -->
+				<string>&#x1D6A8;</string><!-- mathematical bold capital alpha -->
+				<string>&#x1D6A9;</string><!-- mathematical bold capital beta -->
+				<string>&#x1D6AA;</string><!-- mathematical bold capital gamma -->
+				<string>&#x1D6AB;</string><!-- mathematical bold capital delta -->
+				<string>&#x1D6AC;</string><!-- mathematical bold capital epsilon -->
+				<string>&#x1D6AD;</string><!-- mathematical bold capital zeta -->
+				<string>&#x1D6AE;</string><!-- mathematical bold capital eta -->
+				<string>&#x1D6AF;</string><!-- mathematical bold capital theta -->
+				<string>&#x1D6B0;</string><!-- mathematical bold capital iota -->
+				<string>&#x1D6B1;</string><!-- mathematical bold capital kappa -->
+				<string>&#x1D6B2;</string><!-- mathematical bold capital lambda -->
+				<string>&#x1D6B3;</string><!-- mathematical bold capital mu -->
+				<string>&#x1D6B4;</string><!-- mathematical bold capital nu -->
+				<string>&#x1D6B5;</string><!-- mathematical bold capital xi -->
+				<string>&#x1D6B6;</string><!-- mathematical bold capital omicron -->
+				<string>&#x1D6B7;</string><!-- mathematical bold capital pi -->
+				<string>&#x1D6B8;</string><!-- mathematical bold capital rho -->
+				<string>&#x1D6B9;</string><!-- mathematical bold capital theta symbol -->
+				<string>&#x1D6BA;</string><!-- mathematical bold capital sigma -->
+				<string>&#x1D6BB;</string><!-- mathematical bold capital tau -->
+				<string>&#x1D6BC;</string><!-- mathematical bold capital upsilon -->
+				<string>&#x1D6BD;</string><!-- mathematical bold capital phi -->
+				<string>&#x1D6BE;</string><!-- mathematical bold capital chi -->
+				<string>&#x1D6BF;</string><!-- mathematical bold capital psi -->
+				<string>&#x1D6C0;</string><!-- mathematical bold capital omega -->
+				<string>&#x1D6C1;</string><!-- mathematical bold nabla -->
+				<string>&#x1D6C2;</string><!-- mathematical bold small alpha -->
+				<string>&#x1D6C3;</string><!-- mathematical bold small beta -->
+				<string>&#x1D6C4;</string><!-- mathematical bold small gamma -->
+				<string>&#x1D6C5;</string><!-- mathematical bold small delta -->
+				<string>&#x1D6C6;</string><!-- mathematical bold small varepsilon -->
+				<string>&#x1D6C7;</string><!-- mathematical bold small zeta -->
+				<string>&#x1D6C8;</string><!-- mathematical bold small eta -->
+				<string>&#x1D6C9;</string><!-- mathematical bold small theta -->
+				<string>&#x1D6CA;</string><!-- mathematical bold small iota -->
+				<string>&#x1D6CB;</string><!-- mathematical bold small kappa -->
+				<string>&#x1D6CC;</string><!-- mathematical bold small lambda -->
+				<string>&#x1D6CD;</string><!-- mathematical bold small mu -->
+				<string>&#x1D6CE;</string><!-- mathematical bold small nu -->
+				<string>&#x1D6CF;</string><!-- mathematical bold small xi -->
+				<string>&#x1D6D0;</string><!-- mathematical bold small omicron -->
+				<string>&#x1D6D1;</string><!-- mathematical bold small pi -->
+				<string>&#x1D6D2;</string><!-- mathematical bold small rho -->
+				<string>&#x1D6D3;</string><!-- mathematical bold small final sigma -->
+				<string>&#x1D6D4;</string><!-- mathematical bold small sigma -->
+				<string>&#x1D6D5;</string><!-- mathematical bold small tau -->
+				<string>&#x1D6D6;</string><!-- mathematical bold small upsilon -->
+				<string>&#x1D6D7;</string><!-- mathematical bold small phi -->
+				<string>&#x1D6D8;</string><!-- mathematical bold small chi -->
+				<string>&#x1D6D9;</string><!-- mathematical bold small psi -->
+				<string>&#x1D6DA;</string><!-- mathematical bold small omega -->
+				<string>&#x1D6DB;</string><!-- mathematical bold partial differential -->
+				<string>&#x1D6DC;</string><!-- mathematical bold varepsilon symbol -->
+				<string>&#x1D6DD;</string><!-- mathematical bold theta symbol -->
+				<string>&#x1D6DE;</string><!-- mathematical bold kappa symbol -->
+				<string>&#x1D6DF;</string><!-- mathematical bold phi symbol -->
+				<string>&#x1D6E0;</string><!-- mathematical bold rho symbol -->
+				<string>&#x1D6E1;</string><!-- mathematical bold pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D434;</string><!-- mathematical italic capital a -->
+				<string>&#x1D435;</string><!-- mathematical italic capital b -->
+				<string>&#x1D436;</string><!-- mathematical italic capital c -->
+				<string>&#x1D437;</string><!-- mathematical italic capital d -->
+				<string>&#x1D438;</string><!-- mathematical italic capital e -->
+				<string>&#x1D439;</string><!-- mathematical italic capital f -->
+				<string>&#x1D43A;</string><!-- mathematical italic capital g -->
+				<string>&#x1D43B;</string><!-- mathematical italic capital h -->
+				<string>&#x1D43C;</string><!-- mathematical italic capital i -->
+				<string>&#x1D43D;</string><!-- mathematical italic capital j -->
+				<string>&#x1D43E;</string><!-- mathematical italic capital k -->
+				<string>&#x1D43F;</string><!-- mathematical italic capital l -->
+				<string>&#x1D440;</string><!-- mathematical italic capital m -->
+				<string>&#x1D441;</string><!-- mathematical italic capital n -->
+				<string>&#x1D442;</string><!-- mathematical italic capital o -->
+				<string>&#x1D443;</string><!-- mathematical italic capital p -->
+				<string>&#x1D444;</string><!-- mathematical italic capital q -->
+				<string>&#x1D445;</string><!-- mathematical italic capital r -->
+				<string>&#x1D446;</string><!-- mathematical italic capital s -->
+				<string>&#x1D447;</string><!-- mathematical italic capital t -->
+				<string>&#x1D448;</string><!-- mathematical italic capital u -->
+				<string>&#x1D449;</string><!-- mathematical italic capital v -->
+				<string>&#x1D44A;</string><!-- mathematical italic capital w -->
+				<string>&#x1D44B;</string><!-- mathematical italic capital x -->
+				<string>&#x1D44C;</string><!-- mathematical italic capital y -->
+				<string>&#x1D44D;</string><!-- mathematical italic capital z -->
+				<string>&#x1D44E;</string><!-- mathematical italic small a -->
+				<string>&#x1D44F;</string><!-- mathematical italic small b -->
+				<string>&#x1D450;</string><!-- mathematical italic small c -->
+				<string>&#x1D451;</string><!-- mathematical italic small d -->
+				<string>&#x1D452;</string><!-- mathematical italic small e -->
+				<string>&#x1D453;</string><!-- mathematical italic small f -->
+				<string>&#x1D454;</string><!-- mathematical italic small g -->
+				<string>&#x210E;</string><!-- mathematical italic small h -->
+				<string>&#x1D456;</string><!-- mathematical italic small i -->
+				<string>&#x1D457;</string><!-- mathematical italic small j -->
+				<string>&#x1D458;</string><!-- mathematical italic small k -->
+				<string>&#x1D459;</string><!-- mathematical italic small l -->
+				<string>&#x1D45A;</string><!-- mathematical italic small m -->
+				<string>&#x1D45B;</string><!-- mathematical italic small n -->
+				<string>&#x1D45C;</string><!-- mathematical italic small o -->
+				<string>&#x1D45D;</string><!-- mathematical italic small p -->
+				<string>&#x1D45E;</string><!-- mathematical italic small q -->
+				<string>&#x1D45F;</string><!-- mathematical italic small r -->
+				<string>&#x1D460;</string><!-- mathematical italic small s -->
+				<string>&#x1D461;</string><!-- mathematical italic small t -->
+				<string>&#x1D462;</string><!-- mathematical italic small u -->
+				<string>&#x1D463;</string><!-- mathematical italic small v -->
+				<string>&#x1D464;</string><!-- mathematical italic small w -->
+				<string>&#x1D465;</string><!-- mathematical italic small x -->
+				<string>&#x1D466;</string><!-- mathematical italic small y -->
+				<string>&#x1D467;</string><!-- mathematical italic small z -->
+				<string>&#x1D6A4;</string><!-- mathematical italic small dotless i -->
+				<string>&#x1D6A5;</string><!-- mathematical italic small dotless j -->
+				<string>&#x1D6E2;</string><!-- mathematical italic capital alpha -->
+				<string>&#x1D6E3;</string><!-- mathematical italic capital beta -->
+				<string>&#x1D6E4;</string><!-- mathematical italic capital gamma -->
+				<string>&#x1D6E5;</string><!-- mathematical italic capital delta -->
+				<string>&#x1D6E6;</string><!-- mathematical italic capital epsilon -->
+				<string>&#x1D6E7;</string><!-- mathematical italic capital zeta -->
+				<string>&#x1D6E8;</string><!-- mathematical italic capital eta -->
+				<string>&#x1D6E9;</string><!-- mathematical italic capital theta -->
+				<string>&#x1D6EA;</string><!-- mathematical italic capital iota -->
+				<string>&#x1D6EB;</string><!-- mathematical italic capital kappa -->
+				<string>&#x1D6EC;</string><!-- mathematical italic capital lambda -->
+				<string>&#x1D6ED;</string><!-- mathematical italic capital mu -->
+				<string>&#x1D6EE;</string><!-- mathematical italic capital nu -->
+				<string>&#x1D6EF;</string><!-- mathematical italic capital xi -->
+				<string>&#x1D6F0;</string><!-- mathematical italic capital omicron -->
+				<string>&#x1D6F1;</string><!-- mathematical italic capital pi -->
+				<string>&#x1D6F2;</string><!-- mathematical italic capital rho -->
+				<string>&#x1D6F3;</string><!-- mathematical italic capital theta symbol -->
+				<string>&#x1D6F4;</string><!-- mathematical italic capital sigma -->
+				<string>&#x1D6F5;</string><!-- mathematical italic capital tau -->
+				<string>&#x1D6F6;</string><!-- mathematical italic capital upsilon -->
+				<string>&#x1D6F7;</string><!-- mathematical italic capital phi -->
+				<string>&#x1D6F8;</string><!-- mathematical italic capital chi -->
+				<string>&#x1D6F9;</string><!-- mathematical italic capital psi -->
+				<string>&#x1D6FA;</string><!-- mathematical italic capital omega -->
+				<string>&#x1D6FB;</string><!-- mathematical italic nabla -->
+				<string>&#x1D6FC;</string><!-- mathematical italic small alpha -->
+				<string>&#x1D6FD;</string><!-- mathematical italic small beta -->
+				<string>&#x1D6FE;</string><!-- mathematical italic small gamma -->
+				<string>&#x1D6FF;</string><!-- mathematical italic small delta -->
+				<string>&#x1D700;</string><!-- mathematical italic small varepsilon -->
+				<string>&#x1D701;</string><!-- mathematical italic small zeta -->
+				<string>&#x1D702;</string><!-- mathematical italic small eta -->
+				<string>&#x1D703;</string><!-- mathematical italic small theta -->
+				<string>&#x1D704;</string><!-- mathematical italic small iota -->
+				<string>&#x1D705;</string><!-- mathematical italic small kappa -->
+				<string>&#x1D706;</string><!-- mathematical italic small lambda -->
+				<string>&#x1D707;</string><!-- mathematical italic small mu -->
+				<string>&#x1D708;</string><!-- mathematical italic small nu -->
+				<string>&#x1D709;</string><!-- mathematical italic small xi -->
+				<string>&#x1D70A;</string><!-- mathematical italic small omicron -->
+				<string>&#x1D70B;</string><!-- mathematical italic small pi -->
+				<string>&#x1D70C;</string><!-- mathematical italic small rho -->
+				<string>&#x1D70D;</string><!-- mathematical italic small final sigma -->
+				<string>&#x1D70E;</string><!-- mathematical italic small sigma -->
+				<string>&#x1D70F;</string><!-- mathematical italic small tau -->
+				<string>&#x1D710;</string><!-- mathematical italic small upsilon -->
+				<string>&#x1D711;</string><!-- mathematical italic small phi -->
+				<string>&#x1D712;</string><!-- mathematical italic small chi -->
+				<string>&#x1D713;</string><!-- mathematical italic small psi -->
+				<string>&#x1D714;</string><!-- mathematical italic small omega -->
+				<string>&#x1D715;</string><!-- mathematical italic partial differential -->
+				<string>&#x1D716;</string><!-- mathematical italic varepsilon symbol -->
+				<string>&#x1D717;</string><!-- mathematical italic theta symbol -->
+				<string>&#x1D718;</string><!-- mathematical italic kappa symbol -->
+				<string>&#x1D719;</string><!-- mathematical italic phi symbol -->
+				<string>&#x1D71A;</string><!-- mathematical italic rho symbol -->
+				<string>&#x1D71B;</string><!-- mathematical italic pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Italic</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D468;</string><!-- mathematical bold italic capital a -->
+				<string>&#x1D469;</string><!-- mathematical bold italic capital b -->
+				<string>&#x1D46A;</string><!-- mathematical bold italic capital c -->
+				<string>&#x1D46B;</string><!-- mathematical bold italic capital d -->
+				<string>&#x1D46C;</string><!-- mathematical bold italic capital e -->
+				<string>&#x1D46D;</string><!-- mathematical bold italic capital f -->
+				<string>&#x1D46E;</string><!-- mathematical bold italic capital g -->
+				<string>&#x1D46F;</string><!-- mathematical bold italic capital h -->
+				<string>&#x1D470;</string><!-- mathematical bold italic capital i -->
+				<string>&#x1D471;</string><!-- mathematical bold italic capital j -->
+				<string>&#x1D472;</string><!-- mathematical bold italic capital k -->
+				<string>&#x1D473;</string><!-- mathematical bold italic capital l -->
+				<string>&#x1D474;</string><!-- mathematical bold italic capital m -->
+				<string>&#x1D475;</string><!-- mathematical bold italic capital n -->
+				<string>&#x1D476;</string><!-- mathematical bold italic capital o -->
+				<string>&#x1D477;</string><!-- mathematical bold italic capital p -->
+				<string>&#x1D478;</string><!-- mathematical bold italic capital q -->
+				<string>&#x1D479;</string><!-- mathematical bold italic capital r -->
+				<string>&#x1D47A;</string><!-- mathematical bold italic capital s -->
+				<string>&#x1D47B;</string><!-- mathematical bold italic capital t -->
+				<string>&#x1D47C;</string><!-- mathematical bold italic capital u -->
+				<string>&#x1D47D;</string><!-- mathematical bold italic capital v -->
+				<string>&#x1D47E;</string><!-- mathematical bold italic capital w -->
+				<string>&#x1D47F;</string><!-- mathematical bold italic capital x -->
+				<string>&#x1D480;</string><!-- mathematical bold italic capital y -->
+				<string>&#x1D481;</string><!-- mathematical bold italic capital z -->
+				<string>&#x1D482;</string><!-- mathematical bold italic small a -->
+				<string>&#x1D483;</string><!-- mathematical bold italic small b -->
+				<string>&#x1D484;</string><!-- mathematical bold italic small c -->
+				<string>&#x1D485;</string><!-- mathematical bold italic small d -->
+				<string>&#x1D486;</string><!-- mathematical bold italic small e -->
+				<string>&#x1D487;</string><!-- mathematical bold italic small f -->
+				<string>&#x1D488;</string><!-- mathematical bold italic small g -->
+				<string>&#x1D489;</string><!-- mathematical bold italic small h -->
+				<string>&#x1D48A;</string><!-- mathematical bold italic small i -->
+				<string>&#x1D48B;</string><!-- mathematical bold italic small j -->
+				<string>&#x1D48C;</string><!-- mathematical bold italic small k -->
+				<string>&#x1D48D;</string><!-- mathematical bold italic small l -->
+				<string>&#x1D48E;</string><!-- mathematical bold italic small m -->
+				<string>&#x1D48F;</string><!-- mathematical bold italic small n -->
+				<string>&#x1D490;</string><!-- mathematical bold italic small o -->
+				<string>&#x1D491;</string><!-- mathematical bold italic small p -->
+				<string>&#x1D492;</string><!-- mathematical bold italic small q -->
+				<string>&#x1D493;</string><!-- mathematical bold italic small r -->
+				<string>&#x1D494;</string><!-- mathematical bold italic small s -->
+				<string>&#x1D495;</string><!-- mathematical bold italic small t -->
+				<string>&#x1D496;</string><!-- mathematical bold italic small u -->
+				<string>&#x1D497;</string><!-- mathematical bold italic small v -->
+				<string>&#x1D498;</string><!-- mathematical bold italic small w -->
+				<string>&#x1D499;</string><!-- mathematical bold italic small x -->
+				<string>&#x1D49A;</string><!-- mathematical bold italic small y -->
+				<string>&#x1D49B;</string><!-- mathematical bold italic small z -->
+				<string>&#x1D71C;</string><!-- mathematical bold italic capital alpha -->
+				<string>&#x1D71D;</string><!-- mathematical bold italic capital beta -->
+				<string>&#x1D71E;</string><!-- mathematical bold italic capital gamma -->
+				<string>&#x1D71F;</string><!-- mathematical bold italic capital delta -->
+				<string>&#x1D720;</string><!-- mathematical bold italic capital epsilon -->
+				<string>&#x1D721;</string><!-- mathematical bold italic capital zeta -->
+				<string>&#x1D722;</string><!-- mathematical bold italic capital eta -->
+				<string>&#x1D723;</string><!-- mathematical bold italic capital theta -->
+				<string>&#x1D724;</string><!-- mathematical bold italic capital iota -->
+				<string>&#x1D725;</string><!-- mathematical bold italic capital kappa -->
+				<string>&#x1D726;</string><!-- mathematical bold italic capital lambda -->
+				<string>&#x1D727;</string><!-- mathematical bold italic capital mu -->
+				<string>&#x1D728;</string><!-- mathematical bold italic capital nu -->
+				<string>&#x1D729;</string><!-- mathematical bold italic capital xi -->
+				<string>&#x1D72A;</string><!-- mathematical bold italic capital omicron -->
+				<string>&#x1D72B;</string><!-- mathematical bold italic capital pi -->
+				<string>&#x1D72C;</string><!-- mathematical bold italic capital rho -->
+				<string>&#x1D72D;</string><!-- mathematical bold italic capital theta symbol -->
+				<string>&#x1D72E;</string><!-- mathematical bold italic capital sigma -->
+				<string>&#x1D72F;</string><!-- mathematical bold italic capital tau -->
+				<string>&#x1D730;</string><!-- mathematical bold italic capital upsilon -->
+				<string>&#x1D731;</string><!-- mathematical bold italic capital phi -->
+				<string>&#x1D732;</string><!-- mathematical bold italic capital chi -->
+				<string>&#x1D733;</string><!-- mathematical bold italic capital psi -->
+				<string>&#x1D734;</string><!-- mathematical bold italic capital omega -->
+				<string>&#x1D735;</string><!-- mathematical bold italic nabla -->
+				<string>&#x1D736;</string><!-- mathematical bold italic small alpha -->
+				<string>&#x1D737;</string><!-- mathematical bold italic small beta -->
+				<string>&#x1D738;</string><!-- mathematical bold italic small gamma -->
+				<string>&#x1D739;</string><!-- mathematical bold italic small delta -->
+				<string>&#x1D73A;</string><!-- mathematical bold italic small varepsilon -->
+				<string>&#x1D73B;</string><!-- mathematical bold italic small zeta -->
+				<string>&#x1D73C;</string><!-- mathematical bold italic small eta -->
+				<string>&#x1D73D;</string><!-- mathematical bold italic small theta -->
+				<string>&#x1D73E;</string><!-- mathematical bold italic small iota -->
+				<string>&#x1D73F;</string><!-- mathematical bold italic small kappa -->
+				<string>&#x1D740;</string><!-- mathematical bold italic small lambda -->
+				<string>&#x1D741;</string><!-- mathematical bold italic small mu -->
+				<string>&#x1D742;</string><!-- mathematical bold italic small nu -->
+				<string>&#x1D743;</string><!-- mathematical bold italic small xi -->
+				<string>&#x1D744;</string><!-- mathematical bold italic small omicron -->
+				<string>&#x1D745;</string><!-- mathematical bold italic small pi -->
+				<string>&#x1D746;</string><!-- mathematical bold italic small rho -->
+				<string>&#x1D747;</string><!-- mathematical bold italic small final sigma -->
+				<string>&#x1D748;</string><!-- mathematical bold italic small sigma -->
+				<string>&#x1D749;</string><!-- mathematical bold italic small tau -->
+				<string>&#x1D74A;</string><!-- mathematical bold italic small upsilon -->
+				<string>&#x1D74B;</string><!-- mathematical bold italic small phi -->
+				<string>&#x1D74C;</string><!-- mathematical bold italic small chi -->
+				<string>&#x1D74D;</string><!-- mathematical bold italic small psi -->
+				<string>&#x1D74E;</string><!-- mathematical bold italic small omega -->
+				<string>&#x1D74F;</string><!-- mathematical bold italic partial differential -->
+				<string>&#x1D750;</string><!-- mathematical bold italic varepsilon symbol -->
+				<string>&#x1D751;</string><!-- mathematical bold italic theta symbol -->
+				<string>&#x1D752;</string><!-- mathematical bold italic kappa symbol -->
+				<string>&#x1D753;</string><!-- mathematical bold italic phi symbol -->
+				<string>&#x1D754;</string><!-- mathematical bold italic rho symbol -->
+				<string>&#x1D755;</string><!-- mathematical bold italic pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D5A0;</string><!-- mathematical sans-serif capital a -->
+				<string>&#x1D5A1;</string><!-- mathematical sans-serif capital b -->
+				<string>&#x1D5A2;</string><!-- mathematical sans-serif capital c -->
+				<string>&#x1D5A3;</string><!-- mathematical sans-serif capital d -->
+				<string>&#x1D5A4;</string><!-- mathematical sans-serif capital e -->
+				<string>&#x1D5A5;</string><!-- mathematical sans-serif capital f -->
+				<string>&#x1D5A6;</string><!-- mathematical sans-serif capital g -->
+				<string>&#x1D5A7;</string><!-- mathematical sans-serif capital h -->
+				<string>&#x1D5A8;</string><!-- mathematical sans-serif capital i -->
+				<string>&#x1D5A9;</string><!-- mathematical sans-serif capital j -->
+				<string>&#x1D5AA;</string><!-- mathematical sans-serif capital k -->
+				<string>&#x1D5AB;</string><!-- mathematical sans-serif capital l -->
+				<string>&#x1D5AC;</string><!-- mathematical sans-serif capital m -->
+				<string>&#x1D5AD;</string><!-- mathematical sans-serif capital n -->
+				<string>&#x1D5AE;</string><!-- mathematical sans-serif capital o -->
+				<string>&#x1D5AF;</string><!-- mathematical sans-serif capital p -->
+				<string>&#x1D5B0;</string><!-- mathematical sans-serif capital q -->
+				<string>&#x1D5B1;</string><!-- mathematical sans-serif capital r -->
+				<string>&#x1D5B2;</string><!-- mathematical sans-serif capital s -->
+				<string>&#x1D5B3;</string><!-- mathematical sans-serif capital t -->
+				<string>&#x1D5B4;</string><!-- mathematical sans-serif capital u -->
+				<string>&#x1D5B5;</string><!-- mathematical sans-serif capital v -->
+				<string>&#x1D5B6;</string><!-- mathematical sans-serif capital w -->
+				<string>&#x1D5B7;</string><!-- mathematical sans-serif capital x -->
+				<string>&#x1D5B8;</string><!-- mathematical sans-serif capital y -->
+				<string>&#x1D5B9;</string><!-- mathematical sans-serif capital z -->
+				<string>&#x1D5BA;</string><!-- mathematical sans-serif small a -->
+				<string>&#x1D5BB;</string><!-- mathematical sans-serif small b -->
+				<string>&#x1D5BC;</string><!-- mathematical sans-serif small c -->
+				<string>&#x1D5BD;</string><!-- mathematical sans-serif small d -->
+				<string>&#x1D5BE;</string><!-- mathematical sans-serif small e -->
+				<string>&#x1D5BF;</string><!-- mathematical sans-serif small f -->
+				<string>&#x1D5C0;</string><!-- mathematical sans-serif small g -->
+				<string>&#x1D5C1;</string><!-- mathematical sans-serif small h -->
+				<string>&#x1D5C2;</string><!-- mathematical sans-serif small i -->
+				<string>&#x1D5C3;</string><!-- mathematical sans-serif small j -->
+				<string>&#x1D5C4;</string><!-- mathematical sans-serif small k -->
+				<string>&#x1D5C5;</string><!-- mathematical sans-serif small l -->
+				<string>&#x1D5C6;</string><!-- mathematical sans-serif small m -->
+				<string>&#x1D5C7;</string><!-- mathematical sans-serif small n -->
+				<string>&#x1D5C8;</string><!-- mathematical sans-serif small o -->
+				<string>&#x1D5C9;</string><!-- mathematical sans-serif small p -->
+				<string>&#x1D5CA;</string><!-- mathematical sans-serif small q -->
+				<string>&#x1D5CB;</string><!-- mathematical sans-serif small r -->
+				<string>&#x1D5CC;</string><!-- mathematical sans-serif small s -->
+				<string>&#x1D5CD;</string><!-- mathematical sans-serif small t -->
+				<string>&#x1D5CE;</string><!-- mathematical sans-serif small u -->
+				<string>&#x1D5CF;</string><!-- mathematical sans-serif small v -->
+				<string>&#x1D5D0;</string><!-- mathematical sans-serif small w -->
+				<string>&#x1D5D1;</string><!-- mathematical sans-serif small x -->
+				<string>&#x1D5D2;</string><!-- mathematical sans-serif small y -->
+				<string>&#x1D5D3;</string><!-- mathematical sans-serif small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D5D4;</string><!-- mathematical sans-serif bold capital a -->
+				<string>&#x1D5D5;</string><!-- mathematical sans-serif bold capital b -->
+				<string>&#x1D5D6;</string><!-- mathematical sans-serif bold capital c -->
+				<string>&#x1D5D7;</string><!-- mathematical sans-serif bold capital d -->
+				<string>&#x1D5D8;</string><!-- mathematical sans-serif bold capital e -->
+				<string>&#x1D5D9;</string><!-- mathematical sans-serif bold capital f -->
+				<string>&#x1D5DA;</string><!-- mathematical sans-serif bold capital g -->
+				<string>&#x1D5DB;</string><!-- mathematical sans-serif bold capital h -->
+				<string>&#x1D5DC;</string><!-- mathematical sans-serif bold capital i -->
+				<string>&#x1D5DD;</string><!-- mathematical sans-serif bold capital j -->
+				<string>&#x1D5DE;</string><!-- mathematical sans-serif bold capital k -->
+				<string>&#x1D5DF;</string><!-- mathematical sans-serif bold capital l -->
+				<string>&#x1D5E0;</string><!-- mathematical sans-serif bold capital m -->
+				<string>&#x1D5E1;</string><!-- mathematical sans-serif bold capital n -->
+				<string>&#x1D5E2;</string><!-- mathematical sans-serif bold capital o -->
+				<string>&#x1D5E3;</string><!-- mathematical sans-serif bold capital p -->
+				<string>&#x1D5E4;</string><!-- mathematical sans-serif bold capital q -->
+				<string>&#x1D5E5;</string><!-- mathematical sans-serif bold capital r -->
+				<string>&#x1D5E6;</string><!-- mathematical sans-serif bold capital s -->
+				<string>&#x1D5E7;</string><!-- mathematical sans-serif bold capital t -->
+				<string>&#x1D5E8;</string><!-- mathematical sans-serif bold capital u -->
+				<string>&#x1D5E9;</string><!-- mathematical sans-serif bold capital v -->
+				<string>&#x1D5EA;</string><!-- mathematical sans-serif bold capital w -->
+				<string>&#x1D5EB;</string><!-- mathematical sans-serif bold capital x -->
+				<string>&#x1D5EC;</string><!-- mathematical sans-serif bold capital y -->
+				<string>&#x1D5ED;</string><!-- mathematical sans-serif bold capital z -->
+				<string>&#x1D5EE;</string><!-- mathematical sans-serif bold small a -->
+				<string>&#x1D5EF;</string><!-- mathematical sans-serif bold small b -->
+				<string>&#x1D5F0;</string><!-- mathematical sans-serif bold small c -->
+				<string>&#x1D5F1;</string><!-- mathematical sans-serif bold small d -->
+				<string>&#x1D5F2;</string><!-- mathematical sans-serif bold small e -->
+				<string>&#x1D5F3;</string><!-- mathematical sans-serif bold small f -->
+				<string>&#x1D5F4;</string><!-- mathematical sans-serif bold small g -->
+				<string>&#x1D5F5;</string><!-- mathematical sans-serif bold small h -->
+				<string>&#x1D5F6;</string><!-- mathematical sans-serif bold small i -->
+				<string>&#x1D5F7;</string><!-- mathematical sans-serif bold small j -->
+				<string>&#x1D5F8;</string><!-- mathematical sans-serif bold small k -->
+				<string>&#x1D5F9;</string><!-- mathematical sans-serif bold small l -->
+				<string>&#x1D5FA;</string><!-- mathematical sans-serif bold small m -->
+				<string>&#x1D5FB;</string><!-- mathematical sans-serif bold small n -->
+				<string>&#x1D5FC;</string><!-- mathematical sans-serif bold small o -->
+				<string>&#x1D5FD;</string><!-- mathematical sans-serif bold small p -->
+				<string>&#x1D5FE;</string><!-- mathematical sans-serif bold small q -->
+				<string>&#x1D5FF;</string><!-- mathematical sans-serif bold small r -->
+				<string>&#x1D600;</string><!-- mathematical sans-serif bold small s -->
+				<string>&#x1D601;</string><!-- mathematical sans-serif bold small t -->
+				<string>&#x1D602;</string><!-- mathematical sans-serif bold small u -->
+				<string>&#x1D603;</string><!-- mathematical sans-serif bold small v -->
+				<string>&#x1D604;</string><!-- mathematical sans-serif bold small w -->
+				<string>&#x1D605;</string><!-- mathematical sans-serif bold small x -->
+				<string>&#x1D606;</string><!-- mathematical sans-serif bold small y -->
+				<string>&#x1D607;</string><!-- mathematical sans-serif bold small z -->
+				<string>&#x1D756;</string><!-- mathematical sans-serif bold capital alpha -->
+				<string>&#x1D757;</string><!-- mathematical sans-serif bold capital beta -->
+				<string>&#x1D758;</string><!-- mathematical sans-serif bold capital gamma -->
+				<string>&#x1D759;</string><!-- mathematical sans-serif bold capital delta -->
+				<string>&#x1D75A;</string><!-- mathematical sans-serif bold capital epsilon -->
+				<string>&#x1D75B;</string><!-- mathematical sans-serif bold capital zeta -->
+				<string>&#x1D75C;</string><!-- mathematical sans-serif bold capital eta -->
+				<string>&#x1D75D;</string><!-- mathematical sans-serif bold capital theta -->
+				<string>&#x1D75E;</string><!-- mathematical sans-serif bold capital iota -->
+				<string>&#x1D75F;</string><!-- mathematical sans-serif bold capital kappa -->
+				<string>&#x1D760;</string><!-- mathematical sans-serif bold capital lambda -->
+				<string>&#x1D761;</string><!-- mathematical sans-serif bold capital mu -->
+				<string>&#x1D762;</string><!-- mathematical sans-serif bold capital nu -->
+				<string>&#x1D763;</string><!-- mathematical sans-serif bold capital xi -->
+				<string>&#x1D764;</string><!-- mathematical sans-serif bold capital omicron -->
+				<string>&#x1D765;</string><!-- mathematical sans-serif bold capital pi -->
+				<string>&#x1D766;</string><!-- mathematical sans-serif bold capital rho -->
+				<string>&#x1D767;</string><!-- mathematical sans-serif bold capital theta symbol -->
+				<string>&#x1D768;</string><!-- mathematical sans-serif bold capital sigma -->
+				<string>&#x1D769;</string><!-- mathematical sans-serif bold capital tau -->
+				<string>&#x1D76A;</string><!-- mathematical sans-serif bold capital upsilon -->
+				<string>&#x1D76B;</string><!-- mathematical sans-serif bold capital phi -->
+				<string>&#x1D76C;</string><!-- mathematical sans-serif bold capital chi -->
+				<string>&#x1D76D;</string><!-- mathematical sans-serif bold capital psi -->
+				<string>&#x1D76E;</string><!-- mathematical sans-serif bold capital omega -->
+				<string>&#x1D76F;</string><!-- mathematical sans-serif bold nabla -->
+				<string>&#x1D770;</string><!-- mathematical sans-serif bold small alpha -->
+				<string>&#x1D771;</string><!-- mathematical sans-serif bold small beta -->
+				<string>&#x1D772;</string><!-- mathematical sans-serif bold small gamma -->
+				<string>&#x1D773;</string><!-- mathematical sans-serif bold small delta -->
+				<string>&#x1D774;</string><!-- mathematical sans-serif bold small varepsilon -->
+				<string>&#x1D775;</string><!-- mathematical sans-serif bold small zeta -->
+				<string>&#x1D776;</string><!-- mathematical sans-serif bold small eta -->
+				<string>&#x1D777;</string><!-- mathematical sans-serif bold small theta -->
+				<string>&#x1D778;</string><!-- mathematical sans-serif bold small iota -->
+				<string>&#x1D779;</string><!-- mathematical sans-serif bold small kappa -->
+				<string>&#x1D77A;</string><!-- mathematical sans-serif bold small lambda -->
+				<string>&#x1D77B;</string><!-- mathematical sans-serif bold small mu -->
+				<string>&#x1D77C;</string><!-- mathematical sans-serif bold small nu -->
+				<string>&#x1D77D;</string><!-- mathematical sans-serif bold small xi -->
+				<string>&#x1D77E;</string><!-- mathematical sans-serif bold small omicron -->
+				<string>&#x1D77F;</string><!-- mathematical sans-serif bold small pi -->
+				<string>&#x1D780;</string><!-- mathematical sans-serif bold small rho -->
+				<string>&#x1D781;</string><!-- mathematical sans-serif bold small final sigma -->
+				<string>&#x1D782;</string><!-- mathematical sans-serif bold small sigma -->
+				<string>&#x1D783;</string><!-- mathematical sans-serif bold small tau -->
+				<string>&#x1D784;</string><!-- mathematical sans-serif bold small upsilon -->
+				<string>&#x1D785;</string><!-- mathematical sans-serif bold small phi -->
+				<string>&#x1D786;</string><!-- mathematical sans-serif bold small chi -->
+				<string>&#x1D787;</string><!-- mathematical sans-serif bold small psi -->
+				<string>&#x1D788;</string><!-- mathematical sans-serif bold small omega -->
+				<string>&#x1D789;</string><!-- mathematical sans-serif bold partial differential -->
+				<string>&#x1D78A;</string><!-- mathematical sans-serif bold varepsilon symbol -->
+				<string>&#x1D78B;</string><!-- mathematical sans-serif bold theta symbol -->
+				<string>&#x1D78C;</string><!-- mathematical sans-serif bold kappa symbol -->
+				<string>&#x1D78D;</string><!-- mathematical sans-serif bold phi symbol -->
+				<string>&#x1D78E;</string><!-- mathematical sans-serif bold rho symbol -->
+				<string>&#x1D78F;</string><!-- mathematical sans-serif bold pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italic Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D608;</string><!-- mathematical sans-serif italic capital a -->
+				<string>&#x1D609;</string><!-- mathematical sans-serif italic capital b -->
+				<string>&#x1D60A;</string><!-- mathematical sans-serif italic capital c -->
+				<string>&#x1D60B;</string><!-- mathematical sans-serif italic capital d -->
+				<string>&#x1D60C;</string><!-- mathematical sans-serif italic capital e -->
+				<string>&#x1D60D;</string><!-- mathematical sans-serif italic capital f -->
+				<string>&#x1D60E;</string><!-- mathematical sans-serif italic capital g -->
+				<string>&#x1D60F;</string><!-- mathematical sans-serif italic capital h -->
+				<string>&#x1D610;</string><!-- mathematical sans-serif italic capital i -->
+				<string>&#x1D611;</string><!-- mathematical sans-serif italic capital j -->
+				<string>&#x1D612;</string><!-- mathematical sans-serif italic capital k -->
+				<string>&#x1D613;</string><!-- mathematical sans-serif italic capital l -->
+				<string>&#x1D614;</string><!-- mathematical sans-serif italic capital m -->
+				<string>&#x1D615;</string><!-- mathematical sans-serif italic capital n -->
+				<string>&#x1D616;</string><!-- mathematical sans-serif italic capital o -->
+				<string>&#x1D617;</string><!-- mathematical sans-serif italic capital p -->
+				<string>&#x1D618;</string><!-- mathematical sans-serif italic capital q -->
+				<string>&#x1D619;</string><!-- mathematical sans-serif italic capital r -->
+				<string>&#x1D61A;</string><!-- mathematical sans-serif italic capital s -->
+				<string>&#x1D61B;</string><!-- mathematical sans-serif italic capital t -->
+				<string>&#x1D61C;</string><!-- mathematical sans-serif italic capital u -->
+				<string>&#x1D61D;</string><!-- mathematical sans-serif italic capital v -->
+				<string>&#x1D61E;</string><!-- mathematical sans-serif italic capital w -->
+				<string>&#x1D61F;</string><!-- mathematical sans-serif italic capital x -->
+				<string>&#x1D620;</string><!-- mathematical sans-serif italic capital y -->
+				<string>&#x1D621;</string><!-- mathematical sans-serif italic capital z -->
+				<string>&#x1D622;</string><!-- mathematical sans-serif italic small a -->
+				<string>&#x1D623;</string><!-- mathematical sans-serif italic small b -->
+				<string>&#x1D624;</string><!-- mathematical sans-serif italic small c -->
+				<string>&#x1D625;</string><!-- mathematical sans-serif italic small d -->
+				<string>&#x1D626;</string><!-- mathematical sans-serif italic small e -->
+				<string>&#x1D627;</string><!-- mathematical sans-serif italic small f -->
+				<string>&#x1D628;</string><!-- mathematical sans-serif italic small g -->
+				<string>&#x1D629;</string><!-- mathematical sans-serif italic small h -->
+				<string>&#x1D62A;</string><!-- mathematical sans-serif italic small i -->
+				<string>&#x1D62B;</string><!-- mathematical sans-serif italic small j -->
+				<string>&#x1D62C;</string><!-- mathematical sans-serif italic small k -->
+				<string>&#x1D62D;</string><!-- mathematical sans-serif italic small l -->
+				<string>&#x1D62E;</string><!-- mathematical sans-serif italic small m -->
+				<string>&#x1D62F;</string><!-- mathematical sans-serif italic small n -->
+				<string>&#x1D630;</string><!-- mathematical sans-serif italic small o -->
+				<string>&#x1D631;</string><!-- mathematical sans-serif italic small p -->
+				<string>&#x1D632;</string><!-- mathematical sans-serif italic small q -->
+				<string>&#x1D633;</string><!-- mathematical sans-serif italic small r -->
+				<string>&#x1D634;</string><!-- mathematical sans-serif italic small s -->
+				<string>&#x1D635;</string><!-- mathematical sans-serif italic small t -->
+				<string>&#x1D636;</string><!-- mathematical sans-serif italic small u -->
+				<string>&#x1D637;</string><!-- mathematical sans-serif italic small v -->
+				<string>&#x1D638;</string><!-- mathematical sans-serif italic small w -->
+				<string>&#x1D639;</string><!-- mathematical sans-serif italic small x -->
+				<string>&#x1D63A;</string><!-- mathematical sans-serif italic small y -->
+				<string>&#x1D63B;</string><!-- mathematical sans-serif italic small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Italic Sans Serif</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D63C;</string><!-- mathematical sans-serif bold italic capital a -->
+				<string>&#x1D63D;</string><!-- mathematical sans-serif bold italic capital b -->
+				<string>&#x1D63E;</string><!-- mathematical sans-serif bold italic capital c -->
+				<string>&#x1D63F;</string><!-- mathematical sans-serif bold italic capital d -->
+				<string>&#x1D640;</string><!-- mathematical sans-serif bold italic capital e -->
+				<string>&#x1D641;</string><!-- mathematical sans-serif bold italic capital f -->
+				<string>&#x1D642;</string><!-- mathematical sans-serif bold italic capital g -->
+				<string>&#x1D643;</string><!-- mathematical sans-serif bold italic capital h -->
+				<string>&#x1D644;</string><!-- mathematical sans-serif bold italic capital i -->
+				<string>&#x1D645;</string><!-- mathematical sans-serif bold italic capital j -->
+				<string>&#x1D646;</string><!-- mathematical sans-serif bold italic capital k -->
+				<string>&#x1D647;</string><!-- mathematical sans-serif bold italic capital l -->
+				<string>&#x1D648;</string><!-- mathematical sans-serif bold italic capital m -->
+				<string>&#x1D649;</string><!-- mathematical sans-serif bold italic capital n -->
+				<string>&#x1D64A;</string><!-- mathematical sans-serif bold italic capital o -->
+				<string>&#x1D64B;</string><!-- mathematical sans-serif bold italic capital p -->
+				<string>&#x1D64C;</string><!-- mathematical sans-serif bold italic capital q -->
+				<string>&#x1D64D;</string><!-- mathematical sans-serif bold italic capital r -->
+				<string>&#x1D64E;</string><!-- mathematical sans-serif bold italic capital s -->
+				<string>&#x1D64F;</string><!-- mathematical sans-serif bold italic capital t -->
+				<string>&#x1D650;</string><!-- mathematical sans-serif bold italic capital u -->
+				<string>&#x1D651;</string><!-- mathematical sans-serif bold italic capital v -->
+				<string>&#x1D652;</string><!-- mathematical sans-serif bold italic capital w -->
+				<string>&#x1D653;</string><!-- mathematical sans-serif bold italic capital x -->
+				<string>&#x1D654;</string><!-- mathematical sans-serif bold italic capital y -->
+				<string>&#x1D655;</string><!-- mathematical sans-serif bold italic capital z -->
+				<string>&#x1D656;</string><!-- mathematical sans-serif bold italic small a -->
+				<string>&#x1D657;</string><!-- mathematical sans-serif bold italic small b -->
+				<string>&#x1D658;</string><!-- mathematical sans-serif bold italic small c -->
+				<string>&#x1D659;</string><!-- mathematical sans-serif bold italic small d -->
+				<string>&#x1D65A;</string><!-- mathematical sans-serif bold italic small e -->
+				<string>&#x1D65B;</string><!-- mathematical sans-serif bold italic small f -->
+				<string>&#x1D65C;</string><!-- mathematical sans-serif bold italic small g -->
+				<string>&#x1D65D;</string><!-- mathematical sans-serif bold italic small h -->
+				<string>&#x1D65E;</string><!-- mathematical sans-serif bold italic small i -->
+				<string>&#x1D65F;</string><!-- mathematical sans-serif bold italic small j -->
+				<string>&#x1D660;</string><!-- mathematical sans-serif bold italic small k -->
+				<string>&#x1D661;</string><!-- mathematical sans-serif bold italic small l -->
+				<string>&#x1D662;</string><!-- mathematical sans-serif bold italic small m -->
+				<string>&#x1D663;</string><!-- mathematical sans-serif bold italic small n -->
+				<string>&#x1D664;</string><!-- mathematical sans-serif bold italic small o -->
+				<string>&#x1D665;</string><!-- mathematical sans-serif bold italic small p -->
+				<string>&#x1D666;</string><!-- mathematical sans-serif bold italic small q -->
+				<string>&#x1D667;</string><!-- mathematical sans-serif bold italic small r -->
+				<string>&#x1D668;</string><!-- mathematical sans-serif bold italic small s -->
+				<string>&#x1D669;</string><!-- mathematical sans-serif bold italic small t -->
+				<string>&#x1D66A;</string><!-- mathematical sans-serif bold italic small u -->
+				<string>&#x1D66B;</string><!-- mathematical sans-serif bold italic small v -->
+				<string>&#x1D66C;</string><!-- mathematical sans-serif bold italic small w -->
+				<string>&#x1D66D;</string><!-- mathematical sans-serif bold italic small x -->
+				<string>&#x1D66E;</string><!-- mathematical sans-serif bold italic small y -->
+				<string>&#x1D66F;</string><!-- mathematical sans-serif bold italic small z -->
+				<string>&#x1D790;</string><!-- mathematical sans-serif bold italic capital alpha -->
+				<string>&#x1D791;</string><!-- mathematical sans-serif bold italic capital beta -->
+				<string>&#x1D792;</string><!-- mathematical sans-serif bold italic capital gamma -->
+				<string>&#x1D793;</string><!-- mathematical sans-serif bold italic capital delta -->
+				<string>&#x1D794;</string><!-- mathematical sans-serif bold italic capital epsilon -->
+				<string>&#x1D795;</string><!-- mathematical sans-serif bold italic capital zeta -->
+				<string>&#x1D796;</string><!-- mathematical sans-serif bold italic capital eta -->
+				<string>&#x1D797;</string><!-- mathematical sans-serif bold italic capital theta -->
+				<string>&#x1D798;</string><!-- mathematical sans-serif bold italic capital iota -->
+				<string>&#x1D799;</string><!-- mathematical sans-serif bold italic capital kappa -->
+				<string>&#x1D79A;</string><!-- mathematical sans-serif bold italic capital lambda -->
+				<string>&#x1D79B;</string><!-- mathematical sans-serif bold italic capital mu -->
+				<string>&#x1D79C;</string><!-- mathematical sans-serif bold italic capital nu -->
+				<string>&#x1D79D;</string><!-- mathematical sans-serif bold italic capital xi -->
+				<string>&#x1D79E;</string><!-- mathematical sans-serif bold italic capital omicron -->
+				<string>&#x1D79F;</string><!-- mathematical sans-serif bold italic capital pi -->
+				<string>&#x1D7A0;</string><!-- mathematical sans-serif bold italic capital rho -->
+				<string>&#x1D7A1;</string><!-- mathematical sans-serif bold italic capital theta symbol -->
+				<string>&#x1D7A2;</string><!-- mathematical sans-serif bold italic capital sigma -->
+				<string>&#x1D7A3;</string><!-- mathematical sans-serif bold italic capital tau -->
+				<string>&#x1D7A4;</string><!-- mathematical sans-serif bold italic capital upsilon -->
+				<string>&#x1D7A5;</string><!-- mathematical sans-serif bold italic capital phi -->
+				<string>&#x1D7A6;</string><!-- mathematical sans-serif bold italic capital chi -->
+				<string>&#x1D7A7;</string><!-- mathematical sans-serif bold italic capital psi -->
+				<string>&#x1D7A8;</string><!-- mathematical sans-serif bold italic capital omega -->
+				<string>&#x1D7A9;</string><!-- mathematical sans-serif bold italic nabla -->
+				<string>&#x1D7AA;</string><!-- mathematical sans-serif bold italic small alpha -->
+				<string>&#x1D7AB;</string><!-- mathematical sans-serif bold italic small beta -->
+				<string>&#x1D7AC;</string><!-- mathematical sans-serif bold italic small gamma -->
+				<string>&#x1D7AD;</string><!-- mathematical sans-serif bold italic small delta -->
+				<string>&#x1D7AE;</string><!-- mathematical sans-serif bold italic small varepsilon -->
+				<string>&#x1D7AF;</string><!-- mathematical sans-serif bold italic small zeta -->
+				<string>&#x1D7B0;</string><!-- mathematical sans-serif bold italic small eta -->
+				<string>&#x1D7B1;</string><!-- mathematical sans-serif bold italic small theta -->
+				<string>&#x1D7B2;</string><!-- mathematical sans-serif bold italic small iota -->
+				<string>&#x1D7B3;</string><!-- mathematical sans-serif bold italic small kappa -->
+				<string>&#x1D7B4;</string><!-- mathematical sans-serif bold italic small lambda -->
+				<string>&#x1D7B5;</string><!-- mathematical sans-serif bold italic small mu -->
+				<string>&#x1D7B6;</string><!-- mathematical sans-serif bold italic small nu -->
+				<string>&#x1D7B7;</string><!-- mathematical sans-serif bold italic small xi -->
+				<string>&#x1D7B8;</string><!-- mathematical sans-serif bold italic small omicron -->
+				<string>&#x1D7B9;</string><!-- mathematical sans-serif bold italic small pi -->
+				<string>&#x1D7BA;</string><!-- mathematical sans-serif bold italic small rho -->
+				<string>&#x1D7BB;</string><!-- mathematical sans-serif bold italic small final sigma -->
+				<string>&#x1D7BC;</string><!-- mathematical sans-serif bold italic small sigma -->
+				<string>&#x1D7BD;</string><!-- mathematical sans-serif bold italic small tau -->
+				<string>&#x1D7BE;</string><!-- mathematical sans-serif bold italic small upsilon -->
+				<string>&#x1D7BF;</string><!-- mathematical sans-serif bold italic small phi -->
+				<string>&#x1D7C0;</string><!-- mathematical sans-serif bold italic small chi -->
+				<string>&#x1D7C1;</string><!-- mathematical sans-serif bold italic small psi -->
+				<string>&#x1D7C2;</string><!-- mathematical sans-serif bold italic small omega -->
+				<string>&#x1D7C3;</string><!-- mathematical sans-serif bold italic partial differential -->
+				<string>&#x1D7C4;</string><!-- mathematical sans-serif bold italic varepsilon symbol -->
+				<string>&#x1D7C5;</string><!-- mathematical sans-serif bold italic theta symbol -->
+				<string>&#x1D7C6;</string><!-- mathematical sans-serif bold italic kappa symbol -->
+				<string>&#x1D7C7;</string><!-- mathematical sans-serif bold italic phi symbol -->
+				<string>&#x1D7C8;</string><!-- mathematical sans-serif bold italic rho symbol -->
+				<string>&#x1D7C9;</string><!-- mathematical sans-serif bold italic pi symbol -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Monospace</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D670;</string><!-- mathematical monospace capital a -->
+				<string>&#x1D671;</string><!-- mathematical monospace capital b -->
+				<string>&#x1D672;</string><!-- mathematical monospace capital c -->
+				<string>&#x1D673;</string><!-- mathematical monospace capital d -->
+				<string>&#x1D674;</string><!-- mathematical monospace capital e -->
+				<string>&#x1D675;</string><!-- mathematical monospace capital f -->
+				<string>&#x1D676;</string><!-- mathematical monospace capital g -->
+				<string>&#x1D677;</string><!-- mathematical monospace capital h -->
+				<string>&#x1D678;</string><!-- mathematical monospace capital i -->
+				<string>&#x1D679;</string><!-- mathematical monospace capital j -->
+				<string>&#x1D67A;</string><!-- mathematical monospace capital k -->
+				<string>&#x1D67B;</string><!-- mathematical monospace capital l -->
+				<string>&#x1D67C;</string><!-- mathematical monospace capital m -->
+				<string>&#x1D67D;</string><!-- mathematical monospace capital n -->
+				<string>&#x1D67E;</string><!-- mathematical monospace capital o -->
+				<string>&#x1D67F;</string><!-- mathematical monospace capital p -->
+				<string>&#x1D680;</string><!-- mathematical monospace capital q -->
+				<string>&#x1D681;</string><!-- mathematical monospace capital r -->
+				<string>&#x1D682;</string><!-- mathematical monospace capital s -->
+				<string>&#x1D683;</string><!-- mathematical monospace capital t -->
+				<string>&#x1D684;</string><!-- mathematical monospace capital u -->
+				<string>&#x1D685;</string><!-- mathematical monospace capital v -->
+				<string>&#x1D686;</string><!-- mathematical monospace capital w -->
+				<string>&#x1D687;</string><!-- mathematical monospace capital x -->
+				<string>&#x1D688;</string><!-- mathematical monospace capital y -->
+				<string>&#x1D689;</string><!-- mathematical monospace capital z -->
+				<string>&#x1D68A;</string><!-- mathematical monospace small a -->
+				<string>&#x1D68B;</string><!-- mathematical monospace small b -->
+				<string>&#x1D68C;</string><!-- mathematical monospace small c -->
+				<string>&#x1D68D;</string><!-- mathematical monospace small d -->
+				<string>&#x1D68E;</string><!-- mathematical monospace small e -->
+				<string>&#x1D68F;</string><!-- mathematical monospace small f -->
+				<string>&#x1D690;</string><!-- mathematical monospace small g -->
+				<string>&#x1D691;</string><!-- mathematical monospace small h -->
+				<string>&#x1D692;</string><!-- mathematical monospace small i -->
+				<string>&#x1D693;</string><!-- mathematical monospace small j -->
+				<string>&#x1D694;</string><!-- mathematical monospace small k -->
+				<string>&#x1D695;</string><!-- mathematical monospace small l -->
+				<string>&#x1D696;</string><!-- mathematical monospace small m -->
+				<string>&#x1D697;</string><!-- mathematical monospace small n -->
+				<string>&#x1D698;</string><!-- mathematical monospace small o -->
+				<string>&#x1D699;</string><!-- mathematical monospace small p -->
+				<string>&#x1D69A;</string><!-- mathematical monospace small q -->
+				<string>&#x1D69B;</string><!-- mathematical monospace small r -->
+				<string>&#x1D69C;</string><!-- mathematical monospace small s -->
+				<string>&#x1D69D;</string><!-- mathematical monospace small t -->
+				<string>&#x1D69E;</string><!-- mathematical monospace small u -->
+				<string>&#x1D69F;</string><!-- mathematical monospace small v -->
+				<string>&#x1D6A0;</string><!-- mathematical monospace small w -->
+				<string>&#x1D6A1;</string><!-- mathematical monospace small x -->
+				<string>&#x1D6A2;</string><!-- mathematical monospace small y -->
+				<string>&#x1D6A3;</string><!-- mathematical monospace small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Double Struck</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D538;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D539;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02102;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53B;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53C;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D53E;</string><!-- mathematical double-struck capital  -->
+				<string>&#x0210D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D540;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D541;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D542;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D543;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D544;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02115;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D546;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02119;</string><!-- mathematical double-struck capital  -->
+				<string>&#x0211A;</string><!-- mathematical double-struck capital  -->
+				<string>&#x0211D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54A;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54B;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54C;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54D;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54E;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D54F;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D550;</string><!-- mathematical double-struck capital  -->
+				<string>&#x02124;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D552;</string><!-- mathematical double-struck small a -->
+				<string>&#x1D553;</string><!-- mathematical double-struck small b -->
+				<string>&#x1D554;</string><!-- mathematical double-struck small c -->
+				<string>&#x1D555;</string><!-- mathematical double-struck small d -->
+				<string>&#x1D556;</string><!-- mathematical double-struck small e -->
+				<string>&#x1D557;</string><!-- mathematical double-struck small f -->
+				<string>&#x1D558;</string><!-- mathematical double-struck small g -->
+				<string>&#x1D559;</string><!-- mathematical double-struck small h -->
+				<string>&#x1D55A;</string><!-- mathematical double-struck small i -->
+				<string>&#x1D55B;</string><!-- mathematical double-struck small j -->
+				<string>&#x1D55C;</string><!-- mathematical double-struck small k -->
+				<string>&#x1D55D;</string><!-- mathematical double-struck small l -->
+				<string>&#x1D55E;</string><!-- mathematical double-struck small m -->
+				<string>&#x1D55F;</string><!-- mathematical double-struck small n -->
+				<string>&#x1D560;</string><!-- mathematical double-struck small o -->
+				<string>&#x1D561;</string><!-- mathematical double-struck small p -->
+				<string>&#x1D562;</string><!-- mathematical double-struck small q -->
+				<string>&#x1D563;</string><!-- mathematical double-struck small r -->
+				<string>&#x1D564;</string><!-- mathematical double-struck small s -->
+				<string>&#x1D565;</string><!-- mathematical double-struck small t -->
+				<string>&#x1D566;</string><!-- mathematical double-struck small u -->
+				<string>&#x1D567;</string><!-- mathematical double-struck small v -->
+				<string>&#x1D568;</string><!-- mathematical double-struck small w -->
+				<string>&#x1D569;</string><!-- mathematical double-struck small x -->
+				<string>&#x1D56A;</string><!-- mathematical double-struck small y -->
+				<string>&#x1D56B;</string><!-- mathematical double-struck small z -->
+				<string>&#x0213E;</string><!-- mathematical double-struck capital gamma -->
+				<string>&#x0213F;</string><!-- mathematical double-struck capital pi -->
+				<string>&#x0213D;</string><!-- mathematical double-struck small gamma -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Script</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D49C;</string><!-- mathematical script capital a -->
+				<string>&#x0212C;</string><!-- mathematical script capital b -->
+				<string>&#x1D49E;</string><!-- mathematical script capital c -->
+				<string>&#x1D49F;</string><!-- mathematical script capital d -->
+				<string>&#x02130;</string><!-- mathematical script capital e -->
+				<string>&#x02131;</string><!-- mathematical script capital f -->
+				<string>&#x1D4A2;</string><!-- mathematical script capital g -->
+				<string>&#x0210B;</string><!-- mathematical script capital h -->
+				<string>&#x02110;</string><!-- mathematical script capital i -->
+				<string>&#x1D4A5;</string><!-- mathematical script capital j -->
+				<string>&#x1D4A6;</string><!-- mathematical script capital k -->
+				<string>&#x02112;</string><!-- mathematical script capital l -->
+				<string>&#x02133;</string><!-- mathematical script capital m -->
+				<string>&#x1D4A9;</string><!-- mathematical script capital n -->
+				<string>&#x1D4AA;</string><!-- mathematical script capital o -->
+				<string>&#x1D4AB;</string><!-- mathematical script capital p -->
+				<string>&#x1D4AC;</string><!-- mathematical script capital q -->
+				<string>&#x0211B;</string><!-- mathematical script capital r -->
+				<string>&#x1D4AE;</string><!-- mathematical script capital s -->
+				<string>&#x1D4AF;</string><!-- mathematical script capital t -->
+				<string>&#x1D4B0;</string><!-- mathematical script capital u -->
+				<string>&#x1D4B1;</string><!-- mathematical script capital v -->
+				<string>&#x1D4B2;</string><!-- mathematical script capital w -->
+				<string>&#x1D4B3;</string><!-- mathematical script capital x -->
+				<string>&#x1D4B4;</string><!-- mathematical script capital y -->
+				<string>&#x1D4B5;</string><!-- mathematical script capital z -->
+				<string>&#x1D4B6;</string><!-- mathematical script small a -->
+				<string>&#x1D4B7;</string><!-- mathematical script small b -->
+				<string>&#x1D4B8;</string><!-- mathematical script small c -->
+				<string>&#x1D4B9;</string><!-- mathematical script small d -->
+				<string>&#x0212F;</string><!-- mathematical script small e -->
+				<string>&#x1D4BB;</string><!-- mathematical script small f -->
+				<string>&#x1D4BD;</string><!-- mathematical script small h -->
+				<string>&#x0210A;</string><!-- mathematical script small g -->
+				<string>&#x1D4BE;</string><!-- mathematical script small i -->
+				<string>&#x1D4BF;</string><!-- mathematical script small j -->
+				<string>&#x1D4C0;</string><!-- mathematical script small k -->
+				<string>&#x1D4C1;</string><!-- mathematical script small l -->
+				<string>&#x1D4C2;</string><!-- mathematical script small m -->
+				<string>&#x1D4C3;</string><!-- mathematical script small n -->
+				<string>&#x02134;</string><!-- mathematical script small o -->
+				<string>&#x1D4C5;</string><!-- mathematical script small p -->
+				<string>&#x1D4C6;</string><!-- mathematical script small q -->
+				<string>&#x1D4C7;</string><!-- mathematical script small r -->
+				<string>&#x1D4C8;</string><!-- mathematical script small s -->
+				<string>&#x1D4C9;</string><!-- mathematical script small t -->
+				<string>&#x1D4CA;</string><!-- mathematical script small u -->
+				<string>&#x1D4CB;</string><!-- mathematical script small v -->
+				<string>&#x1D4CC;</string><!-- mathematical script small w -->
+				<string>&#x1D4CD;</string><!-- mathematical script small x -->
+				<string>&#x1D4CE;</string><!-- mathematical script small y -->
+				<string>&#x1D4CF;</string><!-- mathematical script small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Script</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D4D0;</string><!-- mathematical bold script capital a -->
+				<string>&#x1D4D1;</string><!-- mathematical bold script capital b -->
+				<string>&#x1D4D2;</string><!-- mathematical bold script capital c -->
+				<string>&#x1D4D3;</string><!-- mathematical bold script capital d -->
+				<string>&#x1D4D4;</string><!-- mathematical bold script capital e -->
+				<string>&#x1D4D5;</string><!-- mathematical bold script capital f -->
+				<string>&#x1D4D6;</string><!-- mathematical bold script capital g -->
+				<string>&#x1D4D7;</string><!-- mathematical bold script capital h -->
+				<string>&#x1D4D8;</string><!-- mathematical bold script capital i -->
+				<string>&#x1D4D9;</string><!-- mathematical bold script capital j -->
+				<string>&#x1D4DA;</string><!-- mathematical bold script capital k -->
+				<string>&#x1D4DB;</string><!-- mathematical bold script capital l -->
+				<string>&#x1D4DC;</string><!-- mathematical bold script capital m -->
+				<string>&#x1D4DD;</string><!-- mathematical bold script capital n -->
+				<string>&#x1D4DE;</string><!-- mathematical bold script capital o -->
+				<string>&#x1D4DF;</string><!-- mathematical bold script capital p -->
+				<string>&#x1D4E0;</string><!-- mathematical bold script capital q -->
+				<string>&#x1D4E1;</string><!-- mathematical bold script capital r -->
+				<string>&#x1D4E2;</string><!-- mathematical bold script capital s -->
+				<string>&#x1D4E3;</string><!-- mathematical bold script capital t -->
+				<string>&#x1D4E4;</string><!-- mathematical bold script capital u -->
+				<string>&#x1D4E5;</string><!-- mathematical bold script capital v -->
+				<string>&#x1D4E6;</string><!-- mathematical bold script capital w -->
+				<string>&#x1D4E7;</string><!-- mathematical bold script capital x -->
+				<string>&#x1D4E8;</string><!-- mathematical bold script capital y -->
+				<string>&#x1D4E9;</string><!-- mathematical bold script capital z -->
+				<string>&#x1D4EA;</string><!-- mathematical bold script small a -->
+				<string>&#x1D4EB;</string><!-- mathematical bold script small b -->
+				<string>&#x1D4EC;</string><!-- mathematical bold script small c -->
+				<string>&#x1D4ED;</string><!-- mathematical bold script small d -->
+				<string>&#x1D4EE;</string><!-- mathematical bold script small e -->
+				<string>&#x1D4EF;</string><!-- mathematical bold script small f -->
+				<string>&#x1D4F0;</string><!-- mathematical bold script small g -->
+				<string>&#x1D4F1;</string><!-- mathematical bold script small h -->
+				<string>&#x1D4F2;</string><!-- mathematical bold script small i -->
+				<string>&#x1D4F3;</string><!-- mathematical bold script small j -->
+				<string>&#x1D4F4;</string><!-- mathematical bold script small k -->
+				<string>&#x1D4F5;</string><!-- mathematical bold script small l -->
+				<string>&#x1D4F6;</string><!-- mathematical bold script small m -->
+				<string>&#x1D4F7;</string><!-- mathematical bold script small n -->
+				<string>&#x1D4F8;</string><!-- mathematical bold script small o -->
+				<string>&#x1D4F9;</string><!-- mathematical bold script small p -->
+				<string>&#x1D4FA;</string><!-- mathematical bold script small q -->
+				<string>&#x1D4FB;</string><!-- mathematical bold script small r -->
+				<string>&#x1D4FC;</string><!-- mathematical bold script small s -->
+				<string>&#x1D4FD;</string><!-- mathematical bold script small t -->
+				<string>&#x1D4FE;</string><!-- mathematical bold script small u -->
+				<string>&#x1D4FF;</string><!-- mathematical bold script small v -->
+				<string>&#x1D500;</string><!-- mathematical bold script small w -->
+				<string>&#x1D501;</string><!-- mathematical bold script small x -->
+				<string>&#x1D502;</string><!-- mathematical bold script small y -->
+				<string>&#x1D503;</string><!-- mathematical bold script small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Fraktur</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D504;</string><!-- mathematical fraktur capital a -->
+				<string>&#x1D505;</string><!-- mathematical fraktur capital b -->
+				<string>&#x0212D;</string><!-- mathematical fraktur capital c -->
+				<string>&#x1D507;</string><!-- mathematical fraktur capital d -->
+				<string>&#x1D508;</string><!-- mathematical fraktur capital e -->
+				<string>&#x1D509;</string><!-- mathematical fraktur capital f -->
+				<string>&#x1D50A;</string><!-- mathematical fraktur capital g -->
+				<string>&#x0210C;</string><!-- mathematical fraktur capital h -->
+				<string>&#x1D50D;</string><!-- mathematical fraktur capital j -->
+				<string>&#x1D50E;</string><!-- mathematical fraktur capital k -->
+				<string>&#x1D50F;</string><!-- mathematical fraktur capital l -->
+				<string>&#x1D510;</string><!-- mathematical fraktur capital m -->
+				<string>&#x1D511;</string><!-- mathematical fraktur capital n -->
+				<string>&#x1D512;</string><!-- mathematical fraktur capital o -->
+				<string>&#x1D513;</string><!-- mathematical fraktur capital p -->
+				<string>&#x1D514;</string><!-- mathematical fraktur capital q -->
+				<string>&#x1D516;</string><!-- mathematical fraktur capital s -->
+				<string>&#x1D517;</string><!-- mathematical fraktur capital t -->
+				<string>&#x1D518;</string><!-- mathematical fraktur capital u -->
+				<string>&#x1D519;</string><!-- mathematical fraktur capital v -->
+				<string>&#x1D51A;</string><!-- mathematical fraktur capital w -->
+				<string>&#x1D51B;</string><!-- mathematical fraktur capital x -->
+				<string>&#x1D51C;</string><!-- mathematical fraktur capital y -->
+				<string>&#x02128;</string><!-- mathematical fraktur capital z -->
+				<string>&#x1D51E;</string><!-- mathematical fraktur small a -->
+				<string>&#x1D51F;</string><!-- mathematical fraktur small b -->
+				<string>&#x1D520;</string><!-- mathematical fraktur small c -->
+				<string>&#x1D521;</string><!-- mathematical fraktur small d -->
+				<string>&#x1D522;</string><!-- mathematical fraktur small e -->
+				<string>&#x1D523;</string><!-- mathematical fraktur small f -->
+				<string>&#x1D524;</string><!-- mathematical fraktur small g -->
+				<string>&#x1D525;</string><!-- mathematical fraktur small h -->
+				<string>&#x1D526;</string><!-- mathematical fraktur small i -->
+				<string>&#x1D527;</string><!-- mathematical fraktur small j -->
+				<string>&#x1D528;</string><!-- mathematical fraktur small k -->
+				<string>&#x1D529;</string><!-- mathematical fraktur small l -->
+				<string>&#x1D52A;</string><!-- mathematical fraktur small m -->
+				<string>&#x1D52B;</string><!-- mathematical fraktur small n -->
+				<string>&#x1D52C;</string><!-- mathematical fraktur small o -->
+				<string>&#x1D52D;</string><!-- mathematical fraktur small p -->
+				<string>&#x1D52E;</string><!-- mathematical fraktur small q -->
+				<string>&#x1D52F;</string><!-- mathematical fraktur small r -->
+				<string>&#x1D530;</string><!-- mathematical fraktur small s -->
+				<string>&#x1D531;</string><!-- mathematical fraktur small t -->
+				<string>&#x1D532;</string><!-- mathematical fraktur small u -->
+				<string>&#x1D533;</string><!-- mathematical fraktur small v -->
+				<string>&#x1D534;</string><!-- mathematical fraktur small w -->
+				<string>&#x1D535;</string><!-- mathematical fraktur small x -->
+				<string>&#x1D536;</string><!-- mathematical fraktur small y -->
+				<string>&#x1D537;</string><!-- mathematical fraktur small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold Fraktur</string>
+			<key>list</key>
+			<array>
+				<string>&#x1D56C;</string><!-- mathematical bold fraktur capital a -->
+				<string>&#x1D56D;</string><!-- mathematical bold fraktur capital b -->
+				<string>&#x1D56E;</string><!-- mathematical bold fraktur capital c -->
+				<string>&#x1D56F;</string><!-- mathematical bold fraktur capital d -->
+				<string>&#x1D570;</string><!-- mathematical bold fraktur capital e -->
+				<string>&#x1D571;</string><!-- mathematical bold fraktur capital f -->
+				<string>&#x1D572;</string><!-- mathematical bold fraktur capital g -->
+				<string>&#x1D573;</string><!-- mathematical bold fraktur capital h -->
+				<string>&#x1D574;</string><!-- mathematical bold fraktur capital i -->
+				<string>&#x1D575;</string><!-- mathematical bold fraktur capital j -->
+				<string>&#x1D576;</string><!-- mathematical bold fraktur capital k -->
+				<string>&#x1D577;</string><!-- mathematical bold fraktur capital l -->
+				<string>&#x1D578;</string><!-- mathematical bold fraktur capital m -->
+				<string>&#x1D579;</string><!-- mathematical bold fraktur capital n -->
+				<string>&#x1D57A;</string><!-- mathematical bold fraktur capital o -->
+				<string>&#x1D57B;</string><!-- mathematical bold fraktur capital p -->
+				<string>&#x1D57C;</string><!-- mathematical bold fraktur capital q -->
+				<string>&#x1D57D;</string><!-- mathematical bold fraktur capital r -->
+				<string>&#x1D57E;</string><!-- mathematical bold fraktur capital s -->
+				<string>&#x1D57F;</string><!-- mathematical bold fraktur capital t -->
+				<string>&#x1D580;</string><!-- mathematical bold fraktur capital u -->
+				<string>&#x1D581;</string><!-- mathematical bold fraktur capital v -->
+				<string>&#x1D582;</string><!-- mathematical bold fraktur capital w -->
+				<string>&#x1D583;</string><!-- mathematical bold fraktur capital x -->
+				<string>&#x1D584;</string><!-- mathematical bold fraktur capital y -->
+				<string>&#x1D585;</string><!-- mathematical bold fraktur capital z -->
+				<string>&#x1D586;</string><!-- mathematical bold fraktur small a -->
+				<string>&#x1D587;</string><!-- mathematical bold fraktur small b -->
+				<string>&#x1D588;</string><!-- mathematical bold fraktur small c -->
+				<string>&#x1D589;</string><!-- mathematical bold fraktur small d -->
+				<string>&#x1D58A;</string><!-- mathematical bold fraktur small e -->
+				<string>&#x1D58B;</string><!-- mathematical bold fraktur small f -->
+				<string>&#x1D58C;</string><!-- mathematical bold fraktur small g -->
+				<string>&#x1D58D;</string><!-- mathematical bold fraktur small h -->
+				<string>&#x1D58E;</string><!-- mathematical bold fraktur small i -->
+				<string>&#x1D58F;</string><!-- mathematical bold fraktur small j -->
+				<string>&#x1D590;</string><!-- mathematical bold fraktur small k -->
+				<string>&#x1D591;</string><!-- mathematical bold fraktur small l -->
+				<string>&#x1D592;</string><!-- mathematical bold fraktur small m -->
+				<string>&#x1D593;</string><!-- mathematical bold fraktur small n -->
+				<string>&#x1D594;</string><!-- mathematical bold fraktur small o -->
+				<string>&#x1D595;</string><!-- mathematical bold fraktur small p -->
+				<string>&#x1D596;</string><!-- mathematical bold fraktur small q -->
+				<string>&#x1D597;</string><!-- mathematical bold fraktur small r -->
+				<string>&#x1D598;</string><!-- mathematical bold fraktur small s -->
+				<string>&#x1D599;</string><!-- mathematical bold fraktur small t -->
+				<string>&#x1D59A;</string><!-- mathematical bold fraktur small u -->
+				<string>&#x1D59B;</string><!-- mathematical bold fraktur small v -->
+				<string>&#x1D59C;</string><!-- mathematical bold fraktur small w -->
+				<string>&#x1D59D;</string><!-- mathematical bold fraktur small x -->
+				<string>&#x1D59E;</string><!-- mathematical bold fraktur small y -->
+				<string>&#x1D59F;</string><!-- mathematical bold fraktur small z -->
+			</array>
+		</dict>
+	</array>
+</plist>

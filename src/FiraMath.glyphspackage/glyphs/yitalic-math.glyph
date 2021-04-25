@@ -1,0 +1,173 @@
+{
+color = 1;
+glyphname = "yitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (258,-215);
+},
+{
+name = top;
+pos = (351,534);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(424,534,l),
+(288,122,l),
+(277,534,l),
+(75,534,l),
+(150,1,l),
+(219,1,l),
+(181,-60,o),
+(134,-83,o),
+(32,-93,c),
+(36,-228,l),
+(212,-223,o),
+(334,-148,o),
+(398,0,cs),
+(627,534,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 351;
+};
+};
+width = 607;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (224,-188);
+},
+{
+name = top;
+pos = (321,517);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(506,517,l),
+(256,1,l),
+(136,517,l),
+(134,517,l),
+(254,0,l),
+(256,0,l),
+(201,-112,o),
+(172,-157,o),
+(66,-187,c),
+(66,-189,l),
+(174,-159,o),
+(203,-112,o),
+(258,0,cs),
+(508,517,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 321;
+};
+};
+width = 502;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (221,-193);
+},
+{
+name = top;
+pos = (318,520);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,520,l),
+(257,22,l),
+(154,520,l),
+(122,520,l),
+(233,1,l),
+(247,1,l),
+(195,-100,o),
+(166,-141,o),
+(57,-172,c),
+(60,-197,l),
+(176,-165,o),
+(220,-118,o),
+(276,-3,cs),
+(530,520,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 318;
+};
+};
+width = 520;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (248,-202);
+},
+{
+name = top;
+pos = (336,527);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(475,527,l),
+(273,70,l),
+(199,527,l),
+(103,527,l),
+(204,1,l),
+(239,1,l),
+(195,-81,o),
+(156,-123,o),
+(47,-141,c),
+(51,-213,l),
+(197,-197,o),
+(275,-117,o),
+(326,-5,cs),
+(570,527,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 336;
+};
+};
+width = 554;
+}
+);
+metricLeft = "vitalic-math";
+metricRight = "vitalic-math";
+unicode = 119910;
+}

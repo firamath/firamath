@@ -10,6 +10,8 @@
 *.nav
 *.out
 *.snm
+*.synctex.gz
+*.synctex(busy)
 *.toc
 
 # Generated files
@@ -20,15 +22,17 @@
 *.pyc
 __pycache__/
 
+# Glyphs caches
+*(Autosaved).*
+*.ufo
+UIState.plist
+
 # Folders
 .vscode/
-assets/
-references/
+build/
 release/
 temp/
 
 # Other
 .DS_Store
-*.nb
-docs/standalone/
-test/*.sh
+pyrightconfig.json

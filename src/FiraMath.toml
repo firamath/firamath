@@ -1,0 +1,635 @@
+[MathConstants]
+
+ScriptPercentScaleDown                   = { value = [   72,   72,   72,   72], isMathValue = false }
+ScriptScriptPercentScaleDown             = { value = [   58,   58,   58,   58], isMathValue = false }
+DelimitedSubFormulaMinHeight             = { value = [ 1500, 1500, 1500, 1500], isMathValue = false }
+DisplayOperatorMinHeight                 = { value = [ 1500, 1500, 1500, 1500], isMathValue = false }
+MathLeading                              = { value = [  150,  150,  150,  150], isMathValue = true  }
+AxisHeight                               = { value = [  280,  280,  280,  280], isMathValue = true  }
+AccentBaseHeight                         = { value = [  527,  527,  527,  527], isMathValue = true  }
+FlattenedAccentBaseHeight                = { value = [  689,  689,  689,  689], isMathValue = true  }
+SubscriptShiftDown                       = { value = [  350,  350,  350,  350], isMathValue = true  }
+SubscriptTopMax                          = { value = [  527,  527,  527,  527], isMathValue = true  }
+SubscriptBaselineDropMin                 = { value = [  250,  250,  250,  250], isMathValue = true  }
+SuperscriptShiftUp                       = { value = [  400,  400,  400,  400], isMathValue = true  }
+SuperscriptShiftUpCramped                = { value = [  270,  270,  270,  270], isMathValue = true  }
+SuperscriptBottomMin                     = { value = [  130,  130,  130,  130], isMathValue = true  }
+SuperscriptBaselineDropMax               = { value = [  360,  360,  360,  360], isMathValue = true  }
+SubSuperscriptGapMin                     = { value = [  200,  200,  200,  200], isMathValue = true  }
+SuperscriptBottomMaxWithSubscript        = { value = [  527,  527,  527,  527], isMathValue = true  }
+SpaceAfterScript                         = { value = [   41,   41,   41,   41], isMathValue = true  }
+UpperLimitGapMin                         = { value = [  150,  150,  150,  150], isMathValue = true  }
+UpperLimitBaselineRiseMin                = { value = [  150,  150,  150,  150], isMathValue = true  }
+LowerLimitGapMin                         = { value = [  150,  150,  150,  150], isMathValue = true  }
+LowerLimitBaselineDropMin                = { value = [  600,  600,  600,  600], isMathValue = true  }
+StackTopShiftUp                          = { value = [  450,  450,  450,  450], isMathValue = true  }
+StackTopDisplayStyleShiftUp              = { value = [  580,  580,  580,  580], isMathValue = true  }
+StackBottomShiftDown                     = { value = [  480,  480,  480,  480], isMathValue = true  }
+StackBottomDisplayStyleShiftDown         = { value = [  700,  700,  700,  700], isMathValue = true  }
+StackGapMin                              = { value = [  200,  200,  200,  200], isMathValue = true  }
+StackDisplayStyleGapMin                  = { value = [  500,  500,  500,  500], isMathValue = true  }
+StretchStackTopShiftUp                   = { value = [  300,  300,  300,  300], isMathValue = true  }
+StretchStackBottomShiftDown              = { value = [  600,  600,  600,  600], isMathValue = true  }
+StretchStackGapAboveMin                  = { value = [  150,  150,  150,  150], isMathValue = true  }
+StretchStackGapBelowMin                  = { value = [  150,  150,  150,  150], isMathValue = true  }
+FractionNumeratorShiftUp                 = { value = [  450,  450,  450,  450], isMathValue = true  }
+FractionNumeratorDisplayStyleShiftUp     = { value = [  580,  580,  580,  580], isMathValue = true  }
+FractionDenominatorShiftDown             = { value = [  480,  480,  480,  480], isMathValue = true  }
+FractionDenominatorDisplayStyleShiftDown = { value = [  700,  700,  700,  700], isMathValue = true  }
+FractionNumeratorGapMin                  = { value = [   80,   80,   80,   80], isMathValue = true  }
+FractionNumDisplayStyleGapMin            = { value = [  200,  200,  200,  200], isMathValue = true  }
+FractionRuleThickness                    = { value = [    2,   30,   76,  160], isMathValue = true  }
+FractionDenominatorGapMin                = { value = [   80,   80,   80,   80], isMathValue = true  }
+FractionDenomDisplayStyleGapMin          = { value = [  200,  200,  200,  200], isMathValue = true  }
+SkewedFractionHorizontalGap              = { value = [    0,    0,    0,    0], isMathValue = true  }
+SkewedFractionVerticalGap                = { value = [    0,    0,    0,    0], isMathValue = true  }
+OverbarVerticalGap                       = { value = [  150,  150,  150,  150], isMathValue = true  }
+OverbarRuleThickness                     = { value = [   66,   66,   66,   66], isMathValue = true  }
+OverbarExtraAscender                     = { value = [   50,   50,   50,   50], isMathValue = true  }
+UnderbarVerticalGap                      = { value = [  150,  150,  150,  150], isMathValue = true  }
+UnderbarRuleThickness                    = { value = [   66,   66,   66,   66], isMathValue = true  }
+UnderbarExtraDescender                   = { value = [   50,   50,   50,   50], isMathValue = true  }
+RadicalVerticalGap                       = { value = [   96,   96,   96,   96], isMathValue = true  }
+RadicalDisplayStyleVerticalGap           = { value = [  142,  142,  142,  142], isMathValue = true  }
+RadicalRuleThickness                     = { value = [    2,   30,   76,  160], isMathValue = true  }
+RadicalExtraAscender                     = { value = [    2,   30,   76,  160], isMathValue = true  }
+RadicalKernBeforeDegree                  = { value = [  276,  276,  276,  276], isMathValue = true  }
+RadicalKernAfterDegree                   = { value = [ -400, -400, -400, -400], isMathValue = true  }
+RadicalDegreeBottomRaisePercent          = { value = [   64,   64,   64,   64], isMathValue = false }
+
+[MathGlyphInfo]
+
+ItalicCorrection = {}
+TopAccent = {}
+ExtendedShapes = [
+    "integral",
+    "dblintegral",
+    "tripleintegral",
+    "quadrupleIntegralOperator",
+    "contourintegral",
+    "surfaceintegral",
+    "volumeintegral",
+    "summationWithIntegral",
+    "summation",
+    "product",
+    "coproduct",
+    "narylogicaland",
+    "narylogicalor",
+    "naryintersection",
+    "naryunion",
+    "nArySquareIntersectionOperator",
+    "nArySquareUnionOperator",
+    "nAryCircledDotOperator",
+    "nAryCircledPlusOperator",
+    "nAryCircledTimesOperator",
+    "nAryTimesOperator",
+    "largeUpTack",
+    "largeDownTack",
+    "bigSolidus",
+    "bigReverseSolidus",
+    "integral.size01",
+    "dblintegral.size01",
+    "tripleintegral.size01",
+    "quadrupleIntegralOperator.size01",
+    "contourintegral.size01",
+    "surfaceintegral.size01",
+    "volumeintegral.size01",
+    "summationWithIntegral.size01",
+    "summation.size01",
+    "product.size01",
+    "coproduct.size01",
+    "narylogicaland.size01",
+    "narylogicalor.size01",
+    "naryintersection.size01",
+    "naryunion.size01",
+    "nArySquareIntersectionOperator.size01",
+    "nArySquareUnionOperator.size01",
+    "nAryCircledDotOperator.size01",
+    "nAryCircledPlusOperator.size01",
+    "nAryCircledTimesOperator.size01",
+    "nAryTimesOperator.size01",
+    "largeUpTack.size01",
+    "largeDownTack.size01",
+    "bigSolidus.size01",
+    "bigReverseSolidus.size01",
+    "parenleft.size01",
+    "parenleft.size02",
+    "parenleft.size03",
+    "parenleft.size04",
+    "parenleft.size05",
+    "parenleft.size06",
+    "parenleft.size07",
+    "parenleft.size08",
+    "parenleft.size09",
+    "parenleft.size10",
+    "parenleft.size11",
+    "parenleft.size12",
+    "parenleft.size13",
+    "parenleft.size14",
+    "parenleft.size15",
+    "parenright.size01",
+    "parenright.size02",
+    "parenright.size03",
+    "parenright.size04",
+    "parenright.size05",
+    "parenright.size06",
+    "parenright.size07",
+    "parenright.size08",
+    "parenright.size09",
+    "parenright.size10",
+    "parenright.size11",
+    "parenright.size12",
+    "parenright.size13",
+    "parenright.size14",
+    "parenright.size15",
+    "leftflattenedparenthesis-math.size01",
+    "leftflattenedparenthesis-math.size02",
+    "leftflattenedparenthesis-math.size03",
+    "leftflattenedparenthesis-math.size04",
+    "leftflattenedparenthesis-math.size05",
+    "leftflattenedparenthesis-math.size06",
+    "leftflattenedparenthesis-math.size07",
+    "leftflattenedparenthesis-math.size08",
+    "leftflattenedparenthesis-math.size09",
+    "leftflattenedparenthesis-math.size10",
+    "leftflattenedparenthesis-math.size11",
+    "leftflattenedparenthesis-math.size12",
+    "leftflattenedparenthesis-math.size13",
+    "leftflattenedparenthesis-math.size14",
+    "leftflattenedparenthesis-math.size15",
+    "rightflattenedparenthesis-math.size01",
+    "rightflattenedparenthesis-math.size02",
+    "rightflattenedparenthesis-math.size03",
+    "rightflattenedparenthesis-math.size04",
+    "rightflattenedparenthesis-math.size05",
+    "rightflattenedparenthesis-math.size06",
+    "rightflattenedparenthesis-math.size07",
+    "rightflattenedparenthesis-math.size08",
+    "rightflattenedparenthesis-math.size09",
+    "rightflattenedparenthesis-math.size10",
+    "rightflattenedparenthesis-math.size11",
+    "rightflattenedparenthesis-math.size12",
+    "rightflattenedparenthesis-math.size13",
+    "rightflattenedparenthesis-math.size14",
+    "rightflattenedparenthesis-math.size15",
+    "bracketleft.size01",
+    "bracketleft.size02",
+    "bracketleft.size03",
+    "bracketleft.size04",
+    "bracketleft.size05",
+    "bracketleft.size06",
+    "bracketleft.size07",
+    "bracketleft.size08",
+    "bracketleft.size09",
+    "bracketleft.size10",
+    "bracketleft.size11",
+    "bracketleft.size12",
+    "bracketleft.size13",
+    "bracketleft.size14",
+    "bracketleft.size15",
+    "bracketright.size01",
+    "bracketright.size02",
+    "bracketright.size03",
+    "bracketright.size04",
+    "bracketright.size05",
+    "bracketright.size06",
+    "bracketright.size07",
+    "bracketright.size08",
+    "bracketright.size09",
+    "bracketright.size10",
+    "bracketright.size11",
+    "bracketright.size12",
+    "bracketright.size13",
+    "bracketright.size14",
+    "bracketright.size15",
+    "braceleft.size01",
+    "braceleft.size02",
+    "braceleft.size03",
+    "braceleft.size04",
+    "braceleft.size05",
+    "braceleft.size06",
+    "braceleft.size07",
+    "braceleft.size08",
+    "braceleft.size09",
+    "braceleft.size10",
+    "braceleft.size11",
+    "braceleft.size12",
+    "braceleft.size13",
+    "braceleft.size14",
+    "braceleft.size15",
+    "braceright.size01",
+    "braceright.size02",
+    "braceright.size03",
+    "braceright.size04",
+    "braceright.size05",
+    "braceright.size06",
+    "braceright.size07",
+    "braceright.size08",
+    "braceright.size09",
+    "braceright.size10",
+    "braceright.size11",
+    "braceright.size12",
+    "braceright.size13",
+    "braceright.size14",
+    "braceright.size15",
+    "leftCeiling.size01",
+    "leftCeiling.size02",
+    "leftCeiling.size03",
+    "leftCeiling.size04",
+    "leftCeiling.size05",
+    "leftCeiling.size06",
+    "leftCeiling.size07",
+    "leftCeiling.size08",
+    "leftCeiling.size09",
+    "leftCeiling.size10",
+    "leftCeiling.size11",
+    "leftCeiling.size12",
+    "leftCeiling.size13",
+    "leftCeiling.size14",
+    "leftCeiling.size15",
+    "rightCeiling.size01",
+    "rightCeiling.size02",
+    "rightCeiling.size03",
+    "rightCeiling.size04",
+    "rightCeiling.size05",
+    "rightCeiling.size06",
+    "rightCeiling.size07",
+    "rightCeiling.size08",
+    "rightCeiling.size09",
+    "rightCeiling.size10",
+    "rightCeiling.size11",
+    "rightCeiling.size12",
+    "rightCeiling.size13",
+    "rightCeiling.size14",
+    "rightCeiling.size15",
+    "leftFloor.size01",
+    "leftFloor.size02",
+    "leftFloor.size03",
+    "leftFloor.size04",
+    "leftFloor.size05",
+    "leftFloor.size06",
+    "leftFloor.size07",
+    "leftFloor.size08",
+    "leftFloor.size09",
+    "leftFloor.size10",
+    "leftFloor.size11",
+    "leftFloor.size12",
+    "leftFloor.size13",
+    "leftFloor.size14",
+    "leftFloor.size15",
+    "rightFloor.size01",
+    "rightFloor.size02",
+    "rightFloor.size03",
+    "rightFloor.size04",
+    "rightFloor.size05",
+    "rightFloor.size06",
+    "rightFloor.size07",
+    "rightFloor.size08",
+    "rightFloor.size09",
+    "rightFloor.size10",
+    "rightFloor.size11",
+    "rightFloor.size12",
+    "rightFloor.size13",
+    "rightFloor.size14",
+    "rightFloor.size15",
+    "leftanglebracket-math.size01",
+    "leftanglebracket-math.size02",
+    "leftanglebracket-math.size03",
+    "leftanglebracket-math.size04",
+    "leftanglebracket-math.size05",
+    "leftanglebracket-math.size06",
+    "leftanglebracket-math.size07",
+    "leftanglebracket-math.size08",
+    "leftanglebracket-math.size09",
+    "leftanglebracket-math.size10",
+    "leftanglebracket-math.size11",
+    "leftanglebracket-math.size12",
+    "leftanglebracket-math.size13",
+    "leftanglebracket-math.size14",
+    "leftanglebracket-math.size15",
+    "leftdoubleanglebracket-math.size01",
+    "leftdoubleanglebracket-math.size02",
+    "leftdoubleanglebracket-math.size03",
+    "leftdoubleanglebracket-math.size04",
+    "leftdoubleanglebracket-math.size05",
+    "leftdoubleanglebracket-math.size06",
+    "leftdoubleanglebracket-math.size07",
+    "leftdoubleanglebracket-math.size08",
+    "leftdoubleanglebracket-math.size09",
+    "leftdoubleanglebracket-math.size10",
+    "leftdoubleanglebracket-math.size11",
+    "leftdoubleanglebracket-math.size12",
+    "leftdoubleanglebracket-math.size13",
+    "leftdoubleanglebracket-math.size14",
+    "leftdoubleanglebracket-math.size15",
+    "rightanglebracket-math.size01",
+    "rightanglebracket-math.size02",
+    "rightanglebracket-math.size03",
+    "rightanglebracket-math.size04",
+    "rightanglebracket-math.size05",
+    "rightanglebracket-math.size06",
+    "rightanglebracket-math.size07",
+    "rightanglebracket-math.size08",
+    "rightanglebracket-math.size09",
+    "rightanglebracket-math.size10",
+    "rightanglebracket-math.size11",
+    "rightanglebracket-math.size12",
+    "rightanglebracket-math.size13",
+    "rightanglebracket-math.size14",
+    "rightanglebracket-math.size15",
+    "rightdoubleanglebracket-math.size01",
+    "rightdoubleanglebracket-math.size02",
+    "rightdoubleanglebracket-math.size03",
+    "rightdoubleanglebracket-math.size04",
+    "rightdoubleanglebracket-math.size05",
+    "rightdoubleanglebracket-math.size06",
+    "rightdoubleanglebracket-math.size07",
+    "rightdoubleanglebracket-math.size08",
+    "rightdoubleanglebracket-math.size09",
+    "rightdoubleanglebracket-math.size10",
+    "rightdoubleanglebracket-math.size11",
+    "rightdoubleanglebracket-math.size12",
+    "rightdoubleanglebracket-math.size13",
+    "rightdoubleanglebracket-math.size14",
+    "rightdoubleanglebracket-math.size15",
+    "bar.size01",
+    "bar.size02",
+    "bar.size03",
+    "bar.size04",
+    "bar.size05",
+    "bar.size06",
+    "bar.size07",
+    "bar.size08",
+    "bar.size09",
+    "bar.size10",
+    "bar.size11",
+    "bar.size12",
+    "bar.size13",
+    "bar.size14",
+    "bar.size15",
+    "dblverticalbar.size01",
+    "dblverticalbar.size02",
+    "dblverticalbar.size03",
+    "dblverticalbar.size04",
+    "dblverticalbar.size05",
+    "dblverticalbar.size06",
+    "dblverticalbar.size07",
+    "dblverticalbar.size08",
+    "dblverticalbar.size09",
+    "dblverticalbar.size10",
+    "dblverticalbar.size11",
+    "dblverticalbar.size12",
+    "dblverticalbar.size13",
+    "dblverticalbar.size14",
+    "dblverticalbar.size15",
+    "tripleVerticalBarDelimiter.size01",
+    "tripleVerticalBarDelimiter.size02",
+    "tripleVerticalBarDelimiter.size03",
+    "tripleVerticalBarDelimiter.size04",
+    "tripleVerticalBarDelimiter.size05",
+    "tripleVerticalBarDelimiter.size06",
+    "tripleVerticalBarDelimiter.size07",
+    "tripleVerticalBarDelimiter.size08",
+    "tripleVerticalBarDelimiter.size09",
+    "tripleVerticalBarDelimiter.size10",
+    "tripleVerticalBarDelimiter.size11",
+    "tripleVerticalBarDelimiter.size12",
+    "tripleVerticalBarDelimiter.size13",
+    "tripleVerticalBarDelimiter.size14",
+    "tripleVerticalBarDelimiter.size15",
+    "radical.size01",
+    "radical.size02",
+    "radical.size03",
+    "radical.size04",
+    "radical.size05",
+    "radical.size06",
+    "radical.size07",
+    "radical.size08",
+    "radical.size09",
+    "radical.size10",
+    "radical.size11",
+    "radical.size12",
+    "radical.size13",
+    "radical.size14",
+    "radical.size15",
+    "cuberoot.size01",
+    "cuberoot.size02",
+    "cuberoot.size03",
+    "cuberoot.size04",
+    "cuberoot.size05",
+    "cuberoot.size06",
+    "cuberoot.size07",
+    "cuberoot.size08",
+    "cuberoot.size09",
+    "cuberoot.size10",
+    "cuberoot.size11",
+    "cuberoot.size12",
+    "cuberoot.size13",
+    "cuberoot.size14",
+    "cuberoot.size15",
+    "fourthroot.size01",
+    "fourthroot.size02",
+    "fourthroot.size03",
+    "fourthroot.size04",
+    "fourthroot.size05",
+    "fourthroot.size06",
+    "fourthroot.size07",
+    "fourthroot.size08",
+    "fourthroot.size09",
+    "fourthroot.size10",
+    "fourthroot.size11",
+    "fourthroot.size12",
+    "fourthroot.size13",
+    "fourthroot.size14",
+    "fourthroot.size15",
+]
+
+[MathVariants]
+
+MinConnectorOverlap = [20, 20, 20, 20]
+
+[MathVariants.HorizontalVariants]
+
+"topparenthesis"      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bottomparenthesis"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"topsquarebracket"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bottomsquarebracket" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"topcurlybracket"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bottomcurlybracket"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+
+[MathVariants.VerticalVariants]
+
+"integral"                       = { suffixes = ["", ".size01"] }
+"dblintegral"                    = { suffixes = ["", ".size01"] }
+"tripleintegral"                 = { suffixes = ["", ".size01"] }
+"quadrupleIntegralOperator"      = { suffixes = ["", ".size01"] }
+"contourintegral"                = { suffixes = ["", ".size01"] }
+"surfaceintegral"                = { suffixes = ["", ".size01"] }
+"volumeintegral"                 = { suffixes = ["", ".size01"] }
+"summationWithIntegral"          = { suffixes = ["", ".size01"] }
+"summation"                      = { suffixes = ["", ".size01"] }
+"product"                        = { suffixes = ["", ".size01"] }
+"coproduct"                      = { suffixes = ["", ".size01"] }
+"narylogicaland"                 = { suffixes = ["", ".size01"] }
+"narylogicalor"                  = { suffixes = ["", ".size01"] }
+"naryintersection"               = { suffixes = ["", ".size01"] }
+"naryunion"                      = { suffixes = ["", ".size01"] }
+"nArySquareIntersectionOperator" = { suffixes = ["", ".size01"] }
+"nArySquareUnionOperator"        = { suffixes = ["", ".size01"] }
+"nAryCircledDotOperator"         = { suffixes = ["", ".size01"] }
+"nAryCircledPlusOperator"        = { suffixes = ["", ".size01"] }
+"nAryCircledTimesOperator"       = { suffixes = ["", ".size01"] }
+"nAryTimesOperator"              = { suffixes = ["", ".size01"] }
+"largeUpTack"                    = { suffixes = ["", ".size01"] }
+"largeDownTack"                  = { suffixes = ["", ".size01"] }
+"bigSolidus"                     = { suffixes = ["", ".size01"] }
+"bigReverseSolidus"              = { suffixes = ["", ".size01"] }
+"parenleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"parenright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bracketleft"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bracketright"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"braceleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"braceright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftanglebracket-math"          = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftdoubleanglebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightanglebracket-math"         = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightdoubleanglebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftflattenedparenthesis-math"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightflattenedparenthesis-math" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftCeiling"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftFloor"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightCeiling"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightFloor"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"bar"                            = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"dblverticalbar"                 = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"tripleVerticalBarDelimiter"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"radical"                        = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"cuberoot"                       = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"fourthroot"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+
+[MathVariants.HorizontalComponents]
+
+[MathVariants.VerticalComponents]
+
+"parenleft".italicsCorrection = 0
+"parenleft".parts = [
+    { name = "parenleftlowerhook", isExtender = false },
+    { name = "parenleftextension", isExtender = true  },
+    { name = "parenleftupperhook", isExtender = false },
+]
+
+"parenright".italicsCorrection = 0
+"parenright".parts = [
+    { name = "parenrightlowerhook", isExtender = false },
+    { name = "parenrightextension", isExtender = true  },
+    { name = "parenrightupperhook", isExtender = false },
+]
+
+"leftflattenedparenthesis-math".italicsCorrection = 0
+"leftflattenedparenthesis-math".parts = [
+    { name = "leftflattenedparenthesis-math.bot", isExtender = false },
+    { name = "leftflattenedparenthesis-math.ext", isExtender = true  },
+    { name = "leftflattenedparenthesis-math.top", isExtender = false },
+]
+
+"rightflattenedparenthesis-math".italicsCorrection = 0
+"rightflattenedparenthesis-math".parts = [
+    { name = "rightflattenedparenthesis-math.bot", isExtender = false },
+    { name = "rightflattenedparenthesis-math.ext", isExtender = true  },
+    { name = "rightflattenedparenthesis-math.top", isExtender = false },
+]
+
+"bracketleft".italicsCorrection = 0
+"bracketleft".parts = [
+    { name = "leftsquarebracketlowercorner", isExtender = false },
+    { name = "leftsquarebracketextension",   isExtender = true  },
+    { name = "leftsquarebracketuppercorner", isExtender = false },
+]
+
+"bracketright".italicsCorrection = 0
+"bracketright".parts = [
+    { name = "rightsquarebracketlowercorner", isExtender = false },
+    { name = "rightsquarebracketextension",   isExtender = true  },
+    { name = "rightsquarebracketuppercorner", isExtender = false },
+]
+
+"braceleft".italicsCorrection = 0
+"braceleft".parts = [
+    { name = "leftcurlybracketlowerhook",   isExtender = false },
+    { name = "braceleft.ext",               isExtender = true  },
+    { name = "leftcurlybracketmiddlepiece", isExtender = false },
+    { name = "braceleft.ext",               isExtender = true  },
+    { name = "leftcurlybracketupperhook",   isExtender = false },
+]
+
+"braceright".italicsCorrection = 0
+"braceright".parts = [
+    { name = "rightcurlybracketlowerhook",   isExtender = false },
+    { name = "braceright.ext",               isExtender = true  },
+    { name = "rightcurlybracketmiddlepiece", isExtender = false },
+    { name = "braceright.ext",               isExtender = true  },
+    { name = "rightcurlybracketupperhook",   isExtender = false },
+]
+
+"leftCeiling".italicsCorrection = 0
+"leftCeiling".parts = [
+    { name = "leftCeiling.ext", isExtender = true  },
+    { name = "leftCeiling.top", isExtender = false },
+]
+
+"rightCeiling".italicsCorrection = 0
+"rightCeiling".parts = [
+    { name = "rightCeiling.ext", isExtender = true  },
+    { name = "rightCeiling.top", isExtender = false },
+]
+
+"leftFloor".italicsCorrection = 0
+"leftFloor".parts = [
+    { name = "leftFloor.bot", isExtender = false },
+    { name = "leftFloor.ext", isExtender = true  },
+]
+
+"rightFloor".italicsCorrection = 0
+"rightFloor".parts = [
+    { name = "rightFloor.bot", isExtender = false },
+    { name = "rightFloor.ext", isExtender = true  },
+]
+
+"bar".italicsCorrection = 0
+"bar".parts = [
+    { name = "leftverticalboxline", isExtender = false },
+    { name = "leftverticalboxline", isExtender = true  },
+]
+
+"dblverticalbar".italicsCorrection = 0
+"dblverticalbar".parts = [
+    { name = "dblverticalbar.ext", isExtender = false },
+    { name = "dblverticalbar.ext", isExtender = true  },
+]
+
+"tripleVerticalBarDelimiter".italicsCorrection = 0
+"tripleVerticalBarDelimiter".parts = [
+    { name = "tripleVerticalBarDelimiter.ext", isExtender = false },
+    { name = "tripleVerticalBarDelimiter.ext", isExtender = true  },
+]
+
+"radical".italicsCorrection = 0
+"radical".parts = [
+    { name = "radicalsymbolbottom", isExtender = false },
+    { name = "radical.ext",         isExtender = true  },
+    { name = "radical.top",         isExtender = false },
+]
+
+"cuberoot".italicsCorrection = 0
+"cuberoot".parts = [
+    { name = "cuberoot.bot", isExtender = false },
+    { name = "radical.ext",  isExtender = true  },
+    { name = "radical.top",  isExtender = false },
+]
+
+"fourthroot".italicsCorrection = 0
+"fourthroot".parts = [
+    { name = "fourthroot.bot", isExtender = false },
+    { name = "radical.ext",    isExtender = true  },
+    { name = "radical.top",    isExtender = false },
+]

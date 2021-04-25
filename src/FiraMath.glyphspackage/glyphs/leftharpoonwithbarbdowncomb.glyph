@@ -1,0 +1,70 @@
+{
+glyphname = leftharpoonwithbarbdowncomb;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,572);
+ref = leftharpoonabovecomb;
+scale = (1,-1);
+}
+);
+userData = {
+math = {
+topAccent = 180;
+};
+};
+width = 360;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,566);
+ref = leftharpoonabovecomb;
+scale = (1,-1);
+}
+);
+userData = {
+math = {
+topAccent = 203;
+};
+};
+width = 406;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,564);
+ref = leftharpoonabovecomb;
+scale = (1,-1);
+}
+);
+userData = {
+math = {
+topAccent = 228;
+};
+};
+width = 456;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,580);
+ref = leftharpoonabovecomb;
+scale = (1,-1);
+}
+);
+userData = {
+math = {
+topAccent = 270;
+};
+};
+width = 540;
+}
+);
+unicode = 8429;
+}

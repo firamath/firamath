@@ -1,0 +1,189 @@
+{
+category = "Smart Glyph";
+export = 0;
+glyphname = _smart.dblverticalbar;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+pos = (122,0);
+ref = _smart.bar;
+}
+);
+width = 524;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (130,0);
+ref = _smart.bar;
+}
+);
+width = 540;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (174,0);
+ref = _smart.bar;
+}
+);
+width = 616;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = _smart.bar;
+},
+{
+alignment = -1;
+pos = (238,0);
+ref = _smart.bar;
+}
+);
+width = 688;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "55D9392C-A691-4497-894E-6AA5FFF5C653";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (240,0);
+ref = _smart.bar;
+}
+);
+width = 748;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "2ED257CC-A360-4974-AF5F-ADED1EDBC167";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+piece = {
+size = 15;
+};
+pos = (74,0);
+ref = _smart.bar;
+}
+);
+width = 516;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "3A0970E7-93F2-4950-94D3-6824DC012F35";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (112,0);
+ref = _smart.bar;
+}
+);
+width = 562;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "726A39B2-4DB9-409F-8E23-CA780F7393FE";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = _smart.bar;
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (282,0);
+ref = _smart.bar;
+}
+);
+width = 792;
+}
+);
+metricRight = "=|";
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}

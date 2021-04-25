@@ -1,0 +1,190 @@
+{
+category = "Smart Glyph";
+export = 0;
+glyphname = "_smart.leftdoubleanglebracket-math";
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+pos = (82,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 364;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+pos = (122,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 424;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+pos = (180,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 516;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+alignment = -1;
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+pos = (257,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 682;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "80E85B0A-0F56-4BA5-B112-4E7CAE91BE27";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (254,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 1182;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "F0862594-1C8C-458D-BEA1-F61FEB7694B1";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (82,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 960;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "C23DF8D8-A323-4D21-88CB-089C3E544A37";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (122,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 1034;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "E4090FFD-3653-4D22-B530-3BB70A3FDC64";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+ref = "_smart.leftanglebracket-math";
+},
+{
+alignment = -1;
+piece = {
+size = 15;
+};
+pos = (293,0);
+ref = "_smart.leftanglebracket-math";
+}
+);
+width = 1327;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}

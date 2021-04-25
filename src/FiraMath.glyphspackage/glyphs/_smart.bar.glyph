@@ -1,0 +1,167 @@
+{
+category = "Smart Glyph";
+export = 0;
+glyphname = _smart.bar;
+layers = (
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,-188,l),
+(318,748,l),
+(132,748,l),
+(132,-188,l)
+);
+}
+);
+width = 450;
+},
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(202,-168,l),
+(202,728,l),
+(200,728,l),
+(200,-168,l)
+);
+}
+);
+width = 402;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,-174,l),
+(220,734,l),
+(190,734,l),
+(190,-174,l)
+);
+}
+);
+width = 410;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,-186,l),
+(262,746,l),
+(180,746,l),
+(180,-186,l)
+);
+}
+);
+width = 442;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "7C4DF91D-7D4C-408E-91BE-04480B20B2C9";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(308,-2676,l),
+(308,3236,l),
+(200,3236,l),
+(200,-2676,l)
+);
+}
+);
+width = 508;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "CA7323A0-1A64-4C60-A844-D5E8CA1C9A5D";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,-2658,l),
+(222,3218,l),
+(220,3218,l),
+(220,-2658,l)
+);
+}
+);
+width = 442;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "804BCAC7-567D-4B03-AA2B-95F02B0EDFFB";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,-2664,l),
+(240,3224,l),
+(210,3224,l),
+(210,-2664,l)
+);
+}
+);
+width = 450;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "C17A2EC4-B384-40EA-B1B6-7EC541672B8F";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(348,-2678,l),
+(348,3238,l),
+(162,3238,l),
+(162,-2678,l)
+);
+}
+);
+width = 510;
+}
+);
+metricRight = "=|";
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}

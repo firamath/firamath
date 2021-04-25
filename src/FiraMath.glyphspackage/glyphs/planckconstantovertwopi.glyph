@@ -1,0 +1,80 @@
+{
+glyphname = planckconstantovertwopi;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(392,663,l),
+(392,665,l),
+(134,591,l),
+(134,589,l)
+);
+},
+{
+ref = planckconstant;
+}
+);
+width = 580;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(405,651,l),
+(397,679,l),
+(121,600,l),
+(129,572,l)
+);
+},
+{
+ref = planckconstant;
+}
+);
+width = 582;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(428,630,l),
+(408,699,l),
+(96,610,l),
+(116,541,l)
+);
+},
+{
+ref = planckconstant;
+}
+);
+width = 580;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(448,616,l),
+(418,720,l),
+(52,616,l),
+(82,512,l)
+);
+},
+{
+ref = planckconstant;
+}
+);
+width = 624;
+}
+);
+metricLeft = planckconstant;
+metricRight = planckconstant;
+unicode = 8463;
+}

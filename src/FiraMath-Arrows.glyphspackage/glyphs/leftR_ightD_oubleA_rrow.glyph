@@ -1,0 +1,210 @@
+{
+glyphname = leftRightDoubleArrow;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(759,354,l),
+(757,356,l),
+(203,356,l),
+(201,354,l)
+);
+},
+{
+pos = (100,0);
+ref = doubleArrowHead;
+},
+{
+closed = 1;
+nodes = (
+(757,204,l),
+(759,206,l),
+(201,206,l),
+(203,204,l)
+);
+},
+{
+pos = (860,0);
+ref = doubleArrowHead;
+scale = (-1,1);
+}
+);
+width = 960;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,280,l),
+(338,79,l),
+(353,96,l),
+(251,190,l),
+(789,190,l),
+(687,96,l),
+(702,79,l),
+(920,280,l),
+(702,481,l),
+(687,464,l),
+(789,370,l),
+(251,370,l),
+(353,464,l),
+(338,481,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(153,280,l),
+(227,348,l),
+(813,348,l),
+(887,280,l),
+(813,212,l),
+(227,212,l)
+);
+}
+);
+};
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(790,348,l),
+(766,370,l),
+(234,370,l),
+(210,348,l)
+);
+},
+{
+pos = (100,0);
+ref = doubleArrowHead;
+},
+{
+closed = 1;
+nodes = (
+(766,190,l),
+(790,212,l),
+(210,212,l),
+(234,190,l)
+);
+},
+{
+pos = (900,0);
+ref = doubleArrowHead;
+scale = (-1,1);
+}
+);
+width = 1000;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,280,l),
+(380,12,l),
+(432,68,l),
+(350,146,l),
+(730,146,l),
+(648,68,l),
+(700,12,l),
+(980,280,l),
+(700,548,l),
+(648,492,l),
+(730,414,l),
+(350,414,l),
+(432,492,l),
+(380,548,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(208,280,l),
+(270,338,l),
+(810,338,l),
+(872,280,l),
+(810,222,l),
+(270,222,l)
+);
+}
+);
+};
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(930,338,l),
+(850,414,l),
+(300,414,l),
+(220,338,l)
+);
+},
+{
+pos = (80,0);
+ref = doubleArrowHead;
+},
+{
+closed = 1;
+nodes = (
+(850,146,l),
+(930,222,l),
+(220,222,l),
+(300,146,l)
+);
+},
+{
+pos = (1070,0);
+ref = doubleArrowHead;
+scale = (-1,1);
+}
+);
+width = 1150;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1030,310,l),
+(890,476,l),
+(410,476,l),
+(270,310,l)
+);
+},
+{
+pos = (120,0);
+ref = doubleArrowHead;
+},
+{
+closed = 1;
+nodes = (
+(890,84,l),
+(1030,250,l),
+(270,250,l),
+(410,84,l)
+);
+},
+{
+pos = (1180,0);
+ref = doubleArrowHead;
+scale = (-1,1);
+}
+);
+width = 1300;
+}
+);
+metricLeft = leftDoubleArrow;
+metricRight = rightDoubleArrow;
+note = uni21D4;
+subCategory = Arrow;
+unicode = 8660;
+}

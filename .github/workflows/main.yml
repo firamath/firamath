@@ -1,0 +1,24 @@
+name: CI
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build Fira Math
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements.txt
+      - name: Patch glyphsLib
+        run: |
+          patch $(python -c "import os, glyphsLib; print(os.path.join(glyphsLib.__path__[0], 'builder', 'axes.py'))") scripts/axes.py.diff
+      - name: Build fonts
+        run: |
+          python scripts/build.py
+          zip -j build/firamath-otf.zip build/*.otf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: firamath-otf.zip
+          path: build/firamath-otf.zip

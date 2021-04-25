@@ -1,0 +1,211 @@
+{
+color = 1;
+glyphname = "Hitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = bottomright;
+pos = (594,0);
+},
+{
+name = center;
+pos = (354,348);
+},
+{
+name = top;
+pos = (402,696);
+},
+{
+name = topleft;
+pos = (124,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,0,l),
+(266,281,l),
+(420,281,l),
+(382,0,l),
+(584,0,l),
+(681,696,l),
+(479,696,l),
+(443,439,l),
+(288,439,l),
+(324,696,l),
+(123,696,l),
+(25,0,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 402;
+};
+};
+width = 685;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (314,0);
+},
+{
+name = bottomright;
+pos = (508,0);
+},
+{
+name = center;
+pos = (348,340);
+},
+{
+name = top;
+pos = (395,680);
+},
+{
+name = topleft;
+pos = (149,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(106,0,l),
+(157,365,l),
+(547,365,l),
+(496,0,l),
+(498,0,l),
+(593,680,l),
+(591,680,l),
+(547,367,l),
+(157,367,l),
+(201,680,l),
+(199,680,l),
+(104,0,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 395;
+};
+};
+width = 674;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = bottomright;
+pos = (527,0);
+},
+{
+name = center;
+pos = (352,341);
+},
+{
+name = top;
+pos = (400,682);
+},
+{
+name = topleft;
+pos = (161,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,0,l),
+(175,345,l),
+(535,345,l),
+(486,0,l),
+(517,0,l),
+(613,682,l),
+(582,682,l),
+(539,374,l),
+(179,374,l),
+(222,682,l),
+(191,682,l),
+(95,0,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 400;
+};
+};
+width = 686;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (324,0);
+},
+{
+name = bottomright;
+pos = (564,0);
+},
+{
+name = center;
+pos = (364,345);
+},
+{
+name = top;
+pos = (413,689);
+},
+{
+name = topleft;
+pos = (155,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,0,l),
+(217,323,l),
+(505,323,l),
+(460,0,l),
+(554,0,l),
+(651,689,l),
+(557,689,l),
+(516,401,l),
+(228,401,l),
+(269,689,l),
+(175,689,l),
+(78,0,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 413;
+};
+};
+width = 706;
+}
+);
+unicode = 119867;
+}

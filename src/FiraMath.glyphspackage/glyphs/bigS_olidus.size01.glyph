@@ -1,0 +1,67 @@
+{
+glyphname = bigSolidus.size01;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(890,995,l),
+(888,996,l),
+(128,-435,l),
+(130,-436,l)
+);
+}
+);
+width = 1018;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(936,1014,l),
+(908,1029,l),
+(120,-454,l),
+(148,-469,l)
+);
+}
+);
+width = 1056;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1004,1022,l),
+(907,1074,l),
+(90,-462,l),
+(187,-514,l)
+);
+}
+);
+width = 1094;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1076,1028,l),
+(901,1121,l),
+(56,-468,l),
+(231,-561,l)
+);
+}
+);
+width = 1132;
+}
+);
+metricLeft = summation.size01;
+metricRight = summation.size01;
+}

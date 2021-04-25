@@ -1,0 +1,92 @@
+{
+category = Component;
+export = 0;
+glyphname = slashlongcomb.size02;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (240,280);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(323,393,l),
+(321,394,l),
+(157,167,l),
+(159,166,l)
+);
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (240,280);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(339,402,l),
+(316,418,l),
+(141,158,l),
+(164,142,l)
+);
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (240,280);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(365,426,l),
+(316,456,l),
+(115,134,l),
+(164,104,l)
+);
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (240,280);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,449,l),
+(306,503,l),
+(80,111,l),
+(174,57,l)
+);
+}
+);
+width = 480;
+}
+);
+metricRight = "=|";
+}

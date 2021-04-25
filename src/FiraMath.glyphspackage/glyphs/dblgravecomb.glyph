@@ -1,0 +1,111 @@
+{
+color = 4;
+glyphname = dblgravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (223,527);
+},
+{
+name = top;
+pos = (185,832);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (366,0);
+ref = hungarumlautcomb;
+scale = (-1,1);
+}
+);
+userData = {
+math = {
+topAccent = 223;
+};
+};
+width = 366;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (145,517);
+},
+{
+name = top;
+pos = (117,785);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (229,0);
+ref = hungarumlautcomb;
+scale = (-1,1);
+}
+);
+userData = {
+math = {
+topAccent = 145;
+};
+};
+width = 229;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (164,520);
+},
+{
+name = top;
+pos = (136,794);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (268,0);
+ref = hungarumlautcomb;
+scale = (-1,1);
+}
+);
+userData = {
+math = {
+topAccent = 164;
+};
+};
+width = 268;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (275,534);
+},
+{
+name = top;
+pos = (237,877);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (469,0);
+ref = hungarumlautcomb;
+scale = (-1,1);
+}
+);
+userData = {
+math = {
+topAccent = 275;
+};
+};
+width = 469;
+}
+);
+unicode = 783;
+}

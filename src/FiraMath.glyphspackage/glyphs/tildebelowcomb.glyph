@@ -1,0 +1,107 @@
+{
+color = 0;
+glyphname = tildebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (197,0);
+},
+{
+name = bottom;
+pos = (197,-184);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,-840);
+ref = tildecomb;
+}
+);
+userData = {
+math = {
+topAccent = 197;
+};
+};
+width = 394;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (152,0);
+},
+{
+name = bottom;
+pos = (152,-122);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,-808);
+ref = tildecomb;
+}
+);
+userData = {
+math = {
+topAccent = 152;
+};
+};
+width = 303;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (167,0);
+},
+{
+name = bottom;
+pos = (167,-155);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,-830);
+ref = tildecomb;
+}
+);
+userData = {
+math = {
+topAccent = 167;
+};
+};
+width = 333;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (231,0);
+},
+{
+name = bottom;
+pos = (231,-228);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,-850);
+ref = tildecomb;
+}
+);
+userData = {
+math = {
+topAccent = 231;
+};
+};
+width = 462;
+}
+);
+unicode = 816;
+}

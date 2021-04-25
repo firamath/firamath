@@ -1,0 +1,60 @@
+{
+glyphname = excess;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = minus;
+},
+{
+pos = (263,0);
+ref = ratio;
+}
+);
+width = 620;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = minus;
+},
+{
+pos = (315,0);
+ref = ratio;
+}
+);
+width = 680;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = minus;
+},
+{
+pos = (370,0);
+ref = ratio;
+}
+);
+width = 760;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = minus;
+},
+{
+pos = (367,0);
+ref = ratio;
+}
+);
+width = 800;
+}
+);
+metricLeft = minus;
+metricRight = minus;
+unicode = 8761;
+}

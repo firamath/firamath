@@ -1,0 +1,215 @@
+{
+color = 1;
+glyphname = "xitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (264,0);
+},
+{
+name = bottomright;
+pos = (476,0);
+},
+{
+name = top;
+pos = (337,534);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,534,l),
+(186,283,l),
+(287,178,l),
+(331,0,l),
+(544,0,l),
+(424,282,l),
+(318,377,l),
+(289,534,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(386,534,l),
+(318,377,l),
+(186,283,l),
+(-12,0,l),
+(196,0,l),
+(287,178,l),
+(424,282,l),
+(590,534,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 40;
+topAccent = 337;
+};
+};
+width = 592;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (188,0);
+},
+{
+name = bottomright;
+pos = (390,0);
+},
+{
+name = top;
+pos = (261,517);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(107,517,l),
+(231,278,l),
+(232,277,l),
+(380,0,l),
+(382,0,l),
+(233,278,l),
+(232,279,l),
+(109,517,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(425,517,l),
+(232,279,l),
+(231,278,l),
+(8,0,l),
+(10,0,l),
+(232,277,l),
+(233,278,l),
+(427,517,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 40;
+topAccent = 261;
+};
+};
+width = 443;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (207,0);
+},
+{
+name = bottomright;
+pos = (400,0);
+},
+{
+name = top;
+pos = (280,520);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,520,l),
+(227,280,l),
+(242,258,l),
+(376,0,l),
+(410,0,l),
+(264,277,l),
+(248,299,l),
+(135,520,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(424,520,l),
+(248,299,l),
+(227,280,l),
+(3,0,l),
+(38,0,l),
+(242,258,l),
+(264,277,l),
+(459,520,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 40;
+topAccent = 280;
+};
+};
+width = 470;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (228,0);
+},
+{
+name = bottomright;
+pos = (419,0);
+},
+{
+name = top;
+pos = (301,527);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,527,l),
+(213,283,l),
+(259,222,l),
+(359,0,l),
+(462,0,l),
+(321,275,l),
+(274,334,l),
+(190,527,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(412,527,l),
+(274,334,l),
+(213,283,l),
+(-8,0,l),
+(96,0,l),
+(259,222,l),
+(321,275,l),
+(517,527,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 40;
+topAccent = 301;
+};
+};
+width = 522;
+}
+);
+unicode = 119909;
+}

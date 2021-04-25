@@ -1,0 +1,186 @@
+{
+category = "Smart Glyph";
+export = 0;
+glyphname = _smart.cuberoot;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (-6,508);
+ref = three.dnom;
+}
+);
+width = 553;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (5,508);
+ref = three.dnom;
+}
+);
+width = 580;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (10,508);
+ref = three.dnom;
+}
+);
+width = 649;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (32,508);
+ref = three.dnom;
+}
+);
+width = 801;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "DC80B129-95F8-4503-86AC-30FA0B8A618E";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (58,1550);
+ref = three.dnom;
+}
+);
+width = 929;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "60F4381C-CB6B-4934-A090-4478CC3894BF";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (50,1550);
+ref = three.dnom;
+}
+);
+width = 789;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "58884425-92DB-4580-9A55-001092FAF631";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (50,1550);
+ref = three.dnom;
+}
+);
+width = 830;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "EA262860-8796-482E-AC4B-4EB5819C95A7";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+piece = {
+size = 15;
+};
+ref = _smart.radical;
+},
+{
+piece = {
+Group = 1;
+};
+pos = (80,1550);
+ref = three.dnom;
+}
+);
+width = 1024;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 15;
+}
+);
+}

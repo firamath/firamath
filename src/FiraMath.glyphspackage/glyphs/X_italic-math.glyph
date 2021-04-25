@@ -1,0 +1,215 @@
+{
+color = 1;
+glyphname = "Xitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (278,0);
+},
+{
+name = bottomright;
+pos = (527,0);
+},
+{
+name = top;
+pos = (376,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(82,696,l),
+(206,369,l),
+(310,249,l),
+(370,0,l),
+(586,0,l),
+(448,375,l),
+(342,486,l),
+(297,696,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(454,696,l),
+(342,486,l),
+(205,369,l),
+(-28,0,l),
+(188,0,l),
+(310,249,l),
+(449,375,l),
+(669,696,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 376;
+};
+};
+width = 634;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (207,0);
+},
+{
+name = bottomright;
+pos = (428,0);
+},
+{
+name = top;
+pos = (303,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,680,l),
+(257,370,l),
+(259,369,l),
+(419,0,l),
+(421,0,l),
+(261,370,l),
+(259,371,l),
+(122,680,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(483,680,l),
+(259,371,l),
+(257,370,l),
+(-6,0,l),
+(-4,0,l),
+(259,369,l),
+(261,370,l),
+(485,680,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 303;
+};
+};
+width = 487;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (220,0);
+},
+{
+name = bottomright;
+pos = (428,0);
+},
+{
+name = top;
+pos = (316,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(108,682,l),
+(253,370,l),
+(267,345,l),
+(420,0,l),
+(453,0,l),
+(287,370,l),
+(272,393,l),
+(142,682,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(482,682,l),
+(272,393,l),
+(251,370,l),
+(-10,0,l),
+(24,0,l),
+(267,345,l),
+(289,370,l),
+(517,682,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 316;
+};
+};
+width = 517;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (246,0);
+},
+{
+name = bottomright;
+pos = (470,0);
+},
+{
+name = top;
+pos = (343,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(99,689,l),
+(242,367,l),
+(292,305,l),
+(405,0,l),
+(508,0,l),
+(351,372,l),
+(301,430,l),
+(202,689,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(479,689,l),
+(301,430,l),
+(239,367,l),
+(-17,0,l),
+(88,0,l),
+(292,305,l),
+(354,372,l),
+(583,689,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 343;
+};
+};
+width = 566;
+}
+);
+unicode = 119883;
+}

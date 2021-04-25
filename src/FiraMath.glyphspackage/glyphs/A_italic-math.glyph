@@ -1,0 +1,207 @@
+{
+color = 1;
+glyphname = "Aitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (252,0);
+},
+{
+name = ogonek;
+pos = (505,0);
+},
+{
+name = top;
+pos = (347,680);
+},
+{
+name = topleft;
+pos = (239,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(346,680,l),
+(9,0,l),
+(11,0,l),
+(346,676,l),
+(493,0,l),
+(495,0,l),
+(347,680,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(117,215,l),
+(115,213,l),
+(448,213,l),
+(447,215,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 347;
+};
+};
+width = 576;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = ogonek;
+pos = (508,0);
+},
+{
+name = top;
+pos = (374,696);
+},
+{
+name = topleft;
+pos = (222,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(253,696,l),
+(-43,0,l),
+(168,0,l),
+(351,567,l),
+(382,0,l),
+(596,0,l),
+(495,696,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(244,279,l),
+(196,135,l),
+(389,135,l),
+(381,279,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 374;
+};
+};
+width = 629;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (254,0);
+},
+{
+name = ogonek;
+pos = (518,0);
+},
+{
+name = top;
+pos = (350,682);
+},
+{
+name = topleft;
+pos = (241,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(331,682,l),
+(0,0,l),
+(32,0,l),
+(347,657,l),
+(476,0,l),
+(508,0,l),
+(369,682,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(131,228,l),
+(115,199,l),
+(447,199,l),
+(442,228,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 350;
+};
+};
+width = 582;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (262,0);
+},
+{
+name = ogonek;
+pos = (511,0);
+},
+{
+name = top;
+pos = (360,689);
+},
+{
+name = topleft;
+pos = (243,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,689,l),
+(-16,0,l),
+(81,0,l),
+(348,610,l),
+(443,0,l),
+(540,0,l),
+(419,689,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(174,250,l),
+(140,173,l),
+(428,173,l),
+(416,250,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 360;
+};
+};
+width = 599;
+}
+);
+unicode = 119860;
+}

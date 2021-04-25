@@ -1,0 +1,181 @@
+{
+color = 1;
+glyphname = "Nitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = top;
+pos = (399,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(499,696,l),
+(469,484,ls),
+(450,348,o),
+(454,268,o),
+(461,169,c),
+(372,696,l),
+(122,696,l),
+(25,0,l),
+(201,0,l),
+(230,205,ls),
+(249,344,o),
+(244,440,o),
+(239,527,c),
+(324,0,l),
+(578,0,l),
+(675,696,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 399;
+};
+};
+width = 679;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (295,0);
+},
+{
+name = top;
+pos = (400,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(591,680,l),
+(515,136,l),
+(509,95,o),
+(502,45,o),
+(496,4,c),
+(202,680,l),
+(199,680,l),
+(104,0,l),
+(106,0,l),
+(186,572,l),
+(193,622,o),
+(197,650,o),
+(201,677,c),
+(495,0,l),
+(498,0,l),
+(593,680,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 400;
+};
+};
+width = 674;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (307,0);
+},
+{
+name = top;
+pos = (410,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(585,682,l),
+(522,233,l),
+(509,141,o),
+(502,76,o),
+(499,34,c),
+(230,682,l),
+(191,682,l),
+(95,0,l),
+(125,0,l),
+(187,437,l),
+(204,556,o),
+(210,607,o),
+(212,651,c),
+(481,0,l),
+(519,0,l),
+(615,682,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 410;
+};
+};
+width = 688;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (319,0);
+},
+{
+name = top;
+pos = (426,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(565,689,l),
+(512,316,ls),
+(501,232,o),
+(497,172,o),
+(497,81,c),
+(299,689,l),
+(175,689,l),
+(78,0,l),
+(167,0,l),
+(211,313,ls),
+(229,441,o),
+(236,523,o),
+(237,607,c),
+(434,0,l),
+(557,0,l),
+(654,689,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 426;
+};
+};
+width = 709;
+}
+);
+metricLeft = "Hitalic-math";
+metricRight = "Hitalic-math";
+unicode = 119873;
+}

@@ -1,0 +1,207 @@
+{
+color = 4;
+glyphname = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (278,0);
+},
+{
+name = ogonek;
+pos = (531,0);
+},
+{
+name = top;
+pos = (278,680);
+},
+{
+name = topleft;
+pos = (170,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,680,l),
+(35,0,l),
+(37,0,l),
+(277,678,l),
+(519,0,l),
+(521,0,l),
+(278,680,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(112,215,l),
+(112,213,l),
+(443,213,l),
+(443,215,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 277;
+};
+};
+width = 556;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = ogonek;
+pos = (526,0);
+},
+{
+name = top;
+pos = (301,696);
+},
+{
+name = topleft;
+pos = (150,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,696,l),
+(-25,0,l),
+(190,0,l),
+(298,552,l),
+(408,0,l),
+(626,0,l),
+(424,696,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(229,279,l),
+(200,135,l),
+(397,135,l),
+(368,279,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 301;
+};
+};
+width = 601;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (279,0);
+},
+{
+name = ogonek;
+pos = (543,0);
+},
+{
+name = top;
+pos = (279,682);
+},
+{
+name = topleft;
+pos = (170,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(260,682,l),
+(25,0,l),
+(56,0,l),
+(279,657,l),
+(500,0,l),
+(533,0,l),
+(298,682,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(123,228,l),
+(112,199,l),
+(444,199,l),
+(434,228,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 279;
+};
+};
+width = 558;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (287,0);
+},
+{
+name = ogonek;
+pos = (537,0);
+},
+{
+name = top;
+pos = (287,689);
+},
+{
+name = topleft;
+pos = (170,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(227,689,l),
+(6,0,l),
+(102,0,l),
+(285,610,l),
+(467,0,l),
+(567,0,l),
+(347,689,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(162,250,l),
+(139,173,l),
+(430,173,l),
+(407,250,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 287;
+};
+};
+width = 573;
+}
+);
+unicode = 65;
+}

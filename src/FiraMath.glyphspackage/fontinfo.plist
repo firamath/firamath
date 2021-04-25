@@ -1,0 +1,1266 @@
+{
+.appVersion = "3079";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+customParameters = (
+{
+name = "Don't use Production Names";
+value = 1;
+}
+);
+date = "2019-08-26 07:59:07 +0000";
+familyName = "Fira Math";
+features = (
+{
+code = "# To make TeX work, `ssty` must exist, and `script math` is necessary.
+script math;
+
+sub doubleprimeReversed from [doubleprimeReversed.ssty1 doubleprimeReversed.ssty2];
+sub primeReversed from [primeReversed.ssty1 primeReversed.ssty2];
+sub quadrupleprime from [quadrupleprime.ssty1 quadrupleprime.ssty2];
+sub tripleprime from [tripleprime.ssty1 tripleprime.ssty2];
+sub tripleprimeReversed from [tripleprimeReversed.ssty1 tripleprimeReversed.ssty2];
+sub minute from [minute.ssty1 minute.ssty2];
+sub second from [second.ssty1 second.ssty2];
+";
+tag = ssty;
+}
+);
+fontMaster = (
+{
+axesValues = (
+2
+);
+customParameters = (
+{
+name = "Preview Ascender";
+value = 1200;
+},
+{
+name = "Preview Descender";
+value = 800;
+}
+);
+guides = (
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
+}
+);
+iconName = Light;
+id = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+metricValues = (
+{
+over = 12;
+pos = 727;
+},
+{
+over = 12;
+pos = 680;
+},
+{
+over = 12;
+pos = 517;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -188;
+}
+);
+name = Light;
+},
+{
+axesValues = (
+30
+);
+customParameters = (
+{
+name = "Preview Ascender";
+value = 1200;
+},
+{
+name = "Preview Descender";
+value = 800;
+}
+);
+guides = (
+{
+locked = 1;
+pos = (0,653);
+},
+{
+locked = 1;
+pos = (0,29);
+},
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
+}
+);
+iconName = SemiLight;
+id = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+metricValues = (
+{
+over = 12;
+pos = 734;
+},
+{
+over = 12;
+pos = 682;
+},
+{
+over = 12;
+pos = 520;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -193;
+}
+);
+name = SemiLight;
+},
+{
+axesValues = (
+92
+);
+customParameters = (
+{
+name = "Preview Ascender";
+value = 1200;
+},
+{
+name = "Preview Descender";
+value = 800;
+}
+);
+guides = (
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
+},
+{
+locked = 1;
+pos = (0,72);
+},
+{
+locked = 1;
+pos = (0,617);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
+}
+);
+id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+metricValues = (
+{
+over = 14;
+pos = 739;
+},
+{
+over = 14;
+pos = 689;
+},
+{
+over = 14;
+pos = 527;
+},
+{
+over = -14;
+},
+{
+over = -15;
+pos = -202;
+}
+);
+name = Regular;
+},
+{
+axesValues = (
+198
+);
+customParameters = (
+{
+name = "Preview Ascender";
+value = 1200;
+},
+{
+name = "Preview Descender";
+value = 800;
+}
+);
+guides = (
+{
+locked = 1;
+name = "Axis height";
+pos = (0,280);
+},
+{
+locked = 1;
+name = "Integral contour";
+pos = (0,300);
+},
+{
+locked = 1;
+pos = (0,580);
+},
+{
+locked = 1;
+pos = (0,116);
+}
+);
+iconName = Bold;
+id = "B26C53A4-97D1-457B-8232-65310EC64496";
+metricValues = (
+{
+over = 20;
+pos = 744;
+},
+{
+over = 20;
+pos = 696;
+},
+{
+over = 20;
+pos = 534;
+},
+{
+over = -20;
+},
+{
+over = -20;
+pos = -215;
+}
+);
+name = Bold;
+}
+);
+instances = (
+{
+axesValues = (
+2
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+}
+);
+instanceInterpolations = {
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 1;
+};
+name = Two;
+weightClass = 100;
+},
+{
+axesValues = (
+4
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+}
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.07143;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.92857;
+};
+name = Four;
+weightClass = 100;
+},
+{
+axesValues = (
+6
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+}
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.14286;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.85714;
+};
+name = Six;
+weightClass = 100;
+},
+{
+axesValues = (
+8
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+}
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.21429;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.78571;
+};
+name = Eight;
+weightClass = 100;
+},
+{
+axesValues = (
+14
+);
+customParameters = (
+{
+name = "Grid Spacing";
+value = 0;
+}
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.42857;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.57143;
+};
+name = Hair;
+weightClass = 100;
+},
+{
+axesValues = (
+22
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.71429;
+"D42A05F0-DBDC-4569-915A-03C7188507B6" = 0.28571;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+34
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.93548;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.06452;
+};
+name = UltraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+46
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.74194;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.25806;
+};
+name = ExtraLight;
+weightClass = 250;
+},
+{
+axesValues = (
+58
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.54839;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.45161;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+72
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.32258;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.67742;
+};
+name = SemiLight;
+weightClass = 350;
+},
+{
+axesValues = (
+84
+);
+instanceInterpolations = {
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = 0.12903;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.87097;
+};
+name = Book;
+weightClass = 350;
+},
+{
+axesValues = (
+92
+);
+instanceInterpolations = {
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+128
+);
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.33962;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.66038;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+142
+);
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.4717;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.5283;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+150
+);
+exports = 0;
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.54717;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.45283;
+};
+name = "Regular*";
+},
+{
+axesValues = (
+158
+);
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.62264;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.37736;
+};
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+178
+);
+customParameters = (
+{
+name = "Remove Glyphs";
+value = (
+"Abold-math",
+"Bbold-math",
+"Cbold-math",
+"Dbold-math",
+"Ebold-math",
+"Fbold-math",
+"Gbold-math",
+"Hbold-math",
+"Ibold-math",
+"Jbold-math",
+"Kbold-math",
+"Lbold-math",
+"Mbold-math",
+"Nbold-math",
+"Obold-math",
+"Pbold-math",
+"Qbold-math",
+"Rbold-math",
+"Sbold-math",
+"Tbold-math",
+"Ubold-math",
+"Vbold-math",
+"Wbold-math",
+"Xbold-math",
+"Ybold-math",
+"Zbold-math",
+"abold-math",
+"bbold-math",
+"cbold-math",
+"dbold-math",
+"ebold-math",
+"fbold-math",
+"gbold-math",
+"hbold-math",
+"ibold-math",
+"jbold-math",
+"kbold-math",
+"lbold-math",
+"mbold-math",
+"nbold-math",
+"obold-math",
+"pbold-math",
+"qbold-math",
+"rbold-math",
+"sbold-math",
+"tbold-math",
+"ubold-math",
+"vbold-math",
+"wbold-math",
+"xbold-math",
+"ybold-math",
+"zbold-math",
+u1D6A8,
+u1D6A9,
+u1D6AA,
+u1D6AB,
+u1D6AC,
+u1D6AD,
+u1D6AE,
+u1D6AF,
+u1D6B0,
+u1D6B1,
+u1D6B2,
+u1D6B3,
+u1D6B4,
+u1D6B5,
+u1D6B6,
+u1D6B7,
+u1D6B8,
+u1D6B9,
+u1D6BA,
+u1D6BB,
+u1D6BC,
+u1D6BD,
+u1D6BE,
+u1D6BF,
+u1D6C0,
+u1D6C1,
+u1D6C2,
+u1D6C3,
+u1D6C4,
+u1D6C5,
+u1D6C6,
+u1D6C7,
+u1D6C8,
+u1D6C9,
+u1D6CA,
+u1D6CB,
+u1D6CC,
+u1D6CD,
+u1D6CE,
+u1D6CF,
+u1D6D0,
+u1D6D1,
+u1D6D2,
+u1D6D3,
+u1D6D4,
+u1D6D5,
+u1D6D6,
+u1D6D7,
+u1D6D8,
+u1D6D9,
+u1D6DA,
+u1D6DB,
+u1D6DC,
+u1D6DD,
+u1D6DE,
+u1D6DF,
+u1D6E0,
+u1D6E1,
+"Abolditalic-math",
+"Bbolditalic-math",
+"Cbolditalic-math",
+"Dbolditalic-math",
+"Ebolditalic-math",
+"Fbolditalic-math",
+"Gbolditalic-math",
+"Hbolditalic-math",
+"Ibolditalic-math",
+"Jbolditalic-math",
+"Kbolditalic-math",
+"Lbolditalic-math",
+"Mbolditalic-math",
+"Nbolditalic-math",
+"Obolditalic-math",
+"Pbolditalic-math",
+"Qbolditalic-math",
+"Rbolditalic-math",
+"Sbolditalic-math",
+"Tbolditalic-math",
+"Ubolditalic-math",
+"Vbolditalic-math",
+"Wbolditalic-math",
+"Xbolditalic-math",
+"Ybolditalic-math",
+"Zbolditalic-math",
+"abolditalic-math",
+"bbolditalic-math",
+"cbolditalic-math",
+"dbolditalic-math",
+"ebolditalic-math",
+"fbolditalic-math",
+"gbolditalic-math",
+"hbolditalic-math",
+"ibolditalic-math",
+"jbolditalic-math",
+"kbolditalic-math",
+"lbolditalic-math",
+"mbolditalic-math",
+"nbolditalic-math",
+"obolditalic-math",
+"pbolditalic-math",
+"qbolditalic-math",
+"rbolditalic-math",
+"sbolditalic-math",
+"tbolditalic-math",
+"ubolditalic-math",
+"vbolditalic-math",
+"wbolditalic-math",
+"xbolditalic-math",
+"ybolditalic-math",
+"zbolditalic-math",
+u1D71C,
+u1D71D,
+u1D71E,
+u1D71F,
+u1D720,
+u1D721,
+u1D722,
+u1D723,
+u1D724,
+u1D725,
+u1D726,
+u1D727,
+u1D728,
+u1D729,
+u1D72A,
+u1D72B,
+u1D72C,
+u1D72D,
+u1D72E,
+u1D72F,
+u1D730,
+u1D731,
+u1D732,
+u1D733,
+u1D734,
+u1D735,
+u1D736,
+u1D737,
+u1D738,
+u1D739,
+u1D73A,
+u1D73B,
+u1D73C,
+u1D73D,
+u1D73E,
+u1D73F,
+u1D740,
+u1D741,
+u1D742,
+u1D743,
+u1D744,
+u1D745,
+u1D746,
+u1D747,
+u1D748,
+u1D749,
+u1D74A,
+u1D74B,
+u1D74C,
+u1D74D,
+u1D74E,
+u1D74F,
+u1D750,
+u1D751,
+u1D752,
+u1D753,
+u1D754,
+u1D755
+);
+}
+);
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 0.81132;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = 0.18868;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+198
+);
+customParameters = (
+{
+name = "Remove Glyphs";
+value = (
+"Abold-math",
+"Bbold-math",
+"Cbold-math",
+"Dbold-math",
+"Ebold-math",
+"Fbold-math",
+"Gbold-math",
+"Hbold-math",
+"Ibold-math",
+"Jbold-math",
+"Kbold-math",
+"Lbold-math",
+"Mbold-math",
+"Nbold-math",
+"Obold-math",
+"Pbold-math",
+"Qbold-math",
+"Rbold-math",
+"Sbold-math",
+"Tbold-math",
+"Ubold-math",
+"Vbold-math",
+"Wbold-math",
+"Xbold-math",
+"Ybold-math",
+"Zbold-math",
+"abold-math",
+"bbold-math",
+"cbold-math",
+"dbold-math",
+"ebold-math",
+"fbold-math",
+"gbold-math",
+"hbold-math",
+"ibold-math",
+"jbold-math",
+"kbold-math",
+"lbold-math",
+"mbold-math",
+"nbold-math",
+"obold-math",
+"pbold-math",
+"qbold-math",
+"rbold-math",
+"sbold-math",
+"tbold-math",
+"ubold-math",
+"vbold-math",
+"wbold-math",
+"xbold-math",
+"ybold-math",
+"zbold-math",
+u1D6A8,
+u1D6A9,
+u1D6AA,
+u1D6AB,
+u1D6AC,
+u1D6AD,
+u1D6AE,
+u1D6AF,
+u1D6B0,
+u1D6B1,
+u1D6B2,
+u1D6B3,
+u1D6B4,
+u1D6B5,
+u1D6B6,
+u1D6B7,
+u1D6B8,
+u1D6B9,
+u1D6BA,
+u1D6BB,
+u1D6BC,
+u1D6BD,
+u1D6BE,
+u1D6BF,
+u1D6C0,
+u1D6C1,
+u1D6C2,
+u1D6C3,
+u1D6C4,
+u1D6C5,
+u1D6C6,
+u1D6C7,
+u1D6C8,
+u1D6C9,
+u1D6CA,
+u1D6CB,
+u1D6CC,
+u1D6CD,
+u1D6CE,
+u1D6CF,
+u1D6D0,
+u1D6D1,
+u1D6D2,
+u1D6D3,
+u1D6D4,
+u1D6D5,
+u1D6D6,
+u1D6D7,
+u1D6D8,
+u1D6D9,
+u1D6DA,
+u1D6DB,
+u1D6DC,
+u1D6DD,
+u1D6DE,
+u1D6DF,
+u1D6E0,
+u1D6E1,
+"Abolditalic-math",
+"Bbolditalic-math",
+"Cbolditalic-math",
+"Dbolditalic-math",
+"Ebolditalic-math",
+"Fbolditalic-math",
+"Gbolditalic-math",
+"Hbolditalic-math",
+"Ibolditalic-math",
+"Jbolditalic-math",
+"Kbolditalic-math",
+"Lbolditalic-math",
+"Mbolditalic-math",
+"Nbolditalic-math",
+"Obolditalic-math",
+"Pbolditalic-math",
+"Qbolditalic-math",
+"Rbolditalic-math",
+"Sbolditalic-math",
+"Tbolditalic-math",
+"Ubolditalic-math",
+"Vbolditalic-math",
+"Wbolditalic-math",
+"Xbolditalic-math",
+"Ybolditalic-math",
+"Zbolditalic-math",
+"abolditalic-math",
+"bbolditalic-math",
+"cbolditalic-math",
+"dbolditalic-math",
+"ebolditalic-math",
+"fbolditalic-math",
+"gbolditalic-math",
+"hbolditalic-math",
+"ibolditalic-math",
+"jbolditalic-math",
+"kbolditalic-math",
+"lbolditalic-math",
+"mbolditalic-math",
+"nbolditalic-math",
+"obolditalic-math",
+"pbolditalic-math",
+"qbolditalic-math",
+"rbolditalic-math",
+"sbolditalic-math",
+"tbolditalic-math",
+"ubolditalic-math",
+"vbolditalic-math",
+"wbolditalic-math",
+"xbolditalic-math",
+"ybolditalic-math",
+"zbolditalic-math",
+u1D71C,
+u1D71D,
+u1D71E,
+u1D71F,
+u1D720,
+u1D721,
+u1D722,
+u1D723,
+u1D724,
+u1D725,
+u1D726,
+u1D727,
+u1D728,
+u1D729,
+u1D72A,
+u1D72B,
+u1D72C,
+u1D72D,
+u1D72E,
+u1D72F,
+u1D730,
+u1D731,
+u1D732,
+u1D733,
+u1D734,
+u1D735,
+u1D736,
+u1D737,
+u1D738,
+u1D739,
+u1D73A,
+u1D73B,
+u1D73C,
+u1D73D,
+u1D73E,
+u1D73F,
+u1D740,
+u1D741,
+u1D742,
+u1D743,
+u1D744,
+u1D745,
+u1D746,
+u1D747,
+u1D748,
+u1D749,
+u1D74A,
+u1D74B,
+u1D74C,
+u1D74D,
+u1D74E,
+u1D74F,
+u1D750,
+u1D751,
+u1D752,
+u1D753,
+u1D754,
+u1D755
+);
+}
+);
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 1;
+};
+name = Heavy;
+weightClass = 900;
+},
+{
+axesValues = (
+222
+);
+customParameters = (
+{
+name = "Remove Glyphs";
+value = (
+"Abold-math",
+"Bbold-math",
+"Cbold-math",
+"Dbold-math",
+"Ebold-math",
+"Fbold-math",
+"Gbold-math",
+"Hbold-math",
+"Ibold-math",
+"Jbold-math",
+"Kbold-math",
+"Lbold-math",
+"Mbold-math",
+"Nbold-math",
+"Obold-math",
+"Pbold-math",
+"Qbold-math",
+"Rbold-math",
+"Sbold-math",
+"Tbold-math",
+"Ubold-math",
+"Vbold-math",
+"Wbold-math",
+"Xbold-math",
+"Ybold-math",
+"Zbold-math",
+"abold-math",
+"bbold-math",
+"cbold-math",
+"dbold-math",
+"ebold-math",
+"fbold-math",
+"gbold-math",
+"hbold-math",
+"ibold-math",
+"jbold-math",
+"kbold-math",
+"lbold-math",
+"mbold-math",
+"nbold-math",
+"obold-math",
+"pbold-math",
+"qbold-math",
+"rbold-math",
+"sbold-math",
+"tbold-math",
+"ubold-math",
+"vbold-math",
+"wbold-math",
+"xbold-math",
+"ybold-math",
+"zbold-math",
+u1D6A8,
+u1D6A9,
+u1D6AA,
+u1D6AB,
+u1D6AC,
+u1D6AD,
+u1D6AE,
+u1D6AF,
+u1D6B0,
+u1D6B1,
+u1D6B2,
+u1D6B3,
+u1D6B4,
+u1D6B5,
+u1D6B6,
+u1D6B7,
+u1D6B8,
+u1D6B9,
+u1D6BA,
+u1D6BB,
+u1D6BC,
+u1D6BD,
+u1D6BE,
+u1D6BF,
+u1D6C0,
+u1D6C1,
+u1D6C2,
+u1D6C3,
+u1D6C4,
+u1D6C5,
+u1D6C6,
+u1D6C7,
+u1D6C8,
+u1D6C9,
+u1D6CA,
+u1D6CB,
+u1D6CC,
+u1D6CD,
+u1D6CE,
+u1D6CF,
+u1D6D0,
+u1D6D1,
+u1D6D2,
+u1D6D3,
+u1D6D4,
+u1D6D5,
+u1D6D6,
+u1D6D7,
+u1D6D8,
+u1D6D9,
+u1D6DA,
+u1D6DB,
+u1D6DC,
+u1D6DD,
+u1D6DE,
+u1D6DF,
+u1D6E0,
+u1D6E1,
+"Abolditalic-math",
+"Bbolditalic-math",
+"Cbolditalic-math",
+"Dbolditalic-math",
+"Ebolditalic-math",
+"Fbolditalic-math",
+"Gbolditalic-math",
+"Hbolditalic-math",
+"Ibolditalic-math",
+"Jbolditalic-math",
+"Kbolditalic-math",
+"Lbolditalic-math",
+"Mbolditalic-math",
+"Nbolditalic-math",
+"Obolditalic-math",
+"Pbolditalic-math",
+"Qbolditalic-math",
+"Rbolditalic-math",
+"Sbolditalic-math",
+"Tbolditalic-math",
+"Ubolditalic-math",
+"Vbolditalic-math",
+"Wbolditalic-math",
+"Xbolditalic-math",
+"Ybolditalic-math",
+"Zbolditalic-math",
+"abolditalic-math",
+"bbolditalic-math",
+"cbolditalic-math",
+"dbolditalic-math",
+"ebolditalic-math",
+"fbolditalic-math",
+"gbolditalic-math",
+"hbolditalic-math",
+"ibolditalic-math",
+"jbolditalic-math",
+"kbolditalic-math",
+"lbolditalic-math",
+"mbolditalic-math",
+"nbolditalic-math",
+"obolditalic-math",
+"pbolditalic-math",
+"qbolditalic-math",
+"rbolditalic-math",
+"sbolditalic-math",
+"tbolditalic-math",
+"ubolditalic-math",
+"vbolditalic-math",
+"wbolditalic-math",
+"xbolditalic-math",
+"ybolditalic-math",
+"zbolditalic-math",
+u1D71C,
+u1D71D,
+u1D71E,
+u1D71F,
+u1D720,
+u1D721,
+u1D722,
+u1D723,
+u1D724,
+u1D725,
+u1D726,
+u1D727,
+u1D728,
+u1D729,
+u1D72A,
+u1D72B,
+u1D72C,
+u1D72D,
+u1D72E,
+u1D72F,
+u1D730,
+u1D731,
+u1D732,
+u1D733,
+u1D734,
+u1D735,
+u1D736,
+u1D737,
+u1D738,
+u1D739,
+u1D73A,
+u1D73B,
+u1D73C,
+u1D73D,
+u1D73E,
+u1D73F,
+u1D740,
+u1D741,
+u1D742,
+u1D743,
+u1D744,
+u1D745,
+u1D746,
+u1D747,
+u1D748,
+u1D749,
+u1D74A,
+u1D74B,
+u1D74C,
+u1D74D,
+u1D74E,
+u1D74F,
+u1D750,
+u1D751,
+u1D752,
+u1D753,
+u1D754,
+u1D755
+);
+}
+);
+instanceInterpolations = {
+"B26C53A4-97D1-457B-8232-65310EC64496" = 1.18464;
+"B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3" = -0.07143;
+"D92A4C0B-EB2A-4209-AFE3-2959A8B274DD" = -0.11321;
+};
+name = Ultra;
+weightClass = 950;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+note = "# Colors
+
+- No color:    new glyphs
+- Light green: copy from FiraSans/FiraGO
+- Orange:      copy from FiraSans/FiraGO, with remapping
+- Red:         copy from FiraSans/FiraGO, with small modification (flip/rotate/reconnect)
+- Purple:      unfinished/TODO
+- Cyan:        has alternate (bracket) layers
+- Blue:        has intermediate (brace) layers
+";
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2018–2021 by Xiangdong Zeng. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Sans-serif font with Unicode math support";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1.";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+}
+);
+settings = {
+keepAlternatesTogether = 1;
+};
+unitsPerEm = 1000;
+versionMajor = 0;
+versionMinor = 500;
+}

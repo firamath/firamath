@@ -1,0 +1,99 @@
+{
+glyphname = radical.top;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(616,0,l),
+(616,2358,l),
+(856,2358,l),
+(856,2360,l),
+(614,2360,l),
+(614,0,l)
+);
+}
+);
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
+width = 836;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(673,0,l),
+(673,2330,l),
+(913,2330,l),
+(913,2360,l),
+(643,2360,l),
+(643,0,l)
+);
+}
+);
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
+width = 883;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(781,0,l),
+(781,2283,l),
+(1021,2283,l),
+(1021,2360,l),
+(685,2360,l),
+(685,0,l)
+);
+}
+);
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
+width = 981;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(911,0,l),
+(911,2210,l),
+(1151,2210,l),
+(1151,2360,l),
+(719,2360,l),
+(719,0,l)
+);
+}
+);
+userData = {
+math = {
+endConnector = 0;
+startConnector = 60;
+};
+};
+width = 1073;
+}
+);
+metricRight = "=radicalsymbolbottom-240";
+metricWidth = radicalsymbolbottom;
+}
