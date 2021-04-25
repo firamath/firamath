@@ -202,13 +202,15 @@ class Font:
 
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
+        master_glyph_info = master_data['MathGlyphInfo']
+        master_variants = master_data['MathVariants']
         for style, interpolation in self.interpolations.items():
             def _generate(values):
                 return round(sum(values[i] * v for i, v in interpolation))
             def _variant(name):
                 return {
                     glyph: {g: _generate(values) for g, values in variants.items()}
-                    for glyph, variants in master_data['MathVariants'][name].items()
+                    for glyph, variants in master_variants[name].items()
                 }
             def _componet(name):
                 return {
@@ -226,7 +228,7 @@ class Font:
                             for part in componet['parts']
                         ]
                     }
-                    for glyph, componet in master_data['MathVariants'][name].items()
+                    for glyph, componet in master_variants[name].items()
                 }
             math_table = MathTable()
             for name, d in master_data['MathConstants'].items():
@@ -234,10 +236,13 @@ class Font:
                     'value': _generate(d['value']),
                     'isMathValue': d['isMathValue'],
                 }
-            for name, d in master_data['MathGlyphInfo'].items():
-                math_table.glyph_info[name] = {g: _generate(values) for g, values in d.items()}
+            for name in ['ItalicCorrection', 'TopAccent']:
+                math_table.glyph_info[name] = {
+                    g: _generate(values) for g, values in master_glyph_info[name].items()
+                }
+            math_table.glyph_info['ExtendedShapes'] = master_glyph_info['ExtendedShapes']
             math_table.variants['MinConnectorOverlap'] = \
-                _generate(master_data['MathVariants']['MinConnectorOverlap'])
+                _generate(master_variants['MinConnectorOverlap'])
             math_table.variants['HorizontalVariants'] = _variant('HorizontalVariants')
             math_table.variants['VerticalVariants'] = _variant('VerticalVariants')
             math_table.variants['HorizontalComponents'] = _componet('HorizontalComponents')
@@ -334,7 +339,7 @@ class MathTable:
         self.glyph_info = {
             'ItalicCorrection': {},
             'TopAccent': {},
-            # 'ExtendedShapes': [],
+            'ExtendedShapes': [],
         }
         self.variants = {}
 
@@ -363,7 +368,7 @@ class MathTable:
         glyph_info = otTables.MathGlyphInfo()
         glyph_info.MathItalicsCorrectionInfo = italic_corr
         glyph_info.MathTopAccentAttachment = top_accent
-        glyph_info.ExtendedShapeCoverage = None
+        glyph_info.ExtendedShapeCoverage = self._coverage(self.glyph_info['ExtendedShapes'])
         glyph_info.MathKernInfo = None
         return glyph_info
 
