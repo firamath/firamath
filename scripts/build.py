@@ -159,9 +159,9 @@ class Font:
         return GSNode(position, type=node_0.type, smooth=node_0.smooth)
 
     def to_ufos(self, interpolate: bool = True, default_index: int = None) -> list:
-        ufos, instance_data = glyphsLib.to_ufos(self.font, include_instances=True)
+        master_ufos, instance_data = glyphsLib.to_ufos(self.font, include_instances=True)
         if not interpolate:
-            return ufos
+            return master_ufos
         designspace: DesignSpaceDocument = instance_data['designspace']
         if default_index:
             designspace.default = designspace.sources[default_index]
@@ -179,8 +179,16 @@ class Font:
                 i.axes[axis_index] for i in self.font.instances if isinstance(i.weight, str)
             )
         instantiator = Instantiator.from_designspace(designspace)
-        with multiprocessing.Pool() as p:
-            return list(p.map(instantiator.generate_instance, designspace.instances))
+        return [self._generate_instance(instantiator, i) for i in designspace.instances]
+
+    def _generate_instance(self, instantiator: Instantiator, instance: list):
+        ufo = instantiator.generate_instance(instance)
+        if custom_parameters := instance.lib.get('com.schriftgestaltung.customParameters'):
+            if remove_glyphs := dict(custom_parameters).get('Remove Glyphs'):
+                ufo.lib['public.skipExportGlyphs'] = remove_glyphs
+        for glyph in (g for g in ufo if '.BRACKET.' in g.name):
+            glyph.lib['com.schriftgestaltung.Glyphs.Export'] = False
+        return ufo
 
     def add_math_table(self, toml_path: str, input_dir: str, output_dir: str = None):
         if not output_dir:
@@ -204,7 +212,12 @@ class Font:
         master_data = self._parse_master_math_table(toml_path)
         master_glyph_info = master_data['MathGlyphInfo']
         master_variants = master_data['MathVariants']
+
         for style, interpolation in self.interpolations.items():
+            instance = next(i for i in self.font.instances if i.name == style)
+            remove_glyphs = instance.customParameters['Remove Glyphs']
+            def _is_removed_glyph(glyph):
+                return glyph in remove_glyphs if remove_glyphs else False
             def _generate(values):
                 return round(sum(values[i] * v for i, v in interpolation))
             def _variant(name):
@@ -239,6 +252,7 @@ class Font:
             for name in ['ItalicCorrection', 'TopAccent']:
                 math_table.glyph_info[name] = {
                     g: _generate(values) for g, values in master_glyph_info[name].items()
+                    if not _is_removed_glyph(g)
                 }
             math_table.glyph_info['ExtendedShapes'] = master_glyph_info['ExtendedShapes']
             math_table.variants['MinConnectorOverlap'] = \
@@ -451,7 +465,7 @@ class Timer:
         print('Elapsed: {:.3}s\n'.format(time.time() - self.start_time), file=sys.stderr)
 
 
-def build(input_path: str, toml_path: str, output_dir: str):
+def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = True):
     '''Build fonts from Glyphs source.
 
     1. Read the `.glyphspackage` directory into a `GSFont` object with preprocessing
@@ -471,14 +485,18 @@ def build(input_path: str, toml_path: str, output_dir: str):
         ufos = font.to_ufos()
     with Timer('Generating OTF...'):
         _build = functools.partial(_build_otf, output_dir=output_dir)
-        with multiprocessing.Pool() as p:
-            p.map(_build, ufos)
+        if parallel:
+            with multiprocessing.Pool() as p:
+                p.map(_build, ufos)
+        else:
+            _build_otf(ufos, output_dir)
     with Timer('Adding MATH table...'):
         font.add_math_table(toml_path, input_dir=output_dir)
 
 
 def _build_otf(ufo, output_dir):
-    FontProject(verbose='WARNING').build_otfs([ufo], output_dir=output_dir)
+    ufos = ufo if isinstance(ufo, list) else [ufo]
+    FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
 
 
 if __name__ == '__main__':
