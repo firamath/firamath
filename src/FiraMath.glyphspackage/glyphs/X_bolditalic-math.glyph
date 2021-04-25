@@ -191,11 +191,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 391;
-};
-};
 width = 668;
 }
 );
