@@ -231,11 +231,23 @@ MinConnectorOverlap = [20, 20, 20, 20]
     { name = "tripleVerticalBarDelimiter.ext", isExtender = true  },
 ]
 
-# "radical".italicsCorrection = 0
-# "radical".parts = []
+"radical".italicsCorrection = 0
+"radical".parts = [
+    { name = "radicalsymbolbottom", isExtender = false },
+    { name = "radical.ext",         isExtender = true  },
+    { name = "radical.top",         isExtender = false },
+]
 
-# "cuberoot".italicsCorrection = 0
-# "cuberoot".parts = []
+"cuberoot".italicsCorrection = 0
+"cuberoot".parts = [
+    { name = "cuberoot.bot", isExtender = false },
+    { name = "radical.ext",  isExtender = true  },
+    { name = "radical.top",  isExtender = false },
+]
 
-# "fourthroot".italicsCorrection = 0
-# "fourthroot".parts = []
+"fourthroot".italicsCorrection = 0
+"fourthroot".parts = [
+    { name = "fourthroot.bot", isExtender = false },
+    { name = "radical.ext",    isExtender = true  },
+    { name = "radical.top",    isExtender = false },
+]

@@ -1811,7 +1811,6 @@
 				<string>rightcurlybracketmiddlepiece</string>
 				<string>rightcurlybracketupperhook</string>
 				<string>braceright.ext</string>
-				<string>curlybracketextension</string>
 				<string>leftCeiling.top</string>
 				<string>leftCeiling.ext</string>
 				<string>rightCeiling.top</string>
@@ -1821,18 +1820,13 @@
 				<string>rightFloor.bot</string>
 				<string>rightFloor.ext</string>
 				<string>leftverticalboxline</string>
-				<string>rightverticalboxline</string>
 				<string>dblverticalbar.ext</string>
 				<string>tripleVerticalBarDelimiter.ext</string>
 				<string>radicalsymbolbottom</string>
 				<string>radical.top</string>
 				<string>radical.ext</string>
 				<string>cuberoot.bot</string>
-				<!-- <string>cuberoot.top</string> -->
-				<!-- <string>cuberoot.ext</string> -->
 				<string>fourthroot.bot</string>
-				<!-- <string>fourthroot.top</string> -->
-				<!-- <string>fourthroot.ext</string> -->
 			</array>
 		</dict>
 		<dict>

@@ -4,6 +4,12 @@ export = 0;
 glyphname = _smart.radical;
 layers = (
 {
+anchors = (
+{
+name = radical;
+pos = (194,508);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 partSelection = {
 size = 1;
@@ -29,6 +35,12 @@ nodes = (
 width = 553;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (205,508);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 partSelection = {
 size = 1;
@@ -54,6 +66,12 @@ nodes = (
 width = 580;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (210,508);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 partSelection = {
 size = 1;
@@ -79,6 +97,12 @@ nodes = (
 width = 649;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (232,508);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 partSelection = {
 size = 1;
@@ -104,6 +128,12 @@ nodes = (
 width = 801;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (258,1550);
+}
+);
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 layerId = "1E8FEF3C-455F-41D7-BBD1-D0CF41D7F57B";
 name = "Regular-15";
@@ -131,6 +161,12 @@ nodes = (
 width = 929;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (250,1550);
+}
+);
 associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 layerId = "5644E0BB-B2CD-4585-8D2E-EE28E5368967";
 name = "Light-15";
@@ -158,6 +194,12 @@ nodes = (
 width = 789;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (250,1550);
+}
+);
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 layerId = "30988D40-3092-42AA-9634-713F1E2120BA";
 name = "SemiLight-15";
@@ -185,6 +227,12 @@ nodes = (
 width = 830;
 },
 {
+anchors = (
+{
+name = radical;
+pos = (280,1550);
+}
+);
 associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
 layerId = "82956E2F-14DD-40DD-96A8-372C981AE741";
 name = "Bold-15";

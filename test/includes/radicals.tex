@@ -1,0 +1,31 @@
+\section{Radicals}
+
+\cs_set:Npn \@@_nested_radicals:nnnn #1#2#3#4
+  {
+    \tl_set:Nn \l_@@_tmpa_tl {#3}
+    \int_step_inline:nn {#4}
+      { \tl_set:Nx \l_@@_tmpa_tl { \exp_not:n {#1} { #2 \exp_not:o { \l_@@_tmpa_tl } } } }
+    \tl_use:N \l_@@_tmpa_tl
+  }
+
+\@@_weight_test:n
+  {
+    \[
+      \sqrt2   + \cuberoot2   + \fourthroot2   + \sqrt[n]{2} \quad
+      \sqrt3   + \cuberoot3   + \fourthroot3   + \sqrt[n]{3} \quad
+      \sqrt{x} + \cuberoot{x} + \fourthroot{x} + \sqrt[n]{x} \quad
+      \sqrt{h} + \cuberoot{h} + \fourthroot{h} + \sqrt[n]{h}
+    \]
+  }
+
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \@@_nested_radicals:nnnn { \sqrt       } {} { \alpha  } { 24 } \\
+      \@@_nested_radicals:nnnn { \cuberoot   } {} { \beta   } { 24 } \\
+      \@@_nested_radicals:nnnn { \fourthroot } {} { \gamma  } { 24 } \\
+      \@@_nested_radicals:nnnn { \sqrt [k]   } {} { \delta  } {  5 } +
+      \@@_nested_radicals:nnnn { \sqrt       } { 1+ } { \frac xy  } { 16 } \\
+      \@@_nested_radicals:nnnn { \sqrt } {} { \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix} } { 40 }
+    \end{gather*}
+  }

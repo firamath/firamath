@@ -13,7 +13,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -33,7 +32,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -53,7 +51,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -73,7 +70,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -98,7 +94,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -123,7 +118,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -148,7 +142,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
@@ -173,7 +166,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-alignment = -1;
 piece = {
 Group = 1;
 };
