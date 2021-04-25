@@ -84,14 +84,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(122,698,l),
-(25,0,l),
-(251,0,l),
-(325,527,l),
-(452,527,l),
-(378,0,l),
-(604,0,l),
-(701,698,l)
+(142,698,l),
+(45,0,l),
+(271,0,l),
+(345,527,l),
+(472,527,l),
+(398,0,l),
+(624,0,l),
+(721,698,l)
 );
 }
 );
@@ -101,7 +101,7 @@ italicCorrection = 60;
 topAccent = 412;
 };
 };
-width = 705;
+width = 744;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -135,8 +135,6 @@ topAccent = 432;
 width = 744;
 }
 );
-metricLeft = u1D6F1;
-metricRight = u1D6F1;
 script = math;
 unicode = 120619;
 }

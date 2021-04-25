@@ -71,10 +71,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(122,698,l),
-(25,0,l),
-(251,0,l),
-(349,698,l)
+(142,698,l),
+(45,0,l),
+(271,0,l),
+(369,698,l)
 );
 }
 );
@@ -84,7 +84,7 @@ italicCorrection = 60;
 topAccent = 236;
 };
 };
-width = 353;
+width = 392;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -114,7 +114,5 @@ topAccent = 256;
 width = 392;
 }
 );
-metricLeft = "Iitalic-math";
-metricRight = "Iitalic-math";
 unicode = 119920;
 }
