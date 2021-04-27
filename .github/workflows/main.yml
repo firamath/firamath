@@ -1,4 +1,4 @@
-name: CI
+name: build
 on: push
 jobs:
   build:
@@ -12,13 +12,10 @@ jobs:
           python -m pip install -U pip
           pip install -r requirements.txt
       - name: Patch glyphsLib
-        run: |
-          patch $(python -c "import os, glyphsLib; print(os.path.join(glyphsLib.__path__[0], 'builder', 'axes.py'))") scripts/axes.py.diff
+        run: patch $(python -c "import os, glyphsLib; print(os.path.join(glyphsLib.__path__[0], 'builder', 'axes.py'))") scripts/axes.py.diff
       - name: Build fonts
-        run: |
-          python scripts/build.py
-          zip -j build/firamath-otf.zip build/*.otf
+        run: python scripts/build.py
       - uses: actions/upload-artifact@v2
         with:
-          name: firamath-otf.zip
-          path: build/firamath-otf.zip
+          name: firamath-otf
+          path: build/*.otf

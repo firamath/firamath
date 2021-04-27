@@ -1,6 +1,6 @@
 # Fira Math
 
-[![Build Status](https://github.com/firamath/firamath/workflows/CI/badge.svg)](https://github.com/firamath/firamath/actions/workflows/main.yml)
+[![Build Status](https://github.com/firamath/firamath/workflows/build/badge.svg)](https://github.com/firamath/firamath/actions/workflows/main.yml)
 [![CTAN](https://img.shields.io/ctan/v/firamath.svg)](https://www.ctan.org/pkg/firamath)
 [![GitHub release](https://img.shields.io/github/release/firamath/firamath/all.svg)](https://github.com/firamath/firamath/releases/latest)
 
