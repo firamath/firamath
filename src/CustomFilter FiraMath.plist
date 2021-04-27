@@ -1778,6 +1778,26 @@
 			<key>list</key>
 			<array>
 				<string>horizontallineextension</string>
+				<string>topparenthesis.left</string>
+				<string>topparenthesis.right</string>
+				<string>topparenthesis.ext</string>
+				<string>bottomparenthesis.left</string>
+				<string>bottomparenthesis.right</string>
+				<string>bottomparenthesis.ext</string>
+				<string>topsquarebracket.left</string>
+				<string>topsquarebracket.right</string>
+				<string>topsquarebracket.ext</string>
+				<string>bottomsquarebracket.left</string>
+				<string>bottomsquarebracket.right</string>
+				<string>bottomsquarebracket.ext</string>
+				<string>topcurlybracket.left</string>
+				<string>topcurlybracket.mid</string>
+				<string>topcurlybracket.right</string>
+				<string>topcurlybracket.ext</string>
+				<string>bottomcurlybracket.left</string>
+				<string>bottomcurlybracket.mid</string>
+				<string>bottomcurlybracket.right</string>
+				<string>bottomcurlybracket.ext</string>
 			</array>
 		</dict>
 		<dict>
