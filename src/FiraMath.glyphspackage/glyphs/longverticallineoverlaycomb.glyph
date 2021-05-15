@@ -1,0 +1,86 @@
+{
+glyphname = longverticallineoverlaycomb;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(32,0,l),
+(32,640,l),
+(30,640,l),
+(30,0,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 31;
+};
+};
+width = 62;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(58,0,l),
+(58,640,l),
+(30,640,l),
+(30,0,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 44;
+};
+};
+width = 88;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(94,0,l),
+(94,640,l),
+(30,640,l),
+(30,0,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 62;
+};
+};
+width = 124;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(142,0,l),
+(142,640,l),
+(30,640,l),
+(30,0,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 86;
+};
+};
+width = 172;
+}
+);
+unicode = 8402;
+}

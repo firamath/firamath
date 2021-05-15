@@ -1,0 +1,94 @@
+{
+glyphname = AnnuitySymbol;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(470,-120,l),
+(470,680,l),
+(30,680,l),
+(30,678,l),
+(468,678,l),
+(468,-120,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 249;
+};
+};
+width = 500;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(510,-120,l),
+(510,680,l),
+(30,680,l),
+(30,652,l),
+(482,652,l),
+(482,-120,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 256;
+};
+};
+width = 540;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,-120,l),
+(630,680,l),
+(30,680,l),
+(30,622,l),
+(566,622,l),
+(566,-120,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 298;
+};
+};
+width = 660;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(770,-120,l),
+(770,712,l),
+(30,712,l),
+(30,604,l),
+(658,604,l),
+(658,-120,l)
+);
+}
+);
+userData = {
+math = {
+topAccent = 344;
+};
+};
+width = 800;
+}
+);
+unicode = 8423;
+}
