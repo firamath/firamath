@@ -1,5 +1,5 @@
 {
-glyphname = squaredRisingDiagonalSlash;
+glyphname = blackSquare;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,14 +7,11 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(599,557,l),
-(598,559,l),
-(41,3,l),
-(42,1,l)
+(600,0,l),
+(600,560,l),
+(40,560,l),
+(40,0,l)
 );
-},
-{
-ref = whiteSquare;
 }
 );
 width = 640;
@@ -25,14 +22,11 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(598,532,l),
-(578,552,l),
-(54,28,l),
-(74,8,l)
+(612,-6,l),
+(612,566,l),
+(40,566,l),
+(40,-6,l)
 );
-},
-{
-ref = whiteSquare;
 }
 );
 width = 652;
@@ -43,14 +37,11 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(598,495,l),
-(547,546,l),
-(66,65,l),
-(117,14,l)
+(624,-12,l),
+(624,572,l),
+(40,572,l),
+(40,-12,l)
 );
-},
-{
-ref = whiteSquare;
 }
 );
 width = 664;
@@ -61,20 +52,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(566,421,l),
-(481,506,l),
-(114,139,l),
-(199,54,l)
+(640,-20,l),
+(640,580,l),
+(40,580,l),
+(40,-20,l)
 );
-},
-{
-ref = whiteSquare;
 }
 );
 width = 680;
 }
 );
-metricLeft = squaredplus;
-metricRight = squaredplus;
-unicode = 10692;
+metricLeft = whiteSquare;
+metricRight = whiteSquare;
+unicode = 9632;
 }
