@@ -96,5 +96,6 @@ width = 948;
 );
 metricLeft = largeCircle;
 metricRight = largeCircle;
+subCategory = Geometry;
 unicode = 11044;
 }

@@ -50,5 +50,6 @@ scale = (-1,1);
 width = 680;
 }
 );
+subCategory = Geometry;
 unicode = 11028;
 }

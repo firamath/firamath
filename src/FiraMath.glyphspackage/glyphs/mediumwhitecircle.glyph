@@ -163,5 +163,6 @@ width = 560;
 }
 );
 metricRight = "=|";
+subCategory = Geometry;
 unicode = 9900;
 }

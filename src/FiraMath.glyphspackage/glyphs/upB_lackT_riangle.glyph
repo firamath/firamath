@@ -1,5 +1,5 @@
 {
-glyphname = upWhiteTriangle;
+glyphname = upBlackTriangle;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -10,14 +10,6 @@ nodes = (
 (666,-11,l),
 (330,571,l),
 (-6,-11,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(330,567,l),
-(663,-9,l),
-(-3,-9,l)
 );
 }
 );
@@ -33,14 +25,6 @@ nodes = (
 (336,580,l),
 (-10,-20,l)
 );
-},
-{
-closed = 1;
-nodes = (
-(336,520,l),
-(630,10,l),
-(42,10,l)
-);
 }
 );
 width = 672;
@@ -54,14 +38,6 @@ nodes = (
 (698,-28,l),
 (342,588,l),
 (-14,-28,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(342,436,l),
-(566,48,l),
-(118,48,l)
 );
 }
 );
@@ -77,20 +53,11 @@ nodes = (
 (350,599,l),
 (-18,-39,l)
 );
-},
-{
-closed = 1;
-nodes = (
-(350,326,l),
-(482,97,l),
-(218,97,l)
-);
 }
 );
 width = 700;
 }
 );
-metricLeft = upBlackTriangle;
-metricRight = upBlackTriangle;
-unicode = 9651;
+metricRight = "=|";
+unicode = 9650;
 }
