@@ -1,0 +1,83 @@
+{
+glyphname = dash.circled;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,279,l),
+(520,281,l),
+(160,281,l),
+(160,279,l)
+);
+},
+{
+pos = (20,0);
+ref = whiteCircle;
+}
+);
+width = 680;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,266,l),
+(520,294,l),
+(160,294,l),
+(160,266,l)
+);
+},
+{
+pos = (14,0);
+ref = whiteCircle;
+}
+);
+width = 680;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,244,l),
+(520,316,l),
+(160,316,l),
+(160,244,l)
+);
+},
+{
+pos = (8,0);
+ref = whiteCircle;
+}
+);
+width = 680;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,214,l),
+(484,346,l),
+(196,346,l),
+(196,214,l)
+);
+},
+{
+ref = whiteCircle;
+}
+);
+width = 680;
+}
+);
+metricLeft = plus.circled;
+metricRight = plus.circled;
+unicode = 8861;
+}

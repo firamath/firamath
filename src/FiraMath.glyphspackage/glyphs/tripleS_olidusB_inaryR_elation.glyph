@@ -1,0 +1,76 @@
+{
+glyphname = tripleSolidusBinaryRelation;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+ref = divisionslash;
+},
+{
+pos = (100,0);
+ref = divisionslash;
+},
+{
+pos = (200,0);
+ref = divisionslash;
+}
+);
+width = 740;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+ref = divisionslash;
+},
+{
+pos = (110,0);
+ref = divisionslash;
+},
+{
+pos = (220,0);
+ref = divisionslash;
+}
+);
+width = 770;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+ref = divisionslash;
+},
+{
+pos = (160,0);
+ref = divisionslash;
+},
+{
+pos = (320,0);
+ref = divisionslash;
+}
+);
+width = 880;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = divisionslash;
+},
+{
+pos = (200,0);
+ref = divisionslash;
+},
+{
+pos = (400,0);
+ref = divisionslash;
+}
+);
+width = 960;
+}
+);
+metricLeft = divisionslash;
+metricRight = divisionslash;
+unicode = 11003;
+}

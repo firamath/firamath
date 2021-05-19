@@ -1,0 +1,65 @@
+{
+glyphname = asteriskoperator.circled;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (20,0);
+ref = whiteCircle;
+},
+{
+pos = (126,-297);
+ref = asterisk;
+}
+);
+width = 680;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (14,0);
+ref = whiteCircle;
+},
+{
+pos = (123,-287);
+ref = asterisk;
+}
+);
+width = 680;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (8,0);
+ref = whiteCircle;
+},
+{
+pos = (130,-243);
+ref = asterisk;
+scale = (0.96,0.96);
+}
+);
+width = 680;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+ref = whiteCircle;
+},
+{
+pos = (136,-198);
+ref = asterisk;
+scale = (0.9,0.9);
+}
+);
+width = 680;
+}
+);
+metricLeft = plus.circled;
+metricRight = plus.circled;
+unicode = 8859;
+}
