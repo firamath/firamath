@@ -1,0 +1,52 @@
+{
+glyphname = lowerHalfBlackWhiteCircle;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+angle = 90;
+pos = (600,-40);
+ref = leftHalfBlackWhiteCircle;
+}
+);
+width = 640;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+angle = 90;
+pos = (606,-46);
+ref = leftHalfBlackWhiteCircle;
+}
+);
+width = 652;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+angle = 90;
+pos = (612,-52);
+ref = leftHalfBlackWhiteCircle;
+}
+);
+width = 664;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+angle = 90;
+pos = (620,-60);
+ref = leftHalfBlackWhiteCircle;
+}
+);
+width = 680;
+}
+);
+metricLeft = blackCircle;
+metricRight = blackCircle;
+unicode = 9682;
+}

@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = asciicircum;
 layers = (
 {
@@ -36,7 +36,7 @@ nodes = (
 );
 }
 );
-width = 528;
+width = 518;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
