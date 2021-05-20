@@ -28,25 +28,23 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = -90;
-pos = (32,560);
+pos = (30,560);
 ref = upWhiteSmallTriangle;
 }
 );
-width = 564;
+width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 angle = -90;
-pos = (41,570);
+pos = (31,570);
 ref = upWhiteSmallTriangle;
 }
 );
-width = 578;
+width = 560;
 }
 );
-metricLeft = rightBlackSmallTriangle;
-metricRight = rightBlackSmallTriangle;
 unicode = 9657;
 }

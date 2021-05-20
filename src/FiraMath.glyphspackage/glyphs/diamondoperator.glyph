@@ -100,5 +100,6 @@ width = 560;
 );
 metricLeft = blackSmallDiamond;
 metricRight = blackSmallDiamond;
+subCategory = Geometry;
 unicode = 8900;
 }

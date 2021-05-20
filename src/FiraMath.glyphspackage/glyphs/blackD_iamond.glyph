@@ -62,7 +62,6 @@ nodes = (
 width = 720;
 }
 );
-metricLeft = whiteDiamond;
-metricRight = whiteDiamond;
+metricRight = "=|";
 unicode = 9670;
 }

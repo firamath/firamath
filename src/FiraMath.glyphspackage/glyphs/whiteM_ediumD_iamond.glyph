@@ -98,7 +98,8 @@ nodes = (
 width = 560;
 }
 );
-metricRight = "=|";
+metricLeft = blackMediumDiamond;
+metricRight = blackMediumDiamond;
 subCategory = Geometry;
 unicode = 11046;
 }

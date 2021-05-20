@@ -98,6 +98,7 @@ nodes = (
 width = 720;
 }
 );
-metricRight = "=|";
+metricLeft = blackDiamond;
+metricRight = blackDiamond;
 unicode = 9671;
 }

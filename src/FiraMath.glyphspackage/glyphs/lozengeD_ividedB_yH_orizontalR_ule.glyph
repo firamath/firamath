@@ -1,24 +1,80 @@
 {
-color = 8;
-export = 0;
 glyphname = lozengeDividedByHorizontalRule;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
-width = 600;
+shapes = (
+{
+ref = lozenge;
+},
+{
+closed = 1;
+nodes = (
+(599,279,l),
+(599,281,l),
+(41,281,l),
+(41,279,l)
+);
+}
+);
+width = 640;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 600;
+shapes = (
+{
+ref = lozenge;
+},
+{
+closed = 1;
+nodes = (
+(586,266,l),
+(586,294,l),
+(66,294,l),
+(66,266,l)
+);
+}
+);
+width = 652;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
-width = 600;
+shapes = (
+{
+ref = lozenge;
+},
+{
+closed = 1;
+nodes = (
+(560,242,l),
+(560,318,l),
+(104,318,l),
+(104,242,l)
+);
+}
+);
+width = 664;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
-width = 600;
+shapes = (
+{
+ref = lozenge;
+},
+{
+closed = 1;
+nodes = (
+(530,205,l),
+(530,355,l),
+(150,355,l),
+(150,205,l)
+);
 }
 );
+width = 680;
+}
+);
+metricLeft = lozenge;
+metricRight = lozenge;
 unicode = 10208;
 }

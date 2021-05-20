@@ -96,5 +96,6 @@ width = 560;
 );
 metricLeft = mediumwhitecircle;
 metricRight = mediumwhitecircle;
+subCategory = Geometry;
 unicode = 10625;
 }

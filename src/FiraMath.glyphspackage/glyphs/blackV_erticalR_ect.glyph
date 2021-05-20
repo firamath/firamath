@@ -1,17 +1,13 @@
 {
-glyphname = blackMediumDiamond;
+glyphname = blackVerticalRect;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-closed = 1;
-nodes = (
-(539,280,l),
-(270,549,l),
-(1,280,l),
-(270,11,l)
-);
+angle = -90;
+pos = (-10,600);
+ref = filledRect;
 }
 );
 width = 540;
@@ -20,13 +16,9 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-closed = 1;
-nodes = (
-(566,280,l),
-(275,571,l),
-(-16,280,l),
-(275,-11,l)
-);
+angle = -90;
+pos = (-5,606);
+ref = filledRect;
 }
 );
 width = 550;
@@ -35,13 +27,9 @@ width = 550;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(584,280,l),
-(280,584,l),
-(-24,280,l),
-(280,-24,l)
-);
+angle = -90;
+pos = (0,612);
+ref = filledRect;
 }
 );
 width = 560;
@@ -50,19 +38,14 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-closed = 1;
-nodes = (
-(584,280,l),
-(280,584,l),
-(-24,280,l),
-(280,-24,l)
-);
+angle = -90;
+pos = (0,620);
+ref = filledRect;
 }
 );
 width = 560;
 }
 );
 metricRight = "=|";
-subCategory = Geometry;
-unicode = 11045;
+unicode = 9646;
 }
