@@ -35,7 +35,7 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
 - Changed:
   - Adjust MATH constants `ScriptPercentScaleDown` and `ScriptScriptPercentScaleDown`. See [wspr/unicode-math#510](https://github.com/wspr/unicode-math/issues/510)
 - Known issues:
-  - ~~Uncreated arrows use empty glyph as a placeholder~~ - *fixed in v0.4-beta-4* TODO
+  - ~~Uncreated arrows use empty glyph as a placeholder~~ - *fixed in v0.4-beta-4*
 
 More details can be found in the [GitHub commit log](https://github.com/firamath/firamath/compare/v0.4-beta-2...v0.4-beta-3).
 
