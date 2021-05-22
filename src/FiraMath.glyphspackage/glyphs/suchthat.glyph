@@ -12,12 +12,12 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (460,0);
+pos = (540,0);
 ref = element;
 scale = (-1,1);
 }
 );
-width = 460;
+width = 540;
 },
 {
 anchors = (
@@ -30,12 +30,12 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (470,0);
+pos = (550,0);
 ref = element;
 scale = (-1,1);
 }
 );
-width = 470;
+width = 550;
 },
 {
 anchors = (
@@ -48,12 +48,12 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (480,0);
+pos = (560,0);
 ref = element;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 560;
 },
 {
 anchors = (

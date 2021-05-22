@@ -1,0 +1,108 @@
+{
+glyphname = equalsSignWithTwoDotsAboveAndTwoDotsBelow;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (-73,-229);
+ref = periodcentered;
+},
+{
+pos = (73,-229);
+ref = periodcentered;
+},
+{
+ref = equal;
+},
+{
+pos = (-73,229);
+ref = periodcentered;
+},
+{
+pos = (73,229);
+ref = periodcentered;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (-78,-248);
+ref = periodcentered;
+},
+{
+pos = (78,-248);
+ref = periodcentered;
+},
+{
+ref = equal;
+},
+{
+pos = (-78,248);
+ref = periodcentered;
+},
+{
+pos = (78,248);
+ref = periodcentered;
+}
+);
+width = 550;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (-100,-290);
+ref = periodcentered;
+},
+{
+pos = (100,-290);
+ref = periodcentered;
+},
+{
+ref = equal;
+},
+{
+pos = (-100,290);
+ref = periodcentered;
+},
+{
+pos = (100,290);
+ref = periodcentered;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (-83,-341);
+ref = periodcentered;
+},
+{
+pos = (83,-341);
+ref = periodcentered;
+},
+{
+ref = equal;
+},
+{
+pos = (-83,341);
+ref = periodcentered;
+},
+{
+pos = (83,341);
+ref = periodcentered;
+}
+);
+width = 560;
+}
+);
+metricLeft = equal;
+metricRight = equal;
+unicode = 10871;
+}

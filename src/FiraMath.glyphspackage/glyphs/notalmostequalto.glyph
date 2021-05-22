@@ -40,7 +40,8 @@ ref = approxequal;
 },
 {
 alignment = 1;
-pos = (40,0);
+angle = 4;
+pos = (60,-16);
 ref = slashlongcomb.size04;
 }
 );
@@ -55,7 +56,8 @@ ref = approxequal;
 },
 {
 alignment = 1;
-pos = (40,0);
+angle = 8;
+pos = (81,-31);
 ref = slashlongcomb.size04;
 }
 );

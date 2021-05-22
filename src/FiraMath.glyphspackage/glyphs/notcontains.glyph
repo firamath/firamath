@@ -13,7 +13,7 @@ pos = (-10,0);
 ref = slashlongcomb.size05;
 }
 );
-width = 460;
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -27,7 +27,7 @@ pos = (-10,0);
 ref = slashlongcomb.size05;
 }
 );
-width = 470;
+width = 550;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -41,7 +41,7 @@ pos = (-20,0);
 ref = slashlongcomb.size05;
 }
 );
-width = 480;
+width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
