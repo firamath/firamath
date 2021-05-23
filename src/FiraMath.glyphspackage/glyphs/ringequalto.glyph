@@ -47,7 +47,7 @@ shapes = (
 ref = equal;
 },
 {
-pos = (0,381);
+pos = (1,381);
 ref = ringoperator;
 }
 );
