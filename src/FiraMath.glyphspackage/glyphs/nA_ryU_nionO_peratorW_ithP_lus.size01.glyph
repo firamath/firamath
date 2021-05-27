@@ -1,13 +1,15 @@
 {
-glyphname = naryunion.size01;
+glyphname = nAryUnionOperatorWithPlus.size01;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,560);
-ref = naryintersection.size01;
-scale = (1,-1);
+ref = naryunion.size01;
+},
+{
+pos = (355,-60);
+ref = plus;
 }
 );
 width = 1250;
@@ -16,9 +18,11 @@ width = 1250;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,560);
-ref = naryintersection.size01;
-scale = (1,-1);
+ref = naryunion.size01;
+},
+{
+pos = (388,-60);
+ref = plus;
 }
 );
 width = 1326;
@@ -27,9 +31,11 @@ width = 1326;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,560);
-ref = naryintersection.size01;
-scale = (1,-1);
+ref = naryunion.size01;
+},
+{
+pos = (395,-60);
+ref = plus;
 }
 );
 width = 1350;
@@ -38,14 +44,16 @@ width = 1350;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,560);
-ref = naryintersection.size01;
-scale = (1,-1);
+ref = naryunion.size01;
+},
+{
+pos = (411,-60);
+ref = plus;
 }
 );
 width = 1382;
 }
 );
-metricLeft = naryintersection.size01;
-metricRight = naryintersection.size01;
+metricLeft = naryunion.size01;
+metricRight = naryunion.size01;
 }

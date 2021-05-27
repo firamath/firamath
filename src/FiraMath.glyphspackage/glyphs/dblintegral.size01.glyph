@@ -44,7 +44,7 @@ shapes = (
 ref = integral.size01;
 },
 {
-pos = (440,0);
+pos = (380,0);
 ref = integral.size01;
 }
 );
@@ -53,7 +53,7 @@ math = {
 italicCorrection = 580;
 };
 };
-width = 1610;
+width = 1550;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";

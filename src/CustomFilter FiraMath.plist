@@ -1931,6 +1931,7 @@
 				<string>&#x03A8;</string><!-- capital psi, greek -->
 				<string>&#x03A9;</string><!-- capital omega, greek -->
 				<string>&#x03DC;</string><!-- capital digamma -->
+				<string>&#x2207;</string><!-- nabla, del, hamilton operator -->
 				<string>&#x03F4;</string><!-- greek capital theta symbol -->
 				<string>&#x03B1;</string><!-- small alpha, greek -->
 				<string>&#x03B2;</string><!-- small beta, greek -->
@@ -1957,6 +1958,7 @@
 				<string>&#x03C7;</string><!-- small chi, greek -->
 				<string>&#x03C8;</string><!-- small psi, greek -->
 				<string>&#x03C9;</string><!-- small omega, greek -->
+				<string>&#x2202;</string><!-- partial differential -->
 				<string>&#x03D0;</string><!-- beta symbol -->
 				<string>&#x03D1;</string><!-- vartheta - curly or open theta -->
 				<string>&#x03D5;</string><!-- straightphi - small phi, greek -->
@@ -2053,6 +2055,7 @@
 				<string>&#x1D6BF;</string><!-- mathematical bold capital psi -->
 				<string>&#x1D6C0;</string><!-- mathematical bold capital omega -->
 				<string>&#x1D6C1;</string><!-- mathematical bold nabla -->
+				<string>&#x1D7CA;</string><!-- mathematical bold capital digamma -->
 				<string>&#x1D6C2;</string><!-- mathematical bold small alpha -->
 				<string>&#x1D6C3;</string><!-- mathematical bold small beta -->
 				<string>&#x1D6C4;</string><!-- mathematical bold small gamma -->
@@ -2085,6 +2088,7 @@
 				<string>&#x1D6DF;</string><!-- mathematical bold phi symbol -->
 				<string>&#x1D6E0;</string><!-- mathematical bold rho symbol -->
 				<string>&#x1D6E1;</string><!-- mathematical bold pi symbol -->
+				<string>&#x1D7CB;</string><!-- mathematical bold small digamma -->
 			</array>
 		</dict>
 		<dict>
@@ -2739,32 +2743,32 @@
 			<string>Double Struck</string>
 			<key>list</key>
 			<array>
-				<string>&#x1D538;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D539;</string><!-- mathematical double-struck capital  -->
-				<string>&#x02102;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D53B;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D53C;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D53D;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D53E;</string><!-- mathematical double-struck capital  -->
-				<string>&#x0210D;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D540;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D541;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D542;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D543;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D544;</string><!-- mathematical double-struck capital  -->
-				<string>&#x02115;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D546;</string><!-- mathematical double-struck capital  -->
-				<string>&#x02119;</string><!-- mathematical double-struck capital  -->
-				<string>&#x0211A;</string><!-- mathematical double-struck capital  -->
-				<string>&#x0211D;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D54A;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D54B;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D54C;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D54D;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D54E;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D54F;</string><!-- mathematical double-struck capital  -->
-				<string>&#x1D550;</string><!-- mathematical double-struck capital  -->
-				<string>&#x02124;</string><!-- mathematical double-struck capital  -->
+				<string>&#x1D538;</string><!-- mathematical double-struck capital a -->
+				<string>&#x1D539;</string><!-- mathematical double-struck capital b -->
+				<string>&#x02102;</string><!-- mathematical double-struck capital c -->
+				<string>&#x1D53B;</string><!-- mathematical double-struck capital d -->
+				<string>&#x1D53C;</string><!-- mathematical double-struck capital e -->
+				<string>&#x1D53D;</string><!-- mathematical double-struck capital f -->
+				<string>&#x1D53E;</string><!-- mathematical double-struck capital g -->
+				<string>&#x0210D;</string><!-- mathematical double-struck capital h -->
+				<string>&#x1D540;</string><!-- mathematical double-struck capital i -->
+				<string>&#x1D541;</string><!-- mathematical double-struck capital j -->
+				<string>&#x1D542;</string><!-- mathematical double-struck capital k -->
+				<string>&#x1D543;</string><!-- mathematical double-struck capital l -->
+				<string>&#x1D544;</string><!-- mathematical double-struck capital m -->
+				<string>&#x02115;</string><!-- mathematical double-struck capital n -->
+				<string>&#x1D546;</string><!-- mathematical double-struck capital o -->
+				<string>&#x02119;</string><!-- mathematical double-struck capital p -->
+				<string>&#x0211A;</string><!-- mathematical double-struck capital q -->
+				<string>&#x0211D;</string><!-- mathematical double-struck capital r -->
+				<string>&#x1D54A;</string><!-- mathematical double-struck capital s -->
+				<string>&#x1D54B;</string><!-- mathematical double-struck capital t -->
+				<string>&#x1D54C;</string><!-- mathematical double-struck capital u -->
+				<string>&#x1D54D;</string><!-- mathematical double-struck capital v -->
+				<string>&#x1D54E;</string><!-- mathematical double-struck capital w -->
+				<string>&#x1D54F;</string><!-- mathematical double-struck capital x -->
+				<string>&#x1D550;</string><!-- mathematical double-struck capital y -->
+				<string>&#x02124;</string><!-- mathematical double-struck capital z -->
 				<string>&#x1D552;</string><!-- mathematical double-struck small a -->
 				<string>&#x1D553;</string><!-- mathematical double-struck small b -->
 				<string>&#x1D554;</string><!-- mathematical double-struck small c -->
@@ -2927,6 +2931,7 @@
 				<string>&#x1D509;</string><!-- mathematical fraktur capital f -->
 				<string>&#x1D50A;</string><!-- mathematical fraktur capital g -->
 				<string>&#x0210C;</string><!-- mathematical fraktur capital h -->
+				<string>&#x02111;</string><!-- mathematical fraktur capital i -->
 				<string>&#x1D50D;</string><!-- mathematical fraktur capital j -->
 				<string>&#x1D50E;</string><!-- mathematical fraktur capital k -->
 				<string>&#x1D50F;</string><!-- mathematical fraktur capital l -->
@@ -2935,6 +2940,7 @@
 				<string>&#x1D512;</string><!-- mathematical fraktur capital o -->
 				<string>&#x1D513;</string><!-- mathematical fraktur capital p -->
 				<string>&#x1D514;</string><!-- mathematical fraktur capital q -->
+				<string>&#x0211C;</string><!-- mathematical fraktur capital r -->
 				<string>&#x1D516;</string><!-- mathematical fraktur capital s -->
 				<string>&#x1D517;</string><!-- mathematical fraktur capital t -->
 				<string>&#x1D518;</string><!-- mathematical fraktur capital u -->
@@ -3028,6 +3034,24 @@
 				<string>&#x1D59D;</string><!-- mathematical bold fraktur small x -->
 				<string>&#x1D59E;</string><!-- mathematical bold fraktur small y -->
 				<string>&#x1D59F;</string><!-- mathematical bold fraktur small z -->
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Miscellaneous</string>
+			<key>list</key>
+			<array>
+				<string>&#x00F0;</string><!-- eth -->
+				<string>&#x2010;</string><!-- hyphen -->
+				<string>&#x210F;</string><!-- hslash - variant planck's over 2pi -->
+				<string>&#x2113;</string><!-- cursive small l -->
+				<string>&#x2118;</string><!-- weierstrass p -->
+				<string>&#x2129;</string><!-- turned iota -->
+				<string>&#x212B;</string><!-- angstrom capital a, ring -->
+				<string>&#x2135;</string><!-- aleph, hebrew -->
+				<string>&#x2136;</string><!-- beth, hebrew -->
+				<string>&#x2137;</string><!-- gimel, hebrew -->
+				<string>&#x2138;</string><!-- daleth, hebrew -->
 			</array>
 		</dict>
 	</array>

@@ -1,0 +1,56 @@
+{
+glyphname = turnediota;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (252,517);
+ref = iota;
+}
+);
+width = 252;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (258,520);
+ref = iota;
+}
+);
+width = 258;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (283,527);
+ref = iota;
+}
+);
+width = 283;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (281,534);
+ref = iota;
+}
+);
+width = 281;
+}
+);
+metricLeft = "=|iota";
+metricRight = "=|iota";
+unicode = 8489;
+}

@@ -1,52 +1,51 @@
 {
-glyphname = naryunion;
+glyphname = twoLogicalOrOperator.size01;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 pos = (0,560);
-ref = naryintersection;
+ref = twoLogicalAndOperator.size01;
 scale = (1,-1);
 }
 );
-width = 754;
+width = 1746;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 pos = (0,560);
-ref = naryintersection;
+ref = twoLogicalAndOperator.size01;
 scale = (1,-1);
 }
 );
-width = 760;
+width = 1782;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 pos = (0,560);
-ref = naryintersection;
+ref = twoLogicalAndOperator.size01;
 scale = (1,-1);
 }
 );
-width = 794;
+width = 1806;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 pos = (0,560);
-ref = naryintersection;
+ref = twoLogicalAndOperator.size01;
 scale = (1,-1);
 }
 );
-width = 828;
+width = 1950;
 }
 );
-metricLeft = naryintersection;
-metricRight = naryintersection;
-unicode = 8899;
+metricLeft = twoLogicalAndOperator.size01;
+metricRight = twoLogicalAndOperator.size01;
 }

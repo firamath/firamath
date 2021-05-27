@@ -71,12 +71,17 @@ ExtendedShapes = [
     "volumeintegral",
     "summationWithIntegral",
     "summation",
+    "summationdoubleStruck",
     "product",
     "coproduct",
     "narylogicaland",
     "narylogicalor",
+    "twoLogicalAndOperator",
+    "twoLogicalOrOperator",
     "naryintersection",
     "naryunion",
+    "nAryUnionOperatorWithDot",
+    "nAryUnionOperatorWithPlus",
     "nArySquareIntersectionOperator",
     "nArySquareUnionOperator",
     "nAryCircledDotOperator",
@@ -96,12 +101,17 @@ ExtendedShapes = [
     "volumeintegral.size01",
     "summationWithIntegral.size01",
     "summation.size01",
+    "summationdoubleStruck.size01",
     "product.size01",
     "coproduct.size01",
     "narylogicaland.size01",
     "narylogicalor.size01",
+    "twoLogicalAndOperator.size01",
+    "twoLogicalOrOperator.size01",
     "naryintersection.size01",
     "naryunion.size01",
+    "nAryUnionOperatorWithDot.size01",
+    "nAryUnionOperatorWithPlus.size01",
     "nArySquareIntersectionOperator.size01",
     "nArySquareUnionOperator.size01",
     "nAryCircledDotOperator.size01",
@@ -468,12 +478,17 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "volumeintegral"                 = { suffixes = ["", ".size01"] }
 "summationWithIntegral"          = { suffixes = ["", ".size01"] }
 "summation"                      = { suffixes = ["", ".size01"] }
+"summationdoubleStruck"          = { suffixes = ["", ".size01"] }
 "product"                        = { suffixes = ["", ".size01"] }
 "coproduct"                      = { suffixes = ["", ".size01"] }
 "narylogicaland"                 = { suffixes = ["", ".size01"] }
 "narylogicalor"                  = { suffixes = ["", ".size01"] }
+"twoLogicalAndOperator"          = { suffixes = ["", ".size01"] }
+"twoLogicalOrOperator"           = { suffixes = ["", ".size01"] }
 "naryintersection"               = { suffixes = ["", ".size01"] }
 "naryunion"                      = { suffixes = ["", ".size01"] }
+"nAryUnionOperatorWithDot"       = { suffixes = ["", ".size01"] }
+"nAryUnionOperatorWithPlus"      = { suffixes = ["", ".size01"] }
 "nArySquareIntersectionOperator" = { suffixes = ["", ".size01"] }
 "nArySquareUnionOperator"        = { suffixes = ["", ".size01"] }
 "nAryCircledDotOperator"         = { suffixes = ["", ".size01"] }
