@@ -870,16 +870,10 @@
 				<string>&#x210E;</string><!-- planck constant -->
 				<string>&#x2127;</string><!-- conductance -->
 				<string>&#x2132;</string><!-- turned capital f -->
-				<string>&#x213C;</string><!-- double-struck small pi -->
 				<string>&#x2141;</string><!-- turned sans-serif capital g -->
 				<string>&#x2142;</string><!-- turned sans-serif capital l -->
 				<string>&#x2143;</string><!-- reversed sans-serif capital l -->
 				<string>&#x2144;</string><!-- turned sans-serif capital y -->
-				<string>&#x2145;</string><!-- double-struck italic capital d -->
-				<string>&#x2146;</string><!-- double-struck italic small d -->
-				<string>&#x2147;</string><!-- double-struck italic small e -->
-				<string>&#x2148;</string><!-- double-struck italic small i -->
-				<string>&#x2149;</string><!-- double-struck italic small j -->
 				<string>&#x214A;</string><!-- property line -->
 				<string>&#x21A8;</string><!-- up down arrow with base (perpendicular) -->
 				<string>&#x21B4;</string><!-- rightwards arrow with corner downwards -->
@@ -1252,10 +1246,26 @@
 				<string>clockwisecontourintegral</string>
 				<string>anticlockwisecontourintegral</string>
 				<string>summationWithIntegral</string>
-				<string>summation</string>
-				<string>summationdoubleStruck</string>
+				<string>finitePartIntegral</string>
+				<string>integralWithDoubleStroke</string>
+				<string>integralAverageWithSlash</string>
+				<string>circulationFunction</string>
+				<string>lineIntegrationWithRectangularPathAroundPole</string>
+				<string>lineIntegrationWithSemicircularPathAroundPole</string>
+				<string>lineIntegrationNotIncludingThePole</string>
+				<string>integralAroundAPointOperator</string>
+				<string>quaternionIntegralOperator</string>
+				<string>integralWithLeftArrowWithHook</string>
+				<string>integralWithTimesSign</string>
+				<string>integralWithIntersection</string>
+				<string>integralWithUnion</string>
+				<string>integralWithOverbar</string>
+				<string>integralWithUnderbar</string>
 				<string>product</string>
 				<string>coproduct</string>
+				<string>summation</string>
+				<string>summationdoubleStruck</string>
+				<string>moduloTwoSum</string>
 				<string>narylogicaland</string>
 				<string>narylogicalor</string>
 				<string>twoLogicalAndOperator</string>
@@ -1270,10 +1280,22 @@
 				<string>nAryCircledPlusOperator</string>
 				<string>nAryCircledTimesOperator</string>
 				<string>nAryTimesOperator</string>
+				<string>leftOuterJoin</string>
+				<string>rightOuterJoin</string>
+				<string>fullOuterJoin</string>
+				<string>join</string>
 				<string>largeUpTack</string>
 				<string>largeDownTack</string>
 				<string>bigSolidus</string>
 				<string>bigReverseSolidus</string>
+				<string>largeLeftTriangleOperator</string>
+				<string>zNotationSchemaComposition</string>
+				<string>zNotationSchemaPiping</string>
+				<string>zNotationSchemaProjection</string>
+				<string>largeTripleVerticalBarOperator</string>
+				<string>nAryWhiteVerticalBar</string>
+				<string>u1EEF0</string>
+				<string>u1EEF1</string>
 				<string>integral.size01</string>
 				<string>dblintegral.size01</string>
 				<string>tripleintegral.size01</string>
@@ -1286,10 +1308,26 @@
 				<string>clockwisecontourintegral.size01</string>
 				<string>anticlockwisecontourintegral.size01</string>
 				<string>summationWithIntegral.size01</string>
-				<string>summation.size01</string>
-				<string>summationdoubleStruck.size01</string>
+				<string>finitePartIntegral.size01</string>
+				<string>integralWithDoubleStroke.size01</string>
+				<string>integralAverageWithSlash.size01</string>
+				<string>circulationFunction.size01</string>
+				<string>lineIntegrationWithRectangularPathAroundPole.size01</string>
+				<string>lineIntegrationWithSemicircularPathAroundPole.size01</string>
+				<string>lineIntegrationNotIncludingThePole.size01</string>
+				<string>integralAroundAPointOperator.size01</string>
+				<string>quaternionIntegralOperator.size01</string>
+				<string>integralWithLeftArrowWithHook.size01</string>
+				<string>integralWithTimesSign.size01</string>
+				<string>integralWithIntersection.size01</string>
+				<string>integralWithUnion.size01</string>
+				<string>integralWithOverbar.size01</string>
+				<string>integralWithUnderbar.size01</string>
 				<string>product.size01</string>
 				<string>coproduct.size01</string>
+				<string>summation.size01</string>
+				<string>summationdoubleStruck.size01</string>
+				<string>moduloTwoSum.size01</string>
 				<string>narylogicaland.size01</string>
 				<string>narylogicalor.size01</string>
 				<string>twoLogicalAndOperator.size01</string>
@@ -1304,10 +1342,22 @@
 				<string>nAryCircledPlusOperator.size01</string>
 				<string>nAryCircledTimesOperator.size01</string>
 				<string>nAryTimesOperator.size01</string>
+				<string>leftOuterJoin.size01</string>
+				<string>rightOuterJoin.size01</string>
+				<string>fullOuterJoin.size01</string>
+				<string>join.size01</string>
 				<string>largeUpTack.size01</string>
 				<string>largeDownTack.size01</string>
 				<string>bigSolidus.size01</string>
 				<string>bigReverseSolidus.size01</string>
+				<string>largeLeftTriangleOperator.size01</string>
+				<string>zNotationSchemaComposition.size01</string>
+				<string>zNotationSchemaPiping.size01</string>
+				<string>zNotationSchemaProjection.size01</string>
+				<string>largeTripleVerticalBarOperator.size01</string>
+				<string>nAryWhiteVerticalBar.size01</string>
+				<string>u1EEF0.size01</string>
+				<string>u1EEF1.size01</string>
 			</array>
 		</dict>
 		<dict>
@@ -2798,6 +2848,12 @@
 				<string>&#x0213E;</string><!-- mathematical double-struck capital gamma -->
 				<string>&#x0213F;</string><!-- mathematical double-struck capital pi -->
 				<string>&#x0213D;</string><!-- mathematical double-struck small gamma -->
+				<string>&#x0213C;</string><!-- mathematical double-struck small pi -->
+				<string>&#x02145;</string><!-- double-struck italic capital d -->
+				<string>&#x02146;</string><!-- double-struck italic small d -->
+				<string>&#x02147;</string><!-- double-struck italic small e -->
+				<string>&#x02148;</string><!-- double-struck italic small i -->
+				<string>&#x02149;</string><!-- double-struck italic small j -->
 			</array>
 		</dict>
 		<dict>

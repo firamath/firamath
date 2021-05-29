@@ -69,11 +69,19 @@ ExtendedShapes = [
     "contourintegral",
     "surfaceintegral",
     "volumeintegral",
+    "clockwiseintegral",
+    "anticlockwiseIntegration",
+    "clockwisecontourintegral",
+    "anticlockwisecontourintegral",
     "summationWithIntegral",
-    "summation",
-    "summationdoubleStruck",
+    "finitePartIntegral",
+    "integralWithDoubleStroke",
+    "integralAverageWithSlash",
+    "circulationFunction",
     "product",
     "coproduct",
+    "summation",
+    "summationdoubleStruck",
     "narylogicaland",
     "narylogicalor",
     "twoLogicalAndOperator",
@@ -99,11 +107,19 @@ ExtendedShapes = [
     "contourintegral.size01",
     "surfaceintegral.size01",
     "volumeintegral.size01",
+    "clockwiseintegral.size01",
+    "anticlockwiseIntegration.size01",
+    "clockwisecontourintegral.size01",
+    "anticlockwisecontourintegral.size01",
     "summationWithIntegral.size01",
-    "summation.size01",
-    "summationdoubleStruck.size01",
+    "finitePartIntegral.size01",
+    "integralWithDoubleStroke.size01",
+    "integralAverageWithSlash.size01",
+    "circulationFunction.size01",
     "product.size01",
     "coproduct.size01",
+    "summation.size01",
+    "summationdoubleStruck.size01",
     "narylogicaland.size01",
     "narylogicalor.size01",
     "twoLogicalAndOperator.size01",
@@ -476,11 +492,19 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "contourintegral"                = { suffixes = ["", ".size01"] }
 "surfaceintegral"                = { suffixes = ["", ".size01"] }
 "volumeintegral"                 = { suffixes = ["", ".size01"] }
+"clockwiseintegral"              = { suffixes = ["", ".size01"] }
+"anticlockwiseIntegration"       = { suffixes = ["", ".size01"] }
+"clockwisecontourintegral"       = { suffixes = ["", ".size01"] }
+"anticlockwisecontourintegral"   = { suffixes = ["", ".size01"] }
 "summationWithIntegral"          = { suffixes = ["", ".size01"] }
-"summation"                      = { suffixes = ["", ".size01"] }
-"summationdoubleStruck"          = { suffixes = ["", ".size01"] }
+"finitePartIntegral"             = { suffixes = ["", ".size01"] }
+"integralWithDoubleStroke"       = { suffixes = ["", ".size01"] }
+"integralAverageWithSlash"       = { suffixes = ["", ".size01"] }
+"circulationFunction"            = { suffixes = ["", ".size01"] }
 "product"                        = { suffixes = ["", ".size01"] }
 "coproduct"                      = { suffixes = ["", ".size01"] }
+"summation"                      = { suffixes = ["", ".size01"] }
+"summationdoubleStruck"          = { suffixes = ["", ".size01"] }
 "narylogicaland"                 = { suffixes = ["", ".size01"] }
 "narylogicalor"                  = { suffixes = ["", ".size01"] }
 "twoLogicalAndOperator"          = { suffixes = ["", ".size01"] }
