@@ -8,9 +8,8 @@ shapes = (
 ref = less;
 },
 {
-pos = (204,56);
+pos = (100,0);
 ref = periodcentered;
-scale = (0.8,0.8);
 }
 );
 width = 540;
@@ -22,9 +21,8 @@ shapes = (
 ref = less;
 },
 {
-pos = (212,56);
+pos = (120,0);
 ref = periodcentered;
-scale = (0.8,0.8);
 }
 );
 width = 550;
@@ -36,9 +34,8 @@ shapes = (
 ref = less;
 },
 {
-pos = (220,56);
+pos = (140,0);
 ref = periodcentered;
-scale = (0.8,0.8);
 }
 );
 width = 560;
@@ -50,7 +47,7 @@ shapes = (
 ref = less;
 },
 {
-pos = (204,56);
+pos = (200,56);
 ref = periodcentered;
 scale = (0.8,0.8);
 }
