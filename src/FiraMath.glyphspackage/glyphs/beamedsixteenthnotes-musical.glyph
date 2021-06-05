@@ -1,0 +1,80 @@
+{
+glyphname = "beamedsixteenthnotes-musical";
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(859,730,l),
+(859,732,l),
+(419,571,l),
+(419,569,l)
+);
+},
+{
+ref = "notedbl-musical";
+}
+);
+width = 980;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(849,672,l),
+(849,706,l),
+(413,557,l),
+(413,523,l)
+);
+},
+{
+ref = "notedbl-musical";
+}
+);
+width = 990;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(836,594,l),
+(836,674,l),
+(400,536,l),
+(400,456,l)
+);
+},
+{
+ref = "notedbl-musical";
+}
+);
+width = 1000;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(814,477,l),
+(814,627,l),
+(410,511,l),
+(410,361,l)
+);
+},
+{
+ref = "notedbl-musical";
+}
+);
+width = 1000;
+}
+);
+metricLeft = "quarternote-musical";
+metricRight = "quarternote-musical";
+unicode = 9836;
+}
