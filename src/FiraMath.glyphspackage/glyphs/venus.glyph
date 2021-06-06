@@ -1,0 +1,79 @@
+{
+glyphname = venus;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(454,178,l),
+(454,180,l),
+(86,180,l),
+(86,178,l)
+);
+},
+{
+ref = neuter;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(472,155,l),
+(472,183,l),
+(78,183,l),
+(78,155,l)
+);
+},
+{
+ref = neuter;
+}
+);
+width = 550;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,113,l),
+(496,189,l),
+(64,189,l),
+(64,113,l)
+);
+},
+{
+ref = neuter;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,61,l),
+(520,197,l),
+(40,197,l),
+(40,61,l)
+);
+},
+{
+ref = neuter;
+}
+);
+width = 560;
+}
+);
+metricRight = "=|";
+unicode = 9792;
+}

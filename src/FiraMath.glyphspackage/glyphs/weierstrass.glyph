@@ -280,5 +280,6 @@ nodes = (
 width = 864;
 }
 );
+subCategory = Math;
 unicode = 8472;
 }

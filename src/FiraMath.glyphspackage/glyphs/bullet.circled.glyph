@@ -1,5 +1,5 @@
 {
-glyphname = ringoperator.circled;
+glyphname = bullet.circled;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -9,7 +9,7 @@ ref = whiteCircle;
 },
 {
 pos = (50,0);
-ref = ringoperator;
+ref = bullet;
 }
 );
 width = 640;
@@ -22,7 +22,7 @@ ref = whiteCircle;
 },
 {
 pos = (51,0);
-ref = ringoperator;
+ref = bullet;
 }
 );
 width = 652;
@@ -34,8 +34,9 @@ shapes = (
 ref = whiteCircle;
 },
 {
-pos = (52,0);
-ref = ringoperator;
+pos = (80,28);
+ref = bullet;
+scale = (0.9,0.9);
 }
 );
 width = 664;
@@ -47,15 +48,15 @@ shapes = (
 ref = whiteCircle;
 },
 {
-pos = (88,28);
-ref = ringoperator;
-scale = (0.9,0.9);
+pos = (116,56);
+ref = bullet;
+scale = (0.8,0.8);
 }
 );
 width = 680;
 }
 );
-metricLeft = plus.circled;
-metricRight = plus.circled;
-unicode = 8858;
+metricLeft = whiteCircle;
+metricRight = whiteCircle;
+unicode = 10687;
 }

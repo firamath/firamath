@@ -1,0 +1,64 @@
+{
+glyphname = interlockedFemaleAndMaleSign;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (187,196);
+ref = mars;
+},
+{
+pos = (0,-194);
+ref = venus;
+}
+);
+width = 747;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (190,215);
+ref = mars;
+},
+{
+pos = (0,-210);
+ref = venus;
+}
+);
+width = 770;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (194,231);
+ref = mars;
+},
+{
+pos = (0,-227);
+ref = venus;
+}
+);
+width = 794;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (220,246);
+ref = mars;
+},
+{
+pos = (0,-238);
+ref = venus;
+}
+);
+width = 820;
+}
+);
+metricLeft = venus;
+metricRight = mars;
+unicode = 9892;
+}
