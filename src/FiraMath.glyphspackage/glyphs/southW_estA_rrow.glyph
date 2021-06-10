@@ -10,7 +10,7 @@ ref = northWestArrow;
 scale = (1,-1);
 }
 );
-width = 681;
+width = 600;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -21,7 +21,7 @@ ref = northWestArrow;
 scale = (1,-1);
 }
 );
-width = 703;
+width = 610;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -32,7 +32,7 @@ ref = northWestArrow;
 scale = (1,-1);
 }
 );
-width = 778;
+width = 620;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -43,9 +43,11 @@ ref = northWestArrow;
 scale = (1,-1);
 }
 );
-width = 835;
+width = 660;
 }
 );
+metricLeft = northWestArrow;
+metricRight = northWestArrow;
 note = uni2199;
 subCategory = Arrow;
 unicode = 8601;
