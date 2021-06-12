@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftBarbUpHarpoon;
 layers = (
 {
@@ -8,18 +7,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(800,279,l),
-(800,281,l),
-(124,281,l),
-(124,279,l)
+(700,279,l),
+(700,281,l),
+(72,281,l),
+(72,279,l)
 );
 },
 {
-pos = (95,0);
+pos = (50,0);
 ref = harpoonHead;
 }
 );
-width = 900;
+width = 780;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -27,18 +26,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(820,269,l),
-(820,291,l),
-(134,291,l),
-(134,269,l)
+(740,266,l),
+(740,294,l),
+(94,294,l),
+(94,266,l)
 );
 },
 {
-pos = (95,0);
+pos = (30,0);
 ref = harpoonHead;
 }
 );
-width = 920;
+width = 800;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -46,18 +45,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(880,242,l),
-(880,318,l),
-(210,318,l),
-(210,242,l)
+(780,242,l),
+(780,318,l),
+(144,318,l),
+(144,242,l)
 );
 },
 {
-pos = (80,0);
+pos = (10,0);
 ref = harpoonHead;
 }
 );
-width = 960;
+width = 820;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -65,20 +64,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(940,197,l),
-(940,363,l),
-(340,363,l),
-(340,197,l)
+(850,205,l),
+(850,355,l),
+(245,355,l),
+(245,205,l)
 );
 },
 {
-pos = (95,0);
+pos = (20,0);
 ref = harpoonHead;
 }
 );
-width = 1060;
+width = 900;
 }
 );
+metricLeft = leftArrow;
 metricRight = leftArrow;
 note = uni21BC;
 unicode = 8636;

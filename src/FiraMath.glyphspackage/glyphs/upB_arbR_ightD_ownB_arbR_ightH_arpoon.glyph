@@ -1,0 +1,53 @@
+{
+glyphname = upBarbRightDownBarbRightHarpoon;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+angle = -90;
+pos = (-50,720);
+ref = leftBarbUpRightBarbUpHarpoon;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+angle = -90;
+pos = (-45,730);
+ref = leftBarbUpRightBarbUpHarpoon;
+}
+);
+width = 550;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+angle = -90;
+pos = (-40,750);
+ref = leftBarbUpRightBarbUpHarpoon;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+angle = -90;
+pos = (-30,820);
+ref = leftBarbUpRightBarbUpHarpoon;
+}
+);
+width = 580;
+}
+);
+metricLeft = upBarbRightharpoon;
+metricRight = upBarbRightharpoon;
+subCategory = Arrow;
+unicode = 10575;
+}

@@ -1,5 +1,6 @@
 {
 category = Component;
+color = 8;
 export = 0;
 glyphname = arrowTail;
 layers = (

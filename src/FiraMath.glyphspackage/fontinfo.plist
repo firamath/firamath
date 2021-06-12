@@ -1203,6 +1203,7 @@ note = "# Colors
 - Orange:      copy from FiraSans/FiraGO, with remapping
 - Red:         copy from FiraSans/FiraGO, with small modification (flip/rotate/reconnect)
 - Purple:      unfinished/TODO
+- Pink:        metrics to be fixed
 - Cyan:        has alternate (bracket) layers
 - Blue:        has intermediate (brace) layers
 ";
