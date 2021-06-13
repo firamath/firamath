@@ -1,139 +1,161 @@
 {
-color = 8;
-export = 0;
 glyphname = leftRightDoubleArrow;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (440,280);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 closed = 1;
 nodes = (
-(759,354,l),
-(757,356,l),
-(203,356,l),
-(201,354,l)
+(729,354,l),
+(727,356,l),
+(153,356,l),
+(151,354,l)
 );
 },
 {
-pos = (100,0);
+pos = (50,0);
 ref = doubleArrowHead;
 },
 {
 closed = 1;
 nodes = (
-(757,204,l),
-(759,206,l),
-(201,206,l),
-(203,204,l)
+(727,204,l),
+(729,206,l),
+(151,206,l),
+(153,204,l)
 );
 },
 {
-pos = (860,0);
+pos = (830,0);
 ref = doubleArrowHead;
 scale = (-1,1);
 }
 );
-width = 960;
+width = 880;
 },
 {
+anchors = (
+{
+name = center;
+pos = (450,280);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 closed = 1;
 nodes = (
-(790,348,l),
-(766,370,l),
-(234,370,l),
-(210,348,l)
+(761,346,l),
+(733,374,l),
+(167,374,l),
+(139,346,l)
 );
 },
 {
-pos = (100,0);
+pos = (30,0);
 ref = doubleArrowHead;
 },
 {
 closed = 1;
 nodes = (
-(766,190,l),
-(790,212,l),
-(210,212,l),
-(234,190,l)
+(733,186,l),
+(761,214,l),
+(139,214,l),
+(167,186,l)
 );
 },
 {
-pos = (900,0);
+pos = (870,0);
 ref = doubleArrowHead;
 scale = (-1,1);
 }
 );
-width = 1000;
+width = 900;
 },
 {
+anchors = (
+{
+name = center;
+pos = (470,280);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 closed = 1;
 nodes = (
-(930,338,l),
-(850,414,l),
-(300,414,l),
-(220,338,l)
+(789,340,l),
+(716,416,l),
+(224,416,l),
+(151,340,l)
 );
 },
 {
-pos = (80,0);
+pos = (10,0);
 ref = doubleArrowHead;
 },
 {
 closed = 1;
 nodes = (
-(850,146,l),
-(930,222,l),
-(220,222,l),
-(300,146,l)
+(716,144,l),
+(789,220,l),
+(151,220,l),
+(224,144,l)
 );
 },
 {
-pos = (1070,0);
+pos = (930,0);
 ref = doubleArrowHead;
 scale = (-1,1);
 }
 );
-width = 1150;
+width = 940;
 },
 {
+anchors = (
+{
+name = center;
+pos = (540,280);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 closed = 1;
 nodes = (
-(1030,310,l),
-(890,476,l),
-(410,476,l),
-(270,310,l)
+(893,318,l),
+(768,468,l),
+(312,468,l),
+(187,318,l)
 );
 },
 {
-pos = (120,0);
+pos = (20,0);
 ref = doubleArrowHead;
 },
 {
 closed = 1;
 nodes = (
-(890,84,l),
-(1030,250,l),
-(270,250,l),
-(410,84,l)
+(768,92,l),
+(893,242,l),
+(187,242,l),
+(312,92,l)
 );
 },
 {
-pos = (1180,0);
+pos = (1060,0);
 ref = doubleArrowHead;
 scale = (-1,1);
 }
 );
-width = 1300;
+width = 1080;
 }
 );
 metricLeft = leftDoubleArrow;

@@ -9,7 +9,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (424,0);
+pos = (344,0);
 ref = arrowBar;
 }
 );
@@ -23,7 +23,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (431,0);
+pos = (351,0);
 ref = arrowBar;
 }
 );
@@ -37,7 +37,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (427,0);
+pos = (347,0);
 ref = arrowBar;
 }
 );
@@ -51,7 +51,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (470,0);
+pos = (390,0);
 ref = arrowBar;
 }
 );

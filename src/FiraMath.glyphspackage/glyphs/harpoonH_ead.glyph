@@ -1,6 +1,5 @@
 {
 category = Component;
-color = 8;
 export = 0;
 glyphname = harpoonHead;
 layers = (

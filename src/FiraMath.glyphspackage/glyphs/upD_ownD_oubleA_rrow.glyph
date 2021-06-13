@@ -1,6 +1,4 @@
 {
-color = 8;
-export = 0;
 glyphname = upDownDoubleArrow;
 layers = (
 {
@@ -9,34 +7,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(358,3,l),
-(358,557,l),
-(356,559,l),
-(356,1,l)
+(355,3,l),
+(355,557,l),
+(353,559,l),
+(353,1,l)
 );
 },
 {
 angle = 90;
-pos = (2,-100);
+pos = (-1,-100);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(208,559,l),
-(206,557,l),
-(206,3,l),
-(208,1,l)
+(205,559,l),
+(203,557,l),
+(203,3,l),
+(205,1,l)
 );
 },
 {
 angle = -90;
-pos = (2,660);
+pos = (-1,660);
 ref = doubleArrowHead;
 }
 );
-width = 564;
+width = 558;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -44,30 +42,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(391,14,l),
-(391,546,l),
-(369,570,l),
-(369,-10,l)
+(395,7,l),
+(395,553,l),
+(367,581,l),
+(367,-21,l)
 );
 },
 {
 angle = 90;
-pos = (21,-120);
+pos = (21,-130);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(233,570,l),
-(211,546,l),
-(211,14,l),
-(233,-10,l)
+(235,581,l),
+(207,553,l),
+(207,7,l),
+(235,-21,l)
 );
 },
 {
 angle = -90;
-pos = (21,680);
+pos = (21,690);
 ref = doubleArrowHead;
 }
 );
@@ -79,34 +77,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(482,20,l),
-(482,540,l),
-(406,620,l),
-(406,-60,l)
+(481,44,l),
+(481,516,l),
+(405,589,l),
+(405,-29,l)
 );
 },
 {
 angle = 90;
-pos = (68,-200);
+pos = (65,-170);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(290,620,l),
-(214,540,l),
-(214,20,l),
-(290,-60,l)
+(285,589,l),
+(209,516,l),
+(209,44,l),
+(285,-29,l)
 );
 },
 {
 angle = -90;
-pos = (68,760);
+pos = (65,730);
 ref = doubleArrowHead;
 }
 );
-width = 696;
+width = 690;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -114,34 +112,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(576,60,l),
-(576,500,l),
-(410,640,l),
-(410,-80,l)
+(558,72,l),
+(558,488,l),
+(408,613,l),
+(408,-53,l)
 );
 },
 {
 angle = 90;
-pos = (100,-230);
+pos = (90,-220);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(350,640,l),
-(184,500,l),
-(184,60,l),
-(350,-80,l)
+(332,613,l),
+(182,488,l),
+(182,72,l),
+(332,-53,l)
 );
 },
 {
 angle = -90;
-pos = (100,790);
+pos = (90,780);
 ref = doubleArrowHead;
 }
 );
-width = 760;
+width = 740;
 }
 );
 metricLeft = upDoubleArrow;

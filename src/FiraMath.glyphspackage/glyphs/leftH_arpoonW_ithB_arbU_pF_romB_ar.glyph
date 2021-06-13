@@ -9,7 +9,7 @@ ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (678,0);
+pos = (598,0);
 ref = arrowBar;
 }
 );
@@ -23,7 +23,7 @@ ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (692,0);
+pos = (612,0);
 ref = arrowBar;
 }
 );
@@ -37,7 +37,7 @@ ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (704,0);
+pos = (624,0);
 ref = arrowBar;
 }
 );
@@ -51,7 +51,7 @@ ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (720,0);
+pos = (640,0);
 ref = arrowBar;
 }
 );

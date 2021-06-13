@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (550,-101);
+pos = (550,-181);
 ref = arrowBar;
 },
 {
@@ -23,7 +23,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (555,-139);
+pos = (555,-219);
 ref = arrowBar;
 },
 {
@@ -39,7 +39,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (560,-198);
+pos = (560,-278);
 ref = arrowBar;
 },
 {
@@ -55,7 +55,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (570,-245);
+pos = (572,-325);
 ref = arrowBar;
 },
 {
