@@ -10,12 +10,12 @@ ref = leftRightArrow;
 },
 {
 alignment = -1;
-pos = (290,0);
+pos = (296,0);
 ref = arrowBar;
 },
 {
 alignment = -1;
-pos = (388,0);
+pos = (382,0);
 ref = arrowBar;
 }
 );
@@ -30,12 +30,12 @@ ref = leftRightArrow;
 },
 {
 alignment = -1;
-pos = (280,0);
+pos = (282,0);
 ref = arrowBar;
 },
 {
 alignment = -1;
-pos = (392,0);
+pos = (390,0);
 ref = arrowBar;
 }
 );
@@ -50,12 +50,12 @@ ref = leftRightArrow;
 },
 {
 alignment = -1;
-pos = (262,0);
+pos = (264,0);
 ref = arrowBar;
 },
 {
 alignment = -1;
-pos = (402,0);
+pos = (400,0);
 ref = arrowBar;
 }
 );
@@ -70,13 +70,13 @@ ref = leftRightArrow;
 },
 {
 alignment = -1;
-pos = (294,0);
+pos = (298,0);
 ref = arrowBar;
 scale = (0.92,1);
 },
 {
 alignment = -1;
-pos = (464,0);
+pos = (460,0);
 ref = arrowBar;
 scale = (0.92,1);
 }

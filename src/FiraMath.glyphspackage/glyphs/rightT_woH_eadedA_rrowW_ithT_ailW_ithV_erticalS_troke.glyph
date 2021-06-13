@@ -1,5 +1,5 @@
 {
-glyphname = rightTabArrow;
+glyphname = rightTwoHeadedArrowWithTailWithVerticalStroke;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = 1;
 pos = (780,0);
-ref = leftTabArrow;
+ref = leftTwoHeadedArrowWithTailWithVerticalStroke;
 scale = (-1,1);
 }
 );
@@ -19,7 +19,7 @@ shapes = (
 {
 alignment = 1;
 pos = (800,0);
-ref = leftTabArrow;
+ref = leftTwoHeadedArrowWithTailWithVerticalStroke;
 scale = (-1,1);
 }
 );
@@ -30,25 +30,26 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (840,0);
-ref = leftTabArrow;
+pos = (880,0);
+ref = leftTwoHeadedArrowWithTailWithVerticalStroke;
 scale = (-1,1);
 }
 );
-width = 840;
+width = 880;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (940,0);
-ref = leftTabArrow;
+pos = (1040,0);
+ref = leftTwoHeadedArrowWithTailWithVerticalStroke;
 scale = (-1,1);
 }
 );
-width = 940;
+width = 1040;
 }
 );
-unicode = 8677;
+subCategory = Arrow;
+unicode = 10519;
 }

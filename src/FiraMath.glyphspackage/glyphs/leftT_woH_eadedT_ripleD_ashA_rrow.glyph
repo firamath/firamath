@@ -1,0 +1,189 @@
+{
+glyphname = leftTwoHeadedTripleDashArrow;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(348,279,l),
+(348,281,l),
+(72,281,l),
+(72,279,l)
+);
+},
+{
+pos = (50,0);
+ref = arrowHead;
+},
+{
+pos = (160,0);
+ref = arrowHead;
+},
+{
+closed = 1;
+nodes = (
+(540,279,l),
+(540,281,l),
+(420,281,l),
+(420,279,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(726,279,l),
+(726,281,l),
+(612,281,l),
+(612,279,l)
+);
+},
+{
+pos = (704,0);
+ref = arrowTail;
+}
+);
+width = 980;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(390,266,l),
+(390,294,l),
+(90,294,l),
+(90,266,l)
+);
+},
+{
+pos = (30,0);
+ref = arrowHead;
+},
+{
+pos = (170,0);
+ref = arrowHead;
+},
+{
+closed = 1;
+nodes = (
+(570,266,l),
+(570,294,l),
+(450,294,l),
+(450,266,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(770,266,l),
+(770,294,l),
+(630,294,l),
+(630,266,l)
+);
+},
+{
+pos = (718,0);
+ref = arrowTail;
+}
+);
+width = 1000;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(500,242,l),
+(500,318,l),
+(130,318,l),
+(130,242,l)
+);
+},
+{
+pos = (10,0);
+ref = arrowHead;
+},
+{
+pos = (200,0);
+ref = arrowHead;
+},
+{
+closed = 1;
+nodes = (
+(660,242,l),
+(660,318,l),
+(560,318,l),
+(560,242,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(870,242,l),
+(870,318,l),
+(720,318,l),
+(720,242,l)
+);
+},
+{
+pos = (758,0);
+ref = arrowTail;
+}
+);
+width = 1080;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,205,l),
+(630,355,l),
+(220,355,l),
+(220,205,l)
+);
+},
+{
+pos = (20,0);
+ref = arrowHead;
+},
+{
+pos = (250,0);
+ref = arrowHead;
+},
+{
+closed = 1;
+nodes = (
+(770,205,l),
+(770,355,l),
+(670,355,l),
+(670,205,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1000,205,l),
+(1000,355,l),
+(810,355,l),
+(810,205,l)
+);
+},
+{
+pos = (824,0);
+ref = arrowTail;
+}
+);
+width = 1240;
+}
+);
+metricLeft = leftTwoHeadedArrowWithTail;
+metricRight = leftTwoHeadedArrowWithTail;
+subCategory = Arrow;
+unicode = 11063;
+}
