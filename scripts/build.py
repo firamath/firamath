@@ -250,6 +250,7 @@ class Font:
                     'isMathValue': d['isMathValue'],
                 }
             for name in ['ItalicCorrection', 'TopAccent']:
+                # TODO: consider brace layers
                 math_table.glyph_info[name] = {
                     g: _generate(values) for g, values in master_glyph_info[name].items()
                     if not _is_removed_glyph(g)
@@ -303,7 +304,7 @@ class Font:
         # Uncapitalize: 'TopAccent' -> 'topAccent', etc.
         name = name[0].lower() + name[1:]
         mappings = {}
-        for glyph in self.font.glyphs:
+        for glyph in (g for g in self.font.glyphs if g.export):
             values = self._get_user_data(glyph, name)
             if values:
                 mappings[glyph.name] = values
