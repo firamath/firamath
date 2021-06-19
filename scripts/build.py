@@ -463,7 +463,9 @@ class Timer:
         self.start_time = time.time()
 
     def __exit__(self, type, value, traceback):
-        print('Elapsed: {:.3}s\n'.format(time.time() - self.start_time), file=sys.stderr)
+        t = time.time() - self.start_time
+        t_str = '{:.3f}s'.format(t) if t < 60 else '{}min{:.3f}s'.format(round(t // 60), t % 60)
+        print('Elapsed: ' + t_str, end='\n\n', file=sys.stderr)
 
 
 def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = True):

@@ -47,6 +47,8 @@ scale = (1,-1);
 width = 900;
 }
 );
+metricLeft = "=|leftHarpoonWithBarbUpAboveRightHarpoonWithB";
+metricRight = "=|leftHarpoonWithBarbUpAboveRightHarpoonWithB";
 subCategory = Arrow;
 unicode = 10601;
 }

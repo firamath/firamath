@@ -47,6 +47,8 @@ ref = leftHarpoonWithBarbUpAboveLeftHarpoonWithBarbDown;
 width = 740;
 }
 );
+metricLeft = downHarpoonWithBarbLeftBesideUpHarpoonWithBar;
+metricRight = downHarpoonWithBarbLeftBesideUpHarpoonWithBar;
 subCategory = Arrow;
 unicode = 10595;
 }
