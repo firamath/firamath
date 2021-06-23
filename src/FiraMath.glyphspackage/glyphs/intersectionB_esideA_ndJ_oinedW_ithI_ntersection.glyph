@@ -10,7 +10,7 @@ ref = unionBesideAndJoinedWithUnion;
 scale = (1,-1);
 }
 );
-width = 914;
+width = 918;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -21,7 +21,7 @@ ref = unionBesideAndJoinedWithUnion;
 scale = (1,-1);
 }
 );
-width = 940;
+width = 950;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
