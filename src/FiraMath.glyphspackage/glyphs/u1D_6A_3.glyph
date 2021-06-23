@@ -1,0 +1,60 @@
+{
+category = Letter;
+color = 8;
+export = 0;
+glyphname = u1D6A3;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+width = 600;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+width = 600;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(489,474,l),
+(489,525,l),
+(135,525,l),
+(135,466,l),
+(412,466,l),
+(112,50,l),
+(112,0,l),
+(481,0,l),
+(491,58,l),
+(190,58,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,420,l),
+(520,531,l),
+(94,531,l),
+(94,412,l),
+(336,412,l),
+(72,112,l),
+(72,0,l),
+(510,0,l),
+(525,120,l),
+(259,120,l)
+);
+}
+);
+width = 600;
+}
+);
+script = math;
+unicode = 120483;
+}
