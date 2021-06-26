@@ -1,5 +1,5 @@
 {
-glyphname = clockwiseClosedCircleArrow;
+glyphname = clockwiseOpenCircleArrow;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = 1;
 pos = (680,0);
-ref = anticlockwiseClosedCircleArrow;
+ref = anticlockwiseOpenCircleArrow;
 scale = (-1,1);
 }
 );
@@ -19,7 +19,7 @@ shapes = (
 {
 alignment = 1;
 pos = (700,0);
-ref = anticlockwiseClosedCircleArrow;
+ref = anticlockwiseOpenCircleArrow;
 scale = (-1,1);
 }
 );
@@ -31,7 +31,7 @@ shapes = (
 {
 alignment = 1;
 pos = (720,0);
-ref = anticlockwiseClosedCircleArrow;
+ref = anticlockwiseOpenCircleArrow;
 scale = (-1,1);
 }
 );
@@ -43,13 +43,12 @@ shapes = (
 {
 alignment = 1;
 pos = (800,0);
-ref = anticlockwiseClosedCircleArrow;
+ref = anticlockwiseOpenCircleArrow;
 scale = (-1,1);
 }
 );
 width = 800;
 }
 );
-subCategory = Arrow;
-unicode = 10561;
+unicode = 8635;
 }

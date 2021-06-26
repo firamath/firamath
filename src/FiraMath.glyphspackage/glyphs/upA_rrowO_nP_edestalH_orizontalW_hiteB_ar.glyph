@@ -1,0 +1,80 @@
+{
+glyphname = upArrowOnPedestalHorizontalWhiteBar;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(415,469,l),
+(413,471,l),
+(189,471,l),
+(187,469,l)
+);
+},
+{
+ref = upOnPedestalWhiteArrow;
+}
+);
+width = 602;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(435,466,l),
+(435,490,l),
+(201,490,l),
+(201,466,l)
+);
+},
+{
+ref = upOnPedestalWhiteArrow;
+}
+);
+width = 636;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(479,424,l),
+(479,496,l),
+(219,496,l),
+(219,424,l)
+);
+},
+{
+ref = upOnPedestalWhiteArrow;
+}
+);
+width = 698;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(468,278,l),
+(468,406,l),
+(228,406,l),
+(228,278,l)
+);
+},
+{
+ref = upOnPedestalWhiteArrow;
+}
+);
+width = 696;
+}
+);
+metricLeft = upOnPedestalWhiteArrow;
+metricRight = upOnPedestalWhiteArrow;
+unicode = 8684;
+}

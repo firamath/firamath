@@ -1,0 +1,52 @@
+{
+glyphname = upOnPedestalWhiteArrow;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+angle = 90;
+pos = (581,-115);
+ref = rightFromWallWhiteArrow;
+}
+);
+width = 602;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+angle = 90;
+pos = (598,-125);
+ref = rightFromWallWhiteArrow;
+}
+);
+width = 636;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+angle = 90;
+pos = (629,-135);
+ref = rightFromWallWhiteArrow;
+}
+);
+width = 698;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+angle = 90;
+pos = (628,-175);
+ref = rightFromWallWhiteArrow;
+}
+);
+width = 696;
+}
+);
+metricLeft = upWhiteArrow;
+metricRight = upWhiteArrow;
+unicode = 8683;
+}
