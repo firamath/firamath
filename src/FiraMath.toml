@@ -82,6 +82,7 @@ ExtendedShapes = [
     "coproduct",
     "summation",
     "summationdoubleStruck",
+    "moduloTwoSum",
     "narylogicaland",
     "narylogicalor",
     "twoLogicalAndOperator",
@@ -120,6 +121,7 @@ ExtendedShapes = [
     "coproduct.size01",
     "summation.size01",
     "summationdoubleStruck.size01",
+    "moduloTwoSum.size01",
     "narylogicaland.size01",
     "narylogicalor.size01",
     "twoLogicalAndOperator.size01",
@@ -505,6 +507,7 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "coproduct"                      = { suffixes = ["", ".size01"] }
 "summation"                      = { suffixes = ["", ".size01"] }
 "summationdoubleStruck"          = { suffixes = ["", ".size01"] }
+"moduloTwoSum"                   = { suffixes = ["", ".size01"] }
 "narylogicaland"                 = { suffixes = ["", ".size01"] }
 "narylogicalor"                  = { suffixes = ["", ".size01"] }
 "twoLogicalAndOperator"          = { suffixes = ["", ".size01"] }
