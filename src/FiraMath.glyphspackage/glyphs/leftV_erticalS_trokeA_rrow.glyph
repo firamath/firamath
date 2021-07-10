@@ -1,4 +1,5 @@
 {
+color = 8;
 glyphname = leftVerticalStrokeArrow;
 layers = (
 {
@@ -23,7 +24,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (351,0);
+pos = (361,0);
 ref = arrowBar;
 }
 );
@@ -37,7 +38,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (347,0);
+pos = (367,0);
 ref = arrowBar;
 }
 );
@@ -51,11 +52,11 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (390,0);
+pos = (380,0);
 ref = arrowBar;
 }
 );
-width = 900;
+width = 880;
 }
 );
 note = uni21F7;

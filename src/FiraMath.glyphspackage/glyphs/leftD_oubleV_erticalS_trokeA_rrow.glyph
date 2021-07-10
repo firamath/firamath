@@ -1,4 +1,5 @@
 {
+color = 8;
 glyphname = leftDoubleVerticalStrokeArrow;
 layers = (
 {
@@ -81,7 +82,7 @@ ref = arrowBar;
 scale = (0.92,1);
 }
 );
-width = 900;
+width = 880;
 }
 );
 unicode = 8698;

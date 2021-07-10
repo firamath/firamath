@@ -1,4 +1,5 @@
 {
+color = 8;
 glyphname = rightDoubleVerticalStrokeArrow;
 layers = (
 {
@@ -42,12 +43,12 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (900,0);
+pos = (880,0);
 ref = leftDoubleVerticalStrokeArrow;
 scale = (-1,1);
 }
 );
-width = 900;
+width = 880;
 }
 );
 unicode = 8699;

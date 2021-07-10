@@ -9,7 +9,7 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (234,-156);
+pos = (234,-157);
 ref = dotaccentcomb;
 }
 );
@@ -23,11 +23,11 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (219,-125);
+pos = (217,-130);
 ref = dotaccentcomb;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -37,7 +37,7 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (185,-85);
+pos = (185,-87);
 ref = dotaccentcomb;
 }
 );
@@ -51,11 +51,11 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (139,-63);
+pos = (149,-34);
 ref = dotaccentcomb;
 }
 );
-width = 560;
+width = 580;
 }
 );
 unicode = 8724;

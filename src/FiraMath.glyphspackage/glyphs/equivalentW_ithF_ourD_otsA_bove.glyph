@@ -49,7 +49,7 @@ pos = (174,320);
 ref = periodcentered;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -80,32 +80,34 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
+pos = (2,0);
 ref = equivalence;
 },
 {
-pos = (-136,468);
+pos = (-148,468);
 ref = periodcentered;
 scale = (0.8,0.8);
 },
 {
-pos = (-8,468);
+pos = (-10,468);
 ref = periodcentered;
 scale = (0.8,0.8);
 },
 {
-pos = (120,468);
+pos = (126,468);
 ref = periodcentered;
 scale = (0.8,0.8);
 },
 {
-pos = (248,468);
+pos = (264,468);
 ref = periodcentered;
 scale = (0.8,0.8);
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricRight = "=|";
+metricWidth = minus;
 unicode = 10872;
 }

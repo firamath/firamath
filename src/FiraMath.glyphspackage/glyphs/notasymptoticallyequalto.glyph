@@ -23,11 +23,11 @@ alignment = 1;
 ref = asymptoticallyequal;
 },
 {
-pos = (35,0);
+pos = (32,0);
 ref = slashlongcomb.size04;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -51,11 +51,11 @@ alignment = 1;
 ref = asymptoticallyequal;
 },
 {
-pos = (40,0);
+pos = (50,0);
 ref = slashlongcomb.size04;
 }
 );
-width = 560;
+width = 580;
 }
 );
 unicode = 8772;

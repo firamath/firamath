@@ -28,14 +28,14 @@ ref = divisionslash;
 {
 closed = 1;
 nodes = (
-(485,734,l),
-(485,762,l),
-(65,762,l),
-(65,734,l)
+(482,734,l),
+(482,762,l),
+(62,762,l),
+(62,734,l)
 );
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -64,14 +64,14 @@ ref = divisionslash;
 {
 closed = 1;
 nodes = (
-(510,744,l),
-(510,864,l),
-(50,864,l),
-(50,744,l)
+(520,744,l),
+(520,864,l),
+(60,864,l),
+(60,744,l)
 );
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = divisionslash;

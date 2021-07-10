@@ -1,0 +1,76 @@
+{
+glyphname = equalsSignAboveTildeOperator;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,-150);
+ref = similar;
+},
+{
+ref = minus;
+},
+{
+pos = (0,150);
+ref = minus;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,-156);
+ref = similar;
+},
+{
+ref = minus;
+},
+{
+pos = (0,156);
+ref = minus;
+}
+);
+width = 544;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,-180);
+ref = similar;
+},
+{
+ref = minus;
+},
+{
+pos = (0,180);
+ref = minus;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,-212);
+ref = similar;
+},
+{
+ref = minus;
+},
+{
+pos = (0,198);
+ref = minus;
+}
+);
+width = 580;
+}
+);
+metricLeft = similar;
+metricRight = similar;
+unicode = 10867;
+}

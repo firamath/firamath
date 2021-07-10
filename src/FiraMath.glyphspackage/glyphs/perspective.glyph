@@ -5,8 +5,12 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,-75);
-ref = projective;
+pos = (0,-124);
+ref = logicalandShort;
+},
+{
+pos = (0,47);
+ref = minus;
 },
 {
 pos = (0,197);
@@ -19,22 +23,30 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,-80);
-ref = projective;
+pos = (0,-126);
+ref = logicalandShort;
+},
+{
+pos = (0,45);
+ref = minus;
 },
 {
 pos = (0,205);
 ref = minus;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,-88);
-ref = projective;
+pos = (0,-154);
+ref = logicalandShort;
+},
+{
+pos = (0,50);
+ref = minus;
 },
 {
 pos = (0,226);
@@ -47,15 +59,19 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,-103);
-ref = projective;
+pos = (0,-196);
+ref = logicalandShort;
+},
+{
+pos = (0,45);
+ref = minus;
 },
 {
 pos = (0,251);
 ref = minus;
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = projective;

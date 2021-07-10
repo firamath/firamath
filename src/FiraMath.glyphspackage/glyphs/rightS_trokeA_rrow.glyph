@@ -1,4 +1,5 @@
 {
+color = 8;
 glyphname = rightStrokeArrow;
 layers = (
 {
@@ -55,7 +56,7 @@ pos = (95,0);
 ref = slashlongcomb.size03;
 }
 );
-width = 900;
+width = 880;
 }
 );
 unicode = 8603;

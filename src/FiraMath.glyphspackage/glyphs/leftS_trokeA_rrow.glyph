@@ -1,4 +1,5 @@
 {
+color = 8;
 glyphname = leftStrokeArrow;
 layers = (
 {
@@ -23,7 +24,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (225,0);
+pos = (235,0);
 ref = slashlongcomb.size03;
 }
 );
@@ -37,7 +38,7 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (245,0);
+pos = (265,0);
 ref = slashlongcomb.size03;
 }
 );
@@ -51,11 +52,11 @@ alignment = 1;
 ref = leftArrow;
 },
 {
-pos = (325,0);
+pos = (315,0);
 ref = slashlongcomb.size03;
 }
 );
-width = 900;
+width = 880;
 }
 );
 unicode = 8602;

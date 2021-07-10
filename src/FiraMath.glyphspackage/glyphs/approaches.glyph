@@ -41,7 +41,7 @@ pos = (0,248);
 ref = periodcentered;
 }
 );
-width = 550;
+width = 544;
 },
 {
 background = {
@@ -83,7 +83,7 @@ pos = (0,341);
 ref = periodcentered;
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = equal;

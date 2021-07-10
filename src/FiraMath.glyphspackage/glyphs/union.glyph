@@ -22,7 +22,7 @@ ref = intersection;
 scale = (1,-1);
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -44,7 +44,7 @@ ref = intersection;
 scale = (1,-1);
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = intersection;

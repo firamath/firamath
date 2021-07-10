@@ -9,7 +9,7 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (131,-156);
+pos = (131,-157);
 ref = circumflexcomb;
 }
 );
@@ -23,11 +23,11 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (112,-125);
+pos = (110,-130);
 ref = circumflexcomb;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -37,7 +37,7 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (84,-85);
+pos = (84,-87);
 ref = circumflexcomb;
 }
 );
@@ -51,11 +51,11 @@ alignment = 1;
 ref = plus;
 },
 {
-pos = (46,-63);
+pos = (56,-34);
 ref = circumflexcomb;
 }
 );
-width = 560;
+width = 580;
 }
 );
 unicode = 10787;
