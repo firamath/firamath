@@ -64,10 +64,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(188,280,l),
-(280,372,l),
-(372,280,l),
-(280,188,l)
+(197,280,l),
+(280,363,l),
+(363,280,l),
+(280,197,l)
 );
 }
 );
@@ -98,8 +98,8 @@ nodes = (
 width = 580;
 }
 );
-metricLeft = blackSmallDiamond;
-metricRight = blackSmallDiamond;
+metricRight = "=|";
+metricWidth = minus;
 subCategory = Geometry;
 unicode = 8900;
 }

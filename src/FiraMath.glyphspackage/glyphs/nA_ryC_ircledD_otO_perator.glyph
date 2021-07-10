@@ -18,41 +18,43 @@ width = 988;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (211,0);
+pos = (224,0);
 ref = periodcentered;
 },
 {
 ref = largeCircle;
 }
 );
-width = 972;
+width = 992;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (182,0);
+pos = (218,0);
 ref = periodcentered;
 },
 {
 ref = largeCircle;
 }
 );
-width = 924;
+width = 996;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (194,0);
+pos = (210,0);
 ref = periodcentered;
 },
 {
 ref = largeCircle;
 }
 );
-width = 948;
+width = 1000;
 }
 );
+metricLeft = largeCircle;
+metricRight = largeCircle;
 unicode = 10752;
 }
