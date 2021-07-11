@@ -1,0 +1,104 @@
+{
+glyphname = intersectionWithLogicalAnd;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(173,30,l),
+(270,267,l),
+(367,30,l),
+(369,30,l),
+(271,270,l),
+(269,270,l),
+(171,30,l)
+);
+},
+{
+ref = intersection;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,25,l),
+(272,223,l),
+(349,25,l),
+(379,25,l),
+(280,270,l),
+(264,270,l),
+(165,25,l)
+);
+},
+{
+ref = intersection;
+}
+);
+width = 544;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(224,20,l),
+(280,187,l),
+(336,20,l),
+(414,20,l),
+(315,270,l),
+(245,270,l),
+(146,20,l)
+);
+},
+{
+ref = intersection;
+}
+);
+width = 560;
+},
+{
+background = {
+shapes = (
+{
+ref = intersection;
+},
+{
+pos = (151,9);
+ref = logicaland;
+scale = (0.48,0.48);
+}
+);
+};
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,18,l),
+(290,96,l),
+(318,18,l),
+(416,18,l),
+(318,270,l),
+(262,270,l),
+(164,18,l)
+);
+},
+{
+ref = intersection;
+}
+);
+width = 580;
+}
+);
+metricLeft = intersection;
+metricRight = intersection;
+unicode = 10820;
+}
