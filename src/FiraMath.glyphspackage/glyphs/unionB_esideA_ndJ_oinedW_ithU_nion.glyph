@@ -5,11 +5,9 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-ref = union;
-},
-{
-pos = (378,0);
-ref = union;
+pos = (0,560);
+ref = intersectionBesideAndJoinedWithIntersection;
+scale = (1,-1);
 }
 );
 width = 918;
@@ -18,11 +16,9 @@ width = 918;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-ref = union;
-},
-{
-pos = (394,0);
-ref = union;
+pos = (0,560);
+ref = intersectionBesideAndJoinedWithIntersection;
+scale = (1,-1);
 }
 );
 width = 938;
@@ -31,11 +27,9 @@ width = 938;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-ref = union;
-},
-{
-pos = (396,0);
-ref = union;
+pos = (0,560);
+ref = intersectionBesideAndJoinedWithIntersection;
+scale = (1,-1);
 }
 );
 width = 956;
@@ -44,17 +38,15 @@ width = 956;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-ref = union;
-},
-{
-pos = (362,0);
-ref = union;
+pos = (0,560);
+ref = intersectionBesideAndJoinedWithIntersection;
+scale = (1,-1);
 }
 );
 width = 942;
 }
 );
-metricLeft = union;
-metricRight = union;
+metricLeft = intersectionBesideAndJoinedWithIntersection;
+metricRight = intersectionBesideAndJoinedWithIntersection;
 unicode = 10826;
 }
