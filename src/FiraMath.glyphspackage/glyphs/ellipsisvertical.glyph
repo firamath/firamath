@@ -56,14 +56,14 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,-250);
+pos = (0,-280);
 ref = periodcentered;
 },
 {
 ref = periodcentered;
 },
 {
-pos = (0,250);
+pos = (0,280);
 ref = periodcentered;
 }
 );
