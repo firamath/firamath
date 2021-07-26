@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = lowerRightBlackTriangle;
 layers = (
 {
@@ -8,13 +7,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(598,-20,l),
-(598,580,l),
-(-2,-20,l)
+(596,-20,l),
+(596,580,l),
+(-4,-20,l)
 );
 }
 );
-width = 600;
+width = 620;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -22,13 +21,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(606,-26,l),
-(606,586,l),
-(-6,-26,l)
+(596,-23,l),
+(596,583,l),
+(-10,-23,l)
 );
 }
 );
-width = 612;
+width = 624;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -42,7 +41,7 @@ nodes = (
 );
 }
 );
-width = 624;
+width = 640;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -50,13 +49,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(616,-40,l),
-(616,600,l),
-(-24,-40,l)
+(624,-40,l),
+(624,600,l),
+(-16,-40,l)
 );
 }
 );
-width = 640;
+width = 660;
 }
 );
 metricLeft = righttriangle;
