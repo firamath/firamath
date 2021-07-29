@@ -13,12 +13,12 @@ shapes = (
 {
 alignment = -1;
 pos = (0,150);
-ref = lessFlat;
+ref = less.flat;
 },
 {
 alignment = -1;
 pos = (540,-150);
-ref = lessFlat;
+ref = less.flat;
 scale = (-1,1);
 }
 );
@@ -36,12 +36,12 @@ shapes = (
 {
 alignment = -1;
 pos = (0,156);
-ref = lessFlat;
+ref = less.flat;
 },
 {
 alignment = -1;
 pos = (544,-156);
-ref = lessFlat;
+ref = less.flat;
 scale = (-1,1);
 }
 );
@@ -59,12 +59,12 @@ shapes = (
 {
 alignment = -1;
 pos = (0,173);
-ref = lessFlat;
+ref = less.flat;
 },
 {
 alignment = -1;
 pos = (560,-173);
-ref = lessFlat;
+ref = less.flat;
 scale = (-1,1);
 }
 );
@@ -82,12 +82,12 @@ shapes = (
 {
 alignment = -1;
 pos = (0,194);
-ref = lessFlat;
+ref = less.flat;
 },
 {
 alignment = -1;
 pos = (580,-194);
-ref = lessFlat;
+ref = less.flat;
 scale = (-1,1);
 }
 );

@@ -1,7 +1,7 @@
 {
 category = Component;
 export = 0;
-glyphname = asymptoticallyequalFlat;
+glyphname = asymptoticallyequal.flat;
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -17,7 +17,7 @@ nodes = (
 },
 {
 pos = (0,91);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 580;
@@ -36,7 +36,7 @@ nodes = (
 },
 {
 pos = (0,67);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 540;
@@ -55,7 +55,7 @@ nodes = (
 },
 {
 pos = (0,66);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 544;
@@ -74,7 +74,7 @@ nodes = (
 },
 {
 pos = (0,74);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 560;

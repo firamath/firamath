@@ -9,7 +9,7 @@ ref = equal;
 },
 {
 pos = (0,789);
-ref = logicalandShort;
+ref = logicaland.flat;
 scale = (1,-1);
 }
 );
@@ -23,7 +23,7 @@ ref = equal;
 },
 {
 pos = (0,808);
-ref = logicalandShort;
+ref = logicaland.flat;
 scale = (1,-1);
 }
 );
@@ -37,7 +37,7 @@ ref = equal;
 },
 {
 pos = (0,870);
-ref = logicalandShort;
+ref = logicaland.flat;
 scale = (1,-1);
 }
 );
@@ -51,7 +51,7 @@ ref = equal;
 },
 {
 pos = (0,941);
-ref = logicalandShort;
+ref = logicaland.flat;
 scale = (1,-1);
 }
 );

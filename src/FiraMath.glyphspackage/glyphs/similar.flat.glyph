@@ -1,7 +1,7 @@
 {
 category = Component;
 export = 0;
-glyphname = similarFlat;
+glyphname = similar.flat;
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";

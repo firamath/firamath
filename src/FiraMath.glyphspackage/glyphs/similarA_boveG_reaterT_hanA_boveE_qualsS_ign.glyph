@@ -10,7 +10,7 @@ ref = greateroverequal;
 },
 {
 pos = (0,285);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 540;
@@ -24,7 +24,7 @@ ref = greateroverequal;
 },
 {
 pos = (0,309);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 544;
@@ -38,7 +38,7 @@ ref = greateroverequal;
 },
 {
 pos = (0,339);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 560;
@@ -52,7 +52,7 @@ ref = greateroverequal;
 },
 {
 pos = (0,401);
-ref = similarFlat;
+ref = similar.flat;
 }
 );
 width = 580;

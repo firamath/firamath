@@ -10,7 +10,7 @@ ref = lessorgreater;
 },
 {
 pos = (0,-341);
-ref = equalFlat;
+ref = equal.flat;
 }
 );
 width = 540;
@@ -24,7 +24,7 @@ ref = lessorgreater;
 },
 {
 pos = (0,-362);
-ref = equalFlat;
+ref = equal.flat;
 }
 );
 width = 544;
@@ -38,7 +38,7 @@ ref = lessorgreater;
 },
 {
 pos = (0,-396);
-ref = equalFlat;
+ref = equal.flat;
 }
 );
 width = 560;
@@ -52,7 +52,7 @@ ref = lessorgreater;
 },
 {
 pos = (0,-440);
-ref = equalFlat;
+ref = equal.flat;
 }
 );
 width = 580;
