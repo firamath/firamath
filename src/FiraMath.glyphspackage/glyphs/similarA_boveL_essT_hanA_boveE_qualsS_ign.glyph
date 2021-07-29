@@ -1,0 +1,64 @@
+{
+glyphname = similarAboveLessThanAboveEqualsSign;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,-60);
+ref = lessoverequal;
+},
+{
+pos = (0,285);
+ref = similarFlat;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,-65);
+ref = lessoverequal;
+},
+{
+pos = (0,309);
+ref = similarFlat;
+}
+);
+width = 544;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,-77);
+ref = lessoverequal;
+},
+{
+pos = (0,339);
+ref = similarFlat;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,-87);
+ref = lessoverequal;
+},
+{
+pos = (0,401);
+ref = similarFlat;
+}
+);
+width = 580;
+}
+);
+metricLeft = similarOrLessThan;
+metricRight = similarOrLessThan;
+unicode = 10911;
+}

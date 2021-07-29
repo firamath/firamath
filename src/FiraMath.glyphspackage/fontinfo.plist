@@ -56,6 +56,13 @@ pos = (0,280);
 locked = 1;
 name = "Integral contour";
 pos = (0,300);
+},
+{
+angle = 90;
+locked = 1;
+name = Center;
+pos = (270,0);
+showMeasurement = 1;
 }
 );
 iconName = Light;
@@ -115,6 +122,13 @@ pos = (0,280);
 locked = 1;
 name = "Integral contour";
 pos = (0,300);
+},
+{
+angle = 90;
+locked = 1;
+name = Center;
+pos = (272,0);
+showMeasurement = 1;
 }
 );
 iconName = SemiLight;
@@ -174,6 +188,13 @@ pos = (0,617);
 locked = 1;
 name = "Integral contour";
 pos = (0,300);
+},
+{
+angle = 90;
+locked = 1;
+name = Center;
+pos = (280,0);
+showMeasurement = 1;
 }
 );
 id = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -232,6 +253,13 @@ pos = (0,580);
 {
 locked = 1;
 pos = (0,116);
+},
+{
+angle = 90;
+locked = 1;
+name = Center;
+pos = (290,0);
+showMeasurement = 1;
 }
 );
 iconName = Bold;

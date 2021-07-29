@@ -9,12 +9,8 @@ pos = (0,-116);
 ref = logicalandShort;
 },
 {
-pos = (0,55);
-ref = minus;
-},
-{
-pos = (0,189);
-ref = minus;
+pos = (0,122);
+ref = equalFlat;
 }
 );
 width = 540;
@@ -27,12 +23,8 @@ pos = (0,-112);
 ref = logicalandShort;
 },
 {
-pos = (0,59);
-ref = minus;
-},
-{
-pos = (0,191);
-ref = minus;
+pos = (0,125);
+ref = equalFlat;
 }
 );
 width = 544;
@@ -45,12 +37,8 @@ pos = (0,-140);
 ref = logicalandShort;
 },
 {
-pos = (0,64);
-ref = minus;
-},
-{
-pos = (0,212);
-ref = minus;
+pos = (0,138);
+ref = equalFlat;
 }
 );
 width = 560;
@@ -79,16 +67,8 @@ pos = (0,-174);
 ref = logicalandShort;
 },
 {
-alignment = -1;
-pos = (0,112);
-ref = minus;
-scale = (1,0.84);
-},
-{
-alignment = -1;
-pos = (0,286);
-ref = minus;
-scale = (1,0.84);
+pos = (0,154);
+ref = equalFlat;
 }
 );
 width = 580;

@@ -8,12 +8,8 @@ shapes = (
 ref = logicaland;
 },
 {
-pos = (0,327);
-ref = minus;
-},
-{
-pos = (0,461);
-ref = minus;
+pos = (0,394);
+ref = equalFlat;
 }
 );
 width = 540;
@@ -25,12 +21,8 @@ shapes = (
 ref = logicaland;
 },
 {
-pos = (0,343);
-ref = minus;
-},
-{
-pos = (0,475);
-ref = minus;
+pos = (0,409);
+ref = equalFlat;
 }
 );
 width = 544;
@@ -42,12 +34,8 @@ shapes = (
 ref = logicaland;
 },
 {
-pos = (0,370);
-ref = minus;
-},
-{
-pos = (0,518);
-ref = minus;
+pos = (0,444);
+ref = equalFlat;
 }
 );
 width = 560;
@@ -59,16 +47,8 @@ shapes = (
 ref = logicaland;
 },
 {
-alignment = -1;
-pos = (0,418);
-ref = minus;
-scale = (1,0.84);
-},
-{
-alignment = -1;
-pos = (0,592);
-ref = minus;
-scale = (1,0.84);
+pos = (0,460);
+ref = equalFlat;
 }
 );
 width = 580;

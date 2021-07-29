@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = lessthanbutnotequivalentto;
 layers = (
 {
@@ -24,11 +23,11 @@ ref = lessorequivalent;
 },
 {
 alignment = -1;
-pos = (35,-200);
+pos = (32,-202);
 ref = slashlongcomb.size01;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -38,7 +37,7 @@ ref = lessorequivalent;
 },
 {
 alignment = -1;
-pos = (40,-237);
+pos = (40,-245);
 ref = slashlongcomb.size01;
 }
 );
@@ -52,11 +51,11 @@ ref = lessorequivalent;
 },
 {
 alignment = -1;
-pos = (40,-245);
+pos = (50,-258);
 ref = slashlongcomb.size01;
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = lessorequivalent;

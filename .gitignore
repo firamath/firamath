@@ -24,6 +24,7 @@ __pycache__/
 
 # Glyphs caches
 *(Autosaved).*
+*（自动存储）.*
 *.ufo
 UIState.plist
 

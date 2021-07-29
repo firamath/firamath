@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = verymuchgreaterthan;
 layers = (
 {
@@ -7,48 +6,48 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (940,0);
+pos = (980,0);
 ref = verymuchlessthan;
 scale = (-1,1);
 }
 );
-width = 940;
+width = 980;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (990,0);
+pos = (1010,0);
 ref = verymuchlessthan;
 scale = (-1,1);
 }
 );
-width = 990;
+width = 1010;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (1100,0);
+pos = (1060,0);
 ref = verymuchlessthan;
 scale = (-1,1);
 }
 );
-width = 1100;
+width = 1060;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (1240,0);
+pos = (1140,0);
 ref = verymuchlessthan;
 scale = (-1,1);
 }
 );
-width = 1240;
+width = 1140;
 }
 );
 unicode = 8921;

@@ -1,0 +1,85 @@
+{
+category = Component;
+export = 0;
+glyphname = asymptoticallyequalFlat;
+layers = (
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(550,122,l),
+(550,256,l),
+(30,256,l),
+(30,122,l)
+);
+},
+{
+pos = (0,91);
+ref = similarFlat;
+}
+);
+width = 580;
+},
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,212,l),
+(460,214,l),
+(80,214,l),
+(80,212,l)
+);
+},
+{
+pos = (0,67);
+ref = similarFlat;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,200,l),
+(484,228,l),
+(60,228,l),
+(60,200,l)
+);
+},
+{
+pos = (0,66);
+ref = similarFlat;
+}
+);
+width = 544;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,168,l),
+(520,244,l),
+(40,244,l),
+(40,168,l)
+);
+},
+{
+pos = (0,74);
+ref = similarFlat;
+}
+);
+width = 560;
+}
+);
+metricLeft = asymptoticallyequal;
+metricRight = asymptoticallyequal;
+}
