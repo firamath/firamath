@@ -37,7 +37,7 @@ ref = lessequal;
 },
 {
 alignment = -1;
-pos = (40,-247);
+pos = (40,-243);
 ref = slashlongcomb.size01;
 }
 );

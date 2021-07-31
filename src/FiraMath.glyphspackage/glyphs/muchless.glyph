@@ -2,13 +2,6 @@
 glyphname = muchless;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = less;
-}
-);
-};
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -39,13 +32,6 @@ nodes = (
 width = 740;
 },
 {
-background = {
-shapes = (
-{
-ref = less;
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -76,13 +62,6 @@ nodes = (
 width = 752;
 },
 {
-background = {
-shapes = (
-{
-ref = less;
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

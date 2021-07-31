@@ -4,6 +4,12 @@ export = 0;
 glyphname = approxequal.flat;
 layers = (
 {
+anchors = (
+{
+name = center;
+pos = (290,280);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -18,6 +24,12 @@ ref = similar.flat;
 width = 580;
 },
 {
+anchors = (
+{
+name = center;
+pos = (270,280);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -32,6 +44,12 @@ ref = similar.flat;
 width = 540;
 },
 {
+anchors = (
+{
+name = center;
+pos = (272,280);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -46,6 +64,12 @@ ref = similar.flat;
 width = 544;
 },
 {
+anchors = (
+{
+name = center;
+pos = (280,280);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

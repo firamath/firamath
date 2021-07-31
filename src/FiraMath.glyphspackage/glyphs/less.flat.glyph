@@ -76,6 +76,6 @@ nodes = (
 width = 560;
 }
 );
-metricLeft = minus;
-metricRight = minus;
+metricLeft = less;
+metricRight = less;
 }

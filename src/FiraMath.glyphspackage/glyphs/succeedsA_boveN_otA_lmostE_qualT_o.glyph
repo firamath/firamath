@@ -1,17 +1,17 @@
 {
-glyphname = notsucceeds;
+glyphname = succeedsAboveNotAlmostEqualTo;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-ref = succeeds;
+ref = succeedsAboveAlmostEqualTo;
 },
 {
-angle = 6;
-pos = (51,-34);
-ref = slashlongcomb.size04;
+angle = 8;
+pos = (71,-206);
+ref = slashlongcomb.size03;
 }
 );
 width = 540;
@@ -21,12 +21,12 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-ref = succeeds;
+ref = succeedsAboveAlmostEqualTo;
 },
 {
 angle = 8;
-pos = (61,-41);
-ref = slashlongcomb.size04;
+pos = (73,-223);
+ref = slashlongcomb.size03;
 }
 );
 width = 544;
@@ -36,12 +36,12 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-ref = succeeds;
+ref = succeedsAboveAlmostEqualTo;
 },
 {
-angle = 10;
-pos = (76,-47);
-ref = slashlongcomb.size04;
+angle = 8;
+pos = (81,-236);
+ref = slashlongcomb.size03;
 }
 );
 width = 560;
@@ -51,16 +51,16 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-ref = succeeds;
+ref = succeedsAboveAlmostEqualTo;
 },
 {
-angle = 12;
-pos = (93,-54);
-ref = slashlongcomb.size04;
+angle = 8;
+pos = (91,-266);
+ref = slashlongcomb.size03;
 }
 );
 width = 580;
 }
 );
-unicode = 8833;
+unicode = 10938;
 }

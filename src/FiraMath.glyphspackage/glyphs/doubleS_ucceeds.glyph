@@ -1,78 +1,54 @@
 {
-glyphname = succeeds;
+glyphname = doubleSucceeds;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (260,270);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (540,0);
-ref = precedes;
+pos = (760,0);
+ref = doublePrecedes;
 scale = (-1,1);
 }
 );
-width = 540;
+width = 760;
 },
 {
-anchors = (
-{
-name = center;
-pos = (260,270);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (544,0);
-ref = precedes;
+pos = (772,0);
+ref = doublePrecedes;
 scale = (-1,1);
 }
 );
-width = 544;
+width = 772;
 },
 {
-anchors = (
-{
-name = center;
-pos = (264,270);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (560,0);
-ref = precedes;
+pos = (800,0);
+ref = doublePrecedes;
 scale = (-1,1);
 }
 );
-width = 560;
+width = 800;
 },
 {
-anchors = (
-{
-name = center;
-pos = (270,270);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (580,0);
-ref = precedes;
+pos = (840,0);
+ref = doublePrecedes;
 scale = (-1,1);
 }
 );
-width = 580;
+width = 840;
 }
 );
-unicode = 8827;
+unicode = 10940;
 }

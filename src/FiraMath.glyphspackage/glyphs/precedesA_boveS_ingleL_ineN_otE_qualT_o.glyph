@@ -1,15 +1,15 @@
 {
-color = 8;
 glyphname = precedesAboveSingleLineNotEqualTo;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
+alignment = 1;
 ref = precedesAboveSingleLineEqualsSign;
 },
 {
-alignment = -1;
+alignment = 1;
 pos = (30,-197);
 ref = slashlongcomb.size01;
 }
@@ -20,25 +20,27 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
+alignment = 1;
 ref = precedesAboveSingleLineEqualsSign;
 },
 {
-alignment = -1;
-pos = (35,-214);
+alignment = 1;
+pos = (32,-216);
 ref = slashlongcomb.size01;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
+alignment = 1;
 ref = precedesAboveSingleLineEqualsSign;
 },
 {
-alignment = -1;
-pos = (40,-262);
+alignment = 1;
+pos = (40,-243);
 ref = slashlongcomb.size01;
 }
 );
@@ -48,18 +50,17 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
+alignment = 1;
 ref = precedesAboveSingleLineEqualsSign;
 },
 {
-alignment = -1;
-pos = (40,-261);
+alignment = 1;
+pos = (50,-274);
 ref = slashlongcomb.size01;
 }
 );
-width = 560;
+width = 580;
 }
 );
-metricLeft = precedesAboveSingleLineEqualsSign;
-metricRight = precedesAboveSingleLineEqualsSign;
 unicode = 10929;
 }

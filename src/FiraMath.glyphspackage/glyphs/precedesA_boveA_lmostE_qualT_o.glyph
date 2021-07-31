@@ -1,86 +1,62 @@
 {
-glyphname = lessorequivalent;
+glyphname = precedesAboveAlmostEqualTo;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (270,280);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,-181);
-ref = similar;
+pos = (0,-175);
+ref = approxequal.flat;
 },
 {
 alignment = -1;
-pos = (0,59);
-ref = less;
+pos = (0,115);
+ref = precedes.flat;
 }
 );
 width = 540;
 },
 {
-anchors = (
-{
-name = center;
-pos = (274,280);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,-202);
-ref = similar;
+pos = (0,-192);
+ref = approxequal.flat;
 },
 {
 alignment = -1;
-pos = (0,61);
-ref = less;
+pos = (0,119);
+ref = precedes.flat;
 }
 );
 width = 544;
 },
 {
-anchors = (
-{
-name = center;
-pos = (286,280);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,-225);
-ref = similar;
+pos = (0,-205);
+ref = approxequal.flat;
 },
 {
 alignment = -1;
-pos = (0,73);
-ref = less;
+pos = (0,140);
+ref = precedes.flat;
 }
 );
 width = 560;
 },
 {
-anchors = (
-{
-name = center;
-pos = (300,280);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,-264);
-ref = similar;
+pos = (0,-235);
+ref = approxequal.flat;
 },
 {
 alignment = -1;
-pos = (0,106);
-ref = less;
+pos = (0,161);
+ref = precedes.flat;
 }
 );
 width = 580;
@@ -88,5 +64,5 @@ width = 580;
 );
 metricLeft = similar;
 metricRight = similar;
-unicode = 8818;
+unicode = 10935;
 }

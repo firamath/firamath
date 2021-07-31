@@ -9,7 +9,7 @@ alignment = 1;
 ref = lessThanOrApproximate;
 },
 {
-pos = (50,-175);
+pos = (30,-175);
 ref = slashlongcomb.size03;
 }
 );
@@ -23,20 +23,13 @@ alignment = 1;
 ref = lessThanOrApproximate;
 },
 {
-pos = (50,-192);
+pos = (32,-192);
 ref = slashlongcomb.size03;
 }
 );
 width = 544;
 },
 {
-background = {
-shapes = (
-{
-ref = lessorequivalent;
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -45,7 +38,7 @@ ref = lessThanOrApproximate;
 },
 {
 angle = 4;
-pos = (70,-221);
+pos = (60,-221);
 ref = slashlongcomb.size03;
 }
 );
@@ -59,6 +52,7 @@ alignment = 1;
 ref = lessThanOrApproximate;
 },
 {
+alignment = 1;
 angle = 8;
 pos = (91,-266);
 ref = slashlongcomb.size03;

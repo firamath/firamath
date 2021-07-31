@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = doesnotprecedeorequal;
 layers = (
 {
@@ -24,11 +23,11 @@ alignment = 1;
 ref = precedesorequalto;
 },
 {
-pos = (35,20);
+pos = (32,20);
 ref = slashlongcomb.size05;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -54,11 +53,11 @@ ref = precedesorequalto;
 },
 {
 angle = 8;
-pos = (81,-11);
+pos = (91,-11);
 ref = slashlongcomb.size05;
 }
 );
-width = 560;
+width = 580;
 }
 );
 unicode = 8928;

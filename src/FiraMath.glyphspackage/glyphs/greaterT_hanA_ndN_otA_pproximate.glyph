@@ -9,7 +9,7 @@ alignment = 1;
 ref = greaterThanOrApproximate;
 },
 {
-pos = (50,-175);
+pos = (30,-175);
 ref = slashlongcomb.size03;
 }
 );
@@ -23,7 +23,7 @@ alignment = 1;
 ref = greaterThanOrApproximate;
 },
 {
-pos = (50,-192);
+pos = (32,-192);
 ref = slashlongcomb.size03;
 }
 );
@@ -38,7 +38,7 @@ ref = greaterThanOrApproximate;
 },
 {
 angle = 4;
-pos = (70,-221);
+pos = (60,-221);
 ref = slashlongcomb.size03;
 }
 );
