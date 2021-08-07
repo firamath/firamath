@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = upBarbRightDownBarbRightHarpoon;
 layers = (
 {
@@ -7,7 +6,7 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 angle = -90;
-pos = (-50,720);
+pos = (-64,720);
 ref = leftBarbUpRightBarbUpHarpoon;
 }
 );
@@ -18,18 +17,18 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = -90;
-pos = (-45,730);
+pos = (-58,722);
 ref = leftBarbUpRightBarbUpHarpoon;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = -90;
-pos = (-40,750);
+pos = (-51,750);
 ref = leftBarbUpRightBarbUpHarpoon;
 }
 );
@@ -40,7 +39,7 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 angle = -90;
-pos = (-30,820);
+pos = (-38,800);
 ref = leftBarbUpRightBarbUpHarpoon;
 }
 );

@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = rightOverLeftArrow;
 layers = (
 {
@@ -10,11 +9,11 @@ pos = (0,-101);
 ref = leftArrow;
 },
 {
-pos = (20,101);
+pos = (0,101);
 ref = rightArrow;
 }
 );
-width = 800;
+width = 780;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -24,11 +23,11 @@ pos = (0,-109);
 ref = leftArrow;
 },
 {
-pos = (30,109);
+pos = (0,109);
 ref = rightArrow;
 }
 );
-width = 830;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -38,11 +37,11 @@ pos = (0,-128);
 ref = leftArrow;
 },
 {
-pos = (40,128);
+pos = (10,128);
 ref = rightArrow;
 }
 );
-width = 860;
+width = 810;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -52,11 +51,11 @@ pos = (0,-155);
 ref = leftArrow;
 },
 {
-pos = (40,155);
+pos = (20,155);
 ref = rightArrow;
 }
 );
-width = 940;
+width = 860;
 }
 );
 metricLeft = leftArrow;

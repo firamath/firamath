@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftOverRightHarpoon;
 layers = (
 {
@@ -28,7 +27,7 @@ pos = (0,-80);
 ref = rightBarbdownHarpoon;
 }
 );
-width = 800;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -42,7 +41,7 @@ pos = (0,-98);
 ref = rightBarbdownHarpoon;
 }
 );
-width = 820;
+width = 800;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -56,7 +55,7 @@ pos = (0,-113);
 ref = rightBarbdownHarpoon;
 }
 );
-width = 900;
+width = 840;
 }
 );
 metricLeft = leftBarbUpHarpoon;

@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftBarbUpRightBarbUpHarpoon;
 layers = (
 {
@@ -8,10 +7,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(808,279,l),
-(808,281,l),
-(72,281,l),
-(72,279,l)
+(806,279,l),
+(806,281,l),
+(74,281,l),
+(74,279,l)
 );
 },
 {
@@ -32,10 +31,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(806,266,l),
-(806,294,l),
-(94,294,l),
-(94,266,l)
+(783,266,l),
+(783,294,l),
+(101,294,l),
+(101,266,l)
 );
 },
 {
@@ -43,12 +42,12 @@ pos = (30,0);
 ref = harpoonHead;
 },
 {
-pos = (870,0);
+pos = (854,0);
 ref = harpoonHead;
 scale = (-1,1);
 }
 );
-width = 900;
+width = 884;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -56,10 +55,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(796,242,l),
-(796,318,l),
-(144,318,l),
-(144,242,l)
+(774,242,l),
+(774,318,l),
+(166,318,l),
+(166,242,l)
 );
 },
 {
@@ -80,23 +79,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(835,205,l),
-(835,355,l),
-(245,355,l),
-(245,205,l)
+(764,205,l),
+(764,355,l),
+(276,355,l),
+(276,205,l)
 );
 },
 {
-pos = (20,0);
 ref = harpoonHead;
 },
 {
-pos = (1060,0);
+pos = (1040,0);
 ref = harpoonHead;
 scale = (-1,1);
 }
 );
-width = 1080;
+width = 1040;
 }
 );
 metricLeft = leftBarbUpHarpoon;

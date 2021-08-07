@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftRightDoubleVerticalStrokeArrow;
 layers = (
 {
@@ -10,14 +9,8 @@ alignment = 1;
 ref = leftRightArrow;
 },
 {
-alignment = -1;
 pos = (296,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (382,0);
-ref = arrowBar;
+ref = arrowDoubleBar;
 }
 );
 width = 880;
@@ -30,17 +23,11 @@ alignment = 1;
 ref = leftRightArrow;
 },
 {
-alignment = -1;
-pos = (282,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (390,0);
-ref = arrowBar;
+pos = (274,0);
+ref = arrowDoubleBar;
 }
 );
-width = 900;
+width = 884;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -50,14 +37,8 @@ alignment = 1;
 ref = leftRightArrow;
 },
 {
-alignment = -1;
 pos = (264,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (400,0);
-ref = arrowBar;
+ref = arrowDoubleBar;
 }
 );
 width = 940;
@@ -70,19 +51,11 @@ alignment = 1;
 ref = leftRightArrow;
 },
 {
-alignment = -1;
-pos = (298,0);
-ref = arrowBar;
-scale = (0.92,1);
-},
-{
-alignment = -1;
-pos = (460,0);
-ref = arrowBar;
-scale = (0.92,1);
+pos = (270,0);
+ref = arrowDoubleBar;
 }
 );
-width = 1080;
+width = 1040;
 }
 );
 unicode = 8700;

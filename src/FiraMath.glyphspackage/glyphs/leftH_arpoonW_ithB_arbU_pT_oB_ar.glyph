@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftHarpoonWithBarbUpToBar;
 layers = (
 {
@@ -11,11 +10,20 @@ pos = (-20,0);
 ref = arrowBar;
 },
 {
-pos = (12,0);
-ref = leftBarbUpHarpoon;
+closed = 1;
+nodes = (
+(700,279,l),
+(700,281,l),
+(86,281,l),
+(86,279,l)
+);
+},
+{
+pos = (62,0);
+ref = harpoonHead;
 }
 );
-width = 792;
+width = 780;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -26,11 +34,20 @@ pos = (-40,0);
 ref = arrowBar;
 },
 {
-pos = (28,0);
-ref = leftBarbUpHarpoon;
+closed = 1;
+nodes = (
+(724,266,l),
+(724,294,l),
+(129,294,l),
+(129,266,l)
+);
+},
+{
+pos = (58,0);
+ref = harpoonHead;
 }
 );
-width = 828;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -41,29 +58,47 @@ pos = (-60,0);
 ref = arrowBar;
 },
 {
-pos = (66,-2);
-ref = leftBarbUpHarpoon;
+closed = 1;
+nodes = (
+(760,240,l),
+(760,316,l),
+(230,316,l),
+(230,240,l)
+);
+},
+{
+pos = (74,-2);
+ref = harpoonHead;
 }
 );
-width = 886;
+width = 800;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = -1;
-pos = (-50,0);
+pos = (-70,0);
 ref = arrowBar;
 },
 {
+closed = 1;
+nodes = (
+(810,205,l),
+(810,355,l),
+(396,355,l),
+(396,205,l)
+);
+},
+{
 pos = (120,0);
-ref = leftBarbUpHarpoon;
+ref = harpoonHead;
 }
 );
-width = 1020;
+width = 840;
 }
 );
-metricLeft = "=|";
+metricLeft = "=|leftBarbUpHarpoon";
 metricRight = leftBarbUpHarpoon;
 subCategory = Arrow;
 unicode = 10578;

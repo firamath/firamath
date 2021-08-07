@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftHarpoonWithBarbUpFromBar;
 layers = (
 {
@@ -20,15 +19,16 @@ width = 780;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
+alignment = -1;
 ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (612,0);
+pos = (596,0);
 ref = arrowBar;
 }
 );
-width = 800;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -38,11 +38,11 @@ ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (624,0);
+pos = (584,0);
 ref = arrowBar;
 }
 );
-width = 840;
+width = 800;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -52,11 +52,11 @@ ref = leftBarbUpHarpoon;
 },
 {
 alignment = -1;
-pos = (640,0);
+pos = (560,0);
 ref = arrowBar;
 }
 );
-width = 940;
+width = 840;
 }
 );
 metricLeft = leftBarbUpHarpoon;

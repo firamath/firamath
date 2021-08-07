@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = upDownbaseArrow;
 layers = (
 {
@@ -24,7 +23,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (555,-219);
+pos = (555,-211);
 ref = arrowBar;
 },
 {
@@ -32,7 +31,7 @@ pos = (0,9);
 ref = upDownArrow;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -40,7 +39,7 @@ shapes = (
 {
 alignment = -1;
 angle = 90;
-pos = (560,-278);
+pos = (560,-268);
 ref = arrowBar;
 },
 {
