@@ -7,17 +7,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(535,76,l),
-(535,235,l),
-(25,235,l),
-(25,76,l)
+(545,76,l),
+(545,235,l),
+(35,235,l),
+(35,76,l)
 );
 },
 {
 ref = dagger;
 }
 );
-width = 560;
+width = 580;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -43,17 +43,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(469,134,l),
-(469,162,l),
-(81,162,l),
-(81,134,l)
+(466,134,l),
+(466,162,l),
+(78,162,l),
+(78,134,l)
 );
 },
 {
 ref = dagger;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -74,5 +74,7 @@ ref = dagger;
 width = 560;
 }
 );
+metricLeft = dagger;
+metricRight = dagger;
 unicode = 8225;
 }

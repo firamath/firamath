@@ -34,10 +34,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(536,266,l),
-(536,294,l),
-(116,294,l),
-(116,266,l)
+(532,266,l),
+(532,294,l),
+(112,294,l),
+(112,266,l)
 );
 },
 {
@@ -46,14 +46,14 @@ ref = halfWhiteCircle;
 {
 closed = 1;
 nodes = (
-(340,70,l),
-(340,490,l),
-(312,490,l),
-(312,70,l)
+(336,70,l),
+(336,490,l),
+(308,490,l),
+(308,70,l)
 );
 }
 );
-width = 596;
+width = 592;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -61,10 +61,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(532,244,l),
-(532,316,l),
-(132,316,l),
-(132,244,l)
+(530,244,l),
+(530,316,l),
+(130,316,l),
+(130,244,l)
 );
 },
 {
@@ -73,14 +73,14 @@ ref = halfWhiteCircle;
 {
 closed = 1;
 nodes = (
-(368,80,l),
-(368,480,l),
-(296,480,l),
-(296,80,l)
+(366,80,l),
+(366,480,l),
+(294,480,l),
+(294,80,l)
 );
 }
 );
-width = 572;
+width = 570;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -107,10 +107,10 @@ nodes = (
 );
 }
 );
-width = 610;
+width = 590;
 }
 );
-metricLeft = plus.circled;
-metricRight = minus;
+metricLeft = whiteCircle;
+metricRight = plus;
 unicode = 10797;
 }

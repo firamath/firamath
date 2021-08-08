@@ -7,18 +7,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(385,279,l),
-(385,281,l),
-(155,281,l),
-(155,279,l)
+(365,279,l),
+(365,281,l),
+(175,281,l),
+(175,279,l)
 );
 },
 {
-pos = (-152,0);
+pos = (-132,0);
 ref = ringoperator;
 },
 {
-pos = (152,0);
+pos = (132,0);
 ref = ringoperator;
 }
 );
@@ -30,22 +30,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(405,266,l),
-(405,294,l),
-(165,294,l),
-(165,266,l)
+(382,266,l),
+(382,294,l),
+(182,294,l),
+(182,266,l)
 );
 },
 {
-pos = (-166,0);
+pos = (-143,0);
 ref = ringoperator;
 },
 {
-pos = (186,0);
+pos = (163,0);
 ref = ringoperator;
 }
 );
-width = 570;
+width = 564;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -53,22 +53,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(398,242,l),
-(398,318,l),
-(202,318,l),
-(202,242,l)
+(410,242,l),
+(410,318,l),
+(210,318,l),
+(210,242,l)
 );
 },
 {
-pos = (-156,0);
+pos = (-144,0);
 ref = ringoperator;
 },
 {
-pos = (196,0);
+pos = (204,0);
 ref = ringoperator;
 }
 );
-width = 600;
+width = 620;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -76,22 +76,22 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(450,205,l),
-(450,355,l),
-(230,355,l),
-(230,205,l)
+(490,205,l),
+(490,355,l),
+(250,355,l),
+(250,205,l)
 );
 },
 {
-pos = (-132,0);
+pos = (-122,0);
 ref = ringoperator;
 },
 {
-pos = (252,0);
+pos = (282,0);
 ref = ringoperator;
 }
 );
-width = 680;
+width = 740;
 }
 );
 metricLeft = imageof;

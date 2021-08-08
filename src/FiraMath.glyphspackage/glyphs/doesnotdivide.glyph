@@ -23,11 +23,11 @@ alignment = 1;
 ref = divides;
 },
 {
-pos = (35,0);
+pos = (32,0);
 ref = slashlongcomb.size03;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -53,11 +53,11 @@ ref = divides;
 },
 {
 angle = -16;
-pos = (-28,77);
+pos = (-18,77);
 ref = slashlongcomb.size03;
 }
 );
-width = 560;
+width = 580;
 }
 );
 unicode = 8740;

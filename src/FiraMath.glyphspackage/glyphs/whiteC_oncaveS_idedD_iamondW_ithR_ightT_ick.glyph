@@ -18,12 +18,12 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (710,0);
+pos = (704,0);
 ref = whiteConcaveSidedDiamondWithLeftTick;
 scale = (-1,1);
 }
 );
-width = 710;
+width = 704;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -42,12 +42,12 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (720,0);
+pos = (740,0);
 ref = whiteConcaveSidedDiamondWithLeftTick;
 scale = (-1,1);
 }
 );
-width = 720;
+width = 740;
 }
 );
 unicode = 10211;

@@ -17,22 +17,22 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = 90;
-pos = (606,-46);
+pos = (602,-42);
 ref = leftHalfBlackWhiteCircle;
 }
 );
-width = 652;
+width = 644;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = 90;
-pos = (612,-52);
+pos = (610,-50);
 ref = leftHalfBlackWhiteCircle;
 }
 );
-width = 664;
+width = 660;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";

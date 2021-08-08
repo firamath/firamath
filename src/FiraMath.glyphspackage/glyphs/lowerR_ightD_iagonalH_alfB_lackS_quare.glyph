@@ -17,22 +17,22 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = 180;
-pos = (652,560);
+pos = (644,560);
 ref = upperLeftDiagonalHalfBlackSquare;
 }
 );
-width = 652;
+width = 644;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = 180;
-pos = (664,560);
+pos = (660,560);
 ref = upperLeftDiagonalHalfBlackSquare;
 }
 );
-width = 664;
+width = 660;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -46,7 +46,7 @@ ref = upperLeftDiagonalHalfBlackSquare;
 width = 680;
 }
 );
-metricLeft = blackSquare;
-metricRight = blackSquare;
+metricLeft = whiteSquare;
+metricRight = whiteSquare;
 unicode = 9706;
 }

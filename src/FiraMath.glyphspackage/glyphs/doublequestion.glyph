@@ -10,11 +10,11 @@ ref = question;
 },
 {
 alignment = -1;
-pos = (348,0);
+pos = (334,0);
 ref = question;
 }
 );
-width = 796;
+width = 782;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";

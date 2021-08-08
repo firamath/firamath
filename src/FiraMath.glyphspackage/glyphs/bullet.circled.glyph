@@ -21,11 +21,11 @@ shapes = (
 ref = whiteCircle;
 },
 {
-pos = (51,0);
+pos = (50,0);
 ref = bullet;
 }
 );
-width = 652;
+width = 644;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -34,12 +34,12 @@ shapes = (
 ref = whiteCircle;
 },
 {
-pos = (80,28);
+pos = (78,28);
 ref = bullet;
 scale = (0.9,0.9);
 }
 );
-width = 664;
+width = 660;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -48,7 +48,7 @@ shapes = (
 ref = whiteCircle;
 },
 {
-pos = (116,56);
+pos = (108,56);
 ref = bullet;
 scale = (0.8,0.8);
 }

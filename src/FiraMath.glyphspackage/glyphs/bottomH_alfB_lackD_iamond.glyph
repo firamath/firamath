@@ -10,7 +10,7 @@ ref = topHalfBlackDiamond;
 scale = (1,-1);
 }
 );
-width = 688;
+width = 720;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -21,7 +21,7 @@ ref = topHalfBlackDiamond;
 scale = (1,-1);
 }
 );
-width = 696;
+width = 724;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -32,7 +32,7 @@ ref = topHalfBlackDiamond;
 scale = (1,-1);
 }
 );
-width = 706;
+width = 740;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -43,10 +43,10 @@ ref = topHalfBlackDiamond;
 scale = (1,-1);
 }
 );
-width = 720;
+width = 760;
 }
 );
-metricLeft = blackDiamond;
-metricRight = blackDiamond;
+metricLeft = whiteDiamond;
+metricRight = whiteDiamond;
 unicode = 11033;
 }

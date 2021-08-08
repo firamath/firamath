@@ -5,8 +5,12 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (-183,0);
-ref = ratio;
+pos = (-183,-75);
+ref = periodcentered;
+},
+{
+pos = (-183,75);
+ref = periodcentered;
 },
 {
 pos = (80,0);
@@ -19,22 +23,30 @@ width = 620;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (-185,0);
-ref = ratio;
+pos = (-182,-80);
+ref = periodcentered;
 },
 {
-pos = (130,0);
+pos = (-182,80);
+ref = periodcentered;
+},
+{
+pos = (120,0);
 ref = equal;
 }
 );
-width = 680;
+width = 664;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (-170,0);
-ref = ratio;
+pos = (-170,-98);
+ref = periodcentered;
+},
+{
+pos = (-170,98);
+ref = periodcentered;
 },
 {
 pos = (200,0);
@@ -47,15 +59,19 @@ width = 760;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (-127,0);
-ref = ratio;
+pos = (-157,-113);
+ref = periodcentered;
+},
+{
+pos = (-157,113);
+ref = periodcentered;
 },
 {
 pos = (240,0);
 ref = equal;
 }
 );
-width = 800;
+width = 820;
 }
 );
 metricLeft = equal;

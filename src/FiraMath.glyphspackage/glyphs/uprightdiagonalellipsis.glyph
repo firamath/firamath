@@ -35,7 +35,7 @@ pos = (320,160);
 ref = periodcentered;
 }
 );
-width = 870;
+width = 864;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -59,22 +59,22 @@ width = 960;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,-190);
+pos = (0,-210);
 ref = periodcentered;
 },
 {
-pos = (190,0);
+pos = (210,0);
 ref = periodcentered;
 },
 {
-pos = (380,190);
+pos = (420,210);
 ref = periodcentered;
 }
 );
-width = 940;
+width = 1000;
 }
 );
-metricLeft = dotmath;
-metricRight = dotmath;
+metricLeft = periodcentered;
+metricRight = periodcentered;
 unicode = 8944;
 }

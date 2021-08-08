@@ -22,14 +22,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(359,196,l),
-(359,364,l),
-(191,364,l),
-(191,196,l)
+(356,196,l),
+(356,364,l),
+(188,364,l),
+(188,196,l)
 );
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -52,16 +52,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(440,120,l),
-(440,440,l),
-(120,440,l),
-(120,120,l)
+(450,120,l),
+(450,440,l),
+(130,440,l),
+(130,120,l)
 );
 }
 );
-width = 560;
+width = 580;
 }
 );
-metricRight = "=|";
+metricLeft = whiteSmallSquare;
+metricRight = whiteSmallSquare;
 unicode = 9642;
 }

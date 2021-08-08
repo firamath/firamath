@@ -25,7 +25,7 @@ pos = (0,268);
 ref = upWhiteSmallTriangle;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -47,11 +47,11 @@ shapes = (
 ref = equal;
 },
 {
-pos = (-1,421);
+pos = (0,421);
 ref = upWhiteSmallTriangle;
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = equal;

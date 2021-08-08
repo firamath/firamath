@@ -21,7 +21,7 @@ ref = northWestArrow;
 scale = (1,-1);
 }
 );
-width = 610;
+width = 604;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";

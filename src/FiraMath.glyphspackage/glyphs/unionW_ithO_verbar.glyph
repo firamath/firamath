@@ -8,7 +8,7 @@ shapes = (
 ref = union;
 },
 {
-pos = (0,320);
+pos = (0,327);
 ref = minus;
 }
 );
@@ -21,11 +21,11 @@ shapes = (
 ref = union;
 },
 {
-pos = (0,340);
+pos = (0,343);
 ref = minus;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -51,10 +51,10 @@ pos = (0,400);
 ref = minus;
 }
 );
-width = 560;
+width = 580;
 }
 );
-metricLeft = union;
-metricRight = union;
+metricLeft = intersection;
+metricRight = intersection;
 unicode = 10818;
 }

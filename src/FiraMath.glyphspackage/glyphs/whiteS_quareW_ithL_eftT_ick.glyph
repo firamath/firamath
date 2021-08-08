@@ -37,7 +37,7 @@ pos = (130,0);
 ref = whiteSquare;
 }
 );
-width = 782;
+width = 774;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -56,7 +56,7 @@ pos = (140,0);
 ref = whiteSquare;
 }
 );
-width = 804;
+width = 800;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -64,10 +64,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(260,215,l),
-(260,345,l),
-(0,345,l),
-(0,215,l)
+(260,214,l),
+(260,346,l),
+(0,346,l),
+(0,214,l)
 );
 },
 {

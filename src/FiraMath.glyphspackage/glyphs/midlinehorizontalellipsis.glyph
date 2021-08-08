@@ -33,7 +33,7 @@ pos = (400,0);
 ref = periodcentered;
 }
 );
-width = 950;
+width = 944;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -59,18 +59,18 @@ shapes = (
 ref = periodcentered;
 },
 {
-pos = (250,0);
+pos = (280,0);
 ref = periodcentered;
 },
 {
-pos = (500,0);
+pos = (560,0);
 ref = periodcentered;
 }
 );
-width = 1060;
+width = 1140;
 }
 );
-metricLeft = dotmath;
-metricRight = dotmath;
+metricLeft = periodcentered;
+metricRight = periodcentered;
 unicode = 8943;
 }

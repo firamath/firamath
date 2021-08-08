@@ -5,73 +5,105 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (-97,0);
-ref = ratio;
+pos = (-183,-75);
+ref = periodcentered;
 },
 {
-pos = (166,0);
+pos = (-183,75);
+ref = periodcentered;
+},
+{
+pos = (-109,-75);
+ref = periodcentered;
+},
+{
+pos = (-109,75);
+ref = periodcentered;
+},
+{
+pos = (154,0);
 ref = equal;
-},
-{
-pos = (-183,0);
-ref = ratio;
 }
 );
-width = 706;
+width = 694;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (-57,0);
-ref = ratio;
+pos = (-182,-80);
+ref = periodcentered;
 },
 {
-pos = (258,0);
+pos = (-182,80);
+ref = periodcentered;
+},
+{
+pos = (-78,-80);
+ref = periodcentered;
+},
+{
+pos = (-78,80);
+ref = periodcentered;
+},
+{
+pos = (224,0);
 ref = equal;
-},
-{
-pos = (-185,0);
-ref = ratio;
 }
 );
-width = 808;
+width = 768;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (30,0);
-ref = ratio;
+pos = (-170,-98);
+ref = periodcentered;
 },
 {
-pos = (400,0);
+pos = (-170,98);
+ref = periodcentered;
+},
+{
+pos = (14,-98);
+ref = periodcentered;
+},
+{
+pos = (14,98);
+ref = periodcentered;
+},
+{
+pos = (384,0);
 ref = equal;
-},
-{
-pos = (-170,0);
-ref = ratio;
 }
 );
-width = 960;
+width = 944;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (113,0);
-ref = ratio;
+pos = (-157,-113);
+ref = periodcentered;
 },
 {
-pos = (480,0);
+pos = (-157,113);
+ref = periodcentered;
+},
+{
+pos = (77,-113);
+ref = periodcentered;
+},
+{
+pos = (77,113);
+ref = periodcentered;
+},
+{
+pos = (474,0);
 ref = equal;
-},
-{
-pos = (-127,0);
-ref = ratio;
 }
 );
-width = 1040;
+width = 1054;
 }
 );
 metricLeft = equal;

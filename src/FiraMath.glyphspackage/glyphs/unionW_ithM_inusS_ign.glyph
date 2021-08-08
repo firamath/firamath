@@ -7,14 +7,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(374,259,l),
-(374,261,l),
-(174,261,l),
-(174,259,l)
+(370,267,l),
+(370,269,l),
+(170,269,l),
+(170,267,l)
 );
 },
 {
-ref = unionComb;
+ref = union;
 }
 );
 width = 540;
@@ -25,17 +25,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(384,246,l),
-(384,274,l),
-(166,274,l),
-(166,246,l)
+(381,258,l),
+(381,286,l),
+(163,286,l),
+(163,258,l)
 );
 },
 {
-ref = unionComb;
+ref = union;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -50,7 +50,7 @@ nodes = (
 );
 },
 {
-ref = unionComb;
+ref = union;
 }
 );
 width = 560;
@@ -61,20 +61,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(374,252,l),
-(374,348,l),
-(186,348,l),
-(186,252,l)
+(380,252,l),
+(380,348,l),
+(200,348,l),
+(200,252,l)
 );
 },
 {
-ref = unionComb;
+ref = union;
 }
 );
-width = 560;
+width = 580;
 }
 );
-metricLeft = unionComb;
-metricRight = unionComb;
+metricLeft = union;
+metricRight = union;
 unicode = 10817;
 }

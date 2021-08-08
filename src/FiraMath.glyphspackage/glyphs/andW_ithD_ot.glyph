@@ -5,10 +5,19 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-ref = logicaland;
+closed = 1;
+nodes = (
+(74,30,l),
+(270,527,l),
+(466,30,l),
+(468,30,l),
+(271,530,l),
+(269,530,l),
+(72,30,l)
+);
 },
 {
-pos = (0,-100);
+pos = (0,-84);
 ref = periodcentered;
 }
 );
@@ -18,23 +27,41 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-ref = logicaland;
+closed = 1;
+nodes = (
+(80,25,l),
+(272,506,l),
+(464,25,l),
+(496,25,l),
+(290,535,l),
+(254,535,l),
+(48,25,l)
+);
 },
 {
-pos = (0,-100);
+pos = (0,-88);
 ref = periodcentered;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-ref = logicaland;
+closed = 1;
+nodes = (
+(107,20,l),
+(280,453,l),
+(453,20,l),
+(540,20,l),
+(326,540,l),
+(234,540,l),
+(20,20,l)
+);
 },
 {
-pos = (0,-100);
+pos = (0,-92);
 ref = periodcentered;
 }
 );
@@ -44,15 +71,24 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-ref = logicaland;
+closed = 1;
+nodes = (
+(175,18,l),
+(290,318,l),
+(405,18,l),
+(580,18,l),
+(370,542,l),
+(210,542,l),
+(0,18,l)
+);
 },
 {
-pos = (56,-121);
+pos = (37,-120);
 ref = periodcentered;
-scale = (0.8,0.8);
+scale = (0.874,0.874);
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricLeft = logicaland;
