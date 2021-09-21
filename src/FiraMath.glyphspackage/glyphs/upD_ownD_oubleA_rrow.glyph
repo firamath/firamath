@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = upDownDoubleArrow;
 layers = (
 {
@@ -8,10 +7,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(355,3,l),
-(355,557,l),
-(353,559,l),
-(353,1,l)
+(355,4,l),
+(355,556,l),
+(353,556,l),
+(353,4,l)
 );
 },
 {
@@ -23,10 +22,10 @@ scale = (1,-1);
 {
 closed = 1;
 nodes = (
-(205,1,l),
-(205,559,l),
-(203,557,l),
-(203,3,l)
+(205,4,l),
+(205,556,l),
+(203,556,l),
+(203,4,l)
 );
 },
 {
@@ -43,34 +42,34 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(395,-6,l),
-(395,566,l),
-(367,566,l),
-(367,-6,l)
+(392,36,l),
+(392,524,l),
+(364,524,l),
+(364,36,l)
 );
 },
 {
 angle = 90;
-pos = (21,-130);
+pos = (18,-122);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(235,-6,l),
-(235,566,l),
-(207,566,l),
-(207,-6,l)
+(232,36,l),
+(232,524,l),
+(204,524,l),
+(204,36,l)
 );
 },
 {
 angle = -90;
-pos = (21,690);
+pos = (18,682);
 ref = doubleArrowHead;
 }
 );
-width = 602;
+width = 596;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -78,30 +77,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(481,0,l),
-(481,560,l),
-(405,560,l),
-(405,0,l)
+(481,92,l),
+(481,468,l),
+(405,468,l),
+(405,92,l)
 );
 },
 {
 angle = 90;
-pos = (65,-170);
+pos = (65,-160);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(285,0,l),
-(285,560,l),
-(209,560,l),
-(209,0,l)
+(285,92,l),
+(285,468,l),
+(209,468,l),
+(209,92,l)
 );
 },
 {
 angle = -90;
-pos = (65,730);
+pos = (65,720);
 ref = doubleArrowHead;
 }
 );
@@ -113,30 +112,30 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(558,-10,l),
-(558,570,l),
-(408,570,l),
-(408,-10,l)
+(558,160,l),
+(558,400,l),
+(408,400,l),
+(408,160,l)
 );
 },
 {
 angle = 90;
-pos = (90,-220);
+pos = (90,-200);
 ref = doubleArrowHead;
 scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(332,-10,l),
-(332,570,l),
-(182,570,l),
-(182,-10,l)
+(332,160,l),
+(332,400,l),
+(182,400,l),
+(182,160,l)
 );
 },
 {
 angle = -90;
-pos = (90,780);
+pos = (90,760);
 ref = doubleArrowHead;
 }
 );
@@ -145,7 +144,7 @@ width = 740;
 );
 metricLeft = upDoubleArrow;
 metricRight = upDoubleArrow;
-note = uni21D5;
+note = uni21D4;
 subCategory = Arrow;
 unicode = 8661;
 }

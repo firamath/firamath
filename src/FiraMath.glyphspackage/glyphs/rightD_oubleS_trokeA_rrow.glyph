@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = rightDoubleStrokeArrow;
 layers = (
 {
@@ -10,7 +9,7 @@ alignment = 1;
 ref = rightDoubleArrow;
 },
 {
-pos = (95,0);
+pos = (100,0);
 ref = slashlongcomb.size04;
 }
 );
@@ -24,11 +23,11 @@ alignment = 1;
 ref = rightDoubleArrow;
 },
 {
-pos = (85,0);
+pos = (80,0);
 ref = slashlongcomb.size04;
 }
 );
-width = 800;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -39,11 +38,11 @@ ref = rightDoubleArrow;
 },
 {
 angle = 4;
-pos = (95,-16);
+pos = (70,-16);
 ref = slashlongcomb.size04;
 }
 );
-width = 820;
+width = 800;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -54,11 +53,11 @@ ref = rightDoubleArrow;
 },
 {
 angle = 8;
-pos = (96,-31);
+pos = (61,-31);
 ref = slashlongcomb.size04;
 }
 );
-width = 900;
+width = 840;
 }
 );
 unicode = 8655;

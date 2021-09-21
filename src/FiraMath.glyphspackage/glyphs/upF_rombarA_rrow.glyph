@@ -28,7 +28,7 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = -90;
-pos = (0,695);
+pos = (0,675);
 ref = leftFrombarArrow;
 }
 );

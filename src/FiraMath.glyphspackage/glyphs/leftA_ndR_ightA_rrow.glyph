@@ -18,12 +18,12 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (784,0);
+pos = (790,0);
 ref = rightOverLeftArrow;
 scale = (-1,1);
 }
 );
-width = 784;
+width = 790;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -42,12 +42,12 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (860,0);
+pos = (850,0);
 ref = rightOverLeftArrow;
 scale = (-1,1);
 }
 );
-width = 860;
+width = 850;
 }
 );
 note = uni21C6;

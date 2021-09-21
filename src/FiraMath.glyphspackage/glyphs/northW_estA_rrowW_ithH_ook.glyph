@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = northWestArrowWithHook;
 layers = (
 {
@@ -7,31 +6,7 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 angle = -45;
-pos = (232,799);
-ref = leftHookArrow;
-scale = (1,-1);
-}
-);
-width = 580;
-},
-{
-layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-shapes = (
-{
-angle = -45;
-pos = (229,811);
-ref = leftHookArrow;
-scale = (1,-1);
-}
-);
-width = 590;
-},
-{
-layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
-shapes = (
-{
-angle = -45;
-pos = (221,833);
+pos = (244,792);
 ref = leftHookArrow;
 scale = (1,-1);
 }
@@ -39,19 +14,43 @@ scale = (1,-1);
 width = 600;
 },
 {
-layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = -45;
-pos = (207,864);
+pos = (251,800);
+ref = leftHookArrow;
+scale = (1,-1);
+}
+);
+width = 604;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+angle = -45;
+pos = (255,816);
 ref = leftHookArrow;
 scale = (1,-1);
 }
 );
 width = 620;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+angle = -45;
+pos = (263,835);
+ref = leftHookArrow;
+scale = (1,-1);
 }
 );
-metricLeft = northWestArrow;
+width = 660;
+}
+);
+metricWidth = northWestArrow;
 subCategory = Arrow;
 unicode = 10531;
 }

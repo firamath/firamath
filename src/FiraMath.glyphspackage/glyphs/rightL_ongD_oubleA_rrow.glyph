@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = rightLongDoubleArrow;
 layers = (
 {
@@ -19,6 +18,18 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
+pos = (1384,0);
+ref = leftLongDoubleArrow;
+scale = (-1,1);
+}
+);
+width = 1384;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+alignment = 1;
 pos = (1400,0);
 ref = leftLongDoubleArrow;
 scale = (-1,1);
@@ -27,28 +38,16 @@ scale = (-1,1);
 width = 1400;
 },
 {
-layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
-shapes = (
-{
-alignment = 1;
-pos = (1420,0);
-ref = leftLongDoubleArrow;
-scale = (-1,1);
-}
-);
-width = 1420;
-},
-{
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (1500,0);
+pos = (1440,0);
 ref = leftLongDoubleArrow;
 scale = (-1,1);
 }
 );
-width = 1500;
+width = 1440;
 }
 );
 note = uni27F9;

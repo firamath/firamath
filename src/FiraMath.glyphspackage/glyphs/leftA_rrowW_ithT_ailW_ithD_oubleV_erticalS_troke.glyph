@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftArrowWithTailWithDoubleVerticalStroke;
 layers = (
 {
@@ -8,8 +7,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(526,279,l),
-(526,281,l),
+(525,279,l),
+(525,281,l),
 (72,281,l),
 (72,279,l)
 );
@@ -19,18 +18,13 @@ pos = (50,0);
 ref = arrowHead;
 },
 {
-pos = (504,0);
+alignment = 1;
+pos = (242,0);
+ref = arrowDoubleBar;
+},
+{
+pos = (485,0);
 ref = arrowTail;
-},
-{
-alignment = -1;
-pos = (246,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (332,0);
-ref = arrowBar;
 }
 );
 width = 780;
@@ -41,8 +35,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(570,266,l),
-(570,294,l),
+(537,266,l),
+(537,294,l),
 (90,294,l),
 (90,266,l)
 );
@@ -52,21 +46,16 @@ pos = (30,0);
 ref = arrowHead;
 },
 {
-pos = (518,0);
+alignment = 1;
+pos = (232,0);
+ref = arrowDoubleBar;
+},
+{
+pos = (497,0);
 ref = arrowTail;
-},
-{
-alignment = -1;
-pos = (242,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (350,0);
-ref = arrowBar;
 }
 );
-width = 800;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -74,8 +63,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(650,242,l),
-(650,318,l),
+(557,242,l),
+(557,318,l),
 (130,318,l),
 (130,242,l)
 );
@@ -85,21 +74,16 @@ pos = (10,0);
 ref = arrowHead;
 },
 {
-pos = (538,0);
+alignment = 1;
+pos = (228,0);
+ref = arrowDoubleBar;
+},
+{
+pos = (517,0);
 ref = arrowTail;
-},
-{
-alignment = -1;
-pos = (244,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (380,0);
-ref = arrowBar;
 }
 );
-width = 860;
+width = 820;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -107,34 +91,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(740,205,l),
-(740,355,l),
-(220,355,l),
-(220,205,l)
+(620,205,l),
+(620,355,l),
+(264,355,l),
+(264,205,l)
 );
 },
 {
-pos = (20,0);
 ref = arrowHead;
 },
 {
-pos = (564,0);
+alignment = 1;
+pos = (256,0);
+ref = arrowDoubleBar;
+},
+{
+pos = (580,0);
 ref = arrowTail;
-},
-{
-alignment = -1;
-pos = (288,0);
-ref = arrowBar;
-scale = (0.92,1);
-},
-{
-alignment = -1;
-pos = (450,0);
-ref = arrowBar;
-scale = (0.92,1);
 }
 );
-width = 980;
+width = 920;
 }
 );
 metricLeft = leftTailArrow;

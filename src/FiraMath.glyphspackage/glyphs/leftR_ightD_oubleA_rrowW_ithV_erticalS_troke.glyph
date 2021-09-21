@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftRightDoubleArrowWithVerticalStroke;
 layers = (
 {
@@ -24,11 +23,11 @@ alignment = 1;
 ref = leftRightDoubleArrow;
 },
 {
-pos = (336,0);
+pos = (328,0);
 ref = doubleArrowBar;
 }
 );
-width = 900;
+width = 884;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -52,11 +51,11 @@ alignment = 1;
 ref = leftRightDoubleArrow;
 },
 {
-pos = (365,0);
+pos = (345,0);
 ref = doubleArrowBar;
 }
 );
-width = 1080;
+width = 1040;
 }
 );
 note = uni2904;

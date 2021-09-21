@@ -23,11 +23,11 @@ pos = (0,-109);
 ref = leftArrow;
 },
 {
-pos = (0,109);
+pos = (6,109);
 ref = rightArrow;
 }
 );
-width = 784;
+width = 790;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -51,11 +51,11 @@ pos = (0,-155);
 ref = leftArrow;
 },
 {
-pos = (20,155);
+pos = (10,155);
 ref = rightArrow;
 }
 );
-width = 860;
+width = 850;
 }
 );
 metricLeft = leftArrow;

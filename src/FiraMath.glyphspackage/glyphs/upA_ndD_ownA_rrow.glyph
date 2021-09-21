@@ -17,7 +17,7 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = -90;
-pos = (101,672);
+pos = (101,675);
 ref = rightOverLeftArrow;
 }
 );
@@ -39,7 +39,7 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 angle = -90;
-pos = (165,710);
+pos = (165,705);
 ref = rightOverLeftArrow;
 }
 );

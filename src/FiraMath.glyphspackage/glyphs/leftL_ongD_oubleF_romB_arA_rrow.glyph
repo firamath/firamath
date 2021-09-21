@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftLongDoubleFromBarArrow;
 layers = (
 {
@@ -22,11 +21,11 @@ shapes = (
 ref = leftLongDoubleArrow;
 },
 {
-pos = (1212,0);
+pos = (1196,0);
 ref = doubleArrowBar;
 }
 );
-width = 1400;
+width = 1384;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -35,11 +34,11 @@ shapes = (
 ref = leftLongDoubleArrow;
 },
 {
-pos = (1224,0);
+pos = (1184,0);
 ref = doubleArrowBar;
 }
 );
-width = 1440;
+width = 1400;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -48,11 +47,11 @@ shapes = (
 ref = leftLongDoubleArrow;
 },
 {
-pos = (1240,0);
+pos = (1160,0);
 ref = doubleArrowBar;
 }
 );
-width = 1540;
+width = 1440;
 }
 );
 metricLeft = leftDoubleArrowFromBar;
