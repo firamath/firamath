@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = rightTwoHeadedTripleDashArrow;
 layers = (
 {
@@ -7,48 +6,48 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (980,0);
+pos = (800,0);
 ref = leftTwoHeadedTripleDashArrow;
 scale = (-1,1);
 }
 );
-width = 980;
+width = 800;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (1000,0);
+pos = (844,0);
 ref = leftTwoHeadedTripleDashArrow;
 scale = (-1,1);
 }
 );
-width = 1000;
+width = 844;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (1080,0);
+pos = (960,0);
 ref = leftTwoHeadedTripleDashArrow;
 scale = (-1,1);
 }
 );
-width = 1080;
+width = 960;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (1240,0);
+pos = (1140,0);
 ref = leftTwoHeadedTripleDashArrow;
 scale = (-1,1);
 }
 );
-width = 1240;
+width = 1140;
 }
 );
 subCategory = Arrow;

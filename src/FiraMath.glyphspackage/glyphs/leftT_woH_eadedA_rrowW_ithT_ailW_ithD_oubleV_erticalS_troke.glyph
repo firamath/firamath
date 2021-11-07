@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftTwoHeadedArrowWithTailWithDoubleVerticalStroke;
 layers = (
 {
@@ -8,36 +7,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(526,279,l),
-(526,281,l),
-(72,281,l),
-(72,279,l)
+(545,279,l),
+(545,281,l),
+(184,281,l),
+(184,279,l)
 );
 },
 {
 pos = (50,0);
-ref = arrowHead;
+ref = twoheadedArrowHead;
 },
 {
-pos = (160,0);
-ref = arrowHead;
-},
-{
-pos = (504,0);
+pos = (505,0);
 ref = arrowTail;
 },
 {
-alignment = -1;
-pos = (296,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (382,0);
-ref = arrowBar;
+alignment = 1;
+pos = (318,0);
+ref = arrowDoubleBar;
 }
 );
-width = 780;
+width = 800;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -45,36 +35,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(610,266,l),
-(610,294,l),
-(90,294,l),
-(90,266,l)
+(597,266,l),
+(597,294,l),
+(231,294,l),
+(231,266,l)
 );
 },
 {
 pos = (30,0);
-ref = arrowHead;
+ref = twoheadedArrowHead;
 },
 {
-pos = (170,0);
-ref = arrowHead;
-},
-{
-pos = (558,0);
+pos = (557,0);
 ref = arrowTail;
 },
 {
-alignment = -1;
-pos = (332,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (440,0);
-ref = arrowBar;
+alignment = 1;
+pos = (334,0);
+ref = arrowDoubleBar;
 }
 );
-width = 840;
+width = 844;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -82,36 +63,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(770,242,l),
-(770,318,l),
-(130,318,l),
-(130,242,l)
+(701,242,l),
+(701,318,l),
+(346,318,l),
+(346,242,l)
 );
 },
 {
 pos = (10,0);
-ref = arrowHead;
+ref = twoheadedArrowHead;
 },
 {
-pos = (200,0);
-ref = arrowHead;
-},
-{
-pos = (658,0);
+pos = (657,0);
 ref = arrowTail;
 },
 {
-alignment = -1;
-pos = (409,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (545,0);
-ref = arrowBar;
+alignment = 1;
+pos = (400,0);
+ref = arrowDoubleBar;
 }
 );
-width = 980;
+width = 960;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -119,38 +91,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(940,205,l),
-(940,355,l),
-(220,355,l),
-(220,205,l)
+(840,205,l),
+(840,355,l),
+(494,355,l),
+(494,205,l)
 );
 },
 {
-pos = (20,0);
-ref = arrowHead;
+ref = twoheadedArrowHead;
 },
 {
-pos = (250,0);
-ref = arrowHead;
-},
-{
-pos = (764,0);
+pos = (800,0);
 ref = arrowTail;
 },
 {
-alignment = -1;
-pos = (513,0);
-ref = arrowBar;
-scale = (0.92,1);
-},
-{
-alignment = -1;
-pos = (675,0);
-ref = arrowBar;
-scale = (0.92,1);
+alignment = 1;
+pos = (486,0);
+ref = arrowDoubleBar;
 }
 );
-width = 1180;
+width = 1140;
 }
 );
 metricLeft = leftTwoHeadedArrowWithTail;

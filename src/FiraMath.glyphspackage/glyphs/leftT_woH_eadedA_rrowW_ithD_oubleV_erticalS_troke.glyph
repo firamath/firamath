@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = leftTwoHeadedArrowWithDoubleVerticalStroke;
 layers = (
 {
@@ -10,22 +9,16 @@ closed = 1;
 nodes = (
 (740,279,l),
 (740,281,l),
-(600,281,l),
-(600,279,l)
+(680,281,l),
+(680,279,l)
 );
 },
 {
 ref = leftTwoheadedArrow;
 },
 {
-alignment = -1;
-pos = (371,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (457,0);
-ref = arrowBar;
+pos = (406,0);
+ref = arrowDoubleBar;
 }
 );
 width = 820;
@@ -36,27 +29,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(800,266,l),
-(800,294,l),
-(640,294,l),
-(640,266,l)
+(784,266,l),
+(784,294,l),
+(704,294,l),
+(704,266,l)
 );
 },
 {
 ref = leftTwoheadedArrow;
 },
 {
-alignment = -1;
-pos = (407,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (515,0);
-ref = arrowBar;
+pos = (416,0);
+ref = arrowDoubleBar;
 }
 );
-width = 860;
+width = 844;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -66,22 +53,16 @@ closed = 1;
 nodes = (
 (880,242,l),
 (880,318,l),
-(700,318,l),
-(700,242,l)
+(740,318,l),
+(740,242,l)
 );
 },
 {
 ref = leftTwoheadedArrow;
 },
 {
-alignment = -1;
-pos = (459,0);
-ref = arrowBar;
-},
-{
-alignment = -1;
-pos = (595,0);
-ref = arrowBar;
+pos = (464,0);
+ref = arrowDoubleBar;
 }
 );
 width = 920;
@@ -92,8 +73,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1010,205,l),
-(1010,355,l),
+(990,205,l),
+(990,355,l),
 (790,355,l),
 (790,205,l)
 );
@@ -102,19 +83,11 @@ nodes = (
 ref = leftTwoheadedArrow;
 },
 {
-alignment = -1;
-pos = (553,0);
-ref = arrowBar;
-scale = (0.92,1);
-},
-{
-alignment = -1;
-pos = (715,0);
-ref = arrowBar;
-scale = (0.92,1);
+pos = (520,0);
+ref = arrowDoubleBar;
 }
 );
-width = 1060;
+width = 1020;
 }
 );
 metricLeft = leftTwoheadedArrow;
