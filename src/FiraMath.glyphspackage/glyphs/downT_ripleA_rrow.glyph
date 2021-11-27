@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = downTripleArrow;
 layers = (
 {
@@ -22,7 +21,7 @@ ref = upTripleArrow;
 scale = (1,-1);
 }
 );
-width = 708;
+width = 702;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";

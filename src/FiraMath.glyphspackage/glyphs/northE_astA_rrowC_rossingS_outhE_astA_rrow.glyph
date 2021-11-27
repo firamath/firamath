@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = northEastArrowCrossingSouthEastArrow;
 layers = (
 {
@@ -22,7 +21,7 @@ ref = southEastArrowCrossingNorthEastArrow;
 scale = (1,-1);
 }
 );
-width = 800;
+width = 792;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -44,7 +43,7 @@ ref = southEastArrowCrossingNorthEastArrow;
 scale = (1,-1);
 }
 );
-width = 900;
+width = 860;
 }
 );
 metricLeft = northEastArrowAndSouthEastArrow;

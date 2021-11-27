@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = upArrowOnPedestalHorizontalWhiteBar;
 layers = (
 {
@@ -26,17 +25,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(435,466,l),
-(435,490,l),
-(201,490,l),
-(201,466,l)
+(432,454,l),
+(432,478,l),
+(198,478,l),
+(198,454,l)
 );
 },
 {
 ref = upOnPedestalWhiteArrow;
 }
 );
-width = 636;
+width = 630;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -44,10 +43,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(479,424,l),
-(479,496,l),
-(219,496,l),
-(219,424,l)
+(479,414,l),
+(479,486,l),
+(219,486,l),
+(219,414,l)
 );
 },
 {

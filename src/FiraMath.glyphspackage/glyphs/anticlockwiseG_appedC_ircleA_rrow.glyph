@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = anticlockwiseGappedCircleArrow;
 layers = (
 {
@@ -7,7 +6,7 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 angle = 90;
-pos = (720,-60);
+pos = (740,-60);
 ref = anticlockwiseOpenCircleArrow;
 }
 );
@@ -18,22 +17,22 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = 90;
-pos = (730,-70);
+pos = (742,-70);
 ref = anticlockwiseOpenCircleArrow;
 }
 );
-width = 800;
+width = 784;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = 90;
-pos = (740,-80);
+pos = (750,-80);
 ref = anticlockwiseOpenCircleArrow;
 }
 );
-width = 820;
+width = 800;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -44,9 +43,9 @@ pos = (760,-60);
 ref = anticlockwiseOpenCircleArrow;
 }
 );
-width = 880;
+width = 820;
 }
 );
-metricRight = anticlockwiseClosedCircleArrow;
+metricRight = anticlockwiseOpenCircleArrow;
 unicode = 10226;
 }

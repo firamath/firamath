@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = downWhiteArrow;
 layers = (
 {
@@ -22,7 +21,7 @@ ref = upWhiteArrow;
 scale = (1,-1);
 }
 );
-width = 636;
+width = 630;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
