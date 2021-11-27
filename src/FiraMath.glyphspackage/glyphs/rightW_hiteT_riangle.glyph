@@ -17,7 +17,7 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 angle = -90;
-pos = (70,616);
+pos = (70,612);
 ref = upWhiteTriangle;
 }
 );
@@ -28,7 +28,7 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 angle = -90;
-pos = (80,622);
+pos = (80,620);
 ref = upWhiteTriangle;
 }
 );

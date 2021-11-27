@@ -1,66 +1,62 @@
 {
-glyphname = notparallel;
+glyphname = multiplyWithDotAbove;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-ref = parallel;
+ref = multiply;
 },
 {
-angle = -10;
-pos = (-23,46);
-ref = slashlongcomb.size05;
+pos = (234,-188);
+ref = dotaccentcomb;
 }
 );
-width = 524;
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-ref = parallel;
+ref = multiply;
 },
 {
-angle = -18;
-pos = (-45,88);
-ref = slashlongcomb.size05;
+pos = (216,-174);
+ref = dotaccentcomb;
 }
 );
-width = 540;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-ref = parallel;
+ref = multiply;
 },
 {
-angle = -24;
-pos = (-25,122);
-ref = slashlongcomb.size05;
+pos = (185,-139);
+ref = dotaccentcomb;
 }
 );
-width = 616;
+width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-ref = parallel;
+ref = multiply;
 },
 {
-angle = -28;
-pos = (1,145);
-ref = slashlongcomb.size05;
+pos = (149,-99);
+ref = dotaccentcomb;
 }
 );
-width = 688;
+width = 580;
 }
 );
-unicode = 8742;
+unicode = 10800;
 }

@@ -118,7 +118,7 @@ nodes = (
 width = 580;
 }
 );
-metricRight = "=|";
-metricWidth = minus;
+metricLeft = minus;
+metricRight = minus;
 unicode = 8745;
 }
