@@ -51,6 +51,7 @@ guides = (
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+showMeasurement = 1;
 },
 {
 locked = 1;
@@ -117,6 +118,7 @@ pos = (0,29);
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+showMeasurement = 1;
 },
 {
 locked = 1;
@@ -175,6 +177,7 @@ guides = (
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+showMeasurement = 1;
 },
 {
 locked = 1;
@@ -240,6 +243,7 @@ guides = (
 locked = 1;
 name = "Axis height";
 pos = (0,280);
+showMeasurement = 1;
 },
 {
 locked = 1;

@@ -10,11 +10,11 @@ ref = parallel;
 },
 {
 angle = -10;
-pos = (-23,46);
+pos = (-15,46);
 ref = slashlongcomb.size05;
 }
 );
-width = 524;
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -24,12 +24,12 @@ alignment = 1;
 ref = parallel;
 },
 {
-angle = -18;
-pos = (-45,88);
+angle = -12;
+pos = (-21,56);
 ref = slashlongcomb.size05;
 }
 );
-width = 540;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -39,12 +39,12 @@ alignment = 1;
 ref = parallel;
 },
 {
-angle = -24;
-pos = (-25,122);
+angle = -16;
+pos = (-28,77);
 ref = slashlongcomb.size05;
 }
 );
-width = 616;
+width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -54,12 +54,12 @@ alignment = 1;
 ref = parallel;
 },
 {
-angle = -28;
-pos = (1,145);
+angle = -24;
+pos = (-43,122);
 ref = slashlongcomb.size05;
 }
 );
-width = 688;
+width = 580;
 }
 );
 unicode = 8742;

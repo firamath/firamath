@@ -78,7 +78,7 @@ ref = minus;
 width = 560;
 }
 );
-metricRight = "=|";
-metricWidth = minus;
+metricLeft = minus;
+metricRight = minus;
 unicode = 172;
 }

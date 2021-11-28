@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = venus;
 layers = (
 {
@@ -26,17 +25,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(472,155,l),
-(472,183,l),
-(78,183,l),
-(78,155,l)
+(469,155,l),
+(469,183,l),
+(75,183,l),
+(75,155,l)
 );
 },
 {
 ref = neuter;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -62,19 +61,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(520,61,l),
-(520,197,l),
-(40,197,l),
-(40,61,l)
+(530,61,l),
+(530,197,l),
+(50,197,l),
+(50,61,l)
 );
 },
 {
 ref = neuter;
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricRight = "=|";
+metricWidth = minus;
 unicode = 9792;
 }

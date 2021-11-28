@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = neuter;
 layers = (
 {
@@ -27,10 +26,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(290,-25,l),
-(290,290,l),
-(260,290,l),
-(260,-25,l)
+(287,-25,l),
+(287,290,l),
+(257,290,l),
+(257,-25,l)
 );
 },
 {
@@ -38,7 +37,7 @@ pos = (0,151);
 ref = mediumwhitecircle;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -65,10 +64,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(352,-99,l),
-(352,321,l),
-(208,321,l),
-(208,-99,l)
+(362,-99,l),
+(362,321,l),
+(218,321,l),
+(218,-99,l)
 );
 },
 {
@@ -76,9 +75,10 @@ pos = (0,176);
 ref = mediumwhitecircle;
 }
 );
-width = 560;
+width = 580;
 }
 );
 metricRight = "=|";
+metricWidth = minus;
 unicode = 9906;
 }
