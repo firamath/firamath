@@ -1,17 +1,15 @@
 {
-glyphname = notsuperset;
+glyphname = forking;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-ref = superset;
+ref = nonforking;
 },
 {
-alignment = 1;
-angle = 8;
-pos = (71,-31);
+pos = (30,-40);
 ref = slashlongcomb.size04;
 }
 );
@@ -22,12 +20,10 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-ref = superset;
+ref = nonforking;
 },
 {
-alignment = 1;
-angle = 8;
-pos = (71,-31);
+pos = (32,-40);
 ref = slashlongcomb.size04;
 }
 );
@@ -38,33 +34,31 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-ref = superset;
+ref = nonforking;
 },
 {
-alignment = 1;
-angle = 10;
-pos = (82,-37);
+angle = -4;
+pos = (29,-13);
 ref = slashlongcomb.size04;
 }
 );
-width = 560;
+width = 576;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-ref = superset;
+ref = nonforking;
 },
 {
-alignment = 1;
-angle = 10;
-pos = (72,-37);
+angle = -8;
+pos = (33,16);
 ref = slashlongcomb.size04;
 }
 );
-width = 580;
+width = 620;
 }
 );
-unicode = 8837;
+unicode = 10972;
 }

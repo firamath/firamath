@@ -1,68 +1,68 @@
 {
-glyphname = subsetnotequal;
+glyphname = supersetBesideSubset;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = -1;
-ref = reflexsubset;
+ref = superset;
 },
 {
 alignment = -1;
-pos = (30,-216);
-ref = slashlongcomb.size01;
+pos = (500,0);
+ref = subset;
 }
 );
-width = 540;
+width = 1040;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = -1;
-ref = reflexsubset;
+ref = superset;
 },
 {
 alignment = -1;
-pos = (32,-230);
-ref = slashlongcomb.size01;
+pos = (512,0);
+ref = subset;
 }
 );
-width = 544;
+width = 1056;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = -1;
-ref = reflexsubset;
+ref = superset;
 },
 {
 alignment = -1;
-pos = (40,-256);
-ref = slashlongcomb.size01;
+pos = (540,0);
+ref = subset;
 }
 );
-width = 560;
+width = 1100;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = -1;
-ref = reflexsubset;
+ref = superset;
 },
 {
-alignment = -1;
-pos = (50,-253);
-ref = slashlongcomb.size01;
+alignment = 1;
+pos = (568,0);
+ref = subset;
 }
 );
-width = 580;
+width = 1148;
 }
 );
-metricLeft = reflexsubset;
-metricRight = reflexsubset;
-unicode = 8842;
+metricLeft = superset;
+metricRight = subset;
+unicode = 10967;
 }

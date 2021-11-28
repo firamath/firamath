@@ -1,0 +1,80 @@
+{
+glyphname = transversalIntersection;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(271,-13,l),
+(271,593,l),
+(269,593,l),
+(269,-13,l)
+);
+},
+{
+ref = elementOfOpeningDown;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(286,-35,l),
+(286,615,l),
+(258,615,l),
+(258,-35,l)
+);
+},
+{
+ref = elementOfOpeningDown;
+}
+);
+width = 544;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(326,-63,l),
+(326,643,l),
+(250,643,l),
+(250,-63,l)
+);
+},
+{
+ref = elementOfOpeningDown;
+}
+);
+width = 576;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(379,-83,l),
+(379,663,l),
+(241,663,l),
+(241,-83,l)
+);
+},
+{
+ref = elementOfOpeningDown;
+}
+);
+width = 620;
+}
+);
+metricLeft = elementOfOpeningDown;
+metricRight = elementOfOpeningDown;
+unicode = 10971;
+}

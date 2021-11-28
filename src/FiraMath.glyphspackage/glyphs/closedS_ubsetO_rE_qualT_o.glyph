@@ -1,33 +1,23 @@
 {
-glyphname = squareimageoforequalto;
+glyphname = closedSubsetOrEqualTo;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (270,280);
-}
-);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
+alignment = -1;
 pos = (0,-216);
 ref = minus;
 },
 {
+alignment = -1;
 pos = (0,59);
-ref = squareimageof;
+ref = closedSubset;
 }
 );
 width = 540;
 },
 {
-anchors = (
-{
-name = center;
-pos = (272,280);
-}
-);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -36,18 +26,12 @@ ref = minus;
 },
 {
 pos = (0,64);
-ref = squareimageof;
+ref = closedSubset;
 }
 );
 width = 544;
 },
 {
-anchors = (
-{
-name = center;
-pos = (280,280);
-}
-);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -56,18 +40,12 @@ ref = minus;
 },
 {
 pos = (0,74);
-ref = squareimageof;
+ref = closedSubset;
 }
 );
 width = 560;
 },
 {
-anchors = (
-{
-name = center;
-pos = (310,280);
-}
-);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -76,13 +54,13 @@ ref = minus;
 },
 {
 pos = (0,98);
-ref = squareimageof;
+ref = closedSubset;
 }
 );
 width = 580;
 }
 );
-metricLeft = squareimageof;
-metricRight = squareimageof;
-unicode = 8849;
+metricLeft = reflexsubset;
+metricRight = reflexsubset;
+unicode = 10961;
 }

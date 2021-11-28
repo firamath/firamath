@@ -1,13 +1,16 @@
 {
-glyphname = elementOfOpeningUp;
+glyphname = elementofdotabove;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-angle = 90;
-pos = (550,13);
+alignment = 1;
 ref = element;
+},
+{
+pos = (234,-129);
+ref = dotaccentcomb;
 }
 );
 width = 540;
@@ -16,9 +19,12 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-angle = 90;
-pos = (552,11);
+alignment = 1;
 ref = element;
+},
+{
+pos = (218,-114);
+ref = dotaccentcomb;
 }
 );
 width = 544;
@@ -27,25 +33,30 @@ width = 544;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-angle = 90;
-pos = (568,3);
+alignment = 1;
 ref = element;
+},
+{
+pos = (195,-87);
+ref = dotaccentcomb;
 }
 );
-width = 576;
+width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-angle = 90;
-pos = (590,-7);
+alignment = 1;
 ref = element;
+},
+{
+pos = (179,-30);
+ref = dotaccentcomb;
 }
 );
-width = 620;
+width = 580;
 }
 );
-metricRight = "=|";
-unicode = 10194;
+unicode = 8949;
 }

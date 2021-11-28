@@ -1,5 +1,5 @@
 {
-glyphname = elementoflonghorizontalstroke;
+glyphname = elementofverticalbaratendofhorizontalstroke;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,18 +7,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(280,279,l),
-(280,281,l),
-(80,281,l),
-(80,279,l)
+(460,207,l),
+(460,353,l),
+(458,353,l),
+(458,207,l)
 );
 },
 {
-pos = (100,0);
 ref = element;
 }
 );
-width = 640;
+width = 540;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -26,18 +25,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(260,266,l),
-(260,294,l),
-(60,294,l),
-(60,266,l)
+(484,202,l),
+(484,358,l),
+(456,358,l),
+(456,202,l)
 );
 },
 {
-pos = (100,0);
 ref = element;
 }
 );
-width = 644;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -45,18 +43,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(240,242,l),
-(240,318,l),
-(40,318,l),
-(40,242,l)
+(520,188,l),
+(520,372,l),
+(456,372,l),
+(456,188,l)
 );
 },
 {
-pos = (100,0);
 ref = element;
 }
 );
-width = 660;
+width = 560;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -64,21 +61,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(230,211,l),
-(230,349,l),
-(30,349,l),
-(30,211,l)
+(550,171,l),
+(550,389,l),
+(450,389,l),
+(450,171,l)
 );
 },
 {
-pos = (100,0);
 ref = element;
 }
 );
-width = 680;
+width = 580;
 }
 );
-metricLeft = minus;
-metricRight = subset;
-unicode = 8946;
+metricLeft = element;
+metricRight = element;
+unicode = 8947;
 }

@@ -1,13 +1,15 @@
 {
-glyphname = elementOfOpeningUp;
+glyphname = pitchforkWithTeeTop;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-angle = 90;
-pos = (550,13);
-ref = element;
+ref = transversalIntersection;
+},
+{
+pos = (0,312);
+ref = minus;
 }
 );
 width = 540;
@@ -16,9 +18,11 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-angle = 90;
-pos = (552,11);
-ref = element;
+ref = transversalIntersection;
+},
+{
+pos = (0,321);
+ref = minus;
 }
 );
 width = 544;
@@ -27,9 +31,11 @@ width = 544;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-angle = 90;
-pos = (568,3);
-ref = element;
+ref = transversalIntersection;
+},
+{
+pos = (8,345);
+ref = minus;
 }
 );
 width = 576;
@@ -38,14 +44,17 @@ width = 576;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-angle = 90;
-pos = (590,-7);
-ref = element;
+ref = transversalIntersection;
+},
+{
+pos = (20,388);
+ref = minus;
 }
 );
 width = 620;
 }
 );
 metricRight = "=|";
-unicode = 10194;
+metricWidth = transversalIntersection;
+unicode = 10970;
 }
