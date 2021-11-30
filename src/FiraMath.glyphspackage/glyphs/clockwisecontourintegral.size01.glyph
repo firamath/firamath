@@ -2,41 +2,6 @@
 glyphname = clockwisecontourintegral.size01;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(928,471,l),
-(872,361,ls),
-(865,347,o),
-(858,334,o),
-(851,320,c),
-(850,319,l),
-(838,327,o),
-(827,334,o),
-(815,342,cs),
-(705,414,l),
-(704,412,l),
-(851,316,l),
-(930,470,l)
-);
-},
-{
-angle = 105;
-pos = (1129,79);
-ref = arrowHead;
-},
-{
-closed = 1;
-nodes = (
-(573,360,l),
-(879,315,l),
-(1043,189,l)
-);
-}
-);
-};
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -106,41 +71,6 @@ italicCorrection = 580;
 width = 1179;
 },
 {
-background = {
-shapes = (
-{
-angle = 105;
-pos = (1140,368);
-ref = arrowHead;
-},
-{
-closed = 1;
-nodes = (
-(569,60,l),
-(1058,-21,l),
-(1026,-143,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(840,329,l),
-(809,349,o),
-(778,370,o),
-(748,390,cs),
-(691,426,l),
-(678,404,l),
-(860,289,l),
-(960,479,l),
-(937,492,l),
-(906,432,ls),
-(890,400,o),
-(873,366,o),
-(857,334,c)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -210,23 +140,6 @@ italicCorrection = 580;
 width = 1179;
 },
 {
-background = {
-shapes = (
-{
-angle = 105;
-pos = (1161,120);
-ref = arrowHead;
-},
-{
-closed = 1;
-nodes = (
-(577,360,l),
-(1072,290,l),
-(1018,125,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -296,32 +209,6 @@ italicCorrection = 580;
 width = 1170;
 },
 {
-background = {
-shapes = (
-{
-angle = 105;
-pos = (701,-365);
-ref = arrowHead;
-scale = (0.8,-0.8);
-},
-{
-closed = 1;
-nodes = (
-(543,360,l),
-(1043,360,l),
-(967,95,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(543,360,l),
-(1038,290,l),
-(967,95,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

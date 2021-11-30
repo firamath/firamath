@@ -2,18 +2,6 @@
 glyphname = leftTripleArrow;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (50,0);
-ref = doubleArrowHead;
-},
-{
-pos = (50,0);
-ref = arrowHead;
-}
-);
-};
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -58,18 +46,6 @@ nodes = (
 width = 780;
 },
 {
-background = {
-shapes = (
-{
-pos = (30,0);
-ref = doubleArrowHead;
-},
-{
-pos = (30,0);
-ref = arrowHead;
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -114,18 +90,6 @@ nodes = (
 width = 784;
 },
 {
-background = {
-shapes = (
-{
-pos = (10,0);
-ref = doubleArrowHead;
-},
-{
-pos = (10,0);
-ref = arrowHead;
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {

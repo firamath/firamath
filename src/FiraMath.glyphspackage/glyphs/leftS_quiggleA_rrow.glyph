@@ -89,13 +89,6 @@ ref = arrowHead;
 width = 820;
 },
 {
-background = {
-shapes = (
-{
-ref = arrowHead;
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

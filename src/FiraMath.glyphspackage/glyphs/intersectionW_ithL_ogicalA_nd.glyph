@@ -65,18 +65,6 @@ ref = intersection;
 width = 560;
 },
 {
-background = {
-shapes = (
-{
-ref = intersection;
-},
-{
-pos = (151,9);
-ref = logicaland;
-scale = (0.48,0.48);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {

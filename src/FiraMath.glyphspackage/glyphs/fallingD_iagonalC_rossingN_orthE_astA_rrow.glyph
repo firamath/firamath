@@ -3,24 +3,6 @@ color = 3;
 glyphname = fallingDiagonalCrossingNorthEastArrow;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(40,276,l),
-(839,276,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(376,-104,l),
-(376,622,l)
-);
-}
-);
-};
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -77,24 +59,6 @@ nodes = (
 width = 780;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(33,273,l),
-(832,273,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(374,-102,l),
-(374,624,l)
-);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -151,24 +115,6 @@ nodes = (
 width = 792;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(28,278,l),
-(827,278,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(398,-102,l),
-(398,624,l)
-);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -225,24 +171,6 @@ nodes = (
 width = 820;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(417,-106,l),
-(417,620,l)
-);
-},
-{
-closed = 0;
-nodes = (
-(22,277,l),
-(821,277,l)
-);
-}
-);
-};
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
