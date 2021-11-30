@@ -110,7 +110,7 @@ nodes = (
 width = 680;
 }
 );
-metricRight = "=|";
-metricWidth = whiteCircle;
+metricLeft = emptyset;
+metricRight = emptyset;
 unicode = 10683;
 }

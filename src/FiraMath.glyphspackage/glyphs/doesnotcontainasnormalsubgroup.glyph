@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = doesnotcontainasnormalsubgroup;
 layers = (
 {
@@ -11,7 +10,7 @@ ref = containsasnormalsubgroup;
 },
 {
 angle = 8;
-pos = (21,-55);
+pos = (21,-51);
 ref = slashlongcomb.size04;
 }
 );
@@ -26,11 +25,11 @@ ref = containsasnormalsubgroup;
 },
 {
 angle = 6;
-pos = (21,-44);
+pos = (11,-44);
 ref = slashlongcomb.size04;
 }
 );
-width = 550;
+width = 544;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -41,7 +40,7 @@ ref = containsasnormalsubgroup;
 },
 {
 angle = 4;
-pos = (10,-32);
+pos = (4,-36);
 ref = slashlongcomb.size04;
 }
 );
@@ -56,11 +55,11 @@ ref = containsasnormalsubgroup;
 },
 {
 angle = 4;
-pos = (14,-32);
+pos = (10,-36);
 ref = slashlongcomb.size04;
 }
 );
-width = 560;
+width = 580;
 }
 );
 unicode = 8939;
