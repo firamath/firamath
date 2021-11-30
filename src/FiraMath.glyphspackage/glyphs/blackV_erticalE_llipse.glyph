@@ -1,13 +1,13 @@
 {
-glyphname = filledRect;
+glyphname = blackVerticalEllipse;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,107);
-ref = blackSquare;
-scale = (1,0.618);
+angle = -90;
+pos = (40,600);
+ref = blackHorizontalEllipse;
 }
 );
 width = 640;
@@ -16,9 +16,9 @@ width = 640;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,107);
-ref = blackSquare;
-scale = (1,0.618);
+angle = -90;
+pos = (42,602);
+ref = blackHorizontalEllipse;
 }
 );
 width = 644;
@@ -27,9 +27,9 @@ width = 644;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,107);
-ref = blackSquare;
-scale = (1,0.618);
+angle = -90;
+pos = (50,610);
+ref = blackHorizontalEllipse;
 }
 );
 width = 660;
@@ -38,15 +38,16 @@ width = 660;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,107);
-ref = blackSquare;
-scale = (1,0.618);
+angle = -90;
+pos = (60,620);
+ref = blackHorizontalEllipse;
 }
 );
 width = 680;
 }
 );
-metricLeft = blackSquare;
-metricRight = blackSquare;
-unicode = 9644;
+metricRight = "=|";
+metricWidth = blackCircle;
+subCategory = Geometry;
+unicode = 11054;
 }

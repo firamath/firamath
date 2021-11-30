@@ -1,0 +1,68 @@
+{
+glyphname = blackParallelogram;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(503,107,l),
+(664,453,l),
+(137,453,l),
+(-24,107,l)
+);
+}
+);
+width = 640;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(505,106,l),
+(668,454,l),
+(139,454,l),
+(-24,106,l)
+);
+}
+);
+width = 644;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(517,101,l),
+(684,459,l),
+(143,459,l),
+(-24,101,l)
+);
+}
+);
+width = 660;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(535,90,l),
+(712,470,l),
+(145,470,l),
+(-32,90,l)
+);
+}
+);
+width = 680;
+}
+);
+metricRight = "=|";
+metricWidth = blackSquare;
+unicode = 9648;
+}

@@ -1,11 +1,11 @@
 {
-glyphname = whiteRect;
+glyphname = squareWithContouredOutline;
 layers = (
 {
 background = {
 shapes = (
 {
-ref = filledRect;
+ref = whiteSquare;
 }
 );
 };
@@ -14,19 +14,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(600,107,l),
-(600,453,l),
-(40,453,l),
-(40,107,l)
+(600,0,l),
+(600,556,l),
+(596,560,l),
+(40,560,l),
+(40,4,l),
+(44,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(42,451,l),
-(598,451,l),
-(598,109,l),
-(42,109,l)
+(46,554,l),
+(598,554,l),
+(598,2,l),
+(46,2,l)
 );
 }
 );
@@ -36,7 +38,7 @@ width = 640;
 background = {
 shapes = (
 {
-ref = filledRect;
+ref = whiteSquare;
 }
 );
 };
@@ -45,19 +47,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(604,106,l),
-(604,454,l),
-(40,454,l),
-(40,106,l)
+(604,-2,l),
+(604,534,l),
+(576,562,l),
+(40,562,l),
+(40,26,l),
+(68,-2,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(68,426,l),
-(576,426,l),
-(576,134,l),
-(68,134,l)
+(96,506,l),
+(576,506,l),
+(576,26,l),
+(96,26,l)
 );
 }
 );
@@ -67,7 +71,7 @@ width = 644;
 background = {
 shapes = (
 {
-ref = filledRect;
+ref = whiteSquare;
 }
 );
 };
@@ -76,19 +80,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(620,101,l),
-(620,459,l),
-(40,459,l),
-(40,101,l)
+(620,-10,l),
+(620,518,l),
+(568,570,l),
+(40,570,l),
+(40,42,l),
+(92,-10,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(112,387,l),
-(548,387,l),
-(548,173,l),
-(112,173,l)
+(168,442,l),
+(544,442,l),
+(544,66,l),
+(168,66,l)
 );
 }
 );
@@ -98,7 +104,7 @@ width = 660;
 background = {
 shapes = (
 {
-ref = filledRect;
+ref = whiteSquare;
 }
 );
 };
@@ -107,26 +113,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(648,90,l),
-(648,470,l),
-(32,470,l),
-(32,90,l)
+(648,-28,l),
+(648,508,l),
+(568,588,l),
+(32,588,l),
+(32,52,l),
+(112,-28,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(156,346,l),
-(524,346,l),
-(524,214,l),
-(156,214,l)
+(248,372,l),
+(512,372,l),
+(512,108,l),
+(248,108,l)
 );
 }
 );
 width = 680;
 }
 );
-metricLeft = filledRect;
-metricRight = filledRect;
-unicode = 9645;
+metricLeft = whiteSquare;
+metricRight = whiteSquare;
+unicode = 10720;
 }
