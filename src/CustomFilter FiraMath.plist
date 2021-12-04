@@ -2326,6 +2326,12 @@
 				<string>leftFloor.ext</string>
 				<string>rightFloor.bot</string>
 				<string>rightFloor.ext</string>
+				<string>leftwhitesquarebracket-math.bot</string>
+				<string>leftwhitesquarebracket-math.top</string>
+				<string>leftwhitesquarebracket-math.ext</string>
+				<string>rightwhitesquarebracket-math.bot</string>
+				<string>rightwhitesquarebracket-math.top</string>
+				<string>rightwhitesquarebracket-math.ext</string>
 				<string>leftverticalboxline</string>
 				<string>dblverticalbar.ext</string>
 				<string>tripleVerticalBarDelimiter.ext</string>

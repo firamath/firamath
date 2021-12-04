@@ -715,6 +715,20 @@ MinConnectorOverlap = [20, 20, 20, 20]
     { name = "rightFloor.ext", isExtender = true  },
 ]
 
+"leftwhitesquarebracket-math".italicsCorrection = 0
+"leftwhitesquarebracket-math".parts = [
+    { name = "leftwhitesquarebracket-math.bot", isExtender = false },
+    { name = "leftwhitesquarebracket-math.ext", isExtender = true  },
+    { name = "leftwhitesquarebracket-math.top", isExtender = false },
+]
+
+"rightwhitesquarebracket-math".italicsCorrection = 0
+"rightwhitesquarebracket-math".parts = [
+    { name = "rightwhitesquarebracket-math.bot", isExtender = false },
+    { name = "rightwhitesquarebracket-math.ext", isExtender = true  },
+    { name = "rightwhitesquarebracket-math.top", isExtender = false },
+]
+
 "bar".italicsCorrection = 0
 "bar".parts = [
     { name = "leftverticalboxline", isExtender = false },
