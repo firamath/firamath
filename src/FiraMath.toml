@@ -335,21 +335,6 @@ ExtendedShapes = [
     "leftanglebracket-math.size13",
     "leftanglebracket-math.size14",
     "leftanglebracket-math.size15",
-    "leftdoubleanglebracket-math.size01",
-    "leftdoubleanglebracket-math.size02",
-    "leftdoubleanglebracket-math.size03",
-    "leftdoubleanglebracket-math.size04",
-    "leftdoubleanglebracket-math.size05",
-    "leftdoubleanglebracket-math.size06",
-    "leftdoubleanglebracket-math.size07",
-    "leftdoubleanglebracket-math.size08",
-    "leftdoubleanglebracket-math.size09",
-    "leftdoubleanglebracket-math.size10",
-    "leftdoubleanglebracket-math.size11",
-    "leftdoubleanglebracket-math.size12",
-    "leftdoubleanglebracket-math.size13",
-    "leftdoubleanglebracket-math.size14",
-    "leftdoubleanglebracket-math.size15",
     "rightanglebracket-math.size01",
     "rightanglebracket-math.size02",
     "rightanglebracket-math.size03",
@@ -365,6 +350,21 @@ ExtendedShapes = [
     "rightanglebracket-math.size13",
     "rightanglebracket-math.size14",
     "rightanglebracket-math.size15",
+    "leftdoubleanglebracket-math.size01",
+    "leftdoubleanglebracket-math.size02",
+    "leftdoubleanglebracket-math.size03",
+    "leftdoubleanglebracket-math.size04",
+    "leftdoubleanglebracket-math.size05",
+    "leftdoubleanglebracket-math.size06",
+    "leftdoubleanglebracket-math.size07",
+    "leftdoubleanglebracket-math.size08",
+    "leftdoubleanglebracket-math.size09",
+    "leftdoubleanglebracket-math.size10",
+    "leftdoubleanglebracket-math.size11",
+    "leftdoubleanglebracket-math.size12",
+    "leftdoubleanglebracket-math.size13",
+    "leftdoubleanglebracket-math.size14",
+    "leftdoubleanglebracket-math.size15",
     "rightdoubleanglebracket-math.size01",
     "rightdoubleanglebracket-math.size02",
     "rightdoubleanglebracket-math.size03",
@@ -380,6 +380,36 @@ ExtendedShapes = [
     "rightdoubleanglebracket-math.size13",
     "rightdoubleanglebracket-math.size14",
     "rightdoubleanglebracket-math.size15",
+    "leftwhitesquarebracket-math.size01",
+    "leftwhitesquarebracket-math.size02",
+    "leftwhitesquarebracket-math.size03",
+    "leftwhitesquarebracket-math.size04",
+    "leftwhitesquarebracket-math.size05",
+    "leftwhitesquarebracket-math.size06",
+    "leftwhitesquarebracket-math.size07",
+    "leftwhitesquarebracket-math.size08",
+    "leftwhitesquarebracket-math.size09",
+    "leftwhitesquarebracket-math.size10",
+    "leftwhitesquarebracket-math.size11",
+    "leftwhitesquarebracket-math.size12",
+    "leftwhitesquarebracket-math.size13",
+    "leftwhitesquarebracket-math.size14",
+    "leftwhitesquarebracket-math.size15",
+    "rightwhitesquarebracket-math.size01",
+    "rightwhitesquarebracket-math.size02",
+    "rightwhitesquarebracket-math.size03",
+    "rightwhitesquarebracket-math.size04",
+    "rightwhitesquarebracket-math.size05",
+    "rightwhitesquarebracket-math.size06",
+    "rightwhitesquarebracket-math.size07",
+    "rightwhitesquarebracket-math.size08",
+    "rightwhitesquarebracket-math.size09",
+    "rightwhitesquarebracket-math.size10",
+    "rightwhitesquarebracket-math.size11",
+    "rightwhitesquarebracket-math.size12",
+    "rightwhitesquarebracket-math.size13",
+    "rightwhitesquarebracket-math.size14",
+    "rightwhitesquarebracket-math.size15",
     "bar.size01",
     "bar.size02",
     "bar.size03",
@@ -528,20 +558,22 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "bigReverseSolidus"              = { suffixes = ["", ".size01"] }
 "parenleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "parenright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftflattenedparenthesis-math"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightflattenedparenthesis-math" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "bracketleft"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "bracketright"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "braceleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "braceright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftanglebracket-math"          = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftdoubleanglebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightanglebracket-math"         = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightdoubleanglebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftflattenedparenthesis-math"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightflattenedparenthesis-math" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "leftCeiling"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftFloor"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "rightCeiling"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftFloor"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "rightFloor"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftanglebracket-math"          = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightanglebracket-math"         = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftdoubleanglebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightdoubleanglebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"leftwhitesquarebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"rightwhitesquarebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "bar"                            = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "dblverticalbar"                 = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
 "tripleVerticalBarDelimiter"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
