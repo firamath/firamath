@@ -464,8 +464,10 @@ class Timer:
 
     def __exit__(self, type, value, traceback):
         t = time.time() - self.start_time
-        t_str = '{:.3f}s'.format(t) if t < 60 else '{}min{:.3f}s'.format(round(t // 60), t % 60)
-        print('Elapsed: ' + t_str, end='\n\n', file=sys.stderr)
+        if t < 60:
+            print(f'Elapsed: {t:.3f}s\n', file=sys.stderr)
+        else:
+            print(f'Elapsed: {int(t) // 60}min{(t % 60):.3f}s\n', file=sys.stderr)
 
 
 def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = True):
@@ -476,13 +478,14 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
     3. Generate `.otf` font files
     4. Add the OpenType MATH tables
     '''
-    print('Python: {}\nfonttools: {}\nglyphsLib: {}\nCPU count: {}\n'.format(
-        sys.version.split()[0],
-        fontTools.version,
-        glyphsLib.__version__,
-        multiprocessing.cpu_count(),
-    ), file=sys.stderr)
-    with Timer('Parsing input file \'{}\'...'.format(input_path)):
+    print(
+        f'Python: {sys.version.split()[0]}\n'
+        f'fonttools: {fontTools.version}\n'
+        f'glyphsLib: {glyphsLib.__version__}\n'
+        f'CPU count: {multiprocessing.cpu_count()}\n',
+        file=sys.stderr
+    )
+    with Timer(f'Parsing input file "{input_path}"...'):
         font = Font(input_path)
     with Timer('Generating UFO...'):
         ufos = font.to_ufos()
