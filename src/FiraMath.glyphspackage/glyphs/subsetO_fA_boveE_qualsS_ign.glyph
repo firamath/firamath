@@ -1,0 +1,65 @@
+{
+glyphname = subsetOfAboveEqualsSign;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+alignment = -1;
+pos = (0,126);
+ref = subset;
+},
+{
+pos = (0,-216);
+ref = equal.flat;
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,130);
+ref = subset;
+},
+{
+pos = (0,-230);
+ref = equal.flat;
+}
+);
+width = 544;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,148);
+ref = subset;
+},
+{
+pos = (0,-256);
+ref = equal.flat;
+}
+);
+width = 560;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,181);
+ref = subset;
+},
+{
+pos = (0,-253);
+ref = equal.flat;
+}
+);
+width = 580;
+}
+);
+metricLeft = subset;
+metricRight = subset;
+unicode = 10949;
+}

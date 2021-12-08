@@ -1,0 +1,92 @@
+{
+glyphname = supersetOfAboveTildeOperator;
+layers = (
+{
+background = {
+shapes = (
+{
+ref = reflexsuperset;
+}
+);
+};
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+pos = (0,-202);
+ref = similar;
+},
+{
+pos = (0,78);
+ref = superset;
+}
+);
+width = 540;
+},
+{
+background = {
+shapes = (
+{
+ref = reflexsuperset;
+}
+);
+};
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+pos = (0,-217);
+ref = similar;
+},
+{
+pos = (0,79);
+ref = superset;
+}
+);
+width = 544;
+},
+{
+background = {
+shapes = (
+{
+ref = reflexsuperset;
+}
+);
+};
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+pos = (0,-242);
+ref = similar;
+},
+{
+pos = (0,95);
+ref = superset;
+}
+);
+width = 560;
+},
+{
+background = {
+shapes = (
+{
+ref = reflexsuperset;
+}
+);
+};
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+pos = (0,-241);
+ref = similar;
+},
+{
+pos = (0,123);
+ref = superset;
+}
+);
+width = 580;
+}
+);
+metricLeft = "=|subsetOfAboveTildeOperator";
+metricRight = "=|subsetOfAboveTildeOperator";
+unicode = 10952;
+}
