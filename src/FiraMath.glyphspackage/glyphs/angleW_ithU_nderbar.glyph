@@ -1,5 +1,5 @@
 {
-glyphname = parallelWithHorizontalStroke;
+glyphname = angleWithUnderbar;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,15 +7,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(460,279,l),
-(460,281,l),
-(80,281,l),
-(80,279,l)
+(498,-98,l),
+(498,-96,l),
+(66,-96,l),
+(66,-98,l)
 );
 },
 {
-alignment = 1;
-ref = parallel;
+ref = angle;
 }
 );
 width = 540;
@@ -26,15 +25,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(480,266,l),
-(480,294,l),
-(64,294,l),
-(64,266,l)
+(504,-112,l),
+(504,-84,l),
+(52,-84,l),
+(52,-112,l)
 );
 },
 {
-alignment = 1;
-ref = parallel;
+ref = angle;
 }
 );
 width = 544;
@@ -45,15 +43,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(520,242,l),
-(520,318,l),
-(40,318,l),
-(40,242,l)
+(524,-160,l),
+(524,-84,l),
+(40,-84,l),
+(40,-160,l)
 );
 },
 {
-alignment = 1;
-ref = parallel;
+ref = angle;
 }
 );
 width = 560;
@@ -64,21 +61,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(580,205,l),
-(580,355,l),
-(0,355,l),
-(0,205,l)
+(548,-204,l),
+(548,-54,l),
+(22,-54,l),
+(22,-204,l)
 );
 },
 {
-alignment = 1;
-ref = parallel;
+ref = angle;
 }
 );
 width = 580;
 }
 );
-metricRight = "=|";
-metricWidth = tildeOperatorWithDotAbove;
-unicode = 10994;
+metricLeft = angle;
+metricRight = angle;
+unicode = 10660;
 }

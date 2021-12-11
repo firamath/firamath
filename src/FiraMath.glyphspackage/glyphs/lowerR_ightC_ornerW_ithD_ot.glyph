@@ -1,14 +1,16 @@
 {
-glyphname = subsetWithDot;
+glyphname = lowerRightCornerWithDot;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-ref = subset;
+pos = (540,0);
+ref = orthogonal;
+scale = (-1,1);
 },
 {
-pos = (16,0);
+pos = (-34,34);
 ref = periodcentered;
 }
 );
@@ -18,10 +20,12 @@ width = 540;
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-ref = subset;
+pos = (544,0);
+ref = orthogonal;
+scale = (-1,1);
 },
 {
-pos = (20,0);
+pos = (-38,36);
 ref = periodcentered;
 }
 );
@@ -31,10 +35,12 @@ width = 544;
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-ref = subset;
+pos = (560,0);
+ref = orthogonal;
+scale = (-1,1);
 },
 {
-pos = (30,0);
+pos = (-40,32);
 ref = periodcentered;
 }
 );
@@ -44,18 +50,19 @@ width = 560;
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-ref = subset;
+pos = (580,0);
+ref = orthogonal;
+scale = (-1,1);
 },
 {
-pos = (110,56);
+pos = (-60,52);
 ref = periodcentered;
-scale = (0.8,0.8);
 }
 );
 width = 580;
 }
 );
-metricLeft = subset;
-metricRight = subset;
-unicode = 10941;
+metricLeft = "=|orthogonal";
+metricRight = "=|orthogonal";
+unicode = 10195;
 }
