@@ -13,9 +13,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (-6,508);
 ref = three.dnom;
 }
@@ -32,9 +29,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (5,508);
 ref = three.dnom;
 }
@@ -51,9 +45,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (10,508);
 ref = three.dnom;
 }
@@ -70,9 +61,6 @@ shapes = (
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (32,508);
 ref = three.dnom;
 }
@@ -94,9 +82,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (58,1550);
 ref = three.dnom;
 }
@@ -118,9 +103,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (50,1550);
 ref = three.dnom;
 }
@@ -142,9 +124,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (50,1550);
 ref = three.dnom;
 }
@@ -166,9 +145,6 @@ size = 15;
 ref = _smart.radical;
 },
 {
-piece = {
-Group = 1;
-};
 pos = (80,1550);
 ref = three.dnom;
 }

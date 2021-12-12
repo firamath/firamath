@@ -27,17 +27,7 @@ import toml
 class Font:
 
     def __init__(self, path: str):
-        with open(os.path.join(path, 'fontinfo.plist'), 'r') as fontinfo_plist:
-            fontinfo = fontinfo_plist.read()
-        with open(os.path.join(path, 'order.plist'), 'r') as order_plist:
-            order = Parser().parse(order_plist.read())
-        insert_pos = fontinfo.find('instances = (')
-        glyphs_str = 'glyphs = (\n{}\n);\n'.format(
-            ',\n'.join(self._read_glyph(path, name) for name in order)
-        )
-        self.font: GSFont = Parser(current_type=GSFont).parse(
-            fontinfo[:insert_pos] + glyphs_str + fontinfo[insert_pos:-1]
-        )
+        self.font = self._load_pkg(path)
         self.math_tables: dict[str, MathTable] = {}
         masters = sorted(self.font.masters, key=lambda m: m.weightValue)
         self._masters_num = len(masters)
@@ -49,10 +39,24 @@ class Font:
             ]
             for i in self.font.instances if i.active
         }
-        self._fix_export()
         self._decompose_smart_comp()
 
-    def _read_glyph(self, path: str, name: str) -> str:
+    @staticmethod
+    def _load_pkg(path: str) -> GSFont:
+        '''Load `.glyphspackage` bundle.
+        See [googlefonts/glyphsLib#643](https://github.com/googlefonts/glyphsLib/issues/643).
+        '''
+        with open(os.path.join(path, 'fontinfo.plist'), 'r') as fontinfo_plist:
+            fontinfo = fontinfo_plist.read()
+        with open(os.path.join(path, 'order.plist'), 'r') as order_plist:
+            order = Parser().parse(order_plist.read())
+        insert_pos = fontinfo.find('instances = (')
+        glyphs = ',\n'.join(Font._read_glyph(path, name) for name in order)
+        glyphs = f'glyphs = (\n{glyphs}\n);\n'
+        return glyphsLib.loads(fontinfo[:insert_pos] + glyphs + fontinfo[insert_pos:-1])
+
+    @staticmethod
+    def _read_glyph(path: str, name: str) -> str:
         if name == '.notdef':
             file_name = '_notdef.glyph'
         else:
@@ -60,54 +64,42 @@ class Font:
         with open(os.path.join(path, 'glyphs', file_name), 'r') as f:
             return f.read()[:-1]
 
-    def _fix_export(self):
-        '''Change `... = 0` to `... = False`.'''
-        for glyph in (g for g in self.font.glyphs if g.export == 0):
-            glyph.export = False
-        for instance in (i for i in self.font.instances if i.active == 0):
-            instance.active = False
-
     def _decompose_smart_comp(self):
+        '''Decompose smart components.
+        See [googlefonts/glyphsLib#91](https://github.com/googlefonts/glyphsLib/issues/91).
+        '''
         # The smart glyphs should be decomposed first.
-        for glyph in (g for g in self.font.glyphs if g.category == 'Smart Glyph'):
+        for glyph in filter(Font._is_smart_glyph, self.font.glyphs):
             for layer in glyph.layers:
                 to_be_removed = []
                 for comp in layer.components:
-                    # If `Group == 1`, then it's a nested component that is not smart.
-                    if 'Group' in comp.smartComponentValues:
-                        paths = self._comp_to_paths(comp)
+                    if self._is_smart_component(comp):
+                        paths = self._smart_component_to_paths(comp)
                     else:
-                        paths = self._smart_comp_to_paths(comp)
+                        paths = self._component_to_paths(comp)
                     layer.paths.extend(paths)
                     to_be_removed.append(comp)
                 layer._shapes = [s for s in layer._shapes if s not in to_be_removed]
-        for glyph in (g for g in self.font.glyphs if g.category != 'Smart Glyph'):
+        for glyph in filter(lambda g: not Font._is_smart_glyph(g), self.font.glyphs):
             for layer in glyph.layers:
                 to_be_removed = []
                 for comp in layer.components:
                     if comp.smartComponentValues:
-                        paths = self._smart_comp_to_paths(comp)
+                        paths = self._smart_component_to_paths(comp)
                         layer.paths.extend(paths)
                         to_be_removed.append(comp)
                 layer._shapes = [s for s in layer._shapes if s not in to_be_removed]
 
-    def _comp_to_paths(self, comp: GSComponent) -> list[GSPath]:
-        '''Return the paths of a normal component `comp`, i.e. decompose `comp`.'''
-        ref_glyph: GSGlyph = comp.component
-        paths = next(
-            layer.paths for layer in ref_glyph.layers
-            if layer.layerId == comp.parent.associatedMasterId
-        )
-        result = []
-        for path in paths:
-            # Manually deepcopy (`copy.deepcopy()` is very slow here).
-            new_path = copy.copy(path)
-            new_path.nodes = [GSNode(n.position, type=n.type, smooth=n.smooth) for n in path.nodes]
-            new_path.applyTransform(comp.transform)
-            result.append(new_path)
-        return result
+    @staticmethod
+    def _is_smart_glyph(glyph: GSGlyph) -> bool:
+        return glyph.smartComponentAxes != []
 
-    def _smart_comp_to_paths(self, comp: GSComponent) -> list[GSPath]:
+    @staticmethod
+    def _is_smart_component(comp: GSComponent) -> bool:
+        return Font._is_smart_glyph(comp.component)
+
+    @staticmethod
+    def _smart_component_to_paths(comp: GSComponent) -> list[GSPath]:
         '''Return the paths of a smart component `comp` by interpolating between two layers.
         Note that we only consider single smart component axis here.
         '''
@@ -124,7 +116,7 @@ class Font:
         elif len(values) == 1:
             key, value = next(iter(values.items()))
             interpolation_value = next(
-                self._rescale(value, axis.bottomValue, axis.topValue)
+                Font._rescale(value, axis.bottomValue, axis.topValue)
                 for axis in ref_glyph.smartComponentAxes if axis.name == key
             )
             def _is_part_n(layer, n):
@@ -135,28 +127,48 @@ class Font:
         layer_1: GSLayer = next(layer for layer in ref_glyph.layers if _is_part_n(layer, 2))
         paths = []
         for path_0, path_1 in zip(layer_0.paths, layer_1.paths):
-            path = self._interpolate_path(path_0, path_1, interpolation_value)
+            path = Font._interpolate_path(path_0, path_1, interpolation_value)
             path.applyTransform(comp.transform)
             paths.append(path)
         return paths
 
-    def _rescale(self, x, min, max):
-        '''Return rescaled `x` to run from 0 to 1 over the range `min` to `max`.'''
-        return (x - min) / (max - min)
+    @staticmethod
+    def _rescale(x, bottom, top):
+        '''Return rescaled `x` to run from 0 to 1 over the range `bottom` to `top`.'''
+        return (x - bottom) / (top - bottom)
 
-    def _interpolate_path(self, path_0: GSPath, path_1: GSPath, value) -> GSPath:
+    @staticmethod
+    def _interpolate_path(path_0: GSPath, path_1: GSPath, value) -> GSPath:
         new_path = copy.copy(path_0)
         new_path.nodes = []
         for node_0, node_1 in zip(path_0.nodes, path_1.nodes):
-            new_path.nodes.append(self._interpolate_node(node_0, node_1, value))
+            new_path.nodes.append(Font._interpolate_node(node_0, node_1, value))
         return new_path
 
-    def _interpolate_node(self, node_0: GSNode, node_1: GSNode, value) -> GSNode:
+    @staticmethod
+    def _interpolate_node(node_0: GSNode, node_1: GSNode, value) -> GSNode:
         position = (
             round(node_0.position.x * (1 - value) + node_1.position.x * value),
             round(node_0.position.y * (1 - value) + node_1.position.y * value),
         )
         return GSNode(position, type=node_0.type, smooth=node_0.smooth)
+
+    @staticmethod
+    def _component_to_paths(comp: GSComponent) -> list[GSPath]:
+        '''Return the paths of a normal component `comp`, i.e. decompose `comp`.'''
+        ref_glyph: GSGlyph = comp.component
+        paths = next(
+            layer.paths for layer in ref_glyph.layers
+            if layer.layerId == comp.parent.associatedMasterId
+        )
+        result = []
+        for path in paths:
+            # Manually deepcopy (`copy.deepcopy()` is very slow here).
+            new_path = copy.copy(path)
+            new_path.nodes = [GSNode(n.position, type=n.type, smooth=n.smooth) for n in path.nodes]
+            new_path.applyTransform(comp.transform)
+            result.append(new_path)
+        return result
 
     def to_ufos(self, interpolate: bool = True, default_index: int = None) -> list:
         master_ufos, instance_data = glyphsLib.to_ufos(self.font, include_instances=True)
@@ -170,7 +182,7 @@ class Font:
                 (s for s in designspace.sources if s.styleName == 'Regular'),
                 designspace.sources[0]
             )
-        for axis_index in range(len(designspace.axes)):
+        for axis_index, _ in enumerate(designspace.axes):
             positions = [i.axes[axis_index] for i in self.font.instances]
             designspace.axes[axis_index].map = None
             designspace.axes[axis_index].maximum = max(positions)
@@ -181,7 +193,8 @@ class Font:
         instantiator = Instantiator.from_designspace(designspace)
         return [self._generate_instance(instantiator, i) for i in designspace.instances]
 
-    def _generate_instance(self, instantiator: Instantiator, instance: list):
+    @staticmethod
+    def _generate_instance(instantiator: Instantiator, instance: list):
         ufo = instantiator.generate_instance(instance)
         if custom_parameters := instance.lib.get('com.schriftgestaltung.customParameters'):
             if remove_glyphs := dict(custom_parameters).get('Remove Glyphs'):
@@ -200,13 +213,13 @@ class Font:
         self._parse_math_table(toml_path)
 
         for style in self.interpolations:
-            font_file_name = '{}-{}.otf'.format(font_name, style)
-            input = os.path.join(input_dir, font_file_name)
-            output = os.path.join(output_dir, font_file_name)
-            with TTFont(input) as tt_font:
+            font_file_name = f'{font_name}-{style}.otf'
+            input_path = os.path.join(input_dir, font_file_name)
+            output_path = os.path.join(output_dir, font_file_name)
+            with TTFont(input_path) as tt_font:
                 tt_font['MATH'] = newTable('MATH')
                 tt_font['MATH'].table = self.math_tables[style].encode()
-                tt_font.save(output)
+                tt_font.save(output_path)
 
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
@@ -252,8 +265,8 @@ class Font:
             for name in ['ItalicCorrection', 'TopAccent']:
                 # TODO: consider brace layers
                 math_table.glyph_info[name] = {
-                    g: _generate(values) for g, values in master_glyph_info[name].items()
-                    if not _is_removed_glyph(g)
+                    g: _generate(values)
+                    for g, values in master_glyph_info[name].items() if not _is_removed_glyph(g)
                 }
             math_table.glyph_info['ExtendedShapes'] = master_glyph_info['ExtendedShapes']
             math_table.variants['MinConnectorOverlap'] = \
@@ -273,9 +286,8 @@ class Font:
                 if len(values) != self._masters_num:
                     # TODO:
                     print(
-                        'Warning: glyph "{}" has incomplete MathGlyphInfo ({}: {}).'.format(
-                            glyph, name, values
-                        ),
+                        f'Warning: glyph "{glyph}" has incomplete '
+                        f'MathGlyphInfo ({name}: {values}).',
                         file=sys.stderr
                     )
                     values = [values[0]] * self._masters_num
@@ -335,8 +347,7 @@ class Font:
             result.append(abs(round(advance)))
         if plus_1:
             return [i + 1 for i in result]
-        else:
-            return result
+        return result
 
     def _variant_part(self, glyph: str, direction: str) -> dict[str, list]:
         result = {
@@ -409,11 +420,12 @@ class MathTable:
             constructions[glyph] = self._glyph_construction(variants)
         for glyph, component in self.variants[name + 'Components'].items():
             if glyph not in constructions:
-                constructions[glyph] = self._glyph_construction()
+                constructions[glyph] = self._glyph_construction({})
             constructions[glyph].GlyphAssembly = self._glyph_assembly(component)
         return constructions.values(), self._coverage(constructions.keys()), len(constructions)
 
-    def _glyph_construction(self, variants: dict = {}):
+    @staticmethod
+    def _glyph_construction(variants: dict):
         construction = otTables.MathGlyphConstruction()
         construction.GlyphAssembly = None
         construction.VariantCount = len(variants)
@@ -425,9 +437,10 @@ class MathTable:
             construction.MathGlyphVariantRecord.append(r)
         return construction
 
-    def _glyph_assembly(self, component: dict):
+    @staticmethod
+    def _glyph_assembly(component: dict):
         t = otTables.GlyphAssembly()
-        t.ItalicsCorrection = self._math_value(component['italicsCorrection'])
+        t.ItalicsCorrection = MathTable._math_value(component['italicsCorrection'])
         t.PartCount = len(component['parts'])
         t.PartRecords = []
         for part in component['parts']:
@@ -440,13 +453,15 @@ class MathTable:
             t.PartRecords.append(r)
         return t
 
-    def _math_value(self, value):
+    @staticmethod
+    def _math_value(value):
         t = otTables.MathValueRecord()
         t.DeviceTable = None
         t.Value = value
         return t
 
-    def _coverage(self, glyphs):
+    @staticmethod
+    def _coverage(glyphs):
         c = otTables.Coverage()
         c.glyphs = glyphs
         return c
@@ -454,20 +469,22 @@ class MathTable:
 
 class Timer:
 
-    def __init__(self, name=None):
+    def __init__(self, name=None, file=sys.stderr):
         self.name = name
+        self.file = file
+        self.start_time = None
 
     def __enter__(self):
         if self.name:
-            print(self.name, file=sys.stderr)
+            print(self.name, file=self.file)
         self.start_time = time.time()
 
-    def __exit__(self, type, value, traceback):
+    def __exit__(self, exc_type, exc_val, exc_tb):
         t = time.time() - self.start_time
         if t < 60:
-            print(f'Elapsed: {t:.3f}s\n', file=sys.stderr)
+            print(f'Elapsed: {t:.3f}s\n', file=self.file)
         else:
-            print(f'Elapsed: {int(t) // 60}min{(t % 60):.3f}s\n', file=sys.stderr)
+            print(f'Elapsed: {int(t) // 60}min{(t % 60):.3f}s\n', file=self.file)
 
 
 def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = True):
