@@ -8,6 +8,7 @@ import os
 import sys
 import time
 
+import fontmake
 from fontmake.font_project import FontProject
 from fontmake.instantiator import Instantiator
 
@@ -27,7 +28,7 @@ import toml
 class Font:
 
     def __init__(self, path: str):
-        self.font = self._load_pkg(path)
+        self.font = self._load(path)
         self.math_tables: dict[str, MathTable] = {}
         masters = sorted(self.font.masters, key=lambda m: m.weightValue)
         self._masters_num = len(masters)
@@ -42,7 +43,7 @@ class Font:
         self._decompose_smart_comp()
 
     @staticmethod
-    def _load_pkg(path: str) -> GSFont:
+    def _load(path: str) -> GSFont:
         '''Load `.glyphspackage` bundle.
         See [googlefonts/glyphsLib#643](https://github.com/googlefonts/glyphsLib/issues/643).
         '''
@@ -285,10 +286,9 @@ class Font:
             for glyph, values in self._get_all_user_data(name).items():
                 if len(values) != self._masters_num:
                     # TODO:
-                    print(
+                    eprint(
                         f'Warning: glyph "{glyph}" has incomplete '
-                        f'MathGlyphInfo ({name}: {values}).',
-                        file=sys.stderr
+                        f'MathGlyphInfo ({name}: {values}).'
                     )
                     values = [values[0]] * self._masters_num
                 glyph_info[name][glyph] = values
@@ -469,38 +469,42 @@ class MathTable:
 
 class Timer:
 
-    def __init__(self, name=None, file=sys.stderr):
+    def __init__(self, name=None):
         self.name = name
-        self.file = file
         self.start_time = None
 
     def __enter__(self):
         if self.name:
-            print(self.name, file=self.file)
+            eprint(self.name)
         self.start_time = time.time()
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         t = time.time() - self.start_time
         if t < 60:
-            print(f'Elapsed: {t:.3f}s\n', file=self.file)
+            eprint(f'Elapsed: {t:.3f}s\n')
         else:
-            print(f'Elapsed: {int(t) // 60}min{(t % 60):.3f}s\n', file=self.file)
+            eprint(f'Elapsed: {int(t) // 60}min{(t % 60):.3f}s\n')
+
+
+def eprint(*values, sep: str = ' ', end: str = '\n'):
+    '''Print message to `stderr`.'''
+    print(*values, sep=sep, end=end, file=sys.stderr)
 
 
 def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = True):
     '''Build fonts from Glyphs source.
 
-    1. Read the `.glyphspackage` directory into a `GSFont` object with preprocessing
+    1. Load the `.glyphspackage` directory into a `GSFont` object with preprocessing
     2. Convert the `GSFont` into a list of UFO objects and perform interpolation
     3. Generate `.otf` font files
     4. Add the OpenType MATH tables
     '''
-    print(
-        f'Python: {sys.version.split()[0]}\n'
-        f'fonttools: {fontTools.version}\n'
+    eprint(
+        f'Python:    {sys.version.split()[0]}\n'
+        f'fontmake:  {fontmake.__version__}\n'
+        f'fontTools: {fontTools.__version__}\n'
         f'glyphsLib: {glyphsLib.__version__}\n'
-        f'CPU count: {multiprocessing.cpu_count()}\n',
-        file=sys.stderr
+        f'CPU count: {multiprocessing.cpu_count()}\n'
     )
     with Timer(f'Parsing input file "{input_path}"...'):
         font = Font(input_path)
@@ -519,7 +523,7 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
 
 def _build_otf(ufo, output_dir):
     ufos = ufo if isinstance(ufo, list) else [ufo]
-    FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
+    FontProject().build_otfs(ufos, output_dir=output_dir)
 
 
 if __name__ == '__main__':
