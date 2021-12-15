@@ -18,7 +18,7 @@ from fontTools.ttLib import TTFont
 from fontTools.ttLib.ttFont import newTable
 
 import glyphsLib
-from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath
+from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath, glyphdata
 from glyphsLib.parser import Parser
 
 import toml
@@ -40,6 +40,10 @@ class Font:
                 for id, value in i.instanceInterpolations.items()
             ]
             for i in self.font.instances if i.active
+        }
+        self.production_names: dict[str, str] = {
+            g.name: glyphdata.get_glyph(g.name).production_name
+            for g in self.font.glyphs
         }
         self._decompose_smart_comp()
 
@@ -216,12 +220,12 @@ class Font:
 
         for style in self.interpolations:
             font_file_name = f'{font_name}-{style}.otf'
-            input_path = os.path.join(input_dir, font_file_name)
-            output_path = os.path.join(output_dir, font_file_name)
-            with TTFont(input_path) as tt_font:
-                tt_font['MATH'] = newTable('MATH')
-                tt_font['MATH'].table = self.math_tables[style].encode()
-                tt_font.save(output_path)
+            Font._write_math_table(
+                input_path=os.path.join(input_dir, font_file_name),
+                output_path=os.path.join(output_dir, font_file_name),
+                math_table=self.math_tables[style],
+                mapping=self.production_names,
+            )
 
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
@@ -286,7 +290,6 @@ class Font:
         for name in glyph_info:
             for glyph, values in self._get_all_user_data(name).items():
                 if len(values) != self._masters_num:
-                    # TODO:
                     eprint(
                         f'Warning: glyph "{glyph}" has incomplete '
                         f'MathGlyphInfo ({name}: {values}).'
@@ -357,6 +360,18 @@ class Font:
         }
         result['fullAdvance'] = self._advances(glyph, direction)
         return result
+
+    @staticmethod
+    def _write_math_table(input_path: str, output_path: str, math_table: MathTable, mapping: dict):
+        '''Write MATH table and normalize glyph names.'''
+        with TTFont(input_path) as tt_font:
+            # Write MATH table
+            tt_font['MATH'] = newTable('MATH')
+            tt_font['MATH'].table = math_table.encode()
+            # Convert glyph names to AGL convention
+            cff = tt_font['CFF '].cff
+            cff.strings.strings = [mapping.get(s, s) for s in cff.strings.strings]
+            tt_font.save(output_path)
 
 
 class Timer:
