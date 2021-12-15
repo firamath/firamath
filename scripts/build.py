@@ -9,11 +9,11 @@ import sys
 import time
 
 import fontmake
-from fontmake.font_project import FontProject
+from fontmake.font_project import FontProject, GLYPHS_PREFIX, GLYPH_EXPORT_KEY, PUBLIC_PREFIX
 from fontmake.instantiator import Instantiator
 
 import fontTools
-from fontTools.designspaceLib import DesignSpaceDocument
+from fontTools.designspaceLib import DesignSpaceDocument, InstanceDescriptor
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.ttFont import newTable
 
@@ -75,7 +75,7 @@ class Font:
         See [googlefonts/glyphsLib#91](https://github.com/googlefonts/glyphsLib/issues/91).
         '''
         # The smart glyphs should be decomposed first.
-        for glyph in filter(Font._is_smart_glyph, self.font.glyphs):
+        for glyph in filter(self._is_smart_glyph, self.font.glyphs):
             for layer in glyph.layers:
                 to_be_removed = []
                 for comp in layer.components:
@@ -86,7 +86,7 @@ class Font:
                     layer.paths.extend(paths)
                     to_be_removed.append(comp)
                 layer._shapes = [s for s in layer._shapes if s not in to_be_removed]
-        for glyph in filter(lambda g: not Font._is_smart_glyph(g), self.font.glyphs):
+        for glyph in filter(lambda g: not self._is_smart_glyph(g), self.font.glyphs):
             for layer in glyph.layers:
                 to_be_removed = []
                 for comp in layer.components:
@@ -180,7 +180,7 @@ class Font:
         master_ufos, instance_data = glyphsLib.to_ufos(self.font, include_instances=True)
         if not interpolate:
             return master_ufos
-        designspace: DesignSpaceDocument = instance_data['designspace']
+        designspace = self._to_designspace(instance_data)
         if default_index:
             designspace.default = designspace.sources[default_index]
         else:
@@ -200,13 +200,25 @@ class Font:
         return [self._generate_instance(instantiator, i) for i in designspace.instances]
 
     @staticmethod
-    def _generate_instance(instantiator: Instantiator, instance: list):
+    def _to_designspace(instance_data: dict) -> DesignSpaceDocument:
+        designspace = instance_data['designspace']
+        for instance, data in zip(
+            designspace.instances,
+            (i for i in instance_data['data'] if i.active),
+        ):
+            weight_value = 400 if data.weight == 'Regular' else data.weight
+            instance.lib[GLYPHS_PREFIX + 'weightValue'] = weight_value
+        return designspace
+
+    @staticmethod
+    def _generate_instance(instantiator: Instantiator, instance: InstanceDescriptor):
         ufo = instantiator.generate_instance(instance)
-        if custom_parameters := instance.lib.get('com.schriftgestaltung.customParameters'):
+        ufo.info.openTypeOS2WeightClass = instance.lib[GLYPHS_PREFIX + 'weightValue']
+        if custom_parameters := instance.lib.get(GLYPHS_PREFIX + 'customParameters'):
             if remove_glyphs := dict(custom_parameters).get('Remove Glyphs'):
-                ufo.lib['public.skipExportGlyphs'] = remove_glyphs
+                ufo.lib[PUBLIC_PREFIX + 'skipExportGlyphs'] = remove_glyphs
         for glyph in (g for g in ufo if '.BRACKET.' in g.name):
-            glyph.lib['com.schriftgestaltung.Glyphs.Export'] = False
+            glyph.lib[GLYPH_EXPORT_KEY] = False
         return ufo
 
     def add_math_table(self, toml_path: str, input_dir: str, output_dir: str = None):
