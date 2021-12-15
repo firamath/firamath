@@ -214,18 +214,13 @@ class Font:
             output_dir = input_dir
         if not os.path.isdir(output_dir):
             os.mkdir(output_dir)
-
-        font_name = self.font.familyName.replace(' ', '')
         self._parse_math_table(toml_path)
-
         for style in self.interpolations:
-            font_file_name = f'{font_name}-{style}.otf'
-            Font._write_math_table(
-                input_path=os.path.join(input_dir, font_file_name),
-                output_path=os.path.join(output_dir, font_file_name),
-                math_table=self.math_tables[style],
-                mapping=self.production_names,
-            )
+            font_file_name = self._font_file_name(style)
+            input_path = os.path.join(input_dir, font_file_name)
+            output_path = os.path.join(output_dir, font_file_name)
+            self._write_math_table(style, input_path, output_path)
+            self._normalize_glyph_names(output_path, output_path)
 
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
@@ -361,16 +356,21 @@ class Font:
         result['fullAdvance'] = self._advances(glyph, direction)
         return result
 
-    @staticmethod
-    def _write_math_table(input_path: str, output_path: str, math_table: MathTable, mapping: dict):
-        '''Write MATH table and normalize glyph names.'''
+    def _font_file_name(self, style: str) -> str:
+        font_name = self.font.familyName.replace(' ', '')
+        return f'{font_name}-{style}.otf'
+
+    def _write_math_table(self, style: str, input_path: str, output_path: str):
         with TTFont(input_path) as tt_font:
-            # Write MATH table
             tt_font['MATH'] = newTable('MATH')
-            tt_font['MATH'].table = math_table.encode()
-            # Convert glyph names to AGL convention
+            tt_font['MATH'].table = self.math_tables[style].encode()
+            tt_font.save(output_path)
+
+    def _normalize_glyph_names(self, input_path: str, output_path: str):
+        '''Normalize glyph names using AGL convention.'''
+        with TTFont(input_path) as tt_font:
             cff = tt_font['CFF '].cff
-            cff.strings.strings = [mapping.get(s, s) for s in cff.strings.strings]
+            cff.strings.strings = [self.production_names.get(s, s) for s in cff.strings.strings]
             tt_font.save(output_path)
 
 
@@ -430,7 +430,7 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
 
 def _build_otf(ufo, output_dir):
     ufos = ufo if isinstance(ufo, list) else [ufo]
-    FontProject().build_otfs(ufos, output_dir=output_dir)
+    FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
 
 
 if __name__ == '__main__':
