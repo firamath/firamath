@@ -328,8 +328,7 @@ class Font:
         name = name[0].lower() + name[1:]
         mappings = {}
         for glyph in (g for g in self.font.glyphs if g.export):
-            values = self._get_user_data(glyph, name)
-            if values:
+            if values := self._get_user_data(glyph, name):
                 mappings[glyph.name] = values
         return mappings
 
@@ -382,8 +381,17 @@ class Font:
         '''Normalize glyph names using AGL convention.'''
         with TTFont(input_path) as tt_font:
             cff = tt_font['CFF '].cff
-            cff.strings.strings = [self.production_names.get(s, s) for s in cff.strings.strings]
+            cff.strings.strings = list(map(self._normalize_string, cff.strings.strings))
             tt_font.save(output_path)
+
+    def _normalize_string(self, s: str) -> str:
+        # An *ad hoc* treatment for copyright string.
+        if 'Copyright Copyright' in s:
+            s = s.replace('Copyright Copyright', 'Copyright')  # For U+00A9 `©`
+            s = s.replace('?', '-')  # For U+2013 `–`
+            return s
+        # For glyph names
+        return self.production_names.get(s, s)
 
 
 class Timer:
@@ -416,7 +424,7 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
     1. Load the `.glyphspackage` directory into a `GSFont` object with preprocessing
     2. Convert the `GSFont` into a list of UFO objects and perform interpolation
     3. Generate `.otf` font files
-    4. Add the OpenType MATH tables
+    4. Add OpenType MATH table and normalize glyph names
     '''
     eprint(
         f'Python:    {sys.version.split()[0]}\n'
@@ -442,7 +450,7 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
 
 def _build_otf(ufo, output_dir):
     ufos = ufo if isinstance(ufo, list) else [ufo]
-    FontProject(verbose='WARNING').build_otfs(ufos, output_dir=output_dir)
+    FontProject().save_otfs(ufos, output_dir=output_dir, optimize_cff=2)
 
 
 if __name__ == '__main__':
