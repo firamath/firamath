@@ -35,6 +35,7 @@ class MathTable:
         italic_corr.ItalicsCorrection, italic_corr.Coverage, italic_corr.ItalicsCorrectionCount = \
             self._glyph_info('ItalicCorrection')
         top_accent = otTables.MathTopAccentAttachment()
+        # pylint: disable=line-too-long
         top_accent.TopAccentAttachment, top_accent.TopAccentCoverage, top_accent.TopAccentAttachmentCount = \
             self._glyph_info('TopAccent')
         glyph_info = otTables.MathGlyphInfo()
@@ -111,3 +112,91 @@ class MathTable:
         c = otTables.Coverage()
         c.glyphs = glyphs
         return c
+
+
+class MathTableInstantiator:
+
+    def __init__(
+        self,
+        data: dict[str],
+        interpolation: list[tuple[int, float]],
+        removed_glyphs: list[str],
+    ):
+        self.master_constants:  dict[str, dict] = data['MathConstants']
+        self.master_glyph_info: dict[str]       = data['MathGlyphInfo']
+        self.master_variants:   dict[str]       = data['MathVariants']
+        self.interpolation = interpolation
+        if removed_glyphs:
+            self.removed_glyphs = set(removed_glyphs)
+        else:
+            self.removed_glyphs = set()
+
+    def generate(self) -> MathTable:
+        math_table = MathTable()
+        math_table.constants  = self._generate_constants()
+        math_table.glyph_info = self._generate_glyph_info()
+        math_table.variants   = self._generate_variants()
+        return math_table
+
+    def _generate_constants(self) -> dict[str, dict[str]]:
+        return {
+            name: {
+                'value': self._generate(d['value']),
+                'isMathValue': d['isMathValue'],
+            }
+            for name, d in self.master_constants.items()
+        }
+
+    def _generate(self, values: list[int]) -> int:
+        '''Generate a specific value for the instance.'''
+        return round(sum(values[i] * v for i, v in self.interpolation))
+
+    def _generate_glyph_info(self) -> dict[str]:
+        return {
+            'ItalicCorrection': self._glyph_info('ItalicCorrection'),
+            'TopAccent':        self._glyph_info('TopAccent'),
+            'ExtendedShapes':   self.master_glyph_info['ExtendedShapes'],
+        }
+
+    def _glyph_info(self, name: str) -> dict[str]:
+        # TODO: consider brace layers
+        return {
+            g: self._generate(values)
+            for g, values in self.master_glyph_info[name].items() if g not in self.removed_glyphs
+        }
+
+    def _generate_variants(self) -> dict[str]:
+        return {
+            'MinConnectorOverlap':  self._generate(self.master_variants['MinConnectorOverlap']),
+            'HorizontalVariants':   self._variants('Horizontal'),
+            'VerticalVariants':     self._variants('Vertical'),
+            'HorizontalComponents': self._components('Horizontal'),
+            'VerticalComponents':   self._components('Vertical'),
+        }
+
+    def _variants(self, name: str) -> dict[str]:
+        '''`name` can be either `"Horizontal"` or `"Vertical"`.'''
+        return {
+            glyph: {g: self._generate(values) for g, values in variants.items()}
+            for glyph, variants in self.master_variants[name + 'Variants'].items()
+        }
+
+    def _components(self, name: str) -> dict[str]:
+        '''`name` can be either `"Horizontal"` or `"Vertical"`.'''
+        return {
+            glyph: {
+                # TODO: need to be interpolated
+                'italicsCorrection': componet['italicsCorrection'],
+                'parts': list(map(self._part, componet['parts'])),
+            }
+            for glyph, componet in self.master_variants[name + 'Components'].items()
+        }
+
+    def _part(self, part: dict[str]) -> dict[str]:
+        return {
+            'name':           part['name'],
+            'isExtender':     part['isExtender'],
+            'startConnector': self._generate(part['startConnector']),
+            'endConnector':   self._generate(part['endConnector']),
+            'fullAdvance':    self._generate(part['fullAdvance']),
+        }

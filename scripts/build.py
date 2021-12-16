@@ -23,7 +23,7 @@ from glyphsLib.parser import Parser
 
 import toml
 
-from math_table import MathTable
+from math_table import MathTable, MathTableInstantiator
 
 
 class Font:
@@ -229,6 +229,7 @@ class Font:
         self._parse_math_table(toml_path)
         for style in self.interpolations:
             font_file_name = self._font_file_name(style)
+            eprint(f'=> {font_file_name}')
             input_path = os.path.join(input_dir, font_file_name)
             output_path = os.path.join(output_dir, font_file_name)
             self._write_math_table(style, input_path, output_path)
@@ -236,59 +237,18 @@ class Font:
 
     def _parse_math_table(self, toml_path: str):
         master_data = self._parse_master_math_table(toml_path)
-        master_glyph_info = master_data['MathGlyphInfo']
-        master_variants = master_data['MathVariants']
+        self.math_tables = {
+            style: MathTableInstantiator(
+                master_data,
+                interpolation,
+                self._removed_glyphs(style),
+            ).generate()
+            for style, interpolation in self.interpolations.items()
+        }
 
-        for style, interpolation in self.interpolations.items():
-            instance = next(i for i in self.font.instances if i.name == style)
-            remove_glyphs = instance.customParameters['Remove Glyphs']
-            def _is_removed_glyph(glyph):
-                return glyph in remove_glyphs if remove_glyphs else False
-            def _generate(values):
-                return round(sum(values[i] * v for i, v in interpolation))
-            def _variant(name):
-                return {
-                    glyph: {g: _generate(values) for g, values in variants.items()}
-                    for glyph, variants in master_variants[name].items()
-                }
-            def _componet(name):
-                return {
-                    glyph: {
-                        # TODO: need to be interpolated
-                        'italicsCorrection': componet['italicsCorrection'],
-                        'parts': [
-                            {
-                                'name': part['name'],
-                                'isExtender': part['isExtender'],
-                                'startConnector': _generate(part['startConnector']),
-                                'endConnector': _generate(part['endConnector']),
-                                'fullAdvance': _generate(part['fullAdvance']),
-                            }
-                            for part in componet['parts']
-                        ]
-                    }
-                    for glyph, componet in master_variants[name].items()
-                }
-            math_table = MathTable()
-            for name, d in master_data['MathConstants'].items():
-                math_table.constants[name] = {
-                    'value': _generate(d['value']),
-                    'isMathValue': d['isMathValue'],
-                }
-            for name in ['ItalicCorrection', 'TopAccent']:
-                # TODO: consider brace layers
-                math_table.glyph_info[name] = {
-                    g: _generate(values)
-                    for g, values in master_glyph_info[name].items() if not _is_removed_glyph(g)
-                }
-            math_table.glyph_info['ExtendedShapes'] = master_glyph_info['ExtendedShapes']
-            math_table.variants['MinConnectorOverlap'] = \
-                _generate(master_variants['MinConnectorOverlap'])
-            math_table.variants['HorizontalVariants'] = _variant('HorizontalVariants')
-            math_table.variants['VerticalVariants'] = _variant('VerticalVariants')
-            math_table.variants['HorizontalComponents'] = _componet('HorizontalComponents')
-            math_table.variants['VerticalComponents'] = _componet('VerticalComponents')
-            self.math_tables[style] = math_table
+    def _removed_glyphs(self, style: str):
+        instance = next(i for i in self.font.instances if i.name == style)
+        return instance.customParameters['Remove Glyphs']
 
     def _parse_master_math_table(self, toml_path: str) -> dict:
         data = toml.load(toml_path)
