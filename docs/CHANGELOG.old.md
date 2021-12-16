@@ -193,7 +193,7 @@ More details can be found in the [GitHub commit log](https://github.com/firamath
 - Latin and Greek letters with different styles
 - Basic binary relation symbols
 - Fraction and radical
-- Delimeters
+- Delimiters
 - Huge operators (e.g. integral and summation)
 - Math accents
 - Over-/underline and over-/underbraces
