@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 0;
 glyphname = nbspace;
 layers = (
 {
@@ -12,12 +12,13 @@ width = 310;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
-width = 292;
+width = 290;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 width = 265;
 }
 );
+metricWidth = space;
 unicode = 160;
 }
