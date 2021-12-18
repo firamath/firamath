@@ -125,11 +125,8 @@ class MathTableInstantiator:
         self.master_constants:  dict[str, dict] = data['MathConstants']
         self.master_glyph_info: dict[str]       = data['MathGlyphInfo']
         self.master_variants:   dict[str]       = data['MathVariants']
-        self.interpolation = interpolation
-        if removed_glyphs:
-            self.removed_glyphs = set(removed_glyphs)
-        else:
-            self.removed_glyphs = set()
+        self.interpolation  = interpolation
+        self.removed_glyphs = set(removed_glyphs) if removed_glyphs else set()
 
     def generate(self) -> MathTable:
         math_table = MathTable()

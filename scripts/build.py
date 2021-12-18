@@ -30,7 +30,7 @@ class Font:
 
     def __init__(self, path: str):
         self.font = self._load(path)
-        self.math_tables: dict[str, MathTable] = {}
+        self.math_tables = {}
         masters = sorted(self.font.masters, key=lambda m: m.weightValue)
         self._masters_num = len(masters)
         self._master_id_indices = {m.id: i for i, m in enumerate(masters)}
@@ -226,7 +226,7 @@ class Font:
             output_dir = input_dir
         if not os.path.isdir(output_dir):
             os.mkdir(output_dir)
-        self._parse_math_table(toml_path)
+        self.math_tables = self._parse_math_table(toml_path)
         for style in self.interpolations:
             font_file_name = self._font_file_name(style)
             eprint(f'=> {font_file_name}')
@@ -235,9 +235,9 @@ class Font:
             self._write_math_table(style, input_path, output_path)
             self._normalize_glyph_names(output_path, output_path)
 
-    def _parse_math_table(self, toml_path: str):
-        master_data = self._parse_master_math_table(toml_path)
-        self.math_tables = {
+    def _parse_math_table(self, toml_path: str) -> dict[str, MathTable]:
+        master_data = self._parse_master_data(toml_path)
+        return {
             style: MathTableInstantiator(
                 master_data,
                 interpolation,
@@ -246,12 +246,12 @@ class Font:
             for style, interpolation in self.interpolations.items()
         }
 
-    def _removed_glyphs(self, style: str):
+    def _removed_glyphs(self, style: str) -> list[str]:
         instance = next(i for i in self.font.instances if i.name == style)
         return instance.customParameters['Remove Glyphs']
 
-    def _parse_master_math_table(self, toml_path: str) -> dict:
-        data = toml.load(toml_path)
+    def _parse_master_data(self, toml_path: str) -> dict[str]:
+        data = self._toml_parse(toml_path)
         glyph_info = data['MathGlyphInfo']
         variants = data['MathVariants']
         for name in glyph_info:
@@ -282,6 +282,39 @@ class Font:
                 part | self._variant_part(part['name'], 'V') for part in value['parts']
             ]
         return data
+
+    @staticmethod
+    def _toml_parse(toml_path: str) -> dict[str]:
+        data = toml.load(toml_path)
+        data['MathGlyphInfo']['ExtendedShapes'] = \
+            Font._glyph_names_expand(data['MathGlyphInfo']['ExtendedShapes'])
+        for key in ('HorizontalVariants', 'VerticalVariants'):
+            for glyph, variants in data['MathVariants'][key].items():
+                data['MathVariants'][key][glyph] = Font._string_expand(variants)
+        return data
+
+    @staticmethod
+    def _glyph_names_expand(names: list[str]) -> list[str]:
+        res = []
+        for s in names:
+            res.extend(Font._string_expand(s))
+        return res
+
+    @staticmethod
+    def _string_expand(s: str) -> list[str]:
+        try:
+            (base, suffix) = s.split('?')
+            return [base] + [base + i for i in Font._string_expand_hash(suffix)]
+        except ValueError:
+            return Font._string_expand_hash(s)
+
+    @staticmethod
+    def _string_expand_hash(s: str) -> list[str]:
+        try:
+            (base, num) = s.split('#')
+            return [f'{base}{i:02}' for i in range(1, int(num) + 1)]
+        except ValueError:
+            return [s]
 
     def _get_all_user_data(self, name: str) -> dict[str, list]:
         # Uncapitalize: 'TopAccent' -> 'topAccent', etc.
@@ -345,7 +378,7 @@ class Font:
             tt_font.save(output_path)
 
     def _normalize_string(self, s: str) -> str:
-        # An *ad hoc* treatment for copyright string.
+        # Ad-hoc treatment for copyright string
         if 'Copyright Copyright' in s:
             s = s.replace('Copyright Copyright', 'Copyright')  # For U+00A9 `©`
             s = s.replace('?', '-')  # For U+2013 `–`
@@ -408,8 +441,7 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
         font.add_math_table(toml_path, input_dir=output_dir)
 
 
-def _build_otf(ufo, output_dir):
-    ufos = ufo if isinstance(ufo, list) else [ufo]
+def _build_otf(ufos: list, output_dir: str):
     FontProject().save_otfs(ufos, output_dir=output_dir, optimize_cff=2)
 
 

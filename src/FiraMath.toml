@@ -1,3 +1,53 @@
+# Data of OpenType MATH table for Fira Math
+# =========================================
+#
+# DSL
+# ---
+#
+# We use the following DSL to simplify the file:
+#
+# - `"XXXX.size#N"`  -> `"XXXX.size01"`, `"XXXX.size02"`, ..., `"XXXX.sizeN"`
+# - `"XXXX?.size#N"` -> `"XXXX"`, `"XXXX.size01"`, `"XXXX.size02"`, ..., `"XXXX.sizeN"`
+#
+# Notes:
+#
+# - `size` can be other things such as `ssty` (but currently they are not used)
+# - `N` should be a positve integer (1 <= N < 100)
+# - The digit part will be zero-padded to length 2
+#
+# Examples:
+#
+# - `"radical.size#15"`  -> `"radical.size01"`, `"radical.size02"`, ..., `"radical.size15"`
+# - `"integral?.size#1"` -> `"integral"`, `"integral.size01"`
+# - `"?.size#15"`        -> `""`, `".size01"`, `".size02"`, ..., `".size15"`
+#
+# Design-dependent data
+# ---------------------
+#
+# This file only contains design-independent data, such as global constants and glyph
+# variants/components. The design-dependent data are stored in `FiraMath.glyphspackage` as
+# `userData`. The following data are used:
+#
+# - `italicCorrection`
+# - `topAccent`
+# - `startConnector`
+# - `endConnector`
+#
+# To visualize and edit them in Glyphs, please check <https://github.com/stone-zeng/MathTable>.
+#
+# Interpolation
+# -------------
+#
+# Only data for master layers are stored here. For instances, they will be interpolated
+# while building the fonts.
+#
+# Math device tables
+# ------------------
+#
+# Some values in OpenType MATH table are described by `MathValueRecord` to include the device
+# tables, so that corrections can be applied at different PPEM sizes. But we are not going to
+# support the device tables, so all the values here are actually integers (more precisely `int16`).
+
 [MathConstants]
 
 ScriptPercentScaleDown                   = { value = [   72,   72,   72,   72], isMathValue = false }
@@ -62,444 +112,71 @@ RadicalDegreeBottomRaisePercent          = { value = [   64,   64,   64,   64], 
 ItalicCorrection = {}
 TopAccent = {}
 ExtendedShapes = [
-    "integral",
-    "dblintegral",
-    "tripleintegral",
-    "quadrupleIntegralOperator",
-    "contourintegral",
-    "surfaceintegral",
-    "volumeintegral",
-    "clockwiseintegral",
-    "anticlockwiseIntegration",
-    "clockwisecontourintegral",
-    "anticlockwisecontourintegral",
-    "summationWithIntegral",
-    "finitePartIntegral",
-    "integralWithDoubleStroke",
-    "integralAverageWithSlash",
-    "circulationFunction",
-    "product",
-    "coproduct",
-    "summation",
-    "summationdoubleStruck",
-    "moduloTwoSum",
-    "narylogicaland",
-    "narylogicalor",
-    "twoLogicalAndOperator",
-    "twoLogicalOrOperator",
-    "naryintersection",
-    "naryunion",
-    "nAryUnionOperatorWithDot",
-    "nAryUnionOperatorWithPlus",
-    "nArySquareIntersectionOperator",
-    "nArySquareUnionOperator",
-    "nAryCircledDotOperator",
-    "nAryCircledPlusOperator",
-    "nAryCircledTimesOperator",
-    "nAryTimesOperator",
-    "largeUpTack",
-    "largeDownTack",
-    "bigSolidus",
-    "bigReverseSolidus",
-    "integral.size01",
-    "dblintegral.size01",
-    "tripleintegral.size01",
-    "quadrupleIntegralOperator.size01",
-    "contourintegral.size01",
-    "surfaceintegral.size01",
-    "volumeintegral.size01",
-    "clockwiseintegral.size01",
-    "anticlockwiseIntegration.size01",
-    "clockwisecontourintegral.size01",
-    "anticlockwisecontourintegral.size01",
-    "summationWithIntegral.size01",
-    "finitePartIntegral.size01",
-    "integralWithDoubleStroke.size01",
-    "integralAverageWithSlash.size01",
-    "circulationFunction.size01",
-    "product.size01",
-    "coproduct.size01",
-    "summation.size01",
-    "summationdoubleStruck.size01",
-    "moduloTwoSum.size01",
-    "narylogicaland.size01",
-    "narylogicalor.size01",
-    "twoLogicalAndOperator.size01",
-    "twoLogicalOrOperator.size01",
-    "naryintersection.size01",
-    "naryunion.size01",
-    "nAryUnionOperatorWithDot.size01",
-    "nAryUnionOperatorWithPlus.size01",
-    "nArySquareIntersectionOperator.size01",
-    "nArySquareUnionOperator.size01",
-    "nAryCircledDotOperator.size01",
-    "nAryCircledPlusOperator.size01",
-    "nAryCircledTimesOperator.size01",
-    "nAryTimesOperator.size01",
-    "largeUpTack.size01",
-    "largeDownTack.size01",
-    "bigSolidus.size01",
-    "bigReverseSolidus.size01",
-    "parenleft.size01",
-    "parenleft.size02",
-    "parenleft.size03",
-    "parenleft.size04",
-    "parenleft.size05",
-    "parenleft.size06",
-    "parenleft.size07",
-    "parenleft.size08",
-    "parenleft.size09",
-    "parenleft.size10",
-    "parenleft.size11",
-    "parenleft.size12",
-    "parenleft.size13",
-    "parenleft.size14",
-    "parenleft.size15",
-    "parenright.size01",
-    "parenright.size02",
-    "parenright.size03",
-    "parenright.size04",
-    "parenright.size05",
-    "parenright.size06",
-    "parenright.size07",
-    "parenright.size08",
-    "parenright.size09",
-    "parenright.size10",
-    "parenright.size11",
-    "parenright.size12",
-    "parenright.size13",
-    "parenright.size14",
-    "parenright.size15",
-    "leftflattenedparenthesis-math.size01",
-    "leftflattenedparenthesis-math.size02",
-    "leftflattenedparenthesis-math.size03",
-    "leftflattenedparenthesis-math.size04",
-    "leftflattenedparenthesis-math.size05",
-    "leftflattenedparenthesis-math.size06",
-    "leftflattenedparenthesis-math.size07",
-    "leftflattenedparenthesis-math.size08",
-    "leftflattenedparenthesis-math.size09",
-    "leftflattenedparenthesis-math.size10",
-    "leftflattenedparenthesis-math.size11",
-    "leftflattenedparenthesis-math.size12",
-    "leftflattenedparenthesis-math.size13",
-    "leftflattenedparenthesis-math.size14",
-    "leftflattenedparenthesis-math.size15",
-    "rightflattenedparenthesis-math.size01",
-    "rightflattenedparenthesis-math.size02",
-    "rightflattenedparenthesis-math.size03",
-    "rightflattenedparenthesis-math.size04",
-    "rightflattenedparenthesis-math.size05",
-    "rightflattenedparenthesis-math.size06",
-    "rightflattenedparenthesis-math.size07",
-    "rightflattenedparenthesis-math.size08",
-    "rightflattenedparenthesis-math.size09",
-    "rightflattenedparenthesis-math.size10",
-    "rightflattenedparenthesis-math.size11",
-    "rightflattenedparenthesis-math.size12",
-    "rightflattenedparenthesis-math.size13",
-    "rightflattenedparenthesis-math.size14",
-    "rightflattenedparenthesis-math.size15",
-    "bracketleft.size01",
-    "bracketleft.size02",
-    "bracketleft.size03",
-    "bracketleft.size04",
-    "bracketleft.size05",
-    "bracketleft.size06",
-    "bracketleft.size07",
-    "bracketleft.size08",
-    "bracketleft.size09",
-    "bracketleft.size10",
-    "bracketleft.size11",
-    "bracketleft.size12",
-    "bracketleft.size13",
-    "bracketleft.size14",
-    "bracketleft.size15",
-    "bracketright.size01",
-    "bracketright.size02",
-    "bracketright.size03",
-    "bracketright.size04",
-    "bracketright.size05",
-    "bracketright.size06",
-    "bracketright.size07",
-    "bracketright.size08",
-    "bracketright.size09",
-    "bracketright.size10",
-    "bracketright.size11",
-    "bracketright.size12",
-    "bracketright.size13",
-    "bracketright.size14",
-    "bracketright.size15",
-    "braceleft.size01",
-    "braceleft.size02",
-    "braceleft.size03",
-    "braceleft.size04",
-    "braceleft.size05",
-    "braceleft.size06",
-    "braceleft.size07",
-    "braceleft.size08",
-    "braceleft.size09",
-    "braceleft.size10",
-    "braceleft.size11",
-    "braceleft.size12",
-    "braceleft.size13",
-    "braceleft.size14",
-    "braceleft.size15",
-    "braceright.size01",
-    "braceright.size02",
-    "braceright.size03",
-    "braceright.size04",
-    "braceright.size05",
-    "braceright.size06",
-    "braceright.size07",
-    "braceright.size08",
-    "braceright.size09",
-    "braceright.size10",
-    "braceright.size11",
-    "braceright.size12",
-    "braceright.size13",
-    "braceright.size14",
-    "braceright.size15",
-    "leftCeiling.size01",
-    "leftCeiling.size02",
-    "leftCeiling.size03",
-    "leftCeiling.size04",
-    "leftCeiling.size05",
-    "leftCeiling.size06",
-    "leftCeiling.size07",
-    "leftCeiling.size08",
-    "leftCeiling.size09",
-    "leftCeiling.size10",
-    "leftCeiling.size11",
-    "leftCeiling.size12",
-    "leftCeiling.size13",
-    "leftCeiling.size14",
-    "leftCeiling.size15",
-    "rightCeiling.size01",
-    "rightCeiling.size02",
-    "rightCeiling.size03",
-    "rightCeiling.size04",
-    "rightCeiling.size05",
-    "rightCeiling.size06",
-    "rightCeiling.size07",
-    "rightCeiling.size08",
-    "rightCeiling.size09",
-    "rightCeiling.size10",
-    "rightCeiling.size11",
-    "rightCeiling.size12",
-    "rightCeiling.size13",
-    "rightCeiling.size14",
-    "rightCeiling.size15",
-    "leftFloor.size01",
-    "leftFloor.size02",
-    "leftFloor.size03",
-    "leftFloor.size04",
-    "leftFloor.size05",
-    "leftFloor.size06",
-    "leftFloor.size07",
-    "leftFloor.size08",
-    "leftFloor.size09",
-    "leftFloor.size10",
-    "leftFloor.size11",
-    "leftFloor.size12",
-    "leftFloor.size13",
-    "leftFloor.size14",
-    "leftFloor.size15",
-    "rightFloor.size01",
-    "rightFloor.size02",
-    "rightFloor.size03",
-    "rightFloor.size04",
-    "rightFloor.size05",
-    "rightFloor.size06",
-    "rightFloor.size07",
-    "rightFloor.size08",
-    "rightFloor.size09",
-    "rightFloor.size10",
-    "rightFloor.size11",
-    "rightFloor.size12",
-    "rightFloor.size13",
-    "rightFloor.size14",
-    "rightFloor.size15",
-    "leftanglebracket-math.size01",
-    "leftanglebracket-math.size02",
-    "leftanglebracket-math.size03",
-    "leftanglebracket-math.size04",
-    "leftanglebracket-math.size05",
-    "leftanglebracket-math.size06",
-    "leftanglebracket-math.size07",
-    "leftanglebracket-math.size08",
-    "leftanglebracket-math.size09",
-    "leftanglebracket-math.size10",
-    "leftanglebracket-math.size11",
-    "leftanglebracket-math.size12",
-    "leftanglebracket-math.size13",
-    "leftanglebracket-math.size14",
-    "leftanglebracket-math.size15",
-    "rightanglebracket-math.size01",
-    "rightanglebracket-math.size02",
-    "rightanglebracket-math.size03",
-    "rightanglebracket-math.size04",
-    "rightanglebracket-math.size05",
-    "rightanglebracket-math.size06",
-    "rightanglebracket-math.size07",
-    "rightanglebracket-math.size08",
-    "rightanglebracket-math.size09",
-    "rightanglebracket-math.size10",
-    "rightanglebracket-math.size11",
-    "rightanglebracket-math.size12",
-    "rightanglebracket-math.size13",
-    "rightanglebracket-math.size14",
-    "rightanglebracket-math.size15",
-    "leftdoubleanglebracket-math.size01",
-    "leftdoubleanglebracket-math.size02",
-    "leftdoubleanglebracket-math.size03",
-    "leftdoubleanglebracket-math.size04",
-    "leftdoubleanglebracket-math.size05",
-    "leftdoubleanglebracket-math.size06",
-    "leftdoubleanglebracket-math.size07",
-    "leftdoubleanglebracket-math.size08",
-    "leftdoubleanglebracket-math.size09",
-    "leftdoubleanglebracket-math.size10",
-    "leftdoubleanglebracket-math.size11",
-    "leftdoubleanglebracket-math.size12",
-    "leftdoubleanglebracket-math.size13",
-    "leftdoubleanglebracket-math.size14",
-    "leftdoubleanglebracket-math.size15",
-    "rightdoubleanglebracket-math.size01",
-    "rightdoubleanglebracket-math.size02",
-    "rightdoubleanglebracket-math.size03",
-    "rightdoubleanglebracket-math.size04",
-    "rightdoubleanglebracket-math.size05",
-    "rightdoubleanglebracket-math.size06",
-    "rightdoubleanglebracket-math.size07",
-    "rightdoubleanglebracket-math.size08",
-    "rightdoubleanglebracket-math.size09",
-    "rightdoubleanglebracket-math.size10",
-    "rightdoubleanglebracket-math.size11",
-    "rightdoubleanglebracket-math.size12",
-    "rightdoubleanglebracket-math.size13",
-    "rightdoubleanglebracket-math.size14",
-    "rightdoubleanglebracket-math.size15",
-    "leftwhitesquarebracket-math.size01",
-    "leftwhitesquarebracket-math.size02",
-    "leftwhitesquarebracket-math.size03",
-    "leftwhitesquarebracket-math.size04",
-    "leftwhitesquarebracket-math.size05",
-    "leftwhitesquarebracket-math.size06",
-    "leftwhitesquarebracket-math.size07",
-    "leftwhitesquarebracket-math.size08",
-    "leftwhitesquarebracket-math.size09",
-    "leftwhitesquarebracket-math.size10",
-    "leftwhitesquarebracket-math.size11",
-    "leftwhitesquarebracket-math.size12",
-    "leftwhitesquarebracket-math.size13",
-    "leftwhitesquarebracket-math.size14",
-    "leftwhitesquarebracket-math.size15",
-    "rightwhitesquarebracket-math.size01",
-    "rightwhitesquarebracket-math.size02",
-    "rightwhitesquarebracket-math.size03",
-    "rightwhitesquarebracket-math.size04",
-    "rightwhitesquarebracket-math.size05",
-    "rightwhitesquarebracket-math.size06",
-    "rightwhitesquarebracket-math.size07",
-    "rightwhitesquarebracket-math.size08",
-    "rightwhitesquarebracket-math.size09",
-    "rightwhitesquarebracket-math.size10",
-    "rightwhitesquarebracket-math.size11",
-    "rightwhitesquarebracket-math.size12",
-    "rightwhitesquarebracket-math.size13",
-    "rightwhitesquarebracket-math.size14",
-    "rightwhitesquarebracket-math.size15",
-    "bar.size01",
-    "bar.size02",
-    "bar.size03",
-    "bar.size04",
-    "bar.size05",
-    "bar.size06",
-    "bar.size07",
-    "bar.size08",
-    "bar.size09",
-    "bar.size10",
-    "bar.size11",
-    "bar.size12",
-    "bar.size13",
-    "bar.size14",
-    "bar.size15",
-    "dblverticalbar.size01",
-    "dblverticalbar.size02",
-    "dblverticalbar.size03",
-    "dblverticalbar.size04",
-    "dblverticalbar.size05",
-    "dblverticalbar.size06",
-    "dblverticalbar.size07",
-    "dblverticalbar.size08",
-    "dblverticalbar.size09",
-    "dblverticalbar.size10",
-    "dblverticalbar.size11",
-    "dblverticalbar.size12",
-    "dblverticalbar.size13",
-    "dblverticalbar.size14",
-    "dblverticalbar.size15",
-    "tripleVerticalBarDelimiter.size01",
-    "tripleVerticalBarDelimiter.size02",
-    "tripleVerticalBarDelimiter.size03",
-    "tripleVerticalBarDelimiter.size04",
-    "tripleVerticalBarDelimiter.size05",
-    "tripleVerticalBarDelimiter.size06",
-    "tripleVerticalBarDelimiter.size07",
-    "tripleVerticalBarDelimiter.size08",
-    "tripleVerticalBarDelimiter.size09",
-    "tripleVerticalBarDelimiter.size10",
-    "tripleVerticalBarDelimiter.size11",
-    "tripleVerticalBarDelimiter.size12",
-    "tripleVerticalBarDelimiter.size13",
-    "tripleVerticalBarDelimiter.size14",
-    "tripleVerticalBarDelimiter.size15",
-    "radical.size01",
-    "radical.size02",
-    "radical.size03",
-    "radical.size04",
-    "radical.size05",
-    "radical.size06",
-    "radical.size07",
-    "radical.size08",
-    "radical.size09",
-    "radical.size10",
-    "radical.size11",
-    "radical.size12",
-    "radical.size13",
-    "radical.size14",
-    "radical.size15",
-    "cuberoot.size01",
-    "cuberoot.size02",
-    "cuberoot.size03",
-    "cuberoot.size04",
-    "cuberoot.size05",
-    "cuberoot.size06",
-    "cuberoot.size07",
-    "cuberoot.size08",
-    "cuberoot.size09",
-    "cuberoot.size10",
-    "cuberoot.size11",
-    "cuberoot.size12",
-    "cuberoot.size13",
-    "cuberoot.size14",
-    "cuberoot.size15",
-    "fourthroot.size01",
-    "fourthroot.size02",
-    "fourthroot.size03",
-    "fourthroot.size04",
-    "fourthroot.size05",
-    "fourthroot.size06",
-    "fourthroot.size07",
-    "fourthroot.size08",
-    "fourthroot.size09",
-    "fourthroot.size10",
-    "fourthroot.size11",
-    "fourthroot.size12",
-    "fourthroot.size13",
-    "fourthroot.size14",
-    "fourthroot.size15",
+    # Big operators
+    "integral?.size#1",
+    "dblintegral?.size#1",
+    "tripleintegral?.size#1",
+    "quadrupleIntegralOperator?.size#1",
+    "contourintegral?.size#1",
+    "surfaceintegral?.size#1",
+    "volumeintegral?.size#1",
+    "clockwiseintegral?.size#1",
+    "anticlockwiseIntegration?.size#1",
+    "clockwisecontourintegral?.size#1",
+    "anticlockwisecontourintegral?.size#1",
+    "summationWithIntegral?.size#1",
+    "finitePartIntegral?.size#1",
+    "integralWithDoubleStroke?.size#1",
+    "integralAverageWithSlash?.size#1",
+    "circulationFunction?.size#1",
+    "product?.size#1",
+    "coproduct?.size#1",
+    "summation?.size#1",
+    "summationdoubleStruck?.size#1",
+    "moduloTwoSum?.size#1",
+    "narylogicaland?.size#1",
+    "narylogicalor?.size#1",
+    "twoLogicalAndOperator?.size#1",
+    "twoLogicalOrOperator?.size#1",
+    "naryintersection?.size#1",
+    "naryunion?.size#1",
+    "nAryUnionOperatorWithDot?.size#1",
+    "nAryUnionOperatorWithPlus?.size#1",
+    "nArySquareIntersectionOperator?.size#1",
+    "nArySquareUnionOperator?.size#1",
+    "nAryCircledDotOperator?.size#1",
+    "nAryCircledPlusOperator?.size#1",
+    "nAryCircledTimesOperator?.size#1",
+    "nAryTimesOperator?.size#1",
+    "largeUpTack?.size#1",
+    "largeDownTack?.size#1",
+    "bigSolidus?.size#1",
+    "bigReverseSolidus?.size#1",
+    # Delimiters
+    "parenleft.size#15",
+    "parenright.size#15",
+    "leftflattenedparenthesis-math.size#15",
+    "rightflattenedparenthesis-math.size#15",
+    "bracketleft.size#15",
+    "bracketright.size#15",
+    "braceleft.size#15",
+    "braceright.size#15",
+    "leftCeiling.size#15",
+    "rightCeiling.size#15",
+    "leftFloor.size#15",
+    "rightFloor.size#15",
+    "leftanglebracket-math.size#15",
+    "rightanglebracket-math.size#15",
+    "leftdoubleanglebracket-math.size#15",
+    "rightdoubleanglebracket-math.size#15",
+    "leftwhitesquarebracket-math.size#15",
+    "rightwhitesquarebracket-math.size#15",
+    "bar.size#15",
+    "dblverticalbar.size#15",
+    "tripleVerticalBarDelimiter.size#15",
+    "radical.size#15",
+    "cuberoot.size#15",
+    "fourthroot.size#15",
 ]
 
 [MathVariants]
@@ -508,78 +185,78 @@ MinConnectorOverlap = [20, 20, 20, 20]
 
 [MathVariants.HorizontalVariants]
 
-"topparenthesis"      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"bottomparenthesis"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"topsquarebracket"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"bottomsquarebracket" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"topcurlybracket"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"bottomcurlybracket"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"topparenthesis"      = "topparenthesis?.size#15"
+"bottomparenthesis"   = "bottomparenthesis?.size#15"
+"topsquarebracket"    = "topsquarebracket?.size#15"
+"bottomsquarebracket" = "bottomsquarebracket?.size#15"
+"topcurlybracket"     = "topcurlybracket?.size#15"
+"bottomcurlybracket"  = "bottomcurlybracket?.size#15"
 
 [MathVariants.VerticalVariants]
 
-"integral"                       = { suffixes = ["", ".size01"] }
-"dblintegral"                    = { suffixes = ["", ".size01"] }
-"tripleintegral"                 = { suffixes = ["", ".size01"] }
-"quadrupleIntegralOperator"      = { suffixes = ["", ".size01"] }
-"contourintegral"                = { suffixes = ["", ".size01"] }
-"surfaceintegral"                = { suffixes = ["", ".size01"] }
-"volumeintegral"                 = { suffixes = ["", ".size01"] }
-"clockwiseintegral"              = { suffixes = ["", ".size01"] }
-"anticlockwiseIntegration"       = { suffixes = ["", ".size01"] }
-"clockwisecontourintegral"       = { suffixes = ["", ".size01"] }
-"anticlockwisecontourintegral"   = { suffixes = ["", ".size01"] }
-"summationWithIntegral"          = { suffixes = ["", ".size01"] }
-"finitePartIntegral"             = { suffixes = ["", ".size01"] }
-"integralWithDoubleStroke"       = { suffixes = ["", ".size01"] }
-"integralAverageWithSlash"       = { suffixes = ["", ".size01"] }
-"circulationFunction"            = { suffixes = ["", ".size01"] }
-"product"                        = { suffixes = ["", ".size01"] }
-"coproduct"                      = { suffixes = ["", ".size01"] }
-"summation"                      = { suffixes = ["", ".size01"] }
-"summationdoubleStruck"          = { suffixes = ["", ".size01"] }
-"moduloTwoSum"                   = { suffixes = ["", ".size01"] }
-"narylogicaland"                 = { suffixes = ["", ".size01"] }
-"narylogicalor"                  = { suffixes = ["", ".size01"] }
-"twoLogicalAndOperator"          = { suffixes = ["", ".size01"] }
-"twoLogicalOrOperator"           = { suffixes = ["", ".size01"] }
-"naryintersection"               = { suffixes = ["", ".size01"] }
-"naryunion"                      = { suffixes = ["", ".size01"] }
-"nAryUnionOperatorWithDot"       = { suffixes = ["", ".size01"] }
-"nAryUnionOperatorWithPlus"      = { suffixes = ["", ".size01"] }
-"nArySquareIntersectionOperator" = { suffixes = ["", ".size01"] }
-"nArySquareUnionOperator"        = { suffixes = ["", ".size01"] }
-"nAryCircledDotOperator"         = { suffixes = ["", ".size01"] }
-"nAryCircledPlusOperator"        = { suffixes = ["", ".size01"] }
-"nAryCircledTimesOperator"       = { suffixes = ["", ".size01"] }
-"nAryTimesOperator"              = { suffixes = ["", ".size01"] }
-"largeUpTack"                    = { suffixes = ["", ".size01"] }
-"largeDownTack"                  = { suffixes = ["", ".size01"] }
-"bigSolidus"                     = { suffixes = ["", ".size01"] }
-"bigReverseSolidus"              = { suffixes = ["", ".size01"] }
-"parenleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"parenright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftflattenedparenthesis-math"  = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightflattenedparenthesis-math" = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"bracketleft"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"bracketright"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"braceleft"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"braceright"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftCeiling"                    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightCeiling"                   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftFloor"                      = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightFloor"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftanglebracket-math"          = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightanglebracket-math"         = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftdoubleanglebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightdoubleanglebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"leftwhitesquarebracket-math"    = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"rightwhitesquarebracket-math"   = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"bar"                            = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"dblverticalbar"                 = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"tripleVerticalBarDelimiter"     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"radical"                        = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"cuberoot"                       = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
-"fourthroot"                     = { suffixes = ["", ".size01", ".size02", ".size03", ".size04", ".size05", ".size06", ".size07", ".size08", ".size09", ".size10", ".size11", ".size12", ".size13", ".size14", ".size15"] }
+"integral"                       = "integral?.size#1"
+"dblintegral"                    = "dblintegral?.size#1"
+"tripleintegral"                 = "tripleintegral?.size#1"
+"quadrupleIntegralOperator"      = "quadrupleIntegralOperator?.size#1"
+"contourintegral"                = "contourintegral?.size#1"
+"surfaceintegral"                = "surfaceintegral?.size#1"
+"volumeintegral"                 = "volumeintegral?.size#1"
+"clockwiseintegral"              = "clockwiseintegral?.size#1"
+"anticlockwiseIntegration"       = "anticlockwiseIntegration?.size#1"
+"clockwisecontourintegral"       = "clockwisecontourintegral?.size#1"
+"anticlockwisecontourintegral"   = "anticlockwisecontourintegral?.size#1"
+"summationWithIntegral"          = "summationWithIntegral?.size#1"
+"finitePartIntegral"             = "finitePartIntegral?.size#1"
+"integralWithDoubleStroke"       = "integralWithDoubleStroke?.size#1"
+"integralAverageWithSlash"       = "integralAverageWithSlash?.size#1"
+"circulationFunction"            = "circulationFunction?.size#1"
+"product"                        = "product?.size#1"
+"coproduct"                      = "coproduct?.size#1"
+"summation"                      = "summation?.size#1"
+"summationdoubleStruck"          = "summationdoubleStruck?.size#1"
+"moduloTwoSum"                   = "moduloTwoSum?.size#1"
+"narylogicaland"                 = "narylogicaland?.size#1"
+"narylogicalor"                  = "narylogicalor?.size#1"
+"twoLogicalAndOperator"          = "twoLogicalAndOperator?.size#1"
+"twoLogicalOrOperator"           = "twoLogicalOrOperator?.size#1"
+"naryintersection"               = "naryintersection?.size#1"
+"naryunion"                      = "naryunion?.size#1"
+"nAryUnionOperatorWithDot"       = "nAryUnionOperatorWithDot?.size#1"
+"nAryUnionOperatorWithPlus"      = "nAryUnionOperatorWithPlus?.size#1"
+"nArySquareIntersectionOperator" = "nArySquareIntersectionOperator?.size#1"
+"nArySquareUnionOperator"        = "nArySquareUnionOperator?.size#1"
+"nAryCircledDotOperator"         = "nAryCircledDotOperator?.size#1"
+"nAryCircledPlusOperator"        = "nAryCircledPlusOperator?.size#1"
+"nAryCircledTimesOperator"       = "nAryCircledTimesOperator?.size#1"
+"nAryTimesOperator"              = "nAryTimesOperator?.size#1"
+"largeUpTack"                    = "largeUpTack?.size#1"
+"largeDownTack"                  = "largeDownTack?.size#1"
+"bigSolidus"                     = "bigSolidus?.size#1"
+"bigReverseSolidus"              = "bigReverseSolidus?.size#1"
+"parenleft"                      = "parenleft?.size#15"
+"parenright"                     = "parenright?.size#15"
+"leftflattenedparenthesis-math"  = "leftflattenedparenthesis-math?.size#15"
+"rightflattenedparenthesis-math" = "rightflattenedparenthesis-math?.size#15"
+"bracketleft"                    = "bracketleft?.size#15"
+"bracketright"                   = "bracketright?.size#15"
+"braceleft"                      = "braceleft?.size#15"
+"braceright"                     = "braceright?.size#15"
+"leftCeiling"                    = "leftCeiling?.size#15"
+"rightCeiling"                   = "rightCeiling?.size#15"
+"leftFloor"                      = "leftFloor?.size#15"
+"rightFloor"                     = "rightFloor?.size#15"
+"leftanglebracket-math"          = "leftanglebracket-math?.size#15"
+"rightanglebracket-math"         = "rightanglebracket-math?.size#15"
+"leftdoubleanglebracket-math"    = "leftdoubleanglebracket-math?.size#15"
+"rightdoubleanglebracket-math"   = "rightdoubleanglebracket-math?.size#15"
+"leftwhitesquarebracket-math"    = "leftwhitesquarebracket-math?.size#15"
+"rightwhitesquarebracket-math"   = "rightwhitesquarebracket-math?.size#15"
+"bar"                            = "bar?.size#15"
+"dblverticalbar"                 = "dblverticalbar?.size#15"
+"tripleVerticalBarDelimiter"     = "tripleVerticalBarDelimiter?.size#15"
+"radical"                        = "radical?.size#15"
+"cuberoot"                       = "cuberoot?.size#15"
+"fourthroot"                     = "fourthroot?.size#15"
 
 [MathVariants.HorizontalComponents]
 
