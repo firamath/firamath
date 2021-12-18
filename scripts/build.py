@@ -441,7 +441,8 @@ def build(input_path: str, toml_path: str, output_dir: str, parallel: bool = Tru
         font.add_math_table(toml_path, input_dir=output_dir)
 
 
-def _build_otf(ufos: list, output_dir: str):
+def _build_otf(ufo, output_dir):
+    ufos = ufo if isinstance(ufo, list) else [ufo]
     FontProject().save_otfs(ufos, output_dir=output_dir, optimize_cff=2)
 
 
