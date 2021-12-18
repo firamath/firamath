@@ -265,13 +265,11 @@ class Font:
                 glyph_info[name][glyph] = values
         for glyph, value in variants['HorizontalVariants'].items():
             variants['HorizontalVariants'][glyph] = {
-                var: self._advances(var, 'H', plus_1=True)
-                for var in (glyph + suffix for suffix in value['suffixes'])
+                var: self._advances(var, 'H', plus_1=True) for var in value
             }
         for glyph, value in variants['VerticalVariants'].items():
             variants['VerticalVariants'][glyph] = {
-                var: self._advances(var, 'V', plus_1=True)
-                for var in (glyph + suffix for suffix in value['suffixes'])
+                var: self._advances(var, 'V', plus_1=True) for var in value
             }
         for glyph, value in variants['HorizontalComponents'].items():
             variants['HorizontalComponents'][glyph]['parts'] = [
