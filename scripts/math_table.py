@@ -6,6 +6,14 @@ from fontTools.ttLib.tables import otTables
 
 class MathTable:
 
+    NON_MATH_VALUE_RECORD_CONSTANTS = [
+        'ScriptPercentScaleDown',
+        'ScriptScriptPercentScaleDown',
+        'DelimitedSubFormulaMinHeight',
+        'DisplayOperatorMinHeight',
+        'RadicalDegreeBottomRaisePercent',
+    ]
+
     def __init__(self):
         self.constants = {}
         self.glyph_info = {
@@ -25,9 +33,10 @@ class MathTable:
 
     def _encode_constants(self):
         constants = otTables.MathConstants()
-        for name, d in self.constants.items():
-            value = d['value']
-            constants.__setattr__(name, self._math_value(value) if d['isMathValue'] else value)
+        for name, value in self.constants.items():
+            if name not in self.NON_MATH_VALUE_RECORD_CONSTANTS:
+                value = self._math_value(value)
+            constants.__setattr__(name, value)
         return constants
 
     def _encode_glyph_info(self):
@@ -137,11 +146,8 @@ class MathTableInstantiator:
 
     def _generate_constants(self) -> dict[str, dict[str]]:
         return {
-            name: {
-                'value': self._generate(d['value']),
-                'isMathValue': d['isMathValue'],
-            }
-            for name, d in self.master_constants.items()
+            name: self._generate(value)
+            for name, value in self.master_constants.items()
         }
 
     def _generate(self, values: list[int]) -> int:
