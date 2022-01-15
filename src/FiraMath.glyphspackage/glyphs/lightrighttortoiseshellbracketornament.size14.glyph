@@ -18,12 +18,12 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (600,0);
+pos = (557,0);
 ref = lightlefttortoiseshellbracketornament.size14;
 scale = (-1,1);
 }
 );
-width = 600;
+width = 557;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";

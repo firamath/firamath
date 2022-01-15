@@ -17,7 +17,7 @@ shapes = (
 ref = _smart.lightlefttortoiseshellbracketornament;
 }
 );
-width = 600;
+width = 408;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
