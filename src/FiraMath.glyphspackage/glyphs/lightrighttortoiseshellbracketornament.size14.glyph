@@ -6,12 +6,12 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (600,0);
+pos = (536,0);
 ref = lightlefttortoiseshellbracketornament.size14;
 scale = (-1,1);
 }
 );
-width = 600;
+width = 536;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -42,12 +42,12 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (600,0);
+pos = (723,0);
 ref = lightlefttortoiseshellbracketornament.size14;
 scale = (-1,1);
 }
 );
-width = 600;
+width = 723;
 }
 );
 }

@@ -8,7 +8,7 @@ shapes = (
 ref = _smart.lightlefttortoiseshellbracketornament;
 }
 );
-width = 600;
+width = 390;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -35,7 +35,7 @@ shapes = (
 ref = _smart.lightlefttortoiseshellbracketornament;
 }
 );
-width = 600;
+width = 492;
 }
 );
 unicode = 10098;

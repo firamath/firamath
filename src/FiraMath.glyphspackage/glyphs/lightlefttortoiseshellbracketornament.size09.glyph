@@ -11,7 +11,7 @@ size = 0.60199;
 ref = _smart.lightlefttortoiseshellbracketornament;
 }
 );
-width = 600;
+width = 484;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -47,7 +47,7 @@ size = 0.59866;
 ref = _smart.lightlefttortoiseshellbracketornament;
 }
 );
-width = 600;
+width = 640;
 }
 );
 }
