@@ -18,13 +18,21 @@
     \lbrbrak     \rbrbrak    ,
   }
 
+\seq_const_from_clist:Nn \c_@@_middle_delimiters_seq
+  {
+    /, \backslash,
+    \vert, \Vert, \Vvert,
+    \uparrow, \downarrow, \updownarrow,
+    \Uparrow, \Downarrow, \Updownarrow,
+  }
+
 \subsection{Basic}
 
 \cs_set:Npn \@@_delimiter_test_basic:NN #1#2
   {
     \tl_map_inline:nn
       { AOQTY afqy \alpha\beta\xi\phi 129 }
-      { #1 ##1 #2 }
+      { #1 ##1 #2 \, }
   }
 \seq_clear:N \l_@@_tmpa_seq
 \seq_map_inline:Nn \c_@@_delimiters_seq
@@ -50,7 +58,7 @@
     \seq_map_inline:Nn \c_@@_delimiters_seq
       {
         \@@_delimiter_test_extensible_a_aux:NNN #1 ##1
-        \quad
+        \enspace
       }
   }
 \cs_set:Npn \@@_delimiter_test_extensible_a_aux:NNN #1#2#3
@@ -91,7 +99,7 @@
     \seq_map_inline:Nn \c_@@_delimiters_seq
       {
         \@@_delimiter_test_extensible_b_aux:nNN {#1} ##1
-        \quad
+        \enspace
       }
   }
 \cs_set:Npn \@@_delimiter_test_extensible_b_aux:nNN #1#2#3
@@ -139,6 +147,47 @@
     \seq_put_right:Nn \l_@@_tmpa_seq
       { \@@_delimiter_test_extensible_c:NN #1 }
   }
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }
+
+\subsubsection{Part~D}
+
+\seq_const_from_clist:Nn \c_@@_big_content_pairs_seq
+  {
+    { x } { y }                                                 ,
+    { a^2 } { b^2 }                                             ,
+    { T\sb i } { Q\sb j }                                       ,
+    { \frac12 } { \frac34 }                                     ,
+    { \frac{a^b}{2} } { \frac{c^d}{3} }                         ,
+    { \int dx } { \int\sb{-\infty}^{+\infty} dy }               ,
+    { \sum\sb{i=0}^N i } { \prod\sb{j=0}^M j }                  ,
+    { \begin{pmatrix} x \\ y \\ z \\ w \end{pmatrix} }
+    { \begin{bmatrix} x \\ y \\ z \\ w \end{bmatrix} }          ,
+    { \begin{vmatrix} 1 \\ 2 \\ 3 \\ 4 \\ 5 \\6 \end{vmatrix} }
+    { \begin{Vmatrix} 1 \\ 2 \\ 3 \\ 4 \\ 5 \\6 \end{Vmatrix} } ,
+  }
+
+\cs_set:Npn \@@_delimiter_test_extensible_d:N #1
+  {
+    \seq_map_inline:Nn \c_@@_big_content_pairs_seq
+      {
+        \@@_delimiter_test_extensible_d_aux:Nnn #1 ##1
+        \enspace
+      }
+  }
+\cs_set:Npn \@@_delimiter_test_extensible_d_aux:Nnn #1#2#3
+  { \left. #2 \middle #1 #3 \right. }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_middle_delimiters_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_delimiter_test_extensible_d:N #1 }
+  }
+
 \@@_weight_test:n
   {
     \begin{gather*}

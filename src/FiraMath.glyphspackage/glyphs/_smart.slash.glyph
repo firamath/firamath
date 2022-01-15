@@ -1,0 +1,166 @@
+{
+category = "Smart Glyph";
+export = 0;
+glyphname = _smart.slash;
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(380,722,l),
+(378,723,l),
+(140,-162,l),
+(142,-163,l)
+);
+}
+);
+width = 520;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(392,720,l),
+(365,727,l),
+(128,-160,l),
+(155,-167,l)
+);
+}
+);
+width = 520;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(418,715,l),
+(341,736,l),
+(102,-155,l),
+(179,-176,l)
+);
+}
+);
+width = 520;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(463,707,l),
+(297,751,l),
+(57,-147,l),
+(223,-191,l)
+);
+}
+);
+width = 520;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "52B1AF20-FE28-4F9B-B025-81E1A9F67DDE";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1622,3137,l),
+(1537,3160,l),
+(0,-2577,l),
+(85,-2600,l)
+);
+}
+);
+width = 1622;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "41FF8012-81EC-470D-847D-175C8883F40E";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1546,3159,l),
+(1544,3160,l),
+(0,-2599,l),
+(2,-2600,l)
+);
+}
+);
+width = 1546;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "7B4CB479-E58D-432F-AC7B-A54A836EF2EF";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1708,3112,l),
+(1530,3160,l),
+(0,-2552,l),
+(178,-2600,l)
+);
+}
+);
+width = 1708;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "5A2DBC99-29FC-4126-8235-32158B61FB4C";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(1570,3153,l),
+(1541,3160,l),
+(0,-2593,l),
+(29,-2600,l)
+);
+}
+);
+width = 1570;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 1;
+}
+);
+}

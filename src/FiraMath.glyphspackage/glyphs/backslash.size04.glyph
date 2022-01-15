@@ -1,53 +1,53 @@
 {
-glyphname = upperrightorlowerleftcurlybracketsection.size12;
+glyphname = backslash.size04;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 alignment = 1;
-pos = (734,0);
-ref = upperleftorlowerrightcurlybracketsection.size12;
+pos = (805,0);
+ref = slash.size04;
 scale = (-1,1);
 }
 );
-width = 734;
+width = 805;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 alignment = 1;
-pos = (739,0);
-ref = upperleftorlowerrightcurlybracketsection.size12;
+pos = (810,0);
+ref = slash.size04;
 scale = (-1,1);
 }
 );
-width = 739;
+width = 810;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (752,0);
-ref = upperleftorlowerrightcurlybracketsection.size12;
+pos = (822,0);
+ref = slash.size04;
 scale = (-1,1);
 }
 );
-width = 752;
+width = 822;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (811,0);
-ref = upperleftorlowerrightcurlybracketsection.size12;
+pos = (840,0);
+ref = slash.size04;
 scale = (-1,1);
 }
 );
-width = 811;
+width = 840;
 }
 );
 }

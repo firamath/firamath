@@ -196,6 +196,9 @@ ExtendedShapes = [
     "bar.size#15",
     "dblverticalbar.size#15",
     "tripleVerticalBarDelimiter.size#15",
+    "slash.size#15",
+    "backslash.size#15",
+    "fraction.size#15",
     "radical.size#15",
     "cuberoot.size#15",
     "fourthroot.size#15",
@@ -280,6 +283,9 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "bar"                                      = "bar?.size#15"
 "dblverticalbar"                           = "dblverticalbar?.size#15"
 "tripleVerticalBarDelimiter"               = "tripleVerticalBarDelimiter?.size#15"
+"slash"                                    = "slash?.size#15"
+"backslash"                                = "backslash?.size#15"
+"fraction"                                 = "fraction?.size#15"
 "radical"                                  = "radical?.size#15"
 "cuberoot"                                 = "cuberoot?.size#15"
 "fourthroot"                               = "fourthroot?.size#15"

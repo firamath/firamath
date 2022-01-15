@@ -2188,6 +2188,54 @@
 				<string>tripleVerticalBarDelimiter.size13</string>
 				<string>tripleVerticalBarDelimiter.size14</string>
 				<string>tripleVerticalBarDelimiter.size15</string>
+				<string>slash</string>
+				<string>slash.size01</string>
+				<string>slash.size02</string>
+				<string>slash.size03</string>
+				<string>slash.size04</string>
+				<string>slash.size05</string>
+				<string>slash.size06</string>
+				<string>slash.size07</string>
+				<string>slash.size08</string>
+				<string>slash.size09</string>
+				<string>slash.size10</string>
+				<string>slash.size11</string>
+				<string>slash.size12</string>
+				<string>slash.size13</string>
+				<string>slash.size14</string>
+				<string>slash.size15</string>
+				<string>backslash</string>
+				<string>backslash.size01</string>
+				<string>backslash.size02</string>
+				<string>backslash.size03</string>
+				<string>backslash.size04</string>
+				<string>backslash.size05</string>
+				<string>backslash.size06</string>
+				<string>backslash.size07</string>
+				<string>backslash.size08</string>
+				<string>backslash.size09</string>
+				<string>backslash.size10</string>
+				<string>backslash.size11</string>
+				<string>backslash.size12</string>
+				<string>backslash.size13</string>
+				<string>backslash.size14</string>
+				<string>backslash.size15</string>
+				<string>fraction</string>
+				<string>fraction.size01</string>
+				<string>fraction.size02</string>
+				<string>fraction.size03</string>
+				<string>fraction.size04</string>
+				<string>fraction.size05</string>
+				<string>fraction.size06</string>
+				<string>fraction.size07</string>
+				<string>fraction.size08</string>
+				<string>fraction.size09</string>
+				<string>fraction.size10</string>
+				<string>fraction.size11</string>
+				<string>fraction.size12</string>
+				<string>fraction.size13</string>
+				<string>fraction.size14</string>
+				<string>fraction.size15</string>
 				<string>radical</string>
 				<string>radical.size01</string>
 				<string>radical.size02</string>
