@@ -2326,6 +2326,18 @@
 				<string>leftFloor.ext</string>
 				<string>rightFloor.bot</string>
 				<string>rightFloor.ext</string>
+				<string>lightlefttortoiseshellbracketornament.bot</string>
+				<string>lightlefttortoiseshellbracketornament.top</string>
+				<string>lightlefttortoiseshellbracketornament.ext</string>
+				<string>lightrighttortoiseshellbracketornament.bot</string>
+				<string>lightrighttortoiseshellbracketornament.top</string>
+				<string>lightrighttortoiseshellbracketornament.ext</string>
+				<string>upperleftorlowerrightcurlybracketsection.bot</string>
+				<string>upperleftorlowerrightcurlybracketsection.top</string>
+				<string>upperleftorlowerrightcurlybracketsection.ext</string>
+				<string>upperrightorlowerleftcurlybracketsection.bot</string>
+				<string>upperrightorlowerleftcurlybracketsection.top</string>
+				<string>upperrightorlowerleftcurlybracketsection.ext</string>
 				<string>leftwhitesquarebracket-math.bot</string>
 				<string>leftwhitesquarebracket-math.top</string>
 				<string>leftwhitesquarebracket-math.ext</string>

@@ -418,6 +418,34 @@ MinConnectorOverlap = [20, 20, 20, 20]
     { name = "rightFloor.ext", isExtender = true  },
 ]
 
+"lightlefttortoiseshellbracketornament".italicsCorrection = 0
+"lightlefttortoiseshellbracketornament".parts = [
+    { name = "lightlefttortoiseshellbracketornament.bot", isExtender = false },
+    { name = "lightlefttortoiseshellbracketornament.ext", isExtender = true  },
+    { name = "lightlefttortoiseshellbracketornament.top", isExtender = false },
+]
+
+"lightrighttortoiseshellbracketornament".italicsCorrection = 0
+"lightrighttortoiseshellbracketornament".parts = [
+    { name = "lightrighttortoiseshellbracketornament.bot", isExtender = false },
+    { name = "lightrighttortoiseshellbracketornament.ext", isExtender = true  },
+    { name = "lightrighttortoiseshellbracketornament.top", isExtender = false },
+]
+
+"upperleftorlowerrightcurlybracketsection".italicsCorrection = 0
+"upperleftorlowerrightcurlybracketsection".parts = [
+    { name = "upperleftorlowerrightcurlybracketsection.bot", isExtender = false },
+    { name = "upperleftorlowerrightcurlybracketsection.ext", isExtender = true  },
+    { name = "upperleftorlowerrightcurlybracketsection.top", isExtender = false },
+]
+
+"upperrightorlowerleftcurlybracketsection".italicsCorrection = 0
+"upperrightorlowerleftcurlybracketsection".parts = [
+    { name = "upperrightorlowerleftcurlybracketsection.bot", isExtender = false },
+    { name = "upperrightorlowerleftcurlybracketsection.ext", isExtender = true  },
+    { name = "upperrightorlowerleftcurlybracketsection.top", isExtender = false },
+]
+
 "leftwhitesquarebracket-math".italicsCorrection = 0
 "leftwhitesquarebracket-math".parts = [
     { name = "leftwhitesquarebracket-math.bot", isExtender = false },
