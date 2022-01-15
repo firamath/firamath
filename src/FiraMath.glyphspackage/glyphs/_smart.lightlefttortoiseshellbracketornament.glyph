@@ -1,0 +1,199 @@
+{
+category = "Smart Glyph";
+color = 8;
+export = 0;
+glyphname = _smart.lightlefttortoiseshellbracketornament;
+layers = (
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "2EFBCF39-9EBA-4D4B-9281-F8599EFFC3F4";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(510,-2532,l),
+(278,-2364,l),
+(278,2924,l),
+(510,3092,l),
+(461,3160,l),
+(188,2962,l),
+(188,-2402,l),
+(461,-2600,l)
+);
+}
+);
+width = 634;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,-141,l),
+(228,-45,l),
+(228,605,l),
+(360,701,l),
+(313,766,l),
+(144,643,l),
+(144,-83,l),
+(313,-206,l)
+);
+}
+);
+width = 436;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(432,-83,l),
+(292,43,l),
+(292,517,l),
+(432,643,l),
+(320,768,l),
+(112,581,l),
+(112,-21,l),
+(320,-208,l)
+);
+}
+);
+width = 492;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(322,-170,l),
+(194,-90,l),
+(194,650,l),
+(322,730,l),
+(307,754,l),
+(164,664,l),
+(164,-104,l),
+(307,-194,l)
+);
+}
+);
+width = 408;
+},
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,-187,l),
+(170,-116,l),
+(170,676,l),
+(294,747,l),
+(292,748,l),
+(168,677,l),
+(168,-117,l),
+(292,-188,l)
+);
+}
+);
+width = 390;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "DAB82CC8-1839-479C-B071-EFA19406E1D3";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(406,-2599,l),
+(202,-2481,l),
+(202,3041,l),
+(406,3159,l),
+(404,3160,l),
+(200,3042,l),
+(200,-2482,l),
+(404,-2600,l)
+);
+}
+);
+width = 546;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "AD8CB39C-730C-4107-9317-7CD334AD84EF";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(628,-2469,l),
+(368,-2235,l),
+(368,2795,l),
+(628,3029,l),
+(510,3160,l),
+(176,2859,l),
+(176,-2299,l),
+(510,-2600,l)
+);
+}
+);
+width = 740;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "F1749C11-CA63-4D0F-8DC0-B46126224C6F";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(436,-2575,l),
+(228,-2445,l),
+(228,3005,l),
+(436,3135,l),
+(420,3160,l),
+(196,3020,l),
+(196,-2460,l),
+(420,-2600,l)
+);
+}
+);
+width = 568;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 1;
+}
+);
+}
