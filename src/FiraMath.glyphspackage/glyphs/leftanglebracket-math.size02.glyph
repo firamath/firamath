@@ -5,52 +5,49 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-alignment = 1;
 piece = {
-size = 2;
+size = 0.14191;
 };
 ref = "_smart.leftanglebracket-math";
 }
 );
-width = 361;
+width = 449;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-alignment = 1;
 piece = {
-size = 2;
+size = 0.13872;
 };
 ref = "_smart.leftanglebracket-math";
 }
 );
-width = 383;
+width = 458;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 piece = {
-size = 2;
+size = 0.13261;
 };
 ref = "_smart.leftanglebracket-math";
 }
 );
-width = 415;
+width = 491;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-alignment = 1;
 piece = {
-size = 2;
+size = 0.12532;
 };
 ref = "_smart.leftanglebracket-math";
 }
 );
-width = 534;
+width = 555;
 }
 );
 }

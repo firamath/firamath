@@ -6,48 +6,48 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 piece = {
-size = 6;
+size = 0.40789;
 };
 ref = "_smart.leftwhitesquarebracket-math";
 }
 );
-width = 497;
+width = 500;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 piece = {
-size = 6;
+size = 0.40643;
 };
 ref = "_smart.leftwhitesquarebracket-math";
 }
 );
-width = 531;
+width = 537;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 piece = {
-size = 6;
+size = 0.40348;
 };
 ref = "_smart.leftwhitesquarebracket-math";
 }
 );
-width = 604;
+width = 609;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 piece = {
-size = 6;
+size = 0.40299;
 };
 ref = "_smart.leftwhitesquarebracket-math";
 }
 );
-width = 726;
+width = 738;
 }
 );
 }
