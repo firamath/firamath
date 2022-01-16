@@ -1,5 +1,6 @@
 {
 category = "Smart Glyph";
+color = 8;
 export = 0;
 glyphname = _smart.braceleft;
 layers = (

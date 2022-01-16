@@ -10,19 +10,34 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(390,-168,l),
+(390,728,l),
+(388,728,l),
+(388,-168,l)
+);
 },
 {
-pos = (122,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(202,-168,l),
+(202,728,l),
+(200,728,l),
+(200,-168,l)
+);
 },
 {
-pos = (244,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(296,-168,l),
+(296,728,l),
+(294,728,l),
+(294,-168,l)
+);
 }
 );
-width = 646;
+width = 590;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -31,21 +46,34 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(444,-174,l),
+(444,734,l),
+(416,734,l),
+(416,-174,l)
+);
 },
 {
-alignment = -1;
-pos = (130,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(220,-174,l),
+(220,734,l),
+(192,734,l),
+(192,-174,l)
+);
 },
 {
-alignment = -1;
-pos = (260,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(332,-174,l),
+(332,734,l),
+(304,734,l),
+(304,-174,l)
+);
 }
 );
-width = 670;
+width = 636;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -54,21 +82,34 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(544,-186,l),
+(544,746,l),
+(468,746,l),
+(468,-186,l)
+);
 },
 {
-alignment = -1;
-pos = (170,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(248,-186,l),
+(248,746,l),
+(172,746,l),
+(172,-186,l)
+);
 },
 {
-alignment = -1;
-pos = (340,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(396,-186,l),
+(396,746,l),
+(320,746,l),
+(320,-186,l)
+);
 }
 );
-width = 782;
+width = 716;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -77,21 +118,34 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(724,-188,l),
+(724,748,l),
+(564,748,l),
+(564,-188,l)
+);
 },
 {
-alignment = -1;
-pos = (234,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(292,-188,l),
+(292,748,l),
+(132,748,l),
+(132,-188,l)
+);
 },
 {
-alignment = -1;
-pos = (468,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(508,-188,l),
+(508,748,l),
+(348,748,l),
+(348,-188,l)
+);
 }
 );
-width = 918;
+width = 856;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -102,30 +156,34 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(632,-2600,l),
+(632,3160,l),
+(552,3160,l),
+(552,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (240,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(288,-2600,l),
+(288,3160,l),
+(208,3160,l),
+(208,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (480,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(460,-2600,l),
+(460,3160,l),
+(380,3160,l),
+(380,-2600,l)
+);
 }
 );
-width = 988;
+width = 840;
 },
 {
 associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -136,28 +194,34 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(450,-2600,l),
+(450,3160,l),
+(448,3160,l),
+(448,-2600,l)
+);
 },
 {
-piece = {
-size = 15;
-};
-pos = (74,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(222,-2600,l),
+(222,3160,l),
+(220,3160,l),
+(220,-2600,l)
+);
 },
 {
-piece = {
-size = 15;
-};
-pos = (148,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(336,-2600,l),
+(336,3160,l),
+(334,3160,l),
+(334,-2600,l)
+);
 }
 );
-width = 590;
+width = 670;
 },
 {
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -168,30 +232,34 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(514,-2600,l),
+(514,3160,l),
+(484,3160,l),
+(484,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (112,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(246,-2600,l),
+(246,3160,l),
+(216,3160,l),
+(216,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (224,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(380,-2600,l),
+(380,3160,l),
+(350,3160,l),
+(350,-2600,l)
+);
 }
 );
-width = 674;
+width = 730;
 },
 {
 associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -202,30 +270,34 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(852,-2600,l),
+(852,3160,l),
+(684,3160,l),
+(684,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (282,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(364,-2600,l),
+(364,3160,l),
+(196,3160,l),
+(196,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (564,0);
-ref = _smart.bar;
+closed = 1;
+nodes = (
+(608,-2600,l),
+(608,3160,l),
+(440,3160,l),
+(440,-2600,l)
+);
 }
 );
-width = 1074;
+width = 1048;
 }
 );
 metricRight = "=|";
@@ -233,7 +305,7 @@ partsSettings = (
 {
 bottomValue = 0;
 name = size;
-topValue = 15;
+topValue = 1;
 }
 );
 }
