@@ -22,7 +22,7 @@ Fira Math is a sans-serif font with Unicode math support. This font is a fork of
 
 ### On your system
 
-Download `firamath-otf.zip` from [GitHub release](https://github.com/firamath/firamath/releases). Unzip and open the folder, then follow the instructions:
+Download `FiraMath-Regular.otf` from the [GitHub release](https://github.com/firamath/firamath/releases) page, then:
 
 - Windows
   1. Quit related programs, e.g. Microsoft Word.
