@@ -42,12 +42,12 @@ layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (530,0);
+pos = (527,0);
 ref = "leftflattenedparenthesis-math.size03";
 scale = (-1,1);
 }
 );
-width = 530;
+width = 527;
 }
 );
 }
