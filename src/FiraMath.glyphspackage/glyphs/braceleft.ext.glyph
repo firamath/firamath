@@ -7,10 +7,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(416,0,l),
-(416,400,l),
-(414,400,l),
-(414,0,l)
+(444,0,l),
+(444,400,l),
+(442,400,l),
+(442,0,l)
 );
 }
 );
@@ -20,7 +20,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 806;
+width = 834;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -28,10 +28,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(459,0,l),
-(459,400,l),
-(424,400,l),
-(424,0,l)
+(483,0,l),
+(483,400,l),
+(451,400,l),
+(451,0,l)
 );
 }
 );
@@ -41,7 +41,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 848;
+width = 868;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -49,10 +49,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(542,0,l),
-(542,400,l),
-(432,400,l),
-(432,0,l)
+(562,0,l),
+(562,400,l),
+(472,400,l),
+(472,0,l)
 );
 }
 );
@@ -62,7 +62,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 932;
+width = 960;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -70,10 +70,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(646,0,l),
-(646,400,l),
-(454,400,l),
-(454,0,l)
+(678,0,l),
+(678,400,l),
+(486,400,l),
+(486,0,l)
 );
 }
 );
@@ -83,7 +83,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 1038;
+width = 1102;
 }
 );
 metricLeft = leftcurlybracketlowerhook;
