@@ -9,7 +9,7 @@ alignment = 1;
 ref = _smart.radical;
 }
 );
-width = 801;
+width = 794;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -39,7 +39,7 @@ alignment = 1;
 ref = _smart.radical;
 }
 );
-width = 649;
+width = 652;
 }
 );
 unicode = 8730;

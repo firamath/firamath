@@ -2396,10 +2396,10 @@
 				<string>dblverticalbar.ext</string>
 				<string>tripleVerticalBarDelimiter.ext</string>
 				<string>radicalsymbolbottom</string>
-				<string>radical.top</string>
-				<string>radical.ext</string>
 				<string>cuberoot.bot</string>
 				<string>fourthroot.bot</string>
+				<string>radical.top</string>
+				<string>radical.ext</string>
 			</array>
 		</dict>
 		<dict>

@@ -28,8 +28,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(673,0,l),
-(673,400,l),
+(675,0,l),
+(675,400,l),
 (643,400,l),
 (643,0,l)
 );
@@ -41,7 +41,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 883;
+width = 891;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -49,10 +49,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(781,0,l),
-(781,400,l),
-(685,400,l),
-(685,0,l)
+(768,0,l),
+(768,400,l),
+(678,400,l),
+(678,0,l)
 );
 }
 );
@@ -62,7 +62,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 981;
+width = 976;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -83,7 +83,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 1073;
+width = 1107;
 }
 );
 metricRight = radicalsymbolbottom;

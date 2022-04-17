@@ -39,7 +39,7 @@ endConnector = 60;
 startConnector = 0;
 };
 };
-width = 883;
+width = 891;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -49,7 +49,7 @@ alignment = 1;
 ref = radicalsymbolbottom;
 },
 {
-pos = (79,3184);
+pos = (72,3184);
 ref = four.dnom;
 }
 );
@@ -59,7 +59,7 @@ endConnector = 60;
 startConnector = 0;
 };
 };
-width = 981;
+width = 976;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -79,7 +79,7 @@ endConnector = 60;
 startConnector = 0;
 };
 };
-width = 1073;
+width = 1107;
 }
 );
 }
