@@ -17,7 +17,7 @@ shapes = (
 ref = _smart.braceleft;
 }
 );
-width = 396;
+width = 394;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -26,7 +26,7 @@ shapes = (
 ref = _smart.braceleft;
 }
 );
-width = 429;
+width = 412;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -35,7 +35,7 @@ shapes = (
 ref = _smart.braceleft;
 }
 );
-width = 482;
+width = 446;
 }
 );
 unicode = 123;

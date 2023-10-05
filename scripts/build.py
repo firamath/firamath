@@ -19,7 +19,6 @@ from fontTools.ttLib.ttFont import newTable
 
 import glyphsLib
 from glyphsLib import GSComponent, GSFont, GSGlyph, GSLayer, GSNode, GSPath, glyphdata
-from glyphsLib.parser import Parser
 
 import toml
 
@@ -29,7 +28,7 @@ from math_table import MathTable, MathTableInstantiator
 class Font:
 
     def __init__(self, path: str):
-        self.font = self._load(path)
+        self.font: GSFont = glyphsLib.load(path)
         self.math_tables = {}
         masters = sorted(self.font.masters, key=lambda m: m.weightValue)
         self._masters_num = len(masters)
@@ -46,29 +45,6 @@ class Font:
             for g in self.font.glyphs
         }
         self._decompose_smart_comp()
-
-    @staticmethod
-    def _load(path: str) -> GSFont:
-        '''Load `.glyphspackage` bundle.
-        See [googlefonts/glyphsLib#643](https://github.com/googlefonts/glyphsLib/issues/643).
-        '''
-        with open(os.path.join(path, 'fontinfo.plist'), 'r') as fontinfo_plist:
-            fontinfo = fontinfo_plist.read()
-        with open(os.path.join(path, 'order.plist'), 'r') as order_plist:
-            order = Parser().parse(order_plist.read())
-        insert_pos = fontinfo.find('instances = (')
-        glyphs = ',\n'.join(Font._read_glyph(path, name) for name in order)
-        glyphs = f'glyphs = (\n{glyphs}\n);\n'
-        return glyphsLib.loads(fontinfo[:insert_pos] + glyphs + fontinfo[insert_pos:-1])
-
-    @staticmethod
-    def _read_glyph(path: str, name: str) -> str:
-        if name == '.notdef':
-            file_name = '_notdef.glyph'
-        else:
-            file_name = ''.join(c + '_' if c.isupper() else c for c in name) + '.glyph'
-        with open(os.path.join(path, 'glyphs', file_name), 'r') as f:
-            return f.read()[:-1]
 
     def _decompose_smart_comp(self):
         '''Decompose smart components.
