@@ -119,22 +119,6 @@ name = topleft;
 pos = (142,520);
 }
 );
-background = {
-anchors = (
-{
-name = bottom;
-pos = (252,0);
-},
-{
-name = top;
-pos = (334,520);
-},
-{
-name = topleft;
-pos = (142,520);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -186,22 +170,6 @@ name = topleft;
 pos = (121,527);
 }
 );
-background = {
-anchors = (
-{
-name = bottom;
-pos = (253,0);
-},
-{
-name = top;
-pos = (332,527);
-},
-{
-name = topleft;
-pos = (121,527);
-}
-);
-};
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
