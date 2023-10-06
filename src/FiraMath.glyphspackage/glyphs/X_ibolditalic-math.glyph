@@ -1,0 +1,203 @@
+{
+color = 7;
+glyphname = "Xibolditalic-math";
+layers = (
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,8,l),
+(34,0,l),
+(394,0,l),
+(395,8,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(141,365,l),
+(140,357,l),
+(391,357,l),
+(391,365,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(129,680,l),
+(129,673,l),
+(478,673,l),
+(479,680,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 304;
+};
+};
+width = 509;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,70,l),
+(30,0,l),
+(434,0,l),
+(444,70,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(144,386,l),
+(134,319,l),
+(415,319,l),
+(424,386,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(127,687,l),
+(118,619,l),
+(503,619,l),
+(522,687,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 324;
+};
+};
+width = 541;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(41,135,l),
+(23,0,l),
+(475,0,l),
+(494,135,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(143,413,l),
+(126,290,l),
+(450,290,l),
+(467,413,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(120,693,l),
+(101,562,l),
+(535,562,l),
+(571,693,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 346;
+};
+};
+width = 579;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(36,194,l),
+(10,0,l),
+(507,0,l),
+(533,194,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,439,l),
+(112,268,l),
+(479,268,l),
+(503,439,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(107,698,l),
+(80,511,l),
+(561,511,l),
+(611,698,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 60;
+topAccent = 351;
+};
+};
+width = 598;
+},
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+attr = {
+coordinates = (
+158
+);
+};
+layerId = "CC74CE69-2602-4603-B94A-7577D1B27534";
+name = "{158}";
+shapes = (
+{
+closed = 1;
+nodes = (
+(36,194,l),
+(10,0,l),
+(507,0,l),
+(533,194,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,439,l),
+(112,268,l),
+(479,268,l),
+(503,439,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(107,698,l),
+(80,511,l),
+(561,511,l),
+(611,698,l)
+);
+}
+);
+width = 598;
+}
+);
+unicode = 120617;
+}

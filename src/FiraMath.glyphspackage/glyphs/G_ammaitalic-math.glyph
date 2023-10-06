@@ -1,0 +1,185 @@
+{
+color = 1;
+glyphname = "Gammaitalic-math";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (231,0);
+},
+{
+name = bottomright;
+pos = (236,0);
+},
+{
+name = top;
+pos = (360,696);
+}
+);
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+shapes = (
+{
+closed = 1;
+nodes = (
+(25,0,l),
+(227,0,l),
+(308,584,l),
+(122,696,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,696,l),
+(286,538,l),
+(544,538,l),
+(585,696,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 100;
+topAccent = 360;
+};
+};
+width = 539;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (234,0);
+},
+{
+name = bottomright;
+pos = (116,0);
+},
+{
+name = top;
+pos = (399,680);
+}
+);
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,0,l),
+(106,0,l),
+(201,679,l),
+(199,680,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(199,680,l),
+(200,678,l),
+(569,678,ls),
+(570,680,ls)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 100;
+topAccent = 399;
+};
+};
+width = 541;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (229,0);
+},
+{
+name = bottomright;
+pos = (136,0);
+},
+{
+name = top;
+pos = (400,682);
+}
+);
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,l),
+(126,0,l),
+(220,663,l),
+(191,682,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(191,682,l),
+(207,652,l),
+(560,652,l),
+(569,682,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 100;
+topAccent = 400;
+};
+};
+width = 532;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (229,0);
+},
+{
+name = bottomright;
+pos = (182,0);
+},
+{
+name = top;
+pos = (389,689);
+}
+);
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,l),
+(172,0,l),
+(259,623,l),
+(174,689,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(176,689,l),
+(242,607,l),
+(544,607,l),
+(569,689,l)
+);
+}
+);
+userData = {
+math = {
+italicCorrection = 100;
+topAccent = 389;
+};
+};
+width = 534;
+}
+);
+metricLeft = "Hitalic-math";
+metricRight = "Titalic-math";
+unicode = 120548;
+}

@@ -1,83 +1,67 @@
 {
 color = 1;
-glyphname = "jitalic-math";
+glyphname = "omicronitalic-math";
 layers = (
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-ref = "jdotlessitalic-math";
-},
-{
-pos = (101,0);
-ref = dotaccentcomb.italic;
+ref = "oitalic-math";
 }
 );
 userData = {
 math = {
 italicCorrection = 40;
-topAccent = 317;
+topAccent = 314;
 };
 };
-width = 430;
+width = 612;
 },
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-ref = "jdotlessitalic-math";
-},
-{
-pos = (117,0);
-ref = dotaccentcomb.italic;
+ref = "oitalic-math";
 }
 );
 userData = {
 math = {
 italicCorrection = 40;
-topAccent = 216;
+topAccent = 316;
 };
 };
-width = 279;
+width = 559;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-ref = "jdotlessitalic-math";
-},
-{
-pos = (110,0);
-ref = dotaccentcomb.italic;
+ref = "oitalic-math";
 }
 );
 userData = {
 math = {
 italicCorrection = 40;
-topAccent = 232;
+topAccent = 319;
 };
 };
-width = 296;
+width = 562;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-ref = "jdotlessitalic-math";
-},
-{
-pos = (105,0);
-ref = dotaccentcomb.italic;
+ref = "oitalic-math";
 }
 );
 userData = {
 math = {
 italicCorrection = 40;
-topAccent = 271;
+topAccent = 326;
 };
 };
-width = 338;
+width = 578;
 }
 );
-unicode = 119895;
+unicode = 120586;
 }
