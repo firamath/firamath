@@ -126,4 +126,4 @@ This Font Software is licensed under the [SIL Open Font License](http://scripts.
 
 -----
 
-Copyright &copy; 2018&ndash;2022 by Xiangdong Zeng.
+Copyright &copy; 2018&ndash;2023 by Xiangdong Zeng.

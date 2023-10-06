@@ -94,4 +94,5 @@ startConnector = 0;
 width = 3200;
 }
 );
+subCategory = Math;
 }

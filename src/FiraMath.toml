@@ -110,14 +110,14 @@ SkewedFractionVerticalGap                = [    0,    0,    0,    0]
 
 # Overbar and underbar
 OverbarVerticalGap                       = [  150,  150,  150,  150]
-OverbarRuleThickness                     = [   66,   66,   66,   66]
+OverbarRuleThickness                     = [    2,   30,   76,  160]
 OverbarExtraAscender                     = [   50,   50,   50,   50]
 UnderbarVerticalGap                      = [  150,  150,  150,  150]
-UnderbarRuleThickness                    = [   66,   66,   66,   66]
+UnderbarRuleThickness                    = [    2,   30,   76,  160]
 UnderbarExtraDescender                   = [   50,   50,   50,   50]
-RadicalVerticalGap                       = [   96,   96,   96,   96]
 
 # Radical
+RadicalVerticalGap                       = [   96,   96,   96,   96]
 RadicalDisplayStyleVerticalGap           = [  142,  142,  142,  142]
 RadicalRuleThickness                     = [    2,   30,   76,  160]
 RadicalExtraAscender                     = [    2,   30,   76,  160]
