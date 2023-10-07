@@ -210,12 +210,18 @@ MinConnectorOverlap = [20, 20, 20, 20]
 
 [MathVariants.HorizontalVariants]
 
-"topparenthesis"      = "topparenthesis?.size#15"
-"bottomparenthesis"   = "bottomparenthesis?.size#15"
-"topsquarebracket"    = "topsquarebracket?.size#15"
-"bottomsquarebracket" = "bottomsquarebracket?.size#15"
-"topcurlybracket"     = "topcurlybracket?.size#15"
-"bottomcurlybracket"  = "bottomcurlybracket?.size#15"
+"topparenthesis"               = "topparenthesis?.size#15"
+"bottomparenthesis"            = "bottomparenthesis?.size#15"
+"topsquarebracket"             = "topsquarebracket?.size#15"
+"bottomsquarebracket"          = "bottomsquarebracket?.size#15"
+"topcurlybracket"              = "topcurlybracket?.size#15"
+"bottomcurlybracket"           = "bottomcurlybracket?.size#15"
+"leftarrowabovecomb"           = "leftarrowabovecomb?.size#15"
+"rightarrowabovecomb"          = "rightarrowabovecomb?.size#15"
+"leftarrowbelowcomb"           = "leftarrowbelowcomb?.size#15"
+"rightarrowbelowcomb"          = "rightarrowbelowcomb?.size#15"
+"leftrightarrowabovecomb"      = "leftrightarrowabovecomb?.size#15"
+"arrowleftrightbelowcomb"      = "arrowleftrightbelowcomb?.size#15"
 
 [MathVariants.VerticalVariants]
 

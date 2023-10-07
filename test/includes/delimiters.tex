@@ -196,3 +196,60 @@
   }
 
 \subsection{Spacing}
+
+\subsection{Horizontal}
+
+\seq_const_from_clist:Nn \c_@@_over_symbols_seq
+  {
+    \overline           ,
+    \overbracket        ,
+    \overparen          ,
+    \overbrace          ,
+    \overleftarrow      ,
+    \overrightarrow     ,
+    \overleftrightarrow ,
+  }
+\seq_const_from_clist:Nn \c_@@_under_symbols_seq
+  {
+    \underline           ,
+    \underbracket        ,
+    \underparen          ,
+    \underbrace          ,
+    \underleftarrow      ,
+    \underrightarrow     ,
+    \underleftrightarrow ,
+  }
+\seq_const_from_clist:Nn \c_@@_over_under_contents_seq
+  {
+    a                                         ,
+    x^2                                       ,
+    AB                                        ,
+    x+y                                       ,
+    1+2+3                                     ,
+    { a\sb0, \, a\sb1, \, \dots, \, a\sb{n} } ,
+    { \sum\sb{i\sb1=1}^{N\sb1} \sum\sb{i\sb2=1}^{N\sb2} \cdots \sum\sb{i\sb{n}=1}^{N\sb{n}} }  ,
+    { \frac12 \times \frac13 \times \frac14 \times \dots \times \frac1n \times \frac{1}{n+1} } ,
+  }
+\cs_new:Npn \@@_over_under_symbols:N #1
+  {
+    \seq_map_inline:Nn \c_@@_over_under_contents_seq
+      { #1 {##1} \quad }
+  }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_over_symbols_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_over_under_symbols:N #1 }
+  }
+\seq_map_inline:Nn \c_@@_under_symbols_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_over_under_symbols:N #1 }
+  }
+
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }

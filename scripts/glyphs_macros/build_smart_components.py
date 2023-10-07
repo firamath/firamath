@@ -5,6 +5,7 @@ basename1  = "bracketleft"
 basename2  = "bracketright"
 smartGlyph = Font.glyphs["_smart." + basename1]
 isVertical = True
+scale      = (1, -1)
 
 zeroSizeList = []
 for layer in smartGlyph.layers:
@@ -28,10 +29,7 @@ for i, suffix in enumerate(suffixList):
 	for layer in glyph2.layers:
 		print(layer)
 		component = GSComponent(basename1 + suffix)
-		if isVertical:
-			component.scale = (-1, 1)
-		else:
-			component.scale = (1, -1)
+		component.scale = scale
 		layer.shapes = [component]
 		for shape in layer.shapes:
 			shape.automaticAlignment = True
