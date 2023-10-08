@@ -2493,6 +2493,16 @@
 				<string>bottomcurlybracket.mid</string>
 				<string>bottomcurlybracket.right</string>
 				<string>bottomcurlybracket.ext</string>
+				<string>leftarrowabovecomb.left</string>
+				<string>leftarrowabovecomb.ext</string>
+				<string>rightarrowabovecomb.right</string>
+				<string>leftarrowbelowcomb.left</string>
+				<string>leftarrowbelowcomb.ext</string>
+				<string>rightarrowbelowcomb.right</string>
+				<string>leftharpoonabovecomb.left</string>
+				<string>rightharpoonabovecomb.right</string>
+				<string>leftharpoonwithbarbdowncomb.left</string>
+				<string>rightharpoonwithbarbdowncomb.right</string>
 			</array>
 		</dict>
 		<dict>

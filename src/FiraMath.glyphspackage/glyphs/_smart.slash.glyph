@@ -156,6 +156,7 @@ nodes = (
 width = 1570;
 }
 );
+metricRight = "=|";
 partsSettings = (
 {
 bottomValue = 0;
