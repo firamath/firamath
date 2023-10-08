@@ -474,39 +474,39 @@ MinConnectorOverlap = [20, 20, 20, 20]
 
 "leftCeiling".italicsCorrection = 0
 "leftCeiling".parts = [
-    { name = "leftCeiling.ext", isExtender = true  },
-    { name = "leftCeiling.top", isExtender = false },
+    { name = "leftsquarebracketextension",   isExtender = true  },
+    { name = "leftsquarebracketuppercorner", isExtender = false },
 ]
 
 "rightCeiling".italicsCorrection = 0
 "rightCeiling".parts = [
-    { name = "rightCeiling.ext", isExtender = true  },
-    { name = "rightCeiling.top", isExtender = false },
+    { name = "rightsquarebracketextension",   isExtender = true  },
+    { name = "rightsquarebracketuppercorner", isExtender = false },
 ]
 
 "leftFloor".italicsCorrection = 0
 "leftFloor".parts = [
-    { name = "leftFloor.bot", isExtender = false },
-    { name = "leftFloor.ext", isExtender = true  },
+    { name = "leftsquarebracketlowercorner", isExtender = false },
+    { name = "leftsquarebracketextension",   isExtender = true  },
 ]
 
 "rightFloor".italicsCorrection = 0
 "rightFloor".parts = [
-    { name = "rightFloor.bot", isExtender = false },
-    { name = "rightFloor.ext", isExtender = true  },
+    { name = "rightsquarebracketlowercorner", isExtender = false },
+    { name = "rightsquarebracketextension",   isExtender = true  },
 ]
 
 "lightlefttortoiseshellbracketornament".italicsCorrection = 0
 "lightlefttortoiseshellbracketornament".parts = [
     { name = "lightlefttortoiseshellbracketornament.bot", isExtender = false },
-    { name = "lightlefttortoiseshellbracketornament.ext", isExtender = true  },
+    { name = "leftsquarebracketextension",                isExtender = true  },
     { name = "lightlefttortoiseshellbracketornament.top", isExtender = false },
 ]
 
 "lightrighttortoiseshellbracketornament".italicsCorrection = 0
 "lightrighttortoiseshellbracketornament".parts = [
     { name = "lightrighttortoiseshellbracketornament.bot", isExtender = false },
-    { name = "lightrighttortoiseshellbracketornament.ext", isExtender = true  },
+    { name = "rightsquarebracketextension",                isExtender = true  },
     { name = "lightrighttortoiseshellbracketornament.top", isExtender = false },
 ]
 

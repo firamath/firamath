@@ -2535,21 +2535,10 @@
 				<string>rightcurlybracketlowerhook</string>
 				<string>rightcurlybracketmiddlepiece</string>
 				<string>rightcurlybracketupperhook</string>
-				<string>braceright.ext</string>
-				<string>leftCeiling.top</string>
-				<string>leftCeiling.ext</string>
-				<string>rightCeiling.top</string>
-				<string>rightCeiling.ext</string>
-				<string>leftFloor.bot</string>
-				<string>leftFloor.ext</string>
-				<string>rightFloor.bot</string>
-				<string>rightFloor.ext</string>
 				<string>lightlefttortoiseshellbracketornament.bot</string>
 				<string>lightlefttortoiseshellbracketornament.top</string>
-				<string>lightlefttortoiseshellbracketornament.ext</string>
 				<string>lightrighttortoiseshellbracketornament.bot</string>
 				<string>lightrighttortoiseshellbracketornament.top</string>
-				<string>lightrighttortoiseshellbracketornament.ext</string>
 				<string>upperleftorlowerrightcurlybracketsection.bot</string>
 				<string>upperleftorlowerrightcurlybracketsection.top</string>
 				<string>upperleftorlowerrightcurlybracketsection.ext</string>
