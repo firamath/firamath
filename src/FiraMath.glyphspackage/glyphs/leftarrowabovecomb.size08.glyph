@@ -6,7 +6,7 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 piece = {
-size = 0.52941;
+size = 0.53138;
 };
 ref = _smart.leftarrowabovecomb;
 }
@@ -18,7 +18,7 @@ layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 piece = {
-size = 0.52743;
+size = 0.52941;
 };
 ref = _smart.leftarrowabovecomb;
 }
@@ -30,7 +30,7 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 piece = {
-size = 0.5234;
+size = 0.52542;
 };
 ref = _smart.leftarrowabovecomb;
 }

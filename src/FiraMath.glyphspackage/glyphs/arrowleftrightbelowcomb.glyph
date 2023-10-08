@@ -16,7 +16,7 @@ math = {
 topAccent = 192;
 };
 };
-width = 420;
+width = 400;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -33,7 +33,7 @@ math = {
 topAccent = 225;
 };
 };
-width = 452;
+width = 432;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -50,7 +50,7 @@ math = {
 topAccent = 264;
 };
 };
-width = 528;
+width = 520;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";

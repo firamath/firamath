@@ -220,6 +220,10 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "rightarrowabovecomb"          = "rightarrowabovecomb?.size#15"
 "leftarrowbelowcomb"           = "leftarrowbelowcomb?.size#15"
 "rightarrowbelowcomb"          = "rightarrowbelowcomb?.size#15"
+"leftharpoonabovecomb"         = "leftharpoonabovecomb?.size#15"
+"rightharpoonabovecomb"        = "rightharpoonabovecomb?.size#15"
+"leftharpoonwithbarbdowncomb"  = "leftharpoonwithbarbdowncomb?.size#15"
+"rightharpoonwithbarbdowncomb" = "rightharpoonwithbarbdowncomb?.size#15"
 "leftrightarrowabovecomb"      = "leftrightarrowabovecomb?.size#15"
 "arrowleftrightbelowcomb"      = "arrowleftrightbelowcomb?.size#15"
 

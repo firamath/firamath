@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (210,517);
+pos = (200,517);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -19,13 +19,13 @@ math = {
 topAccent = 192;
 };
 };
-width = 420;
+width = 400;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (226,520);
+pos = (216,520);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -39,13 +39,13 @@ math = {
 topAccent = 225;
 };
 };
-width = 452;
+width = 432;
 },
 {
 anchors = (
 {
 name = _top;
-pos = (264,527);
+pos = (260,527);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -59,7 +59,7 @@ math = {
 topAccent = 264;
 };
 };
-width = 528;
+width = 520;
 },
 {
 anchors = (
