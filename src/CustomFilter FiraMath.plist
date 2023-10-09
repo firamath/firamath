@@ -2493,11 +2493,11 @@
 				<string>bottomcurlybracket.mid</string>
 				<string>bottomcurlybracket.right</string>
 				<string>bottomcurlybracket.ext</string>
+				<string>overlinecomb.ext</string>
+				<string>lowlinecomb.ext</string>
 				<string>leftarrowabovecomb.left</string>
-				<string>leftarrowabovecomb.ext</string>
 				<string>rightarrowabovecomb.right</string>
 				<string>leftarrowbelowcomb.left</string>
-				<string>leftarrowbelowcomb.ext</string>
 				<string>rightarrowbelowcomb.right</string>
 				<string>leftharpoonabovecomb.left</string>
 				<string>rightharpoonabovecomb.right</string>

@@ -1,5 +1,5 @@
 {
-glyphname = leftarrowbelowcomb.ext;
+glyphname = lowlinecomb.ext;
 layers = (
 {
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -7,7 +7,7 @@ shapes = (
 {
 alignment = 1;
 pos = (0,727);
-ref = leftarrowabovecomb.ext;
+ref = overlinecomb.ext;
 scale = (1,-1);
 }
 );
@@ -25,7 +25,7 @@ shapes = (
 {
 alignment = 1;
 pos = (0,734);
-ref = leftarrowabovecomb.ext;
+ref = overlinecomb.ext;
 scale = (1,-1);
 }
 );
@@ -43,7 +43,7 @@ shapes = (
 {
 alignment = 1;
 pos = (0,739);
-ref = leftarrowabovecomb.ext;
+ref = overlinecomb.ext;
 scale = (1,-1);
 }
 );
@@ -61,7 +61,7 @@ shapes = (
 {
 alignment = 1;
 pos = (0,744);
-ref = leftarrowabovecomb.ext;
+ref = overlinecomb.ext;
 scale = (1,-1);
 }
 );

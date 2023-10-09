@@ -13,7 +13,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = 192;
+topAccent = 200;
 };
 };
 width = 400;
@@ -30,7 +30,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = 225;
+topAccent = 216;
 };
 };
 width = 432;
@@ -47,7 +47,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = 264;
+topAccent = 260;
 };
 };
 width = 520;
@@ -64,7 +64,7 @@ scale = (1,-1);
 );
 userData = {
 math = {
-topAccent = 310;
+topAccent = 300;
 };
 };
 width = 600;

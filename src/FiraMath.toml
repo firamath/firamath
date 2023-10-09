@@ -216,6 +216,8 @@ MinConnectorOverlap = [20, 20, 20, 20]
 "bottomsquarebracket"          = "bottomsquarebracket?.size#15"
 "topcurlybracket"              = "topcurlybracket?.size#15"
 "bottomcurlybracket"           = "bottomcurlybracket?.size#15"
+"overlinecomb"                 = "overlinecomb?.size#15"
+"lowlinecomb"                  = "lowlinecomb?.size#15"
 "leftarrowabovecomb"           = "leftarrowabovecomb?.size#15"
 "rightarrowabovecomb"          = "rightarrowabovecomb?.size#15"
 "leftarrowbelowcomb"           = "leftarrowbelowcomb?.size#15"
@@ -348,65 +350,77 @@ MinConnectorOverlap = [20, 20, 20, 20]
     { name = "bottomcurlybracket.right", isExtender = false },
 ]
 
+"overlinecomb".italicsCorrection = 0
+"overlinecomb".parts = [
+    { name = "overlinecomb.ext", isExtender = false },
+    { name = "overlinecomb.ext", isExtender = true  },
+]
+
+"lowlinecomb".italicsCorrection = 0
+"lowlinecomb".parts = [
+    { name = "lowlinecomb.ext", isExtender = false },
+    { name = "lowlinecomb.ext", isExtender = true  },
+]
+
 "leftarrowabovecomb".italicsCorrection = 0
 "leftarrowabovecomb".parts = [
     { name = "leftarrowabovecomb.left", isExtender = false },
-    { name = "leftarrowabovecomb.ext",  isExtender = true  },
+    { name = "overlinecomb.ext",        isExtender = true  },
 ]
 
 "rightarrowabovecomb".italicsCorrection = 0
 "rightarrowabovecomb".parts = [
-    { name = "leftarrowabovecomb.ext",    isExtender = true  },
+    { name = "overlinecomb.ext",          isExtender = true  },
     { name = "rightarrowabovecomb.right", isExtender = false },
 ]
 
 "leftarrowbelowcomb".italicsCorrection = 0
 "leftarrowbelowcomb".parts = [
     { name = "leftarrowbelowcomb.left", isExtender = false },
-    { name = "leftarrowbelowcomb.ext",  isExtender = true  },
+    { name = "lowlinecomb.ext",         isExtender = true  },
 ]
 
 "rightarrowbelowcomb".italicsCorrection = 0
 "rightarrowbelowcomb".parts = [
-    { name = "leftarrowbelowcomb.ext",    isExtender = true  },
+    { name = "lowlinecomb.ext",           isExtender = true  },
     { name = "rightarrowbelowcomb.right", isExtender = false },
 ]
 
 "leftharpoonabovecomb".italicsCorrection = 0
 "leftharpoonabovecomb".parts = [
     { name = "leftharpoonabovecomb.left", isExtender = false },
-    { name = "leftarrowabovecomb.ext",    isExtender = true  },
+    { name = "overlinecomb.ext",          isExtender = true  },
 ]
 
 "rightharpoonabovecomb".italicsCorrection = 0
 "rightharpoonabovecomb".parts = [
-    { name = "leftarrowabovecomb.ext",      isExtender = true  },
+    { name = "overlinecomb.ext",            isExtender = true  },
     { name = "rightharpoonabovecomb.right", isExtender = false },
 ]
 
 "leftharpoonwithbarbdowncomb".italicsCorrection = 0
 "leftharpoonwithbarbdowncomb".parts = [
     { name = "leftharpoonwithbarbdowncomb.left", isExtender = false },
-    { name = "leftarrowbelowcomb.ext",           isExtender = true  },
+    { name = "lowlinecomb.ext",                  isExtender = true  },
 ]
 
 "rightharpoonwithbarbdowncomb".italicsCorrection = 0
 "rightharpoonwithbarbdowncomb".parts = [
-    { name = "leftarrowbelowcomb.ext",             isExtender = true  },
+    { name = "lowlinecomb.ext",                    isExtender = true  },
     { name = "rightharpoonwithbarbdowncomb.right", isExtender = false },
 ]
 
 "leftrightarrowabovecomb".italicsCorrection = 0
 "leftrightarrowabovecomb".parts = [
     { name = "leftarrowabovecomb.left",   isExtender = false },
-    { name = "leftarrowabovecomb.ext",    isExtender = true  },
+    { name = "overlinecomb.ext",          isExtender = true  },
     { name = "rightarrowabovecomb.right", isExtender = false },
 ]
 
 "arrowleftrightbelowcomb".italicsCorrection = 0
 "arrowleftrightbelowcomb".parts = [
     { name = "leftarrowbelowcomb.left",   isExtender = false },
-    { name = "leftarrowbelowcomb.ext",    isExtender = true  },
+    { name = "lowlinecomb.ext",           isExtender = true  },
     { name = "rightarrowbelowcomb.right", isExtender = false },
 ]
 
