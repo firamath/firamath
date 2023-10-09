@@ -9,7 +9,7 @@ ref = equal;
 },
 {
 pos = (0,229);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 540;
@@ -22,7 +22,7 @@ ref = equal;
 },
 {
 pos = (0,248);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 544;
@@ -35,7 +35,7 @@ ref = equal;
 },
 {
 pos = (0,310);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 560;
@@ -48,7 +48,7 @@ ref = equal;
 },
 {
 pos = (0,381);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 580;

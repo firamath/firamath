@@ -15,7 +15,7 @@ nodes = (
 },
 {
 pos = (152,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 540;
@@ -34,7 +34,7 @@ nodes = (
 },
 {
 pos = (149,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 554;
@@ -53,7 +53,7 @@ nodes = (
 },
 {
 pos = (148,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 580;
@@ -72,7 +72,7 @@ nodes = (
 },
 {
 pos = (148,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 620;

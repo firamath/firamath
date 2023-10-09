@@ -15,11 +15,11 @@ nodes = (
 },
 {
 pos = (-132,0);
-ref = ringoperator;
+ref = ringoperator.small;
 },
 {
 pos = (132,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 540;
@@ -38,11 +38,11 @@ nodes = (
 },
 {
 pos = (-143,0);
-ref = ringoperator;
+ref = ringoperator.small;
 },
 {
 pos = (163,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 564;
@@ -61,11 +61,11 @@ nodes = (
 },
 {
 pos = (-144,0);
-ref = ringoperator;
+ref = ringoperator.small;
 },
 {
 pos = (204,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 620;
@@ -84,11 +84,11 @@ nodes = (
 },
 {
 pos = (-122,0);
-ref = ringoperator;
+ref = ringoperator.small;
 },
 {
 pos = (282,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 740;

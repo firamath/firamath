@@ -9,7 +9,7 @@ ref = whiteCircle;
 },
 {
 pos = (50,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 640;
@@ -22,7 +22,7 @@ ref = whiteCircle;
 },
 {
 pos = (50,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 644;
@@ -35,7 +35,7 @@ ref = whiteCircle;
 },
 {
 pos = (50,0);
-ref = ringoperator;
+ref = ringoperator.small;
 }
 );
 width = 660;
@@ -48,7 +48,7 @@ ref = whiteCircle;
 },
 {
 pos = (79,28);
-ref = ringoperator;
+ref = ringoperator.small;
 scale = (0.9,0.9);
 }
 );
