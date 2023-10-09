@@ -1,0 +1,168 @@
+{
+category = "Smart Glyph";
+export = 0;
+glyphname = _smart.overlinecomb;
+layers = (
+{
+associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+layerId = "2EFBCF39-9EBA-4D4B-9281-F8599EFFC3F4";
+name = "Regular-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(5150,769,l),
+(5150,845,l),
+(30,845,l),
+(30,769,l)
+);
+}
+);
+width = 5180;
+},
+{
+layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(462,668,l),
+(462,736,l),
+(30,736,l),
+(30,668,l)
+);
+}
+);
+width = 492;
+},
+{
+layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(510,655,l),
+(510,775,l),
+(30,775,l),
+(30,655,l)
+);
+}
+);
+width = 540;
+},
+{
+layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(442,685,l),
+(442,711,l),
+(30,711,l),
+(30,685,l)
+);
+}
+);
+width = 472;
+},
+{
+layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+partSelection = {
+size = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(430,689,l),
+(430,691,l),
+(30,691,l),
+(30,689,l)
+);
+}
+);
+width = 460;
+},
+{
+associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
+layerId = "DAB82CC8-1839-479C-B071-EFA19406E1D3";
+name = "Light-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(5150,716,l),
+(5150,718,l),
+(30,718,l),
+(30,716,l)
+);
+}
+);
+width = 5180;
+},
+{
+associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+layerId = "AD8CB39C-730C-4107-9317-7CD334AD84EF";
+name = "Bold-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(5150,799,l),
+(5150,949,l),
+(30,949,l),
+(30,799,l)
+);
+}
+);
+width = 5180;
+},
+{
+associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+layerId = "F1749C11-CA63-4D0F-8DC0-B46126224C6F";
+name = "SemiLight-15";
+partSelection = {
+size = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(5150,746,l),
+(5150,774,l),
+(30,774,l),
+(30,746,l)
+);
+}
+);
+width = 5180;
+}
+);
+metricLeft = _smart.leftarrowabovecomb;
+metricRight = _smart.leftarrowabovecomb;
+partsSettings = (
+{
+bottomValue = 0;
+name = size;
+topValue = 1;
+}
+);
+}

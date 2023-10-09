@@ -10,34 +10,66 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(403,-176,l),
+(219,280,l),
+(403,736,l),
+(401,736,l),
+(217,280,l),
+(401,-176,l)
+);
 },
 {
-alignment = -1;
-pos = (82,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(306,-176,l),
+(122,280,l),
+(306,736,l),
+(304,736,l),
+(120,280,l),
+(304,-176,l)
+);
 }
 );
-width = 364;
+width = 483;
 },
 {
+guides = (
+{
+angle = -22;
+pos = (296,745);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 partSelection = {
 size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(443,-174,l),
+(259,280,l),
+(443,734,l),
+(417,745,l),
+(229,280,l),
+(417,-185,l)
+);
 },
 {
-alignment = -1;
-pos = (122,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(322,-174,l),
+(138,280,l),
+(322,734,l),
+(296,745,l),
+(108,280,l),
+(296,-185,l)
+);
 }
 );
-width = 424;
+width = 515;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -46,16 +78,29 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(533,-172,l),
+(350,280,l),
+(533,732,l),
+(459,762,l),
+(264,280,l),
+(459,-202,l)
+);
 },
 {
-alignment = -1;
-pos = (180,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(365,-172,l),
+(182,280,l),
+(365,732,l),
+(291,762,l),
+(96,280,l),
+(291,-202,l)
+);
 }
 );
-width = 516;
+width = 595;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -64,19 +109,38 @@ size = 1;
 };
 shapes = (
 {
-alignment = -1;
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(689,-159,l),
+(511,280,l),
+(689,719,l),
+(533,782,l),
+(330,280,l),
+(533,-222,l)
+);
 },
 {
-alignment = -1;
-pos = (257,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(439,-159,l),
+(261,280,l),
+(439,719,l),
+(283,782,l),
+(80,280,l),
+(283,-222,l)
+);
 }
 );
-width = 682;
+width = 737;
 },
 {
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
+guides = (
+{
+angle = -10;
+pos = (604,-280);
+}
+);
 layerId = "80E85B0A-0F56-4BA5-B112-4E7CAE91BE27";
 name = "Regular-15";
 partSelection = {
@@ -84,22 +148,29 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(874,-2585,l),
+(368,280,l),
+(874,3145,l),
+(791,3160,l),
+(283,280,l),
+(791,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (254,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(687,-2585,l),
+(181,280,l),
+(687,3145,l),
+(604,3160,l),
+(96,280,l),
+(604,-2600,l)
+);
 }
 );
-width = 1182;
+width = 936;
 },
 {
 associatedMasterId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -110,25 +181,38 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(746,-2600,l),
+(238,280,l),
+(746,3160,l),
+(744,3160,l),
+(236,280,l),
+(744,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (82,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(630,-2600,l),
+(122,280,l),
+(630,3160,l),
+(628,3160,l),
+(120,280,l),
+(628,-2600,l)
+);
 }
 );
-width = 960;
+width = 826;
 },
 {
 associatedMasterId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
+guides = (
+{
+angle = -10;
+pos = (615,-280);
+}
+);
 layerId = "C23DF8D8-A323-4D21-88CB-089C3E544A37";
 name = "SemiLight-15";
 partSelection = {
@@ -136,25 +220,38 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(784,-2594,l),
+(278,280,l),
+(784,3154,l),
+(755,3160,l),
+(248,280,l),
+(755,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (122,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(644,-2594,l),
+(138,280,l),
+(644,3154,l),
+(615,3160,l),
+(108,280,l),
+(615,-2600,l)
+);
 }
 );
-width = 1034;
+width = 856;
 },
 {
 associatedMasterId = "B26C53A4-97D1-457B-8232-65310EC64496";
+guides = (
+{
+angle = -10;
+pos = (589,-280);
+}
+);
 layerId = "E4090FFD-3653-4D22-B530-3BB70A3FDC64";
 name = "Bold-15";
 partSelection = {
@@ -162,29 +259,38 @@ size = 2;
 };
 shapes = (
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(1027,-2569,l),
+(523,280,l),
+(1027,3129,l),
+(854,3160,l),
+(344,280,l),
+(854,-2600,l)
+);
 },
 {
-alignment = -1;
-piece = {
-size = 15;
-};
-pos = (293,0);
-ref = "_smart.leftanglebracket-math";
+closed = 1;
+nodes = (
+(763,-2569,l),
+(259,280,l),
+(763,3129,l),
+(590,3160,l),
+(80,280,l),
+(590,-2600,l)
+);
 }
 );
-width = 1327;
+width = 1075;
 }
 );
+metricLeft = "_smart.leftanglebracket-math";
+metricRight = "_smart.leftanglebracket-math";
 partsSettings = (
 {
 bottomValue = 0;
 name = size;
-topValue = 15;
+topValue = 1;
 }
 );
 }

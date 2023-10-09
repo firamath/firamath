@@ -157,14 +157,6 @@ name = top;
 pos = (339,520);
 }
 );
-background = {
-anchors = (
-{
-name = top;
-pos = (306,520);
-}
-);
-};
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {

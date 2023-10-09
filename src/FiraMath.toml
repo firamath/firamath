@@ -110,14 +110,14 @@ SkewedFractionVerticalGap                = [    0,    0,    0,    0]
 
 # Overbar and underbar
 OverbarVerticalGap                       = [  150,  150,  150,  150]
-OverbarRuleThickness                     = [   66,   66,   66,   66]
+OverbarRuleThickness                     = [    2,   30,   76,  160]
 OverbarExtraAscender                     = [   50,   50,   50,   50]
 UnderbarVerticalGap                      = [  150,  150,  150,  150]
-UnderbarRuleThickness                    = [   66,   66,   66,   66]
+UnderbarRuleThickness                    = [    2,   30,   76,  160]
 UnderbarExtraDescender                   = [   50,   50,   50,   50]
-RadicalVerticalGap                       = [   96,   96,   96,   96]
 
 # Radical
+RadicalVerticalGap                       = [   96,   96,   96,   96]
 RadicalDisplayStyleVerticalGap           = [  142,  142,  142,  142]
 RadicalRuleThickness                     = [    2,   30,   76,  160]
 RadicalExtraAscender                     = [    2,   30,   76,  160]
@@ -187,11 +187,18 @@ ExtendedShapes = [
     "rightanglebracket-math.size#15",
     "leftdoubleanglebracket-math.size#15",
     "rightdoubleanglebracket-math.size#15",
+    "lightlefttortoiseshellbracketornament.size#15",
+    "lightrighttortoiseshellbracketornament.size#15",
+    "upperleftorlowerrightcurlybracketsection.size#15",
+    "upperrightorlowerleftcurlybracketsection.size#15",
     "leftwhitesquarebracket-math.size#15",
     "rightwhitesquarebracket-math.size#15",
     "bar.size#15",
     "dblverticalbar.size#15",
     "tripleVerticalBarDelimiter.size#15",
+    "slash.size#15",
+    "backslash.size#15",
+    "fraction.size#15",
     "radical.size#15",
     "cuberoot.size#15",
     "fourthroot.size#15",
@@ -203,78 +210,97 @@ MinConnectorOverlap = [20, 20, 20, 20]
 
 [MathVariants.HorizontalVariants]
 
-"topparenthesis"      = "topparenthesis?.size#15"
-"bottomparenthesis"   = "bottomparenthesis?.size#15"
-"topsquarebracket"    = "topsquarebracket?.size#15"
-"bottomsquarebracket" = "bottomsquarebracket?.size#15"
-"topcurlybracket"     = "topcurlybracket?.size#15"
-"bottomcurlybracket"  = "bottomcurlybracket?.size#15"
+"topparenthesis"               = "topparenthesis?.size#15"
+"bottomparenthesis"            = "bottomparenthesis?.size#15"
+"topsquarebracket"             = "topsquarebracket?.size#15"
+"bottomsquarebracket"          = "bottomsquarebracket?.size#15"
+"topcurlybracket"              = "topcurlybracket?.size#15"
+"bottomcurlybracket"           = "bottomcurlybracket?.size#15"
+"overlinecomb"                 = "overlinecomb?.size#15"
+"lowlinecomb"                  = "lowlinecomb?.size#15"
+"leftarrowabovecomb"           = "leftarrowabovecomb?.size#15"
+"rightarrowabovecomb"          = "rightarrowabovecomb?.size#15"
+"leftarrowbelowcomb"           = "leftarrowbelowcomb?.size#15"
+"rightarrowbelowcomb"          = "rightarrowbelowcomb?.size#15"
+"leftharpoonabovecomb"         = "leftharpoonabovecomb?.size#15"
+"rightharpoonabovecomb"        = "rightharpoonabovecomb?.size#15"
+"leftharpoonwithbarbdowncomb"  = "leftharpoonwithbarbdowncomb?.size#15"
+"rightharpoonwithbarbdowncomb" = "rightharpoonwithbarbdowncomb?.size#15"
+"leftrightarrowabovecomb"      = "leftrightarrowabovecomb?.size#15"
+"arrowleftrightbelowcomb"      = "arrowleftrightbelowcomb?.size#15"
 
 [MathVariants.VerticalVariants]
 
-"integral"                       = "integral?.size#1"
-"dblintegral"                    = "dblintegral?.size#1"
-"tripleintegral"                 = "tripleintegral?.size#1"
-"quadrupleIntegralOperator"      = "quadrupleIntegralOperator?.size#1"
-"contourintegral"                = "contourintegral?.size#1"
-"surfaceintegral"                = "surfaceintegral?.size#1"
-"volumeintegral"                 = "volumeintegral?.size#1"
-"clockwiseintegral"              = "clockwiseintegral?.size#1"
-"anticlockwiseIntegration"       = "anticlockwiseIntegration?.size#1"
-"clockwisecontourintegral"       = "clockwisecontourintegral?.size#1"
-"anticlockwisecontourintegral"   = "anticlockwisecontourintegral?.size#1"
-"summationWithIntegral"          = "summationWithIntegral?.size#1"
-"finitePartIntegral"             = "finitePartIntegral?.size#1"
-"integralWithDoubleStroke"       = "integralWithDoubleStroke?.size#1"
-"integralAverageWithSlash"       = "integralAverageWithSlash?.size#1"
-"circulationFunction"            = "circulationFunction?.size#1"
-"product"                        = "product?.size#1"
-"coproduct"                      = "coproduct?.size#1"
-"summation"                      = "summation?.size#1"
-"summationdoubleStruck"          = "summationdoubleStruck?.size#1"
-"moduloTwoSum"                   = "moduloTwoSum?.size#1"
-"narylogicaland"                 = "narylogicaland?.size#1"
-"narylogicalor"                  = "narylogicalor?.size#1"
-"twoLogicalAndOperator"          = "twoLogicalAndOperator?.size#1"
-"twoLogicalOrOperator"           = "twoLogicalOrOperator?.size#1"
-"naryintersection"               = "naryintersection?.size#1"
-"naryunion"                      = "naryunion?.size#1"
-"nAryUnionOperatorWithDot"       = "nAryUnionOperatorWithDot?.size#1"
-"nAryUnionOperatorWithPlus"      = "nAryUnionOperatorWithPlus?.size#1"
-"nArySquareIntersectionOperator" = "nArySquareIntersectionOperator?.size#1"
-"nArySquareUnionOperator"        = "nArySquareUnionOperator?.size#1"
-"nAryCircledDotOperator"         = "nAryCircledDotOperator?.size#1"
-"nAryCircledPlusOperator"        = "nAryCircledPlusOperator?.size#1"
-"nAryCircledTimesOperator"       = "nAryCircledTimesOperator?.size#1"
-"nAryTimesOperator"              = "nAryTimesOperator?.size#1"
-"largeUpTack"                    = "largeUpTack?.size#1"
-"largeDownTack"                  = "largeDownTack?.size#1"
-"bigSolidus"                     = "bigSolidus?.size#1"
-"bigReverseSolidus"              = "bigReverseSolidus?.size#1"
-"parenleft"                      = "parenleft?.size#15"
-"parenright"                     = "parenright?.size#15"
-"leftflattenedparenthesis-math"  = "leftflattenedparenthesis-math?.size#15"
-"rightflattenedparenthesis-math" = "rightflattenedparenthesis-math?.size#15"
-"bracketleft"                    = "bracketleft?.size#15"
-"bracketright"                   = "bracketright?.size#15"
-"braceleft"                      = "braceleft?.size#15"
-"braceright"                     = "braceright?.size#15"
-"leftCeiling"                    = "leftCeiling?.size#15"
-"rightCeiling"                   = "rightCeiling?.size#15"
-"leftFloor"                      = "leftFloor?.size#15"
-"rightFloor"                     = "rightFloor?.size#15"
-"leftanglebracket-math"          = "leftanglebracket-math?.size#15"
-"rightanglebracket-math"         = "rightanglebracket-math?.size#15"
-"leftdoubleanglebracket-math"    = "leftdoubleanglebracket-math?.size#15"
-"rightdoubleanglebracket-math"   = "rightdoubleanglebracket-math?.size#15"
-"leftwhitesquarebracket-math"    = "leftwhitesquarebracket-math?.size#15"
-"rightwhitesquarebracket-math"   = "rightwhitesquarebracket-math?.size#15"
-"bar"                            = "bar?.size#15"
-"dblverticalbar"                 = "dblverticalbar?.size#15"
-"tripleVerticalBarDelimiter"     = "tripleVerticalBarDelimiter?.size#15"
-"radical"                        = "radical?.size#15"
-"cuberoot"                       = "cuberoot?.size#15"
-"fourthroot"                     = "fourthroot?.size#15"
+"integral"                                 = "integral?.size#1"
+"dblintegral"                              = "dblintegral?.size#1"
+"tripleintegral"                           = "tripleintegral?.size#1"
+"quadrupleIntegralOperator"                = "quadrupleIntegralOperator?.size#1"
+"contourintegral"                          = "contourintegral?.size#1"
+"surfaceintegral"                          = "surfaceintegral?.size#1"
+"volumeintegral"                           = "volumeintegral?.size#1"
+"clockwiseintegral"                        = "clockwiseintegral?.size#1"
+"anticlockwiseIntegration"                 = "anticlockwiseIntegration?.size#1"
+"clockwisecontourintegral"                 = "clockwisecontourintegral?.size#1"
+"anticlockwisecontourintegral"             = "anticlockwisecontourintegral?.size#1"
+"summationWithIntegral"                    = "summationWithIntegral?.size#1"
+"finitePartIntegral"                       = "finitePartIntegral?.size#1"
+"integralWithDoubleStroke"                 = "integralWithDoubleStroke?.size#1"
+"integralAverageWithSlash"                 = "integralAverageWithSlash?.size#1"
+"circulationFunction"                      = "circulationFunction?.size#1"
+"product"                                  = "product?.size#1"
+"coproduct"                                = "coproduct?.size#1"
+"summation"                                = "summation?.size#1"
+"summationdoubleStruck"                    = "summationdoubleStruck?.size#1"
+"moduloTwoSum"                             = "moduloTwoSum?.size#1"
+"narylogicaland"                           = "narylogicaland?.size#1"
+"narylogicalor"                            = "narylogicalor?.size#1"
+"twoLogicalAndOperator"                    = "twoLogicalAndOperator?.size#1"
+"twoLogicalOrOperator"                     = "twoLogicalOrOperator?.size#1"
+"naryintersection"                         = "naryintersection?.size#1"
+"naryunion"                                = "naryunion?.size#1"
+"nAryUnionOperatorWithDot"                 = "nAryUnionOperatorWithDot?.size#1"
+"nAryUnionOperatorWithPlus"                = "nAryUnionOperatorWithPlus?.size#1"
+"nArySquareIntersectionOperator"           = "nArySquareIntersectionOperator?.size#1"
+"nArySquareUnionOperator"                  = "nArySquareUnionOperator?.size#1"
+"nAryCircledDotOperator"                   = "nAryCircledDotOperator?.size#1"
+"nAryCircledPlusOperator"                  = "nAryCircledPlusOperator?.size#1"
+"nAryCircledTimesOperator"                 = "nAryCircledTimesOperator?.size#1"
+"nAryTimesOperator"                        = "nAryTimesOperator?.size#1"
+"largeUpTack"                              = "largeUpTack?.size#1"
+"largeDownTack"                            = "largeDownTack?.size#1"
+"bigSolidus"                               = "bigSolidus?.size#1"
+"bigReverseSolidus"                        = "bigReverseSolidus?.size#1"
+"parenleft"                                = "parenleft?.size#15"
+"parenright"                               = "parenright?.size#15"
+"leftflattenedparenthesis-math"            = "leftflattenedparenthesis-math?.size#15"
+"rightflattenedparenthesis-math"           = "rightflattenedparenthesis-math?.size#15"
+"bracketleft"                              = "bracketleft?.size#15"
+"bracketright"                             = "bracketright?.size#15"
+"braceleft"                                = "braceleft?.size#15"
+"braceright"                               = "braceright?.size#15"
+"leftCeiling"                              = "leftCeiling?.size#15"
+"rightCeiling"                             = "rightCeiling?.size#15"
+"leftFloor"                                = "leftFloor?.size#15"
+"rightFloor"                               = "rightFloor?.size#15"
+"leftanglebracket-math"                    = "leftanglebracket-math?.size#15"
+"rightanglebracket-math"                   = "rightanglebracket-math?.size#15"
+"leftdoubleanglebracket-math"              = "leftdoubleanglebracket-math?.size#15"
+"rightdoubleanglebracket-math"             = "rightdoubleanglebracket-math?.size#15"
+"lightlefttortoiseshellbracketornament"    = "lightlefttortoiseshellbracketornament?.size#15"
+"lightrighttortoiseshellbracketornament"   = "lightrighttortoiseshellbracketornament?.size#15"
+"upperleftorlowerrightcurlybracketsection" = "upperleftorlowerrightcurlybracketsection?.size#15"
+"upperrightorlowerleftcurlybracketsection" = "upperrightorlowerleftcurlybracketsection?.size#15"
+"leftwhitesquarebracket-math"              = "leftwhitesquarebracket-math?.size#15"
+"rightwhitesquarebracket-math"             = "rightwhitesquarebracket-math?.size#15"
+"bar"                                      = "bar?.size#15"
+"dblverticalbar"                           = "dblverticalbar?.size#15"
+"tripleVerticalBarDelimiter"               = "tripleVerticalBarDelimiter?.size#15"
+"slash"                                    = "slash?.size#15"
+"backslash"                                = "backslash?.size#15"
+"fraction"                                 = "fraction?.size#15"
+"radical"                                  = "radical?.size#15"
+"cuberoot"                                 = "cuberoot?.size#15"
+"fourthroot"                               = "fourthroot?.size#15"
 
 [MathVariants.HorizontalComponents]
 
@@ -322,6 +348,80 @@ MinConnectorOverlap = [20, 20, 20, 20]
     { name = "bottomcurlybracket.mid",   isExtender = false },
     { name = "bottomcurlybracket.ext",   isExtender = true  },
     { name = "bottomcurlybracket.right", isExtender = false },
+]
+
+"overlinecomb".italicsCorrection = 0
+"overlinecomb".parts = [
+    { name = "overlinecomb.ext", isExtender = false },
+    { name = "overlinecomb.ext", isExtender = true  },
+]
+
+"lowlinecomb".italicsCorrection = 0
+"lowlinecomb".parts = [
+    { name = "lowlinecomb.ext", isExtender = false },
+    { name = "lowlinecomb.ext", isExtender = true  },
+]
+
+"leftarrowabovecomb".italicsCorrection = 0
+"leftarrowabovecomb".parts = [
+    { name = "leftarrowabovecomb.left", isExtender = false },
+    { name = "overlinecomb.ext",        isExtender = true  },
+]
+
+"rightarrowabovecomb".italicsCorrection = 0
+"rightarrowabovecomb".parts = [
+    { name = "overlinecomb.ext",          isExtender = true  },
+    { name = "rightarrowabovecomb.right", isExtender = false },
+]
+
+"leftarrowbelowcomb".italicsCorrection = 0
+"leftarrowbelowcomb".parts = [
+    { name = "leftarrowbelowcomb.left", isExtender = false },
+    { name = "lowlinecomb.ext",         isExtender = true  },
+]
+
+"rightarrowbelowcomb".italicsCorrection = 0
+"rightarrowbelowcomb".parts = [
+    { name = "lowlinecomb.ext",           isExtender = true  },
+    { name = "rightarrowbelowcomb.right", isExtender = false },
+]
+
+"leftharpoonabovecomb".italicsCorrection = 0
+"leftharpoonabovecomb".parts = [
+    { name = "leftharpoonabovecomb.left", isExtender = false },
+    { name = "overlinecomb.ext",          isExtender = true  },
+]
+
+"rightharpoonabovecomb".italicsCorrection = 0
+"rightharpoonabovecomb".parts = [
+    { name = "overlinecomb.ext",            isExtender = true  },
+    { name = "rightharpoonabovecomb.right", isExtender = false },
+]
+
+"leftharpoonwithbarbdowncomb".italicsCorrection = 0
+"leftharpoonwithbarbdowncomb".parts = [
+    { name = "leftharpoonwithbarbdowncomb.left", isExtender = false },
+    { name = "lowlinecomb.ext",                  isExtender = true  },
+]
+
+"rightharpoonwithbarbdowncomb".italicsCorrection = 0
+"rightharpoonwithbarbdowncomb".parts = [
+    { name = "lowlinecomb.ext",                    isExtender = true  },
+    { name = "rightharpoonwithbarbdowncomb.right", isExtender = false },
+]
+
+"leftrightarrowabovecomb".italicsCorrection = 0
+"leftrightarrowabovecomb".parts = [
+    { name = "leftarrowabovecomb.left",   isExtender = false },
+    { name = "overlinecomb.ext",          isExtender = true  },
+    { name = "rightarrowabovecomb.right", isExtender = false },
+]
+
+"arrowleftrightbelowcomb".italicsCorrection = 0
+"arrowleftrightbelowcomb".parts = [
+    { name = "leftarrowbelowcomb.left",   isExtender = false },
+    { name = "lowlinecomb.ext",           isExtender = true  },
+    { name = "rightarrowbelowcomb.right", isExtender = false },
 ]
 
 [MathVariants.VerticalComponents]
@@ -388,26 +488,54 @@ MinConnectorOverlap = [20, 20, 20, 20]
 
 "leftCeiling".italicsCorrection = 0
 "leftCeiling".parts = [
-    { name = "leftCeiling.ext", isExtender = true  },
-    { name = "leftCeiling.top", isExtender = false },
+    { name = "leftsquarebracketextension",   isExtender = true  },
+    { name = "leftsquarebracketuppercorner", isExtender = false },
 ]
 
 "rightCeiling".italicsCorrection = 0
 "rightCeiling".parts = [
-    { name = "rightCeiling.ext", isExtender = true  },
-    { name = "rightCeiling.top", isExtender = false },
+    { name = "rightsquarebracketextension",   isExtender = true  },
+    { name = "rightsquarebracketuppercorner", isExtender = false },
 ]
 
 "leftFloor".italicsCorrection = 0
 "leftFloor".parts = [
-    { name = "leftFloor.bot", isExtender = false },
-    { name = "leftFloor.ext", isExtender = true  },
+    { name = "leftsquarebracketlowercorner", isExtender = false },
+    { name = "leftsquarebracketextension",   isExtender = true  },
 ]
 
 "rightFloor".italicsCorrection = 0
 "rightFloor".parts = [
-    { name = "rightFloor.bot", isExtender = false },
-    { name = "rightFloor.ext", isExtender = true  },
+    { name = "rightsquarebracketlowercorner", isExtender = false },
+    { name = "rightsquarebracketextension",   isExtender = true  },
+]
+
+"lightlefttortoiseshellbracketornament".italicsCorrection = 0
+"lightlefttortoiseshellbracketornament".parts = [
+    { name = "lightlefttortoiseshellbracketornament.bot", isExtender = false },
+    { name = "leftsquarebracketextension",                isExtender = true  },
+    { name = "lightlefttortoiseshellbracketornament.top", isExtender = false },
+]
+
+"lightrighttortoiseshellbracketornament".italicsCorrection = 0
+"lightrighttortoiseshellbracketornament".parts = [
+    { name = "lightrighttortoiseshellbracketornament.bot", isExtender = false },
+    { name = "rightsquarebracketextension",                isExtender = true  },
+    { name = "lightrighttortoiseshellbracketornament.top", isExtender = false },
+]
+
+"upperleftorlowerrightcurlybracketsection".italicsCorrection = 0
+"upperleftorlowerrightcurlybracketsection".parts = [
+    { name = "upperleftorlowerrightcurlybracketsection.bot", isExtender = false },
+    { name = "upperleftorlowerrightcurlybracketsection.ext", isExtender = true  },
+    { name = "upperleftorlowerrightcurlybracketsection.top", isExtender = false },
+]
+
+"upperrightorlowerleftcurlybracketsection".italicsCorrection = 0
+"upperrightorlowerleftcurlybracketsection".parts = [
+    { name = "upperrightorlowerleftcurlybracketsection.bot", isExtender = false },
+    { name = "upperrightorlowerleftcurlybracketsection.ext", isExtender = true  },
+    { name = "upperrightorlowerleftcurlybracketsection.top", isExtender = false },
 ]
 
 "leftwhitesquarebracket-math".italicsCorrection = 0

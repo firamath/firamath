@@ -5,55 +5,59 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-pos = (0,572);
+alignment = 1;
+pos = (0,727);
 ref = leftharpoonabovecomb;
 scale = (1,-1);
 }
 );
 userData = {
 math = {
-topAccent = 180;
+topAccent = 200;
 };
 };
-width = 360;
+width = 400;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-pos = (0,566);
+alignment = 1;
+pos = (0,734);
 ref = leftharpoonabovecomb;
 scale = (1,-1);
 }
 );
 userData = {
 math = {
-topAccent = 203;
+topAccent = 210;
 };
 };
-width = 406;
+width = 420;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-pos = (0,564);
+alignment = 1;
+pos = (0,739);
 ref = leftharpoonabovecomb;
 scale = (1,-1);
 }
 );
 userData = {
 math = {
-topAccent = 228;
+topAccent = 230;
 };
 };
-width = 456;
+width = 460;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-pos = (0,580);
+alignment = 1;
+pos = (0,744);
 ref = leftharpoonabovecomb;
 scale = (1,-1);
 }

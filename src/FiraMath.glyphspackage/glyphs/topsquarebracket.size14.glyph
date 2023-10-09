@@ -6,48 +6,49 @@ layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 piece = {
-size = 14;
+size = 0.93423;
 };
 ref = _smart.topsquarebracket;
 }
 );
-width = 5523;
+width = 5720;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 piece = {
-size = 14;
+size = 0.93382;
 };
 ref = _smart.topsquarebracket;
 }
 );
-width = 5547;
+width = 5720;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 piece = {
-size = 14;
+size = 0.93284;
 };
 ref = _smart.topsquarebracket;
 }
 );
-width = 5615;
+width = 5720;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 piece = {
-size = 14;
+size = 0.93182;
 };
 ref = _smart.topsquarebracket;
 }
 );
-width = 5673;
+width = 5720;
 }
 );
+subCategory = Math;
 }

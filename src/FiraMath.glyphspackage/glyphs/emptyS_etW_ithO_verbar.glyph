@@ -10,7 +10,7 @@ ref = emptyset;
 },
 {
 alignment = 1;
-pos = (25,-7);
+pos = (90,-7);
 ref = overlinecomb;
 }
 );
@@ -25,7 +25,7 @@ ref = emptyset;
 },
 {
 alignment = 1;
-pos = (22,0);
+pos = (86,0);
 ref = overlinecomb;
 }
 );
@@ -40,7 +40,7 @@ ref = emptyset;
 },
 {
 alignment = 1;
-pos = (19,11);
+pos = (84,11);
 ref = overlinecomb;
 }
 );
@@ -55,7 +55,7 @@ ref = emptyset;
 },
 {
 alignment = 1;
-pos = (14,32);
+pos = (70,32);
 ref = overlinecomb;
 }
 );

@@ -1589,6 +1589,166 @@
 				<string>lowlinecomb.size13</string>
 				<string>lowlinecomb.size14</string>
 				<string>lowlinecomb.size15</string>
+				<string>leftarrowabovecomb</string>
+				<string>leftarrowabovecomb.size01</string>
+				<string>leftarrowabovecomb.size02</string>
+				<string>leftarrowabovecomb.size03</string>
+				<string>leftarrowabovecomb.size04</string>
+				<string>leftarrowabovecomb.size05</string>
+				<string>leftarrowabovecomb.size06</string>
+				<string>leftarrowabovecomb.size07</string>
+				<string>leftarrowabovecomb.size08</string>
+				<string>leftarrowabovecomb.size09</string>
+				<string>leftarrowabovecomb.size10</string>
+				<string>leftarrowabovecomb.size11</string>
+				<string>leftarrowabovecomb.size12</string>
+				<string>leftarrowabovecomb.size13</string>
+				<string>leftarrowabovecomb.size14</string>
+				<string>leftarrowabovecomb.size15</string>
+				<string>rightarrowabovecomb</string>
+				<string>rightarrowabovecomb.size01</string>
+				<string>rightarrowabovecomb.size02</string>
+				<string>rightarrowabovecomb.size03</string>
+				<string>rightarrowabovecomb.size04</string>
+				<string>rightarrowabovecomb.size05</string>
+				<string>rightarrowabovecomb.size06</string>
+				<string>rightarrowabovecomb.size07</string>
+				<string>rightarrowabovecomb.size08</string>
+				<string>rightarrowabovecomb.size09</string>
+				<string>rightarrowabovecomb.size10</string>
+				<string>rightarrowabovecomb.size11</string>
+				<string>rightarrowabovecomb.size12</string>
+				<string>rightarrowabovecomb.size13</string>
+				<string>rightarrowabovecomb.size14</string>
+				<string>rightarrowabovecomb.size15</string>
+				<string>leftarrowbelowcomb</string>
+				<string>leftarrowbelowcomb.size01</string>
+				<string>leftarrowbelowcomb.size02</string>
+				<string>leftarrowbelowcomb.size03</string>
+				<string>leftarrowbelowcomb.size04</string>
+				<string>leftarrowbelowcomb.size05</string>
+				<string>leftarrowbelowcomb.size06</string>
+				<string>leftarrowbelowcomb.size07</string>
+				<string>leftarrowbelowcomb.size08</string>
+				<string>leftarrowbelowcomb.size09</string>
+				<string>leftarrowbelowcomb.size10</string>
+				<string>leftarrowbelowcomb.size11</string>
+				<string>leftarrowbelowcomb.size12</string>
+				<string>leftarrowbelowcomb.size13</string>
+				<string>leftarrowbelowcomb.size14</string>
+				<string>leftarrowbelowcomb.size15</string>
+				<string>rightarrowbelowcomb</string>
+				<string>rightarrowbelowcomb.size01</string>
+				<string>rightarrowbelowcomb.size02</string>
+				<string>rightarrowbelowcomb.size03</string>
+				<string>rightarrowbelowcomb.size04</string>
+				<string>rightarrowbelowcomb.size05</string>
+				<string>rightarrowbelowcomb.size06</string>
+				<string>rightarrowbelowcomb.size07</string>
+				<string>rightarrowbelowcomb.size08</string>
+				<string>rightarrowbelowcomb.size09</string>
+				<string>rightarrowbelowcomb.size10</string>
+				<string>rightarrowbelowcomb.size11</string>
+				<string>rightarrowbelowcomb.size12</string>
+				<string>rightarrowbelowcomb.size13</string>
+				<string>rightarrowbelowcomb.size14</string>
+				<string>rightarrowbelowcomb.size15</string>
+				<string>leftharpoonabovecomb</string>
+				<string>leftharpoonabovecomb.size01</string>
+				<string>leftharpoonabovecomb.size02</string>
+				<string>leftharpoonabovecomb.size03</string>
+				<string>leftharpoonabovecomb.size04</string>
+				<string>leftharpoonabovecomb.size05</string>
+				<string>leftharpoonabovecomb.size06</string>
+				<string>leftharpoonabovecomb.size07</string>
+				<string>leftharpoonabovecomb.size08</string>
+				<string>leftharpoonabovecomb.size09</string>
+				<string>leftharpoonabovecomb.size10</string>
+				<string>leftharpoonabovecomb.size11</string>
+				<string>leftharpoonabovecomb.size12</string>
+				<string>leftharpoonabovecomb.size13</string>
+				<string>leftharpoonabovecomb.size14</string>
+				<string>leftharpoonabovecomb.size15</string>
+				<string>rightharpoonabovecomb</string>
+				<string>rightharpoonabovecomb.size01</string>
+				<string>rightharpoonabovecomb.size02</string>
+				<string>rightharpoonabovecomb.size03</string>
+				<string>rightharpoonabovecomb.size04</string>
+				<string>rightharpoonabovecomb.size05</string>
+				<string>rightharpoonabovecomb.size06</string>
+				<string>rightharpoonabovecomb.size07</string>
+				<string>rightharpoonabovecomb.size08</string>
+				<string>rightharpoonabovecomb.size09</string>
+				<string>rightharpoonabovecomb.size10</string>
+				<string>rightharpoonabovecomb.size11</string>
+				<string>rightharpoonabovecomb.size12</string>
+				<string>rightharpoonabovecomb.size13</string>
+				<string>rightharpoonabovecomb.size14</string>
+				<string>rightharpoonabovecomb.size15</string>
+				<string>leftharpoonwithbarbdowncomb</string>
+				<string>leftharpoonwithbarbdowncomb.size01</string>
+				<string>leftharpoonwithbarbdowncomb.size02</string>
+				<string>leftharpoonwithbarbdowncomb.size03</string>
+				<string>leftharpoonwithbarbdowncomb.size04</string>
+				<string>leftharpoonwithbarbdowncomb.size05</string>
+				<string>leftharpoonwithbarbdowncomb.size06</string>
+				<string>leftharpoonwithbarbdowncomb.size07</string>
+				<string>leftharpoonwithbarbdowncomb.size08</string>
+				<string>leftharpoonwithbarbdowncomb.size09</string>
+				<string>leftharpoonwithbarbdowncomb.size10</string>
+				<string>leftharpoonwithbarbdowncomb.size11</string>
+				<string>leftharpoonwithbarbdowncomb.size12</string>
+				<string>leftharpoonwithbarbdowncomb.size13</string>
+				<string>leftharpoonwithbarbdowncomb.size14</string>
+				<string>leftharpoonwithbarbdowncomb.size15</string>
+				<string>rightharpoonwithbarbdowncomb</string>
+				<string>rightharpoonwithbarbdowncomb.size01</string>
+				<string>rightharpoonwithbarbdowncomb.size02</string>
+				<string>rightharpoonwithbarbdowncomb.size03</string>
+				<string>rightharpoonwithbarbdowncomb.size04</string>
+				<string>rightharpoonwithbarbdowncomb.size05</string>
+				<string>rightharpoonwithbarbdowncomb.size06</string>
+				<string>rightharpoonwithbarbdowncomb.size07</string>
+				<string>rightharpoonwithbarbdowncomb.size08</string>
+				<string>rightharpoonwithbarbdowncomb.size09</string>
+				<string>rightharpoonwithbarbdowncomb.size10</string>
+				<string>rightharpoonwithbarbdowncomb.size11</string>
+				<string>rightharpoonwithbarbdowncomb.size12</string>
+				<string>rightharpoonwithbarbdowncomb.size13</string>
+				<string>rightharpoonwithbarbdowncomb.size14</string>
+				<string>rightharpoonwithbarbdowncomb.size15</string>
+				<string>leftrightarrowabovecomb</string>
+				<string>leftrightarrowabovecomb.size01</string>
+				<string>leftrightarrowabovecomb.size02</string>
+				<string>leftrightarrowabovecomb.size03</string>
+				<string>leftrightarrowabovecomb.size04</string>
+				<string>leftrightarrowabovecomb.size05</string>
+				<string>leftrightarrowabovecomb.size06</string>
+				<string>leftrightarrowabovecomb.size07</string>
+				<string>leftrightarrowabovecomb.size08</string>
+				<string>leftrightarrowabovecomb.size09</string>
+				<string>leftrightarrowabovecomb.size10</string>
+				<string>leftrightarrowabovecomb.size11</string>
+				<string>leftrightarrowabovecomb.size12</string>
+				<string>leftrightarrowabovecomb.size13</string>
+				<string>leftrightarrowabovecomb.size14</string>
+				<string>leftrightarrowabovecomb.size15</string>
+				<string>arrowleftrightbelowcomb</string>
+				<string>arrowleftrightbelowcomb.size01</string>
+				<string>arrowleftrightbelowcomb.size02</string>
+				<string>arrowleftrightbelowcomb.size03</string>
+				<string>arrowleftrightbelowcomb.size04</string>
+				<string>arrowleftrightbelowcomb.size05</string>
+				<string>arrowleftrightbelowcomb.size06</string>
+				<string>arrowleftrightbelowcomb.size07</string>
+				<string>arrowleftrightbelowcomb.size08</string>
+				<string>arrowleftrightbelowcomb.size09</string>
+				<string>arrowleftrightbelowcomb.size10</string>
+				<string>arrowleftrightbelowcomb.size11</string>
+				<string>arrowleftrightbelowcomb.size12</string>
+				<string>arrowleftrightbelowcomb.size13</string>
+				<string>arrowleftrightbelowcomb.size14</string>
+				<string>arrowleftrightbelowcomb.size15</string>
 			</array>
 		</dict>
 		<dict>
@@ -2188,6 +2348,54 @@
 				<string>tripleVerticalBarDelimiter.size13</string>
 				<string>tripleVerticalBarDelimiter.size14</string>
 				<string>tripleVerticalBarDelimiter.size15</string>
+				<string>slash</string>
+				<string>slash.size01</string>
+				<string>slash.size02</string>
+				<string>slash.size03</string>
+				<string>slash.size04</string>
+				<string>slash.size05</string>
+				<string>slash.size06</string>
+				<string>slash.size07</string>
+				<string>slash.size08</string>
+				<string>slash.size09</string>
+				<string>slash.size10</string>
+				<string>slash.size11</string>
+				<string>slash.size12</string>
+				<string>slash.size13</string>
+				<string>slash.size14</string>
+				<string>slash.size15</string>
+				<string>backslash</string>
+				<string>backslash.size01</string>
+				<string>backslash.size02</string>
+				<string>backslash.size03</string>
+				<string>backslash.size04</string>
+				<string>backslash.size05</string>
+				<string>backslash.size06</string>
+				<string>backslash.size07</string>
+				<string>backslash.size08</string>
+				<string>backslash.size09</string>
+				<string>backslash.size10</string>
+				<string>backslash.size11</string>
+				<string>backslash.size12</string>
+				<string>backslash.size13</string>
+				<string>backslash.size14</string>
+				<string>backslash.size15</string>
+				<string>fraction</string>
+				<string>fraction.size01</string>
+				<string>fraction.size02</string>
+				<string>fraction.size03</string>
+				<string>fraction.size04</string>
+				<string>fraction.size05</string>
+				<string>fraction.size06</string>
+				<string>fraction.size07</string>
+				<string>fraction.size08</string>
+				<string>fraction.size09</string>
+				<string>fraction.size10</string>
+				<string>fraction.size11</string>
+				<string>fraction.size12</string>
+				<string>fraction.size13</string>
+				<string>fraction.size14</string>
+				<string>fraction.size15</string>
 				<string>radical</string>
 				<string>radical.size01</string>
 				<string>radical.size02</string>
@@ -2285,6 +2493,16 @@
 				<string>bottomcurlybracket.mid</string>
 				<string>bottomcurlybracket.right</string>
 				<string>bottomcurlybracket.ext</string>
+				<string>overlinecomb.ext</string>
+				<string>lowlinecomb.ext</string>
+				<string>leftarrowabovecomb.left</string>
+				<string>rightarrowabovecomb.right</string>
+				<string>leftarrowbelowcomb.left</string>
+				<string>rightarrowbelowcomb.right</string>
+				<string>leftharpoonabovecomb.left</string>
+				<string>rightharpoonabovecomb.right</string>
+				<string>leftharpoonwithbarbdowncomb.left</string>
+				<string>rightharpoonwithbarbdowncomb.right</string>
 			</array>
 		</dict>
 		<dict>
@@ -2317,15 +2535,16 @@
 				<string>rightcurlybracketlowerhook</string>
 				<string>rightcurlybracketmiddlepiece</string>
 				<string>rightcurlybracketupperhook</string>
-				<string>braceright.ext</string>
-				<string>leftCeiling.top</string>
-				<string>leftCeiling.ext</string>
-				<string>rightCeiling.top</string>
-				<string>rightCeiling.ext</string>
-				<string>leftFloor.bot</string>
-				<string>leftFloor.ext</string>
-				<string>rightFloor.bot</string>
-				<string>rightFloor.ext</string>
+				<string>lightlefttortoiseshellbracketornament.bot</string>
+				<string>lightlefttortoiseshellbracketornament.top</string>
+				<string>lightrighttortoiseshellbracketornament.bot</string>
+				<string>lightrighttortoiseshellbracketornament.top</string>
+				<string>upperleftorlowerrightcurlybracketsection.bot</string>
+				<string>upperleftorlowerrightcurlybracketsection.top</string>
+				<string>upperleftorlowerrightcurlybracketsection.ext</string>
+				<string>upperrightorlowerleftcurlybracketsection.bot</string>
+				<string>upperrightorlowerleftcurlybracketsection.top</string>
+				<string>upperrightorlowerleftcurlybracketsection.ext</string>
 				<string>leftwhitesquarebracket-math.bot</string>
 				<string>leftwhitesquarebracket-math.top</string>
 				<string>leftwhitesquarebracket-math.ext</string>
@@ -2336,10 +2555,10 @@
 				<string>dblverticalbar.ext</string>
 				<string>tripleVerticalBarDelimiter.ext</string>
 				<string>radicalsymbolbottom</string>
-				<string>radical.top</string>
-				<string>radical.ext</string>
 				<string>cuberoot.bot</string>
 				<string>fourthroot.bot</string>
+				<string>radical.top</string>
+				<string>radical.ext</string>
 			</array>
 		</dict>
 		<dict>

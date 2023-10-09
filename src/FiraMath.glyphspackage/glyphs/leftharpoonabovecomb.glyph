@@ -2,100 +2,76 @@
 glyphname = leftharpoonabovecomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (200,517);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-closed = 1;
-nodes = (
-(330,689,l),
-(330,691,l),
-(34,691,l),
-(42,698,o),
-(50,706,o),
-(58,713,cs),
-(105,756,l),
-(103,757,l),
-(30,690,l),
-(31,689,l)
-);
+ref = _smart.leftharpoonabovecomb;
 }
 );
 userData = {
 math = {
-topAccent = 180;
+topAccent = 200;
 };
 };
-width = 360;
+width = 400;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (210,520);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-closed = 1;
-nodes = (
-(376,685,l),
-(376,711,l),
-(85,711,l),
-(99,723,o),
-(113,735,o),
-(126,747,cs),
-(154,772,l),
-(137,791,l),
-(30,694,l),
-(39,685,l)
-);
+ref = _smart.leftharpoonabovecomb;
 }
 );
 userData = {
 math = {
-topAccent = 203;
+topAccent = 210;
 };
 };
-width = 406;
+width = 420;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (230,527);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-closed = 1;
-nodes = (
-(426,668,l),
-(426,736,l),
-(157,736,l),
-(181,745,o),
-(200,755,o),
-(216,770,cs),
-(237,789,l),
-(194,839,l),
-(30,691,l),
-(52,668,l)
-);
+ref = _smart.leftharpoonabovecomb;
 }
 );
 userData = {
 math = {
-topAccent = 228;
+topAccent = 230;
 };
 };
-width = 456;
+width = 460;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (270,534);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-closed = 1;
-nodes = (
-(510,655,l),
-(510,775,l),
-(240,775,l),
-(261,779,o),
-(278,786,o),
-(290,795,cs),
-(304,805,l),
-(235,887,l),
-(30,695,l),
-(63,655,l)
-);
+ref = _smart.leftharpoonabovecomb;
 }
 );
 userData = {

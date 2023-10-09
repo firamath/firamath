@@ -30,24 +30,24 @@ layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 alignment = 1;
-pos = (594,0);
+pos = (595,0);
 ref = bracketleft.size12;
 scale = (-1,1);
 }
 );
-width = 594;
+width = 595;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 alignment = 1;
-pos = (690,0);
+pos = (691,0);
 ref = bracketleft.size12;
 scale = (-1,1);
 }
 );
-width = 690;
+width = 691;
 }
 );
 }

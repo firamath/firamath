@@ -17,7 +17,7 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 3200;
+width = 3320;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -35,7 +35,7 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 3200;
+width = 3320;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -53,7 +53,7 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 3200;
+width = 3320;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -71,7 +71,8 @@ endConnector = 0;
 startConnector = 60;
 };
 };
-width = 3200;
+width = 3320;
 }
 );
+subCategory = Math;
 }

@@ -2,18 +2,28 @@
 
 \seq_const_from_clist:Nn \c_@@_delimiters_seq
   {
-    (       )       ,
-    \lgroup \rgroup ,
-    [       ]       ,
-    \{      \}      ,
-    \vert   \vert   ,
-    \Vert   \Vert   ,
-    \Vvert  \Vvert  ,
-    \langle \rangle ,
-    \lAngle \rAngle ,
-    \lceil  \rceil  ,
-    \lfloor \rfloor ,
-    \lBrack \rBrack ,
+    (            )           ,
+    \lgroup      \rgroup     ,
+    [            ]           ,
+    \{           \}          ,
+    \vert        \vert       ,
+    \Vert        \Vert       ,
+    \Vvert       \Vvert      ,
+    \langle      \rangle     ,
+    \lAngle      \rAngle     ,
+    \lceil       \rceil      ,
+    \lfloor      \rfloor     ,
+    \lBrack      \rBrack     ,
+    \lmoustache  \rmoustache ,
+    \lbrbrak     \rbrbrak    ,
+  }
+
+\seq_const_from_clist:Nn \c_@@_middle_delimiters_seq
+  {
+    /, \backslash,
+    \vert, \Vert, \Vvert,
+    \uparrow, \downarrow, \updownarrow,
+    \Uparrow, \Downarrow, \Updownarrow,
   }
 
 \subsection{Basic}
@@ -22,7 +32,7 @@
   {
     \tl_map_inline:nn
       { AOQTY afqy \alpha\beta\xi\phi 129 }
-      { #1 ##1 #2 }
+      { #1 ##1 #2 \, }
   }
 \seq_clear:N \l_@@_tmpa_seq
 \seq_map_inline:Nn \c_@@_delimiters_seq
@@ -48,7 +58,7 @@
     \seq_map_inline:Nn \c_@@_delimiters_seq
       {
         \@@_delimiter_test_extensible_a_aux:NNN #1 ##1
-        \quad
+        \enspace
       }
   }
 \cs_set:Npn \@@_delimiter_test_extensible_a_aux:NNN #1#2#3
@@ -89,7 +99,7 @@
     \seq_map_inline:Nn \c_@@_delimiters_seq
       {
         \@@_delimiter_test_extensible_b_aux:nNN {#1} ##1
-        \quad
+        \enspace
       }
   }
 \cs_set:Npn \@@_delimiter_test_extensible_b_aux:nNN #1#2#3
@@ -144,4 +154,106 @@
     \end{gather*}
   }
 
+\subsubsection{Part~D}
+
+\seq_const_from_clist:Nn \c_@@_big_content_pairs_seq
+  {
+    { x } { y }                                                 ,
+    { a^2 } { b^2 }                                             ,
+    { T\sb i } { Q\sb j }                                       ,
+    { \frac12 } { \frac34 }                                     ,
+    { \frac{a^b}{2} } { \frac{c^d}{3} }                         ,
+    { \int dx } { \int\sb{-\infty}^{+\infty} dy }               ,
+    { \sum\sb{i=0}^N i } { \prod\sb{j=0}^M j }                  ,
+    { \begin{pmatrix} x \\ y \\ z \\ w \end{pmatrix} }
+    { \begin{bmatrix} x \\ y \\ z \\ w \end{bmatrix} }          ,
+    { \begin{vmatrix} 1 \\ 2 \\ 3 \\ 4 \\ 5 \\6 \end{vmatrix} }
+    { \begin{Vmatrix} 1 \\ 2 \\ 3 \\ 4 \\ 5 \\6 \end{Vmatrix} } ,
+  }
+
+\cs_set:Npn \@@_delimiter_test_extensible_d:N #1
+  {
+    \seq_map_inline:Nn \c_@@_big_content_pairs_seq
+      {
+        \@@_delimiter_test_extensible_d_aux:Nnn #1 ##1
+        \enspace
+      }
+  }
+\cs_set:Npn \@@_delimiter_test_extensible_d_aux:Nnn #1#2#3
+  { \left. #2 \middle #1 #3 \right. }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_middle_delimiters_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_delimiter_test_extensible_d:N #1 }
+  }
+
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }
+
 \subsection{Spacing}
+
+\subsection{Horizontal}
+
+\seq_const_from_clist:Nn \c_@@_over_symbols_seq
+  {
+    \overline           ,
+    \overbracket        ,
+    \overparen          ,
+    \overbrace          ,
+    \overleftarrow      ,
+    \overrightarrow     ,
+    \overleftharpoon    ,
+    \overrightharpoon   ,
+    \overleftrightarrow ,
+  }
+\seq_const_from_clist:Nn \c_@@_under_symbols_seq
+  {
+    \underline             ,
+    \underbracket          ,
+    \underparen            ,
+    \underbrace            ,
+    \underleftarrow        ,
+    \underrightarrow       ,
+    \underleftharpoondown  ,
+    \underrightharpoondown ,
+    \underleftrightarrow   ,
+  }
+\seq_const_from_clist:Nn \c_@@_over_under_contents_seq
+  {
+    a                                         ,
+    x^2                                       ,
+    AB                                        ,
+    x+y                                       ,
+    1+2+3                                     ,
+    { a\sb0, \, a\sb1, \, \dots, \, a\sb{n} } ,
+    { \sum\sb{i\sb1=1}^{N\sb1} \sum\sb{i\sb2=1}^{N\sb2} \cdots \sum\sb{i\sb{n}=1}^{N\sb{n}} }  ,
+    { \frac12 \times \frac13 \times \frac14 \times \dots \times \frac1n \times \frac{1}{n+1} } ,
+  }
+\cs_new:Npn \@@_over_under_symbols:N #1
+  {
+    \seq_map_inline:Nn \c_@@_over_under_contents_seq
+      { #1 {##1} \quad }
+  }
+\seq_clear:N \l_@@_tmpa_seq
+\seq_map_inline:Nn \c_@@_over_symbols_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_over_under_symbols:N #1 }
+  }
+\seq_map_inline:Nn \c_@@_under_symbols_seq
+  {
+    \seq_put_right:Nn \l_@@_tmpa_seq
+      { \@@_over_under_symbols:N #1 }
+  }
+
+\@@_weight_test:n
+  {
+    \begin{gather*}
+      \seq_use:Nn \l_@@_tmpa_seq { \\ }
+    \end{gather*}
+  }

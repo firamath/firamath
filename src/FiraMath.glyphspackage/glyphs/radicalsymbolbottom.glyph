@@ -45,8 +45,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(673,0,l),
-(673,3960,l),
+(675,0,l),
+(675,3960,l),
 (643,3960,l),
 (643,117,l),
 (193,2427,l),
@@ -63,13 +63,13 @@ endConnector = 60;
 startConnector = 0;
 };
 };
-width = 883;
+width = 891;
 },
 {
 anchors = (
 {
 name = radical;
-pos = (267,3184);
+pos = (260,3184);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -77,15 +77,15 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(781,0,l),
-(781,3960,l),
-(685,3960,l),
-(685,187,l),
-(259,2468,l),
-(24,2435,l),
-(35,2349,l),
-(180,2370,l),
-(624,0,l)
+(768,0,l),
+(768,3960,l),
+(678,3960,l),
+(678,187,l),
+(252,2468,l),
+(24,2434,l),
+(35,2348,l),
+(179,2370,l),
+(623,0,l)
 );
 }
 );
@@ -95,7 +95,7 @@ endConnector = 60;
 startConnector = 0;
 };
 };
-width = 981;
+width = 976;
 },
 {
 anchors = (
@@ -127,7 +127,7 @@ endConnector = 60;
 startConnector = 0;
 };
 };
-width = 1073;
+width = 1107;
 }
 );
 metricLeft = radical.size15;

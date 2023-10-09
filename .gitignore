@@ -33,6 +33,7 @@ UIState.plist
 build/
 release/
 temp/
+venv/
 
 # Other
 .DS_Store

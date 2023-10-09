@@ -5,11 +5,22 @@ layers = (
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(344,0,l),
+(344,400,l),
+(342,400,l),
+(342,0,l)
+);
 },
 {
-pos = (74,0);
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(222,0,l),
+(222,400,l),
+(220,400,l),
+(220,0,l)
+);
 }
 );
 userData = {
@@ -18,17 +29,28 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 516;
+width = 564;
 },
 {
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(388,0,l),
+(388,400,l),
+(358,400,l),
+(358,0,l)
+);
 },
 {
-pos = (112,0);
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(246,0,l),
+(246,400,l),
+(216,400,l),
+(216,0,l)
+);
 }
 );
 userData = {
@@ -37,17 +59,28 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 562;
+width = 604;
 },
 {
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(476,0,l),
+(476,400,l),
+(392,400,l),
+(392,0,l)
+);
 },
 {
-pos = (240,0);
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(292,0,l),
+(292,400,l),
+(208,400,l),
+(208,0,l)
+);
 }
 );
 userData = {
@@ -56,17 +89,28 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 748;
+width = 684;
 },
 {
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(632,0,l),
+(632,400,l),
+(456,400,l),
+(456,0,l)
+);
 },
 {
-pos = (282,0);
-ref = leftverticalboxline;
+closed = 1;
+nodes = (
+(372,0,l),
+(372,400,l),
+(196,400,l),
+(196,0,l)
+);
 }
 );
 userData = {
@@ -75,7 +119,7 @@ endConnector = 60;
 startConnector = 60;
 };
 };
-width = 792;
+width = 828;
 }
 );
 metricLeft = dblverticalbar.size15;

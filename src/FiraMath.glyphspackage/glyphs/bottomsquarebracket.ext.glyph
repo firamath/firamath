@@ -74,4 +74,5 @@ startConnector = 60;
 width = 400;
 }
 );
+subCategory = Math;
 }
