@@ -863,7 +863,7 @@ ref = whiteCircle;
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -874,7 +874,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -885,7 +885,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -896,7 +896,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -907,7 +907,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -918,7 +918,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -929,7 +929,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -940,7 +940,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -951,7 +951,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -962,7 +962,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -973,7 +973,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -984,7 +984,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -995,7 +995,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1006,7 +1006,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1017,7 +1017,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1039,7 +1039,7 @@ ref = whiteCircle;
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1050,7 +1050,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1061,7 +1061,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1072,7 +1072,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1083,7 +1083,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1094,7 +1094,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1105,7 +1105,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1116,7 +1116,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1127,7 +1127,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1138,7 +1138,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1149,7 +1149,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1160,7 +1160,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1171,7 +1171,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1182,7 +1182,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1193,7 +1193,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1215,7 +1215,7 @@ ref = whiteCircle;
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1226,7 +1226,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1237,7 +1237,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1248,7 +1248,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1259,7 +1259,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1270,7 +1270,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1281,7 +1281,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1292,7 +1292,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1303,7 +1303,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1314,7 +1314,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1325,7 +1325,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1336,7 +1336,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1347,7 +1347,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1358,7 +1358,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1369,7 +1369,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1391,7 +1391,7 @@ ref = whiteCircle;
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1402,7 +1402,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1413,7 +1413,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1424,7 +1424,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1435,7 +1435,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1446,7 +1446,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1457,7 +1457,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1468,7 +1468,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1479,7 +1479,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1490,7 +1490,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1501,7 +1501,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1512,7 +1512,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1523,7 +1523,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1534,7 +1534,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (
@@ -1545,7 +1545,7 @@ nodes = (
 },
 {
 attr = {
-mask = "1";
+mask = 1;
 };
 closed = 1;
 nodes = (

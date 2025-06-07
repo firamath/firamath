@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3416";
 .formatVersion = 3;
 axes = (
 {
@@ -39,11 +39,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1200;
+value = 1000;
 },
 {
 name = "Preview Descender";
-value = 800;
+value = 600;
 }
 );
 guides = (
@@ -98,11 +98,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1200;
+value = 1000;
 },
 {
 name = "Preview Descender";
-value = 800;
+value = 600;
 }
 );
 guides = (
@@ -165,11 +165,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1200;
+value = 1000;
 },
 {
 name = "Preview Descender";
-value = 800;
+value = 600;
 }
 );
 guides = (
@@ -231,11 +231,11 @@ axesValues = (
 customParameters = (
 {
 name = "Preview Ascender";
-value = 1200;
+value = 1000;
 },
 {
 name = "Preview Descender";
-value = 800;
+value = 600;
 }
 );
 guides = (
@@ -1251,29 +1251,20 @@ value = "Copyright © 2018–2022 by Xiangdong Zeng. All rights reserved.";
 );
 },
 {
-key = designers;
-values = (
-{
-language = dflt;
-value = "Xiangdong Zeng";
-}
-);
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Xiangdong Zeng";
-}
-);
-},
-{
 key = descriptions;
 values = (
 {
 language = dflt;
 value = "Sans-serif font with Unicode math support";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
 }
 );
 },
@@ -1289,6 +1280,15 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
 }
 );
 settings = {
