@@ -208,5 +208,5 @@ width = 607;
 }
 );
 metricLeft = "Hitalic-math";
-unicode = 119875;
+unicode = (119875,120343);
 }

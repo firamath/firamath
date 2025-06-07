@@ -168,5 +168,5 @@ width = 512;
 }
 );
 metricLeft = n;
-unicode = 107;
+unicode = (107,120260);
 }

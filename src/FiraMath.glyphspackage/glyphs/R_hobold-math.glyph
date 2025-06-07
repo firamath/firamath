@@ -185,5 +185,5 @@ nodes = (
 width = 618;
 }
 );
-unicode = 120504;
+unicode = (120504,120678);
 }

@@ -172,5 +172,5 @@ width = 615;
 }
 );
 metricLeft = "Hitalic-math";
-unicode = 119870;
+unicode = (119870,120338);
 }

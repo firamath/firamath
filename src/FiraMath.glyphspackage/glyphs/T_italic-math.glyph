@@ -175,5 +175,5 @@ topAccent = 330;
 width = 543;
 }
 );
-unicode = 119879;
+unicode = (119879,120347);
 }

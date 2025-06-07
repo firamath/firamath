@@ -177,5 +177,5 @@ width = 709;
 );
 metricLeft = "Hitalic-math";
 metricRight = "Hitalic-math";
-unicode = 119873;
+unicode = (119873,120341);
 }
