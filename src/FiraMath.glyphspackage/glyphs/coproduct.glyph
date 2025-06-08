@@ -49,4 +49,12 @@ width = 768;
 metricLeft = summation;
 metricRight = summation;
 unicode = 8720;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+coproduct,
+coproduct.size01
+);
+};
+};
 }

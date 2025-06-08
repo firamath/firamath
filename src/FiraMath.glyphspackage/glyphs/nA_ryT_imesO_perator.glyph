@@ -101,4 +101,12 @@ width = 890;
 metricLeft = summation;
 metricRight = summation;
 unicode = 10761;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nAryTimesOperator,
+nAryTimesOperator.size01
+);
+};
+};
 }

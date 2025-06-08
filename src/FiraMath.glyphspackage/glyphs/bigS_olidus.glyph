@@ -65,4 +65,12 @@ width = 666;
 metricLeft = summation;
 metricRight = summation;
 unicode = 10744;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bigSolidus,
+bigSolidus.size01
+);
+};
+};
 }

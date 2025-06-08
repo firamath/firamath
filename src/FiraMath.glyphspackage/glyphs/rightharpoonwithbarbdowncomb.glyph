@@ -71,4 +71,26 @@ width = 540;
 }
 );
 unicode = 8428;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hVariants = (
+rightharpoonwithbarbdowncomb,
+rightharpoonwithbarbdowncomb.size01,
+rightharpoonwithbarbdowncomb.size02,
+rightharpoonwithbarbdowncomb.size03,
+rightharpoonwithbarbdowncomb.size04,
+rightharpoonwithbarbdowncomb.size05,
+rightharpoonwithbarbdowncomb.size06,
+rightharpoonwithbarbdowncomb.size07,
+rightharpoonwithbarbdowncomb.size08,
+rightharpoonwithbarbdowncomb.size09,
+rightharpoonwithbarbdowncomb.size10,
+rightharpoonwithbarbdowncomb.size11,
+rightharpoonwithbarbdowncomb.size12,
+rightharpoonwithbarbdowncomb.size13,
+rightharpoonwithbarbdowncomb.size14,
+rightharpoonwithbarbdowncomb.size15
+);
+};
+};
 }

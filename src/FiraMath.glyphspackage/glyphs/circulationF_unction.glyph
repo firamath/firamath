@@ -185,4 +185,12 @@ width = 744;
 metricLeft = integral;
 metricRight = integral;
 unicode = 10768;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+circulationFunction,
+circulationFunction.size01
+);
+};
+};
 }

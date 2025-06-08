@@ -113,4 +113,12 @@ width = 828;
 metricLeft = naryunion;
 metricRight = naryunion;
 unicode = 10756;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nAryUnionOperatorWithPlus,
+nAryUnionOperatorWithPlus.size01
+);
+};
+};
 }

@@ -41,4 +41,26 @@ width = 856;
 metricLeft = bar;
 metricRight = bar;
 unicode = 10624;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+tripleVerticalBarDelimiter,
+tripleVerticalBarDelimiter.size01,
+tripleVerticalBarDelimiter.size02,
+tripleVerticalBarDelimiter.size03,
+tripleVerticalBarDelimiter.size04,
+tripleVerticalBarDelimiter.size05,
+tripleVerticalBarDelimiter.size06,
+tripleVerticalBarDelimiter.size07,
+tripleVerticalBarDelimiter.size08,
+tripleVerticalBarDelimiter.size09,
+tripleVerticalBarDelimiter.size10,
+tripleVerticalBarDelimiter.size11,
+tripleVerticalBarDelimiter.size12,
+tripleVerticalBarDelimiter.size13,
+tripleVerticalBarDelimiter.size14,
+tripleVerticalBarDelimiter.size15
+);
+};
+};
 }

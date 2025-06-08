@@ -81,4 +81,12 @@ width = 820;
 metricLeft = summation;
 metricRight = summation;
 unicode = 10201;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+largeDownTack,
+largeDownTack.size01
+);
+};
+};
 }

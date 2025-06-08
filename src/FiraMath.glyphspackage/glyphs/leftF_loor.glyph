@@ -49,4 +49,26 @@ width = 492;
 metricLeft = "=leftCeiling";
 metricRight = "=leftCeiling";
 unicode = 8970;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+leftFloor,
+leftFloor.size01,
+leftFloor.size02,
+leftFloor.size03,
+leftFloor.size04,
+leftFloor.size05,
+leftFloor.size06,
+leftFloor.size07,
+leftFloor.size08,
+leftFloor.size09,
+leftFloor.size10,
+leftFloor.size11,
+leftFloor.size12,
+leftFloor.size13,
+leftFloor.size14,
+leftFloor.size15
+);
+};
+};
 }

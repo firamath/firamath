@@ -39,4 +39,26 @@ width = 520;
 }
 );
 unicode = 9136;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+upperleftorlowerrightcurlybracketsection,
+upperleftorlowerrightcurlybracketsection.size01,
+upperleftorlowerrightcurlybracketsection.size02,
+upperleftorlowerrightcurlybracketsection.size03,
+upperleftorlowerrightcurlybracketsection.size04,
+upperleftorlowerrightcurlybracketsection.size05,
+upperleftorlowerrightcurlybracketsection.size06,
+upperleftorlowerrightcurlybracketsection.size07,
+upperleftorlowerrightcurlybracketsection.size08,
+upperleftorlowerrightcurlybracketsection.size09,
+upperleftorlowerrightcurlybracketsection.size10,
+upperleftorlowerrightcurlybracketsection.size11,
+upperleftorlowerrightcurlybracketsection.size12,
+upperleftorlowerrightcurlybracketsection.size13,
+upperleftorlowerrightcurlybracketsection.size14,
+upperleftorlowerrightcurlybracketsection.size15
+);
+};
+};
 }

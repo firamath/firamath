@@ -39,4 +39,26 @@ width = 428;
 }
 );
 unicode = 124;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bar,
+bar.size01,
+bar.size02,
+bar.size03,
+bar.size04,
+bar.size05,
+bar.size06,
+bar.size07,
+bar.size08,
+bar.size09,
+bar.size10,
+bar.size11,
+bar.size12,
+bar.size13,
+bar.size14,
+bar.size15
+);
+};
+};
 }

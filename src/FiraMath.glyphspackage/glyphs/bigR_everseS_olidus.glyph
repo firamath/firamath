@@ -51,4 +51,12 @@ width = 666;
 }
 );
 unicode = 10745;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bigReverseSolidus,
+bigReverseSolidus.size01
+);
+};
+};
 }

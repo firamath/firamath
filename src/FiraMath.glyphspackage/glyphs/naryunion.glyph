@@ -49,4 +49,12 @@ width = 828;
 metricLeft = naryintersection;
 metricRight = naryintersection;
 unicode = 8899;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+naryunion,
+naryunion.size01
+);
+};
+};
 }

@@ -97,4 +97,12 @@ width = 736;
 metricLeft = summation;
 metricRight = summation;
 unicode = 8719;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+product,
+product.size01
+);
+};
+};
 }

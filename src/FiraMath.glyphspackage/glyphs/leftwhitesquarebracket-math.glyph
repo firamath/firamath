@@ -39,4 +39,26 @@ width = 644;
 }
 );
 unicode = 10214;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+"leftwhitesquarebracket-math",
+"leftwhitesquarebracket-math.size01",
+"leftwhitesquarebracket-math.size02",
+"leftwhitesquarebracket-math.size03",
+"leftwhitesquarebracket-math.size04",
+"leftwhitesquarebracket-math.size05",
+"leftwhitesquarebracket-math.size06",
+"leftwhitesquarebracket-math.size07",
+"leftwhitesquarebracket-math.size08",
+"leftwhitesquarebracket-math.size09",
+"leftwhitesquarebracket-math.size10",
+"leftwhitesquarebracket-math.size11",
+"leftwhitesquarebracket-math.size12",
+"leftwhitesquarebracket-math.size13",
+"leftwhitesquarebracket-math.size14",
+"leftwhitesquarebracket-math.size15"
+);
+};
+};
 }

@@ -49,4 +49,12 @@ width = 820;
 metricLeft = largeDownTack;
 metricRight = largeDownTack;
 unicode = 10200;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+largeUpTack,
+largeUpTack.size01
+);
+};
+};
 }

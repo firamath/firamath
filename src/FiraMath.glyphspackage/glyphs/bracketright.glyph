@@ -53,4 +53,26 @@ width = 436;
 metricLeft = "=|bracketleft";
 metricRight = "=|bracketleft";
 unicode = 93;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+bracketright,
+bracketright.size01,
+bracketright.size02,
+bracketright.size03,
+bracketright.size04,
+bracketright.size05,
+bracketright.size06,
+bracketright.size07,
+bracketright.size08,
+bracketright.size09,
+bracketright.size10,
+bracketright.size11,
+bracketright.size12,
+bracketright.size13,
+bracketright.size14,
+bracketright.size15
+);
+};
+};
 }

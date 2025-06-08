@@ -39,4 +39,26 @@ width = 492;
 }
 );
 unicode = 10098;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+lightlefttortoiseshellbracketornament,
+lightlefttortoiseshellbracketornament.size01,
+lightlefttortoiseshellbracketornament.size02,
+lightlefttortoiseshellbracketornament.size03,
+lightlefttortoiseshellbracketornament.size04,
+lightlefttortoiseshellbracketornament.size05,
+lightlefttortoiseshellbracketornament.size06,
+lightlefttortoiseshellbracketornament.size07,
+lightlefttortoiseshellbracketornament.size08,
+lightlefttortoiseshellbracketornament.size09,
+lightlefttortoiseshellbracketornament.size10,
+lightlefttortoiseshellbracketornament.size11,
+lightlefttortoiseshellbracketornament.size12,
+lightlefttortoiseshellbracketornament.size13,
+lightlefttortoiseshellbracketornament.size14,
+lightlefttortoiseshellbracketornament.size15
+);
+};
+};
 }

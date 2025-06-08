@@ -57,4 +57,12 @@ width = 1000;
 metricLeft = largeCircle;
 metricRight = largeCircle;
 unicode = 10752;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nAryCircledDotOperator,
+nAryCircledDotOperator.size01
+);
+};
+};
 }

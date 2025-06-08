@@ -49,4 +49,12 @@ width = 748;
 metricLeft = nArySquareIntersectionOperator;
 metricRight = nArySquareIntersectionOperator;
 unicode = 10758;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+nArySquareUnionOperator,
+nArySquareUnionOperator.size01
+);
+};
+};
 }

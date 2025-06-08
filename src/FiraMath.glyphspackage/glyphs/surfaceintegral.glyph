@@ -197,4 +197,12 @@ width = 1094;
 metricLeft = integral;
 metricRight = integral;
 unicode = 8751;
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vVariants = (
+surfaceintegral,
+surfaceintegral.size01
+);
+};
+};
 }
