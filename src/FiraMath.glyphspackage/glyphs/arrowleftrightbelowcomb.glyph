@@ -2,6 +2,12 @@
 glyphname = arrowleftrightbelowcomb;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (200,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -11,14 +17,15 @@ ref = leftrightarrowabovecomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 200;
-};
-};
 width = 400;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (216,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -28,14 +35,15 @@ ref = leftrightarrowabovecomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 216;
-};
-};
 width = 432;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (260,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -45,14 +53,15 @@ ref = leftrightarrowabovecomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 260;
-};
-};
 width = 520;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (300,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -62,11 +71,6 @@ ref = leftrightarrowabovecomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 300;
-};
-};
 width = 600;
 }
 );

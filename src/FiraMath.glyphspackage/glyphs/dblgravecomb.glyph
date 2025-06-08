@@ -9,6 +9,10 @@ name = _top;
 pos = (223,527);
 },
 {
+name = math.ta;
+pos = (223,0);
+},
+{
 name = top;
 pos = (185,832);
 }
@@ -21,11 +25,6 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 223;
-};
-};
 width = 366;
 },
 {
@@ -33,6 +32,10 @@ anchors = (
 {
 name = _top;
 pos = (145,517);
+},
+{
+name = math.ta;
+pos = (145,0);
 },
 {
 name = top;
@@ -47,11 +50,6 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 145;
-};
-};
 width = 229;
 },
 {
@@ -59,6 +57,10 @@ anchors = (
 {
 name = _top;
 pos = (164,520);
+},
+{
+name = math.ta;
+pos = (164,0);
 },
 {
 name = top;
@@ -73,11 +75,6 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 164;
-};
-};
 width = 268;
 },
 {
@@ -85,6 +82,10 @@ anchors = (
 {
 name = _top;
 pos = (275,534);
+},
+{
+name = math.ta;
+pos = (275,0);
 },
 {
 name = top;
@@ -99,11 +100,6 @@ ref = hungarumlautcomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 275;
-};
-};
 width = 469;
 }
 );

@@ -3,51 +3,73 @@ color = 1;
 glyphname = "Muitalic-math";
 layers = (
 {
+anchors = (
+{
+name = math.ic;
+pos = (877,0);
+},
+{
+name = math.ta;
+pos = (462,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 ref = "Mitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 462;
-};
-};
 width = 817;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (837,0);
+},
+{
+name = math.ta;
+pos = (448,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 ref = "Mitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 448;
-};
-};
 width = 777;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (848,0);
+},
+{
+name = math.ta;
+pos = (451,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 ref = "Mitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 451;
-};
-};
 width = 788;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (866,0);
+},
+{
+name = math.ta;
+pos = (455,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -55,12 +77,6 @@ alignment = -1;
 ref = "Mitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 455;
-};
-};
 width = 806;
 }
 );

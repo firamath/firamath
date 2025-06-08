@@ -9,6 +9,10 @@ name = bottom;
 pos = (280,0);
 },
 {
+name = math.ta;
+pos = (274,0);
+},
+{
 name = top;
 pos = (274,534);
 }
@@ -43,11 +47,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 274;
-};
-};
 width = 561;
 },
 {
@@ -55,6 +54,10 @@ anchors = (
 {
 name = bottom;
 pos = (276,0);
+},
+{
+name = math.ta;
+pos = (273,0);
 },
 {
 name = top;
@@ -91,11 +94,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 273;
-};
-};
 width = 553;
 },
 {
@@ -103,6 +101,10 @@ anchors = (
 {
 name = bottom;
 pos = (279,0);
+},
+{
+name = math.ta;
+pos = (276,0);
 },
 {
 name = top;
@@ -139,11 +141,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 276;
-};
-};
 width = 558;
 },
 {
@@ -151,6 +148,10 @@ anchors = (
 {
 name = bottom;
 pos = (286,0);
+},
+{
+name = math.ta;
+pos = (289,0);
 },
 {
 name = top;
@@ -187,11 +188,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 289;
-};
-};
 width = 571;
 }
 );

@@ -5,6 +5,10 @@ layers = (
 {
 anchors = (
 {
+name = math.ta;
+pos = (272,0);
+},
+{
 name = top;
 pos = (272,696);
 },
@@ -19,15 +23,14 @@ shapes = (
 ref = E;
 }
 );
-userData = {
-math = {
-topAccent = 272;
-};
-};
 width = 520;
 },
 {
 anchors = (
+{
+name = math.ta;
+pos = (284,0);
+},
 {
 name = top;
 pos = (284,680);
@@ -43,15 +46,14 @@ shapes = (
 ref = E;
 }
 );
-userData = {
-math = {
-topAccent = 284;
-};
-};
 width = 495;
 },
 {
 anchors = (
+{
+name = math.ta;
+pos = (288,0);
+},
 {
 name = top;
 pos = (288,682);
@@ -67,15 +69,14 @@ shapes = (
 ref = E;
 }
 );
-userData = {
-math = {
-topAccent = 288;
-};
-};
 width = 493;
 },
 {
 anchors = (
+{
+name = math.ta;
+pos = (290,0);
+},
 {
 name = top;
 pos = (290,689);
@@ -91,11 +92,6 @@ shapes = (
 ref = E;
 }
 );
-userData = {
-math = {
-topAccent = 290;
-};
-};
 width = 535;
 }
 );

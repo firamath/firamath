@@ -11,6 +11,10 @@ pos = (221,0);
 {
 name = bottom;
 pos = (225,135);
+},
+{
+name = math.ta;
+pos = (221,0);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -21,11 +25,6 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 221;
-};
-};
 width = 442;
 },
 {
@@ -37,6 +36,10 @@ pos = (158,0);
 {
 name = bottom;
 pos = (162,51);
+},
+{
+name = math.ta;
+pos = (158,0);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -47,11 +50,6 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 158;
-};
-};
 width = 315;
 },
 {
@@ -63,6 +61,10 @@ pos = (176,0);
 {
 name = bottom;
 pos = (180,83);
+},
+{
+name = math.ta;
+pos = (176,0);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -73,11 +75,6 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 176;
-};
-};
 width = 352;
 },
 {
@@ -89,6 +86,10 @@ pos = (253,0);
 {
 name = bottom;
 pos = (257,195);
+},
+{
+name = math.ta;
+pos = (253,0);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -99,11 +100,6 @@ ref = seagullbelowcomb;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-topAccent = 253;
-};
-};
 width = 506;
 }
 );

@@ -3,59 +3,63 @@ color = 4;
 glyphname = Chi;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (303,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 ref = X;
 }
 );
-userData = {
-math = {
-topAccent = 303;
-};
-};
 width = 606;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (234,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 ref = X;
 }
 );
-userData = {
-math = {
-topAccent = 234;
-};
-};
 width = 467;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (244,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 ref = X;
 }
 );
-userData = {
-math = {
-topAccent = 244;
-};
-};
 width = 493;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (270,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 ref = X;
 }
 );
-userData = {
-math = {
-topAccent = 270;
-};
-};
 width = 540;
 }
 );

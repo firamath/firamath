@@ -3,6 +3,16 @@ color = 7;
 glyphname = "partialdiffbolditalic-math";
 layers = (
 {
+anchors = (
+{
+name = math.ic;
+pos = (569,0);
+},
+{
+name = math.ta;
+pos = (221,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -50,15 +60,19 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-italicCorrection = 40;
-topAccent = 221;
-};
-};
 width = 529;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (599,0);
+},
+{
+name = math.ta;
+pos = (225,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -106,15 +120,19 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-italicCorrection = 40;
-topAccent = 225;
-};
-};
 width = 559;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (638,0);
+},
+{
+name = math.ta;
+pos = (219,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -162,15 +180,19 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-italicCorrection = 40;
-topAccent = 219;
-};
-};
 width = 598;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (678,0);
+},
+{
+name = math.ta;
+pos = (214,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -218,15 +240,19 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-italicCorrection = 40;
-topAccent = 214;
-};
-};
 width = 638;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (678,0);
+},
+{
+name = math.ta;
+pos = (214,0);
+}
+);
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 attr = {
 coordinates = (

@@ -3,6 +3,12 @@ color = 4;
 glyphname = partialdiff;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (280,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -44,14 +50,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 280;
-};
-};
 width = 560;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (264,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -93,14 +100,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 264;
-};
-};
 width = 497;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (258,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -142,14 +150,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 258;
-};
-};
 width = 501;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (254,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -191,11 +200,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 254;
-};
-};
 width = 510;
 }
 );

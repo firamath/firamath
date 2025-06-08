@@ -3,6 +3,12 @@ color = 7;
 glyphname = "Mubold-math";
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (378,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -30,14 +36,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 378;
-};
-};
 width = 758;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (386,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -65,14 +72,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 386;
-};
-};
 width = 786;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (392,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -100,14 +108,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 392;
-};
-};
 width = 793;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (397,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -135,14 +144,15 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-topAccent = 397;
-};
-};
 width = 792;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (397,0);
+}
+);
 associatedMasterId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 attr = {
 coordinates = (

@@ -2,6 +2,12 @@
 glyphname = commareversedabovecomb;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (43,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -11,14 +17,15 @@ ref = commaabovecomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 43;
-};
-};
 width = 87;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (69,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -28,14 +35,15 @@ ref = commaabovecomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 69;
-};
-};
 width = 139;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (90,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -45,14 +53,15 @@ ref = commaabovecomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 90;
-};
-};
 width = 180;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (122,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -62,11 +71,6 @@ ref = commaabovecomb;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-topAccent = 122;
-};
-};
 width = 244;
 }
 );

@@ -3,63 +3,79 @@ color = 1;
 glyphname = "Chiitalic-math";
 layers = (
 {
+anchors = (
+{
+name = math.ic;
+pos = (694,0);
+},
+{
+name = math.ta;
+pos = (376,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 ref = "Xitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 376;
-};
-};
 width = 634;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (547,0);
+},
+{
+name = math.ta;
+pos = (303,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 ref = "Xitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 303;
-};
-};
 width = 487;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (577,0);
+},
+{
+name = math.ta;
+pos = (316,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 ref = "Xitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 316;
-};
-};
 width = 517;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (626,0);
+},
+{
+name = math.ta;
+pos = (343,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 ref = "Xitalic-math";
 }
 );
-userData = {
-math = {
-italicCorrection = 60;
-topAccent = 343;
-};
-};
 width = 566;
 }
 );

@@ -11,6 +11,10 @@ pos = (150,0);
 {
 name = bottom;
 pos = (152,-205);
+},
+{
+name = math.ta;
+pos = (150,0);
 }
 );
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
@@ -20,11 +24,6 @@ pos = (0,-960);
 ref = gravecomb.case;
 }
 );
-userData = {
-math = {
-topAccent = 150;
-};
-};
 width = 300;
 },
 {
@@ -36,6 +35,10 @@ pos = (114,0);
 {
 name = bottom;
 pos = (116,-139);
+},
+{
+name = math.ta;
+pos = (114,0);
 }
 );
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
@@ -45,11 +48,6 @@ pos = (0,-910);
 ref = gravecomb.case;
 }
 );
-userData = {
-math = {
-topAccent = 114;
-};
-};
 width = 227;
 },
 {
@@ -61,6 +59,10 @@ pos = (182,0);
 {
 name = bottom;
 pos = (184,-271);
+},
+{
+name = math.ta;
+pos = (182,0);
 }
 );
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
@@ -70,11 +72,6 @@ pos = (0,-1020);
 ref = gravecomb.case;
 }
 );
-userData = {
-math = {
-topAccent = 182;
-};
-};
 width = 364;
 },
 {
@@ -86,6 +83,10 @@ pos = (127,0);
 {
 name = bottom;
 pos = (129,-169);
+},
+{
+name = math.ta;
+pos = (127,0);
 }
 );
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
@@ -95,11 +96,6 @@ pos = (0,-930);
 ref = gravecomb.case;
 }
 );
-userData = {
-math = {
-topAccent = 127;
-};
-};
 width = 253;
 }
 );

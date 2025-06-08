@@ -2,6 +2,12 @@
 glyphname = quadrupleIntegralOperator;
 layers = (
 {
+anchors = (
+{
+name = math.ic;
+pos = (1574,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
@@ -24,14 +30,15 @@ pos = (660,0);
 ref = integral;
 }
 );
-userData = {
-math = {
-italicCorrection = 240;
-};
-};
 width = 1334;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (1636,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
@@ -54,14 +61,15 @@ pos = (720,0);
 ref = integral;
 }
 );
-userData = {
-math = {
-italicCorrection = 240;
-};
-};
 width = 1396;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (1781,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
@@ -80,14 +88,15 @@ pos = (840,0);
 ref = integral;
 }
 );
-userData = {
-math = {
-italicCorrection = 240;
-};
-};
 width = 1541;
 },
 {
+anchors = (
+{
+name = math.ic;
+pos = (2034,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
@@ -110,11 +119,6 @@ pos = (1050,0);
 ref = integral;
 }
 );
-userData = {
-math = {
-italicCorrection = 240;
-};
-};
 width = 1794;
 }
 );

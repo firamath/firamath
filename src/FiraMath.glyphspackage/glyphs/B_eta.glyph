@@ -3,59 +3,63 @@ color = 4;
 glyphname = Beta;
 layers = (
 {
+anchors = (
+{
+name = math.ta;
+pos = (291,0);
+}
+);
 layerId = "B26C53A4-97D1-457B-8232-65310EC64496";
 shapes = (
 {
 ref = B;
 }
 );
-userData = {
-math = {
-topAccent = 291;
-};
-};
 width = 622;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (281,0);
+}
+);
 layerId = "D42A05F0-DBDC-4569-915A-03C7188507B6";
 shapes = (
 {
 ref = B;
 }
 );
-userData = {
-math = {
-topAccent = 281;
-};
-};
 width = 581;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (291,0);
+}
+);
 layerId = "B2FE45D6-EF48-417F-ACCD-B60D15D1CAF3";
 shapes = (
 {
 ref = B;
 }
 );
-userData = {
-math = {
-topAccent = 291;
-};
-};
 width = 589;
 },
 {
+anchors = (
+{
+name = math.ta;
+pos = (301,0);
+}
+);
 layerId = "D92A4C0B-EB2A-4209-AFE3-2959A8B274DD";
 shapes = (
 {
 ref = B;
 }
 );
-userData = {
-math = {
-topAccent = 301;
-};
-};
 width = 608;
 }
 );
