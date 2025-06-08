@@ -102,6 +102,7 @@ metricLeft = summation;
 metricRight = summation;
 unicode = 10761;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryTimesOperator,

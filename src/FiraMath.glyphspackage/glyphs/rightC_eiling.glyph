@@ -11,6 +11,24 @@ ref = leftCeiling;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightsquarebracketextension,
+1,
+60,
+60
+),
+(
+rightsquarebracketuppercorner,
+0,
+60,
+0
+)
+);
+};
+};
 width = 390;
 },
 {
@@ -23,6 +41,24 @@ ref = leftCeiling;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightsquarebracketextension,
+1,
+60,
+60
+),
+(
+rightsquarebracketuppercorner,
+0,
+60,
+0
+)
+);
+};
+};
 width = 408;
 },
 {
@@ -35,6 +71,24 @@ ref = leftCeiling;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightsquarebracketextension,
+1,
+60,
+60
+),
+(
+rightsquarebracketuppercorner,
+0,
+60,
+0
+)
+);
+};
+};
 width = 436;
 },
 {
@@ -47,11 +101,30 @@ ref = leftCeiling;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightsquarebracketextension,
+1,
+60,
+60
+),
+(
+rightsquarebracketuppercorner,
+0,
+60,
+0
+)
+);
+};
+};
 width = 492;
 }
 );
 unicode = 8969;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 rightCeiling,

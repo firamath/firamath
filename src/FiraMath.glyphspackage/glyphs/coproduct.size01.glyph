@@ -48,4 +48,7 @@ width = 1422;
 );
 metricLeft = product.size01;
 metricRight = product.size01;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

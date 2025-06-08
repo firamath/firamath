@@ -107,6 +107,7 @@ metricLeft = integral;
 metricRight = integral;
 unicode = 8749;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 tripleintegral,

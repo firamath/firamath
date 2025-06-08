@@ -126,6 +126,7 @@ metricLeft = integral;
 metricRight = integral;
 unicode = 10764;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 quadrupleIntegralOperator,

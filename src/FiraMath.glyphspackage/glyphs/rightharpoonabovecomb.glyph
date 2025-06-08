@@ -17,6 +17,24 @@ ref = leftharpoonabovecomb;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+overlinecomb.ext,
+1,
+60,
+60
+),
+(
+rightharpoonabovecomb.right,
+0,
+60,
+0
+)
+);
+};
+};
 width = 400;
 },
 {
@@ -35,6 +53,24 @@ ref = leftharpoonabovecomb;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+overlinecomb.ext,
+1,
+60,
+60
+),
+(
+rightharpoonabovecomb.right,
+0,
+60,
+0
+)
+);
+};
+};
 width = 420;
 },
 {
@@ -53,6 +89,24 @@ ref = leftharpoonabovecomb;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+overlinecomb.ext,
+1,
+60,
+60
+),
+(
+rightharpoonabovecomb.right,
+0,
+60,
+0
+)
+);
+};
+};
 width = 460;
 },
 {
@@ -71,6 +125,24 @@ ref = leftharpoonabovecomb;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+hAssembly = (
+(
+overlinecomb.ext,
+1,
+60,
+60
+),
+(
+rightharpoonabovecomb.right,
+0,
+60,
+0
+)
+);
+};
+};
 width = 540;
 }
 );

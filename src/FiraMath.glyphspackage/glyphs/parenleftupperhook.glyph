@@ -10,12 +10,6 @@ ref = parenleftlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 858;
 },
 {
@@ -27,12 +21,6 @@ ref = parenleftlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 886;
 },
 {
@@ -44,12 +32,6 @@ ref = parenleftlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 904;
 },
 {
@@ -61,12 +43,6 @@ ref = parenleftlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 972;
 }
 );

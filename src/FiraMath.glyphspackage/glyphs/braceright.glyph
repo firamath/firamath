@@ -11,6 +11,42 @@ ref = braceleft;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightcurlybracketlowerhook,
+0,
+0,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketmiddlepiece,
+0,
+60,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketupperhook,
+0,
+60,
+0
+)
+);
+};
+};
 width = 516;
 },
 {
@@ -23,6 +59,42 @@ ref = braceleft;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightcurlybracketlowerhook,
+0,
+0,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketmiddlepiece,
+0,
+60,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketupperhook,
+0,
+60,
+0
+)
+);
+};
+};
 width = 394;
 },
 {
@@ -35,6 +107,42 @@ ref = braceleft;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightcurlybracketlowerhook,
+0,
+0,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketmiddlepiece,
+0,
+60,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketupperhook,
+0,
+60,
+0
+)
+);
+};
+};
 width = 412;
 },
 {
@@ -47,6 +155,42 @@ ref = braceleft;
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+rightcurlybracketlowerhook,
+0,
+0,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketmiddlepiece,
+0,
+60,
+60
+),
+(
+braceright.ext,
+1,
+60,
+60
+),
+(
+rightcurlybracketupperhook,
+0,
+60,
+0
+)
+);
+};
+};
 width = 446;
 }
 );
@@ -54,6 +198,7 @@ metricLeft = "=|braceleft";
 metricRight = "=|braceleft";
 unicode = 125;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 braceright,

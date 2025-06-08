@@ -80,4 +80,7 @@ width = 1486;
 );
 metricLeft = integral.size01;
 metricRight = integral.size01;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

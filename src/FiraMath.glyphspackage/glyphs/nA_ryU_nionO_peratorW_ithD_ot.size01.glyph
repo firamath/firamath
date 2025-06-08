@@ -108,4 +108,7 @@ width = 1382;
 );
 metricLeft = naryunion.size01;
 metricRight = naryunion.size01;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

@@ -98,6 +98,7 @@ metricLeft = summation;
 metricRight = summation;
 unicode = 8719;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 product,

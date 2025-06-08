@@ -87,6 +87,7 @@ metricLeft = integral;
 metricRight = integral;
 unicode = 10767;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 integralAverageWithSlash,

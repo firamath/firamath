@@ -52,6 +52,7 @@ width = 520;
 );
 unicode = 92;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 backslash,

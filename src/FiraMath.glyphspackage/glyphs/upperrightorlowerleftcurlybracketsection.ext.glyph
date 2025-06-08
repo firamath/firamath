@@ -11,12 +11,6 @@ ref = upperleftorlowerrightcurlybracketsection.ext;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 802;
 },
 {
@@ -29,12 +23,6 @@ ref = upperleftorlowerrightcurlybracketsection.ext;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 808;
 },
 {
@@ -47,12 +35,6 @@ ref = upperleftorlowerrightcurlybracketsection.ext;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 818;
 },
 {
@@ -65,13 +47,10 @@ ref = upperleftorlowerrightcurlybracketsection.ext;
 scale = (-1,1);
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 884;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

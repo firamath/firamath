@@ -11,6 +11,30 @@ ref = "leftflattenedparenthesis-math";
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"rightflattenedparenthesis-math.bot",
+0,
+0,
+60
+),
+(
+"rightflattenedparenthesis-math.ext",
+1,
+60,
+60
+),
+(
+"rightflattenedparenthesis-math.top",
+0,
+60,
+0
+)
+);
+};
+};
 width = 368;
 },
 {
@@ -23,6 +47,30 @@ ref = "leftflattenedparenthesis-math";
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"rightflattenedparenthesis-math.bot",
+0,
+0,
+60
+),
+(
+"rightflattenedparenthesis-math.ext",
+1,
+60,
+60
+),
+(
+"rightflattenedparenthesis-math.top",
+0,
+60,
+0
+)
+);
+};
+};
 width = 396;
 },
 {
@@ -35,6 +83,30 @@ ref = "leftflattenedparenthesis-math";
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"rightflattenedparenthesis-math.bot",
+0,
+0,
+60
+),
+(
+"rightflattenedparenthesis-math.ext",
+1,
+60,
+60
+),
+(
+"rightflattenedparenthesis-math.top",
+0,
+60,
+0
+)
+);
+};
+};
 width = 421;
 },
 {
@@ -47,11 +119,36 @@ ref = "leftflattenedparenthesis-math";
 scale = (-1,1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+"rightflattenedparenthesis-math.bot",
+0,
+0,
+60
+),
+(
+"rightflattenedparenthesis-math.ext",
+1,
+60,
+60
+),
+(
+"rightflattenedparenthesis-math.top",
+0,
+60,
+0
+)
+);
+};
+};
 width = 472;
 }
 );
 unicode = 10223;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 "rightflattenedparenthesis-math",

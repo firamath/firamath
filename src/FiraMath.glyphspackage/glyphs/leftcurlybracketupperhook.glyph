@@ -10,12 +10,6 @@ ref = leftcurlybracketlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 834;
 },
 {
@@ -27,12 +21,6 @@ ref = leftcurlybracketlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 868;
 },
 {
@@ -44,12 +32,6 @@ ref = leftcurlybracketlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 960;
 },
 {
@@ -61,12 +43,6 @@ ref = leftcurlybracketlowerhook;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 1102;
 }
 );

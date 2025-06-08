@@ -48,4 +48,7 @@ width = 1362;
 );
 metricLeft = nArySquareIntersectionOperator.size01;
 metricRight = nArySquareIntersectionOperator.size01;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

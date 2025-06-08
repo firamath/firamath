@@ -45,4 +45,7 @@ width = 395;
 );
 metricLeft = parenleft.dnom;
 metricRight = parenleft.dnom;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

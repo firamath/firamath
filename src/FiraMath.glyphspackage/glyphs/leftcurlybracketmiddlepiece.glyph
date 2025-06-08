@@ -29,12 +29,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 834;
 },
 {
@@ -65,12 +59,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 868;
 },
 {
@@ -101,12 +89,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 960;
 },
 {
@@ -137,12 +119,6 @@ nodes = (
 );
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 60;
-};
-};
 width = 1102;
 }
 );

@@ -50,4 +50,7 @@ ref = _smart.slash;
 width = 1392;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

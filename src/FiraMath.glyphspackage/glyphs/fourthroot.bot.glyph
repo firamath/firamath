@@ -13,12 +13,6 @@ pos = (63,3184);
 ref = four.dnom;
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 0;
-};
-};
 width = 836;
 },
 {
@@ -33,12 +27,6 @@ pos = (63,3184);
 ref = four.dnom;
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 0;
-};
-};
 width = 891;
 },
 {
@@ -53,12 +41,6 @@ pos = (72,3184);
 ref = four.dnom;
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 0;
-};
-};
 width = 976;
 },
 {
@@ -73,13 +55,10 @@ pos = (79,3184);
 ref = four.dnom;
 }
 );
-userData = {
-math = {
-endConnector = 60;
-startConnector = 0;
-};
-};
 width = 1107;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

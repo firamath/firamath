@@ -274,6 +274,7 @@ metricLeft = summation;
 metricRight = summation;
 unicode = 10762;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 moduloTwoSum,

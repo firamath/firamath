@@ -8,6 +8,24 @@ shapes = (
 ref = _smart.tripleVerticalBarDelimiter;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleVerticalBarDelimiter.ext,
+0,
+60,
+60
+),
+(
+tripleVerticalBarDelimiter.ext,
+1,
+60,
+60
+)
+);
+};
+};
 width = 590;
 },
 {
@@ -17,6 +35,24 @@ shapes = (
 ref = _smart.tripleVerticalBarDelimiter;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleVerticalBarDelimiter.ext,
+0,
+60,
+60
+),
+(
+tripleVerticalBarDelimiter.ext,
+1,
+60,
+60
+)
+);
+};
+};
 width = 636;
 },
 {
@@ -26,6 +62,24 @@ shapes = (
 ref = _smart.tripleVerticalBarDelimiter;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleVerticalBarDelimiter.ext,
+0,
+60,
+60
+),
+(
+tripleVerticalBarDelimiter.ext,
+1,
+60,
+60
+)
+);
+};
+};
 width = 716;
 },
 {
@@ -35,6 +89,24 @@ shapes = (
 ref = _smart.tripleVerticalBarDelimiter;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+tripleVerticalBarDelimiter.ext,
+0,
+60,
+60
+),
+(
+tripleVerticalBarDelimiter.ext,
+1,
+60,
+60
+)
+);
+};
+};
 width = 856;
 }
 );
@@ -42,6 +114,7 @@ metricLeft = bar;
 metricRight = bar;
 unicode = 10624;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 tripleVerticalBarDelimiter,

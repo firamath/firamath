@@ -10,12 +10,6 @@ ref = lightlefttortoiseshellbracketornament.bot;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 546;
 },
 {
@@ -27,12 +21,6 @@ ref = lightlefttortoiseshellbracketornament.bot;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 568;
 },
 {
@@ -44,12 +32,6 @@ ref = lightlefttortoiseshellbracketornament.bot;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 634;
 },
 {
@@ -61,15 +43,12 @@ ref = lightlefttortoiseshellbracketornament.bot;
 scale = (1,-1);
 }
 );
-userData = {
-math = {
-endConnector = 0;
-startConnector = 60;
-};
-};
 width = 740;
 }
 );
 metricLeft = lightlefttortoiseshellbracketornament.size15;
 metricRight = lightlefttortoiseshellbracketornament.size15;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

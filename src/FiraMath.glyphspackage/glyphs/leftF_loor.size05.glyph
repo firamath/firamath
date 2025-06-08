@@ -48,4 +48,7 @@ width = 575;
 );
 metricLeft = "=leftCeiling.size05";
 metricRight = "=leftCeiling.size05";
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

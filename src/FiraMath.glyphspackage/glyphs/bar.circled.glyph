@@ -77,4 +77,7 @@ width = 680;
 metricLeft = whiteCircle;
 metricRight = whiteCircle;
 unicode = 10678;
+userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
+};
 }

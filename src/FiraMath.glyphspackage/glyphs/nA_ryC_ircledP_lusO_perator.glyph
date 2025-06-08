@@ -114,6 +114,7 @@ metricLeft = largeCircle;
 metricRight = largeCircle;
 unicode = 10753;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nAryCircledPlusOperator,

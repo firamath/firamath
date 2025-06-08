@@ -8,6 +8,24 @@ shapes = (
 ref = _smart.bar;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftverticalboxline,
+0,
+60,
+60
+),
+(
+leftverticalboxline,
+1,
+60,
+60
+)
+);
+};
+};
 width = 444;
 },
 {
@@ -17,6 +35,24 @@ shapes = (
 ref = _smart.bar;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftverticalboxline,
+0,
+60,
+60
+),
+(
+leftverticalboxline,
+1,
+60,
+60
+)
+);
+};
+};
 width = 402;
 },
 {
@@ -26,6 +62,24 @@ shapes = (
 ref = _smart.bar;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftverticalboxline,
+0,
+60,
+60
+),
+(
+leftverticalboxline,
+1,
+60,
+60
+)
+);
+};
+};
 width = 414;
 },
 {
@@ -35,11 +89,30 @@ shapes = (
 ref = _smart.bar;
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftverticalboxline,
+0,
+60,
+60
+),
+(
+leftverticalboxline,
+1,
+60,
+60
+)
+);
+};
+};
 width = 428;
 }
 );
 unicode = 124;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 bar,

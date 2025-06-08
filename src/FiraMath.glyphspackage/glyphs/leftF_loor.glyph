@@ -10,6 +10,24 @@ ref = leftCeiling;
 scale = (1,-1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftsquarebracketlowercorner,
+0,
+0,
+60
+),
+(
+leftsquarebracketextension,
+1,
+60,
+60
+)
+);
+};
+};
 width = 390;
 },
 {
@@ -21,6 +39,24 @@ ref = leftCeiling;
 scale = (1,-1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftsquarebracketlowercorner,
+0,
+0,
+60
+),
+(
+leftsquarebracketextension,
+1,
+60,
+60
+)
+);
+};
+};
 width = 408;
 },
 {
@@ -32,6 +68,24 @@ ref = leftCeiling;
 scale = (1,-1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftsquarebracketlowercorner,
+0,
+0,
+60
+),
+(
+leftsquarebracketextension,
+1,
+60,
+60
+)
+);
+};
+};
 width = 436;
 },
 {
@@ -43,6 +97,24 @@ ref = leftCeiling;
 scale = (1,-1);
 }
 );
+userData = {
+com.nagwa.MATHPlugin.variants = {
+vAssembly = (
+(
+leftsquarebracketlowercorner,
+0,
+0,
+60
+),
+(
+leftsquarebracketextension,
+1,
+60,
+60
+)
+);
+};
+};
 width = 492;
 }
 );
@@ -50,6 +122,7 @@ metricLeft = "=leftCeiling";
 metricRight = "=leftCeiling";
 unicode = 8970;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 leftFloor,

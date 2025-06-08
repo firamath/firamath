@@ -52,6 +52,7 @@ width = 737;
 );
 unicode = 10219;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 "rightdoubleanglebracket-math",

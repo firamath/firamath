@@ -50,6 +50,7 @@ metricLeft = naryintersection;
 metricRight = naryintersection;
 unicode = 8899;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 naryunion,

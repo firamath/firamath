@@ -50,6 +50,7 @@ metricLeft = nArySquareIntersectionOperator;
 metricRight = nArySquareIntersectionOperator;
 unicode = 10758;
 userData = {
+com.nagwa.MATHPlugin.extendedShape = 1;
 com.nagwa.MATHPlugin.variants = {
 vVariants = (
 nArySquareUnionOperator,
